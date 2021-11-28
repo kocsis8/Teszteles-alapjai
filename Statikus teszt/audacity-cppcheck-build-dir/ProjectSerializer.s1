@@ -1,0 +1,17 @@
+IsLittleEndian
+WriteLittleEndian call:[AppendData,sizeof] noreturn:[AppendData]
+WriteBigEndian call:[AppendData,reverse,sizeof] noreturn:[AppendData]
+ReadLittleEndian call:[ReadValue]
+ReadBigEndian call:[ReadValue,reverse,sizeof]
+XMLTagHandlerAdapter
+EmitStartTag call:[EmitStartTag] noreturn:[EmitStartTag]
+EndTag call:[EmitStartTag,HandleXMLEndTag,back,pop_back] noreturn:[EmitStartTag,HandleXMLEndTag,pop_back]
+WriteAttr call:[CacheString,assert,emplace_back,move] noreturn:[emplace_back]
+WriteAttr call:[XMLAttributeValueView,assert,emplace_back] noreturn:[emplace_back]
+WriteData call:[CacheString,EmitStartTag,HandleXMLContent,back,move] noreturn:[EmitStartTag,HandleXMLContent]
+WriteRaw
+Finalize call:[EmitStartTag,EndTag] noreturn:[EndTag]
+EmitStartTag call:[HandleXMLChild,HandleXMLTag,back,clear,empty,push_back,size] noreturn:[push_back]
+CacheString call:[back,emplace_back,move] noreturn:[back]
+FastStringConvert < char16_t > call:[all_of,assert,sizeof,string,to_bytes] noreturn:[string,to_bytes]
+FastStringConvert < char32_t > call:[all_of,assert,sizeof,string,to_bytes] noreturn:[string,to_bytes]

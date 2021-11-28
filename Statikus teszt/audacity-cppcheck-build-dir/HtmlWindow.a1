@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3683362822">
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;HtmlWindow&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;HtmlWindow&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/HtmlWindow.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\HtmlWindow.h" line="39" column="4"/>
+            <symbol>HtmlWindow</symbol>
+        </error>
+  <FileInfo check="Class">
+<class name="HtmlWindow" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/HtmlWindow.h" line="36" col="1" hash="7904412914118225834"/>
+  </FileInfo>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;WindowAccessible&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;WindowAccessible&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/HtmlWindow.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\WindowAccessible.h" line="24" column="4"/>
+            <symbol>WindowAccessible</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;HtmlWindowAx&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;HtmlWindowAx&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/HtmlWindow.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\HtmlWindow.cpp" line="34" column="4"/>
+            <symbol>HtmlWindowAx</symbol>
+        </error>
+  <FileInfo check="Class">
+<class name="HtmlWindow" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/HtmlWindow.h" line="36" col="1" hash="7927623840406108436"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/HtmlWindow.cpp:43:16" my-argnr="1" my-argname="childCount" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/HtmlWindow.cpp" line="157" col="5" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/HtmlWindow.cpp:60:16" my-argnr="1" my-argname="childId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/HtmlWindow.cpp" line="190" col="5" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/HtmlWindow.cpp:60:16" my-argnr="2" my-argname="child" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/HtmlWindow.cpp" line="191" col="5" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="GetChild" lineNumber="140"/>
+    <functiondecl functionName="GetChildCount" lineNumber="155"/>
+    <functiondecl functionName="GetFocus" lineNumber="188"/>
+    <functioncall functionName="ClientToScreen"/>
+    <functioncall functionName="FindFocus"/>
+    <functioncall functionName="GetLabel"/>
+    <functioncall functionName="GetName"/>
+    <functioncall functionName="GetParent"/>
+    <functioncall functionName="GetPosition"/>
+    <functioncall functionName="GetRect"/>
+    <functioncall functionName="GetWindow"/>
+    <functioncall functionName="HtmlWindow"/>
+    <functioncall functionName="HtmlWindowAx"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="SetAccessible"/>
+    <functioncall functionName="SetPosition"/>
+    <functioncall functionName="ToText"/>
+    <functioncall functionName="WindowAccessible"/>
+    <functioncall functionName="childId"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="elementId"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="id"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="name"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="parent"/>
+    <functioncall functionName="pos"/>
+    <functioncall functionName="selections"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="style"/>
+    <functioncall functionName="this"/>
+    <functioncall functionName="window"/>
+    <functioncall functionName="wxACC_STATE_SYSTEM_FOCUSABLE"/>
+    <functioncall functionName="wxACC_STATE_SYSTEM_FOCUSED"/>
+    <functioncall functionName="wxDefaultPosition"/>
+    <functioncall functionName="wxDefaultSize"/>
+    <functioncall functionName="wxDynamicCast"/>
+    <functioncall functionName="wxHW_DEFAULT_STYLE"/>
+    <functioncall functionName="wxHtmlWindow"/>
+    <functioncall functionName="wxID_ANY"/>
+    <functioncall functionName="wxROLE_SYSTEM_STATICTEXT"/>
+    <functioncall functionName="wxT"/>
+  </FileInfo>
+</analyzerinfo>

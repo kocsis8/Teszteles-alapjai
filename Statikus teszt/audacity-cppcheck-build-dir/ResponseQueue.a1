@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2840986258">
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Response&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Response&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/ResponseQueue.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\ResponseQueue.h" line="50" column="7"/>
+            <symbol>Response</symbol>
+        </error>
+  <FileInfo check="Class">
+<class name="Response" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/ResponseQueue.h" line="46" col="1" hash="6935787834823381476"/>
+<class name="ResponseQueue" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/ResponseQueue.h" line="60" col="1" hash="13251324389799672189"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="AddResponse" lineNumber="29"/>
+    <functiondecl functionName="WaitAndGetResponse" lineNumber="36"/>
+    <functioncall functionName="Response"/>
+    <functioncall functionName="ResponseQueue"/>
+    <functioncall functionName="Signal"/>
+    <functioncall functionName="Wait"/>
+    <functioncall functionName="c_str"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="front"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="locker"/>
+    <functioncall functionName="mCondition"/>
+    <functioncall functionName="mMessage"/>
+    <functioncall functionName="mMutex"/>
+    <functioncall functionName="pop"/>
+    <functioncall functionName="push"/>
+    <functioncall functionName="response"/>
+    <functioncall functionName="utf8_str"/>
+    <functioncall functionName="wxASSERT"/>
+    <functioncall functionName="wxConvUTF8"/>
+    <functioncall functionName="wxString"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,49 @@
+MaximizeWidth
+MaximizeHeight
+ContextMenuDelegate
+CommonTrackPanelCell
+FindTrack call:[DoFindTrack] noreturn:[DoFindTrack]
+FindTrack call:[DoFindTrack] noreturn:[DoFindTrack]
+MenuItem
+Handle
+CommandFlagOptions
+Options
+Options
+Options
+ToolbarMenuVisitor
+operatorAudacityProject&
+WholeMenu
+MenuItem
+ConditionalGroupItem
+DefaultFinder
+FinderScope
+CommandItem
+CommandGroupItem
+SpecialItem
+MenuPart
+Items
+Section
+Menu
+Menu call:[move]
+ConditionalItems
+ConditionalItems call:[move]
+MenuOrItems call:[Items,empty] noreturn:[Items]
+MenuOrItems call:[Items,empty,move] noreturn:[Items]
+Command
+CommandGroup call:[move]
+Special
+HitTestPreview
+HitTestPreview
+TrackPanelMouseState
+TrackPanelMouseEvent
+wxWidgetsWindowPlacement
+GetHook call:[int]
+InstallMouseWheelHook call:[GetHook]
+CommonTrackPanelCell
+DefaultPreview
+GetMenuItems
+DoContextMenu call:[Append,AppendSeparator,Bind,Enable,FindTrack,FormatLabelForMenu,Get,GetEnabled,GetId,GetMenuItems,GetUpdateFlags,HandleTextualCommand,Internal,Msgid,Popup,PositionToTime,action,empty,get,size] noreturn:[AppendSeparator,Enable,HandleTextualCommand,action]
+HandleWheelRotation call:[GetHook,hook]
+CommonTrackCell
+Reparent
+DoFindTrack call:[lock] noreturn:[lock]

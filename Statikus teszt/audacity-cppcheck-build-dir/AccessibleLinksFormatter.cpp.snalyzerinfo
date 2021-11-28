@@ -1,0 +1,6 @@
+OffsetPosition
+AccessibleLinksFormatter
+FormatLink call:[move,push_back]
+FormatLink call:[move,push_back]
+Populate call:[AddFixedText,AddSpace,AddVariableText,Bind,EndHorizontalLay,EndWrapLay,GetBorder,GetFont,GetNormalColour,GetParent,Length,OffsetPosition,ProcessArguments,Prop,SetBorder,SetCursor,SetFont,SetForegroundColour,StartHorizontalLay,StartWrapLay,Translation,Underlined,Verbatim,empty,handler,reset,substr,wxLaunchDefaultBrowser,wxString,wxT] noreturn:[AddFixedText,EndWrapLay,SetBorder,handler,wxLaunchDefaultBrowser]
+ProcessArguments call:[OffsetPosition,begin,emplace_back,end,find,length,reserve,size,sort] noreturn:[emplace_back]

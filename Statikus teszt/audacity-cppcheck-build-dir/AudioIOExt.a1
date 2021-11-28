@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1249710794">
+  <FileInfo check="Class">
+<class name="AudioIOExt::RegisteredFactory" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/AudioIOExt.h" line="37" col="4" hash="11042020188101352851"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="GetFactories" lineNumber="15"/>
+    <functioncall functionName="AudioIOExt"/>
+    <functioncall functionName="GetFactories"/>
+    <functioncall functionName="RegisteredFactory"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="factory"/>
+    <functioncall functionName="function"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="pop_back"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="unique_ptr"/>
+  </FileInfo>
+</analyzerinfo>

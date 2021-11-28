@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2173773243">
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;SpecPxCache&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;SpecPxCache&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/CrossFade.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\WaveClip.h" line="100" column="4"/>
+            <symbol>SpecPxCache</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;WaveDisplay&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;WaveDisplay&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/CrossFade.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\WaveClip.h" line="143" column="4"/>
+            <symbol>WaveDisplay</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;clips&apos; can be reduced." verbose="The scope of the variable &apos;clips&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/CrossFade.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\CrossFade.cpp" line="231" column="11"/>
+            <symbol>clips</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;f&apos; can be reduced." verbose="The scope of the variable &apos;f&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/CrossFade.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\CrossFade.cpp" line="232" column="13"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;i&apos; shadows outer variable" verbose="Local variable &apos;i&apos; shadows outer variable" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/CrossFade.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\CrossFade.cpp" line="136" column="15" info="Shadow variable"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\CrossFade.cpp" line="89" column="17" info="Shadowed declaration"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;i&apos; shadows outer variable" verbose="Local variable &apos;i&apos; shadows outer variable" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/CrossFade.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\CrossFade.cpp" line="148" column="18" info="Shadow variable"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\CrossFade.cpp" line="89" column="17" info="Shadowed declaration"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;i&apos; shadows outer variable" verbose="Local variable &apos;i&apos; shadows outer variable" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/CrossFade.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\CrossFade.cpp" line="186" column="15" info="Shadow variable"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\CrossFade.cpp" line="89" column="17" info="Shadowed declaration"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;i&apos; shadows outer variable" verbose="Local variable &apos;i&apos; shadows outer variable" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/CrossFade.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\CrossFade.cpp" line="197" column="18" info="Shadow variable"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\CrossFade.cpp" line="89" column="17" info="Shadowed declaration"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;i&apos; shadows outer variable" verbose="Local variable &apos;i&apos; shadows outer variable" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/CrossFade.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\CrossFade.cpp" line="241" column="18" info="Shadow variable"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\CrossFade.cpp" line="89" column="17" info="Shadowed declaration"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="containerOutOfBounds" severity="error" msg="Out of bounds access in expression &apos;floatSeq[i]&apos; because &apos;floatSeq&apos; is empty." verbose="Out of bounds access in expression &apos;floatSeq[i]&apos; because &apos;floatSeq&apos; is empty." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/CrossFade.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\CrossFade.cpp" line="256" column="29" info="Access out of bounds"/>
+            <symbol>floatSeq</symbol>
+        </error>
+        <error id="containerOutOfBounds" severity="error" msg="Out of bounds access in expression &apos;floatSeq[i]&apos; because &apos;floatSeq&apos; is empty." verbose="Out of bounds access in expression &apos;floatSeq[i]&apos; because &apos;floatSeq&apos; is empty." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/CrossFade.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\CrossFade.cpp" line="260" column="27" info="Access out of bounds"/>
+            <symbol>floatSeq</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;clips&apos; is assigned a value that is never used." verbose="Variable &apos;clips&apos; is assigned a value that is never used." cwe="563" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/CrossFade.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\CrossFade.cpp" line="191" column="16"/>
+            <symbol>clips</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;clips&apos; is assigned a value that is never used." verbose="Variable &apos;clips&apos; is assigned a value that is never used." cwe="563" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/CrossFade.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\CrossFade.cpp" line="231" column="17"/>
+            <symbol>clips</symbol>
+        </error>
+  <FileInfo check="Class">
+<class name="SpecPxCache" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveClip.h" line="98" col="1" hash="3145001644939424020"/>
+<class name="WaveDisplay" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveClip.h" line="130" col="1" hash="1783257367155147803"/>
+<class name="CrossFader" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/CrossFade.h" line="28" col="1" hash="9931488627849230248"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="GetSamples" lineNumber="39"/>
+    <functiondecl functionName="CrossFadeMix" lineNumber="59"/>
+    <functiondecl functionName="ClearClips" lineNumber="289"/>
+    <functioncall functionName="CrossFadeMix"/>
+    <functioncall functionName="CrossFader"/>
+    <functioncall functionName="Envelope"/>
+    <functioncall functionName="FT_EXPONENTIAL"/>
+    <functioncall functionName="FT_MIX"/>
+    <functioncall functionName="FT_TRIANGULAR"/>
+    <functioncall functionName="GetNumSamples"/>
+    <functioncall functionName="GetSequence"/>
+    <functioncall functionName="GetStartSample"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="PROHIBITED"/>
+    <functioncall functionName="SampleBlock"/>
+    <functioncall functionName="SampleBlockFactory"/>
+    <functioncall functionName="Sequence"/>
+    <functioncall functionName="SpecCache"/>
+    <functioncall functionName="SpecPxCache"/>
+    <functioncall functionName="WaveCache"/>
+    <functioncall functionName="WaveClip"/>
+    <functioncall functionName="algorithm"/>
+    <functioncall functionName="as_long_long"/>
+    <functioncall functionName="bl"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="buffer"/>
+    <functioncall functionName="cacheLen"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="clipLength"/>
+    <functioncall functionName="clipStart"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="dirty"/>
+    <functioncall functionName="f"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="float"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="format"/>
+    <functioncall functionName="frequencyGain"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="index"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="len"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="mClips"/>
+    <functioncall functionName="mCutLines"/>
+    <functioncall functionName="mType"/>
+    <functioncall functionName="max"/>
+    <functioncall functionName="min"/>
+    <functioncall functionName="noexcept"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="numclips"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="pps"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="reinterpret_cast"/>
+    <functioncall functionName="resize"/>
+    <functioncall functionName="rms"/>
+    <functioncall functionName="sampleCount"/>
+    <functioncall functionName="shared_ptr"/>
+    <functioncall functionName="short"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="start"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="tmpSequence"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="val"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="w"/>
+    <functioncall functionName="where"/>
+    <functioncall functionName="width"/>
+    <functioncall functionName="windowType"/>
+  </FileInfo>
+</analyzerinfo>

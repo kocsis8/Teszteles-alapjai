@@ -1,0 +1,39 @@
+MaximizeWidth
+MaximizeHeight
+ContextMenuDelegate
+CommonTrackPanelCell
+FindTrack call:[DoFindTrack] noreturn:[DoFindTrack]
+FindTrack call:[DoFindTrack] noreturn:[DoFindTrack]
+MenuItem
+GetMinimized
+GetCumulativeHeightBefore
+GetExpandedHeight
+SetCumulativeHeightBefore call:[DoSetY] noreturn:[DoSetY]
+SavePlacements
+RestorePlacements
+GetLastHeight
+GetMultiView
+SetMultiView
+FindClipsInChannels call:[Channels,GetClips,GetPlayEndTime,GetPlayStartTime,push_back] noreturn:[push_back]
+ClipTrimPolicy
+TrimTo call:[TrimLeftTo,TrimRightTo,clamp] noreturn:[TrimLeftTo,TrimRightTo]
+AdjustBorder call:[FindClipsInChannels,GetClips,GetLinkType,GetPlayEndTime,GetPlayStartTime,GetRate,IsAlignedWithLeader,SamplesToTime,TimeToSamples,begin,end,find,infinity,make_pair,push_back,wxASSERT] noreturn:[FindClipsInChannels,GetPlayEndTime,GetPlayStartTime,push_back]
+Init call:[GetX,LeftDown]
+Trim call:[Get,GetRate,GetX,PositionToTime,TimeToPosition,TrimTo,as_double,clamp,floor,sampleCount] noreturn:[TrimTo]
+Finish call:[Format,Get,GetPlayEndTime,GetPlayStartTime,PushState,XO,abs] noreturn:[PushState]
+Cancel call:[TrimTo] noreturn:[TrimTo]
+TrimTo call:[TrimLeftTo,TrimRightTo,clamp] noreturn:[TrimLeftTo,TrimRightTo]
+AdjustBetweenBorders call:[FindClipsInChannels,GetClips,GetLinkType,GetPlayEndTime,GetPlayStartTime,GetRate,IsAlignedWithLeader,begin,end,find,make_pair,push_back,wxASSERT] noreturn:[FindClipsInChannels,GetPlayStartTime,push_back]
+Init call:[GetX,LeftDown]
+Trim call:[Get,GetRate,GetX,PositionToTime,TimeToPosition,TrimTo,as_double,floor,sampleCount] noreturn:[TrimTo]
+Finish call:[Format,Get,GetPlayStartTime,PushState,XO,abs] noreturn:[PushState]
+Cancel call:[TrimTo] noreturn:[TrimTo]
+HitPreview call:[MakeCursor,XO]
+WaveClipTrimHandle
+HitAnywhere call:[AssignUIHandlePtr,ClipDetailsVisible,Get,GetClipRect,GetClips,GetLeft,GetRight,abs,get] noreturn:[AssignUIHandlePtr]
+HitTest call:[FindTrack,GetHeight,GetTop,HitAnywhere,IsAlignedWithLeader,IsLeader,get] noreturn:[HitAnywhere]
+Preview call:[Get,HitPreview,IsAudioActive] noreturn:[HitPreview]
+Click call:[Get,Init,IsAudioActive]
+Drag call:[Trim]
+Release call:[Finish]
+Cancel call:[Cancel]

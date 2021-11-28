@@ -1,0 +1,352 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="662630243">
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:38:16" call-funcname="SetVal" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h" line="50" col="22" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:236:9" call-funcname="CopyRange" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="267" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:235:9" call-funcname="AddPointAtEnd" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="277" col="20" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:212:24" call-funcname="EqualRange" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="391" col="28" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:212:24" call-funcname="EqualRange" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="411" col="28" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:155:9" call-funcname="RemoveUnneededPoints" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="451" col="27" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:152:26" call-funcname="ExpandRegion" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="501" col="35" call-argexpr="&amp;leftVal" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:152:26" call-funcname="ExpandRegion" call-argnr="4" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="501" col="35" call-argexpr="&amp;rightVal" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:155:9" call-funcname="RemoveUnneededPoints" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="533" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:155:9" call-funcname="RemoveUnneededPoints" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="533" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:155:9" call-funcname="RemoveUnneededPoints" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="536" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:155:9" call-funcname="RemoveUnneededPoints" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="538" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:212:24" call-funcname="EqualRange" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="617" col="33" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:152:26" call-funcname="ExpandRegion" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="664" col="29" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:152:26" call-funcname="ExpandRegion" call-argnr="4" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="664" col="29" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:155:9" call-funcname="RemoveUnneededPoints" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="668" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:212:24" call-funcname="EqualRange" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="745" col="27" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:146:9" call-funcname="GetValues" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="830" col="13" call-argexpr="&amp;temp" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:146:9" call-funcname="GetValues" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="830" col="13" call-argexpr="temp" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:146:9" call-funcname="GetValues" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="830" col="13" call-argexpr="t" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Envelope.cpp" line="497" col="34" info="Calling function &apos;GetValue&apos;, 1st argument &apos;0&apos; value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:159:9" call-funcname="GetValuesRelative" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="838" col="21" call-argexpr="&amp;temp" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:159:9" call-funcname="GetValuesRelative" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="838" col="21" call-argexpr="temp" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:238:9" call-funcname="BinarySearchForTime" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="1053" col="23" call-argexpr="t" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Envelope.cpp" line="1459" col="42" info="Calling function &apos;NumberOfPointsAfter&apos;, 1st argument &apos;0&apos; value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:238:9" call-funcname="BinarySearchForTime" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="1062" col="23" call-argexpr="t" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Envelope.cpp" line="1464" col="37" info="Calling function &apos;NextPointAfter&apos;, 1st argument &apos;0&apos; value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:103:9" call-funcname="SetExponential" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="1416" col="18" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp:1403:13" call-funcname="checkResult" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="1442" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:163:8" call-funcname="NumberOfPointsAfter" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="1459" col="40" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp:1403:13" call-funcname="checkResult" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="1463" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:165:11" call-funcname="NextPointAfter" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="1464" col="35" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:159:9" call-funcname="GetValuesRelative" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="930" col="4" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:146:9" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="EnvPoint" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h" line="29" col="1" hash="1145131465045532602"/>
+<class name="BoundedEnvelope" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h" line="284" col="1" hash="7432242539348378838"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:128:9" my-argnr="2" my-argname="e" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="465" col="21" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:128:9" my-argnr="2" my-argname="e" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="465" col="21" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:38:16" call-funcname="SetVal" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h" line="50" col="22" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:236:9" call-funcname="CopyRange" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="267" col="13" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:235:9" call-funcname="AddPointAtEnd" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="277" col="20" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:212:24" call-funcname="EqualRange" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="391" col="28" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:212:24" call-funcname="EqualRange" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="411" col="28" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:155:9" call-funcname="RemoveUnneededPoints" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="451" col="27" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:152:26" call-funcname="ExpandRegion" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="501" col="35" call-argexpr="&amp;leftVal" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:152:26" call-funcname="ExpandRegion" call-argnr="4" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="501" col="35" call-argexpr="&amp;rightVal" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:155:9" call-funcname="RemoveUnneededPoints" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="533" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:155:9" call-funcname="RemoveUnneededPoints" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="533" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:155:9" call-funcname="RemoveUnneededPoints" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="536" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:155:9" call-funcname="RemoveUnneededPoints" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="538" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:212:24" call-funcname="EqualRange" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="617" col="33" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:152:26" call-funcname="ExpandRegion" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="664" col="29" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:152:26" call-funcname="ExpandRegion" call-argnr="4" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="664" col="29" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:155:9" call-funcname="RemoveUnneededPoints" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="668" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:212:24" call-funcname="EqualRange" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="745" col="27" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:146:9" call-funcname="GetValues" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="830" col="13" call-argexpr="&amp;temp" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:146:9" call-funcname="GetValues" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="830" col="13" call-argexpr="temp" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:146:9" call-funcname="GetValues" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="830" col="13" call-argexpr="t" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Envelope.cpp" line="497" col="34" info="Calling function &apos;GetValue&apos;, 1st argument &apos;0&apos; value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:159:9" call-funcname="GetValuesRelative" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="838" col="21" call-argexpr="&amp;temp" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:159:9" call-funcname="GetValuesRelative" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="838" col="21" call-argexpr="temp" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:238:9" call-funcname="BinarySearchForTime" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="1053" col="23" call-argexpr="t" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Envelope.cpp" line="1459" col="42" info="Calling function &apos;NumberOfPointsAfter&apos;, 1st argument &apos;0&apos; value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:238:9" call-funcname="BinarySearchForTime" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="1062" col="23" call-argexpr="t" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Envelope.cpp" line="1464" col="37" info="Calling function &apos;NextPointAfter&apos;, 1st argument &apos;0&apos; value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:103:9" call-funcname="SetExponential" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="1416" col="18" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp:1403:13" call-funcname="checkResult" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="1442" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:163:8" call-funcname="NumberOfPointsAfter" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="1459" col="40" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp:1403:13" call-funcname="checkResult" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="1463" col="15" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:165:11" call-funcname="NextPointAfter" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="1464" col="35" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:159:9" call-funcname="GetValuesRelative" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="930" col="4" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:146:9" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="EnvPoint" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h" line="29" col="1" hash="1145131465045532602"/>
+<class name="BoundedEnvelope" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h" line="284" col="1" hash="7432242539348378838"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:128:9" my-argnr="2" my-argname="e" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="465" col="21" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:128:9" my-argnr="2" my-argname="e" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.cpp" line="465" col="21" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="ConsistencyCheck" lineNumber="57"/>
+    <functiondecl functionName="RescaleValues" lineNumber="112"/>
+    <functiondecl functionName="Flatten" lineNumber="134"/>
+    <functiondecl functionName="SetDragPoint" lineNumber="140"/>
+    <functiondecl functionName="SetDragPointValid" lineNumber="146"/>
+    <functiondecl functionName="MoveDragPoint" lineNumber="183"/>
+    <functiondecl functionName="ClearDragPoint" lineNumber="209"/>
+    <functiondecl functionName="SetRange" lineNumber="218"/>
+    <functiondecl functionName="AddPointAtEnd" lineNumber="228"/>
+    <functiondecl functionName="CopyRange" lineNumber="270"/>
+    <functiondecl functionName="HandleXMLTag" lineNumber="305"/>
+    <functiondecl functionName="HandleXMLChild" lineNumber="330"/>
+    <functiondecl functionName="WriteXML" lineNumber="339"/>
+    <functiondecl functionName="Delete" lineNumber="358"/>
+    <functiondecl functionName="Insert" lineNumber="363"/>
+    <functiondecl functionName="Insert" lineNumber="368"/>
+    <functiondecl functionName="CollapseRegion" lineNumber="374"/>
+    <functiondecl functionName="PasteEnvelope" lineNumber="462"/>
+    <functiondecl functionName="RemoveUnneededPoints" lineNumber="545"/>
+    <functiondecl functionName="ExpandRegion" lineNumber="611"/>
+    <functiondecl functionName="InsertSpace" lineNumber="662"/>
+    <functiondecl functionName="Reassign" lineNumber="671"/>
+    <functiondecl functionName="GetNumberOfPoints" lineNumber="691"/>
+    <functiondecl functionName="GetPoints" lineNumber="696"/>
+    <functiondecl functionName="Cap" lineNumber="710"/>
+    <functiondecl functionName="InsertOrReplaceRelative" lineNumber="725"/>
+    <functiondecl functionName="EqualRange" lineNumber="759"/>
+    <functiondecl functionName="SetOffset" lineNumber="783"/>
+    <functiondecl functionName="SetTrackLen" lineNumber="789"/>
+    <functiondecl functionName="RescaleTimes" lineNumber="810"/>
+    <functiondecl functionName="GetValue" lineNumber="825"/>
+    <functiondecl functionName="GetValueRelative" lineNumber="834"/>
+    <functiondecl functionName="BinarySearchForTime" lineNumber="845"/>
+    <functiondecl functionName="BinarySearchForTime_LeftLimit" lineNumber="892"/>
+    <functiondecl functionName="GetInterpolationStartValueAtPoint" lineNumber="916"/>
+    <functiondecl functionName="GetValues" lineNumber="925"/>
+    <functiondecl functionName="GetValuesRelative" lineNumber="933"/>
+    <functiondecl functionName="NumberOfPointsAfter" lineNumber="1050"/>
+    <functiondecl functionName="NextPointAfter" lineNumber="1059"/>
+    <functiondecl functionName="Average" lineNumber="1069"/>
+    <functiondecl functionName="AverageOfInverse" lineNumber="1077"/>
+    <functiondecl functionName="InterpolatePoints" lineNumber="1095"/>
+    <functiondecl functionName="IntegrateInterpolated" lineNumber="1103"/>
+    <functiondecl functionName="IntegrateInverseInterpolated" lineNumber="1124"/>
+    <functiondecl functionName="SolveIntegrateInverseInterpolated" lineNumber="1141"/>
+    <functiondecl functionName="Integral" lineNumber="1168"/>
+    <functiondecl functionName="IntegralOfInverse" lineNumber="1231"/>
+    <functiondecl functionName="SolveIntegralOfInverse" lineNumber="1294"/>
+    <functiondecl functionName="print" lineNumber="1397"/>
+    <functiondecl functionName="checkResult" lineNumber="1403"/>
+    <functiondecl functionName="testMe" lineNumber="1412"/>
+    <functiondecl functionName="GetValues" lineNumber="1469"/>
+    <functiondecl functionName="ConsistencyCheck" lineNumber="57"/>
+    <functiondecl functionName="RescaleValues" lineNumber="112"/>
+    <functiondecl functionName="Flatten" lineNumber="134"/>
+    <functiondecl functionName="SetDragPoint" lineNumber="140"/>
+    <functiondecl functionName="SetDragPointValid" lineNumber="146"/>
+    <functiondecl functionName="MoveDragPoint" lineNumber="183"/>
+    <functiondecl functionName="ClearDragPoint" lineNumber="209"/>
+    <functiondecl functionName="SetRange" lineNumber="218"/>
+    <functiondecl functionName="AddPointAtEnd" lineNumber="228"/>
+    <functiondecl functionName="CopyRange" lineNumber="270"/>
+    <functiondecl functionName="HandleXMLTag" lineNumber="305"/>
+    <functiondecl functionName="HandleXMLChild" lineNumber="330"/>
+    <functiondecl functionName="WriteXML" lineNumber="339"/>
+    <functiondecl functionName="Delete" lineNumber="358"/>
+    <functiondecl functionName="Insert" lineNumber="363"/>
+    <functiondecl functionName="Insert" lineNumber="368"/>
+    <functiondecl functionName="CollapseRegion" lineNumber="374"/>
+    <functiondecl functionName="PasteEnvelope" lineNumber="462"/>
+    <functiondecl functionName="RemoveUnneededPoints" lineNumber="545"/>
+    <functiondecl functionName="ExpandRegion" lineNumber="611"/>
+    <functiondecl functionName="InsertSpace" lineNumber="662"/>
+    <functiondecl functionName="Reassign" lineNumber="671"/>
+    <functiondecl functionName="GetNumberOfPoints" lineNumber="691"/>
+    <functiondecl functionName="GetPoints" lineNumber="696"/>
+    <functiondecl functionName="Cap" lineNumber="710"/>
+    <functiondecl functionName="InsertOrReplaceRelative" lineNumber="725"/>
+    <functiondecl functionName="EqualRange" lineNumber="759"/>
+    <functiondecl functionName="SetOffset" lineNumber="783"/>
+    <functiondecl functionName="SetTrackLen" lineNumber="789"/>
+    <functiondecl functionName="RescaleTimes" lineNumber="810"/>
+    <functiondecl functionName="GetValue" lineNumber="825"/>
+    <functiondecl functionName="GetValueRelative" lineNumber="834"/>
+    <functiondecl functionName="BinarySearchForTime" lineNumber="845"/>
+    <functiondecl functionName="BinarySearchForTime_LeftLimit" lineNumber="892"/>
+    <functiondecl functionName="GetInterpolationStartValueAtPoint" lineNumber="916"/>
+    <functiondecl functionName="GetValues" lineNumber="925"/>
+    <functiondecl functionName="GetValuesRelative" lineNumber="933"/>
+    <functiondecl functionName="NumberOfPointsAfter" lineNumber="1050"/>
+    <functiondecl functionName="NextPointAfter" lineNumber="1059"/>
+    <functiondecl functionName="Average" lineNumber="1069"/>
+    <functiondecl functionName="AverageOfInverse" lineNumber="1077"/>
+    <functiondecl functionName="InterpolatePoints" lineNumber="1095"/>
+    <functiondecl functionName="IntegrateInterpolated" lineNumber="1103"/>
+    <functiondecl functionName="IntegrateInverseInterpolated" lineNumber="1124"/>
+    <functiondecl functionName="SolveIntegrateInverseInterpolated" lineNumber="1141"/>
+    <functiondecl functionName="Integral" lineNumber="1168"/>
+    <functiondecl functionName="IntegralOfInverse" lineNumber="1231"/>
+    <functiondecl functionName="SolveIntegralOfInverse" lineNumber="1294"/>
+    <functiondecl functionName="print" lineNumber="1397"/>
+    <functiondecl functionName="checkResult" lineNumber="1403"/>
+    <functiondecl functionName="testMe" lineNumber="1412"/>
+    <functiondecl functionName="GetValues" lineNumber="1469"/>
+    <functioncall functionName="AddPointAtEnd"/>
+    <functioncall functionName="BinarySearchForTime"/>
+    <functioncall functionName="BinarySearchForTime_LeftLimit"/>
+    <functioncall functionName="ClampValue"/>
+    <functioncall functionName="ConsistencyCheck"/>
+    <functioncall functionName="CopyRange"/>
+    <functioncall functionName="Delete"/>
+    <functioncall functionName="EndTag"/>
+    <functioncall functionName="EnvPoint"/>
+    <functioncall functionName="Envelope"/>
+    <functioncall functionName="EqualRange"/>
+    <functioncall functionName="ExpandRegion"/>
+    <functioncall functionName="Flatten"/>
+    <functioncall functionName="Format"/>
+    <functioncall functionName="Get"/>
+    <functioncall functionName="GetExponential"/>
+    <functioncall functionName="GetInterpolationStartValueAtPoint"/>
+    <functioncall functionName="GetNumberOfPoints"/>
+    <functioncall functionName="GetT"/>
+    <functioncall functionName="GetVal"/>
+    <functioncall functionName="GetValue"/>
+    <functioncall functionName="GetValueRelative"/>
+    <functioncall functionName="GetValues"/>
+    <functioncall functionName="GetValuesRelative"/>
+    <functioncall functionName="Hi"/>
+    <functioncall functionName="Insert"/>
+    <functioncall functionName="InsertOrReplaceRelative"/>
+    <functioncall functionName="Integral"/>
+    <functioncall functionName="IntegralOfInverse"/>
+    <functioncall functionName="IntegrateInterpolated"/>
+    <functioncall functionName="IntegrateInverseInterpolated"/>
+    <functioncall functionName="InterpolatePoints"/>
+    <functioncall functionName="Lo"/>
+    <functioncall functionName="NextPointAfter"/>
+    <functioncall functionName="NumberOfPointsAfter"/>
+    <functioncall functionName="PositionToTime"/>
+    <functioncall functionName="RemoveUnneededPoints"/>
+    <functioncall functionName="SetDragPointValid"/>
+    <functioncall functionName="SetExponential"/>
+    <functioncall functionName="SetT"/>
+    <functioncall functionName="SetVal"/>
+    <functioncall functionName="SolveIntegrateInverseInterpolated"/>
+    <functioncall functionName="StartTag"/>
+    <functioncall functionName="TryGet"/>
+    <functioncall functionName="WriteAttr"/>
+    <functioncall functionName="a"/>
+    <functioncall functionName="alignedTime"/>
+    <functioncall functionName="area"/>
+    <functioncall functionName="attrs"/>
+    <functioncall functionName="b"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="big"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="buffer"/>
+    <functioncall functionName="bufferLen"/>
+    <functioncall functionName="checkResult"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="continue"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="ctrlPt"/>
+    <functioncall functionName="db"/>
+    <functioncall functionName="defaultValue"/>
+    <functioncall functionName="deltat"/>
+    <functioncall functionName="disorder"/>
+    <functioncall functionName="double"/>
+    <functioncall functionName="dragPoint"/>
+    <functioncall functionName="dt"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="epsilon"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="exp"/>
+    <functioncall functionName="expm1"/>
+    <functioncall functionName="exponential"/>
+    <functioncall functionName="fabs"/>
+    <functioncall functionName="factor"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="floor"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="hi"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="iPoint"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="ii"/>
+    <functioncall functionName="increment"/>
+    <functioncall functionName="index"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="insertAt"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="isDiscontinuity"/>
+    <functioncall functionName="l"/>
+    <functioncall functionName="lastT"/>
+    <functioncall functionName="lastVal"/>
+    <functioncall functionName="leftDiscreteTime"/>
+    <functioncall functionName="leftLimit"/>
+    <functioncall functionName="leftOffset"/>
+    <functioncall functionName="leftPoint"/>
+    <functioncall functionName="leftVal"/>
+    <functioncall functionName="len"/>
+    <functioncall functionName="limitHi"/>
+    <functioncall functionName="limitLo"/>
+    <functioncall functionName="lo"/>
+    <functioncall functionName="log"/>
+    <functioncall functionName="log10"/>
+    <functioncall functionName="log1p"/>
+    <functioncall functionName="logarithmic"/>
+    <functioncall functionName="lower"/>
+    <functioncall functionName="lower_bound"/>
+    <functioncall functionName="mDB"/>
+    <functioncall functionName="mDefaultValue"/>
+    <functioncall functionName="mDragPoint"/>
+    <functioncall functionName="mDragPointValid"/>
+    <functioncall functionName="mEnv"/>
+    <functioncall functionName="mMaxValue"/>
+    <functioncall functionName="mMinValue"/>
+    <functioncall functionName="mOffset"/>
+    <functioncall functionName="mSearchGuess"/>
+    <functioncall functionName="mTrackLen"/>
+    <functioncall functionName="max"/>
+    <functioncall functionName="maxValue"/>
+    <functioncall functionName="mid"/>
+    <functioncall functionName="min"/>
+    <functioncall functionName="minValue"/>
+    <functioncall functionName="msg"/>
+    <functioncall functionName="n"/>
+    <functioncall functionName="needPoint"/>
+    <functioncall functionName="newLen"/>
+    <functioncall functionName="newLength"/>
+    <functioncall functionName="newOffset"/>
+    <functioncall functionName="newT0"/>
+    <functioncall functionName="newWhen"/>
+    <functioncall functionName="nextI"/>
+    <functioncall functionName="nextSampleVal"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="numPoints"/>
+    <functioncall functionName="oldMinValue"/>
+    <functioncall functionName="orig"/>
+    <functioncall functionName="otherDur"/>
+    <functioncall functionName="otherSize"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="p"/>
+    <functioncall functionName="pEnvelope"/>
+    <functioncall functionName="pLeftVal"/>
+    <functioncall functionName="pRightVal"/>
+    <functioncall functionName="point"/>
+    <functioncall functionName="pow"/>
+    <functioncall functionName="prevDiscreteTime"/>
+    <functioncall functionName="prevSampleVal"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="ratio"/>
+    <functioncall functionName="remove"/>
+    <functioncall functionName="removed"/>
+    <functioncall functionName="res"/>
+    <functioncall functionName="reserve"/>
+    <functioncall functionName="resize"/>
+    <functioncall functionName="resultb"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="rightPoint"/>
+    <functioncall functionName="rightVal"/>
+    <functioncall functionName="rightward"/>
+    <functioncall functionName="sampleDur"/>
+    <functioncall functionName="second"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="stable_sort"/>
+    <functioncall functionName="startAt"/>
+    <functioncall functionName="t"/>
+    <functioncall functionName="t0"/>
+    <functioncall functionName="t1"/>
+    <functioncall functionName="tag"/>
+    <functioncall functionName="temp"/>
+    <functioncall functionName="testNeighbors"/>
+    <functioncall functionName="this"/>
+    <functioncall functionName="thisVal"/>
+    <functioncall functionName="time"/>
+    <functioncall functionName="tlen"/>
+    <functioncall functionName="to"/>
+    <functioncall functionName="tolerance"/>
+    <functioncall functionName="tplus"/>
+    <functioncall functionName="tprev"/>
+    <functioncall functionName="trackLen"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="tstep"/>
+    <functioncall functionName="tt"/>
+    <functioncall functionName="upper"/>
+    <functioncall functionName="v"/>
+    <functioncall functionName="val"/>
+    <functioncall functionName="val1"/>
+    <functioncall functionName="valid"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="vnext"/>
+    <functioncall functionName="vprev"/>
+    <functioncall functionName="vstep"/>
+    <functioncall functionName="when"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="wxASSERT"/>
+    <functioncall functionName="wxASSERT_MSG"/>
+    <functioncall functionName="wxMax"/>
+    <functioncall functionName="wxMin"/>
+    <functioncall functionName="wxPrintf"/>
+    <functioncall functionName="wxT"/>
+    <functioncall functionName="xx"/>
+    <functioncall functionName="y1"/>
+    <functioncall functionName="y2"/>
+  </FileInfo>
+</analyzerinfo>

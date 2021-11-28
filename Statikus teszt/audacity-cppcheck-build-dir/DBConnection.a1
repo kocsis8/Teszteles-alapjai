@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1956050200">
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/DBConnection.h:102:8" call-funcname="ModeConfig" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/DBConnection.cpp" line="356" col="11" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/DBConnection.h:60:8" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/DBConnection.h:102:8" call-funcname="ModeConfig" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/DBConnection.cpp" line="361" col="11" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/DBConnection.h:61:8" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/DBConnection.h:102:8" call-funcname="ModeConfig" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/DBConnection.cpp" line="378" col="11" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/DBConnection.h:62:8" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="DBConnectionErrors" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/DBConnection.h" line="31" col="1" hash="1812039169409759241"/>
+<class name="TransactionScope" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/DBConnection.h" line="136" col="1" hash="7071808384699128534"/>
+<class name="ConnectionPtr" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/DBConnection.h" line="160" col="1" hash="6875542421647829677"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="SetBypass" lineNumber="74"/>
+    <functiondecl functionName="ShouldBypass" lineNumber="79"/>
+    <functiondecl functionName="SetError" lineNumber="84"/>
+    <functiondecl functionName="SetDBError" lineNumber="110"/>
+    <functiondecl functionName="Open" lineNumber="142"/>
+    <functiondecl functionName="OpenStepByStep" lineNumber="169"/>
+    <functiondecl functionName="Close" lineNumber="233"/>
+    <functiondecl functionName="ThrowException" lineNumber="340"/>
+    <functiondecl functionName="SafeMode" lineNumber="354"/>
+    <functiondecl functionName="FastMode" lineNumber="359"/>
+    <functiondecl functionName="SetPageSize" lineNumber="364"/>
+    <functiondecl functionName="ModeConfig" lineNumber="381"/>
+    <functiondecl functionName="DB" lineNumber="410"/>
+    <functiondecl functionName="GetLastRC" lineNumber="417"/>
+    <functiondecl functionName="GetLastMessage" lineNumber="422"/>
+    <functiondecl functionName="Prepare" lineNumber="427"/>
+    <functiondecl functionName="CheckpointThread" lineNumber="481"/>
+    <functiondecl functionName="CheckpointHook" lineNumber="576"/>
+    <functiondecl functionName="TransactionStart" lineNumber="589"/>
+    <functiondecl functionName="TransactionCommit" lineNumber="613"/>
+    <functiondecl functionName="TransactionRollback" lineNumber="637"/>
+    <functiondecl functionName="Commit" lineNumber="693"/>
+    <functiondecl functionName="Get" lineNumber="728"/>
+    <functiondecl functionName="Get" lineNumber="735"/>
+    <functioncall functionName="ADD_EXCEPTION_CONTEXT"/>
+    <functioncall functionName="AbbreviatePath"/>
+    <functioncall functionName="AudacityProject"/>
+    <functioncall functionName="BadEnvironment"/>
+    <functioncall functionName="CheckpointHook"/>
+    <functioncall functionName="CheckpointThread"/>
+    <functioncall functionName="ConnectionPtr"/>
+    <functioncall functionName="DB"/>
+    <functioncall functionName="DBConnection"/>
+    <functioncall functionName="DBConnectionErrors"/>
+    <functioncall functionName="Debug"/>
+    <functioncall functionName="DelayedHandlerAction"/>
+    <functioncall functionName="DeleteSampleBlock"/>
+    <functioncall functionName="FastConfig"/>
+    <functioncall functionName="Format"/>
+    <functioncall functionName="Get"/>
+    <functioncall functionName="GetAllSampleBlocksSize"/>
+    <functioncall functionName="GetFullName"/>
+    <functioncall functionName="GetLog"/>
+    <functioncall functionName="GetProjectName"/>
+    <functioncall functionName="GetSampleBlockSize"/>
+    <functioncall functionName="GetSamples"/>
+    <functioncall functionName="GetSummary256"/>
+    <functioncall functionName="GetSummary64k"/>
+    <functioncall functionName="GuardedCall"/>
+    <functioncall functionName="InsertSampleBlock"/>
+    <functioncall functionName="Internal"/>
+    <functioncall functionName="LoadSampleBlock"/>
+    <functioncall functionName="MakeGenericProgress"/>
+    <functioncall functionName="ModeConfig"/>
+    <functioncall functionName="OpenStepByStep"/>
+    <functioncall functionName="PageSizeConfig"/>
+    <functioncall functionName="Pulse"/>
+    <functioncall functionName="Read"/>
+    <functioncall functionName="Replace"/>
+    <functioncall functionName="SQLITE_CHECKPOINT_PASSIVE"/>
+    <functioncall functionName="SQLITE_OK"/>
+    <functioncall functionName="SQLITE_PREPARE_PERSISTENT"/>
+    <functioncall functionName="SafeConfig"/>
+    <functioncall functionName="SafeMode"/>
+    <functioncall functionName="SetDBError"/>
+    <functioncall functionName="SetPageSize"/>
+    <functioncall functionName="SimpleMessageBoxException"/>
+    <functioncall functionName="THROW_INCONSISTENCY_EXCEPTION"/>
+    <functioncall functionName="ToUTF8"/>
+    <functioncall functionName="TransactionCommit"/>
+    <functioncall functionName="TransactionRollback"/>
+    <functioncall functionName="TransactionScope"/>
+    <functioncall functionName="TransactionStart"/>
+    <functioncall functionName="Verbatim"/>
+    <functioncall functionName="Write"/>
+    <functioncall functionName="XO"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="bypass"/>
+    <functioncall functionName="callback"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="config"/>
+    <functioncall functionName="connection"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="const_cast"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="db"/>
+    <functioncall functionName="dbName"/>
+    <functioncall functionName="e"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="enum"/>
+    <functioncall functionName="errmsg"/>
+    <functioncall functionName="errorCode"/>
+    <functioncall functionName="fName"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="fileName"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="get_id"/>
+    <functioncall functionName="guard"/>
+    <functioncall functionName="id"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="join"/>
+    <functioncall functionName="joinable"/>
+    <functioncall functionName="libraryError"/>
+    <functioncall functionName="lock"/>
+    <functioncall functionName="logger"/>
+    <functioncall functionName="mCallback"/>
+    <functioncall functionName="mCheckpointDB"/>
+    <functioncall functionName="mCheckpointMutex"/>
+    <functioncall functionName="mCheckpointStop"/>
+    <functioncall functionName="mConnection"/>
+    <functioncall functionName="mDB"/>
+    <functioncall functionName="mErrorCode"/>
+    <functioncall functionName="mInTrans"/>
+    <functioncall functionName="mName"/>
+    <functioncall functionName="mStatementMutex"/>
+    <functioncall functionName="mStatements"/>
+    <functioncall functionName="make_shared"/>
+    <functioncall functionName="message"/>
+    <functioncall functionName="message1"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="mpConnection"/>
+    <functioncall functionName="msg"/>
+    <functioncall functionName="mutex"/>
+    <functioncall functionName="name"/>
+    <functioncall functionName="ndx"/>
+    <functioncall functionName="notify_one"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="pErrors"/>
+    <functioncall functionName="pProject"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="path"/>
+    <functioncall functionName="pd"/>
+    <functioncall functionName="project"/>
+    <functioncall functionName="rc"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="sConnectionPtrKey"/>
+    <functioncall functionName="schema"/>
+    <functioncall functionName="second"/>
+    <functioncall functionName="sleep_for"/>
+    <functioncall functionName="sql"/>
+    <functioncall functionName="sqlite3_close"/>
+    <functioncall functionName="sqlite3_db_filename"/>
+    <functioncall functionName="sqlite3_errcode"/>
+    <functioncall functionName="sqlite3_errmsg"/>
+    <functioncall functionName="sqlite3_errstr"/>
+    <functioncall functionName="sqlite3_exec"/>
+    <functioncall functionName="sqlite3_finalize"/>
+    <functioncall functionName="sqlite3_free"/>
+    <functioncall functionName="sqlite3_open"/>
+    <functioncall functionName="sqlite3_prepare_v3"/>
+    <functioncall functionName="sqlite3_wal_checkpoint_v2"/>
+    <functioncall functionName="sqlite3_wal_hook"/>
+    <functioncall functionName="static_cast"/>
+    <functioncall functionName="stmt"/>
+    <functioncall functionName="this"/>
+    <functioncall functionName="thread"/>
+    <functioncall functionName="title"/>
+    <functioncall functionName="to_string"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="wait"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="wxASSERT"/>
+    <functioncall functionName="wxASSERT_MSG"/>
+    <functioncall functionName="wxLogMessage"/>
+    <functioncall functionName="wxMilliSleep"/>
+    <functioncall functionName="wxT"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,254 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3342172383">
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;toProduce&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;toProduce&apos;. The initialized value is overwritten before it is read." cwe="563" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ScrubState.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\ScrubState.cpp" line="383" column="14" info="toProduce is overwritten"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\ScrubState.cpp" line="379" column="19" info="toProduce is initialized"/>
+            <symbol>toProduce</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;gAudioIO&apos; is assigned a value that is never used." verbose="Variable &apos;gAudioIO&apos; is assigned a value that is never used." cwe="563" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ScrubState.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\ScrubState.cpp" line="375" column="18"/>
+            <symbol>gAudioIO</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;gAudioIO&apos; is assigned a value that is never used." verbose="Variable &apos;gAudioIO&apos; is assigned a value that is never used." cwe="563" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ScrubState.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\ScrubState.cpp" line="425" column="18"/>
+            <symbol>gAudioIO</symbol>
+        </error>
+  <FileInfo check="Class">
+<class name="PlaybackSlice" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="152" col="1" hash="14623948474922064696"/>
+<class name="PlaybackPolicy::BufferTimes" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="189" col="4" hash="6869806206435311657"/>
+<class name="PlaybackSchedule::TimeQueue::Record" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="339" col="7" hash="17071854924768020548"/>
+<class name="PlaybackSchedule::TimeQueue::Cursor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="346" col="7" hash="363912267004430114"/>
+<class name="PlaybackSchedule::SlotData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="359" col="4" hash="6524779715981219363"/>
+<class name="ScrubbingOptions" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ScrubState.h" line="18" col="1" hash="8770574034196866999"/>
+<class name="ScrubState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ScrubState.h" line="92" col="1" hash="12075133060527047168"/>
+<class name="TransportTracks" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/AudioIO.h" line="64" col="1" hash="7222878493021850004"/>
+<class name="AudioIoCallback::AudioIOExtRange" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/AudioIO.h" line="148" col="4" hash="14891609901034063357"/>
+<class name="MessageBuffer &lt; SlotData &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="34" col="1" hash="7850143017975623980"/>
+<class name="MessageBuffer &lt; SlotData &gt;::UpdateSlot" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="35" col="4" hash="1107823842534995714"/>
+<class name="MessageBuffer &lt; Message &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="34" col="1" hash="10253631258813630417"/>
+<class name="MessageBuffer &lt; Message &gt;::UpdateSlot" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="35" col="4" hash="1799773102026623009"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="PlaybackSlice" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="152" col="1" hash="14623948474922064696"/>
+<class name="PlaybackPolicy::BufferTimes" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="189" col="4" hash="6869806206435311657"/>
+<class name="PlaybackSchedule::TimeQueue::Record" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="339" col="7" hash="17071854924768020548"/>
+<class name="PlaybackSchedule::TimeQueue::Cursor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="346" col="7" hash="363912267004430114"/>
+<class name="PlaybackSchedule::SlotData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="359" col="4" hash="6524779715981219363"/>
+<class name="ScrubbingOptions" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ScrubState.h" line="18" col="1" hash="8770574034196866999"/>
+<class name="ScrubState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ScrubState.h" line="92" col="1" hash="12075133060527047168"/>
+<class name="TransportTracks" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/AudioIO.h" line="64" col="1" hash="7222878493021850004"/>
+<class name="AudioIoCallback::AudioIOExtRange" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/AudioIO.h" line="148" col="4" hash="14891609901034063357"/>
+<class name="MessageBuffer &lt; SlotData &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="34" col="1" hash="7850143017975623980"/>
+<class name="MessageBuffer &lt; SlotData &gt;::UpdateSlot" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="35" col="4" hash="1107823842534995714"/>
+<class name="MessageBuffer &lt; Message &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="34" col="1" hash="10253631258813630417"/>
+<class name="MessageBuffer &lt; Message &gt;::UpdateSlot" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="35" col="4" hash="1799773102026623009"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="Init" lineNumber="22"/>
+    <functiondecl functionName="Update" lineNumber="36"/>
+    <functiondecl functionName="Get" lineNumber="42"/>
+    <functiondecl functionName="Stop" lineNumber="112"/>
+    <functiondecl functionName="LastTrackTime" lineNumber="119"/>
+    <functiondecl functionName="Started" lineNumber="127"/>
+    <functiondecl functionName="Init" lineNumber="140"/>
+    <functiondecl functionName="Initialize" lineNumber="302"/>
+    <functiondecl functionName="Finalize" lineNumber="314"/>
+    <functiondecl functionName="MixerWarpOptions" lineNumber="319"/>
+    <functiondecl functionName="SuggestedBufferTimes" lineNumber="327"/>
+    <functiondecl functionName="AllowSeek" lineNumber="347"/>
+    <functiondecl functionName="Done" lineNumber="353"/>
+    <functiondecl functionName="SleepInterval" lineNumber="364"/>
+    <functiondecl functionName="GetPlaybackSlice" lineNumber="369"/>
+    <functiondecl functionName="AdvancedTrackTime" lineNumber="407"/>
+    <functiondecl functionName="RepositionPlayback" lineNumber="421"/>
+    <functiondecl functionName="UpdateScrub" lineNumber="469"/>
+    <functiondecl functionName="StopScrub" lineNumber="476"/>
+    <functiondecl functionName="GetLastScrubTime" lineNumber="483"/>
+    <functiondecl functionName="IsScrubbing" lineNumber="489"/>
+    <functiondecl functionName="Init" lineNumber="22"/>
+    <functiondecl functionName="Update" lineNumber="36"/>
+    <functiondecl functionName="Get" lineNumber="42"/>
+    <functiondecl functionName="Stop" lineNumber="112"/>
+    <functiondecl functionName="LastTrackTime" lineNumber="119"/>
+    <functiondecl functionName="Started" lineNumber="127"/>
+    <functiondecl functionName="Init" lineNumber="140"/>
+    <functiondecl functionName="Initialize" lineNumber="302"/>
+    <functiondecl functionName="Finalize" lineNumber="314"/>
+    <functiondecl functionName="MixerWarpOptions" lineNumber="319"/>
+    <functiondecl functionName="SuggestedBufferTimes" lineNumber="327"/>
+    <functiondecl functionName="AllowSeek" lineNumber="347"/>
+    <functiondecl functionName="Done" lineNumber="353"/>
+    <functiondecl functionName="SleepInterval" lineNumber="364"/>
+    <functiondecl functionName="GetPlaybackSlice" lineNumber="369"/>
+    <functiondecl functionName="AdvancedTrackTime" lineNumber="407"/>
+    <functiondecl functionName="RepositionPlayback" lineNumber="421"/>
+    <functiondecl functionName="UpdateScrub" lineNumber="469"/>
+    <functiondecl functionName="StopScrub" lineNumber="476"/>
+    <functiondecl functionName="GetLastScrubTime" lineNumber="483"/>
+    <functiondecl functionName="IsScrubbing" lineNumber="489"/>
+    <functioncall functionName="AUDACITY_DLL_API"/>
+    <functioncall functionName="AudacityProject"/>
+    <functioncall functionName="AudioIO"/>
+    <functioncall functionName="AudioIOExtBase"/>
+    <functioncall functionName="AudioIOListener"/>
+    <functioncall functionName="AudioThread"/>
+    <functioncall functionName="Cursor"/>
+    <functioncall functionName="Data"/>
+    <functioncall functionName="Done"/>
+    <functioncall functionName="EVT_AUDIOIO_CAPTURE"/>
+    <functioncall functionName="EVT_AUDIOIO_MONITOR"/>
+    <functioncall functionName="EVT_AUDIOIO_PLAYBACK"/>
+    <functioncall functionName="Floats"/>
+    <functioncall functionName="Get"/>
+    <functioncall functionName="Init"/>
+    <functioncall functionName="Initialize"/>
+    <functioncall functionName="Instance"/>
+    <functioncall functionName="IsBusy"/>
+    <functioncall functionName="LastTrackTime"/>
+    <functioncall functionName="MaxAllowedScrubSpeed"/>
+    <functioncall functionName="Message"/>
+    <functioncall functionName="MinAllowedScrubSpeed"/>
+    <functioncall functionName="Mixer"/>
+    <functioncall functionName="MixerSpec"/>
+    <functioncall functionName="PlaybackPolicy"/>
+    <functioncall functionName="PlaybackSlice"/>
+    <functioncall functionName="Read"/>
+    <functioncall functionName="Record"/>
+    <functioncall functionName="Resample"/>
+    <functioncall functionName="RingBuffer"/>
+    <functioncall functionName="SampleBuffer"/>
+    <functioncall functionName="ScrubPollInterval_ms"/>
+    <functioncall functionName="ScrubQueue"/>
+    <functioncall functionName="ScrubbingOptions"/>
+    <functioncall functionName="ScrubbingPlaybackPolicy"/>
+    <functioncall functionName="SetSpeedForKeyboardScrubbing"/>
+    <functioncall functionName="SetSpeedForPlayAtSpeed"/>
+    <functioncall functionName="SetTimesAndSpeed"/>
+    <functioncall functionName="Started"/>
+    <functioncall functionName="Stop"/>
+    <functioncall functionName="Update"/>
+    <functioncall functionName="UpdateSlot"/>
+    <functioncall functionName="WarpOptions"/>
+    <functioncall functionName="WaveTrack"/>
+    <functioncall functionName="WaveTrackCache"/>
+    <functioncall functionName="Write"/>
+    <functioncall functionName="abs"/>
+    <functioncall functionName="adjustStart"/>
+    <functioncall functionName="as_double"/>
+    <functioncall functionName="as_long_long"/>
+    <functioncall functionName="available"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="bool"/>
+    <functioncall functionName="char"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="delay"/>
+    <functioncall functionName="diff"/>
+    <functioncall functionName="discontinuity"/>
+    <functioncall functionName="double"/>
+    <functioncall functionName="duration"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="endTime"/>
+    <functioncall functionName="endTimeOrSpeed"/>
+    <functioncall functionName="exchange"/>
+    <functioncall functionName="fabs"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="float"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="frames"/>
+    <functioncall functionName="frames_"/>
+    <functioncall functionName="idx"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="inDuration"/>
+    <functioncall functionName="initSpeed"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="isKeyboardScrubbing"/>
+    <functioncall functionName="isPlayingAtSpeed"/>
+    <functioncall functionName="limitSampleBufferSize"/>
+    <functioncall functionName="llrint"/>
+    <functioncall functionName="load"/>
+    <functioncall functionName="lock"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="lrint"/>
+    <functioncall functionName="mData"/>
+    <functioncall functionName="mDuration"/>
+    <functioncall functionName="mEndSample"/>
+    <functioncall functionName="mGoal"/>
+    <functioncall functionName="mIterator"/>
+    <functioncall functionName="mNewStartTime"/>
+    <functioncall functionName="mOldEndTime"/>
+    <functioncall functionName="mOptions"/>
+    <functioncall functionName="mPreRoll"/>
+    <functioncall functionName="mRate"/>
+    <functioncall functionName="mRecordingException"/>
+    <functioncall functionName="mReplenish"/>
+    <functioncall functionName="mS0"/>
+    <functioncall functionName="mS1"/>
+    <functioncall functionName="mScrubDuration"/>
+    <functioncall functionName="mScrubSpeed"/>
+    <functioncall functionName="mSilence"/>
+    <functioncall functionName="mSilentScrub"/>
+    <functioncall functionName="mSlots"/>
+    <functioncall functionName="mStartSample"/>
+    <functioncall functionName="mStartTime"/>
+    <functioncall functionName="mStarted"/>
+    <functioncall functionName="mT0"/>
+    <functioncall functionName="mUntilDiscontinuity"/>
+    <functioncall functionName="max"/>
+    <functioncall functionName="maxSample"/>
+    <functioncall functionName="maxSpeed"/>
+    <functioncall functionName="maxTime"/>
+    <functioncall functionName="memory_order_acquire"/>
+    <functioncall functionName="memory_order_relaxed"/>
+    <functioncall functionName="memory_order_release"/>
+    <functioncall functionName="message"/>
+    <functioncall functionName="min"/>
+    <functioncall functionName="minSample"/>
+    <functioncall functionName="minSpeed"/>
+    <functioncall functionName="minStutterTime"/>
+    <functioncall functionName="minTime"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="nSamples"/>
+    <functioncall functionName="newData"/>
+    <functioncall functionName="newDuration"/>
+    <functioncall functionName="newS1"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="options"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="playbackMixers"/>
+    <functioncall functionName="rPrevious"/>
+    <functioncall functionName="rate"/>
+    <functioncall functionName="result"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="s0"/>
+    <functioncall functionName="s0Init"/>
+    <functioncall functionName="s1"/>
+    <functioncall functionName="sampleCount"/>
+    <functioncall functionName="schedule"/>
+    <functioncall functionName="seconds"/>
+    <functioncall functionName="shared_ptr"/>
+    <functioncall functionName="silent"/>
+    <functioncall functionName="speed"/>
+    <functioncall functionName="startTime"/>
+    <functioncall functionName="store"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="t0"/>
+    <functioncall functionName="t1"/>
+    <functioncall functionName="time"/>
+    <functioncall functionName="toProduce"/>
+    <functioncall functionName="toProduce_"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="vector"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="wasBusy"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="wxASSERT"/>
+    <functioncall functionName="wxAtomicDec"/>
+    <functioncall functionName="wxAtomicInc"/>
+    <functioncall functionName="wxCommandEvent"/>
+    <functioncall functionName="wxDECLARE_EXPORTED_EVENT"/>
+  </FileInfo>
+</analyzerinfo>

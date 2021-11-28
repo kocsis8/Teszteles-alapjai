@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2498110917">
+        <error id="duplicateBreak" severity="style" msg="Consecutive return, break, continue, goto or throw statements are unnecessary." verbose="Consecutive return, break, continue, goto or throw statements are unnecessary. The second statement can never be executed, and so should be removed." cwe="561" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WrappedType.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\WrappedType.cpp" line="77" column="7"/>
+        </error>
+  <FileInfo check="Class">
+<class name="WrappedType" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WrappedType.h" line="30" col="1" hash="16892139773851669522"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="IsString" lineNumber="35"/>
+    <functiondecl functionName="ReadAsString" lineNumber="42"/>
+    <functiondecl functionName="ReadAsInt" lineNumber="68"/>
+    <functiondecl functionName="ReadAsDouble" lineNumber="98"/>
+    <functiondecl functionName="ReadAsBool" lineNumber="124"/>
+    <functiondecl functionName="WriteToAsString" lineNumber="152"/>
+    <functiondecl functionName="WriteToAsInt" lineNumber="181"/>
+    <functiondecl functionName="WriteToAsDouble" lineNumber="206"/>
+    <functiondecl functionName="WriteToAsBool" lineNumber="233"/>
+    <functioncall functionName="CompatibleToDouble"/>
+    <functioncall functionName="Format"/>
+    <functioncall functionName="InBool"/>
+    <functioncall functionName="InDouble"/>
+    <functioncall functionName="InInt"/>
+    <functioncall functionName="InStr"/>
+    <functioncall functionName="IsSameAs"/>
+    <functioncall functionName="ToLong"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="double"/>
+    <functioncall functionName="eWrappedBool"/>
+    <functioncall functionName="eWrappedDouble"/>
+    <functioncall functionName="eWrappedEnum"/>
+    <functioncall functionName="eWrappedInt"/>
+    <functioncall functionName="eWrappedNotSet"/>
+    <functioncall functionName="eWrappedString"/>
+    <functioncall functionName="eWrappedType"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="l"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="wxASSERT"/>
+    <functioncall functionName="wxT"/>
+  </FileInfo>
+</analyzerinfo>

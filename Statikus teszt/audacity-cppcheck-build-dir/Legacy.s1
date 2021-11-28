@@ -1,0 +1,2 @@
+ConvertLegacyTrack call:[EndTag,GetCurrentLine,GetLine,GetLineCount,GetNextLine,GoToLine,StartTag,ToLong,WriteAttr,while,wxT] noreturn:[EndTag,GetNextLine,WriteAttr]
+ConvertLegacyProjectFile call:[AudacityMessageBox,Close,Commit,ConvertLegacyTrack,EndTag,Format,GetBackupName,GetFirstLine,GetFullPath,GetNextLine,IsOpened,Open,StartTag,Write,WriteAttr,XO,wxT] noreturn:[GetNextLine]

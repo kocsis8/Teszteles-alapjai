@@ -1,0 +1,14 @@
+WrappedType
+WrappedType
+WrappedType
+WrappedType
+WrappedType
+IsString
+ReadAsString call:[Format,return,wxASSERT,wxT] noreturn:[wxT]
+ReadAsInt call:[ToLong,return,wxASSERT]
+ReadAsDouble call:[CompatibleToDouble,return,wxASSERT]
+ReadAsBool call:[IsSameAs,wxASSERT,wxT]
+WriteToAsString call:[CompatibleToDouble,IsSameAs,ToLong,wxASSERT,wxT]
+WriteToAsInt call:[Format,wxASSERT,wxT]
+WriteToAsDouble call:[Format,wxASSERT,wxT]
+WriteToAsBool call:[wxASSERT,wxT]

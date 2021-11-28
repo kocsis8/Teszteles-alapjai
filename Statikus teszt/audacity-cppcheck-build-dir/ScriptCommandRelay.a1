@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1650475557">
+        <error id="missingReturn" severity="error" msg="Found a exit path from function with non-void return type that has missing return statement" verbose="Found a exit path from function with non-void return type that has missing return statement" cwe="758" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/ScriptCommandRelay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandTargets.h" line="221" column="5"/>
+        </error>
+        <error id="virtualCallInConstructor" severity="style" msg="Virtual function &apos;Flush&apos; is called from destructor &apos;~CommandMessageTarget()&apos; at line 78. Dynamic binding is not used." verbose="Virtual function &apos;Flush&apos; is called from destructor &apos;~CommandMessageTarget()&apos; at line 78. Dynamic binding is not used." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/ScriptCommandRelay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandTargets.h" line="89" column="17" info="Flush is a virtual function"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandTargets.h" line="78" column="38" info="Calling Flush"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CommandMessageTargetDecorator&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CommandMessageTargetDecorator&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/ScriptCommandRelay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandTargets.h" line="97" column="4"/>
+            <symbol>CommandMessageTargetDecorator</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;LispyCommandMessageTarget&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;LispyCommandMessageTarget&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/ScriptCommandRelay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandTargets.h" line="122" column="4"/>
+            <symbol>LispyCommandMessageTarget</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;BriefCommandMessageTarget&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;BriefCommandMessageTarget&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/ScriptCommandRelay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandTargets.h" line="137" column="4"/>
+            <symbol>BriefCommandMessageTarget</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;ProgressToMessageTarget&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;ProgressToMessageTarget&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/ScriptCommandRelay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandTargets.h" line="185" column="4"/>
+            <symbol>ProgressToMessageTarget</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;LispifiedCommandOutputTargets&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;LispifiedCommandOutputTargets&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/ScriptCommandRelay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandTargets.h" line="393" column="4"/>
+            <symbol>LispifiedCommandOutputTargets</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;BriefCommandOutputTargets&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;BriefCommandOutputTargets&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/ScriptCommandRelay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandTargets.h" line="402" column="4"/>
+            <symbol>BriefCommandOutputTargets</symbol>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;sb&apos; can be declared with const" verbose="Parameter &apos;sb&apos; can be declared with const" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/ScriptCommandRelay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandTargets.h" line="219" column="33" info="Parameter &apos;sb&apos; can be declared with const"/>
+            <symbol>sb</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/ScriptCommandRelay.cpp:34:12" call-funcname="ExecCommand" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/ScriptCommandRelay.cpp" line="70" col="22" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/ScriptCommandRelay.cpp:34:12" call-funcname="ExecCommand" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/ScriptCommandRelay.cpp" line="70" col="11" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/ScriptCommandRelay.cpp:68:12" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/ScriptCommandRelay.cpp:34:12" call-funcname="ExecCommand" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/ScriptCommandRelay.cpp" line="70" col="11" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/ScriptCommandRelay.cpp:68:12" my-argnr="2"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/ScriptCommandRelay.cpp:34:12" call-funcname="ExecCommand" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/ScriptCommandRelay.cpp" line="76" col="11" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/ScriptCommandRelay.cpp:74:12" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/ScriptCommandRelay.cpp:34:12" call-funcname="ExecCommand" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/ScriptCommandRelay.cpp" line="76" col="11" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/ScriptCommandRelay.cpp:74:12" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="ScriptCommandRelay" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/ScriptCommandRelay.h" line="28" col="1" hash="13197545042726612554"/>
+<class name="CommandMessageTargetDecorator" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandTargets.h" line="94" col="1" hash="6429124763711037347"/>
+<class name="NullProgressTarget" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandTargets.h" line="150" col="1" hash="5982931529814640231"/>
+<class name="ProgressToMessageTarget" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandTargets.h" line="180" col="1" hash="16409825271418184940"/>
+<class name="NullMessageTarget" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandTargets.h" line="198" col="1" hash="17478869704053975828"/>
+<class name="ResponseTarget" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandTargets.h" line="226" col="1" hash="5867841061471147908"/>
+<class name="CombinedMessageTarget" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandTargets.h" line="258" col="1" hash="3215462305431258519"/>
+<class name="TargetFactory" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandTargets.h" line="286" col="1" hash="3115912256564424560"/>
+<class name="CommandOutputTargets" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandTargets.h" line="305" col="1" hash="1494872333352874311"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="ExecCommand" lineNumber="34"/>
+    <functiondecl functionName="ExecFromWorker" lineNumber="68"/>
+    <functiondecl functionName="ExecFromMain" lineNumber="74"/>
+    <functiondecl functionName="StartScriptServer" lineNumber="80"/>
+    <functiondecl functionName="ExecForLisp" lineNumber="95"/>
+    <functioncall functionName="AUDACITY_DLL_API"/>
+    <functioncall functionName="AddBool"/>
+    <functioncall functionName="AddItem"/>
+    <functioncall functionName="AddPendingEvent"/>
+    <functioncall functionName="Alloc"/>
+    <functioncall functionName="AppCommandEvent"/>
+    <functioncall functionName="CommandBuilder"/>
+    <functioncall functionName="CommandMessageTarget"/>
+    <functioncall functionName="CommandMessageTargetDecorator"/>
+    <functioncall functionName="CommandProgressTarget"/>
+    <functioncall functionName="DECLARE_EXPORTED_EVENT_TYPE"/>
+    <functioncall functionName="EndArray"/>
+    <functioncall functionName="EndField"/>
+    <functioncall functionName="EndStruct"/>
+    <functioncall functionName="ExecCommand"/>
+    <functioncall functionName="ExecFromMain"/>
+    <functioncall functionName="ExecFromWorker"/>
+    <functioncall functionName="Flush"/>
+    <functioncall functionName="Format"/>
+    <functioncall functionName="GetActiveProject"/>
+    <functioncall functionName="GetCommand"/>
+    <functioncall functionName="GetResponse"/>
+    <functioncall functionName="MessageBoxTarget"/>
+    <functioncall functionName="MessageDefault"/>
+    <functioncall functionName="NullProgressTarget"/>
+    <functioncall functionName="OldStyleCommand"/>
+    <functioncall functionName="Post"/>
+    <functioncall functionName="ProgressDefault"/>
+    <functioncall functionName="ResponseTarget"/>
+    <functioncall functionName="SafelyProcessEvent"/>
+    <functioncall functionName="SetCommand"/>
+    <functioncall functionName="StartArray"/>
+    <functioncall functionName="StartField"/>
+    <functioncall functionName="StartStruct"/>
+    <functioncall functionName="Str1"/>
+    <functioncall functionName="Str2"/>
+    <functioncall functionName="Update"/>
+    <functioncall functionName="Wait"/>
+    <functioncall functionName="WasValid"/>
+    <functioncall functionName="bFlush"/>
+    <functioncall functionName="builder"/>
+    <functioncall functionName="cmd"/>
+    <functioncall functionName="completed"/>
+    <functioncall functionName="detach"/>
+    <functioncall functionName="et"/>
+    <functioncall functionName="ev"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="fromMain"/>
+    <functioncall functionName="function"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="lock"/>
+    <functioncall functionName="m1"/>
+    <functioncall functionName="m2"/>
+    <functioncall functionName="mBuffer"/>
+    <functioncall functionName="mErrorTarget"/>
+    <functioncall functionName="mProgressTarget"/>
+    <functioncall functionName="mSemaphore"/>
+    <functioncall functionName="mStatus"/>
+    <functioncall functionName="mStatusTarget"/>
+    <functioncall functionName="mTarget"/>
+    <functioncall functionName="make_shared"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="message"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="name"/>
+    <functioncall functionName="nyq_reformat_aud_do_response"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="pIn"/>
+    <functioncall functionName="pOut"/>
+    <functioncall functionName="private:"/>
+    <functioncall functionName="pt"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="sb"/>
+    <functioncall functionName="scriptFn"/>
+    <functioncall functionName="server"/>
+    <functioncall functionName="st"/>
+    <functioncall functionName="status"/>
+    <functioncall functionName="t1"/>
+    <functioncall functionName="t2"/>
+    <functioncall functionName="target"/>
+    <functioncall functionName="thread"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="wxASSERT"/>
+    <functioncall functionName="wxEVT_APP_COMMAND_RECEIVED"/>
+    <functioncall functionName="wxEmptyString"/>
+    <functioncall functionName="wxT"/>
+  </FileInfo>
+</analyzerinfo>

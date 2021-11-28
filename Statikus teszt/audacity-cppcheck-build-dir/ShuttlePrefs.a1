@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="749648410">
+        <error id="missingReturn" severity="error" msg="Found a exit path from function with non-void return type that has missing return statement" verbose="Found a exit path from function with non-void return type that has missing return statement" cwe="758" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttlePrefs.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Shuttle.h" line="108" column="44"/>
+        </error>
+  <FileInfo check="Class">
+<class name="ShuttleDefaults" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Shuttle.h" line="130" col="1" hash="94021362967557330"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="TransferBool" lineNumber="35"/>
+    <functiondecl functionName="TransferDouble" lineNumber="49"/>
+    <functiondecl functionName="TransferInt" lineNumber="63"/>
+    <functiondecl functionName="TransferString" lineNumber="77"/>
+    <functiondecl functionName="TransferWrappedType" lineNumber="91"/>
+    <functioncall functionName="InBool"/>
+    <functioncall functionName="InDouble"/>
+    <functioncall functionName="InInt"/>
+    <functioncall functionName="InStr"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="Name"/>
+    <functioncall functionName="Optional"/>
+    <functioncall functionName="Read"/>
+    <functioncall functionName="ShuttleCli"/>
+    <functioncall functionName="ShuttleParams"/>
+    <functioncall functionName="TransferBool"/>
+    <functioncall functionName="TransferDouble"/>
+    <functioncall functionName="TransferInt"/>
+    <functioncall functionName="TransferString"/>
+    <functioncall functionName="Write"/>
+    <functioncall functionName="bDefault"/>
+    <functioncall functionName="bValue"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="dDefault"/>
+    <functioncall functionName="dValue"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="eWrappedBool"/>
+    <functioncall functionName="eWrappedDouble"/>
+    <functioncall functionName="eWrappedEnum"/>
+    <functioncall functionName="eWrappedInt"/>
+    <functioncall functionName="eWrappedNotSet"/>
+    <functioncall functionName="eWrappedString"/>
+    <functioncall functionName="eWrappedType"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="iDefault"/>
+    <functioncall functionName="iValue"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="key"/>
+    <functioncall functionName="mbStoreInClient"/>
+    <functioncall functionName="mpBool"/>
+    <functioncall functionName="mpDouble"/>
+    <functioncall functionName="mpInt"/>
+    <functioncall functionName="mpStr"/>
+    <functioncall functionName="nStrings"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="pEap"/>
+    <functioncall functionName="strDefault"/>
+    <functioncall functionName="strValue"/>
+    <functioncall functionName="strings"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="var"/>
+    <functioncall functionName="vdefault"/>
+    <functioncall functionName="vmax"/>
+    <functioncall functionName="vmin"/>
+    <functioncall functionName="vscl"/>
+    <functioncall functionName="wxASSERT"/>
+  </FileInfo>
+</analyzerinfo>

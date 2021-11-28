@@ -1,0 +1,6 @@
+OffsetPosition
+AccessibleLinksFormatter
+FormatLink call:[move,push_back]
+FormatLink call:[move,push_back]
+Populate call:[AddFixedText,AddSpace,AddWindow,Bind,EndHorizontalLay,EndWrapLay,GetBorder,GetParent,Length,OffsetPosition,ProcessArguments,Prop,SetBorder,StartHorizontalLay,StartWrapLay,Translation,Verbatim,empty,handler,substr,wxHyperlinkCtrl] noreturn:[AddFixedText,Bind,EndWrapLay,SetBorder,handler]
+ProcessArguments call:[OffsetPosition,begin,emplace_back,end,find,length,reserve,size,sort] noreturn:[emplace_back]

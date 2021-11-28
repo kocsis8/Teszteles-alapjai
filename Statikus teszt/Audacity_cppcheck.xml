@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.6"/>
+    <errors>
+        <error id="missingReturn" severity="error" msg="Found a exit path from function with non-void return type that has missing return statement" verbose="Found a exit path from function with non-void return type that has missing return statement" cwe="758" file0="audacity-master/src/widgets/BackedPanel.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\widgets\wxPanelWrapper.h" line="30"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If DECLARE_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If DECLARE_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/AdornedRulerPanel.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\widgets\OverlayPanel.h" line="49"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="Unmatched &amp;#039;)&amp;#039;. Configuration: &amp;#039;EXPERIMENTAL_DA;__WXGTK__&amp;#039;." verbose="Unmatched &amp;#039;)&amp;#039;. Configuration: &amp;#039;EXPERIMENTAL_DA;__WXGTK__&amp;#039;." file0="audacity-master/src/AudacityApp.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\AudacityApp.cpp" line="1240"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="Unmatched &amp;#039;)&amp;#039;. Configuration: &amp;#039;HAVE_GTK;__WXGTK__&amp;#039;." verbose="Unmatched &amp;#039;)&amp;#039;. Configuration: &amp;#039;HAVE_GTK;__WXGTK__&amp;#039;." file0="audacity-master/src/AudacityApp.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\AudacityApp.cpp" line="1240"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="Unmatched &amp;#039;)&amp;#039;. Configuration: &amp;#039;NDEBUG;__WXGTK__&amp;#039;." verbose="Unmatched &amp;#039;)&amp;#039;. Configuration: &amp;#039;NDEBUG;__WXGTK__&amp;#039;." file0="audacity-master/src/AudacityApp.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\AudacityApp.cpp" line="1240"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/AudacityApp.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\AudacityApp.cpp" line="0"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="Unmatched &amp;#039;)&amp;#039;. Configuration: &amp;#039;__WXGTK__&amp;#039;." verbose="Unmatched &amp;#039;)&amp;#039;. Configuration: &amp;#039;__WXGTK__&amp;#039;." file0="audacity-master/src/AudacityApp.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\AudacityApp.cpp" line="1240"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found a exit path from function with non-void return type that has missing return statement" verbose="Found a exit path from function with non-void return type that has missing return statement" cwe="758" file0="audacity-master/src/AudacityApp.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\commands\CommandManager.h" line="444"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found a exit path from function with non-void return type that has missing return statement" verbose="Found a exit path from function with non-void return type that has missing return statement" cwe="758" file0="audacity-master/src/AudacityApp.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\commands\CommandManager.h" line="518"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found a exit path from function with non-void return type that has missing return statement" verbose="Found a exit path from function with non-void return type that has missing return statement" cwe="758" file0="audacity-master/src/AudacityApp.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\commands\CommandManager.h" line="552"/>
+        </error>
+        <error id="ctuOneDefinitionRuleViolation" severity="error" msg="The one definition rule is violated, different classes/structs have the same name &amp;#039;Track::Dispatcher&amp;#039;" verbose="The one definition rule is violated, different classes/structs have the same name &amp;#039;Track::Dispatcher&amp;#039;" cwe="758" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\Track.h" line="503"/>
+        </error>
+        <error id="ctuOneDefinitionRuleViolation" severity="error" msg="The one definition rule is violated, different classes/structs have the same name &amp;#039;Track::Dispatcher::inapplicable&amp;#039;" verbose="The one definition rule is violated, different classes/structs have the same name &amp;#039;Track::Dispatcher::inapplicable&amp;#039;" cwe="758" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\Track.h" line="507"/>
+        </error>
+        <error id="ctuOneDefinitionRuleViolation" severity="error" msg="The one definition rule is violated, different classes/structs have the same name &amp;#039;Track::Dispatcher::applicable1&amp;#039;" verbose="The one definition rule is violated, different classes/structs have the same name &amp;#039;Track::Dispatcher::applicable1&amp;#039;" cwe="758" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\Track.h" line="524"/>
+        </error>
+        <error id="ctuOneDefinitionRuleViolation" severity="error" msg="The one definition rule is violated, different classes/structs have the same name &amp;#039;Track::Dispatcher::applicable2&amp;#039;" verbose="The one definition rule is violated, different classes/structs have the same name &amp;#039;Track::Dispatcher::applicable2&amp;#039;" cwe="758" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\Track.h" line="539"/>
+        </error>
+        <error id="ctuOneDefinitionRuleViolation" severity="error" msg="The one definition rule is violated, different classes/structs have the same name &amp;#039;IntervalData&amp;#039;" verbose="The one definition rule is violated, different classes/structs have the same name &amp;#039;IntervalData&amp;#039;" cwe="758" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\WaveTrack.h" line="564" info=""/>
+            <location file="audacity-master\src\LabelTrack.h" line="163" info=""/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/AudacityHeaders.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\AudacityHeaders.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/AudioIO.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\AudioIO.cpp" line="0"/>
+        </error>
+        <error id="ctuOneDefinitionRuleViolation" severity="error" msg="The one definition rule is violated, different classes/structs have the same name &amp;#039;AudioThread&amp;#039;" verbose="The one definition rule is violated, different classes/structs have the same name &amp;#039;AudioThread&amp;#039;" cwe="758" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\AudioIO.cpp" line="223" info=""/>
+            <location file="audacity-master\src\AudioIO.cpp" line="190" info=""/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/AutoRecoveryDialog.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\AutoRecoveryDialog.cpp" line="65"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If DECLARE_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If DECLARE_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/BatchCommands.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\EffectUI.h" line="262"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/BatchProcessDialog.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\BatchProcessDialog.cpp" line="83"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/Benchmark.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\Benchmark.cpp" line="133"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/Clipboard.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\Clipboard.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/CommonCommandFlags.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\CommonCommandFlags.cpp" line="0"/>
+        </error>
+        <error id="containerOutOfBounds" severity="error" msg="Out of bounds access in expression &amp;#039;floatSeq[i]&amp;#039; because &amp;#039;floatSeq&amp;#039; is empty." verbose="Out of bounds access in expression &amp;#039;floatSeq[i]&amp;#039; because &amp;#039;floatSeq&amp;#039; is empty." cwe="398" file0="audacity-master/src/CrossFade.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\CrossFade.cpp" line="256"/>
+        </error>
+        <error id="containerOutOfBounds" severity="error" msg="Out of bounds access in expression &amp;#039;floatSeq[i]&amp;#039; because &amp;#039;floatSeq&amp;#039; is empty." verbose="Out of bounds access in expression &amp;#039;floatSeq[i]&amp;#039; because &amp;#039;floatSeq&amp;#039; is empty." cwe="398" file0="audacity-master/src/CrossFade.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\CrossFade.cpp" line="260"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/Dependencies.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\Dependencies.cpp" line="294"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If DECLARE_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If DECLARE_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/FreqWindow.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\FreqWindow.h" line="156"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/HistoryWindow.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\HistoryWindow.cpp" line="60"/>
+        </error>
+        <error id="rethrowNoCurrentException" severity="error" msg="Rethrowing current exception with &amp;#039;throw;&amp;#039;, it seems there is no current exception to rethrow. If there is no current exception this calls std::terminate(). More: https://isocpp.org/wiki/faq/exceptions#throw-without-an-object" verbose="Rethrowing current exception with &amp;#039;throw;&amp;#039;, it seems there is no current exception to rethrow. If there is no current exception this calls std::terminate(). More: https://isocpp.org/wiki/faq/exceptions#throw-without-an-object" cwe="480" file0="audacity-master/src/KeyboardCapture.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\KeyboardCapture.cpp" line="251"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error: =[...];" verbose="syntax error: =[...];" file0="audacity-master/src/KeyboardCapture.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\KeyboardCapture.cpp" line="125"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/LabelDialog.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\LabelDialog.cpp" line="81"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found a exit path from function with non-void return type that has missing return statement" verbose="Found a exit path from function with non-void return type that has missing return statement" cwe="758" file0="audacity-master/src/LabelTrack.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\TimeWarper.h" line="81"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found a exit path from function with non-void return type that has missing return statement" verbose="Found a exit path from function with non-void return type that has missing return statement" cwe="758" file0="audacity-master/src/LabelTrack.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\TimeWarper.h" line="96"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found a exit path from function with non-void return type that has missing return statement" verbose="Found a exit path from function with non-void return type that has missing return statement" cwe="758" file0="audacity-master/src/LabelTrack.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\TimeWarper.h" line="202"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/LabelTrack.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\LabelTrack.cpp" line="0"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/LangChoice.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\LangChoice.cpp" line="68"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/Lyrics.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\Lyrics.cpp" line="32"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/LyricsWindow.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\LyricsWindow.cpp" line="45"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/MIDIPlay.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\MIDIPlay.cpp" line="0"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If DECLARE_CLASS is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If DECLARE_CLASS is a macro then please configure it." file0="audacity-master/src/Menus.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\toolbars\ToolBar.h" line="255"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/Mix.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\Mix.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/NoteTrack.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\NoteTrack.cpp" line="0"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/PluginRegistrationDialog.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\PluginRegistrationDialog.cpp" line="369"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/Printing.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\Printing.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/ProjectFileIO.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\ProjectFileIO.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/ProjectHistory.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\ProjectHistory.cpp" line="0"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If DECLARE_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If DECLARE_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/Screenshot.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\commands\AudacityCommand.h" line="165"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/SelectionState.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\SelectionState.cpp" line="0"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found a exit path from function with non-void return type that has missing return statement" verbose="Found a exit path from function with non-void return type that has missing return statement" cwe="758" file0="audacity-master/src/Shuttle.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\Shuttle.h" line="108"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found a exit path from function with non-void return type that has missing return statement" verbose="Found a exit path from function with non-void return type that has missing return statement" cwe="758" file0="audacity-master/src/ShuttleGetDefinition.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\commands\CommandTargets.h" line="221"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/ShuttleGui.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\ShuttleGui.cpp" line="1120"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/Snap.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\Snap.cpp" line="0"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/SoundActivatedRecord.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\SoundActivatedRecord.cpp" line="28"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/SpectralDataManager.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\SpectralDataManager.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/SpectrumTransformer.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\SpectrumTransformer.cpp" line="0"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/SplashDialog.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\SplashDialog.cpp" line="100"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/Tags.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\Tags.cpp" line="778"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/TimeDialog.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\TimeDialog.cpp" line="27"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/TimeTrack.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\TimeTrack.cpp" line="0"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/TimerRecordDialog.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\TimerRecordDialog.cpp" line="132"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/Track.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\Track.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/TrackArtist.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\TrackArtist.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/TrackInfo.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\TrackInfo.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/TrackPanelAx.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\TrackPanelAx.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/TrackPanelResizeHandle.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\TrackPanelResizeHandle.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/UndoManager.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\UndoManager.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/VoiceKey.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\VoiceKey.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/WaveClip.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\WaveClip.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/WaveTrack.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\WaveTrack.cpp" line="0"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If DEFINE_EVENT_TYPE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If DEFINE_EVENT_TYPE is a macro then please configure it." file0="audacity-master/src/commands/AppCommandEvent.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\commands\AppCommandEvent.cpp" line="27"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If DECLARE_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If DECLARE_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/commands/CommandTargets.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\commands\CommandTargets.cpp" line="330"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/effects/Amplify.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\Amplify.cpp" line="67"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If DECLARE_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If DECLARE_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/effects/AutoDuck.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\AutoDuck.h" line="84"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/effects/BassTreble.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\BassTreble.cpp" line="65"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/effects/ChangeSpeed.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\ChangeSpeed.cpp" line="85"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/effects/ClickRemoval.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\ClickRemoval.cpp" line="62"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/effects/Compressor.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\Compressor.cpp" line="80"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/effects/Contrast.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\Contrast.cpp" line="170"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/effects/Distortion.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\Distortion.cpp" line="152"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/effects/DtmfGen.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\DtmfGen.cpp" line="81"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/effects/Echo.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\Echo.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/effects/Effect.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\Effect.cpp" line="0"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If DECLARE_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If DECLARE_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/effects/Equalization.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\Equalization.h" line="278"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/effects/Fade.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\Fade.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/effects/FindClipping.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\FindClipping.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/effects/Generator.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\Generator.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/effects/Invert.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\Invert.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/effects/LoadEffects.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\LoadEffects.cpp" line="0"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/effects/Loudness.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\Loudness.cpp" line="58"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/effects/Noise.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\Noise.cpp" line="0"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/effects/Normalize.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\Normalize.cpp" line="50"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/effects/Paulstretch.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\Paulstretch.cpp" line="92"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/effects/Phaser.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\Phaser.cpp" line="72"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/effects/Repair.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\Repair.cpp" line="0"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/effects/Repeat.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\Repeat.cpp" line="51"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/effects/Reverb.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\Reverb.cpp" line="98"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/effects/Reverse.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\Reverse.cpp" line="0"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If DECLARE_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If DECLARE_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/effects/ScienFilter.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\ScienFilter.h" line="127"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/effects/Silence.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\Silence.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/effects/SimpleMono.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\SimpleMono.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/effects/StereoToMono.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\StereoToMono.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/effects/ToneGen.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\ToneGen.cpp" line="0"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/effects/TruncSilence.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\TruncSilence.cpp" line="128"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/effects/TwoPassSimpleMono.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\TwoPassSimpleMono.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/effects/Wahwah.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\Wahwah.cpp" line="0"/>
+        </error>
+        <error id="ctuOneDefinitionRuleViolation" severity="error" msg="The one definition rule is violated, different classes/structs have the same name &amp;#039;VSTControl&amp;#039;" verbose="The one definition rule is violated, different classes/structs have the same name &amp;#039;VSTControl&amp;#039;" cwe="758" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\VST\VSTControlGTK.h" line="24" info=""/>
+            <location file="audacity-master\src\effects\VST\VSTControlMSW.h" line="18" info=""/>
+        </error>
+        <error id="syntaxError" severity="error" msg="Unmatched &amp;#039;(&amp;#039;. Configuration: &amp;#039;USE_AUDIO_UNITS;__WXMAC__&amp;#039;." verbose="Unmatched &amp;#039;(&amp;#039;. Configuration: &amp;#039;USE_AUDIO_UNITS;__WXMAC__&amp;#039;." file0="audacity-master/src/effects/audiounits/AudioUnitEffect.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\audiounits\AUControl.h" line="59"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="Unmatched &amp;#039;(&amp;#039;. Configuration: &amp;#039;USE_AUDIO_UNITS;__WXMAC__;__WX_EVTLOOP_BUSY_WAITING__&amp;#039;." verbose="Unmatched &amp;#039;(&amp;#039;. Configuration: &amp;#039;USE_AUDIO_UNITS;__WXMAC__;__WX_EVTLOOP_BUSY_WAITING__&amp;#039;." file0="audacity-master/src/effects/audiounits/AudioUnitEffect.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\audiounits\AUControl.h" line="59"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If DECLARE_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If DECLARE_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/effects/ladspa/LadspaEffect.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\ladspa\LadspaEffect.h" line="193"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If DECLARE_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If DECLARE_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/effects/lv2/LV2Effect.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\lv2\LV2Effect.h" line="562"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If DECLARE_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If DECLARE_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/effects/nyquist/LoadNyquist.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\effects\nyquist\Nyquist.h" line="290"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/export/Export.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\export\Export.cpp" line="1124"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/export/ExportCL.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\export\ExportCL.cpp" line="76"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/export/ExportFFmpeg.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\export\ExportFFmpeg.cpp" line="0"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/export/ExportFFmpegDialogs.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\export\ExportFFmpegDialogs.cpp" line="776"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/export/ExportMP3.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\export\ExportMP3.cpp" line="266"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/export/ExportMultiple.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\export\ExportMultiple.cpp" line="103"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/export/ExportPCM.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\export\ExportPCM.cpp" line="150"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/import/Import.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\import\Import.cpp" line="839"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If GST_AUDIO_NE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If GST_AUDIO_NE is a macro then please configure it." file0="audacity-master/src/import/ImportGStreamer.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\import\ImportGStreamer.cpp" line="78"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/import/ImportLOF.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\import\ImportLOF.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/import/ImportMIDI.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\import\ImportMIDI.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/import/ImportMP3.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\import\ImportMP3.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/import/ImportPlugin.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\import\ImportPlugin.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/import/ImportQT.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\import\ImportQT.cpp" line="0"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/import/ImportRaw.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\import\ImportRaw.cpp" line="299"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/menus/ClipMenus.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\menus\ClipMenus.cpp" line="0"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="audacity-master/src/menus/HelpMenus.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\menus\HelpMenus.cpp" line="551"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="audacity-master/src/menus/SelectMenus.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\menus\SelectMenus.cpp" line="1052"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/prefs/BatchPrefs.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\prefs\BatchPrefs.cpp" line="28"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/prefs/DevicePrefs.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\prefs\DevicePrefs.cpp" line="51"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/prefs/DirectoriesPrefs.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\prefs\DirectoriesPrefs.cpp" line="138"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/prefs/ExtImportPrefs.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\prefs\ExtImportPrefs.cpp" line="44"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/prefs/KeyConfigPrefs.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\prefs\KeyConfigPrefs.cpp" line="79"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/prefs/LibraryPrefs.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\prefs\LibraryPrefs.cpp" line="41"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/prefs/QualityPrefs.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\prefs\QualityPrefs.cpp" line="35"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/prefs/RecordingPrefs.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\prefs\RecordingPrefs.cpp" line="39"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/prefs/ThemePrefs.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\prefs\ThemePrefs.cpp" line="53"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/tracks/labeltrack/ui/LabelDefaultClickHandle.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\tracks\labeltrack\ui\LabelDefaultClickHandle.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/tracks/labeltrack/ui/LabelGlyphHandle.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\tracks\labeltrack\ui\LabelGlyphHandle.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/tracks/labeltrack/ui/LabelTextHandle.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\tracks\labeltrack\ui\LabelTextHandle.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/tracks/labeltrack/ui/LabelTrackControls.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\tracks\labeltrack\ui\LabelTrackControls.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/tracks/labeltrack/ui/LabelTrackShifter.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\tracks\labeltrack\ui\LabelTrackShifter.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/tracks/playabletrack/notetrack/ui/NoteTrackAffordanceControls.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\tracks\playabletrack\notetrack\ui\NoteTrackAffordanceControls.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/tracks/playabletrack/notetrack/ui/NoteTrackButtonHandle.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\tracks\playabletrack\notetrack\ui\NoteTrackButtonHandle.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/tracks/playabletrack/notetrack/ui/NoteTrackShifter.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\tracks\playabletrack\notetrack\ui\NoteTrackShifter.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/tracks/playabletrack/notetrack/ui/NoteTrackVRulerControls.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\tracks\playabletrack\notetrack\ui\NoteTrackVRulerControls.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/tracks/playabletrack/notetrack/ui/NoteTrackVZoomHandle.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\tracks\playabletrack\notetrack\ui\NoteTrackVZoomHandle.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/tracks/playabletrack/notetrack/ui/NoteTrackView.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\tracks\playabletrack\notetrack\ui\NoteTrackView.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/tracks/playabletrack/notetrack/ui/StretchHandle.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\tracks\playabletrack\notetrack\ui\StretchHandle.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/tracks/playabletrack/ui/PlayableTrackButtonHandles.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\tracks\playabletrack\ui\PlayableTrackButtonHandles.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/tracks/playabletrack/ui/PlayableTrackControls.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\tracks\playabletrack\ui\PlayableTrackControls.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/tracks/playabletrack/wavetrack/ui/CutlineHandle.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\tracks\playabletrack\wavetrack\ui\CutlineHandle.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/tracks/playabletrack/wavetrack/ui/SampleHandle.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\tracks\playabletrack\wavetrack\ui\SampleHandle.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/tracks/playabletrack/wavetrack/ui/SpectrumVRulerControls.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\tracks\playabletrack\wavetrack\ui\SpectrumVRulerControls.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/tracks/playabletrack/wavetrack/ui/SpectrumVZoomHandle.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\tracks\playabletrack\wavetrack\ui\SpectrumVZoomHandle.cpp" line="0"/>
+        </error>
+        <error id="eraseDereference" severity="error" msg="Invalid iterator &amp;#039;freqBinIter&amp;#039; used." verbose="The iterator &amp;#039;freqBinIter&amp;#039; is invalid before being assigned. Dereferencing or comparing it with another iterator is invalid operation." cwe="664" file0="audacity-master/src/tracks/playabletrack/wavetrack/ui/SpectrumView.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\tracks\playabletrack\wavetrack\ui\SpectrumView.cpp" line="737"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/tracks/playabletrack/wavetrack/ui/SpectrumView.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\tracks\playabletrack\wavetrack\ui\SpectrumView.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveTrackShifter.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\tracks\playabletrack\wavetrack\ui\WaveTrackShifter.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveTrackVRulerControls.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\tracks\playabletrack\wavetrack\ui\WaveTrackVRulerControls.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveTrackVZoomHandle.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\tracks\playabletrack\wavetrack\ui\WaveTrackVZoomHandle.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVRulerControls.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\tracks\playabletrack\wavetrack\ui\WaveformVRulerControls.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\tracks\playabletrack\wavetrack\ui\WaveformVZoomHandle.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformView.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\tracks\playabletrack\wavetrack\ui\WaveformView.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/tracks/timetrack/ui/TimeTrackControls.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\tracks\timetrack\ui\TimeTrackControls.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/tracks/timetrack/ui/TimeTrackVRulerControls.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\tracks\timetrack\ui\TimeTrackVRulerControls.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/tracks/timetrack/ui/TimeTrackVZoomHandle.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\tracks\timetrack\ui\TimeTrackVZoomHandle.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/tracks/timetrack/ui/TimeTrackView.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\tracks\timetrack\ui\TimeTrackView.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/tracks/ui/AffordanceHandle.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\tracks\ui\AffordanceHandle.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/tracks/ui/ButtonHandle.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\tracks\ui\ButtonHandle.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/tracks/ui/CommonTrackView.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\tracks\ui\CommonTrackView.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/tracks/ui/EnvelopeHandle.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\tracks\ui\EnvelopeHandle.cpp" line="0"/>
+        </error>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="audacity-master/src/tracks/ui/SliderHandle.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\tracks\ui\SliderHandle.cpp" line="0"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If DEFINE_EVENT_TYPE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If DEFINE_EVENT_TYPE is a macro then please configure it." file0="audacity-master/src/widgets/Grabber.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\widgets\Grabber.cpp" line="41"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/widgets/Grid.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\widgets\Grid.cpp" line="467"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/widgets/HelpSystem.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\widgets\HelpSystem.cpp" line="432"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/widgets/ImageRoll.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\widgets\ImageRoll.cpp" line="425"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/widgets/MeterPanel.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\widgets\MeterPanel.cpp" line="272"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/widgets/MultiDialog.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\widgets\MultiDialog.cpp" line="69"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If DEFINE_EVENT_TYPE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If DEFINE_EVENT_TYPE is a macro then please configure it." file0="audacity-master/src/widgets/NumericTextCtrl.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\widgets\NumericTextCtrl.cpp" line="1339"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/widgets/ProgressDialog.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\widgets\ProgressDialog.cpp" line="987"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/widgets/Ruler.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\widgets\Ruler.cpp" line="1697"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/widgets/UnwritableLocationErrorDialog.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\widgets\UnwritableLocationErrorDialog.cpp" line="19"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/widgets/Warning.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\widgets\Warning.cpp" line="49"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="audacity-master/src/widgets/auStaticText.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\widgets\auStaticText.cpp" line="23"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_DYNAMIC_CLASS is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If IMPLEMENT_DYNAMIC_CLASS is a macro then please configure it." file0="audacity-master/src/widgets/FileDialog/gtk/FileDialogPrivate.cpp" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\widgets\FileDialog\gtk\FileDialogPrivate.cpp" line="244"/>
+        </error>
+        <error id="ctuOneDefinitionRuleViolation" severity="error" msg="The one definition rule is violated, different classes/structs have the same name &amp;#039;Options&amp;#039;" verbose="The one definition rule is violated, different classes/structs have the same name &amp;#039;Options&amp;#039;" cwe="758" sinceDate="2021. 11. 28.">
+            <location file="audacity-master\src\widgets\Ruler.h" line="234" info=""/>
+            <location file="audacity-master\src\widgets\NumericTextCtrl.h" line="178" info=""/>
+        </error>
+    </errors>
+</results>

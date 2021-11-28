@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="944723423">
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Legacy.cpp:46:13" my-argnr="1" my-argname="f" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Legacy.cpp" line="52" col="13" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Legacy.cpp:46:13" my-argnr="1" my-argname="f" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Legacy.cpp" line="52" col="13" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="ConvertLegacyTrack" lineNumber="46"/>
+    <functiondecl functionName="ConvertLegacyProjectFile" lineNumber="252"/>
+    <functioncall functionName="AUDACITY_VERSION_STRING"/>
+    <functioncall functionName="AudacityMessageBox"/>
+    <functioncall functionName="Close"/>
+    <functioncall functionName="Commit"/>
+    <functioncall functionName="ConvertLegacyTrack"/>
+    <functioncall functionName="EndTag"/>
+    <functioncall functionName="Format"/>
+    <functioncall functionName="GetBackupName"/>
+    <functioncall functionName="GetCurrentLine"/>
+    <functioncall functionName="GetFirstLine"/>
+    <functioncall functionName="GetFullPath"/>
+    <functioncall functionName="GetLine"/>
+    <functioncall functionName="GetLineCount"/>
+    <functioncall functionName="GetNextLine"/>
+    <functioncall functionName="GoToLine"/>
+    <functioncall functionName="GuardedCall"/>
+    <functioncall functionName="IsOpened"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="Open"/>
+    <functioncall functionName="StartTag"/>
+    <functioncall functionName="ToLong"/>
+    <functioncall functionName="Write"/>
+    <functioncall functionName="WriteAttr"/>
+    <functioncall functionName="XO"/>
+    <functioncall functionName="aliasChannel"/>
+    <functioncall functionName="aliasLen"/>
+    <functioncall functionName="aliasPath"/>
+    <functioncall functionName="aliasStart"/>
+    <functioncall functionName="bool"/>
+    <functioncall functionName="channel"/>
+    <functioncall functionName="envLen"/>
+    <functioncall functionName="f"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="label"/>
+    <functioncall functionName="len"/>
+    <functioncall functionName="localLen"/>
+    <functioncall functionName="localName"/>
+    <functioncall functionName="name"/>
+    <functioncall functionName="numBlocks"/>
+    <functioncall functionName="numLabels"/>
+    <functioncall functionName="numSamples"/>
+    <functioncall functionName="start"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="t"/>
+    <functioncall functionName="title"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="wxCENTRE"/>
+    <functioncall functionName="wxDefaultCoord"/>
+    <functioncall functionName="wxT"/>
+    <functioncall functionName="xmlFile"/>
+  </FileInfo>
+</analyzerinfo>

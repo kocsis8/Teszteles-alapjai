@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1627281743">
+        <error id="CastIntegerToAddressAtReturn" severity="portability" msg="Returning an integer in a function with pointer return type is not portable." verbose="Returning an integer (int/long/etc) in a function with pointer return type is not portable across different platforms and compilers. For example in 32-bit Windows and Linux they are same width, but in 64-bit Windows and Linux they are of different width. In worst case you end up casting 64-bit integer down to 32-bit pointer. The safe way is to always return a pointer." cwe="758" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/KeyboardCapture.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\KeyboardCapture.cpp" line="67" column="4"/>
+        </error>
+        <error id="rethrowNoCurrentException" severity="error" msg="Rethrowing current exception with &apos;throw;&apos;, it seems there is no current exception to rethrow. If there is no current exception this calls std::terminate(). More: https://isocpp.org/wiki/faq/exceptions#throw-without-an-object" verbose="Rethrowing current exception with &apos;throw;&apos;, it seems there is no current exception to rethrow. If there is no current exception this calls std::terminate(). More: https://isocpp.org/wiki/faq/exceptions#throw-without-an-object" cwe="480" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/KeyboardCapture.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\KeyboardCapture.cpp" line="251" column="13"/>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;pEx&apos; can be declared with const" verbose="Parameter &apos;pEx&apos; can be declared with const" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/KeyboardCapture.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\KeyboardCapture.cpp" line="247" column="29" info="Parameter &apos;pEx&apos; can be declared with const"/>
+            <symbol>pEx</symbol>
+        </error>
+  <FileInfo check="Class">
+<class name="EventMonitor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/KeyboardCapture.cpp" line="109" col="8" hash="1241243529746676168"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="EventMonitor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/KeyboardCapture.cpp" line="109" col="8" hash="11455267631788728464"/>
+  </FileInfo>
+        <error id="syntaxError" severity="error" msg="syntax error: =[...];" verbose="syntax error: =[...];" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/KeyboardCapture.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\KeyboardCapture.cpp" line="125" column="16"/>
+        </error>
+  <FileInfo check="Class">
+<class name="EventMonitor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/KeyboardCapture.cpp" line="109" col="8" hash="10369884049838794066"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="sHandler" lineNumber="38"/>
+    <functiondecl functionName="sPreFilter" lineNumber="43"/>
+    <functiondecl functionName="sPostFilter" lineNumber="48"/>
+    <functiondecl functionName="IsHandler" lineNumber="60"/>
+    <functiondecl functionName="GetHandler" lineNumber="65"/>
+    <functiondecl functionName="Capture" lineNumber="70"/>
+    <functiondecl functionName="Release" lineNumber="75"/>
+    <functiondecl functionName="SetPreFilter" lineNumber="81"/>
+    <functiondecl functionName="SetPostFilter" lineNumber="88"/>
+    <functiondecl functionName="OnFocus" lineNumber="95"/>
+    <functiondecl functionName="FilterEvent" lineNumber="181"/>
+    <functiondecl functionName="HandleCapture" lineNumber="262"/>
+    <functiondecl functionName="GetUnicodeString" lineNumber="332"/>
+    <functiondecl functionName="sHandler" lineNumber="38"/>
+    <functiondecl functionName="sPreFilter" lineNumber="43"/>
+    <functiondecl functionName="sPostFilter" lineNumber="48"/>
+    <functiondecl functionName="IsHandler" lineNumber="60"/>
+    <functiondecl functionName="GetHandler" lineNumber="65"/>
+    <functiondecl functionName="Capture" lineNumber="70"/>
+    <functiondecl functionName="Release" lineNumber="75"/>
+    <functiondecl functionName="SetPreFilter" lineNumber="81"/>
+    <functiondecl functionName="SetPostFilter" lineNumber="88"/>
+    <functiondecl functionName="OnFocus" lineNumber="95"/>
+    <functiondecl functionName="FilterEvent" lineNumber="181"/>
+    <functiondecl functionName="HandleCapture" lineNumber="262"/>
+    <functiondecl functionName="GetUnicodeString" lineNumber="332"/>
+    <functiondecl functionName="sHandler" lineNumber="38"/>
+    <functiondecl functionName="sPreFilter" lineNumber="43"/>
+    <functiondecl functionName="sPostFilter" lineNumber="48"/>
+    <functiondecl functionName="IsHandler" lineNumber="60"/>
+    <functiondecl functionName="GetHandler" lineNumber="65"/>
+    <functiondecl functionName="Capture" lineNumber="70"/>
+    <functiondecl functionName="Release" lineNumber="75"/>
+    <functiondecl functionName="SetPreFilter" lineNumber="81"/>
+    <functiondecl functionName="SetPostFilter" lineNumber="88"/>
+    <functiondecl functionName="OnFocus" lineNumber="95"/>
+    <functiondecl functionName="FilterEvent" lineNumber="181"/>
+    <functiondecl functionName="HandleCapture" lineNumber="262"/>
+    <functiondecl functionName="GetUnicodeString" lineNumber="332"/>
+    <functioncall functionName="AUDACITY_DLL_API"/>
+    <functioncall functionName="AddFilter"/>
+    <functioncall functionName="Append"/>
+    <functioncall functionName="Capture"/>
+    <functioncall functionName="DEFINE_EVENT_TYPE"/>
+    <functioncall functionName="EVT_CAPTURE_KEY"/>
+    <functioncall functionName="FindFocus"/>
+    <functioncall functionName="GetEventHandler"/>
+    <functioncall functionName="GetEventType"/>
+    <functioncall functionName="GetHandler"/>
+    <functioncall functionName="GetKeyboardState"/>
+    <functioncall functionName="GetModifiers"/>
+    <functioncall functionName="GetRawKeyCode"/>
+    <functioncall functionName="GetUnicodeString"/>
+    <functioncall functionName="GuardedCall"/>
+    <functioncall functionName="HandleCapture"/>
+    <functioncall functionName="OnExceptionInMainLoop"/>
+    <functioncall functionName="ProcessEvent"/>
+    <functioncall functionName="Refresh"/>
+    <functioncall functionName="Release"/>
+    <functioncall functionName="RemoveFilter"/>
+    <functioncall functionName="SetAltDown"/>
+    <functioncall functionName="SetControlDown"/>
+    <functioncall functionName="SetEventObject"/>
+    <functioncall functionName="SetEventType"/>
+    <functioncall functionName="Skip"/>
+    <functioncall functionName="StopPropagation"/>
+    <functioncall functionName="ToUnicode"/>
+    <functioncall functionName="WasProcessed"/>
+    <functioncall functionName="auto"/>
+    <functioncall functionName="bool"/>
+    <functioncall functionName="e"/>
+    <functioncall functionName="event"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="function"/>
+    <functioncall functionName="gdk_keyval_to_unicode"/>
+    <functioncall functionName="handler"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="key"/>
+    <functioncall functionName="keyDown"/>
+    <functioncall functionName="ks"/>
+    <functioncall functionName="length"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="onlyChar"/>
+    <functioncall functionName="onlyDown"/>
+    <functioncall functionName="pEx"/>
+    <functioncall functionName="private:"/>
+    <functioncall functionName="res"/>
+    <functioncall functionName="sHandler"/>
+    <functioncall functionName="sPostFilter"/>
+    <functioncall functionName="sPreFilter"/>
+    <functioncall functionName="static_cast"/>
+    <functioncall functionName="target"/>
+    <functioncall functionName="temp"/>
+    <functioncall functionName="this"/>
+    <functioncall functionName="throw"/>
+    <functioncall functionName="ucode"/>
+    <functioncall functionName="window"/>
+    <functioncall functionName="wxChar"/>
+    <functioncall functionName="wxEVT_CHAR"/>
+    <functioncall functionName="wxEVT_KEY_DOWN"/>
+    <functioncall functionName="wxEventFilter"/>
+    <functioncall functionName="wxGetTopLevelParent"/>
+    <functioncall functionName="wxKeyEvent"/>
+    <functioncall functionName="wxMOD_ALT"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,80 @@
+GetNumChannels
+GetMaxNumChannels
+GetNumTracks
+TotalCorrection
+PlaybackSlice
+ReversedTime
+GetTrackTime call:[load] noreturn:[load]
+SetTrackTime call:[store] noreturn:[store]
+ResetMode call:[store] noreturn:[store]
+EnvPoint
+EnvPoint
+GetT
+SetT
+GetVal
+HandleXMLTag call:[Get,GetT,GetVal,SetT,SetVal] noreturn:[SetT,SetVal]
+HandleXMLChild
+GetOffset
+GetTrackLen
+GetExponential
+SetExponential
+GetMinValue
+GetMaxValue
+ClampValue call:[max,min] noreturn:[max]
+Clear call:[clear] noreturn:[clear]
+InsertOrReplace call:[InsertOrReplaceRelative] noreturn:[InsertOrReplaceRelative]
+operator[]
+GetDragPoint
+GetDragPointValid
+SetVal call:[ClampValue] noreturn:[ClampValue]
+GetRangeLower
+GetRangeUpper
+SetRangeLower
+SetRangeUpper
+Initialize
+Finalize
+MixerWarpOptions
+SuggestedBufferTimes
+AllowSeek
+Done call:[GetTrackTime,ReversedTime,floor,sampleCount]
+OffsetTrackTime call:[GetTrackTime,RealTimeInit]
+SleepInterval
+GetPlaybackSlice global:[TimeQueueGrainSize] call:[RealTimeAdvance,RealTimeRemaining,min] noreturn:[RealTimeAdvance]
+AdvancedTrackTime call:[ReversedTime,SolveWarpedLength,infinity] noreturn:[SolveWarpedLength]
+RepositionPlayback
+Looping
+GetPolicy call:[load]
+GetPolicy call:[GetPolicy] noreturn:[GetPolicy]
+NewDefaultPlaybackPolicy
+Initialize call:[Initialize,Write] noreturn:[Write]
+SuggestedBufferTimes
+RevertToOldDefault call:[GetLastTime]
+Done call:[Done,RevertToOldDefault] noreturn:[Done]
+GetPlaybackSlice call:[GetPlaybackSlice,RealTimeAdvance,RealTimeRemaining,RevertToOldDefault,max] noreturn:[GetPlaybackSlice,RealTimeAdvance]
+AdvancedTrackTime call:[AdvancedTrackTime,ReversedTime,RevertToOldDefault,SolveWarpedLength,fabs,min] noreturn:[AdvancedTrackTime,SolveWarpedLength]
+RepositionPlayback call:[GetLastTime,Read,RealDuration,RealTimeInit,RealTimeRemaining,RealTimeRestart,Reposition,RepositionPlayback,RevertToOldDefault,SetLastTime,SetTimesAndSpeed,max,tie] noreturn:[RealTimeRestart,Reposition,RepositionPlayback,SetTimesAndSpeed,max]
+Looping
+Init call:[Initialize,RealDuration,SetTrackTime,policyFactory,reset,store] noreturn:[Initialize,policyFactory]
+ComputeWarpedLength call:[IntegralOfInverse] noreturn:[IntegralOfInverse]
+SolveWarpedLength call:[SolveIntegralOfInverse] noreturn:[SolveIntegralOfInverse]
+RealDuration call:[RealDurationSigned,fabs] noreturn:[fabs]
+RealDurationSigned call:[ComputeWarpedLength] noreturn:[ComputeWarpedLength]
+RealTimeRemaining
+RealTimeAdvance
+RealTimeInit call:[RealDurationSigned] noreturn:[RealDurationSigned]
+RealTimeRestart
+ToConsume call:[Consumed] noreturn:[Consumed]
+Consumed call:[TotalCorrection,max] noreturn:[max]
+ToDiscard call:[TotalCorrection,max] noreturn:[max]
+Clear
+Resize call:[resize] noreturn:[resize]
+Producer global:[TimeQueueGrainSize] call:[AdvancedTrackTime,GetPolicy,empty,isfinite,size]
+GetLastTime
+SetLastTime
+Consumer global:[TimeQueueGrainSize] call:[empty,return,size] noreturn:[return]
+Prime call:[empty]
+MessageProducer call:[Active,GetEnd,GetStart,Write,get] noreturn:[Write]
+Initialize call:[exchange,store] noreturn:[exchange]
+Read call:[exchange,load,move,store,while] noreturn:[exchange]
+Write call:[exchange,load,store,while] noreturn:[exchange,store]
+Write call:[exchange,load,move,store,while] noreturn:[exchange,store]

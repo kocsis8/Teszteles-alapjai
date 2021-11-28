@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2642775931">
+        <error id="constVariable" severity="style" msg="Variable &apos;factory&apos; can be declared with const" verbose="Variable &apos;factory&apos; can be declared with const" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/SampleBlock.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\SampleBlock.cpp" line="33" column="10" info="Variable &apos;factory&apos; can be declared with const"/>
+            <symbol>factory</symbol>
+        </error>
+  <FileInfo check="Class">
+<class name="MinMaxRMS" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/SampleBlock.h" line="33" col="1" hash="14239959713600773666"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="installedFactory" lineNumber="16"/>
+    <functiondecl functionName="RegisterFactoryFactory" lineNumber="22"/>
+    <functiondecl functionName="New" lineNumber="31"/>
+    <functiondecl functionName="Create" lineNumber="41"/>
+    <functiondecl functionName="CreateSilent" lineNumber="51"/>
+    <functiondecl functionName="CreateFromXML" lineNumber="61"/>
+    <functiondecl functionName="GetSamples" lineNumber="73"/>
+    <functiondecl functionName="GetMinMaxRMS" lineNumber="87"/>
+    <functiondecl functionName="GetMinMaxRMS" lineNumber="98"/>
+    <functioncall functionName="ClearSamples"/>
+    <functioncall functionName="DoCreate"/>
+    <functioncall functionName="DoCreateFromXML"/>
+    <functioncall functionName="DoCreateSilent"/>
+    <functioncall functionName="DoGetMinMaxRMS"/>
+    <functioncall functionName="DoGetSamples"/>
+    <functioncall functionName="GetSpaceUsage"/>
+    <functioncall functionName="SampleBlock"/>
+    <functioncall functionName="SampleBlockFactory"/>
+    <functioncall functionName="THROW_INCONSISTENCY_EXCEPTION"/>
+    <functioncall functionName="attrs"/>
+    <functioncall functionName="catch"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="dest"/>
+    <functioncall functionName="destformat"/>
+    <functioncall functionName="factory"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="installedFactory"/>
+    <functioncall functionName="len"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="mayThrow"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="newFactory"/>
+    <functioncall functionName="numsamples"/>
+    <functioncall functionName="project"/>
+    <functioncall functionName="result"/>
+    <functioncall functionName="sampleoffset"/>
+    <functioncall functionName="shared_ptr"/>
+    <functioncall functionName="src"/>
+    <functioncall functionName="srcformat"/>
+    <functioncall functionName="start"/>
+    <functioncall functionName="theFactory"/>
+    <functioncall functionName="throw"/>
+    <functioncall functionName="total"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="void"/>
+  </FileInfo>
+</analyzerinfo>

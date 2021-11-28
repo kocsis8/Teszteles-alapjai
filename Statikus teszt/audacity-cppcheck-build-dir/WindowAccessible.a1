@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="755310846">
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;WindowAccessible&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;WindowAccessible&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/WindowAccessible.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\WindowAccessible.h" line="24" column="4"/>
+            <symbol>WindowAccessible</symbol>
+        </error>
+  <FileInfo check="Class">
+<class name="WindowAccessible" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/WindowAccessible.h" line="21" col="1" hash="14547861636330202181"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="GetName" lineNumber="30"/>
+    <functioncall functionName="ClientToScreen"/>
+    <functioncall functionName="FindFocus"/>
+    <functioncall functionName="GetMax"/>
+    <functioncall functionName="GetMin"/>
+    <functioncall functionName="GetName"/>
+    <functioncall functionName="GetParent"/>
+    <functioncall functionName="GetPosition"/>
+    <functioncall functionName="GetRect"/>
+    <functioncall functionName="GetValue"/>
+    <functioncall functionName="GetWindow"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="Printf"/>
+    <functioncall functionName="SetAccessible"/>
+    <functioncall functionName="SetPosition"/>
+    <functioncall functionName="SliderAx"/>
+    <functioncall functionName="Translation"/>
+    <functioncall functionName="WindowAccessible"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="childId"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="elementId"/>
+    <functioncall functionName="fmt"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="selections"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="this"/>
+    <functioncall functionName="win"/>
+    <functioncall functionName="window"/>
+    <functioncall functionName="wxACC_FAIL"/>
+    <functioncall functionName="wxACC_STATE_SYSTEM_FOCUSABLE"/>
+    <functioncall functionName="wxACC_STATE_SYSTEM_FOCUSED"/>
+    <functioncall functionName="wxACC_STATE_SYSTEM_INVISIBLE"/>
+    <functioncall functionName="wxAccessible"/>
+    <functioncall functionName="wxCHECK"/>
+    <functioncall functionName="wxDynamicCast"/>
+    <functioncall functionName="wxROLE_SYSTEM_INDICATOR"/>
+    <functioncall functionName="wxROLE_SYSTEM_PUSHBUTTON"/>
+    <functioncall functionName="wxROLE_SYSTEM_SLIDER"/>
+    <functioncall functionName="wxSlider"/>
+  </FileInfo>
+</analyzerinfo>

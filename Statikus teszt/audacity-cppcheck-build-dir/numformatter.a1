@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="396891516">
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/numformatter.h:89:16" call-funcname="RemoveTrailingZeroes" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/numformatter.cpp" line="166" col="33" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Class">
+<class name="NumberFormatter" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/numformatter.h" line="27" col="1" hash="5395774806662582593"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/numformatter.h:89:16" call-funcname="RemoveTrailingZeroes" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/numformatter.cpp" line="166" col="33" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Class">
+<class name="NumberFormatter" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/numformatter.h" line="27" col="1" hash="7304515306310728402"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="GetDecimalSeparator" lineNumber="56"/>
+    <functiondecl functionName="GetThousandsSeparatorIfUsed" lineNumber="74"/>
+    <functiondecl functionName="PostProcessIntString" lineNumber="97"/>
+    <functiondecl functionName="ToString" lineNumber="116"/>
+    <functiondecl functionName="ToString" lineNumber="123"/>
+    <functiondecl functionName="ToString" lineNumber="131"/>
+    <functiondecl functionName="AddThousandsSeparators" lineNumber="180"/>
+    <functiondecl functionName="RemoveTrailingZeroes" lineNumber="211"/>
+    <functiondecl functionName="RemoveThousandsSeparators" lineNumber="235"/>
+    <functiondecl functionName="FromString" lineNumber="244"/>
+    <functiondecl functionName="FromString" lineNumber="253"/>
+    <functiondecl functionName="FromString" lineNumber="263"/>
+    <functiondecl functionName="GetDecimalSeparator" lineNumber="56"/>
+    <functiondecl functionName="GetThousandsSeparatorIfUsed" lineNumber="74"/>
+    <functiondecl functionName="PostProcessIntString" lineNumber="97"/>
+    <functiondecl functionName="ToString" lineNumber="116"/>
+    <functiondecl functionName="ToString" lineNumber="123"/>
+    <functiondecl functionName="ToString" lineNumber="131"/>
+    <functiondecl functionName="AddThousandsSeparators" lineNumber="180"/>
+    <functiondecl functionName="RemoveTrailingZeroes" lineNumber="211"/>
+    <functiondecl functionName="RemoveThousandsSeparators" lineNumber="235"/>
+    <functiondecl functionName="FromString" lineNumber="244"/>
+    <functiondecl functionName="FromString" lineNumber="253"/>
+    <functiondecl functionName="FromString" lineNumber="263"/>
+    <functioncall functionName="AddThousandsSeparators"/>
+    <functioncall functionName="Format"/>
+    <functioncall functionName="FromUTF8"/>
+    <functioncall functionName="GROUP_LEN"/>
+    <functioncall functionName="GetDecimalSeparator"/>
+    <functioncall functionName="GetThousandsSeparatorIfUsed"/>
+    <functioncall functionName="PostProcessIntString"/>
+    <functioncall functionName="Printf"/>
+    <functioncall functionName="RemoveThousandsSeparators"/>
+    <functioncall functionName="RemoveTrailingZeroes"/>
+    <functioncall functionName="Replace"/>
+    <functioncall functionName="Style_WithThousandsSep"/>
+    <functioncall functionName="ToDouble"/>
+    <functioncall functionName="ToLong"/>
+    <functioncall functionName="ToLongLong"/>
+    <functioncall functionName="_"/>
+    <functioncall functionName="decimal_point"/>
+    <functioncall functionName="double"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="find_first_of"/>
+    <functioncall functionName="find_last_not_of"/>
+    <functioncall functionName="format"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="infinity"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="isinf"/>
+    <functioncall functionName="isnan"/>
+    <functioncall functionName="length"/>
+    <functioncall functionName="localeconv"/>
+    <functioncall functionName="pos"/>
+    <functioncall functionName="posDecSep"/>
+    <functioncall functionName="precision"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="s"/>
+    <functioncall functionName="sArg"/>
+    <functioncall functionName="sep"/>
+    <functioncall functionName="style"/>
+    <functioncall functionName="thousandsSep"/>
+    <functioncall functionName="thousands_sep"/>
+    <functioncall functionName="val"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="wxASSERT_MSG"/>
+    <functioncall functionName="wxCHECK_RET"/>
+    <functioncall functionName="wxString"/>
+    <functioncall functionName="wxT"/>
+    <functioncall functionName="wxUnusedVar"/>
+  </FileInfo>
+</analyzerinfo>

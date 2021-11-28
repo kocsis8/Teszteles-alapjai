@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="196134579">
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;SpecPowerCalculation&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;SpecPowerCalculation&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/SpecPowerMeter.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\SpecPowerMeter.h" line="28" column="4"/>
+            <symbol>SpecPowerCalculation</symbol>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;sig_f_i&apos; can be declared with const" verbose="Parameter &apos;sig_f_i&apos; can be declared with const" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/SpecPowerMeter.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\SpecPowerMeter.cpp" line="61" column="65" info="Parameter &apos;sig_f_i&apos; can be declared with const"/>
+            <symbol>sig_f_i</symbol>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;sig_f_r&apos; can be declared with const" verbose="Parameter &apos;sig_f_r&apos; can be declared with const" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/SpecPowerMeter.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\SpecPowerMeter.cpp" line="61" column="49" info="Parameter &apos;sig_f_r&apos; can be declared with const"/>
+            <symbol>sig_f_r</symbol>
+        </error>
+  <FileInfo check="Class">
+<class name="SpecPowerCalculation" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/SpecPowerMeter.h" line="17" col="1" hash="14048779859820692588"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="CalcPower" lineNumber="39"/>
+    <functiondecl functionName="CalcBinPower" lineNumber="61"/>
+    <functiondecl functionName="Freq2Bin" lineNumber="73"/>
+    <functioncall functionName="CalcBinPower"/>
+    <functioncall functionName="FFT"/>
+    <functioncall functionName="Freq2Bin"/>
+    <functioncall functionName="SpecPowerCalculation"/>
+    <functioncall functionName="double"/>
+    <functioncall functionName="floor"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="hiBin"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="loBin"/>
+    <functioncall functionName="mSigLen"/>
+    <functioncall functionName="n"/>
+    <functioncall functionName="sig"/>
+    <functioncall functionName="sigLen"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+</analyzerinfo>

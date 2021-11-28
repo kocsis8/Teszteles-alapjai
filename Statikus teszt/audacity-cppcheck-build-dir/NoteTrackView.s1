@@ -1,0 +1,11 @@
+MaximizeWidth
+MaximizeHeight
+ContextMenuDelegate
+CommonTrackPanelCell
+FindTrack call:[DoFindTrack] noreturn:[DoFindTrack]
+FindTrack call:[DoFindTrack] noreturn:[DoFindTrack]
+MenuItem
+GetMinimized
+GetCumulativeHeightBefore
+GetExpandedHeight
+SetCumulativeHeightBefore call:[DoSetY] noreturn:[DoSetY]

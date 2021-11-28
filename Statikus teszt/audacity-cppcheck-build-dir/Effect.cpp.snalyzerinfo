@@ -1,0 +1,508 @@
+operator==
+operator!=
+CompatibleTrackKinds call:[return]
+value
+value call:[value] noreturn:[value]
+TrackId
+TrackId
+operator==
+operator!=
+operator<
+ConstTrackInterval call:[wxASSERT] noreturn:[wxASSERT]
+Start
+End
+Extra call:[get] noreturn:[get]
+Extra call:[get] noreturn:[get]
+GetId
+SetId
+SharedPointer call:[shared_from_this]
+SharedPointer call:[shared_from_this]
+SharedPointer
+SharedPointer
+HasOwner call:[GetOwner]
+GetOwner call:[lock] noreturn:[lock]
+GetName
+GetDefaultName
+SetDefaultName
+GetSelected
+GetChannel
+Offset call:[GetOffset,SetOffset] noreturn:[SetOffset]
+SetOffset
+SetPan
+SetPanFromChannelType
+GetKind
+SameKindAs call:[GetKind] noreturn:[GetKind]
+operator()
+operator() call:[function] noreturn:[function]
+operator() call:[function] noreturn:[function]
+operator()
+operator()
+TypeSwitch call:[GetKind,sizeof...,static_assert]
+TypeSwitch call:[GetKind,sizeof...,static_assert]
+GetErrorOpening
+AudioTrack
+AudioTrack
+WriteXMLAttributes
+HandleXMLAttribute
+PlayableTrack
+PlayableTrack
+GetMute
+GetSolo
+GetNotMute
+GetNotSolo
+track_cast call:[CompatibleTrackKinds,GetKind,track_kind < BareType >]
+TrackListEvent
+Clone call:[TrackListEvent] noreturn:[TrackListEvent]
+GetOwner
+GetOwner
+begin call:[Any,begin] noreturn:[begin]
+end call:[Any,end] noreturn:[end]
+begin call:[Any,begin] noreturn:[begin]
+end call:[Any,end] noreturn:[end]
+cbegin call:[begin] noreturn:[begin]
+cend call:[end] noreturn:[end]
+Find call:[GetNode,GetOwner,get]
+Find call:[GetNode,GetOwner,get]
+FindLeader call:[Filter < const Track >,FindLeader] noreturn:[Filter < const Track >]
+Any
+Any
+Selected
+Selected
+Leaders
+Leaders
+SelectedLeaders
+SelectedLeaders
+SingletonRange call:[EndingAfter,GetOwner,StartingWith] noreturn:[EndingAfter]
+SyncLockGroup call:[Filter < const Track >,SyncLockGroup] noreturn:[Filter < const Track >]
+Channels_ call:[Filter]
+Channels call:[FindLeader,GetOwner]
+AddToHead call:[DoAddToHead]
+Add call:[DoAdd]
+Move call:[MoveDown,MoveUp] noreturn:[MoveDown]
+Lock call:[get,lock]
+Tracks call:[getBegin,getEnd]
+Tracks call:[getBegin,getEnd]
+MakeTrackIterator call:[getBegin,getEnd]
+EndIterator call:[getEnd]
+isNull call:[end,return]
+getEnd call:[end]
+getBegin call:[begin]
+getNext call:[isNull]
+getPrev call:[getBegin,getEnd] noreturn:[getEnd]
+wxPanelWrapper
+wxPanelWrapper
+Create call:[Create,Translation] noreturn:[Create]
+wxDialogWrapper
+wxDialogWrapper
+Create call:[Create,Translation] noreturn:[Create]
+wxDirDialogWrapper
+Create call:[Create,Translation] noreturn:[Create]
+FileDialogBase
+SetFileExtension
+FileDialogWrapper
+FileDialogWrapper
+Create call:[Create,FormatWildcard,Translation] noreturn:[Create]
+AudacityMessageDialog
+SetPresetParameters
+IncEffectCounter
+CheckWhetherSkipEffect
+GetNumWaveTracks
+GetNumWaveGroups
+IsPreviewing
+AddedAnalysisTrack
+get
+get
+inputTracks
+TrapFloat
+TrapDouble
+TrapLong
+ShiftTimeWarper
+ShiftTimeWarper
+LinearTimeWarper
+RegionTimeWarper
+RegionTimeWarper
+Warp call:[Warp] noreturn:[Warp]
+GetNumChannels
+GetMaxNumChannels
+GetNumTracks
+TotalCorrection
+PlaybackSlice
+ReversedTime
+GetTrackTime call:[load] noreturn:[load]
+SetTrackTime call:[store] noreturn:[store]
+ResetMode call:[store] noreturn:[store]
+AudioIOExtIterator
+operator++
+operator==
+operator!=
+begin
+end
+Extensions
+GetListener call:[lock] noreturn:[lock]
+SetRecordingException call:[wxAtomicInc] noreturn:[wxAtomicInc]
+ClearRecordingException call:[wxAtomicDec] noreturn:[wxAtomicDec]
+LostCaptureIntervals
+SeekStream
+GetLastPlaybackTime
+GetOwningProject call:[lock] noreturn:[lock]
+GetCaptureFormat
+GetNumPlaybackChannels
+GetNumCaptureChannels
+getSelectedRegion
+getDuration call:[duration] noreturn:[duration]
+getT0 call:[t0] noreturn:[t0]
+getT1 call:[t1] noreturn:[t1]
+GetLabels
+IntervalData
+GetKind
+LabelTrackEvent
+Clone call:[LabelTrackEvent] noreturn:[LabelTrackEvent]
+operator!= call:[end] noreturn:[end]
+operator*
+begin
+end
+AllPlugins
+PluginsOfType
+EffectsOfType
+AudioIOListener
+AudioIOListener
+IsTimerRecordCancelled
+SetTimerRecordCancelled
+ResetTimerRecordCancelled
+Paused
+Stopping
+Appending
+Looping
+Cutting
+GetLastPlayMode
+SetPaused
+SetAppending
+SetLooping
+SetCutting
+SetStopping
+CommandFlagOptions
+IsOk call:[empty] noreturn:[empty]
+Project
+GetTracksFitVerticallyZoomed
+SetTracksFitVerticallyZoomed
+GetShowId3Dialog
+SetShowId3Dialog
+GetTool
+SetBrushRadius
+GetBrushRadius
+SetSmartSelection
+IsSmartSelection
+SetOvertones
+IsOvertones
+GetPlaySpeed call:[load] noreturn:[load]
+SetPlaySpeed call:[store] noreturn:[store]
+IsSoloSimple call:[wxT] noreturn:[wxT]
+IsSoloNone call:[wxT] noreturn:[wxT]
+EmptyCanBeDirty
+GetShowSplashScreen
+WrappedType
+WrappedType
+WrappedType
+WrappedType
+WrappedType
+ConnectRoot call:[move,push_back,void] noreturn:[move]
+ListControlColumn
+StartTwoColumn call:[StartMultiColumn] noreturn:[StartMultiColumn]
+EndTwoColumn call:[EndMultiColumn] noreturn:[EndMultiColumn]
+StartThreeColumn call:[StartMultiColumn] noreturn:[StartMultiColumn]
+EndThreeColumn call:[EndMultiColumn] noreturn:[EndMultiColumn]
+SetBorder
+SetSizerProportion
+GetParent call:[wxASSERT]
+GetSizer
+Focus call:[Focus,move]
+Disable call:[Disable,move]
+ToolTip call:[ToolTip,move]
+Name call:[Name,move]
+NameSuffix call:[NameSuffix,move]
+Validator call:[GetMode,Validator,move] noreturn:[Validator]
+Validator call:[GetMode,move]
+ConnectRoot call:[ConnectRoot,move]
+Position call:[Position,move]
+Size call:[Size,move]
+Prop call:[Prop]
+Style call:[Style,move]
+MinSize call:[MinSize,move]
+MinSize call:[MinSize,move]
+AddSpace call:[AddSpace] noreturn:[AddSpace]
+GetMode
+Shuttle
+ShuttleCli
+ShuttleCli
+ShuttleParams
+ShuttleParams
+Optional
+OptionalY call:[Optional] noreturn:[Optional]
+OptionalN call:[Optional] noreturn:[Optional]
+ShuttleSetAutomation
+SetForValidating
+SetForWriting
+Optional
+OptionalY
+OptionalN
+Define
+Define
+Define
+Define
+Define
+Define
+Define
+DefineEnum
+WaveTrackLocation
+operator==
+operator!=
+Region
+Region
+operator<
+GetWaveColorIndex
+GetSampleFormat
+GetFloats call:[Get] noreturn:[Get]
+GetClips
+GetClips
+AllClipsIterator
+AllClipsIterator call:[push] noreturn:[push]
+operator* call:[back,empty,get] noreturn:[get]
+operator== call:[empty] noreturn:[empty]
+operator!=
+AllClipsConstIterator
+AllClipsConstIterator
+operator*
+operator++
+operator==
+operator!=
+GetAllClips
+GetAllClips
+GetCachedLocations
+GetLastScaleType
+GetLastdBRange
+IntervalData
+GetClip
+GetClip
+GetKind
+WaveTrackCache
+WaveTrackCache call:[SetTrack] noreturn:[SetTrack]
+GetTrack
+Buffer
+Free call:[reset]
+end
+swap call:[swap] noreturn:[swap]
+GetSampleBlockFactory
+MaximizeWidth
+MaximizeHeight
+ContextMenuDelegate
+CommonTrackPanelCell
+FindTrack call:[DoFindTrack] noreturn:[DoFindTrack]
+FindTrack call:[DoFindTrack] noreturn:[DoFindTrack]
+MenuItem
+GetMinimized
+GetCumulativeHeightBefore
+GetExpandedHeight
+SetCumulativeHeightBefore call:[DoSetY] noreturn:[DoSetY]
+SavePlacements
+RestorePlacements
+GetLastHeight
+GetMultiView
+SetMultiView
+operator<
+operator==
+FormatStrings
+operator==
+operator!=
+Options
+AutoPos
+ReadOnly
+MenuEnabled
+InvalidValue
+Format
+Value
+GetDimensions call:[wxSize] noreturn:[wxSize]
+GetDigitSize call:[wxSize] noreturn:[wxSize]
+GetFocusedField
+GetFocusedDigit
+GetVetoDialogHook
+SetVetoDialogHook call:[GetVetoDialogHook]
+Effect call:[ReadWithDefault]
+Effect call:[Close] noreturn:[Close]
+GetType call:[GetType] noreturn:[GetType]
+GetPath call:[GetPath,GetSymbol,Internal,wxT] noreturn:[GetPath,Internal]
+GetSymbol call:[GetSymbol] noreturn:[GetSymbol]
+GetVendor call:[GetVendor,XO] noreturn:[GetVendor,XO]
+GetVersion call:[GetVersion] noreturn:[GetVersion]
+GetDescription call:[GetDescription] noreturn:[GetDescription]
+GetFamily call:[GetFamily,XO,wxT] noreturn:[GetFamily]
+IsInteractive call:[IsInteractive] noreturn:[IsInteractive]
+IsDefault call:[IsDefault] noreturn:[IsDefault]
+IsLegacy
+SupportsRealtime call:[SupportsRealtime] noreturn:[SupportsRealtime]
+SupportsAutomation call:[SupportsAutomation] noreturn:[SupportsAutomation]
+SetHost call:[SetHost] noreturn:[SetHost]
+GetAudioInCount call:[GetAudioInCount] noreturn:[GetAudioInCount]
+GetAudioOutCount call:[GetAudioOutCount] noreturn:[GetAudioOutCount]
+GetMidiInCount call:[GetMidiInCount] noreturn:[GetMidiInCount]
+GetMidiOutCount call:[GetMidiOutCount] noreturn:[GetMidiOutCount]
+SetSampleRate call:[SetSampleRate] noreturn:[SetSampleRate]
+SetBlockSize call:[SetBlockSize] noreturn:[SetBlockSize]
+GetBlockSize call:[GetBlockSize] noreturn:[GetBlockSize]
+GetLatency call:[GetLatency] noreturn:[GetLatency]
+GetTailSize call:[GetTailSize] noreturn:[GetTailSize]
+IsReady call:[IsReady] noreturn:[IsReady]
+ProcessInitialize call:[ProcessInitialize] noreturn:[ProcessInitialize]
+ProcessFinalize call:[ProcessFinalize] noreturn:[ProcessFinalize]
+ProcessBlock call:[ProcessBlock] noreturn:[ProcessBlock]
+RealtimeInitialize call:[RealtimeInitialize,SetBlockSize] noreturn:[RealtimeInitialize]
+RealtimeAddProcessor call:[RealtimeAddProcessor] noreturn:[RealtimeAddProcessor]
+RealtimeFinalize call:[RealtimeFinalize] noreturn:[RealtimeFinalize]
+RealtimeSuspend call:[RealtimeSuspend] noreturn:[RealtimeSuspend]
+RealtimeResume call:[RealtimeResume] noreturn:[RealtimeResume]
+RealtimeProcessStart call:[RealtimeProcessStart] noreturn:[RealtimeProcessStart]
+RealtimeProcess call:[RealtimeProcess] noreturn:[RealtimeProcess]
+RealtimeProcessEnd call:[RealtimeProcessEnd] noreturn:[RealtimeProcessEnd]
+ShowClientInterface call:[Fit,GetSize,GetVetoDialogHook,Layout,SetMinSize,Show,ShowModal,SupportsRealtime,hook] noreturn:[ShowModal]
+ShowHostInterface call:[Close,IsInteractive,IsShown,ShowClientInterface,factory,reset] noreturn:[reset]
+GetAutomationParameters call:[GetAutomationParameters] noreturn:[GetAutomationParameters]
+SetAutomationParameters call:[SetAutomationParameters] noreturn:[SetAutomationParameters]
+LoadUserPreset call:[GetConfig,GetDefinition,LoadUserPreset,SetAutomationParameters,wxT] noreturn:[LoadUserPreset,SetAutomationParameters]
+SaveUserPreset call:[GetAutomationParameters,GetDefinition,SaveUserPreset,SetConfig,wxT] noreturn:[SaveUserPreset,SetConfig]
+GetFactoryPresets call:[GetFactoryPresets] noreturn:[GetFactoryPresets]
+LoadFactoryPreset call:[LoadFactoryPreset] noreturn:[LoadFactoryPreset]
+LoadFactoryDefaults call:[GetFactoryDefaultsGroup,LoadFactoryDefaults,LoadUserPreset] noreturn:[LoadFactoryDefaults,LoadUserPreset]
+PopulateUI call:[GetMinSize,GetParent,GetSizer,PopulateOrExchange,PushEventHandler,SetMinSize]
+IsGraphicalUI
+ValidateUI call:[Validate] noreturn:[Validate]
+HideUI
+CloseUI call:[RemoveEventHandler] noreturn:[RemoveEventHandler]
+CanExportPresets
+PresetTypes call:[XO,wxT]
+ExportPresets call:[AudacityMessageBox,Close,Error,Format,GET,GetAutomationParameters,GetSquashedName,GetSymbol,Internal,IsOpened,PresetTypes,SelectFile,Write,XO,empty,f,wxT] noreturn:[AudacityMessageBox,Close]
+ImportPresets call:[AfterFirst,BeforeFirst,Format,GET,GetSquashedName,GetSymbol,Internal,IsOpened,Length,MessageBox,PresetTypes,ReadAll,SelectFile,SetAutomationParameters,XO,empty,f,wxFileNameFromPath] noreturn:[MessageBox,SetAutomationParameters]
+GetSquashedName call:[GetNextToken,HasMoreTokens,Left,MakeLower,MakeUpper,Mid,Trim,empty,st,wxT] noreturn:[MakeLower]
+HasOptions
+ShowOptions
+GetDefinition
+GetDefaultDuration
+GetDuration
+GetDurationFormat
+GetSelectionFormat call:[FindProject,Get,GetSelectionFormat,HoursMinsSecondsFormat,IsBatchProcessing] noreturn:[GetSelectionFormat,HoursMinsSecondsFormat]
+SetDuration call:[GetCurrentSettingsGroup,GetDefinition,GetType,SetConfig,wxT] noreturn:[SetConfig]
+GetUserPresetsGroup call:[empty,wxT]
+GetCurrentSettingsGroup call:[wxT] noreturn:[wxT]
+GetFactoryDefaultsGroup call:[wxT] noreturn:[wxT]
+GetSavedStateGroup call:[wxT] noreturn:[wxT]
+Startup call:[GetAudioInCount,GetAudioOutCount,GetConfig,GetCurrentSettingsGroup,GetDefinition,GetFactoryDefaultsGroup,LoadUserPreset,SaveUserPreset,SetConfig,SetHost,Startup,wxT] noreturn:[SetConfig,Startup]
+Startup
+GetAutomationParameters call:[DefineParams,GetAutomationParameters,GetParameters,TransferDataFromWindow] noreturn:[GetParameters]
+SetAutomationParameters call:[DefineParams,Format,GetCurrentSettingsGroup,GetFactoryDefaultsGroup,GetFactoryPresets,GetName,GetUserPresetsGroup,LoadFactoryPreset,LoadUserPreset,MessageBox,Replace,SetAutomationParameters,SetForValidating,SetForWriting,StartsWith,TransferDataToWindow,XO,eap,index,make_iterator_range] noreturn:[DefineParams,LoadFactoryPreset,LoadUserPreset,SetAutomationParameters,TransferDataToWindow]
+GetUserPresets call:[GetConfigSubgroups,GetDefinition,GetUserPresetsGroup,begin,end,sort]
+HasCurrentSettings call:[GetCurrentSettingsGroup,GetDefinition,HasConfigGroup] noreturn:[HasConfigGroup]
+HasFactoryDefaults call:[GetDefinition,GetFactoryDefaultsGroup,HasConfigGroup] noreturn:[HasConfigGroup]
+ManualPage
+HelpPage
+SetUIFlags
+TestUIFlags
+IsBatchProcessing
+SetBatchProcessing call:[GetSavedStateGroup,LoadUserPreset,SaveUserPreset] noreturn:[LoadUserPreset,SaveUserPreset]
+DoEffect call:[Add,CheckWhetherSkipEffect,Commit,CountWaveTracks,DefaultSelectionFormat,End,FindProject,Format,Get,GetConfig,GetConnection,GetCurrentSettingsGroup,GetDefaultDuration,GetDefinition,GetName,GetPath,GetType,Init,IsBatchProcessing,IsInteractive,NewWaveTrack,Process,QUANTIZED_TIME,Remove,ReplaceProcessedTracks,SetDuration,SetSelected,ShowHostInterface,TimeAndSampleFormat,XO,duration,finally,reset,setTimes,t0,t1,trans,valueRestorer,wxASSERT,wxT] noreturn:[Commit,GetConfig,Process,Remove,ReplaceProcessedTracks,SetDuration,SetSelected,setTimes]
+Delegate call:[DoEffect,setTimes] noreturn:[DoEffect]
+Init
+GetPass
+InitPass1
+InitPass2
+Process call:[CopyInputTracks,GetAudioInCount,GetAudioOutCount,InitPass1,InitPass2,ProcessPass,ReplaceProcessedTracks] noreturn:[ProcessPass]
+ProcessPass call:[Any,Channels,GetBounds,GetChannel,GetMaxBlockSize,GetRate,GetSelected,GetType,IsSyncLockSelected,Leaders,ProcessTrack,SetBlockSize,SetSampleRate,StartingWith,SyncLockAdjust,TimeToLongSamples,VisitWhile,fallthrough,get,reinit] noreturn:[SyncLockAdjust,TimeToLongSamples,fallthrough,get,reinit]
+ProcessTrack call:[Append,CalcPreviewInputLength,ClearAndPaste,EmptyCopy,FindProject,Flush,Get,GetEndTime,GetFloats,GetLatency,GetRate,GetType,ProcessBlock,ProcessFinalize,ProcessInitialize,Read,Set,TrackGroupProgress,TrackProgress,WXUNUSED,as_double,as_size_t,decltype,finally,get,limitSampleBufferSize,memmove,sampleCount,sizeof,t1,wxASSERT,wxMin,wxT,wxUnusedVar] noreturn:[Append,ClearAndPaste,EmptyCopy,GetFloats,ProcessBlock,Set,get,memmove,wxMin]
+End
+TransferDataToWindow
+TransferDataFromWindow
+EnableApply call:[Enable,EnablePreview,FindFocus,FindWindow,SetFocus,wxGetTopLevelParent] noreturn:[Enable,SetFocus,wxGetTopLevelParent]
+EnablePreview global:[kFFwdID,kPlayID,kRewindID] call:[Enable,FindFocus,FindWindow,SetFocus,SupportsRealtime,wxGetTopLevelParent] noreturn:[Enable,SetFocus,wxGetTopLevelParent]
+SetLinearEffectFlag
+SetPreviewFullSelectionFlag
+IncludeNotSelectedPreviewTracks
+TotalProgress call:[Update,return] noreturn:[return]
+TrackProgress call:[Update,return] noreturn:[return]
+TrackGroupProgress call:[Update,return] noreturn:[return]
+GetBounds call:[GetEndTime,GetStartTime,TimeToLongSamples,max,min] noreturn:[max]
+CopyInputTracks call:[Add,Any,Create,Duplicate,FindProject,GetSelected,IsSelectedOrSyncLockSelected,clear,push_back,track_cast < const WaveTrack * >] noreturn:[GetSelected,push_back]
+AddToOutputTracks call:[Add,get,push_back] noreturn:[Add]
+AddedAnalysisTrack call:[Add,SetName,empty,get] noreturn:[Add,SetName]
+AddedAnalysisTrack call:[Commit] noreturn:[Commit]
+Commit
+AddedAnalysisTrack call:[Remove] noreturn:[Remove]
+AddAnalysisTrack
+ModifiedAnalysisTrack call:[Copy,GetEndTime,GetStartTime,Replace,SetName,SetOffset,empty,get] noreturn:[Replace,SetName]
+ModifiedAnalysisTrack call:[Commit,move] noreturn:[Commit]
+Commit
+ModifiedAnalysisTrack call:[Replace] noreturn:[Replace]
+ModifyAnalysisTrack
+ReplaceProcessedTracks call:[Add,Clear,Remove,Replace,begin,clear,empty,end,erase,get,reset,size,wxASSERT] noreturn:[Add,Clear,Remove,Replace]
+FindProject call:[GetOwner,inputTracks] noreturn:[GetOwner]
+CountWaveTracks call:[size] noreturn:[size]
+CalcPreviewInputLength
+IsHidden
+Preview call:[Add,CalcPreviewInputLength,Copy,CountWaveTracks,Create,DefaultPlayOptions,End,FindFocus,Get,GetAllPlaybackTracks,GetFamily,GetName,GetOwner,GetSelected,GetStartTime,GetStreamTime,GetType,GuardedCall,Init,IsBusy,IsStreamActive,MakeMultiChannelTrack,MixAndRender,Offset,Process,Read,ReplaceProcessedTracks,SetDisplay,SetFocus,SetSelected,ShowErrorDialog,StartStream,StopStream,TransferDataToWindow,Update,XO,finally,get,min,progress,valueRestorer,wxMilliSleep,wxMin,wxT] noreturn:[Add,CalcPreviewInputLength,GuardedCall,Init,MakeMultiChannelTrack,Process,ReplaceProcessedTracks,SetFocus,ShowErrorDialog,TransferDataToWindow,Update,wxMilliSleep,wxMin]
+MessageBox call:[AudacityMessageBox,Format,GetName,XO,empty] noreturn:[AudacityMessageBox]
+Initialize call:[exchange,store] noreturn:[exchange]
+Read call:[exchange,load,move,store,while] noreturn:[exchange]
+Write call:[exchange,load,store,while] noreturn:[exchange,store]
+Write call:[exchange,load,move,store,while] noreturn:[exchange,store]
+wxTabTraversalWrapper < wxPanel > call:[Bind] noreturn:[Bind]
+wxTabTraversalWrapper < wxDialog > call:[Bind] noreturn:[Bind]
+wxTabTraversalWrapper < wxDirDialog > call:[Bind] noreturn:[Bind]
+wxTabTraversalWrapper < FileDialog > call:[Bind] noreturn:[Bind]
+wxTabTraversalWrapper < wxMessageDialog > call:[Bind] noreturn:[Bind]
+TrackIterRange < Track >
+operator+ call:[Filter,GetPredicate,pred1,pred2] noreturn:[pred2]
+operator+ call:[mem_fn,operator+] noreturn:[operator+]
+operator- call:[operator+,pred2] noreturn:[operator+,pred2]
+operator- call:[mem_fn,not1,operator+] noreturn:[operator+]
+Filter
+StartingWith call:[GetPredicate,find]
+EndingAfter call:[GetPredicate,base,find,reversal]
+Excluding call:[operator-] noreturn:[operator-]
+Visit call:[TypeSwitch] noreturn:[TypeSwitch]
+VisitWhile call:[TypeSwitch]
+TrackIterRange < const Track >
+operator+ call:[Filter,GetPredicate,pred1,pred2] noreturn:[pred2]
+operator+ call:[mem_fn,operator+] noreturn:[operator+]
+operator- call:[operator+,pred2] noreturn:[operator+,pred2]
+operator- call:[mem_fn,not1,operator+] noreturn:[operator+]
+Filter
+StartingWith call:[GetPredicate,find]
+EndingAfter call:[GetPredicate,base,find,reversal]
+Excluding call:[operator-] noreturn:[operator-]
+Visit call:[TypeSwitch] noreturn:[TypeSwitch]
+VisitWhile call:[TypeSwitch]
+TrackIter < Track > call:[operator++,valid] noreturn:[operator++]
+Filter
+Filter
+GetPredicate
+operator++ call:[valid,while] noreturn:[while]
+operator++ call:[operator++]
+operator-- call:[valid,while]
+operator-- call:[operator--]
+operator*
+advance call:[advance]
+operator==
+operator!=
+valid call:[mPred,track_cast < Track * >] noreturn:[mPred]
+TrackIter < const Track > call:[operator++,valid] noreturn:[operator++]
+Filter
+GetPredicate
+operator++ call:[valid,while] noreturn:[while]
+operator++ call:[operator++]
+operator-- call:[valid,while]
+operator-- call:[operator--]
+operator*
+advance call:[advance]
+operator==
+operator!=
+valid call:[mPred,track_cast < const Track * >] noreturn:[mPred]
+track_cast < const WaveTrack * > call:[CompatibleTrackKinds,GetKind,track_kind < BareType >]
+track_cast < Track * > call:[CompatibleTrackKinds,GetKind,track_kind < BareType >]
+track_cast < const Track * > call:[CompatibleTrackKinds,GetKind,track_kind < BareType >]
+track_kind < BareType > call:[value] noreturn:[value]

@@ -1,0 +1,27 @@
+SpecCache
+SpecCache
+SpecPxCache
+WaveDisplay
+Allocate call:[resize]
+WaveDisplay
+GetRate
+SetColourIndex
+GetColourIndex
+GetEnvelope call:[get] noreturn:[get]
+GetEnvelope call:[get] noreturn:[get]
+GetSequence call:[get] noreturn:[get]
+GetSequence call:[get] noreturn:[get]
+MarkChanged
+GetCutLines
+GetCutLines
+NumCutLines call:[size] noreturn:[size]
+GetIsPlaceholder
+SetIsPlaceholder
+SetMixCrossFade
+SetTriangularCrossFade
+SetExponentialCrossFade
+CrossFader
+CrossFader
+GetSamples call:[CrossFadeMix]
+CrossFadeMix call:[GetNumSamples,GetSequence,GetStartSample,as_long_long,clipLength,clipStart,push_back,size,tmpSequence] noreturn:[push_back]
+ClearClips call:[clear] noreturn:[clear]

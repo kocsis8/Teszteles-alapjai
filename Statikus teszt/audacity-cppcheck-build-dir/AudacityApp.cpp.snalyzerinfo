@@ -1,0 +1,411 @@
+wxPanelWrapper
+wxPanelWrapper
+Create call:[Create,Translation] noreturn:[Create]
+wxDialogWrapper
+wxDialogWrapper
+Create call:[Create,Translation] noreturn:[Create]
+wxDirDialogWrapper
+Create call:[Create,Translation] noreturn:[Create]
+FileDialogBase
+SetFileExtension
+FileDialogWrapper
+FileDialogWrapper
+Create call:[Create,FormatWildcard,Translation] noreturn:[Create]
+AudacityMessageDialog
+AboutDialogCreditItem
+GetNumChannels
+GetMaxNumChannels
+GetNumTracks
+TotalCorrection
+PlaybackSlice
+ReversedTime
+GetTrackTime call:[load] noreturn:[load]
+SetTrackTime call:[store] noreturn:[store]
+ResetMode call:[store] noreturn:[store]
+AudioIOExtIterator
+operator++
+operator==
+operator!=
+begin
+end
+Extensions
+GetListener call:[lock] noreturn:[lock]
+SetRecordingException call:[wxAtomicInc] noreturn:[wxAtomicInc]
+ClearRecordingException call:[wxAtomicDec] noreturn:[wxAtomicDec]
+LostCaptureIntervals
+SeekStream
+GetLastPlaybackTime
+GetOwningProject call:[lock] noreturn:[lock]
+GetCaptureFormat
+GetNumPlaybackChannels
+GetNumCaptureChannels
+T0
+T1
+Duration
+Project
+SetParent
+Options
+Style
+Orientation
+Popup
+CanUseShift
+StepValue
+Line
+Page
+AcceptsFocus
+AcceptsFocusFromKeyboard
+operator()
+WrappedType
+WrappedType
+WrappedType
+WrappedType
+WrappedType
+ConnectRoot call:[move,push_back,void] noreturn:[move]
+ListControlColumn
+StartTwoColumn call:[StartMultiColumn] noreturn:[StartMultiColumn]
+EndTwoColumn call:[EndMultiColumn] noreturn:[EndMultiColumn]
+StartThreeColumn call:[StartMultiColumn] noreturn:[StartMultiColumn]
+EndThreeColumn call:[EndMultiColumn] noreturn:[EndMultiColumn]
+SetBorder
+SetSizerProportion
+GetParent call:[wxASSERT]
+GetSizer
+Focus call:[Focus,move]
+Disable call:[Disable,move]
+ToolTip call:[ToolTip,move]
+Name call:[Name,move]
+NameSuffix call:[NameSuffix,move]
+Validator call:[GetMode,Validator,move] noreturn:[Validator]
+Validator call:[GetMode,move]
+ConnectRoot call:[ConnectRoot,move]
+Position call:[Position,move]
+Size call:[Size,move]
+Prop call:[Prop]
+Style call:[Style,move]
+MinSize call:[MinSize,move]
+MinSize call:[MinSize,move]
+AddSpace call:[AddSpace] noreturn:[AddSpace]
+GetMode
+CommandFlagOptions
+operator!= call:[end] noreturn:[end]
+operator*
+begin
+end
+AllPlugins
+PluginsOfType
+EffectsOfType
+AudioIOListener
+AudioIOListener
+IsTimerRecordCancelled
+SetTimerRecordCancelled
+ResetTimerRecordCancelled
+Paused
+Stopping
+Appending
+Looping
+Cutting
+GetLastPlayMode
+SetPaused
+SetAppending
+SetLooping
+SetCutting
+SetStopping
+IsOk call:[empty] noreturn:[empty]
+Project
+GetMenuClose
+SetMenuClose
+ProjectHistory
+GetDirty
+SetDirty
+ProjectChooser
+SetSkipSavePrompt
+GetTracksFitVerticallyZoomed
+SetTracksFitVerticallyZoomed
+GetShowId3Dialog
+SetShowId3Dialog
+GetTool
+SetBrushRadius
+GetBrushRadius
+SetSmartSelection
+IsSmartSelection
+SetOvertones
+IsOvertones
+GetPlaySpeed call:[load] noreturn:[load]
+SetPlaySpeed call:[store] noreturn:[store]
+IsSoloSimple call:[wxT] noreturn:[wxT]
+IsSoloNone call:[wxT] noreturn:[wxT]
+EmptyCanBeDirty
+GetShowSplashScreen
+GetProject
+GetProject
+TrackPanelListener
+TrackPanelListener
+IsBeingDeleted
+SetIsBeingDeleted
+GetMainPage
+GetMainPanel
+GetTopPanel
+GetMode
+Activate
+GetRecentStreamTime
+GetPlaybackScroller
+SetNormalizedWindowState
+GetNormalizedWindowState
+GetVerticalScrollBar
+GetHorizontalScrollBar
+AttachedWindows
+operatorAudacityProject&
+SeqBlock
+SeqBlock
+Plus call:[SeqBlock] noreturn:[SeqBlock]
+GetNumSamples
+GetFactory
+GetErrorOpening
+GetBlockArray
+GetBlockArray
+operator==
+operator!=
+CompatibleTrackKinds call:[return]
+value
+value call:[value] noreturn:[value]
+TrackId
+TrackId
+operator==
+operator!=
+operator<
+ConstTrackInterval call:[wxASSERT] noreturn:[wxASSERT]
+Start
+End
+Extra call:[get] noreturn:[get]
+Extra call:[get] noreturn:[get]
+GetId
+SetId
+SharedPointer call:[shared_from_this]
+SharedPointer call:[shared_from_this]
+SharedPointer
+SharedPointer
+HasOwner call:[GetOwner]
+GetOwner call:[lock] noreturn:[lock]
+GetName
+GetDefaultName
+SetDefaultName
+GetSelected
+GetChannel
+Offset call:[GetOffset,SetOffset] noreturn:[SetOffset]
+SetOffset
+SetPan
+SetPanFromChannelType
+GetKind
+SameKindAs call:[GetKind] noreturn:[GetKind]
+operator()
+operator() call:[function] noreturn:[function]
+operator() call:[function] noreturn:[function]
+operator()
+operator()
+TypeSwitch call:[GetKind,sizeof...,static_assert]
+TypeSwitch call:[GetKind,sizeof...,static_assert]
+GetErrorOpening
+AudioTrack
+AudioTrack
+WriteXMLAttributes
+HandleXMLAttribute
+PlayableTrack
+PlayableTrack
+GetMute
+GetSolo
+GetNotMute
+GetNotSolo
+track_cast call:[CompatibleTrackKinds,GetKind,track_kind < BareType >]
+TrackListEvent
+Clone call:[TrackListEvent] noreturn:[TrackListEvent]
+GetOwner
+GetOwner
+begin call:[Any,begin] noreturn:[begin]
+end call:[Any,end] noreturn:[end]
+begin call:[Any,begin] noreturn:[begin]
+end call:[Any,end] noreturn:[end]
+cbegin call:[begin] noreturn:[begin]
+cend call:[end] noreturn:[end]
+Find call:[GetNode,GetOwner,get]
+Find call:[GetNode,GetOwner,get]
+FindLeader call:[Filter < const Track >,FindLeader] noreturn:[Filter < const Track >]
+Any
+Any
+Selected
+Selected
+Leaders
+Leaders
+SelectedLeaders
+SelectedLeaders
+SingletonRange call:[EndingAfter,GetOwner,StartingWith] noreturn:[EndingAfter]
+SyncLockGroup call:[Filter < const Track >,SyncLockGroup] noreturn:[Filter < const Track >]
+Channels_ call:[Filter]
+Channels call:[FindLeader,GetOwner]
+AddToHead call:[DoAddToHead]
+Add call:[DoAdd]
+Move call:[MoveDown,MoveUp] noreturn:[MoveDown]
+Lock call:[get,lock]
+Tracks call:[getBegin,getEnd]
+Tracks call:[getBegin,getEnd]
+MakeTrackIterator call:[getBegin,getEnd]
+EndIterator call:[getEnd]
+isNull call:[end,return]
+getEnd call:[end]
+getBegin call:[begin]
+getNext call:[isNull]
+getPrev call:[getBegin,getEnd] noreturn:[getEnd]
+PrefsNode
+PrefsPanel call:[SetLabel,SetName] noreturn:[SetName]
+Preview
+PopulateOrExchange
+ScrubbingOptions
+MaxAllowedScrubSpeed
+MinAllowedScrubSpeed
+Options
+Options
+Options
+ToolbarMenuVisitor
+operatorAudacityProject&
+WholeMenu
+MenuItem
+ConditionalGroupItem
+DefaultFinder
+FinderScope
+CommandItem
+CommandGroupItem
+SpecialItem
+MenuPart
+Items
+Section
+Menu
+Menu call:[move]
+ConditionalItems
+ConditionalItems call:[move]
+MenuOrItems call:[Items,empty] noreturn:[Items]
+MenuOrItems call:[Items,empty,move] noreturn:[Items]
+Command
+CommandGroup call:[move]
+Special
+GetScrubStartPosition
+WasSpeedPlaying
+IsSpeedPlaying call:[IsScrubbing]
+WasKeyboardScrubbing
+IsKeyboardScrubbing call:[IsScrubbing]
+SetBackwards
+IsBackwards
+HasMark call:[GetScrubStartPosition]
+IsScrollScrubbing
+SetScrollScrubbing
+SetMayDragToSeek
+MayDragToSeek
+Cancel
+GetMaxScrubSpeed
+Thunk
+SetSeekPress
+Append call:[AddFileToHistory] noreturn:[AddFileToHistory]
+begin call:[begin] noreturn:[begin]
+end call:[end] noreturn:[end]
+operator[]
+empty call:[empty] noreturn:[empty]
+CurrentBuildVersion
+HasDispatch
+GetName
+Providers call:[cbegin,cend,make_iterator_range] noreturn:[make_iterator_range]
+Init call:[RegisterProvider] noreturn:[RegisterProvider]
+GetImportItems
+PopulatePreferences call:[AudacityMessageBox,AudacityPathList,Create,DeleteEntry,DeleteGroup,Exists,FileExists,Flush,Format,GetFirstGroup,GetFullPath,GetNextGroup,GetPath,GetSystemLanguageCode,Read,Replace,ResetPreferences,ResourcesDir,SetLang,SetPath,SetVersionKeysInit,Write,XO,empty,fn,wxRemoveFile,wxString,wxT] noreturn:[AudacityMessageBox,DeleteEntry,DeleteGroup,Flush,GetNextGroup,GetSystemLanguageCode,Replace,Write]
+CloseAllProjects call:[Close,GetProjectFrame,SetClosingAll,begin,finally,size] noreturn:[Close,SetClosingAll]
+QuitAudacity global:[gIsQuitting] call:[CloseAllProjects,CloseScreenshotTools,DataDir,Dispatch,Get,GetFullPath,SaveLog,SaveWindowSize,SetActiveTarget,SetExitOnFrameDelete,empty,logFile,size,wxExit,wxT] noreturn:[SaveLog,SaveWindowSize,wxExit]
+QuitAudacity call:[QuitAudacity] noreturn:[QuitAudacity]
+IPCConn
+IPCConn
+OnExec global:[ofqueue] call:[push_back]
+IPCServ call:[Create] noreturn:[Create]
+IPCServ
+OnAcceptConnection call:[IPCConn,wxT] noreturn:[IPCConn]
+SafeMRUOpen call:[MRUOpen] noreturn:[MRUOpen]
+OnMRUFile call:[GetId,Global,IsAlreadyOpen,MRUOpen,Remove] noreturn:[Remove]
+OnFatalException call:[exit] noreturn:[exit]
+OnExceptionInMainLoop call:[CallAfter,ClearPendingTracks,DelayedHandlerAction,Get,GetActiveProject,OnExceptionInMainLoop,RedrawProject,RollbackState,current_exception,lock,rethrow_exception] noreturn:[DelayedHandlerAction,OnExceptionInMainLoop,RedrawProject,rethrow_exception]
+AudacityApp
+AudacityApp
+OnInit call:[AddHandler,AddUniquePathToPathList,AssignTempFileName,AssociateFileTypes,AudacityMessageBox,CallAfter,Create,DataDir,FinishPreferences,Format,Get,GetAppName,GetFullPath,GetPath,GetUserLocalDataDir,Init,InitPart2,InitPreferences,InitTempDir,InitializeSQL,Install,Load,LoadPreferredTheme,MkDir,PopulatePreferences,QuitAudacity,SetAppDisplayName,SetAppName,SetAudacityPathList,SetDefaultTempDir,SetOnPreferredSystemAppearanceChanged,SetPreferredSystemAppearance,SetVendorName,XO,configFileName,move,wxInitAllImageHandlers,wxPathOnly,wxRemoveFile,wxT] noreturn:[CallAfter,InitPart2,Install,LoadPreferredTheme,PopulatePreferences,QuitAudacity,SetPreferredSystemAppearance]
+InitPart2 global:[AudacityLogoWithName_xpm,gInited] call:[Begin,CallAfter,Center,CreateSingleInstanceChecker,DataDir,Dispatch,DoHelpWelcome,FinishPreferences,Found,Get,GetActive,GetHeight,GetLayoutDirection,GetNextWindowPlacement,GetParam,GetParamCount,GetShowSplashScreen,GetTopLeft,GetVersionKeysInit,GetWidth,Init,InitCommandHandler,InitDitherers,Initialize,Mirror,New,ParseCommandLine,PreferenceKey,QuitAudacity,Raise,Read,RemoveDuplicateShortcuts,Rescale,RunBenchmark,SafeMRUOpen,SetInputFileName,SetMaxDiskBlockSize,SetOwner,SetPosition,SetTitle,SetTopWindow,Show,ShowAutoRecoveryDialogIfNeeded,Start,YieldFor,_,empty,exit,logo,logoimage,temporarywindow,wxPrintf,wxT] noreturn:[DoHelpWelcome,Mirror,New,QuitAudacity,RemoveDuplicateShortcuts,SafeMRUOpen,SetInputFileName,SetMaxDiskBlockSize,Show,exit]
+OnRun call:[GetExitCode,OnRun] noreturn:[GetExitCode]
+OnIdle call:[Dispatch,OnExceptionInMainLoop,RequestMore,Skip] noreturn:[OnExceptionInMainLoop,RequestMore]
+InitCommandHandler
+OnReceiveCommand call:[OnReceiveCommand,wxASSERT] noreturn:[OnReceiveCommand]
+OnKeyDown call:[Cancel,Get,GetActiveProject,GetAudioIOToken,GetKeyCode,GetNumCaptureChannels,HasMark,IsAudioTokenActive,Skip,Stop,lock] noreturn:[Cancel,Skip,Stop]
+SetToExtantDirectory call:[Mkdir,empty,name,wxDirExists]
+InitTempDir call:[AudacityMessageBox,DefaultTempDir,DirectoriesPrefsFactory,IsTempDirectoryNameOK,ResetTempDir,SetToExtantDirectory,ShowModal,TempDir,UpdateDefaultPath,XO,dialog,empty,push_back] noreturn:[AudacityMessageBox,SetToExtantDirectory]
+CreateSingleInstanceChecker call:[AudacityMessageBox,Create,Execute,Format,Found,GetLongPath,GetParam,GetParamCount,IsAnotherRunning,MakeAbsolute,MakeConnection,ParseCommandLine,XO,filename,move,push_back,reset,size,wxGetUserId,wxMilliSleep,wxPrintf,wxT] noreturn:[Execute,push_back,wxMilliSleep]
+ParseCommandLine call:[AddOption,AddParam,AddSwitch,Parse,_,wxT]
+OnQueryEndSession call:[OnEndSession,Veto] noreturn:[OnEndSession,Veto]
+OnEndSession global:[gIsQuitting] call:[CanVeto,CloseAllProjects,SaveWindowSize,Veto,size] noreturn:[SaveWindowSize,Veto]
+OnExit global:[gIsQuitting] call:[Deinit,DeinitFFT,DeleteEntry,DestroyRegistry,Dispatch,FinishPreferences,Flush,Get,Global,Pending,Read,Save,Terminate,Write,wxT] noreturn:[Dispatch,Flush]
+OnMenuAbout call:[wxASSERT] noreturn:[wxASSERT]
+OnMenuNew call:[New,Skip,empty] noreturn:[New,Skip]
+OnMenuOpen call:[OpenFiles,Skip,empty] noreturn:[OpenFiles,Skip]
+OnMenuPreferences call:[ShowModal,Skip,dialog,empty] noreturn:[ShowModal,Skip]
+OnMenuExit call:[QuitAudacity,Skip,empty] noreturn:[Skip]
+SetPreferredSystemAppearance
+AssociateFileTypes call:[AudacityMessageBox,Create,DefineType,Exists,Find,Flush,Format,IsDefined,Lower,QueryDefaultValue,Read,SetName,Write,XO,empty,wxT] noreturn:[Create,Exists,Lower,empty,wxT]
+TrackIterRange < Track >
+operator+ call:[Filter,GetPredicate,pred1,pred2] noreturn:[pred2]
+operator+ call:[mem_fn,operator+] noreturn:[operator+]
+operator- call:[operator+,pred2] noreturn:[operator+,pred2]
+operator- call:[mem_fn,not1,operator+] noreturn:[operator+]
+Filter
+StartingWith call:[GetPredicate,find]
+EndingAfter call:[GetPredicate,base,find,reversal]
+Excluding call:[operator-] noreturn:[operator-]
+Visit call:[TypeSwitch] noreturn:[TypeSwitch]
+VisitWhile call:[TypeSwitch]
+TrackIterRange < const Track >
+operator+ call:[Filter,GetPredicate,pred1,pred2] noreturn:[pred2]
+operator+ call:[mem_fn,operator+] noreturn:[operator+]
+operator- call:[operator+,pred2] noreturn:[operator+,pred2]
+operator- call:[mem_fn,not1,operator+] noreturn:[operator+]
+Filter
+StartingWith call:[GetPredicate,find]
+EndingAfter call:[GetPredicate,base,find,reversal]
+Excluding call:[operator-] noreturn:[operator-]
+Visit call:[TypeSwitch] noreturn:[TypeSwitch]
+VisitWhile call:[TypeSwitch]
+TrackIter < Track > call:[operator++,valid] noreturn:[operator++]
+Filter
+Filter
+GetPredicate
+operator++ call:[valid,while] noreturn:[while]
+operator++ call:[operator++]
+operator-- call:[valid,while]
+operator-- call:[operator--]
+operator*
+advance call:[advance]
+operator==
+operator!=
+valid call:[mPred,track_cast < Track * >] noreturn:[mPred]
+TrackIter < const Track > call:[operator++,valid] noreturn:[operator++]
+Filter
+GetPredicate
+operator++ call:[valid,while] noreturn:[while]
+operator++ call:[operator++]
+operator-- call:[valid,while]
+operator-- call:[operator--]
+operator*
+advance call:[advance]
+operator==
+operator!=
+valid call:[mPred,track_cast < const Track * >] noreturn:[mPred]
+track_cast < Track * > call:[CompatibleTrackKinds,GetKind,track_kind < BareType >]
+track_cast < const Track * > call:[CompatibleTrackKinds,GetKind,track_kind < BareType >]
+track_kind < BareType > call:[value] noreturn:[value]
+Initialize call:[exchange,store] noreturn:[exchange]
+Read call:[exchange,load,move,store,while] noreturn:[exchange]
+Write call:[exchange,load,store,while] noreturn:[exchange,store]
+Write call:[exchange,load,move,store,while] noreturn:[exchange,store]
+wxTabTraversalWrapper < wxPanel > call:[Bind] noreturn:[Bind]
+wxTabTraversalWrapper < wxDialog > call:[Bind] noreturn:[Bind]
+wxTabTraversalWrapper < wxDirDialog > call:[Bind] noreturn:[Bind]
+wxTabTraversalWrapper < FileDialog > call:[Bind] noreturn:[Bind]
+wxTabTraversalWrapper < wxMessageDialog > call:[Bind] noreturn:[Bind]

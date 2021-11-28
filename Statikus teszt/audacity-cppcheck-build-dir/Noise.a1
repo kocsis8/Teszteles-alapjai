@@ -1,0 +1,304 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1817834721">
+        <error id="missingReturn" severity="error" msg="Found a exit path from function with non-void return type that has missing return statement" verbose="Found a exit path from function with non-void return type that has missing return statement" cwe="758" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/Noise.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Shuttle.h" line="108" column="44"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;EffectNoise::mNoiseDurationT&apos; is not initialized in the constructor." verbose="Member variable &apos;EffectNoise::mNoiseDurationT&apos; is not initialized in the constructor." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/Noise.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\effects\Noise.cpp" line="68" column="14"/>
+            <symbol>EffectNoise::mNoiseDurationT</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;AudioTrack&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;AudioTrack&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/Noise.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.h" line="828" column="4"/>
+            <symbol>AudioTrack</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;PlayableTrack&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;PlayableTrack&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/Noise.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.h" line="844" column="4"/>
+            <symbol>PlayableTrack</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;wxPanelWrapper&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;wxPanelWrapper&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/Noise.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\wxPanelWrapper.h" line="46" column="4"/>
+            <symbol>wxPanelWrapper</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;wxDirDialogWrapper&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;wxDirDialogWrapper&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/Noise.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\wxPanelWrapper.h" line="129" column="4"/>
+            <symbol>wxDirDialogWrapper</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;FileDialog&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;FileDialog&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/Noise.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\gtk\FileDialogPrivate.h" line="27" column="5"/>
+            <symbol>FileDialog</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;ListControlColumn&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;ListControlColumn&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/Noise.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\ShuttleGui.h" line="305" column="7"/>
+            <symbol>ListControlColumn</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;NumericConverter&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;NumericConverter&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/Noise.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\NumericTextCtrl.h" line="85" column="4"/>
+            <symbol>NumericConverter</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;wxTabTraversalWrapper &lt; wxPanel &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;wxTabTraversalWrapper &lt; wxPanel &gt;&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/Noise.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\wxPanelWrapper.h" line="27" column="4"/>
+            <symbol>wxTabTraversalWrapper &lt; wxPanel &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;wxTabTraversalWrapper &lt; wxDialog &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;wxTabTraversalWrapper &lt; wxDialog &gt;&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/Noise.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\wxPanelWrapper.h" line="27" column="4"/>
+            <symbol>wxTabTraversalWrapper &lt; wxDialog &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;wxTabTraversalWrapper &lt; wxDirDialog &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;wxTabTraversalWrapper &lt; wxDirDialog &gt;&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/Noise.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\wxPanelWrapper.h" line="27" column="4"/>
+            <symbol>wxTabTraversalWrapper &lt; wxDirDialog &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;wxTabTraversalWrapper &lt; FileDialog &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;wxTabTraversalWrapper &lt; FileDialog &gt;&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/Noise.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\wxPanelWrapper.h" line="27" column="4"/>
+            <symbol>wxTabTraversalWrapper &lt; FileDialog &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;wxTabTraversalWrapper &lt; wxMessageDialog &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;wxTabTraversalWrapper &lt; wxMessageDialog &gt;&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/Noise.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\wxPanelWrapper.h" line="27" column="4"/>
+            <symbol>wxTabTraversalWrapper &lt; wxMessageDialog &gt;</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;SetFileExtension&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;SetFileExtension&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/Noise.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\gtk\FileDialogPrivate.h" line="64" column="18" info="Function in derived class"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\FileDialog.h" line="35" column="17" info="Virtual function in base class"/>
+            <symbol>SetFileExtension</symbol>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;pTrack&apos; is always true" verbose="Condition &apos;pTrack&apos; is always true" cwe="571" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/Noise.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.h" line="1533" column="14" info="Condition &apos;pTrack&apos; is always true"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.h" line="1531" column="11" info="Assuming that condition &apos;pTrack&apos; is not redundant"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h:756:38" call-funcname="Msgids" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/Noise.cpp" line="239" col="48" call-argexpr="kTypeStrings" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="16063519710874503347"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="15341379595561148881"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="9070828929643857411"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="11803136193035736208"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="wxDirDialogWrapper" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="124" col="1" hash="2711157917505411744"/>
+<class name="FileDialogWrapper" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="163" col="1" hash="7553654041051167098"/>
+<class name="AudacityMessageDialog" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="214" col="1" hash="1660744077628049721"/>
+<class name="ShuttleDefaults" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Shuttle.h" line="130" col="1" hash="94021362967557330"/>
+<class name="ShuttleGuiBase::ListControlColumn" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h" line="304" col="4" hash="14673252838067708290"/>
+<class name="NumericConverter::FormatStrings" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/NumericTextCtrl.h" line="58" col="4" hash="8044485059637040165"/>
+<class name="Options" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/NumericTextCtrl.h" line="178" col="4" hash="12583370688137509742"/>
+<class name="Registration &lt; EffectNoise &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/LoadEffects.h" line="40" col="4" hash="12897154056708640521"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h:174:9" my-argnr="2" my-argname="func" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h" line="186" col="60" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/Noise.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\effects\Noise.cpp" line="0" column="0"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;FileDialog&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;FileDialog&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/Noise.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\mac\FileDialogPrivate.h" line="34" column="5"/>
+            <symbol>FileDialog</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;wxStaticBoxWrapper&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;wxStaticBoxWrapper&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/Noise.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\ShuttleGui.h" line="88" column="4"/>
+            <symbol>wxStaticBoxWrapper</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;SetFileExtension&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;SetFileExtension&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/Noise.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\mac\FileDialogPrivate.h" line="69" column="18" info="Function in derived class"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\FileDialog.h" line="35" column="17" info="Virtual function in base class"/>
+            <symbol>SetFileExtension</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h:756:38" call-funcname="Msgids" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/Noise.cpp" line="239" col="48" call-argexpr="kTypeStrings" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="16063519710874503347"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="15341379595561148881"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="9070828929643857411"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="11803136193035736208"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="wxDirDialogWrapper" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="124" col="1" hash="2711157917505411744"/>
+<class name="FileDialogWrapper" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="163" col="1" hash="7553654041051167098"/>
+<class name="AudacityMessageDialog" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="214" col="1" hash="1660744077628049721"/>
+<class name="ShuttleDefaults" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Shuttle.h" line="130" col="1" hash="94021362967557330"/>
+<class name="wxStaticBoxWrapper" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h" line="83" col="1" hash="11949918022325636603"/>
+<class name="ShuttleGuiBase::ListControlColumn" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h" line="304" col="4" hash="14673252838067708290"/>
+<class name="NumericConverter::FormatStrings" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/NumericTextCtrl.h" line="58" col="4" hash="8044485059637040165"/>
+<class name="Options" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/NumericTextCtrl.h" line="178" col="4" hash="12583370688137509742"/>
+<class name="Registration &lt; EffectNoise &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/LoadEffects.h" line="40" col="4" hash="12897154056708640521"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h:174:9" my-argnr="2" my-argname="func" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h" line="186" col="60" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;FileDialog&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;FileDialog&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/Noise.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\win\FileDialogPrivate.h" line="29" column="4"/>
+            <symbol>FileDialog</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;SetFileExtension&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;SetFileExtension&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/Noise.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\win\FileDialogPrivate.h" line="43" column="17" info="Function in derived class"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\FileDialog.h" line="35" column="17" info="Virtual function in base class"/>
+            <symbol>SetFileExtension</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h:756:38" call-funcname="Msgids" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/Noise.cpp" line="239" col="48" call-argexpr="kTypeStrings" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="16063519710874503347"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="15341379595561148881"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="9070828929643857411"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="11803136193035736208"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="wxDirDialogWrapper" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="124" col="1" hash="2711157917505411744"/>
+<class name="FileDialogWrapper" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="163" col="1" hash="7553654041051167098"/>
+<class name="AudacityMessageDialog" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="214" col="1" hash="1660744077628049721"/>
+<class name="ShuttleDefaults" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Shuttle.h" line="130" col="1" hash="94021362967557330"/>
+<class name="ShuttleGuiBase::ListControlColumn" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h" line="304" col="4" hash="14673252838067708290"/>
+<class name="NumericConverter::FormatStrings" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/NumericTextCtrl.h" line="58" col="4" hash="8044485059637040165"/>
+<class name="Options" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/NumericTextCtrl.h" line="178" col="4" hash="12583370688137509742"/>
+<class name="Registration &lt; EffectNoise &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/LoadEffects.h" line="40" col="4" hash="12897154056708640521"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h:174:9" my-argnr="2" my-argname="func" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h" line="186" col="60" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="GetSymbol" lineNumber="84"/>
+    <functiondecl functionName="GetDescription" lineNumber="89"/>
+    <functiondecl functionName="ManualPage" lineNumber="94"/>
+    <functiondecl functionName="GetType" lineNumber="101"/>
+    <functiondecl functionName="GetAudioOutCount" lineNumber="108"/>
+    <functiondecl functionName="DefineParams" lineNumber="177"/>
+    <functiondecl functionName="GetAutomationParameters" lineNumber="183"/>
+    <functiondecl functionName="SetAutomationParameters" lineNumber="191"/>
+    <functiondecl functionName="Startup" lineNumber="204"/>
+    <functiondecl functionName="PopulateOrExchange" lineNumber="232"/>
+    <functiondecl functionName="TransferDataToWindow" lineNumber="262"/>
+    <functiondecl functionName="TransferDataFromWindow" lineNumber="274"/>
+    <functiondecl functionName="GetSymbol" lineNumber="84"/>
+    <functiondecl functionName="GetDescription" lineNumber="89"/>
+    <functiondecl functionName="ManualPage" lineNumber="94"/>
+    <functiondecl functionName="GetType" lineNumber="101"/>
+    <functiondecl functionName="GetAudioOutCount" lineNumber="108"/>
+    <functiondecl functionName="DefineParams" lineNumber="177"/>
+    <functiondecl functionName="GetAutomationParameters" lineNumber="183"/>
+    <functiondecl functionName="SetAutomationParameters" lineNumber="191"/>
+    <functiondecl functionName="Startup" lineNumber="204"/>
+    <functiondecl functionName="PopulateOrExchange" lineNumber="232"/>
+    <functiondecl functionName="TransferDataToWindow" lineNumber="262"/>
+    <functiondecl functionName="TransferDataFromWindow" lineNumber="274"/>
+    <functiondecl functionName="GetSymbol" lineNumber="84"/>
+    <functiondecl functionName="GetDescription" lineNumber="89"/>
+    <functiondecl functionName="ManualPage" lineNumber="94"/>
+    <functiondecl functionName="GetType" lineNumber="101"/>
+    <functiondecl functionName="GetAudioOutCount" lineNumber="108"/>
+    <functiondecl functionName="DefineParams" lineNumber="177"/>
+    <functiondecl functionName="GetAutomationParameters" lineNumber="183"/>
+    <functiondecl functionName="SetAutomationParameters" lineNumber="191"/>
+    <functiondecl functionName="Startup" lineNumber="204"/>
+    <functiondecl functionName="PopulateOrExchange" lineNumber="232"/>
+    <functiondecl functionName="TransferDataToWindow" lineNumber="262"/>
+    <functiondecl functionName="TransferDataFromWindow" lineNumber="274"/>
+    <functioncall functionName="Aligned"/>
+    <functioncall functionName="All"/>
+    <functioncall functionName="Audio"/>
+    <functioncall functionName="ConstTrackInterval"/>
+    <functioncall functionName="GetOwner"/>
+    <functioncall functionName="Here"/>
+    <functioncall functionName="Label"/>
+    <functioncall functionName="None"/>
+    <functioncall functionName="NotHere"/>
+    <functioncall functionName="Note"/>
+    <functioncall functionName="Pair"/>
+    <functioncall functionName="Playable"/>
+    <functioncall functionName="Rest"/>
+    <functioncall functionName="ShallowCopying"/>
+    <functioncall functionName="SharedPointer"/>
+    <functioncall functionName="Subclass"/>
+    <functioncall functionName="T"/>
+    <functioncall functionName="Time"/>
+    <functioncall functionName="Track"/>
+    <functioncall functionName="TrackAttachment"/>
+    <functioncall functionName="TrackInterval"/>
+    <functioncall functionName="TrackIntervalData"/>
+    <functioncall functionName="TrackKind"/>
+    <functioncall functionName="TrackList"/>
+    <functioncall functionName="TrackType"/>
+    <functioncall functionName="Wave"/>
+    <functioncall functionName="bool"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="id"/>
+    <functioncall functionName="is_const"/>
+    <functioncall functionName="is_pointer"/>
+    <functioncall functionName="list"/>
+    <functioncall functionName="lock"/>
+    <functioncall functionName="mValue"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="noexcept"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="pExtra"/>
+    <functioncall functionName="remove_pointer"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="shared_from_this"/>
+    <functioncall functionName="shared_ptr"/>
+    <functioncall functionName="start"/>
+    <functioncall functionName="static_cast"/>
+    <functioncall functionName="static_pointer_cast"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="typename"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="wxASSERT"/>
+  </FileInfo>
+</analyzerinfo>

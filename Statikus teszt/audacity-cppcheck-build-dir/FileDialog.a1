@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="832202541">
+        <error id="useInitializationList" severity="performance" msg="Variable &apos;m_userdata&apos; is assigned in constructor body. Consider performing initialization in initialization list." verbose="When an object of a class is created, the constructors of all member variables are called consecutively in the order the variables are declared, even if you don&apos;t explicitly write them to the initialization list. You could avoid assigning &apos;m_userdata&apos; a value by passing the value to the constructor in the initialization list." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/FileDialog.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\FileDialog.cpp" line="22" column="4"/>
+            <symbol>m_userdata</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;FileDialog&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;FileDialog&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/FileDialog.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\gtk\FileDialogPrivate.h" line="27" column="5"/>
+            <symbol>FileDialog</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;SetFileExtension&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;SetFileExtension&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/FileDialog.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\gtk\FileDialogPrivate.h" line="64" column="18" info="Function in derived class"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\FileDialog.h" line="35" column="17" info="Virtual function in base class"/>
+            <symbol>SetFileExtension</symbol>
+        </error>
+  <FileInfo check="Class">
+<class name="FileDialogBase" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/FileDialog.h" line="22" col="1" hash="7496257739618780765"/>
+  </FileInfo>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;FileDialog&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;FileDialog&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/FileDialog.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\mac\FileDialogPrivate.h" line="34" column="5"/>
+            <symbol>FileDialog</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;SetFileExtension&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;SetFileExtension&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/FileDialog.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\mac\FileDialogPrivate.h" line="69" column="18" info="Function in derived class"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\FileDialog.h" line="35" column="17" info="Virtual function in base class"/>
+            <symbol>SetFileExtension</symbol>
+        </error>
+  <FileInfo check="Class">
+<class name="FileDialogBase" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/FileDialog.h" line="22" col="1" hash="7496257739618780765"/>
+  </FileInfo>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;FileDialog&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;FileDialog&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/FileDialog.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\win\FileDialogPrivate.h" line="29" column="4"/>
+            <symbol>FileDialog</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;SetFileExtension&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;SetFileExtension&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/FileDialog.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\win\FileDialogPrivate.h" line="43" column="17" info="Function in derived class"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\FileDialog.h" line="35" column="17" info="Virtual function in base class"/>
+            <symbol>SetFileExtension</symbol>
+        </error>
+  <FileInfo check="Class">
+<class name="FileDialogBase" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/FileDialog.h" line="22" col="1" hash="7496257739618780765"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="HasUserPaneCreator" lineNumber="25"/>
+    <functiondecl functionName="SetUserPaneCreator" lineNumber="30"/>
+    <functiondecl functionName="CreateUserPane" lineNumber="36"/>
+    <functiondecl functionName="FileSelector" lineNumber="61"/>
+    <functiondecl functionName="FileSelectorEx" lineNumber="125"/>
+    <functiondecl functionName="HasUserPaneCreator" lineNumber="25"/>
+    <functiondecl functionName="SetUserPaneCreator" lineNumber="30"/>
+    <functiondecl functionName="CreateUserPane" lineNumber="36"/>
+    <functiondecl functionName="FileSelector" lineNumber="61"/>
+    <functiondecl functionName="FileSelectorEx" lineNumber="125"/>
+    <functiondecl functionName="HasUserPaneCreator" lineNumber="25"/>
+    <functiondecl functionName="SetUserPaneCreator" lineNumber="30"/>
+    <functiondecl functionName="CreateUserPane" lineNumber="36"/>
+    <functiondecl functionName="FileSelector" lineNumber="61"/>
+    <functiondecl functionName="FileSelectorEx" lineNumber="125"/>
+    <functioncall functionName="Contains"/>
+    <functioncall functionName="DECLARE_EVENT_TABLE"/>
+    <functioncall functionName="DECLARE_NO_COPY_CLASS"/>
+    <functioncall functionName="FileDialog"/>
+    <functioncall functionName="FileDialogBase"/>
+    <functioncall functionName="GetCount"/>
+    <functioncall functionName="GetFilterIndex"/>
+    <functioncall functionName="GetPath"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="SetFilterIndex"/>
+    <functioncall functionName="ShowModal"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="creator"/>
+    <functioncall functionName="defaultDir"/>
+    <functioncall functionName="defaultExtension"/>
+    <functioncall functionName="defaultFileName"/>
+    <functioncall functionName="defaultFilterIndex"/>
+    <functioncall functionName="descriptions"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="fileDialog"/>
+    <functioncall functionName="filter"/>
+    <functioncall functionName="filter2"/>
+    <functioncall functionName="filterIndex"/>
+    <functioncall functionName="filters"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="flags"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="height"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="m_creator"/>
+    <functioncall functionName="m_fileNames"/>
+    <functioncall functionName="m_paths"/>
+    <functioncall functionName="m_userdata"/>
+    <functioncall functionName="n"/>
+    <functioncall functionName="parent"/>
+    <functioncall functionName="sizeFlags"/>
+    <functioncall functionName="title"/>
+    <functioncall functionName="userdata"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="width"/>
+    <functioncall functionName="wxDefaultCoord"/>
+    <functioncall functionName="wxDefaultPosition"/>
+    <functioncall functionName="wxDefaultSize"/>
+    <functioncall functionName="wxEmptyString"/>
+    <functioncall functionName="wxFD_DEFAULT_STYLE"/>
+    <functioncall functionName="wxFileDialogNameStr"/>
+    <functioncall functionName="wxFileSelectorDefaultWildcardStr"/>
+    <functioncall functionName="wxFileSelectorPromptStr"/>
+    <functioncall functionName="wxParseCommonDialogsFilter"/>
+    <functioncall functionName="wxPoint"/>
+    <functioncall functionName="wxSIZE_AUTO"/>
+    <functioncall functionName="wxString"/>
+    <functioncall functionName="wxT"/>
+    <functioncall functionName="x"/>
+    <functioncall functionName="y"/>
+  </FileInfo>
+</analyzerinfo>

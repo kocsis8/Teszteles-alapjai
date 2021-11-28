@@ -1,0 +1,3 @@
+autoEnabledModules
+GetModuleStatus call:[DeleteEntry,FileName,GetModificationTime,GetName,IsEqualTo,IsSameAs,Lower,ParseISOCombined,Read,SetMillisecond,autoEnabledModules,count,wxString,wxT] noreturn:[DeleteEntry]
+SetModuleStatus call:[FileName,Flush,FormatISOCombined,GetModificationTime,GetName,Lower,Write,wxString,wxT] noreturn:[Flush]

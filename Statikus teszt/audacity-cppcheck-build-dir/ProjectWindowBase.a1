@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="36187018">
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ProjectWindowBase.cpp:35:20" call-funcname="FindProjectWindow" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ProjectWindowBase.cpp" line="46" col="26" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ProjectWindowBase.h:36:35" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="ProjectWindowBase" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ProjectWindowBase.h" line="19" col="1" hash="11955441621779942112"/>
+<class name="AttachedWindows" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ProjectWindows.h" line="53" col="1" hash="18411720420297200147"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="FindProjectWindow" lineNumber="35"/>
+    <functiondecl functionName="FindProjectFromWindow" lineNumber="44"/>
+    <functiondecl functionName="FindProjectFromWindow" lineNumber="50"/>
+    <functioncall functionName="AttachedWindows"/>
+    <functioncall functionName="BarePtr"/>
+    <functioncall functionName="FindProjectFromWindow"/>
+    <functioncall functionName="FindProjectWindow"/>
+    <functioncall functionName="Format"/>
+    <functioncall functionName="GetParent"/>
+    <functioncall functionName="GetProject"/>
+    <functioncall functionName="GetProjectNumber"/>
+    <functioncall functionName="ProjectWindowBase"/>
+    <functioncall functionName="SetName"/>
+    <functioncall functionName="SetProjectFrame"/>
+    <functioncall functionName="SkipCopying"/>
+    <functioncall functionName="_TS"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="const_cast"/>
+    <functioncall functionName="dynamic_cast"/>
+    <functioncall functionName="id"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="operatorAudacityProject&amp;"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="pWindow"/>
+    <functioncall functionName="parent"/>
+    <functioncall functionName="pos"/>
+    <functioncall functionName="project"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="wxFrame"/>
+    <functioncall functionName="wxWindow"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,865 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="984855461">
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CoarseTrackShifter&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CoarseTrackShifter&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\tracks\ui\TimeShiftHandle.h" line="185" column="4"/>
+            <symbol>CoarseTrackShifter</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;NumericConverter&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;NumericConverter&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\NumericTextCtrl.h" line="85" column="4"/>
+            <symbol>NumericConverter</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;AudioTrack&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;AudioTrack&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.h" line="828" column="4"/>
+            <symbol>AudioTrack</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;PlayableTrack&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;PlayableTrack&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.h" line="844" column="4"/>
+            <symbol>PlayableTrack</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;TemporaryClipRemover&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;TemporaryClipRemover&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\tracks\ui\TimeShiftHandle.cpp" line="751" column="7"/>
+            <symbol>TemporaryClipRemover</symbol>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;pTrack&apos; is always true" verbose="Condition &apos;pTrack&apos; is always true" cwe="571" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.h" line="1533" column="14" info="Condition &apos;pTrack&apos; is always true"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.h" line="1531" column="11" info="Assuming that condition &apos;pTrack&apos; is not redundant"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;shifter&apos; can be reduced." verbose="The scope of the variable &apos;shifter&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\tracks\ui\TimeShiftHandle.cpp" line="347" column="19"/>
+            <symbol>shifter</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;clipLeft&apos; can be reduced." verbose="The scope of the variable &apos;clipLeft&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\tracks\ui\TimeShiftHandle.cpp" line="583" column="17"/>
+            <symbol>clipLeft</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;clipRight&apos; can be reduced." verbose="The scope of the variable &apos;clipRight&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\tracks\ui\TimeShiftHandle.cpp" line="583" column="31"/>
+            <symbol>clipRight</symbol>
+        </error>
+        <error id="shadowFunction" severity="style" msg="Local variable &apos;size&apos; shadows outer function" verbose="Local variable &apos;size&apos; shadows outer function" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\tracks\ui\TimeShiftHandle.cpp" line="399" column="24" info="Shadow variable"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.h" line="1540" column="11" info="Shadowed declaration"/>
+            <symbol>size</symbol>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;project&apos; can be declared with const" verbose="Parameter &apos;project&apos; can be declared with const" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\ProjectHistory.h" line="27" column="46" info="Parameter &apos;project&apos; can be declared with const"/>
+            <symbol>project</symbol>
+        </error>
+        <error id="constVariable" severity="style" msg="Variable &apos;capturedTrack&apos; can be declared with const" verbose="Variable &apos;capturedTrack&apos; can be declared with const" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\tracks\ui\TimeShiftHandle.cpp" line="435" column="10" info="Variable &apos;capturedTrack&apos; can be declared with const"/>
+            <symbol>capturedTrack</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;clipLeft&apos; is assigned a value that is never used." verbose="Variable &apos;clipLeft&apos; is assigned a value that is never used." cwe="563" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\tracks\ui\TimeShiftHandle.cpp" line="583" column="26"/>
+            <symbol>clipLeft</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;clipRight&apos; is assigned a value that is never used." verbose="Variable &apos;clipRight&apos; is assigned a value that is never used." cwe="563" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\tracks\ui\TimeShiftHandle.cpp" line="583" column="41"/>
+            <symbol>clipRight</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="TrackShifter::HitTestParams" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h" line="52" col="4" hash="2335014007804319798"/>
+<class name="HitTestPreview" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/HitTestResult.h" line="19" col="1" hash="558950701565496408"/>
+<class name="NumericConverter::FormatStrings" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/NumericTextCtrl.h" line="58" col="4" hash="8044485059637040165"/>
+<class name="Options" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/NumericTextCtrl.h" line="178" col="4" hash="12583370688137509742"/>
+<class name="SnapPoint" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h" line="30" col="1" hash="5571849009595921699"/>
+<class name="SnapResults" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h" line="45" col="1" hash="2660851442318546487"/>
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="5097415060304751655"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="10238272327926590045"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="6423865841937571191"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="11402608552858418108"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="TrackPanelMouseState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="27" col="1" hash="8623144472751191848"/>
+<class name="TrackPanelMouseEvent" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="45" col="1" hash="14240338354758594037"/>
+<class name="UndoState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/UndoManager.h" line="85" col="1" hash="8162956204608726773"/>
+<class name="UndoStackElem" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/UndoManager.h" line="97" col="1" hash="14014615962576270383"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h:295:11" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp" line="498" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h:298:11" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp" line="858" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h:301:19" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp" line="950" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h:305:11" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp" line="959" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h:309:11" my-argnr="1" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp" line="1002" col="26" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\tracks\ui\TimeShiftHandle.cpp" line="0" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="TrackShifter::HitTestParams" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h" line="52" col="4" hash="2335014007804319798"/>
+<class name="HitTestPreview" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/HitTestResult.h" line="19" col="1" hash="558950701565496408"/>
+<class name="NumericConverter::FormatStrings" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/NumericTextCtrl.h" line="58" col="4" hash="8044485059637040165"/>
+<class name="Options" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/NumericTextCtrl.h" line="178" col="4" hash="12583370688137509742"/>
+<class name="SnapPoint" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h" line="30" col="1" hash="5571849009595921699"/>
+<class name="SnapResults" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h" line="45" col="1" hash="2660851442318546487"/>
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="5097415060304751655"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="10238272327926590045"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="6423865841937571191"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="11402608552858418108"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="TrackPanelMouseState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="27" col="1" hash="8623144472751191848"/>
+<class name="TrackPanelMouseEvent" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="45" col="1" hash="14240338354758594037"/>
+<class name="UndoState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/UndoManager.h" line="85" col="1" hash="8162956204608726773"/>
+<class name="UndoStackElem" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/UndoManager.h" line="97" col="1" hash="14014615962576270383"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h:295:11" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp" line="498" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h:298:11" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp" line="858" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h:301:19" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp" line="950" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h:305:11" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp" line="959" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h:309:11" my-argnr="1" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp" line="1002" col="26" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="TrackShifter::HitTestParams" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h" line="52" col="4" hash="2335014007804319798"/>
+<class name="HitTestPreview" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/HitTestResult.h" line="19" col="1" hash="558950701565496408"/>
+<class name="NumericConverter::FormatStrings" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/NumericTextCtrl.h" line="58" col="4" hash="8044485059637040165"/>
+<class name="Options" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/NumericTextCtrl.h" line="178" col="4" hash="12583370688137509742"/>
+<class name="SnapPoint" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h" line="30" col="1" hash="5571849009595921699"/>
+<class name="SnapResults" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h" line="45" col="1" hash="2660851442318546487"/>
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="5097415060304751655"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="10238272327926590045"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="6423865841937571191"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="11402608552858418108"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="TrackPanelMouseState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="27" col="1" hash="8623144472751191848"/>
+<class name="TrackPanelMouseEvent" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="45" col="1" hash="14240338354758594037"/>
+<class name="UndoState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/UndoManager.h" line="85" col="1" hash="8162956204608726773"/>
+<class name="UndoStackElem" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/UndoManager.h" line="97" col="1" hash="14014615962576270383"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h:295:11" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp" line="498" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h:298:11" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp" line="858" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h:301:19" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp" line="950" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h:305:11" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp" line="959" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h:309:11" my-argnr="1" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp" line="1002" col="26" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="TrackShifter::HitTestParams" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h" line="52" col="4" hash="2335014007804319798"/>
+<class name="HitTestPreview" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/HitTestResult.h" line="19" col="1" hash="558950701565496408"/>
+<class name="NumericConverter::FormatStrings" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/NumericTextCtrl.h" line="58" col="4" hash="8044485059637040165"/>
+<class name="Options" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/NumericTextCtrl.h" line="178" col="4" hash="12583370688137509742"/>
+<class name="SnapPoint" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h" line="30" col="1" hash="5571849009595921699"/>
+<class name="SnapResults" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h" line="45" col="1" hash="2660851442318546487"/>
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="5097415060304751655"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="10238272327926590045"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="6423865841937571191"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="11402608552858418108"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="TrackPanelMouseState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="27" col="1" hash="8623144472751191848"/>
+<class name="TrackPanelMouseEvent" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="45" col="1" hash="14240338354758594037"/>
+<class name="UndoState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/UndoManager.h" line="85" col="1" hash="8162956204608726773"/>
+<class name="UndoStackElem" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/UndoManager.h" line="97" col="1" hash="14014615962576270383"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h:295:11" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp" line="498" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h:298:11" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp" line="858" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h:301:19" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp" line="950" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h:305:11" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp" line="959" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h:309:11" my-argnr="1" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp" line="1002" col="26" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="TrackShifter::HitTestParams" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h" line="52" col="4" hash="2335014007804319798"/>
+<class name="HitTestPreview" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/HitTestResult.h" line="19" col="1" hash="558950701565496408"/>
+<class name="NumericConverter::FormatStrings" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/NumericTextCtrl.h" line="58" col="4" hash="8044485059637040165"/>
+<class name="Options" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/NumericTextCtrl.h" line="178" col="4" hash="12583370688137509742"/>
+<class name="SnapPoint" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h" line="30" col="1" hash="5571849009595921699"/>
+<class name="SnapResults" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h" line="45" col="1" hash="2660851442318546487"/>
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="5097415060304751655"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="10238272327926590045"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="6423865841937571191"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="11402608552858418108"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="TrackPanelMouseState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="27" col="1" hash="8623144472751191848"/>
+<class name="TrackPanelMouseEvent" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="45" col="1" hash="14240338354758594037"/>
+<class name="UndoState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/UndoManager.h" line="85" col="1" hash="8162956204608726773"/>
+<class name="UndoStackElem" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/UndoManager.h" line="97" col="1" hash="14014615962576270383"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h:295:11" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp" line="498" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h:298:11" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp" line="858" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h:301:19" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp" line="950" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h:305:11" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp" line="959" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h:309:11" my-argnr="1" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp" line="1002" col="26" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="TrackShifter::HitTestParams" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h" line="52" col="4" hash="2335014007804319798"/>
+<class name="HitTestPreview" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/HitTestResult.h" line="19" col="1" hash="558950701565496408"/>
+<class name="NumericConverter::FormatStrings" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/NumericTextCtrl.h" line="58" col="4" hash="8044485059637040165"/>
+<class name="Options" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/NumericTextCtrl.h" line="178" col="4" hash="12583370688137509742"/>
+<class name="SnapPoint" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h" line="30" col="1" hash="5571849009595921699"/>
+<class name="SnapResults" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h" line="45" col="1" hash="2660851442318546487"/>
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="5097415060304751655"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="10238272327926590045"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="6423865841937571191"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="11402608552858418108"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="TrackPanelMouseState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="27" col="1" hash="8623144472751191848"/>
+<class name="TrackPanelMouseEvent" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="45" col="1" hash="14240338354758594037"/>
+<class name="UndoState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/UndoManager.h" line="85" col="1" hash="8162956204608726773"/>
+<class name="UndoStackElem" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/UndoManager.h" line="97" col="1" hash="14014615962576270383"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h:295:11" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp" line="498" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h:298:11" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp" line="858" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h:301:19" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp" line="950" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h:305:11" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp" line="959" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h:309:11" my-argnr="1" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp" line="1002" col="26" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="TrackShifter::HitTestParams" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h" line="52" col="4" hash="2335014007804319798"/>
+<class name="HitTestPreview" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/HitTestResult.h" line="19" col="1" hash="558950701565496408"/>
+<class name="NumericConverter::FormatStrings" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/NumericTextCtrl.h" line="58" col="4" hash="8044485059637040165"/>
+<class name="Options" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/NumericTextCtrl.h" line="178" col="4" hash="12583370688137509742"/>
+<class name="SnapPoint" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h" line="30" col="1" hash="5571849009595921699"/>
+<class name="SnapResults" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h" line="45" col="1" hash="2660851442318546487"/>
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="5097415060304751655"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="10238272327926590045"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="6423865841937571191"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="11402608552858418108"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="TrackPanelMouseState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="27" col="1" hash="8623144472751191848"/>
+<class name="TrackPanelMouseEvent" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="45" col="1" hash="14240338354758594037"/>
+<class name="UndoState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/UndoManager.h" line="85" col="1" hash="8162956204608726773"/>
+<class name="UndoStackElem" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/UndoManager.h" line="97" col="1" hash="14014615962576270383"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h:295:11" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp" line="498" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h:298:11" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp" line="858" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h:301:19" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp" line="950" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h:305:11" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp" line="959" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h:309:11" my-argnr="1" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.cpp" line="1002" col="26" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="GetTrack" lineNumber="37"/>
+    <functiondecl functionName="WasMoved" lineNumber="42"/>
+    <functiondecl functionName="Clicked" lineNumber="47"/>
+    <functiondecl functionName="Enter" lineNumber="52"/>
+    <functiondecl functionName="HitAnywhere" lineNumber="79"/>
+    <functiondecl functionName="HitTest" lineNumber="88"/>
+    <functiondecl functionName="DoHorizontalOffset" lineNumber="117"/>
+    <functiondecl functionName="UnfixIntervals" lineNumber="133"/>
+    <functiondecl functionName="UnfixAll" lineNumber="147"/>
+    <functiondecl functionName="SelectInterval" lineNumber="154"/>
+    <functiondecl functionName="CommonSelectInterval" lineNumber="159"/>
+    <functiondecl functionName="HintOffsetLarger" lineNumber="167"/>
+    <functiondecl functionName="QuantizeOffset" lineNumber="172"/>
+    <functiondecl functionName="AdjustOffsetSmaller" lineNumber="177"/>
+    <functiondecl functionName="MayMigrateTo" lineNumber="182"/>
+    <functiondecl functionName="CommonMayMigrateTo" lineNumber="187"/>
+    <functiondecl functionName="Detach" lineNumber="218"/>
+    <functiondecl functionName="AdjustFit" lineNumber="223"/>
+    <functiondecl functionName="Attach" lineNumber="229"/>
+    <functiondecl functionName="FinishMigration" lineNumber="234"/>
+    <functiondecl functionName="DoHorizontalOffset" lineNumber="239"/>
+    <functiondecl functionName="AdjustT0" lineNumber="245"/>
+    <functiondecl functionName="InitIntervals" lineNumber="250"/>
+    <functiondecl functionName="HitTest" lineNumber="264"/>
+    <functiondecl functionName="SyncLocks" lineNumber="270"/>
+    <functiondecl functionName="DEFINE_ATTACHED_VIRTUAL" lineNumber="275"/>
+    <functiondecl functionName="Init" lineNumber="281"/>
+    <functiondecl functionName="CapturedInterval" lineNumber="415"/>
+    <functiondecl functionName="DoSlideHorizontal" lineNumber="432"/>
+    <functiondecl functionName="FindCandidates" lineNumber="474"/>
+    <functiondecl functionName="Click" lineNumber="494"/>
+    <functiondecl functionName="FindDesiredSlideAmount" lineNumber="569"/>
+    <functiondecl functionName="FindCorrespondence" lineNumber="639"/>
+    <functiondecl functionName="CheckFit" lineNumber="710"/>
+    <functiondecl functionName="MigrationFailure" lineNumber="743"/>
+    <functiondecl functionName="Reinsert" lineNumber="759"/>
+    <functiondecl functionName="DoSlideVertical" lineNumber="777"/>
+    <functiondecl functionName="Drag" lineNumber="854"/>
+    <functiondecl functionName="Preview" lineNumber="945"/>
+    <functiondecl functionName="Release" lineNumber="954"/>
+    <functiondecl functionName="Cancel" lineNumber="1000"/>
+    <functiondecl functionName="Draw" lineNumber="1006"/>
+    <functiondecl functionName="DrawingArea" lineNumber="1020"/>
+    <functiondecl functionName="GetTrack" lineNumber="37"/>
+    <functiondecl functionName="WasMoved" lineNumber="42"/>
+    <functiondecl functionName="Clicked" lineNumber="47"/>
+    <functiondecl functionName="Enter" lineNumber="52"/>
+    <functiondecl functionName="HitAnywhere" lineNumber="79"/>
+    <functiondecl functionName="HitTest" lineNumber="88"/>
+    <functiondecl functionName="DoHorizontalOffset" lineNumber="117"/>
+    <functiondecl functionName="UnfixIntervals" lineNumber="133"/>
+    <functiondecl functionName="UnfixAll" lineNumber="147"/>
+    <functiondecl functionName="SelectInterval" lineNumber="154"/>
+    <functiondecl functionName="CommonSelectInterval" lineNumber="159"/>
+    <functiondecl functionName="HintOffsetLarger" lineNumber="167"/>
+    <functiondecl functionName="QuantizeOffset" lineNumber="172"/>
+    <functiondecl functionName="AdjustOffsetSmaller" lineNumber="177"/>
+    <functiondecl functionName="MayMigrateTo" lineNumber="182"/>
+    <functiondecl functionName="CommonMayMigrateTo" lineNumber="187"/>
+    <functiondecl functionName="Detach" lineNumber="218"/>
+    <functiondecl functionName="AdjustFit" lineNumber="223"/>
+    <functiondecl functionName="Attach" lineNumber="229"/>
+    <functiondecl functionName="FinishMigration" lineNumber="234"/>
+    <functiondecl functionName="DoHorizontalOffset" lineNumber="239"/>
+    <functiondecl functionName="AdjustT0" lineNumber="245"/>
+    <functiondecl functionName="InitIntervals" lineNumber="250"/>
+    <functiondecl functionName="HitTest" lineNumber="264"/>
+    <functiondecl functionName="SyncLocks" lineNumber="270"/>
+    <functiondecl functionName="DEFINE_ATTACHED_VIRTUAL" lineNumber="275"/>
+    <functiondecl functionName="Init" lineNumber="281"/>
+    <functiondecl functionName="CapturedInterval" lineNumber="415"/>
+    <functiondecl functionName="DoSlideHorizontal" lineNumber="432"/>
+    <functiondecl functionName="FindCandidates" lineNumber="474"/>
+    <functiondecl functionName="Click" lineNumber="494"/>
+    <functiondecl functionName="FindDesiredSlideAmount" lineNumber="569"/>
+    <functiondecl functionName="FindCorrespondence" lineNumber="639"/>
+    <functiondecl functionName="CheckFit" lineNumber="710"/>
+    <functiondecl functionName="MigrationFailure" lineNumber="743"/>
+    <functiondecl functionName="Reinsert" lineNumber="759"/>
+    <functiondecl functionName="DoSlideVertical" lineNumber="777"/>
+    <functiondecl functionName="Drag" lineNumber="854"/>
+    <functiondecl functionName="Preview" lineNumber="945"/>
+    <functiondecl functionName="Release" lineNumber="954"/>
+    <functiondecl functionName="Cancel" lineNumber="1000"/>
+    <functiondecl functionName="Draw" lineNumber="1006"/>
+    <functiondecl functionName="DrawingArea" lineNumber="1020"/>
+    <functiondecl functionName="GetTrack" lineNumber="37"/>
+    <functiondecl functionName="WasMoved" lineNumber="42"/>
+    <functiondecl functionName="Clicked" lineNumber="47"/>
+    <functiondecl functionName="Enter" lineNumber="52"/>
+    <functiondecl functionName="HitAnywhere" lineNumber="79"/>
+    <functiondecl functionName="HitTest" lineNumber="88"/>
+    <functiondecl functionName="DoHorizontalOffset" lineNumber="117"/>
+    <functiondecl functionName="UnfixIntervals" lineNumber="133"/>
+    <functiondecl functionName="UnfixAll" lineNumber="147"/>
+    <functiondecl functionName="SelectInterval" lineNumber="154"/>
+    <functiondecl functionName="CommonSelectInterval" lineNumber="159"/>
+    <functiondecl functionName="HintOffsetLarger" lineNumber="167"/>
+    <functiondecl functionName="QuantizeOffset" lineNumber="172"/>
+    <functiondecl functionName="AdjustOffsetSmaller" lineNumber="177"/>
+    <functiondecl functionName="MayMigrateTo" lineNumber="182"/>
+    <functiondecl functionName="CommonMayMigrateTo" lineNumber="187"/>
+    <functiondecl functionName="Detach" lineNumber="218"/>
+    <functiondecl functionName="AdjustFit" lineNumber="223"/>
+    <functiondecl functionName="Attach" lineNumber="229"/>
+    <functiondecl functionName="FinishMigration" lineNumber="234"/>
+    <functiondecl functionName="DoHorizontalOffset" lineNumber="239"/>
+    <functiondecl functionName="AdjustT0" lineNumber="245"/>
+    <functiondecl functionName="InitIntervals" lineNumber="250"/>
+    <functiondecl functionName="HitTest" lineNumber="264"/>
+    <functiondecl functionName="SyncLocks" lineNumber="270"/>
+    <functiondecl functionName="DEFINE_ATTACHED_VIRTUAL" lineNumber="275"/>
+    <functiondecl functionName="Init" lineNumber="281"/>
+    <functiondecl functionName="CapturedInterval" lineNumber="415"/>
+    <functiondecl functionName="DoSlideHorizontal" lineNumber="432"/>
+    <functiondecl functionName="FindCandidates" lineNumber="474"/>
+    <functiondecl functionName="Click" lineNumber="494"/>
+    <functiondecl functionName="FindDesiredSlideAmount" lineNumber="569"/>
+    <functiondecl functionName="FindCorrespondence" lineNumber="639"/>
+    <functiondecl functionName="CheckFit" lineNumber="710"/>
+    <functiondecl functionName="MigrationFailure" lineNumber="743"/>
+    <functiondecl functionName="Reinsert" lineNumber="759"/>
+    <functiondecl functionName="DoSlideVertical" lineNumber="777"/>
+    <functiondecl functionName="Drag" lineNumber="854"/>
+    <functiondecl functionName="Preview" lineNumber="945"/>
+    <functiondecl functionName="Release" lineNumber="954"/>
+    <functiondecl functionName="Cancel" lineNumber="1000"/>
+    <functiondecl functionName="Draw" lineNumber="1006"/>
+    <functiondecl functionName="DrawingArea" lineNumber="1020"/>
+    <functiondecl functionName="GetTrack" lineNumber="37"/>
+    <functiondecl functionName="WasMoved" lineNumber="42"/>
+    <functiondecl functionName="Clicked" lineNumber="47"/>
+    <functiondecl functionName="Enter" lineNumber="52"/>
+    <functiondecl functionName="HitAnywhere" lineNumber="79"/>
+    <functiondecl functionName="HitTest" lineNumber="88"/>
+    <functiondecl functionName="DoHorizontalOffset" lineNumber="117"/>
+    <functiondecl functionName="UnfixIntervals" lineNumber="133"/>
+    <functiondecl functionName="UnfixAll" lineNumber="147"/>
+    <functiondecl functionName="SelectInterval" lineNumber="154"/>
+    <functiondecl functionName="CommonSelectInterval" lineNumber="159"/>
+    <functiondecl functionName="HintOffsetLarger" lineNumber="167"/>
+    <functiondecl functionName="QuantizeOffset" lineNumber="172"/>
+    <functiondecl functionName="AdjustOffsetSmaller" lineNumber="177"/>
+    <functiondecl functionName="MayMigrateTo" lineNumber="182"/>
+    <functiondecl functionName="CommonMayMigrateTo" lineNumber="187"/>
+    <functiondecl functionName="Detach" lineNumber="218"/>
+    <functiondecl functionName="AdjustFit" lineNumber="223"/>
+    <functiondecl functionName="Attach" lineNumber="229"/>
+    <functiondecl functionName="FinishMigration" lineNumber="234"/>
+    <functiondecl functionName="DoHorizontalOffset" lineNumber="239"/>
+    <functiondecl functionName="AdjustT0" lineNumber="245"/>
+    <functiondecl functionName="InitIntervals" lineNumber="250"/>
+    <functiondecl functionName="HitTest" lineNumber="264"/>
+    <functiondecl functionName="SyncLocks" lineNumber="270"/>
+    <functiondecl functionName="DEFINE_ATTACHED_VIRTUAL" lineNumber="275"/>
+    <functiondecl functionName="Init" lineNumber="281"/>
+    <functiondecl functionName="CapturedInterval" lineNumber="415"/>
+    <functiondecl functionName="DoSlideHorizontal" lineNumber="432"/>
+    <functiondecl functionName="FindCandidates" lineNumber="474"/>
+    <functiondecl functionName="Click" lineNumber="494"/>
+    <functiondecl functionName="FindDesiredSlideAmount" lineNumber="569"/>
+    <functiondecl functionName="FindCorrespondence" lineNumber="639"/>
+    <functiondecl functionName="CheckFit" lineNumber="710"/>
+    <functiondecl functionName="MigrationFailure" lineNumber="743"/>
+    <functiondecl functionName="Reinsert" lineNumber="759"/>
+    <functiondecl functionName="DoSlideVertical" lineNumber="777"/>
+    <functiondecl functionName="Drag" lineNumber="854"/>
+    <functiondecl functionName="Preview" lineNumber="945"/>
+    <functiondecl functionName="Release" lineNumber="954"/>
+    <functiondecl functionName="Cancel" lineNumber="1000"/>
+    <functiondecl functionName="Draw" lineNumber="1006"/>
+    <functiondecl functionName="DrawingArea" lineNumber="1020"/>
+    <functiondecl functionName="GetTrack" lineNumber="37"/>
+    <functiondecl functionName="WasMoved" lineNumber="42"/>
+    <functiondecl functionName="Clicked" lineNumber="47"/>
+    <functiondecl functionName="Enter" lineNumber="52"/>
+    <functiondecl functionName="HitAnywhere" lineNumber="79"/>
+    <functiondecl functionName="HitTest" lineNumber="88"/>
+    <functiondecl functionName="DoHorizontalOffset" lineNumber="117"/>
+    <functiondecl functionName="UnfixIntervals" lineNumber="133"/>
+    <functiondecl functionName="UnfixAll" lineNumber="147"/>
+    <functiondecl functionName="SelectInterval" lineNumber="154"/>
+    <functiondecl functionName="CommonSelectInterval" lineNumber="159"/>
+    <functiondecl functionName="HintOffsetLarger" lineNumber="167"/>
+    <functiondecl functionName="QuantizeOffset" lineNumber="172"/>
+    <functiondecl functionName="AdjustOffsetSmaller" lineNumber="177"/>
+    <functiondecl functionName="MayMigrateTo" lineNumber="182"/>
+    <functiondecl functionName="CommonMayMigrateTo" lineNumber="187"/>
+    <functiondecl functionName="Detach" lineNumber="218"/>
+    <functiondecl functionName="AdjustFit" lineNumber="223"/>
+    <functiondecl functionName="Attach" lineNumber="229"/>
+    <functiondecl functionName="FinishMigration" lineNumber="234"/>
+    <functiondecl functionName="DoHorizontalOffset" lineNumber="239"/>
+    <functiondecl functionName="AdjustT0" lineNumber="245"/>
+    <functiondecl functionName="InitIntervals" lineNumber="250"/>
+    <functiondecl functionName="HitTest" lineNumber="264"/>
+    <functiondecl functionName="SyncLocks" lineNumber="270"/>
+    <functiondecl functionName="DEFINE_ATTACHED_VIRTUAL" lineNumber="275"/>
+    <functiondecl functionName="Init" lineNumber="281"/>
+    <functiondecl functionName="CapturedInterval" lineNumber="415"/>
+    <functiondecl functionName="DoSlideHorizontal" lineNumber="432"/>
+    <functiondecl functionName="FindCandidates" lineNumber="474"/>
+    <functiondecl functionName="Click" lineNumber="494"/>
+    <functiondecl functionName="FindDesiredSlideAmount" lineNumber="569"/>
+    <functiondecl functionName="FindCorrespondence" lineNumber="639"/>
+    <functiondecl functionName="CheckFit" lineNumber="710"/>
+    <functiondecl functionName="MigrationFailure" lineNumber="743"/>
+    <functiondecl functionName="Reinsert" lineNumber="759"/>
+    <functiondecl functionName="DoSlideVertical" lineNumber="777"/>
+    <functiondecl functionName="Drag" lineNumber="854"/>
+    <functiondecl functionName="Preview" lineNumber="945"/>
+    <functiondecl functionName="Release" lineNumber="954"/>
+    <functiondecl functionName="Cancel" lineNumber="1000"/>
+    <functiondecl functionName="Draw" lineNumber="1006"/>
+    <functiondecl functionName="DrawingArea" lineNumber="1020"/>
+    <functiondecl functionName="GetTrack" lineNumber="37"/>
+    <functiondecl functionName="WasMoved" lineNumber="42"/>
+    <functiondecl functionName="Clicked" lineNumber="47"/>
+    <functiondecl functionName="Enter" lineNumber="52"/>
+    <functiondecl functionName="HitAnywhere" lineNumber="79"/>
+    <functiondecl functionName="HitTest" lineNumber="88"/>
+    <functiondecl functionName="DoHorizontalOffset" lineNumber="117"/>
+    <functiondecl functionName="UnfixIntervals" lineNumber="133"/>
+    <functiondecl functionName="UnfixAll" lineNumber="147"/>
+    <functiondecl functionName="SelectInterval" lineNumber="154"/>
+    <functiondecl functionName="CommonSelectInterval" lineNumber="159"/>
+    <functiondecl functionName="HintOffsetLarger" lineNumber="167"/>
+    <functiondecl functionName="QuantizeOffset" lineNumber="172"/>
+    <functiondecl functionName="AdjustOffsetSmaller" lineNumber="177"/>
+    <functiondecl functionName="MayMigrateTo" lineNumber="182"/>
+    <functiondecl functionName="CommonMayMigrateTo" lineNumber="187"/>
+    <functiondecl functionName="Detach" lineNumber="218"/>
+    <functiondecl functionName="AdjustFit" lineNumber="223"/>
+    <functiondecl functionName="Attach" lineNumber="229"/>
+    <functiondecl functionName="FinishMigration" lineNumber="234"/>
+    <functiondecl functionName="DoHorizontalOffset" lineNumber="239"/>
+    <functiondecl functionName="AdjustT0" lineNumber="245"/>
+    <functiondecl functionName="InitIntervals" lineNumber="250"/>
+    <functiondecl functionName="HitTest" lineNumber="264"/>
+    <functiondecl functionName="SyncLocks" lineNumber="270"/>
+    <functiondecl functionName="DEFINE_ATTACHED_VIRTUAL" lineNumber="275"/>
+    <functiondecl functionName="Init" lineNumber="281"/>
+    <functiondecl functionName="CapturedInterval" lineNumber="415"/>
+    <functiondecl functionName="DoSlideHorizontal" lineNumber="432"/>
+    <functiondecl functionName="FindCandidates" lineNumber="474"/>
+    <functiondecl functionName="Click" lineNumber="494"/>
+    <functiondecl functionName="FindDesiredSlideAmount" lineNumber="569"/>
+    <functiondecl functionName="FindCorrespondence" lineNumber="639"/>
+    <functiondecl functionName="CheckFit" lineNumber="710"/>
+    <functiondecl functionName="MigrationFailure" lineNumber="743"/>
+    <functiondecl functionName="Reinsert" lineNumber="759"/>
+    <functiondecl functionName="DoSlideVertical" lineNumber="777"/>
+    <functiondecl functionName="Drag" lineNumber="854"/>
+    <functiondecl functionName="Preview" lineNumber="945"/>
+    <functiondecl functionName="Release" lineNumber="954"/>
+    <functiondecl functionName="Cancel" lineNumber="1000"/>
+    <functiondecl functionName="Draw" lineNumber="1006"/>
+    <functiondecl functionName="DrawingArea" lineNumber="1020"/>
+    <functiondecl functionName="GetTrack" lineNumber="37"/>
+    <functiondecl functionName="WasMoved" lineNumber="42"/>
+    <functiondecl functionName="Clicked" lineNumber="47"/>
+    <functiondecl functionName="Enter" lineNumber="52"/>
+    <functiondecl functionName="HitAnywhere" lineNumber="79"/>
+    <functiondecl functionName="HitTest" lineNumber="88"/>
+    <functiondecl functionName="DoHorizontalOffset" lineNumber="117"/>
+    <functiondecl functionName="UnfixIntervals" lineNumber="133"/>
+    <functiondecl functionName="UnfixAll" lineNumber="147"/>
+    <functiondecl functionName="SelectInterval" lineNumber="154"/>
+    <functiondecl functionName="CommonSelectInterval" lineNumber="159"/>
+    <functiondecl functionName="HintOffsetLarger" lineNumber="167"/>
+    <functiondecl functionName="QuantizeOffset" lineNumber="172"/>
+    <functiondecl functionName="AdjustOffsetSmaller" lineNumber="177"/>
+    <functiondecl functionName="MayMigrateTo" lineNumber="182"/>
+    <functiondecl functionName="CommonMayMigrateTo" lineNumber="187"/>
+    <functiondecl functionName="Detach" lineNumber="218"/>
+    <functiondecl functionName="AdjustFit" lineNumber="223"/>
+    <functiondecl functionName="Attach" lineNumber="229"/>
+    <functiondecl functionName="FinishMigration" lineNumber="234"/>
+    <functiondecl functionName="DoHorizontalOffset" lineNumber="239"/>
+    <functiondecl functionName="AdjustT0" lineNumber="245"/>
+    <functiondecl functionName="InitIntervals" lineNumber="250"/>
+    <functiondecl functionName="HitTest" lineNumber="264"/>
+    <functiondecl functionName="SyncLocks" lineNumber="270"/>
+    <functiondecl functionName="DEFINE_ATTACHED_VIRTUAL" lineNumber="275"/>
+    <functiondecl functionName="Init" lineNumber="281"/>
+    <functiondecl functionName="CapturedInterval" lineNumber="415"/>
+    <functiondecl functionName="DoSlideHorizontal" lineNumber="432"/>
+    <functiondecl functionName="FindCandidates" lineNumber="474"/>
+    <functiondecl functionName="Click" lineNumber="494"/>
+    <functiondecl functionName="FindDesiredSlideAmount" lineNumber="569"/>
+    <functiondecl functionName="FindCorrespondence" lineNumber="639"/>
+    <functiondecl functionName="CheckFit" lineNumber="710"/>
+    <functiondecl functionName="MigrationFailure" lineNumber="743"/>
+    <functiondecl functionName="Reinsert" lineNumber="759"/>
+    <functiondecl functionName="DoSlideVertical" lineNumber="777"/>
+    <functiondecl functionName="Drag" lineNumber="854"/>
+    <functiondecl functionName="Preview" lineNumber="945"/>
+    <functiondecl functionName="Release" lineNumber="954"/>
+    <functiondecl functionName="Cancel" lineNumber="1000"/>
+    <functiondecl functionName="Draw" lineNumber="1006"/>
+    <functiondecl functionName="DrawingArea" lineNumber="1020"/>
+    <functioncall functionName="ATIME"/>
+    <functioncall functionName="AUDACITY_DLL_API"/>
+    <functioncall functionName="Aligned"/>
+    <functioncall functionName="All"/>
+    <functioncall functionName="Audio"/>
+    <functioncall functionName="Axis"/>
+    <functioncall functionName="BANDWIDTH"/>
+    <functioncall functionName="ChangedProjectRate"/>
+    <functioncall functionName="ChangedSyncLock"/>
+    <functioncall functionName="ChangedTool"/>
+    <functioncall functionName="ClipMoveState"/>
+    <functioncall functionName="CommonTrackCell"/>
+    <functioncall functionName="CommonTrackPanelCell"/>
+    <functioncall functionName="ConstTrackInterval"/>
+    <functioncall functionName="DECLARE_EVENT_TABLE"/>
+    <functioncall functionName="DECLARE_EXPORTED_ATTACHED_VIRTUAL"/>
+    <functioncall functionName="DECLARE_EXPORTED_EVENT_TYPE"/>
+    <functioncall functionName="DefaultHeight"/>
+    <functioncall functionName="DigitInfo"/>
+    <functioncall functionName="DoFindTrack"/>
+    <functioncall functionName="DoGetViewTag"/>
+    <functioncall functionName="DoSetY"/>
+    <functioncall functionName="EVT_BANDWIDTHTEXTCTRL_UPDATED"/>
+    <functioncall functionName="EVT_FREQUENCYTEXTCTRL_UPDATED"/>
+    <functioncall functionName="EVT_PROJECT_SETTINGS_CHANGE"/>
+    <functioncall functionName="EVT_TIMETEXTCTRL_UPDATED"/>
+    <functioncall functionName="FREQUENCY"/>
+    <functioncall functionName="FormatStrings"/>
+    <functioncall functionName="GetDefaultTrackHeightTag"/>
+    <functioncall functionName="GetOwner"/>
+    <functioncall functionName="Here"/>
+    <functioncall functionName="HitTestPreview"/>
+    <functioncall functionName="Intervals"/>
+    <functioncall functionName="Label"/>
+    <functioncall functionName="MakeTrackShifterTag"/>
+    <functioncall functionName="MenuItem"/>
+    <functioncall functionName="Meter"/>
+    <functioncall functionName="Miss"/>
+    <functioncall functionName="NeedChangeHighlight"/>
+    <functioncall functionName="None"/>
+    <functioncall functionName="NotHere"/>
+    <functioncall functionName="Note"/>
+    <functioncall functionName="NumericConverter"/>
+    <functioncall functionName="NumericField"/>
+    <functioncall functionName="NumericTextCtrl"/>
+    <functioncall functionName="Options"/>
+    <functioncall functionName="PROHIBITED"/>
+    <functioncall functionName="Pair"/>
+    <functioncall functionName="Playable"/>
+    <functioncall functionName="ProjectAudioIO"/>
+    <functioncall functionName="ProjectHistory"/>
+    <functioncall functionName="ProjectSettings"/>
+    <functioncall functionName="Rest"/>
+    <functioncall functionName="SNAP_NEAREST"/>
+    <functioncall functionName="SNAP_OFF"/>
+    <functioncall functionName="SNAP_PRIOR"/>
+    <functioncall functionName="Selection"/>
+    <functioncall functionName="SetChangeHighlight"/>
+    <functioncall functionName="ShallowCopying"/>
+    <functioncall functionName="SharedPointer"/>
+    <functioncall functionName="SnapManager"/>
+    <functioncall functionName="SnapPoint"/>
+    <functioncall functionName="Subclass"/>
+    <functioncall functionName="T"/>
+    <functioncall functionName="TIME"/>
+    <functioncall functionName="Time"/>
+    <functioncall functionName="TimeShiftHandle"/>
+    <functioncall functionName="Track"/>
+    <functioncall functionName="TrackAttachment"/>
+    <functioncall functionName="TrackInterval"/>
+    <functioncall functionName="TrackIntervalData"/>
+    <functioncall functionName="TrackKind"/>
+    <functioncall functionName="TrackList"/>
+    <functioncall functionName="TrackPanelCell"/>
+    <functioncall functionName="TrackPanelNode"/>
+    <functioncall functionName="TrackShifter"/>
+    <functioncall functionName="TrackType"/>
+    <functioncall functionName="TrackVRulerControls"/>
+    <functioncall functionName="TrackView"/>
+    <functioncall functionName="UIHandle"/>
+    <functioncall functionName="Wave"/>
+    <functioncall functionName="X"/>
+    <functioncall functionName="Y"/>
+    <functioncall functionName="action"/>
+    <functioncall functionName="bool"/>
+    <functioncall functionName="brushRadius"/>
+    <functioncall functionName="brushTool"/>
+    <functioncall functionName="char"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="code"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="const_cast"/>
+    <functioncall functionName="cursor_"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="delete"/>
+    <functioncall functionName="double"/>
+    <functioncall functionName="drawTool"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="enable"/>
+    <functioncall functionName="enabled"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="envelopeTool"/>
+    <functioncall functionName="f"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="flag"/>
+    <functioncall functionName="format"/>
+    <functioncall functionName="fraction"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="has"/>
+    <functioncall functionName="height"/>
+    <functioncall functionName="id"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="internal"/>
+    <functioncall functionName="isSelected"/>
+    <functioncall functionName="is_const"/>
+    <functioncall functionName="is_pointer"/>
+    <functioncall functionName="kPixelTolerance"/>
+    <functioncall functionName="list"/>
+    <functioncall functionName="load"/>
+    <functioncall functionName="lock"/>
+    <functioncall functionName="mButtonWidth"/>
+    <functioncall functionName="mDigitBoxH"/>
+    <functioncall functionName="mDigitBoxW"/>
+    <functioncall functionName="mHeight"/>
+    <functioncall functionName="mValue"/>
+    <functioncall functionName="memory_order_relaxed"/>
+    <functioncall functionName="message_"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="msgid"/>
+    <functioncall functionName="multiTool"/>
+    <functioncall functionName="noexcept"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="numTools"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="pExtra"/>
+    <functioncall functionName="pNew"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="project"/>
+    <functioncall functionName="ptr"/>
+    <functioncall functionName="remove_pointer"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="selectTool"/>
+    <functioncall functionName="shared_from_this"/>
+    <functioncall functionName="shared_ptr"/>
+    <functioncall functionName="start"/>
+    <functioncall functionName="static_cast"/>
+    <functioncall functionName="static_pointer_cast"/>
+    <functioncall functionName="store"/>
+    <functioncall functionName="t"/>
+    <functioncall functionName="t_"/>
+    <functioncall functionName="this"/>
+    <functioncall functionName="tooltip_"/>
+    <functioncall functionName="track"/>
+    <functioncall functionName="track_"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="typeid"/>
+    <functioncall functionName="typename"/>
+    <functioncall functionName="v"/>
+    <functioncall functionName="val"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="width"/>
+    <functioncall functionName="wxASSERT"/>
+    <functioncall functionName="wxBitmap"/>
+    <functioncall functionName="wxCommandEvent"/>
+    <functioncall functionName="wxCoord"/>
+    <functioncall functionName="wxDECLARE_EXPORTED_EVENT"/>
+    <functioncall functionName="wxDefaultPosition"/>
+    <functioncall functionName="wxDefaultSize"/>
+    <functioncall functionName="wxFont"/>
+    <functioncall functionName="wxSize"/>
+    <functioncall functionName="wxT"/>
+    <functioncall functionName="x"/>
+    <functioncall functionName="y"/>
+    <functioncall functionName="zoomTool"/>
+  </FileInfo>
+</analyzerinfo>

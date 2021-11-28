@@ -1,0 +1,220 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3801733657">
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;wxPanelWrapper&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;wxPanelWrapper&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/prefs/PrefsPanel.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\wxPanelWrapper.h" line="46" column="4"/>
+            <symbol>wxPanelWrapper</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;wxDirDialogWrapper&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;wxDirDialogWrapper&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/prefs/PrefsPanel.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\wxPanelWrapper.h" line="129" column="4"/>
+            <symbol>wxDirDialogWrapper</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;FileDialog&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;FileDialog&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/prefs/PrefsPanel.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\gtk\FileDialogPrivate.h" line="27" column="5"/>
+            <symbol>FileDialog</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;PrefsNode&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;PrefsNode&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/prefs/PrefsPanel.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\prefs\PrefsPanel.h" line="62" column="8"/>
+            <symbol>PrefsNode</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;PrefsItemVisitor&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;PrefsItemVisitor&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/prefs/PrefsPanel.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\prefs\PrefsPanel.cpp" line="36" column="4"/>
+            <symbol>PrefsItemVisitor</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;wxTabTraversalWrapper &lt; wxPanel &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;wxTabTraversalWrapper &lt; wxPanel &gt;&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/prefs/PrefsPanel.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\wxPanelWrapper.h" line="27" column="4"/>
+            <symbol>wxTabTraversalWrapper &lt; wxPanel &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;wxTabTraversalWrapper &lt; wxDialog &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;wxTabTraversalWrapper &lt; wxDialog &gt;&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/prefs/PrefsPanel.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\wxPanelWrapper.h" line="27" column="4"/>
+            <symbol>wxTabTraversalWrapper &lt; wxDialog &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;wxTabTraversalWrapper &lt; wxDirDialog &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;wxTabTraversalWrapper &lt; wxDirDialog &gt;&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/prefs/PrefsPanel.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\wxPanelWrapper.h" line="27" column="4"/>
+            <symbol>wxTabTraversalWrapper &lt; wxDirDialog &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;wxTabTraversalWrapper &lt; FileDialog &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;wxTabTraversalWrapper &lt; FileDialog &gt;&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/prefs/PrefsPanel.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\wxPanelWrapper.h" line="27" column="4"/>
+            <symbol>wxTabTraversalWrapper &lt; FileDialog &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;wxTabTraversalWrapper &lt; wxMessageDialog &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;wxTabTraversalWrapper &lt; wxMessageDialog &gt;&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/prefs/PrefsPanel.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\wxPanelWrapper.h" line="27" column="4"/>
+            <symbol>wxTabTraversalWrapper &lt; wxMessageDialog &gt;</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;SetFileExtension&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;SetFileExtension&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/prefs/PrefsPanel.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\gtk\FileDialogPrivate.h" line="64" column="18" info="Function in derived class"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\FileDialog.h" line="35" column="17" info="Virtual function in base class"/>
+            <symbol>SetFileExtension</symbol>
+        </error>
+  <FileInfo check="Class">
+<class name="wxDirDialogWrapper" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="124" col="1" hash="2711157917505411744"/>
+<class name="FileDialogWrapper" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="163" col="1" hash="7553654041051167098"/>
+<class name="AudacityMessageDialog" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="214" col="1" hash="1660744077628049721"/>
+<class name="PrefsPanel::PrefsNode" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/prefs/PrefsPanel.h" line="54" col="5" hash="9466419352344206049"/>
+  </FileInfo>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;FileDialog&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;FileDialog&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/prefs/PrefsPanel.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\mac\FileDialogPrivate.h" line="34" column="5"/>
+            <symbol>FileDialog</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;SetFileExtension&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;SetFileExtension&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/prefs/PrefsPanel.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\mac\FileDialogPrivate.h" line="69" column="18" info="Function in derived class"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\FileDialog.h" line="35" column="17" info="Virtual function in base class"/>
+            <symbol>SetFileExtension</symbol>
+        </error>
+  <FileInfo check="Class">
+<class name="wxDirDialogWrapper" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="124" col="1" hash="2711157917505411744"/>
+<class name="FileDialogWrapper" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="163" col="1" hash="7553654041051167098"/>
+<class name="AudacityMessageDialog" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="214" col="1" hash="1660744077628049721"/>
+<class name="PrefsPanel::PrefsNode" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/prefs/PrefsPanel.h" line="54" col="5" hash="9466419352344206049"/>
+  </FileInfo>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;FileDialog&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;FileDialog&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/prefs/PrefsPanel.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\win\FileDialogPrivate.h" line="29" column="4"/>
+            <symbol>FileDialog</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;SetFileExtension&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;SetFileExtension&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/prefs/PrefsPanel.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\win\FileDialogPrivate.h" line="43" column="17" info="Function in derived class"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\FileDialog.h" line="35" column="17" info="Virtual function in base class"/>
+            <symbol>SetFileExtension</symbol>
+        </error>
+  <FileInfo check="Class">
+<class name="wxDirDialogWrapper" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="124" col="1" hash="2711157917505411744"/>
+<class name="FileDialogWrapper" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="163" col="1" hash="7553654041051167098"/>
+<class name="AudacityMessageDialog" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="214" col="1" hash="1660744077628049721"/>
+<class name="PrefsPanel::PrefsNode" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/prefs/PrefsPanel.h" line="54" col="5" hash="9466419352344206049"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="sRegistry" lineNumber="17"/>
+    <functiondecl functionName="BeginGroup" lineNumber="41"/>
+    <functiondecl functionName="EndGroup" lineNumber="51"/>
+    <functiondecl functionName="GetPath" lineNumber="68"/>
+    <functiondecl functionName="GetVendor" lineNumber="71"/>
+    <functiondecl functionName="GetVersion" lineNumber="74"/>
+    <functiondecl functionName="Cancel" lineNumber="89"/>
+    <functiondecl functionName="ShowsPreviewButton" lineNumber="93"/>
+    <functiondecl functionName="HelpPageName" lineNumber="98"/>
+    <functiondecl functionName="DefaultFactories" lineNumber="104"/>
+    <functiondecl functionName="sRegistry" lineNumber="17"/>
+    <functiondecl functionName="BeginGroup" lineNumber="41"/>
+    <functiondecl functionName="EndGroup" lineNumber="51"/>
+    <functiondecl functionName="GetPath" lineNumber="68"/>
+    <functiondecl functionName="GetVendor" lineNumber="71"/>
+    <functiondecl functionName="GetVersion" lineNumber="74"/>
+    <functiondecl functionName="Cancel" lineNumber="89"/>
+    <functiondecl functionName="ShowsPreviewButton" lineNumber="93"/>
+    <functiondecl functionName="HelpPageName" lineNumber="98"/>
+    <functiondecl functionName="DefaultFactories" lineNumber="104"/>
+    <functiondecl functionName="sRegistry" lineNumber="17"/>
+    <functiondecl functionName="BeginGroup" lineNumber="41"/>
+    <functiondecl functionName="EndGroup" lineNumber="51"/>
+    <functiondecl functionName="GetPath" lineNumber="68"/>
+    <functiondecl functionName="GetVendor" lineNumber="71"/>
+    <functiondecl functionName="GetVersion" lineNumber="74"/>
+    <functiondecl functionName="Cancel" lineNumber="89"/>
+    <functiondecl functionName="ShowsPreviewButton" lineNumber="93"/>
+    <functiondecl functionName="HelpPageName" lineNumber="98"/>
+    <functiondecl functionName="DefaultFactories" lineNumber="104"/>
+    <functioncall functionName="Args"/>
+    <functioncall functionName="Bind"/>
+    <functioncall functionName="Create"/>
+    <functioncall functionName="DECLARE_EVENT_TABLE"/>
+    <functioncall functionName="DECLARE_NO_COPY_CLASS"/>
+    <functioncall functionName="FileDialog"/>
+    <functioncall functionName="FileDialogWrapper"/>
+    <functioncall functionName="FormatWildcard"/>
+    <functioncall functionName="GetSymbol"/>
+    <functioncall functionName="Internal"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="PathStart"/>
+    <functioncall functionName="PrefsItem"/>
+    <functioncall functionName="PrefsItemVisitor"/>
+    <functioncall functionName="PrefsNode"/>
+    <functioncall functionName="PrefsPanel"/>
+    <functioncall functionName="RegisterItem"/>
+    <functioncall functionName="Registration"/>
+    <functioncall functionName="S"/>
+    <functioncall functionName="SetLabel"/>
+    <functioncall functionName="SetName"/>
+    <functioncall functionName="Translation"/>
+    <functioncall functionName="Visit"/>
+    <functioncall functionName="XO"/>
+    <functioncall functionName="args"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="call_once"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="defaultDir"/>
+    <functioncall functionName="defaultFile"/>
+    <functioncall functionName="defaultPath"/>
+    <functioncall functionName="delete"/>
+    <functioncall functionName="dynamic_cast"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="expanded"/>
+    <functioncall functionName="expanded_"/>
+    <functioncall functionName="factories"/>
+    <functioncall functionName="factories_"/>
+    <functioncall functionName="factory"/>
+    <functioncall functionName="factory_"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="fileTypes"/>
+    <functioncall functionName="flag"/>
+    <functioncall functionName="height"/>
+    <functioncall functionName="id"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="item"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="m_fileNames"/>
+    <functioncall functionName="m_paths"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="nChildren"/>
+    <functioncall functionName="nChildren_"/>
+    <functioncall functionName="name"/>
+    <functioncall functionName="pItem"/>
+    <functioncall functionName="parent"/>
+    <functioncall functionName="placement"/>
+    <functioncall functionName="pop_back"/>
+    <functioncall functionName="pos"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="sRegistry"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sizeFlags"/>
+    <functioncall functionName="style"/>
+    <functioncall functionName="sz"/>
+    <functioncall functionName="title"/>
+    <functioncall functionName="top"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="typename"/>
+    <functioncall functionName="visitor"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="width"/>
+    <functioncall functionName="winid"/>
+    <functioncall functionName="wxCENTRE"/>
+    <functioncall functionName="wxDD_DEFAULT_STYLE"/>
+    <functioncall functionName="wxDEFAULT_DIALOG_STYLE"/>
+    <functioncall functionName="wxDefaultCoord"/>
+    <functioncall functionName="wxDefaultPosition"/>
+    <functioncall functionName="wxDefaultSize"/>
+    <functioncall functionName="wxDialog"/>
+    <functioncall functionName="wxDialogWrapper"/>
+    <functioncall functionName="wxDirDialog"/>
+    <functioncall functionName="wxEVT_CHAR_HOOK"/>
+    <functioncall functionName="wxEmptyString"/>
+    <functioncall functionName="wxFD_DEFAULT_STYLE"/>
+    <functioncall functionName="wxFileDialogNameStr"/>
+    <functioncall functionName="wxFileSelectorDefaultWildcardStr"/>
+    <functioncall functionName="wxFileSelectorPromptStr"/>
+    <functioncall functionName="wxID_ANY"/>
+    <functioncall functionName="wxMessageDialog"/>
+    <functioncall functionName="wxNO_BORDER"/>
+    <functioncall functionName="wxPanel"/>
+    <functioncall functionName="wxPanelWrapper"/>
+    <functioncall functionName="wxSIZE_AUTO"/>
+    <functioncall functionName="wxT"/>
+    <functioncall functionName="wxTabTraversalWrapper &lt; FileDialog &gt;"/>
+    <functioncall functionName="wxTabTraversalWrapper &lt; wxDialog &gt;"/>
+    <functioncall functionName="wxTabTraversalWrapper &lt; wxDirDialog &gt;"/>
+    <functioncall functionName="wxTabTraversalWrapper &lt; wxMessageDialog &gt;"/>
+    <functioncall functionName="wxTabTraversalWrapper &lt; wxPanel &gt;"/>
+    <functioncall functionName="wxTabTraversalWrapperCharHook"/>
+    <functioncall functionName="x"/>
+    <functioncall functionName="y"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,11 @@
+Handle
+wxWidgetsWindowPlacement
+FindDescendants call:[GetMenuItems,GetSubMenu,push_back,size] noreturn:[push_back]
+ContainsMenu call:[begin,count,end] noreturn:[count]
+FindPathName call:[FindItem,GetItemLabelText,GetMenu,GetMenuItems,GetParent,GetSubMenu,begin,count_if,empty,end,find_if,push_back,reverse] noreturn:[GetMenu,push_back]
+Watcher call:[AddFilter] noreturn:[AddFilter]
+Watcher call:[RemoveFilter] noreturn:[RemoveFilter]
+FilterEvent call:[ContainsMenu,FailedEventSerialization,FindPathName,GetEventObject,GetEventType,GetId,IsWatching,Output,back,begin,empty,insert]
+Watch
+ReplayPopup call:[GetId,GetItemLabelText,GetMenuItems,GetSubMenu,GetTokens,ProcessEvent,SetEventObject,begin,end,find_if,size] noreturn:[GetSubMenu]
+Popup call:[FindDescendants,GetParent,IsReplaying,Output,PopupMenu,ReplayPopup,finally,pop_back,push_back] noreturn:[Output,PopupMenu,ReplayPopup,pop_back]

@@ -1,0 +1,8 @@
+sDictionary
+GetError
+SetError
+RegisteredCommand call:[Format,SetError,insert,sDictionary,wxLogDebug,wxT] noreturn:[SetError]
+GetDictionary call:[sDictionary] noreturn:[sDictionary]
+sInitializers
+RegisteredInitializer call:[move,push_back,sInitializers] noreturn:[push_back]
+GetInitializers call:[sInitializers] noreturn:[sInitializers]

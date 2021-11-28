@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1225600055">
+  <FileInfo check="Class">
+<class name="RingBuffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RingBuffer.h" line="17" col="1" hash="13660256149669413034"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="Filled" lineNumber="45"/>
+    <functiondecl functionName="Free" lineNumber="50"/>
+    <functiondecl functionName="AvailForPut" lineNumber="62"/>
+    <functiondecl functionName="Put" lineNumber="72"/>
+    <functiondecl functionName="Clear" lineNumber="112"/>
+    <functiondecl functionName="AvailForGet" lineNumber="145"/>
+    <functiondecl functionName="Get" lineNumber="155"/>
+    <functiondecl functionName="Discard" lineNumber="186"/>
+    <functioncall functionName="ClearSamples"/>
+    <functioncall functionName="CopySamples"/>
+    <functioncall functionName="Filled"/>
+    <functioncall functionName="Free"/>
+    <functioncall functionName="RingBuffer"/>
+    <functioncall functionName="SAMPLE_SIZE"/>
+    <functioncall functionName="atomic"/>
+    <functioncall functionName="block"/>
+    <functioncall functionName="buffer"/>
+    <functioncall functionName="dest"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="format"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="load"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="mBufferSize"/>
+    <functioncall functionName="mFormat"/>
+    <functioncall functionName="max"/>
+    <functioncall functionName="memory_order_acquire"/>
+    <functioncall functionName="memory_order_relaxed"/>
+    <functioncall functionName="memory_order_release"/>
+    <functioncall functionName="min"/>
+    <functioncall functionName="none"/>
+    <functioncall functionName="padding"/>
+    <functioncall functionName="pos"/>
+    <functioncall functionName="ptr"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="samplesToClear"/>
+    <functioncall functionName="samplesToCopy"/>
+    <functioncall functionName="samplesToDiscard"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="src"/>
+    <functioncall functionName="start"/>
+    <functioncall functionName="store"/>
+    <functioncall functionName="while"/>
+  </FileInfo>
+</analyzerinfo>

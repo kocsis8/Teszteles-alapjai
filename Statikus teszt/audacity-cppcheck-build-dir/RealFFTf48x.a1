@@ -1,0 +1,803 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3999442518">
+  <FileInfo check="Class">
+<class name="SinCosStruct" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h" line="86" col="9" hash="6465846600729503498"/>
+  </FileInfo>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;tmp&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;tmp&apos;. The initialized value is overwritten before it is read." cwe="563" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\SseMathFuncs.h" line="303" column="8" info="tmp is overwritten"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\SseMathFuncs.h" line="278" column="12" info="tmp is initialized"/>
+            <symbol>tmp</symbol>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;xmm2&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;xmm2&apos;. The initialized value is overwritten before it is read." cwe="563" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\SseMathFuncs.h" line="467" column="8" info="xmm2 is overwritten"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\SseMathFuncs.h" line="396" column="19" info="xmm2 is initialized"/>
+            <symbol>xmm2</symbol>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;xmm2&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;xmm2&apos;. The initialized value is overwritten before it is read." cwe="563" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\SseMathFuncs.h" line="584" column="8" info="xmm2 is overwritten"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\SseMathFuncs.h" line="513" column="19" info="xmm2 is initialized"/>
+            <symbol>xmm2</symbol>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;xmm3&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;xmm3&apos;. The initialized value is overwritten before it is read." cwe="563" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\SseMathFuncs.h" line="706" column="8" info="xmm3 is overwritten"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\SseMathFuncs.h" line="632" column="25" info="xmm3 is initialized"/>
+            <symbol>xmm3</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;sptr&apos; can be reduced." verbose="The scope of the variable &apos;sptr&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="346" column="14"/>
+            <symbol>sptr</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;HRplus&apos; can be reduced." verbose="The scope of the variable &apos;HRplus&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="349" column="13"/>
+            <symbol>HRplus</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;HRminus&apos; can be reduced." verbose="The scope of the variable &apos;HRminus&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="349" column="20"/>
+            <symbol>HRminus</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;HIplus&apos; can be reduced." verbose="The scope of the variable &apos;HIplus&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="349" column="28"/>
+            <symbol>HIplus</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;HIminus&apos; can be reduced." verbose="The scope of the variable &apos;HIminus&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="349" column="35"/>
+            <symbol>HIminus</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;sptr&apos; can be reduced." verbose="The scope of the variable &apos;sptr&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="448" column="14"/>
+            <symbol>sptr</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;HRplus&apos; can be reduced." verbose="The scope of the variable &apos;HRplus&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="451" column="13"/>
+            <symbol>HRplus</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;HRminus&apos; can be reduced." verbose="The scope of the variable &apos;HRminus&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="451" column="20"/>
+            <symbol>HRminus</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;HIplus&apos; can be reduced." verbose="The scope of the variable &apos;HIplus&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="451" column="28"/>
+            <symbol>HIplus</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;HIminus&apos; can be reduced." verbose="The scope of the variable &apos;HIminus&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="451" column="35"/>
+            <symbol>HIminus</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;sptr&apos; can be reduced." verbose="The scope of the variable &apos;sptr&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="557" column="14"/>
+            <symbol>sptr</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;br1Value&apos; can be reduced." verbose="The scope of the variable &apos;br1Value&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="560" column="8"/>
+            <symbol>br1Value</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;br2Value&apos; can be reduced." verbose="The scope of the variable &apos;br2Value&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="560" column="18"/>
+            <symbol>br2Value</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;sptr&apos; can be reduced." verbose="The scope of the variable &apos;sptr&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="663" column="14"/>
+            <symbol>sptr</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;br1Value&apos; can be reduced." verbose="The scope of the variable &apos;br1Value&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="665" column="18"/>
+            <symbol>br1Value</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;br1Value&apos; can be reduced." verbose="The scope of the variable &apos;br1Value&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="807" column="8"/>
+            <symbol>br1Value</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;br2Value&apos; can be reduced." verbose="The scope of the variable &apos;br2Value&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="807" column="18"/>
+            <symbol>br2Value</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;HRplus&apos; can be reduced." verbose="The scope of the variable &apos;HRplus&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="808" column="13"/>
+            <symbol>HRplus</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;HRminus&apos; can be reduced." verbose="The scope of the variable &apos;HRminus&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="808" column="20"/>
+            <symbol>HRminus</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;HIplus&apos; can be reduced." verbose="The scope of the variable &apos;HIplus&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="808" column="28"/>
+            <symbol>HIplus</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;HIminus&apos; can be reduced." verbose="The scope of the variable &apos;HIminus&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="808" column="35"/>
+            <symbol>HIminus</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;br1Value&apos; can be reduced." verbose="The scope of the variable &apos;br1Value&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="904" column="18"/>
+            <symbol>br1Value</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;HRplus&apos; can be reduced." verbose="The scope of the variable &apos;HRplus&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="906" column="13"/>
+            <symbol>HRplus</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;HRminus&apos; can be reduced." verbose="The scope of the variable &apos;HRminus&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="906" column="20"/>
+            <symbol>HRminus</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;HIplus&apos; can be reduced." verbose="The scope of the variable &apos;HIplus&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="906" column="28"/>
+            <symbol>HIplus</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;HIminus&apos; can be reduced." verbose="The scope of the variable &apos;HIminus&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="906" column="35"/>
+            <symbol>HIminus</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;br1Value&apos; can be reduced." verbose="The scope of the variable &apos;br1Value&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="1023" column="8"/>
+            <symbol>br1Value</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;br2Value&apos; can be reduced." verbose="The scope of the variable &apos;br2Value&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="1023" column="18"/>
+            <symbol>br2Value</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;br1Value&apos; can be reduced." verbose="The scope of the variable &apos;br1Value&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="1132" column="18"/>
+            <symbol>br1Value</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;br1Value&apos; can be reduced." verbose="The scope of the variable &apos;br1Value&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="1277" column="8"/>
+            <symbol>br1Value</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;br2Value&apos; can be reduced." verbose="The scope of the variable &apos;br2Value&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="1277" column="18"/>
+            <symbol>br2Value</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;HRplus&apos; can be reduced." verbose="The scope of the variable &apos;HRplus&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="1278" column="13"/>
+            <symbol>HRplus</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;HRminus&apos; can be reduced." verbose="The scope of the variable &apos;HRminus&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="1278" column="21"/>
+            <symbol>HRminus</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;HIplus&apos; can be reduced." verbose="The scope of the variable &apos;HIplus&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="1278" column="30"/>
+            <symbol>HIplus</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;HIminus&apos; can be reduced." verbose="The scope of the variable &apos;HIminus&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="1278" column="38"/>
+            <symbol>HIminus</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;HRplus&apos; can be reduced." verbose="The scope of the variable &apos;HRplus&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="1379" column="13"/>
+            <symbol>HRplus</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;HRminus&apos; can be reduced." verbose="The scope of the variable &apos;HRminus&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="1379" column="21"/>
+            <symbol>HRminus</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;HIplus&apos; can be reduced." verbose="The scope of the variable &apos;HIplus&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="1379" column="30"/>
+            <symbol>HIplus</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;HIminus&apos; can be reduced." verbose="The scope of the variable &apos;HIminus&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="1379" column="38"/>
+            <symbol>HIminus</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;br1Value&apos; can be reduced." verbose="The scope of the variable &apos;br1Value&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="1500" column="8"/>
+            <symbol>br1Value</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;br2Value&apos; can be reduced." verbose="The scope of the variable &apos;br2Value&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="1500" column="18"/>
+            <symbol>br2Value</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;br1Value&apos; can be reduced." verbose="The scope of the variable &apos;br1Value&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="1764" column="8"/>
+            <symbol>br1Value</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;br2Value&apos; can be reduced." verbose="The scope of the variable &apos;br2Value&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="1764" column="18"/>
+            <symbol>br2Value</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;HRplus&apos; can be reduced." verbose="The scope of the variable &apos;HRplus&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="1765" column="13"/>
+            <symbol>HRplus</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;HRminus&apos; can be reduced." verbose="The scope of the variable &apos;HRminus&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="1765" column="21"/>
+            <symbol>HRminus</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;HIplus&apos; can be reduced." verbose="The scope of the variable &apos;HIplus&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="1765" column="30"/>
+            <symbol>HIplus</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;HIminus&apos; can be reduced." verbose="The scope of the variable &apos;HIminus&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="1765" column="38"/>
+            <symbol>HIminus</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;HRplus&apos; can be reduced." verbose="The scope of the variable &apos;HRplus&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="1911" column="13"/>
+            <symbol>HRplus</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;HRminus&apos; can be reduced." verbose="The scope of the variable &apos;HRminus&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="1911" column="21"/>
+            <symbol>HRminus</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;HIplus&apos; can be reduced." verbose="The scope of the variable &apos;HIplus&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="1911" column="30"/>
+            <symbol>HIplus</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;HIminus&apos; can be reduced." verbose="The scope of the variable &apos;HIminus&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="1911" column="38"/>
+            <symbol>HIminus</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;br1Value&apos; can be reduced." verbose="The scope of the variable &apos;br1Value&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="2066" column="8"/>
+            <symbol>br1Value</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;br2Value&apos; can be reduced." verbose="The scope of the variable &apos;br2Value&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="2066" column="18"/>
+            <symbol>br2Value</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;br1Value&apos; can be reduced." verbose="The scope of the variable &apos;br1Value&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="2399" column="8"/>
+            <symbol>br1Value</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;br2Value&apos; can be reduced." verbose="The scope of the variable &apos;br2Value&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="2399" column="18"/>
+            <symbol>br2Value</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;HRplus&apos; can be reduced." verbose="The scope of the variable &apos;HRplus&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="2400" column="13"/>
+            <symbol>HRplus</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;HRminus&apos; can be reduced." verbose="The scope of the variable &apos;HRminus&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="2400" column="20"/>
+            <symbol>HRminus</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;HIplus&apos; can be reduced." verbose="The scope of the variable &apos;HIplus&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="2400" column="28"/>
+            <symbol>HIplus</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;HIminus&apos; can be reduced." verbose="The scope of the variable &apos;HIminus&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="2400" column="35"/>
+            <symbol>HIminus</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;HRplus&apos; can be reduced." verbose="The scope of the variable &apos;HRplus&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="2542" column="13"/>
+            <symbol>HRplus</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;HRminus&apos; can be reduced." verbose="The scope of the variable &apos;HRminus&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="2542" column="20"/>
+            <symbol>HRminus</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;HIplus&apos; can be reduced." verbose="The scope of the variable &apos;HIplus&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="2542" column="28"/>
+            <symbol>HIplus</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;HIminus&apos; can be reduced." verbose="The scope of the variable &apos;HIminus&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="2542" column="35"/>
+            <symbol>HIminus</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;br1Value&apos; can be reduced." verbose="The scope of the variable &apos;br1Value&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="2696" column="8"/>
+            <symbol>br1Value</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;br2Value&apos; can be reduced." verbose="The scope of the variable &apos;br2Value&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="2696" column="18"/>
+            <symbol>br2Value</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;sinCosCalIndex&apos; shadows outer variable" verbose="Local variable &apos;sinCosCalIndex&apos; shadows outer variable" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="1984" column="11" info="Shadow variable"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="1922" column="8" info="Shadowed declaration"/>
+            <symbol>sinCosCalIndex</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;sinCosCalIndex&apos; shadows outer variable" verbose="Local variable &apos;sinCosCalIndex&apos; shadows outer variable" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="2290" column="11" info="Shadow variable"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="2224" column="8" info="Shadowed declaration"/>
+            <symbol>sinCosCalIndex</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;sinCosCalIndex&apos; shadows outer variable" verbose="Local variable &apos;sinCosCalIndex&apos; shadows outer variable" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="2615" column="11" info="Shadow variable"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="2553" column="8" info="Shadowed declaration"/>
+            <symbol>sinCosCalIndex</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;sinCosCalIndex&apos; shadows outer variable" verbose="Local variable &apos;sinCosCalIndex&apos; shadows outer variable" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="2920" column="11" info="Shadow variable"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="2854" column="8" info="Shadowed declaration"/>
+            <symbol>sinCosCalIndex</symbol>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;buffer&apos; can be declared with const" verbose="Parameter &apos;buffer&apos; can be declared with const" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="541" column="61" info="Parameter &apos;buffer&apos; can be declared with const"/>
+            <symbol>buffer</symbol>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;buffer&apos; can be declared with const" verbose="Parameter &apos;buffer&apos; can be declared with const" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="528" column="61" info="Parameter &apos;buffer&apos; can be declared with const"/>
+            <symbol>buffer</symbol>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;buffer&apos; can be declared with const" verbose="Parameter &apos;buffer&apos; can be declared with const" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="2675" column="60" info="Parameter &apos;buffer&apos; can be declared with const"/>
+            <symbol>buffer</symbol>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;buffer&apos; can be declared with const" verbose="Parameter &apos;buffer&apos; can be declared with const" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="2658" column="60" info="Parameter &apos;buffer&apos; can be declared with const"/>
+            <symbol>buffer</symbol>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;buffer&apos; can be declared with const" verbose="Parameter &apos;buffer&apos; can be declared with const" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="988" column="64" info="Parameter &apos;buffer&apos; can be declared with const"/>
+            <symbol>buffer</symbol>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;buffer&apos; can be declared with const" verbose="Parameter &apos;buffer&apos; can be declared with const" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="2045" column="60" info="Parameter &apos;buffer&apos; can be declared with const"/>
+            <symbol>buffer</symbol>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;buffer&apos; can be declared with const" verbose="Parameter &apos;buffer&apos; can be declared with const" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="999" column="64" info="Parameter &apos;buffer&apos; can be declared with const"/>
+            <symbol>buffer</symbol>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;buffer&apos; can be declared with const" verbose="Parameter &apos;buffer&apos; can be declared with const" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="2027" column="60" info="Parameter &apos;buffer&apos; can be declared with const"/>
+            <symbol>buffer</symbol>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;buffer&apos; can be declared with const" verbose="Parameter &apos;buffer&apos; can be declared with const" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="1461" column="63" info="Parameter &apos;buffer&apos; can be declared with const"/>
+            <symbol>buffer</symbol>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;buffer&apos; can be declared with const" verbose="Parameter &apos;buffer&apos; can be declared with const" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="1478" column="63" info="Parameter &apos;buffer&apos; can be declared with const"/>
+            <symbol>buffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;A&apos; is assigned a value that is never used." verbose="Variable &apos;A&apos; is assigned a value that is never used." cwe="563" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="869" column="5"/>
+            <symbol>A</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;br1&apos; is assigned a value that is never used." verbose="Variable &apos;br1&apos; is assigned a value that is never used." cwe="563" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="915" column="8"/>
+            <symbol>br1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;br1Value&apos; is assigned a value that is never used." verbose="Variable &apos;br1Value&apos; is assigned a value that is never used." cwe="563" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="919" column="16"/>
+            <symbol>br1Value</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;br1Value&apos; is assigned a value that is never used." verbose="Variable &apos;br1Value&apos; is assigned a value that is never used." cwe="563" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="1145" column="16"/>
+            <symbol>br1Value</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;A&apos; is assigned a value that is never used." verbose="Variable &apos;A&apos; is assigned a value that is never used." cwe="563" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="1343" column="5"/>
+            <symbol>A</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;zeroes&apos; is assigned a value that is never used." verbose="Variable &apos;zeroes&apos; is assigned a value that is never used." cwe="563" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="1782" column="22"/>
+            <symbol>zeroes</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;A&apos; is assigned a value that is never used." verbose="Variable &apos;A&apos; is assigned a value that is never used." cwe="563" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="1875" column="5"/>
+            <symbol>A</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;A&apos; is assigned a value that is never used." verbose="Variable &apos;A&apos; is assigned a value that is never used." cwe="563" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\RealFFTf48x.cpp" line="2506" column="5"/>
+            <symbol>A</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:61:6" call-funcname="RealFFTf1xSinCosTableVBR16" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="158" col="7" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:21:6" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:61:6" call-funcname="RealFFTf1xSinCosTableVBR16" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="158" col="7" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:21:6" my-argnr="2"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:62:6" call-funcname="InverseRealFFTf1xSinCosTableVBR16" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="179" col="7" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:22:6" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:62:6" call-funcname="InverseRealFFTf1xSinCosTableVBR16" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="179" col="7" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:22:6" my-argnr="2"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:63:6" call-funcname="ReorderToTime1xSinCosTableVBR16" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="200" col="7" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:23:6" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:63:6" call-funcname="ReorderToTime1xSinCosTableVBR16" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="200" col="7" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:23:6" my-argnr="2"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:63:6" call-funcname="ReorderToTime1xSinCosTableVBR16" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="200" col="7" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:23:6" my-argnr="3"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:64:6" call-funcname="ReorderToFreq1xSinCosTableVBR16" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="221" col="7" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:24:6" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:64:6" call-funcname="ReorderToFreq1xSinCosTableVBR16" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="221" col="7" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:24:6" my-argnr="2"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:64:6" call-funcname="ReorderToFreq1xSinCosTableVBR16" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="221" col="7" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:24:6" my-argnr="3"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:64:6" call-funcname="ReorderToFreq1xSinCosTableVBR16" call-argnr="4" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="221" col="7" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:24:6" my-argnr="4"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:65:6" call-funcname="RealFFTf4xSinCosTableVBR16" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="242" col="7" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:25:6" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:65:6" call-funcname="RealFFTf4xSinCosTableVBR16" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="242" col="7" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:25:6" my-argnr="2"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:66:6" call-funcname="InverseRealFFTf4xSinCosTableVBR16" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="263" col="7" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:26:6" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:66:6" call-funcname="InverseRealFFTf4xSinCosTableVBR16" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="263" col="7" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:26:6" my-argnr="2"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:67:6" call-funcname="ReorderToTime4xSinCosTableVBR16" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="284" col="7" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:27:6" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:67:6" call-funcname="ReorderToTime4xSinCosTableVBR16" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="284" col="7" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:27:6" my-argnr="2"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:67:6" call-funcname="ReorderToTime4xSinCosTableVBR16" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="284" col="7" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:27:6" my-argnr="3"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:68:6" call-funcname="ReorderToFreq4xSinCosTableVBR16" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="305" col="7" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:28:6" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:68:6" call-funcname="ReorderToFreq4xSinCosTableVBR16" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="305" col="7" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:28:6" my-argnr="2"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:68:6" call-funcname="ReorderToFreq4xSinCosTableVBR16" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="305" col="7" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:28:6" my-argnr="3"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:68:6" call-funcname="ReorderToFreq4xSinCosTableVBR16" call-argnr="4" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="305" col="7" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:28:6" my-argnr="4"/>
+  </FileInfo>
+  <FileInfo check="Bounds checking">
+    <array-index>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:34:6" my-argnr="2" my-argname="buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="535" col="17" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:64:6" my-argnr="2" my-argname="buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="1008" col="17" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:74:6" my-argnr="2" my-argname="buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="1472" col="17" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:54:6" my-argnr="2" my-argname="buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="2039" col="17" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:44:6" my-argnr="2" my-argname="buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="2669" col="17" value="0"/>
+    </array-index>
+    <pointer-arith>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:32:6" my-argnr="1" my-argname="buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="457" col="8" value="8"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:62:6" my-argnr="1" my-argname="buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="913" col="8" value="8"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:72:6" my-argnr="1" my-argname="buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="1387" col="8" value="8"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:52:6" my-argnr="1" my-argname="buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="1919" col="8" value="8"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:42:6" my-argnr="1" my-argname="buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="2550" col="8" value="8"/>
+    </pointer-arith>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="SinCosStruct" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h" line="86" col="9" hash="6465846600729503498"/>
+<class name="SinCosTable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h" line="91" col="1" hash="10839342481414747665"/>
+<class name="BitReverser" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="114" col="1" hash="13280667320977083994"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/SseMathFuncs.h:631:6" my-argnr="2" my-argname="s" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/SseMathFuncs.h" line="771" col="4" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/SseMathFuncs.h:631:6" my-argnr="3" my-argname="c" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/SseMathFuncs.h" line="772" col="4" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:31:6" my-argnr="2" my-argname="h" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="352" col="31" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:32:6" my-argnr="2" my-argname="h" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="454" col="31" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:34:6" my-argnr="1" my-argname="hFFT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="531" col="26" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:34:6" my-argnr="2" my-argname="buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="535" col="17" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:33:6" my-argnr="1" my-argname="hFFT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="544" col="26" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:35:6" my-argnr="2" my-argname="h" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="563" col="31" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:36:6" my-argnr="2" my-argname="h" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="669" col="31" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:38:6" my-argnr="1" my-argname="hFFT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="754" col="26" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:37:6" my-argnr="1" my-argname="hFFT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="771" col="26" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:61:6" my-argnr="2" my-argname="h" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="810" col="31" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:62:6" my-argnr="2" my-argname="h" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="908" col="31" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:63:6" my-argnr="1" my-argname="hFFT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="991" col="25" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:64:6" my-argnr="1" my-argname="hFFT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="1002" col="26" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:64:6" my-argnr="2" my-argname="buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="1008" col="17" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:65:6" my-argnr="2" my-argname="h" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="1026" col="31" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:66:6" my-argnr="2" my-argname="h" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="1135" col="31" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:67:6" my-argnr="1" my-argname="hFFT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="1223" col="26" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:68:6" my-argnr="1" my-argname="hFFT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="1238" col="26" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:71:6" my-argnr="2" my-argname="h" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="1280" col="31" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:72:6" my-argnr="2" my-argname="h" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="1381" col="31" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:74:6" my-argnr="1" my-argname="hFFT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="1463" col="27" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:74:6" my-argnr="2" my-argname="buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="1472" col="17" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:73:6" my-argnr="1" my-argname="hFFT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="1480" col="27" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:75:6" my-argnr="2" my-argname="h" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="1503" col="31" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:76:6" my-argnr="2" my-argname="h" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="1616" col="31" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:77:6" my-argnr="1" my-argname="hFFT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="1704" col="31" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:78:6" my-argnr="1" my-argname="hFFT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="1721" col="31" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:51:6" my-argnr="2" my-argname="h" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="1767" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:52:6" my-argnr="2" my-argname="h" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="1913" col="38" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:54:6" my-argnr="1" my-argname="hFFT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="2029" col="31" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:54:6" my-argnr="2" my-argname="buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="2039" col="17" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:53:6" my-argnr="1" my-argname="hFFT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="2047" col="31" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:55:6" my-argnr="2" my-argname="h" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="2069" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:56:6" my-argnr="2" my-argname="h" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="2216" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:58:6" my-argnr="1" my-argname="hFFT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="2338" col="29" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:57:6" my-argnr="1" my-argname="hFFT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="2359" col="29" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:41:6" my-argnr="2" my-argname="h" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="2402" col="38" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:42:6" my-argnr="2" my-argname="h" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="2544" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:44:6" my-argnr="1" my-argname="hFFT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="2660" col="31" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:44:6" my-argnr="2" my-argname="buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="2669" col="17" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:43:6" my-argnr="1" my-argname="hFFT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="2677" col="27" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:45:6" my-argnr="2" my-argname="h" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="2699" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:46:6" my-argnr="2" my-argname="h" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="2846" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:48:6" my-argnr="1" my-argname="hFFT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="2968" col="27" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:47:6" my-argnr="1" my-argname="hFFT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="2989" col="27" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:31:6" my-argnr="2" my-argname="h" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="352" col="31" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:32:6" my-argnr="2" my-argname="h" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="454" col="31" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:34:6" my-argnr="1" my-argname="hFFT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="531" col="26" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:34:6" my-argnr="2" my-argname="buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="535" col="17" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:33:6" my-argnr="1" my-argname="hFFT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="544" col="26" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:35:6" my-argnr="2" my-argname="h" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="563" col="31" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:36:6" my-argnr="2" my-argname="h" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="669" col="31" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:38:6" my-argnr="1" my-argname="hFFT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="754" col="26" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:37:6" my-argnr="1" my-argname="hFFT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="771" col="26" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:61:6" my-argnr="2" my-argname="h" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="810" col="31" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:62:6" my-argnr="2" my-argname="h" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="908" col="31" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:63:6" my-argnr="1" my-argname="hFFT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="991" col="25" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:64:6" my-argnr="1" my-argname="hFFT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="1002" col="26" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:64:6" my-argnr="2" my-argname="buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="1008" col="17" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:65:6" my-argnr="2" my-argname="h" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="1026" col="31" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:66:6" my-argnr="2" my-argname="h" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="1135" col="31" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:67:6" my-argnr="1" my-argname="hFFT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="1223" col="26" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:68:6" my-argnr="1" my-argname="hFFT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="1238" col="26" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:71:6" my-argnr="2" my-argname="h" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="1280" col="31" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:72:6" my-argnr="2" my-argname="h" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="1381" col="31" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:74:6" my-argnr="1" my-argname="hFFT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="1463" col="27" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:74:6" my-argnr="2" my-argname="buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="1472" col="17" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:73:6" my-argnr="1" my-argname="hFFT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="1480" col="27" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:75:6" my-argnr="2" my-argname="h" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="1503" col="31" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:76:6" my-argnr="2" my-argname="h" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="1616" col="31" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:77:6" my-argnr="1" my-argname="hFFT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="1704" col="31" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:78:6" my-argnr="1" my-argname="hFFT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="1721" col="31" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:51:6" my-argnr="2" my-argname="h" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="1767" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:52:6" my-argnr="2" my-argname="h" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="1913" col="38" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:54:6" my-argnr="1" my-argname="hFFT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="2029" col="31" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:54:6" my-argnr="2" my-argname="buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="2039" col="17" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:53:6" my-argnr="1" my-argname="hFFT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="2047" col="31" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:55:6" my-argnr="2" my-argname="h" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="2069" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:56:6" my-argnr="2" my-argname="h" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="2216" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:58:6" my-argnr="1" my-argname="hFFT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="2338" col="29" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:57:6" my-argnr="1" my-argname="hFFT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="2359" col="29" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:41:6" my-argnr="2" my-argname="h" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="2402" col="38" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:42:6" my-argnr="2" my-argname="h" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="2544" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:44:6" my-argnr="1" my-argname="hFFT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="2660" col="31" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:44:6" my-argnr="2" my-argname="buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="2669" col="17" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:43:6" my-argnr="1" my-argname="hFFT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="2677" col="27" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:45:6" my-argnr="2" my-argname="h" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="2699" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:46:6" my-argnr="2" my-argname="h" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="2846" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:48:6" my-argnr="1" my-argname="hFFT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="2968" col="27" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.h:47:6" my-argnr="1" my-argname="hFFT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/RealFFTf48x.cpp" line="2989" col="27" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="TableUsage" lineNumber="92"/>
+    <functiondecl functionName="SmallVRB0" lineNumber="129"/>
+    <functiondecl functionName="SmallVRB1" lineNumber="129"/>
+    <functiondecl functionName="SmallVRB2" lineNumber="130"/>
+    <functiondecl functionName="SmallVRB3" lineNumber="130"/>
+    <functiondecl functionName="SmallVRB4" lineNumber="131"/>
+    <functiondecl functionName="SmallVRB5" lineNumber="131"/>
+    <functiondecl functionName="SmallVRB6" lineNumber="132"/>
+    <functiondecl functionName="SmallVRB7" lineNumber="132"/>
+    <functiondecl functionName="SmallVRB8" lineNumber="133"/>
+    <functiondecl functionName="SmallVRB9" lineNumber="134"/>
+    <functiondecl functionName="SmallVRB10" lineNumber="135"/>
+    <functiondecl functionName="SmallVRB11" lineNumber="136"/>
+    <functiondecl functionName="SmallVRB12" lineNumber="137"/>
+    <functiondecl functionName="SmallVRB13" lineNumber="138"/>
+    <functiondecl functionName="SmallVRB14" lineNumber="139"/>
+    <functiondecl functionName="SmallVRB15" lineNumber="140"/>
+    <functiondecl functionName="SmallVRB16" lineNumber="141"/>
+    <functiondecl functionName="SmallRB" lineNumber="147"/>
+    <functiondecl functionName="RealFFTf1x" lineNumber="154"/>
+    <functiondecl functionName="InverseRealFFTf1x" lineNumber="175"/>
+    <functiondecl functionName="ReorderToTime1x" lineNumber="196"/>
+    <functiondecl functionName="ReorderToFreq1x" lineNumber="217"/>
+    <functiondecl functionName="RealFFTf4x" lineNumber="238"/>
+    <functiondecl functionName="InverseRealFFTf4x" lineNumber="259"/>
+    <functiondecl functionName="ReorderToTime4x" lineNumber="280"/>
+    <functiondecl functionName="ReorderToFreq4x" lineNumber="301"/>
+    <functiondecl functionName="RealFFTf1xSinCosBRTable" lineNumber="343"/>
+    <functiondecl functionName="InverseRealFFTf1xSinCosBRTable" lineNumber="445"/>
+    <functiondecl functionName="ReorderToFreq1xSinCosBRTable" lineNumber="528"/>
+    <functiondecl functionName="ReorderToTime1xSinCosBRTable" lineNumber="541"/>
+    <functiondecl functionName="RealFFTf4xSinCosBRTable" lineNumber="551"/>
+    <functiondecl functionName="InverseRealFFTf4xSinCosBRTable" lineNumber="657"/>
+    <functiondecl functionName="ReorderToFreq4xSinCosBRTable" lineNumber="747"/>
+    <functiondecl functionName="ReorderToTime4xSinCosBRTable" lineNumber="766"/>
+    <functiondecl functionName="RealFFTf1xSinCosTableVBR16" lineNumber="802"/>
+    <functiondecl functionName="InverseRealFFTf1xSinCosTableVBR16" lineNumber="900"/>
+    <functiondecl functionName="ReorderToTime1xSinCosTableVBR16" lineNumber="988"/>
+    <functiondecl functionName="ReorderToFreq1xSinCosTableVBR16" lineNumber="999"/>
+    <functiondecl functionName="RealFFTf4xSinCosTableVBR16" lineNumber="1015"/>
+    <functiondecl functionName="InverseRealFFTf4xSinCosTableVBR16" lineNumber="1125"/>
+    <functiondecl functionName="ReorderToTime4xSinCosTableVBR16" lineNumber="1218"/>
+    <functiondecl functionName="ReorderToFreq4xSinCosTableVBR16" lineNumber="1231"/>
+    <functiondecl functionName="RealFFTf1xSinCosTableBR16" lineNumber="1272"/>
+    <functiondecl functionName="InverseRealFFTf1xSinCosTableBR16" lineNumber="1374"/>
+    <functiondecl functionName="ReorderToFreq1xSinCosTableBR16" lineNumber="1461"/>
+    <functiondecl functionName="ReorderToTime1xSinCosTableBR16" lineNumber="1478"/>
+    <functiondecl functionName="RealFFTf4xSinCosTableBR16" lineNumber="1492"/>
+    <functiondecl functionName="InverseRealFFTf4xSinCosTableBR16" lineNumber="1606"/>
+    <functiondecl functionName="ReorderToTime4xSinCosTableBR16" lineNumber="1700"/>
+    <functiondecl functionName="ReorderToFreq4xSinCosTableBR16" lineNumber="1716"/>
+    <functiondecl functionName="RealFFTf1xFastMathBR24" lineNumber="1759"/>
+    <functiondecl functionName="InverseRealFFTf1xFastMathBR24" lineNumber="1906"/>
+    <functiondecl functionName="ReorderToFreq1xFastMathBR24" lineNumber="2027"/>
+    <functiondecl functionName="ReorderToTime1xFastMathBR24" lineNumber="2045"/>
+    <functiondecl functionName="RealFFTf4xFastMathBR24" lineNumber="2058"/>
+    <functiondecl functionName="InverseRealFFTf4xFastMathBR24" lineNumber="2206"/>
+    <functiondecl functionName="ReorderToFreq4xFastMathBR24" lineNumber="2333"/>
+    <functiondecl functionName="ReorderToTime4xFastMathBR24" lineNumber="2355"/>
+    <functiondecl functionName="RealFFTf1xFastMathBR16" lineNumber="2394"/>
+    <functiondecl functionName="InverseRealFFTf1xFastMathBR16" lineNumber="2537"/>
+    <functiondecl functionName="ReorderToFreq1xFastMathBR16" lineNumber="2658"/>
+    <functiondecl functionName="ReorderToTime1xFastMathBR16" lineNumber="2675"/>
+    <functiondecl functionName="RealFFTf4xFastMathBR16" lineNumber="2688"/>
+    <functiondecl functionName="InverseRealFFTf4xFastMathBR16" lineNumber="2836"/>
+    <functiondecl functionName="ReorderToFreq4xFastMathBR16" lineNumber="2963"/>
+    <functiondecl functionName="ReorderToTime4xFastMathBR16" lineNumber="2985"/>
+    <functioncall functionName="B"/>
+    <functioncall functionName="ButterfliesPerGroup"/>
+    <functioncall functionName="FFT_FastMathBR16"/>
+    <functioncall functionName="FFT_FastMathBR24"/>
+    <functioncall functionName="FFT_SinCosBRTable"/>
+    <functioncall functionName="FFT_SinCosTableBR16"/>
+    <functioncall functionName="FFT_SinCosTableVBR16"/>
+    <functioncall functionName="HIminus"/>
+    <functioncall functionName="HIplus"/>
+    <functioncall functionName="HRminus"/>
+    <functioncall functionName="HRplus"/>
+    <functioncall functionName="ImagOut"/>
+    <functioncall functionName="InverseRealFFTf1xFastMathBR16"/>
+    <functioncall functionName="InverseRealFFTf1xFastMathBR24"/>
+    <functioncall functionName="InverseRealFFTf1xSinCosBRTable"/>
+    <functioncall functionName="InverseRealFFTf1xSinCosTableBR16"/>
+    <functioncall functionName="InverseRealFFTf1xSinCosTableVBR16"/>
+    <functioncall functionName="InverseRealFFTf4xFastMathBR16"/>
+    <functioncall functionName="InverseRealFFTf4xFastMathBR24"/>
+    <functioncall functionName="InverseRealFFTf4xSinCosBRTable"/>
+    <functioncall functionName="InverseRealFFTf4xSinCosTableBR16"/>
+    <functioncall functionName="InverseRealFFTf4xSinCosTableVBR16"/>
+    <functioncall functionName="Points"/>
+    <functioncall functionName="RealFFTf1xFastMathBR16"/>
+    <functioncall functionName="RealFFTf1xFastMathBR24"/>
+    <functioncall functionName="RealFFTf1xSinCosBRTable"/>
+    <functioncall functionName="RealFFTf1xSinCosTableBR16"/>
+    <functioncall functionName="RealFFTf1xSinCosTableVBR16"/>
+    <functioncall functionName="RealFFTf4xFastMathBR16"/>
+    <functioncall functionName="RealFFTf4xFastMathBR24"/>
+    <functioncall functionName="RealFFTf4xSinCosBRTable"/>
+    <functioncall functionName="RealFFTf4xSinCosTableBR16"/>
+    <functioncall functionName="RealFFTf4xSinCosTableVBR16"/>
+    <functioncall functionName="RealOut"/>
+    <functioncall functionName="ReorderToFreq1xFastMathBR16"/>
+    <functioncall functionName="ReorderToFreq1xFastMathBR24"/>
+    <functioncall functionName="ReorderToFreq1xSinCosBRTable"/>
+    <functioncall functionName="ReorderToFreq1xSinCosTableBR16"/>
+    <functioncall functionName="ReorderToFreq1xSinCosTableVBR16"/>
+    <functioncall functionName="ReorderToFreq4xFastMathBR16"/>
+    <functioncall functionName="ReorderToFreq4xFastMathBR24"/>
+    <functioncall functionName="ReorderToFreq4xSinCosBRTable"/>
+    <functioncall functionName="ReorderToFreq4xSinCosTableBR16"/>
+    <functioncall functionName="ReorderToFreq4xSinCosTableVBR16"/>
+    <functioncall functionName="ReorderToTime1xFastMathBR16"/>
+    <functioncall functionName="ReorderToTime1xFastMathBR24"/>
+    <functioncall functionName="ReorderToTime1xSinCosBRTable"/>
+    <functioncall functionName="ReorderToTime1xSinCosTableBR16"/>
+    <functioncall functionName="ReorderToTime1xSinCosTableVBR16"/>
+    <functioncall functionName="ReorderToTime4xFastMathBR16"/>
+    <functioncall functionName="ReorderToTime4xFastMathBR24"/>
+    <functioncall functionName="ReorderToTime4xSinCosBRTable"/>
+    <functioncall functionName="ReorderToTime4xSinCosTableBR16"/>
+    <functioncall functionName="ReorderToTime4xSinCosTableVBR16"/>
+    <functioncall functionName="SinCosTable"/>
+    <functioncall functionName="SmallVRB0"/>
+    <functioncall functionName="SmallVRB1"/>
+    <functioncall functionName="SmallVRB10"/>
+    <functioncall functionName="SmallVRB11"/>
+    <functioncall functionName="SmallVRB12"/>
+    <functioncall functionName="SmallVRB13"/>
+    <functioncall functionName="SmallVRB14"/>
+    <functioncall functionName="SmallVRB15"/>
+    <functioncall functionName="SmallVRB16"/>
+    <functioncall functionName="SmallVRB2"/>
+    <functioncall functionName="SmallVRB3"/>
+    <functioncall functionName="SmallVRB4"/>
+    <functioncall functionName="SmallVRB5"/>
+    <functioncall functionName="SmallVRB6"/>
+    <functioncall functionName="SmallVRB7"/>
+    <functioncall functionName="SmallVRB8"/>
+    <functioncall functionName="SmallVRB9"/>
+    <functioncall functionName="TimeOut"/>
+    <functioncall functionName="_mm_add_epi32"/>
+    <functioncall functionName="_mm_add_ps"/>
+    <functioncall functionName="_mm_and_ps"/>
+    <functioncall functionName="_mm_and_si128"/>
+    <functioncall functionName="_mm_andnot_ps"/>
+    <functioncall functionName="_mm_andnot_si128"/>
+    <functioncall functionName="_mm_castps_si128"/>
+    <functioncall functionName="_mm_castsi128_ps"/>
+    <functioncall functionName="_mm_cmpeq_epi32"/>
+    <functioncall functionName="_mm_cmpgt_ps"/>
+    <functioncall functionName="_mm_cmple_ps"/>
+    <functioncall functionName="_mm_cmplt_ps"/>
+    <functioncall functionName="_mm_cvtepi32_ps"/>
+    <functioncall functionName="_mm_cvttps_epi32"/>
+    <functioncall functionName="_mm_max_ps"/>
+    <functioncall functionName="_mm_min_ps"/>
+    <functioncall functionName="_mm_mul_ps"/>
+    <functioncall functionName="_mm_or_ps"/>
+    <functioncall functionName="_mm_set1_ps"/>
+    <functioncall functionName="_mm_setzero_ps"/>
+    <functioncall functionName="_mm_setzero_si128"/>
+    <functioncall functionName="_mm_slli_epi32"/>
+    <functioncall functionName="_mm_srli_epi32"/>
+    <functioncall functionName="_mm_sub_epi32"/>
+    <functioncall functionName="_mm_sub_ps"/>
+    <functioncall functionName="_mm_xor_ps"/>
+    <functioncall functionName="_pi32_0x7f"/>
+    <functioncall functionName="_pi32_1"/>
+    <functioncall functionName="_pi32_2"/>
+    <functioncall functionName="_pi32_4"/>
+    <functioncall functionName="_pi32_inv1"/>
+    <functioncall functionName="_ps_0p5"/>
+    <functioncall functionName="_ps_1"/>
+    <functioncall functionName="_ps_cephes_FOPI"/>
+    <functioncall functionName="_ps_cephes_LOG2EF"/>
+    <functioncall functionName="_ps_cephes_SQRTHF"/>
+    <functioncall functionName="_ps_cephes_exp_C1"/>
+    <functioncall functionName="_ps_cephes_exp_C2"/>
+    <functioncall functionName="_ps_cephes_exp_p0"/>
+    <functioncall functionName="_ps_cephes_exp_p1"/>
+    <functioncall functionName="_ps_cephes_exp_p2"/>
+    <functioncall functionName="_ps_cephes_exp_p3"/>
+    <functioncall functionName="_ps_cephes_exp_p4"/>
+    <functioncall functionName="_ps_cephes_exp_p5"/>
+    <functioncall functionName="_ps_cephes_log_p0"/>
+    <functioncall functionName="_ps_cephes_log_p1"/>
+    <functioncall functionName="_ps_cephes_log_p2"/>
+    <functioncall functionName="_ps_cephes_log_p3"/>
+    <functioncall functionName="_ps_cephes_log_p4"/>
+    <functioncall functionName="_ps_cephes_log_p5"/>
+    <functioncall functionName="_ps_cephes_log_p6"/>
+    <functioncall functionName="_ps_cephes_log_p7"/>
+    <functioncall functionName="_ps_cephes_log_p8"/>
+    <functioncall functionName="_ps_cephes_log_q1"/>
+    <functioncall functionName="_ps_cephes_log_q2"/>
+    <functioncall functionName="_ps_coscof_p0"/>
+    <functioncall functionName="_ps_coscof_p1"/>
+    <functioncall functionName="_ps_coscof_p2"/>
+    <functioncall functionName="_ps_exp_hi"/>
+    <functioncall functionName="_ps_exp_lo"/>
+    <functioncall functionName="_ps_inv_mant_mask"/>
+    <functioncall functionName="_ps_inv_sign_mask"/>
+    <functioncall functionName="_ps_min_norm_pos"/>
+    <functioncall functionName="_ps_minus_cephes_DP1"/>
+    <functioncall functionName="_ps_minus_cephes_DP2"/>
+    <functioncall functionName="_ps_minus_cephes_DP3"/>
+    <functioncall functionName="_ps_sign_mask"/>
+    <functioncall functionName="_ps_sincof_p0"/>
+    <functioncall functionName="_ps_sincof_p1"/>
+    <functioncall functionName="_ps_sincof_p2"/>
+    <functioncall functionName="bits"/>
+    <functioncall functionName="br1Index"/>
+    <functioncall functionName="br1Value"/>
+    <functioncall functionName="br2Index"/>
+    <functioncall functionName="br2Value"/>
+    <functioncall functionName="brTemp"/>
+    <functioncall functionName="brValue"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="buffer"/>
+    <functioncall functionName="cos"/>
+    <functioncall functionName="cos4_2"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="e"/>
+    <functioncall functionName="emm0"/>
+    <functioncall functionName="emm2"/>
+    <functioncall functionName="emm4"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="float"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="functionType"/>
+    <functioncall functionName="fx"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="h"/>
+    <functioncall functionName="hFFT"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="iMask"/>
+    <functioncall functionName="iSinCosIndex"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="invalid_mask"/>
+    <functioncall functionName="localBuffer"/>
+    <functioncall functionName="mCos"/>
+    <functioncall functionName="mSin"/>
+    <functioncall functionName="mSinCosTablePow"/>
+    <functioncall functionName="mask"/>
+    <functioncall functionName="numberBits"/>
+    <functioncall functionName="one"/>
+    <functioncall functionName="poly_mask"/>
+    <functioncall functionName="pow2Bits"/>
+    <functioncall functionName="pow2BitsMinus1"/>
+    <functioncall functionName="pow2n"/>
+    <functioncall functionName="reinit"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="sign_bit"/>
+    <functioncall functionName="sign_bit_cos"/>
+    <functioncall functionName="sign_bit_sin"/>
+    <functioncall functionName="sin"/>
+    <functioncall functionName="sin4_2"/>
+    <functioncall functionName="sinCosCalIndex"/>
+    <functioncall functionName="sinCosIndex"/>
+    <functioncall functionName="sinCosLookup"/>
+    <functioncall functionName="sincos_ps"/>
+    <functioncall functionName="struct"/>
+    <functioncall functionName="swap_sign_bit"/>
+    <functioncall functionName="swap_sign_bit_sin"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="tableSize"/>
+    <functioncall functionName="temp128"/>
+    <functioncall functionName="tmp"/>
+    <functioncall functionName="v1"/>
+    <functioncall functionName="v2"/>
+    <functioncall functionName="vx"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="x"/>
+    <functioncall functionName="xmm1"/>
+    <functioncall functionName="xmm2"/>
+    <functioncall functionName="xmm3"/>
+    <functioncall functionName="y"/>
+    <functioncall functionName="y2"/>
+    <functioncall functionName="ysin1"/>
+    <functioncall functionName="ysin2"/>
+    <functioncall functionName="z"/>
+  </FileInfo>
+</analyzerinfo>

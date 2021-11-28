@@ -1,0 +1,34 @@
+Shuttle
+ShuttleCli
+ShuttleCli
+ShuttleParams
+ShuttleParams
+Optional
+OptionalY call:[Optional] noreturn:[Optional]
+OptionalN call:[Optional] noreturn:[Optional]
+ShuttleSetAutomation
+SetForValidating
+SetForWriting
+Optional
+OptionalY
+OptionalN
+Define
+Define
+Define
+Define
+Define
+Define
+Define
+DefineEnum
+ShuttlePrefs
+ShuttlePrefs
+WrappedType
+WrappedType
+WrappedType
+WrappedType
+WrappedType
+TransferBool call:[Read,Write] noreturn:[Read,Write]
+TransferDouble call:[Read,Write] noreturn:[Read,Write]
+TransferInt call:[Read,Write] noreturn:[Read,Write]
+TransferString call:[Read,Write] noreturn:[Read,Write]
+TransferWrappedType call:[TransferBool,TransferDouble,TransferInt,TransferString,wxASSERT]

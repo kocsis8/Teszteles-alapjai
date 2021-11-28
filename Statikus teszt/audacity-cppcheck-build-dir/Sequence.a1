@@ -1,0 +1,435 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="90741718">
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;factory&apos; can be reduced." verbose="The scope of the variable &apos;factory&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Sequence.cpp" line="787" column="10"/>
+            <symbol>factory</symbol>
+        </error>
+        <error id="unsignedLessThanZero" severity="style" msg="Checking if unsigned expression &apos;num&apos; is less than zero." verbose="The unsigned expression &apos;num&apos; will never be negative so it is either pointless or an error to check if it is." cwe="570" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Sequence.cpp" line="1342" column="15" info="Unsigned less than zero"/>
+            <symbol>num</symbol>
+        </error>
+        <error id="unsignedLessThanZero" severity="style" msg="Checking if unsigned expression &apos;len&apos; is less than zero." verbose="The unsigned expression &apos;len&apos; will never be negative so it is either pointless or an error to check if it is." cwe="570" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Sequence.cpp" line="1600" column="12" info="Unsigned less than zero"/>
+            <symbol>len</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:116:9" call-funcname="Paste" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="69" col="9" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:116:9" call-funcname="Paste" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="69" col="9" call-argexpr="&amp;orig" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:228:16" call-funcname="Read" call-argnr="4" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="185" col="14" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:228:16" call-funcname="Read" call-argnr="4" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="562" col="11" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:261:9" call-funcname="ConsistencyCheck" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="586" col="23" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:228:16" call-funcname="Read" call-argnr="4" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="611" col="11" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:228:16" call-funcname="Read" call-argnr="4" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="642" col="11" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:98:9" call-funcname="SetSamples" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="678" col="14" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:116:9" call-funcname="Paste" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="728" col="9" call-argexpr="&amp;sTrack" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:218:8" call-funcname="FindBlock" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="766" col="21" call-argexpr="start" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Sequence.cpp" line="763" col="14" info="Assuming that condition &apos;start&lt;0&apos; is not redundant"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:218:8" call-funcname="FindBlock" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="1071" col="21" call-argexpr="start" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Sequence.cpp" line="1065" col="14" info="Assuming that condition &apos;start&lt;0&apos; is not redundant"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:246:9" call-funcname="Get" call-argnr="4" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="1073" col="14" call-argexpr="start" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Sequence.cpp" line="1065" col="14" info="Assuming that condition &apos;start&lt;0&apos; is not redundant"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:228:16" call-funcname="Read" call-argnr="4" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="1171" col="14" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:228:16" call-funcname="Read" call-argnr="6" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="1360" col="14" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:220:29" call-funcname="DoAppend" call-argnr="4" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="1469" col="19" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:281:9" call-funcname="AppendBlocksIfConsistent" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="1485" col="28" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:228:16" call-funcname="Read" call-argnr="4" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="1535" col="11" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:228:16" call-funcname="Read" call-argnr="4" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="1665" col="11" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:261:9" call-funcname="ConsistencyCheck" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="1686" col="23" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:228:16" call-funcname="Read" call-argnr="4" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="1712" col="14" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:228:16" call-funcname="Read" call-argnr="4" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="1727" col="14" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:228:16" call-funcname="Read" call-argnr="4" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="1728" col="14" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:228:16" call-funcname="Read" call-argnr="4" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="1774" col="14" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:269:16" call-funcname="ConsistencyCheck" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="1797" col="20" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:269:16" call-funcname="ConsistencyCheck" call-argnr="6" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="1797" col="20" call-argexpr="mayThrow" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Sequence.cpp" line="586" col="49" info="Calling function &apos;ConsistencyCheck&apos;, 2nd argument &apos;false&apos; value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:269:16" call-funcname="ConsistencyCheck" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="1854" col="20" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp:457:19" call-funcname="ShareOrCopySampleBlock" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="738" col="14" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:223:16" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:269:16" call-funcname="ConsistencyCheck" call-argnr="5" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="1797" col="4" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:261:9" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:269:16" call-funcname="ConsistencyCheck" call-argnr="5" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="1854" col="4" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:278:9" my-argnr="3"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:269:16" call-funcname="ConsistencyCheck" call-argnr="5" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="1897" col="4" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:281:9" my-argnr="4"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="SeqBlock" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h" line="28" col="1" hash="11198793112271217201"/>
+<class name="BlockArray" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h" line="49" col="1" hash="8810443801850943165"/>
+<class name="MinMaxRMS" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/SampleBlock.h" line="33" col="1" hash="14239959713600773666"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:116:9" my-argnr="2" my-argname="src" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="488" col="47" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:108:9" my-argnr="6" my-argname="where" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="1257" col="45" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:116:9" my-argnr="2" my-argname="src" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="488" col="47" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:108:9" my-argnr="6" my-argname="where" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="1257" col="45" value="0"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="SeqBlock" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h" line="28" col="1" hash="11198793112271217201"/>
+<class name="BlockArray" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h" line="49" col="1" hash="8810443801850943165"/>
+<class name="MinMaxRMS" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/SampleBlock.h" line="33" col="1" hash="14239959713600773666"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:116:9" call-funcname="Paste" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="69" col="9" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:116:9" call-funcname="Paste" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="69" col="9" call-argexpr="&amp;orig" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:228:16" call-funcname="Read" call-argnr="4" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="185" col="14" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:228:16" call-funcname="Read" call-argnr="4" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="562" col="11" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:261:9" call-funcname="ConsistencyCheck" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="586" col="23" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:228:16" call-funcname="Read" call-argnr="4" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="611" col="11" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:228:16" call-funcname="Read" call-argnr="4" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="642" col="11" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:98:9" call-funcname="SetSamples" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="678" col="14" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:116:9" call-funcname="Paste" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="728" col="9" call-argexpr="&amp;sTrack" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:218:8" call-funcname="FindBlock" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="766" col="21" call-argexpr="start" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Sequence.cpp" line="763" col="14" info="Assuming that condition &apos;start&lt;0&apos; is not redundant"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:218:8" call-funcname="FindBlock" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="1071" col="21" call-argexpr="start" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Sequence.cpp" line="1065" col="14" info="Assuming that condition &apos;start&lt;0&apos; is not redundant"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:246:9" call-funcname="Get" call-argnr="4" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="1073" col="14" call-argexpr="start" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Sequence.cpp" line="1065" col="14" info="Assuming that condition &apos;start&lt;0&apos; is not redundant"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:228:16" call-funcname="Read" call-argnr="4" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="1171" col="14" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:228:16" call-funcname="Read" call-argnr="6" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="1360" col="14" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:220:29" call-funcname="DoAppend" call-argnr="4" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="1469" col="19" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:281:9" call-funcname="AppendBlocksIfConsistent" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="1485" col="28" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:228:16" call-funcname="Read" call-argnr="4" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="1535" col="11" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:228:16" call-funcname="Read" call-argnr="4" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="1665" col="11" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:261:9" call-funcname="ConsistencyCheck" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="1686" col="23" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:228:16" call-funcname="Read" call-argnr="4" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="1712" col="14" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:228:16" call-funcname="Read" call-argnr="4" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="1727" col="14" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:228:16" call-funcname="Read" call-argnr="4" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="1728" col="14" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:228:16" call-funcname="Read" call-argnr="4" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="1774" col="14" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:269:16" call-funcname="ConsistencyCheck" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="1797" col="20" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:269:16" call-funcname="ConsistencyCheck" call-argnr="6" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="1797" col="20" call-argexpr="mayThrow" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Sequence.cpp" line="586" col="49" info="Calling function &apos;ConsistencyCheck&apos;, 2nd argument &apos;false&apos; value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:269:16" call-funcname="ConsistencyCheck" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="1854" col="20" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp:457:19" call-funcname="ShareOrCopySampleBlock" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="738" col="14" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:223:16" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:269:16" call-funcname="ConsistencyCheck" call-argnr="5" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="1797" col="4" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:261:9" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:269:16" call-funcname="ConsistencyCheck" call-argnr="5" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="1854" col="4" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:278:9" my-argnr="3"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:269:16" call-funcname="ConsistencyCheck" call-argnr="5" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="1897" col="4" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:281:9" my-argnr="4"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="SeqBlock" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h" line="28" col="1" hash="11198793112271217201"/>
+<class name="BlockArray" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h" line="49" col="1" hash="8810443801850943165"/>
+<class name="MinMaxRMS" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/SampleBlock.h" line="33" col="1" hash="14239959713600773666"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:116:9" my-argnr="2" my-argname="src" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="488" col="47" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:108:9" my-argnr="6" my-argname="where" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="1257" col="45" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:116:9" my-argnr="2" my-argname="src" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="488" col="47" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.h:108:9" my-argnr="6" my-argname="where" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Sequence.cpp" line="1257" col="45" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="GetMaxBlockSize" lineNumber="76"/>
+    <functiondecl functionName="GetIdealBlockSize" lineNumber="81"/>
+    <functiondecl functionName="CloseLock" lineNumber="86"/>
+    <functiondecl functionName="GetSampleFormat" lineNumber="94"/>
+    <functiondecl functionName="ensureSampleBufferSize" lineNumber="111"/>
+    <functiondecl functionName="ConvertToSampleFormat" lineNumber="136"/>
+    <functiondecl functionName="GetMinMax" lineNumber="222"/>
+    <functiondecl functionName="GetRMS" lineNumber="304"/>
+    <functiondecl functionName="Copy" lineNumber="373"/>
+    <functiondecl functionName="Overflows" lineNumber="452"/>
+    <functiondecl functionName="ShareOrCopySampleBlock" lineNumber="457"/>
+    <functiondecl functionName="Paste" lineNumber="475"/>
+    <functiondecl functionName="SetSilence" lineNumber="676"/>
+    <functiondecl functionName="InsertSilence" lineNumber="682"/>
+    <functiondecl functionName="AppendBlock" lineNumber="731"/>
+    <functiondecl functionName="GetBlockStart" lineNumber="750"/>
+    <functiondecl functionName="GetBestBlockSize" lineNumber="756"/>
+    <functiondecl functionName="HandleXMLTag" lineNumber="785"/>
+    <functiondecl functionName="HandleXMLEndTag" lineNumber="890"/>
+    <functiondecl functionName="HandleXMLChild" lineNumber="932"/>
+    <functiondecl functionName="WriteXML" lineNumber="943"/>
+    <functiondecl functionName="FindBlock" lineNumber="987"/>
+    <functiondecl functionName="Read" lineNumber="1037"/>
+    <functiondecl functionName="Get" lineNumber="1058"/>
+    <functiondecl functionName="Get" lineNumber="1076"/>
+    <functiondecl functionName="SetSamples" lineNumber="1100"/>
+    <functiondecl functionName="GetWaveDisplay" lineNumber="1253"/>
+    <functiondecl functionName="GetIdealAppendLen" lineNumber="1450"/>
+    <functiondecl functionName="AppendNewBlock" lineNumber="1466"/>
+    <functiondecl functionName="AppendSharedBlock" lineNumber="1473"/>
+    <functiondecl functionName="Append" lineNumber="1497"/>
+    <functiondecl functionName="DoAppend" lineNumber="1503"/>
+    <functiondecl functionName="Blockify" lineNumber="1595"/>
+    <functiondecl functionName="Delete" lineNumber="1621"/>
+    <functiondecl functionName="ConsistencyCheck" lineNumber="1795"/>
+    <functiondecl functionName="CommitChangesIfConsistent" lineNumber="1851"/>
+    <functiondecl functionName="AppendBlocksIfConsistent" lineNumber="1863"/>
+    <functiondecl functionName="DebugPrintf" lineNumber="1906"/>
+    <functiondecl functionName="SetMaxDiskBlockSize" lineNumber="1936"/>
+    <functiondecl functionName="GetMaxDiskBlockSize" lineNumber="1941"/>
+    <functiondecl functionName="IsValidSampleFormat" lineNumber="1946"/>
+    <functiondecl functionName="ensureSampleBufferSize" lineNumber="111"/>
+    <functiondecl functionName="Overflows" lineNumber="452"/>
+    <functiondecl functionName="ShareOrCopySampleBlock" lineNumber="457"/>
+    <functiondecl functionName="GetMaxBlockSize" lineNumber="76"/>
+    <functiondecl functionName="GetIdealBlockSize" lineNumber="81"/>
+    <functiondecl functionName="CloseLock" lineNumber="86"/>
+    <functiondecl functionName="GetSampleFormat" lineNumber="94"/>
+    <functiondecl functionName="ensureSampleBufferSize" lineNumber="111"/>
+    <functiondecl functionName="ConvertToSampleFormat" lineNumber="136"/>
+    <functiondecl functionName="GetMinMax" lineNumber="222"/>
+    <functiondecl functionName="GetRMS" lineNumber="304"/>
+    <functiondecl functionName="Copy" lineNumber="373"/>
+    <functiondecl functionName="Overflows" lineNumber="452"/>
+    <functiondecl functionName="ShareOrCopySampleBlock" lineNumber="457"/>
+    <functiondecl functionName="Paste" lineNumber="475"/>
+    <functiondecl functionName="SetSilence" lineNumber="676"/>
+    <functiondecl functionName="InsertSilence" lineNumber="682"/>
+    <functiondecl functionName="AppendBlock" lineNumber="731"/>
+    <functiondecl functionName="GetBlockStart" lineNumber="750"/>
+    <functiondecl functionName="GetBestBlockSize" lineNumber="756"/>
+    <functiondecl functionName="HandleXMLTag" lineNumber="785"/>
+    <functiondecl functionName="HandleXMLEndTag" lineNumber="890"/>
+    <functiondecl functionName="HandleXMLChild" lineNumber="932"/>
+    <functiondecl functionName="WriteXML" lineNumber="943"/>
+    <functiondecl functionName="FindBlock" lineNumber="987"/>
+    <functiondecl functionName="Read" lineNumber="1037"/>
+    <functiondecl functionName="Get" lineNumber="1058"/>
+    <functiondecl functionName="Get" lineNumber="1076"/>
+    <functiondecl functionName="SetSamples" lineNumber="1100"/>
+    <functiondecl functionName="GetWaveDisplay" lineNumber="1253"/>
+    <functiondecl functionName="GetIdealAppendLen" lineNumber="1450"/>
+    <functiondecl functionName="AppendNewBlock" lineNumber="1466"/>
+    <functiondecl functionName="AppendSharedBlock" lineNumber="1473"/>
+    <functiondecl functionName="Append" lineNumber="1497"/>
+    <functiondecl functionName="DoAppend" lineNumber="1503"/>
+    <functiondecl functionName="Blockify" lineNumber="1595"/>
+    <functiondecl functionName="Delete" lineNumber="1621"/>
+    <functiondecl functionName="ConsistencyCheck" lineNumber="1795"/>
+    <functiondecl functionName="CommitChangesIfConsistent" lineNumber="1851"/>
+    <functiondecl functionName="AppendBlocksIfConsistent" lineNumber="1863"/>
+    <functiondecl functionName="DebugPrintf" lineNumber="1906"/>
+    <functiondecl functionName="SetMaxDiskBlockSize" lineNumber="1936"/>
+    <functiondecl functionName="GetMaxDiskBlockSize" lineNumber="1941"/>
+    <functiondecl functionName="IsValidSampleFormat" lineNumber="1946"/>
+    <functioncall functionName="Allocate"/>
+    <functioncall functionName="Append"/>
+    <functioncall functionName="AppendBlock"/>
+    <functioncall functionName="AppendBlocksIfConsistent"/>
+    <functioncall functionName="AudacityMessageBox"/>
+    <functioncall functionName="Blockify"/>
+    <functioncall functionName="CONSTRUCT_INCONSISTENCY_EXCEPTION"/>
+    <functioncall functionName="ClearSamples"/>
+    <functioncall functionName="CloseLock"/>
+    <functioncall functionName="CommitChangesIfConsistent"/>
+    <functioncall functionName="ConsistencyCheck"/>
+    <functioncall functionName="CopySamples"/>
+    <functioncall functionName="Create"/>
+    <functioncall functionName="CreateFromXML"/>
+    <functioncall functionName="CreateSilent"/>
+    <functioncall functionName="Debug"/>
+    <functioncall functionName="DebugPrintf"/>
+    <functioncall functionName="DoAppend"/>
+    <functioncall functionName="EndTag"/>
+    <functioncall functionName="FLT_MAX"/>
+    <functioncall functionName="FindBlock"/>
+    <functioncall functionName="Format"/>
+    <functioncall functionName="Get"/>
+    <functioncall functionName="GetBlockID"/>
+    <functioncall functionName="GetIdealBlockSize"/>
+    <functioncall functionName="GetLine"/>
+    <functioncall functionName="GetMaxBlockSize"/>
+    <functioncall functionName="GetMinMaxRMS"/>
+    <functioncall functionName="GetSampleCount"/>
+    <functioncall functionName="GetSampleFormatStr"/>
+    <functioncall functionName="GetSamples"/>
+    <functioncall functionName="GetSpaceUsage"/>
+    <functioncall functionName="GetSummary256"/>
+    <functioncall functionName="GetSummary64k"/>
+    <functioncall functionName="InconsistencyException"/>
+    <functioncall functionName="IsValidSampleFormat"/>
+    <functioncall functionName="MinMaxSumsq"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="Overflows"/>
+    <functioncall functionName="PROHIBITED"/>
+    <functioncall functionName="Paste"/>
+    <functioncall functionName="Plus"/>
+    <functioncall functionName="RMS"/>
+    <functioncall functionName="Read"/>
+    <functioncall functionName="SAMPLE_SIZE"/>
+    <functioncall functionName="SampleBlock"/>
+    <functioncall functionName="SampleBlockFactory"/>
+    <functioncall functionName="SaveXML"/>
+    <functioncall functionName="SeqBlock"/>
+    <functioncall functionName="Sequence"/>
+    <functioncall functionName="SetSamples"/>
+    <functioncall functionName="ShareOrCopySampleBlock"/>
+    <functioncall functionName="StartTag"/>
+    <functioncall functionName="THROW_INCONSISTENCY_EXCEPTION"/>
+    <functioncall functionName="ToDouble"/>
+    <functioncall functionName="ToString"/>
+    <functioncall functionName="Translation"/>
+    <functioncall functionName="TryGet"/>
+    <functioncall functionName="WriteAttr"/>
+    <functioncall functionName="XO"/>
+    <functioncall functionName="addLen"/>
+    <functioncall functionName="addedLen"/>
+    <functioncall functionName="as_double"/>
+    <functioncall functionName="as_long_long"/>
+    <functioncall functionName="as_size_t"/>
+    <functioncall functionName="attrs"/>
+    <functioncall functionName="b"/>
+    <functioncall functionName="b0"/>
+    <functioncall functionName="b1"/>
+    <functioncall functionName="bSuccess"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="back_inserter"/>
+    <functioncall functionName="bb"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="blen"/>
+    <functioncall functionName="block"/>
+    <functioncall functionName="block0"/>
+    <functioncall functionName="block1"/>
+    <functioncall functionName="blockRelativeStart"/>
+    <functioncall functionName="blockStatus"/>
+    <functioncall functionName="blocklen"/>
+    <functioncall functionName="blockstart"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="bstart"/>
+    <functioncall functionName="bufStart"/>
+    <functioncall functionName="buffer"/>
+    <functioncall functionName="buffer2"/>
+    <functioncall functionName="bufferNew"/>
+    <functioncall functionName="bufferOld"/>
+    <functioncall functionName="bufferSize"/>
+    <functioncall functionName="bytes"/>
+    <functioncall functionName="consistent"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="continue"/>
+    <functioncall functionName="copy"/>
+    <functioncall functionName="decltype"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="delete"/>
+    <functioncall functionName="delta"/>
+    <functioncall functionName="diff"/>
+    <functioncall functionName="divisor"/>
+    <functioncall functionName="double"/>
+    <functioncall functionName="emplace"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="ensureSampleBufferSize"/>
+    <functioncall functionName="ex"/>
+    <functioncall functionName="fValue"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="file"/>
+    <functioncall functionName="fileLength"/>
+    <functioncall functionName="filePosition"/>
+    <functioncall functionName="fill"/>
+    <functioncall functionName="finally"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="float"/>
+    <functioncall functionName="floatSample"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="format"/>
+    <functioncall functionName="from"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="guess"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="idealSamples"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="inclusiveEndPosition"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="j"/>
+    <functioncall functionName="l0"/>
+    <functioncall functionName="lastBlock"/>
+    <functioncall functionName="lastBlockLen"/>
+    <functioncall functionName="lastMax"/>
+    <functioncall functionName="lastMin"/>
+    <functioncall functionName="lastPixel"/>
+    <functioncall functionName="lastStart"/>
+    <functioncall functionName="leftLen"/>
+    <functioncall functionName="len"/>
+    <functioncall functionName="length"/>
+    <functioncall functionName="limitSampleBufferSize"/>
+    <functioncall functionName="lo"/>
+    <functioncall functionName="loSamples"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="mBlock"/>
+    <functioncall functionName="mMaxSamples"/>
+    <functioncall functionName="mMinSamples"/>
+    <functioncall functionName="mNumSamples"/>
+    <functioncall functionName="mSampleFormat"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="max"/>
+    <functioncall functionName="maxl0"/>
+    <functioncall functionName="mayThrow"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="midPosition"/>
+    <functioncall functionName="min"/>
+    <functioncall functionName="mpFactory"/>
+    <functioncall functionName="nValue"/>
+    <functioncall functionName="newBlock"/>
+    <functioncall functionName="newBlockArray"/>
+    <functioncall functionName="newLastBlock"/>
+    <functioncall functionName="newLastBlockLen"/>
+    <functioncall functionName="newLen"/>
+    <functioncall functionName="newNumSamples"/>
+    <functioncall functionName="newSize"/>
+    <functioncall functionName="nextPixel"/>
+    <functioncall functionName="nextSrcX"/>
+    <functioncall functionName="nextStart"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="num"/>
+    <functioncall functionName="numBlocks"/>
+    <functioncall functionName="numSamples"/>
+    <functioncall functionName="offset"/>
+    <functioncall functionName="oldFormat"/>
+    <functioncall functionName="oldMaxSamples"/>
+    <functioncall functionName="oldMinSamples"/>
+    <functioncall functionName="oldSeqBlock"/>
+    <functioncall functionName="oldSize"/>
+    <functioncall functionName="orig"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="pBlock"/>
+    <functioncall functionName="pFactory"/>
+    <functioncall functionName="pFile"/>
+    <functioncall functionName="pUseFactory"/>
+    <functioncall functionName="pixel"/>
+    <functioncall functionName="pixelX"/>
+    <functioncall functionName="pop_back"/>
+    <functioncall functionName="pos"/>
+    <functioncall functionName="position"/>
+    <functioncall functionName="positionX"/>
+    <functioncall functionName="postBlock"/>
+    <functioncall functionName="postBufferLen"/>
+    <functioncall functionName="postpostBlock"/>
+    <functioncall functionName="postpostLen"/>
+    <functioncall functionName="preBlock"/>
+    <functioncall functionName="preBufferLen"/>
+    <functioncall functionName="prepreBlock"/>
+    <functioncall functionName="prepreLen"/>
+    <functioncall functionName="prevSize"/>
+    <functioncall functionName="progressReport"/>
+    <functioncall functionName="ptr"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="pv"/>
+    <functioncall functionName="replaceLast"/>
+    <functioncall functionName="required"/>
+    <functioncall functionName="reserve"/>
+    <functioncall functionName="resize"/>
+    <functioncall functionName="result"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="rightLen"/>
+    <functioncall functionName="rightSplit"/>
+    <functioncall functionName="rmsDenom"/>
+    <functioncall functionName="rval"/>
+    <functioncall functionName="s"/>
+    <functioncall functionName="s0"/>
+    <functioncall functionName="s1"/>
+    <functioncall functionName="sAddedLen"/>
+    <functioncall functionName="sMsg"/>
+    <functioncall functionName="sTrack"/>
+    <functioncall functionName="sampleBuffer"/>
+    <functioncall functionName="sampleCount"/>
+    <functioncall functionName="sampleFormat"/>
+    <functioncall functionName="samplePtr"/>
+    <functioncall functionName="samples"/>
+    <functioncall functionName="sb"/>
+    <functioncall functionName="sb_"/>
+    <functioncall functionName="scratch"/>
+    <functioncall functionName="scratchSize"/>
+    <functioncall functionName="second"/>
+    <functioncall functionName="seqBlock"/>
+    <functioncall functionName="shared_ptr"/>
+    <functioncall functionName="silentFile"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="splitBlock"/>
+    <functioncall functionName="splitPoint"/>
+    <functioncall functionName="sqrt"/>
+    <functioncall functionName="srcFirstTwoLen"/>
+    <functioncall functionName="srcLastTwoLen"/>
+    <functioncall functionName="srcX"/>
+    <functioncall functionName="start"/>
+    <functioncall functionName="startPosition"/>
+    <functioncall functionName="start_"/>
+    <functioncall functionName="str"/>
+    <functioncall functionName="sum"/>
+    <functioncall functionName="sumBuffer"/>
+    <functioncall functionName="swap"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="temp"/>
+    <functioncall functionName="tempSize"/>
+    <functioncall functionName="tmp"/>
+    <functioncall functionName="tmpValid"/>
+    <functioncall functionName="total"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="useBuffer"/>
+    <functioncall functionName="use_count"/>
+    <functioncall functionName="v"/>
+    <functioncall functionName="values"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="wb"/>
+    <functioncall functionName="whereNext"/>
+    <functioncall functionName="whereNow"/>
+    <functioncall functionName="whereStr"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="wxASSERT"/>
+    <functioncall functionName="wxCENTRE"/>
+    <functioncall functionName="wxDefaultCoord"/>
+    <functioncall functionName="wxLL"/>
+    <functioncall functionName="wxLogError"/>
+    <functioncall functionName="wxLogWarning"/>
+    <functioncall functionName="wxLongLong"/>
+    <functioncall functionName="wxOK"/>
+    <functioncall functionName="wxT"/>
+    <functioncall functionName="wxUnusedVar"/>
+    <functioncall functionName="xmlFile"/>
+  </FileInfo>
+</analyzerinfo>

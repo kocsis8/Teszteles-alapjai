@@ -1,0 +1,6 @@
+Response
+GetMessage call:[c_str,wxString] noreturn:[wxString]
+ResponseQueue
+ResponseQueue
+AddResponse call:[Signal,locker,push] noreturn:[Signal]
+WaitAndGetResponse call:[Wait,empty,front,locker,pop,wxASSERT] noreturn:[Wait]

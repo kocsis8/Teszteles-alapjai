@@ -1,0 +1,11 @@
+ProcessOne call:[double]
+Biquad call:[Reset] noreturn:[Reset]
+Reset
+Process call:[ProcessOne] noreturn:[ProcessOne]
+CalcButterworthFilter call:[BilinTransform,Calc2D_DistSqr,cos,long,move,pBiquad,sin,tan] noreturn:[Calc2D_DistSqr,move]
+CalcChebyshevType1Filter call:[BilinTransform,Calc2D_DistSqr,ComplexDiv,DB_TO_LINEAR,cos,cosh,log,long,move,pBiquad,pow,sin,sinh,sqrt,tan,wxMax] noreturn:[move]
+CalcChebyshevType2Filter call:[BilinTransform,Calc2D_DistSqr,ComplexDiv,DB_TO_LINEAR,cos,cosh,log,long,move,pBiquad,sin,sinh,sqrt,tan,wxMax] noreturn:[Calc2D_DistSqr,move]
+ComplexDiv
+BilinTransform
+Calc2D_DistSqr call:[return]
+ChebyPoly call:[wxASSERT]

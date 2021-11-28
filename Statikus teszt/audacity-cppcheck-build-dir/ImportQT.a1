@@ -1,0 +1,319 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="452468101">
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;wxPanelWrapper&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;wxPanelWrapper&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportQT.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\wxPanelWrapper.h" line="46" column="4"/>
+            <symbol>wxPanelWrapper</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;wxDirDialogWrapper&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;wxDirDialogWrapper&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportQT.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\wxPanelWrapper.h" line="129" column="4"/>
+            <symbol>wxDirDialogWrapper</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;FileDialog&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;FileDialog&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportQT.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\mac\FileDialogPrivate.h" line="34" column="5"/>
+            <symbol>FileDialog</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;RegisteredUnusableImportPlugin&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;RegisteredUnusableImportPlugin&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportQT.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\Import.h" line="95" column="7"/>
+            <symbol>RegisteredUnusableImportPlugin</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;ProgressDialog&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;ProgressDialog&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportQT.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\ProgressDialog.h" line="56" column="4"/>
+            <symbol>ProgressDialog</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;wxTabTraversalWrapper &lt; wxPanel &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;wxTabTraversalWrapper &lt; wxPanel &gt;&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportQT.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\wxPanelWrapper.h" line="27" column="4"/>
+            <symbol>wxTabTraversalWrapper &lt; wxPanel &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;wxTabTraversalWrapper &lt; wxDialog &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;wxTabTraversalWrapper &lt; wxDialog &gt;&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportQT.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\wxPanelWrapper.h" line="27" column="4"/>
+            <symbol>wxTabTraversalWrapper &lt; wxDialog &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;wxTabTraversalWrapper &lt; wxDirDialog &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;wxTabTraversalWrapper &lt; wxDirDialog &gt;&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportQT.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\wxPanelWrapper.h" line="27" column="4"/>
+            <symbol>wxTabTraversalWrapper &lt; wxDirDialog &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;wxTabTraversalWrapper &lt; FileDialog &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;wxTabTraversalWrapper &lt; FileDialog &gt;&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportQT.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\wxPanelWrapper.h" line="27" column="4"/>
+            <symbol>wxTabTraversalWrapper &lt; FileDialog &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;wxTabTraversalWrapper &lt; wxMessageDialog &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;wxTabTraversalWrapper &lt; wxMessageDialog &gt;&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportQT.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\wxPanelWrapper.h" line="27" column="4"/>
+            <symbol>wxTabTraversalWrapper &lt; wxMessageDialog &gt;</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;SetFileExtension&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;SetFileExtension&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportQT.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\mac\FileDialogPrivate.h" line="69" column="18" info="Function in derived class"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\FileDialog.h" line="35" column="17" info="Virtual function in base class"/>
+            <symbol>SetFileExtension</symbol>
+        </error>
+  <FileInfo check="Class">
+<class name="wxDirDialogWrapper" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="124" col="1" hash="2711157917505411744"/>
+<class name="FileDialogWrapper" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="163" col="1" hash="7553654041051167098"/>
+<class name="AudacityMessageDialog" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="214" col="1" hash="1660744077628049721"/>
+<class name="ExtImportItem" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/Import.h" line="41" col="1" hash="4901743333258382016"/>
+<class name="UnusableImportPlugin" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportPlugin.h" line="164" col="1" hash="6984783344770576652"/>
+  </FileInfo>
+        <error id="useInitializationList" severity="performance" msg="Variable &apos;mMovie&apos; is assigned in constructor body. Consider performing initialization in initialization list." verbose="When an object of a class is created, the constructors of all member variables are called consecutively in the order the variables are declared, even if you don&apos;t explicitly write them to the initialization list. You could avoid assigning &apos;mMovie&apos; a value by passing the value to the constructor in the initialization list." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportQT.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportQT.cpp" line="138" column="7"/>
+            <symbol>mMovie</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;FileDialog&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;FileDialog&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportQT.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\win\FileDialogPrivate.h" line="29" column="4"/>
+            <symbol>FileDialog</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;AudioTrack&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;AudioTrack&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportQT.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.h" line="828" column="4"/>
+            <symbol>AudioTrack</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;PlayableTrack&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;PlayableTrack&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportQT.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.h" line="844" column="4"/>
+            <symbol>PlayableTrack</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;SetFileExtension&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;SetFileExtension&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportQT.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\win\FileDialogPrivate.h" line="43" column="17" info="Function in derived class"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\FileDialog.h" line="35" column="17" info="Virtual function in base class"/>
+            <symbol>SetFileExtension</symbol>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportQT.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportQT.cpp" line="402" column="11" info="Second condition"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportQT.cpp" line="392" column="11" info="First condition"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;pTrack&apos; is always true" verbose="Condition &apos;pTrack&apos; is always true" cwe="571" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportQT.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.h" line="1533" column="14" info="Condition &apos;pTrack&apos; is always true"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.h" line="1531" column="11" info="Assuming that condition &apos;pTrack&apos; is not redundant"/>
+        </error>
+        <error id="shadowFunction" severity="style" msg="Local variable &apos;empty&apos; shadows outer function" verbose="Local variable &apos;empty&apos; shadows outer function" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportQT.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportQT.cpp" line="159" column="34" info="Shadow variable"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.h" line="1539" column="9" info="Shadowed declaration"/>
+            <symbol>empty</symbol>
+        </error>
+        <error id="shadowFunction" severity="style" msg="Local variable &apos;size&apos; shadows outer function" verbose="Local variable &apos;size&apos; shadows outer function" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportQT.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportQT.cpp" line="346" column="18" info="Shadow variable"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.h" line="1540" column="11" info="Shadowed declaration"/>
+            <symbol>size</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:282:9" call-funcname="Get" call-argnr="7" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="273" col="14" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:268:9" my-argnr="6"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportQT.cpp:172:9" call-funcname="AddMetadata" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportQT.cpp" line="403" col="10" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportQT.cpp:167:19" my-argnr="3"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="wxDirDialogWrapper" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="124" col="1" hash="2711157917505411744"/>
+<class name="FileDialogWrapper" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="163" col="1" hash="7553654041051167098"/>
+<class name="AudacityMessageDialog" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="214" col="1" hash="1660744077628049721"/>
+<class name="ExtImportItem" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/Import.h" line="41" col="1" hash="4901743333258382016"/>
+<class name="UnusableImportPlugin" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportPlugin.h" line="164" col="1" hash="6984783344770576652"/>
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="16063519710874503347"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="15341379595561148881"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="9070828929643857411"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="11803136193035736208"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="WaveTrackLocation" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrackLocation.h" line="14" col="1" hash="10844060293331271860"/>
+<class name="Region" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="51" col="1" hash="3281768878266710402"/>
+<class name="AllClipsConstIterator" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="424" col="4" hash="13076878187049790394"/>
+<class name="IntervalData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="564" col="4" hash="5396339101326163512"/>
+<class name="WaveTrackCache::Buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="667" col="4" hash="8125126311285820659"/>
+<class name="QTImportPlugin" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportQT.cpp" line="84" col="1" hash="6064008088164906028"/>
+<class name="QTImportFileHandle" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportQT.cpp" line="132" col="1" hash="12739673297793966120"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportQT.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportQT.cpp" line="0" column="0"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;FileDialog&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;FileDialog&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportQT.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\gtk\FileDialogPrivate.h" line="27" column="5"/>
+            <symbol>FileDialog</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;SetFileExtension&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;SetFileExtension&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportQT.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\gtk\FileDialogPrivate.h" line="64" column="18" info="Function in derived class"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\FileDialog.h" line="35" column="17" info="Virtual function in base class"/>
+            <symbol>SetFileExtension</symbol>
+        </error>
+  <FileInfo check="Class">
+<class name="wxDirDialogWrapper" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="124" col="1" hash="2711157917505411744"/>
+<class name="FileDialogWrapper" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="163" col="1" hash="7553654041051167098"/>
+<class name="AudacityMessageDialog" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="214" col="1" hash="1660744077628049721"/>
+<class name="ExtImportItem" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/Import.h" line="41" col="1" hash="4901743333258382016"/>
+<class name="UnusableImportPlugin" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportPlugin.h" line="164" col="1" hash="6984783344770576652"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="wxDirDialogWrapper" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="124" col="1" hash="2711157917505411744"/>
+<class name="FileDialogWrapper" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="163" col="1" hash="7553654041051167098"/>
+<class name="AudacityMessageDialog" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="214" col="1" hash="1660744077628049721"/>
+<class name="ExtImportItem" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/Import.h" line="41" col="1" hash="4901743333258382016"/>
+<class name="UnusableImportPlugin" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportPlugin.h" line="164" col="1" hash="6984783344770576652"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="GetPluginStringID" lineNumber="122"/>
+    <functiondecl functionName="GetStreamCount" lineNumber="152"/>
+    <functiondecl functionName="GetStreamInfo" lineNumber="157"/>
+    <functiondecl functionName="SetStreamUsage" lineNumber="163"/>
+    <functiondecl functionName="GetPluginFormatDescription" lineNumber="177"/>
+    <functiondecl functionName="Open" lineNumber="182"/>
+    <functiondecl functionName="GetFileDescription" lineNumber="228"/>
+    <functiondecl functionName="GetFileUncompressedBytes" lineNumber="233"/>
+    <functiondecl functionName="Import" lineNumber="238"/>
+    <functiondecl functionName="AddMetadata" lineNumber="440"/>
+    <functioncall functionName="Aligned"/>
+    <functioncall functionName="All"/>
+    <functioncall functionName="Args"/>
+    <functioncall functionName="Audio"/>
+    <functioncall functionName="Bind"/>
+    <functioncall functionName="ConstTrackInterval"/>
+    <functioncall functionName="Create"/>
+    <functioncall functionName="DECLARE_EVENT_TABLE"/>
+    <functioncall functionName="DECLARE_NO_COPY_CLASS"/>
+    <functioncall functionName="ExtImportItem"/>
+    <functioncall functionName="FileDialog"/>
+    <functioncall functionName="FileDialogWrapper"/>
+    <functioncall functionName="FormatWildcard"/>
+    <functioncall functionName="GetOwner"/>
+    <functioncall functionName="Here"/>
+    <functioncall functionName="ImportFileHandle"/>
+    <functioncall functionName="ImportPlugin"/>
+    <functioncall functionName="Importer"/>
+    <functioncall functionName="Index"/>
+    <functioncall functionName="Label"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="None"/>
+    <functioncall functionName="NotHere"/>
+    <functioncall functionName="Note"/>
+    <functioncall functionName="PROHIBITED"/>
+    <functioncall functionName="Pair"/>
+    <functioncall functionName="Playable"/>
+    <functioncall functionName="ProgressDialog"/>
+    <functioncall functionName="RegisteredImportPlugin"/>
+    <functioncall functionName="RegisteredUnusableImportPlugin"/>
+    <functioncall functionName="Rest"/>
+    <functioncall functionName="ShallowCopying"/>
+    <functioncall functionName="SharedPointer"/>
+    <functioncall functionName="Subclass"/>
+    <functioncall functionName="T"/>
+    <functioncall functionName="Tags"/>
+    <functioncall functionName="Time"/>
+    <functioncall functionName="Track"/>
+    <functioncall functionName="TrackAttachment"/>
+    <functioncall functionName="TrackInterval"/>
+    <functioncall functionName="TrackIntervalData"/>
+    <functioncall functionName="TrackKind"/>
+    <functioncall functionName="TrackList"/>
+    <functioncall functionName="TrackType"/>
+    <functioncall functionName="TranslatableString"/>
+    <functioncall functionName="Translation"/>
+    <functioncall functionName="UnusableImportPlugin"/>
+    <functioncall functionName="Wave"/>
+    <functioncall functionName="WaveTrack"/>
+    <functioncall functionName="XO"/>
+    <functioncall functionName="args"/>
+    <functioncall functionName="bool"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="defaultDir"/>
+    <functioncall functionName="defaultFile"/>
+    <functioncall functionName="defaultPath"/>
+    <functioncall functionName="delete"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="extension"/>
+    <functioncall functionName="extensions"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="fileTypes"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="formatName"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="height"/>
+    <functioncall functionName="id"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="is_const"/>
+    <functioncall functionName="is_pointer"/>
+    <functioncall functionName="list"/>
+    <functioncall functionName="lock"/>
+    <functioncall functionName="mExtensions"/>
+    <functioncall functionName="mFormatName"/>
+    <functioncall functionName="mValue"/>
+    <functioncall functionName="m_fileNames"/>
+    <functioncall functionName="m_paths"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="noexcept"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="pExtra"/>
+    <functioncall functionName="parent"/>
+    <functioncall functionName="pdlgDefaultFlags"/>
+    <functioncall functionName="pdlgEmptyFlags"/>
+    <functioncall functionName="pos"/>
+    <functioncall functionName="remove_pointer"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="shared_from_this"/>
+    <functioncall functionName="shared_ptr"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sizeFlags"/>
+    <functioncall functionName="start"/>
+    <functioncall functionName="static_cast"/>
+    <functioncall functionName="static_pointer_cast"/>
+    <functioncall functionName="style"/>
+    <functioncall functionName="sz"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="typename"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="unordered_map"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="vector"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="width"/>
+    <functioncall functionName="winid"/>
+    <functioncall functionName="wxASSERT"/>
+    <functioncall functionName="wxCENTRE"/>
+    <functioncall functionName="wxDD_DEFAULT_STYLE"/>
+    <functioncall functionName="wxDEFAULT_DIALOG_STYLE"/>
+    <functioncall functionName="wxDefaultCoord"/>
+    <functioncall functionName="wxDefaultPosition"/>
+    <functioncall functionName="wxDefaultSize"/>
+    <functioncall functionName="wxDialog"/>
+    <functioncall functionName="wxDialogWrapper"/>
+    <functioncall functionName="wxDirDialog"/>
+    <functioncall functionName="wxEVT_CHAR_HOOK"/>
+    <functioncall functionName="wxEmptyString"/>
+    <functioncall functionName="wxFD_DEFAULT_STYLE"/>
+    <functioncall functionName="wxFileDialogNameStr"/>
+    <functioncall functionName="wxFileSelectorDefaultWildcardStr"/>
+    <functioncall functionName="wxFileSelectorPromptStr"/>
+    <functioncall functionName="wxID_ANY"/>
+    <functioncall functionName="wxMessageDialog"/>
+    <functioncall functionName="wxNO_BORDER"/>
+    <functioncall functionName="wxPanel"/>
+    <functioncall functionName="wxPanelWrapper"/>
+    <functioncall functionName="wxRESIZE_BORDER"/>
+    <functioncall functionName="wxSIZE_AUTO"/>
+    <functioncall functionName="wxString"/>
+    <functioncall functionName="wxT"/>
+    <functioncall functionName="wxTOKEN_RET_EMPTY_ALL"/>
+    <functioncall functionName="wxTabTraversalWrapper &lt; FileDialog &gt;"/>
+    <functioncall functionName="wxTabTraversalWrapper &lt; wxDialog &gt;"/>
+    <functioncall functionName="wxTabTraversalWrapper &lt; wxDirDialog &gt;"/>
+    <functioncall functionName="wxTabTraversalWrapper &lt; wxMessageDialog &gt;"/>
+    <functioncall functionName="wxTabTraversalWrapper &lt; wxPanel &gt;"/>
+    <functioncall functionName="wxTabTraversalWrapperCharHook"/>
+    <functioncall functionName="wxWindowDisabler"/>
+    <functioncall functionName="x"/>
+    <functioncall functionName="y"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,226 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3911130912">
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;WaveClipTrimHandle&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;WaveClipTrimHandle&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveClipTrimHandle.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\tracks\playabletrack\wavetrack\ui\WaveClipTrimHandle.h" line="42" column="5"/>
+            <symbol>WaveClipTrimHandle</symbol>
+        </error>
+        <error id="shadowArgument" severity="style" msg="Local variable &apos;left&apos; shadows outer argument" verbose="Local variable &apos;left&apos; shadows outer argument" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveClipTrimHandle.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\tracks\playabletrack\wavetrack\ui\WaveClipTrimHandle.cpp" line="83" column="15" info="Shadow variable"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\tracks\playabletrack\wavetrack\ui\WaveClipTrimHandle.cpp" line="68" column="73" info="Shadowed declaration"/>
+            <symbol>left</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;px&apos; is assigned a value that is never used." verbose="Variable &apos;px&apos; is assigned a value that is never used." cwe="563" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveClipTrimHandle.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\tracks\playabletrack\wavetrack\ui\WaveClipTrimHandle.cpp" line="349" column="13"/>
+            <symbol>px</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: results" verbose="Unused variable: results" cwe="563" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveClipTrimHandle.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\tracks\playabletrack\wavetrack\ui\WaveClipTrimHandle.cpp" line="345" column="30"/>
+            <symbol>results</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveClipTrimHandle.h:44:24" call-funcname="HitAnywhere" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveClipTrimHandle.cpp" line="355" col="16" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveClipTrimHandle.h:49:24" my-argnr="3"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="WaveClipTrimHandle" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveClipTrimHandle.h" line="19" col="1" hash="15729874357968407818"/>
+<class name="WaveTrackSubViewPlacement" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveTrackView.h" line="85" col="1" hash="9975427483507720492"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveClipTrimHandle.cpp:68:4" my-argnr="1" my-argname="track" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveClipTrimHandle.cpp" line="71" col="20" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveClipTrimHandle.cpp:179:4" my-argnr="1" my-argname="track" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveClipTrimHandle.cpp" line="184" col="20" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveClipTrimHandle.h:44:24" my-argnr="2" my-argname="waveTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveClipTrimHandle.cpp" line="289" col="23" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveClipTrimHandle.h:44:24" my-argnr="3" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveClipTrimHandle.cpp" line="281" col="37" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveClipTrimHandle.h:53:20" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveClipTrimHandle.cpp" line="364" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveClipTrimHandle.h:55:20" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveClipTrimHandle.cpp" line="371" col="30" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveClipTrimHandle.h:58:20" my-argnr="2" my-argname="project" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveClipTrimHandle.cpp" line="382" col="34" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveClipTrimHandle.h:61:20" my-argnr="2" my-argname="project" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveClipTrimHandle.cpp" line="390" col="29" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveClipTrimHandle.cpp:68:4" my-argnr="1" my-argname="track" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveClipTrimHandle.cpp" line="71" col="20" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveClipTrimHandle.cpp:179:4" my-argnr="1" my-argname="track" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveClipTrimHandle.cpp" line="184" col="20" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveClipTrimHandle.h:44:24" my-argnr="2" my-argname="waveTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveClipTrimHandle.cpp" line="289" col="23" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="FindClipsInChannels" lineNumber="28"/>
+    <functiondecl functionName="TrimTo" lineNumber="52"/>
+    <functiondecl functionName="Init" lineNumber="111"/>
+    <functiondecl functionName="Trim" lineNumber="121"/>
+    <functiondecl functionName="Finish" lineNumber="135"/>
+    <functiondecl functionName="Cancel" lineNumber="154"/>
+    <functiondecl functionName="TrimTo" lineNumber="168"/>
+    <functiondecl functionName="Init" lineNumber="209"/>
+    <functiondecl functionName="Trim" lineNumber="219"/>
+    <functiondecl functionName="Finish" lineNumber="236"/>
+    <functiondecl functionName="Cancel" lineNumber="246"/>
+    <functiondecl functionName="HitPreview" lineNumber="253"/>
+    <functiondecl functionName="HitAnywhere" lineNumber="275"/>
+    <functiondecl functionName="HitTest" lineNumber="336"/>
+    <functiondecl functionName="Preview" lineNumber="362"/>
+    <functiondecl functionName="Click" lineNumber="368"/>
+    <functiondecl functionName="Drag" lineNumber="379"/>
+    <functiondecl functionName="Release" lineNumber="386"/>
+    <functiondecl functionName="Cancel" lineNumber="394"/>
+    <functioncall functionName="AUDACITY_DLL_API"/>
+    <functioncall functionName="AdjustBorder"/>
+    <functioncall functionName="AssignUIHandlePtr"/>
+    <functioncall functionName="Axis"/>
+    <functioncall functionName="CONSOLIDATE"/>
+    <functioncall functionName="Cancel"/>
+    <functioncall functionName="Channels"/>
+    <functioncall functionName="ClipDetailsVisible"/>
+    <functioncall functionName="ClipParameters"/>
+    <functioncall functionName="ClipTrimPolicy"/>
+    <functioncall functionName="CommonTrackCell"/>
+    <functioncall functionName="CommonTrackPanelCell"/>
+    <functioncall functionName="CutlineHandle"/>
+    <functioncall functionName="DECLARE_EXPORTED_ATTACHED_VIRTUAL"/>
+    <functioncall functionName="DefaultHeight"/>
+    <functioncall functionName="DisabledCursorXpm"/>
+    <functioncall functionName="DoFindTrack"/>
+    <functioncall functionName="DoGetViewTag"/>
+    <functioncall functionName="DoSetY"/>
+    <functioncall functionName="FindClipsInChannels"/>
+    <functioncall functionName="FindTrack"/>
+    <functioncall functionName="Finish"/>
+    <functioncall functionName="Format"/>
+    <functioncall functionName="Get"/>
+    <functioncall functionName="GetClipRect"/>
+    <functioncall functionName="GetClips"/>
+    <functioncall functionName="GetDefaultTrackHeightTag"/>
+    <functioncall functionName="GetHeight"/>
+    <functioncall functionName="GetLeft"/>
+    <functioncall functionName="GetLinkType"/>
+    <functioncall functionName="GetPlayEndTime"/>
+    <functioncall functionName="GetPlayStartTime"/>
+    <functioncall functionName="GetRate"/>
+    <functioncall functionName="GetRight"/>
+    <functioncall functionName="GetTop"/>
+    <functioncall functionName="GetX"/>
+    <functioncall functionName="HitAnywhere"/>
+    <functioncall functionName="HitPreview"/>
+    <functioncall functionName="Init"/>
+    <functioncall functionName="IsAlignedWithLeader"/>
+    <functioncall functionName="IsAudioActive"/>
+    <functioncall functionName="IsLeader"/>
+    <functioncall functionName="LeftDown"/>
+    <functioncall functionName="MakeCursor"/>
+    <functioncall functionName="MenuItem"/>
+    <functioncall functionName="PROHIBITED"/>
+    <functioncall functionName="PositionToTime"/>
+    <functioncall functionName="PushState"/>
+    <functioncall functionName="SamplesToTime"/>
+    <functioncall functionName="SelectHandle"/>
+    <functioncall functionName="SkipCopying"/>
+    <functioncall functionName="SubViewAdjustHandle"/>
+    <functioncall functionName="SubViewCloseHandle"/>
+    <functioncall functionName="SubViewRearrangeHandle"/>
+    <functioncall functionName="TimeCursorXpm"/>
+    <functioncall functionName="TimeShiftHandle"/>
+    <functioncall functionName="TimeToPosition"/>
+    <functioncall functionName="TimeToSamples"/>
+    <functioncall functionName="Track"/>
+    <functioncall functionName="TrackPanelCell"/>
+    <functioncall functionName="TrackPanelNode"/>
+    <functioncall functionName="TrackPanelResizeHandle"/>
+    <functioncall functionName="TrackVRulerControls"/>
+    <functioncall functionName="TrackView"/>
+    <functioncall functionName="Trim"/>
+    <functioncall functionName="TrimLeftTo"/>
+    <functioncall functionName="TrimRightTo"/>
+    <functioncall functionName="TrimTo"/>
+    <functioncall functionName="UIHandle"/>
+    <functioncall functionName="WaveClip"/>
+    <functioncall functionName="WaveClipTrimHandle"/>
+    <functioncall functionName="WaveTrack"/>
+    <functioncall functionName="WaveTrackAffordanceHandle"/>
+    <functioncall functionName="WaveTrackSubView"/>
+    <functioncall functionName="WaveTrackSubViewPlacement"/>
+    <functioncall functionName="WaveTrackSubViewType"/>
+    <functioncall functionName="WaveTrackView"/>
+    <functioncall functionName="X"/>
+    <functioncall functionName="XO"/>
+    <functioncall functionName="Y"/>
+    <functioncall functionName="abs"/>
+    <functioncall functionName="action"/>
+    <functioncall functionName="as_double"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="bool"/>
+    <functioncall functionName="clamp"/>
+    <functioncall functionName="clip"/>
+    <functioncall functionName="clipTrimPolicy"/>
+    <functioncall functionName="clips"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="const_cast"/>
+    <functioncall functionName="continue"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="delete"/>
+    <functioncall functionName="double"/>
+    <functioncall functionName="dt"/>
+    <functioncall functionName="dx"/>
+    <functioncall functionName="dynamic_pointer_cast"/>
+    <functioncall functionName="enabled"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="event"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="floor"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="height"/>
+    <functioncall functionName="holder"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="infinity"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="internal"/>
+    <functioncall functionName="left"/>
+    <functioncall functionName="leftClip"/>
+    <functioncall functionName="mAdjustingLeftBorder"/>
+    <functioncall functionName="mClipTrimPolicy"/>
+    <functioncall functionName="mClips"/>
+    <functioncall functionName="mDragStartX"/>
+    <functioncall functionName="mInitialBorderPosition"/>
+    <functioncall functionName="mLeftClips"/>
+    <functioncall functionName="mRightClips"/>
+    <functioncall functionName="m_x"/>
+    <functioncall functionName="m_y"/>
+    <functioncall functionName="make_pair"/>
+    <functioncall functionName="make_shared"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="maxOffset"/>
+    <functioncall functionName="message"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="msgid"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="offset"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="pProject"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="placements"/>
+    <functioncall functionName="project"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="rect"/>
+    <functioncall functionName="right"/>
+    <functioncall functionName="rightClip"/>
+    <functioncall functionName="sampleCount"/>
+    <functioncall functionName="second"/>
+    <functioncall functionName="shared_ptr"/>
+    <functioncall functionName="state"/>
+    <functioncall functionName="static_cast"/>
+    <functioncall functionName="t"/>
+    <functioncall functionName="this"/>
+    <functioncall functionName="track"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="unsafe"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="waveTrack"/>
+    <functioncall functionName="width"/>
+    <functioncall functionName="wxASSERT"/>
+    <functioncall functionName="wxCURSOR_NO_ENTRY"/>
+    <functioncall functionName="wxCURSOR_SIZEWE"/>
+    <functioncall functionName="wxCoord"/>
+    <functioncall functionName="x"/>
+    <functioncall functionName="y"/>
+    <functioncall functionName="zoomInfo"/>
+  </FileInfo>
+</analyzerinfo>

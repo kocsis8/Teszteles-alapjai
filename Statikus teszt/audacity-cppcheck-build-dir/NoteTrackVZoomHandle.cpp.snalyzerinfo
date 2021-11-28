@@ -1,0 +1,248 @@
+MaximizeWidth
+MaximizeHeight
+GetChangeHighlight
+SetChangeHighlight
+NeedChangeHighlight
+AssignUIHandlePtr call:[NeedChangeHighlight,SetChangeHighlight,lock,move,typeid,wxASSERT]
+GetTrack call:[lock] noreturn:[lock]
+ContextMenuDelegate
+CommonTrackPanelCell
+FindTrack call:[DoFindTrack] noreturn:[DoFindTrack]
+FindTrack call:[DoFindTrack] noreturn:[DoFindTrack]
+MenuItem
+HitTestPreview
+HitTestPreview
+operator==
+operator!=
+CompatibleTrackKinds call:[return]
+value
+value call:[value] noreturn:[value]
+TrackId
+TrackId
+operator==
+operator!=
+operator<
+ConstTrackInterval call:[wxASSERT] noreturn:[wxASSERT]
+Start
+End
+Extra call:[get] noreturn:[get]
+Extra call:[get] noreturn:[get]
+GetId
+SetId
+SharedPointer call:[shared_from_this]
+SharedPointer call:[shared_from_this]
+SharedPointer
+SharedPointer
+HasOwner call:[GetOwner]
+GetOwner call:[lock] noreturn:[lock]
+GetName
+GetDefaultName
+SetDefaultName
+GetSelected
+GetChannel
+Offset call:[GetOffset,SetOffset] noreturn:[SetOffset]
+SetOffset
+SetPan
+SetPanFromChannelType
+GetKind
+SameKindAs call:[GetKind] noreturn:[GetKind]
+operator()
+operator() call:[function] noreturn:[function]
+operator() call:[function] noreturn:[function]
+operator()
+operator()
+TypeSwitch call:[GetKind,sizeof...,static_assert]
+TypeSwitch call:[GetKind,sizeof...,static_assert]
+GetErrorOpening
+AudioTrack
+AudioTrack
+WriteXMLAttributes
+HandleXMLAttribute
+PlayableTrack
+PlayableTrack
+GetMute
+GetSolo
+GetNotMute
+GetNotSolo
+track_cast call:[CompatibleTrackKinds,GetKind,track_kind < BareType >]
+TrackListEvent
+Clone call:[TrackListEvent] noreturn:[TrackListEvent]
+GetOwner
+GetOwner
+begin call:[Any,begin] noreturn:[begin]
+end call:[Any,end] noreturn:[end]
+begin call:[Any,begin] noreturn:[begin]
+end call:[Any,end] noreturn:[end]
+cbegin call:[begin] noreturn:[begin]
+cend call:[end] noreturn:[end]
+Find call:[GetNode,GetOwner,get]
+Find call:[GetNode,GetOwner,get]
+FindLeader call:[Filter < const Track >,FindLeader] noreturn:[Filter < const Track >]
+Any
+Any
+Selected
+Selected
+Leaders
+Leaders
+SelectedLeaders
+SelectedLeaders
+SingletonRange call:[EndingAfter,GetOwner,StartingWith] noreturn:[EndingAfter]
+SyncLockGroup call:[Filter < const Track >,SyncLockGroup] noreturn:[Filter < const Track >]
+Channels_ call:[Filter]
+Channels call:[FindLeader,GetOwner]
+AddToHead call:[DoAddToHead]
+Add call:[DoAdd]
+Move call:[MoveDown,MoveUp] noreturn:[MoveDown]
+Lock call:[get,lock]
+Tracks call:[getBegin,getEnd]
+Tracks call:[getBegin,getEnd]
+MakeTrackIterator call:[getBegin,getEnd]
+EndIterator call:[getEnd]
+isNull call:[end,return]
+getEnd call:[end]
+getBegin call:[begin]
+getNext call:[isNull]
+getPrev call:[getBegin,getEnd] noreturn:[getEnd]
+GetBottomNote
+GetTopNote
+ZoomMaxExtent call:[SetNoteRange] noreturn:[SetNoteRange]
+ZoomOut call:[Zoom] noreturn:[Zoom]
+ZoomIn call:[Zoom] noreturn:[Zoom]
+IsVisibleChan call:[return]
+SetVisibleChan
+ClearVisibleChan
+ToggleVisibleChan
+SoloVisibleChan
+GetKind
+GetPitchHeight call:[max] noreturn:[max]
+GetNoteMargin
+GetOctaveHeight call:[GetPitchHeight]
+GetOctaveBottom call:[GetPitchHeight,IPitchToY]
+PitchToY call:[IPitchToY] noreturn:[IPitchToY]
+GetNotePos call:[GetPitchHeight]
+GetBlackPos call:[GetNotePos] noreturn:[GetNotePos]
+GetWhitePos call:[GetOctaveHeight]
+ProjectHistory
+GetDirty
+SetDirty
+SetBackgroundBrushes
+TrackPanelMouseState
+TrackPanelMouseEvent
+CommandFlagOptions
+Options
+Options
+Options
+ToolbarMenuVisitor
+operatorAudacityProject&
+WholeMenu
+MenuItem
+ConditionalGroupItem
+DefaultFinder
+FinderScope
+CommandItem
+CommandGroupItem
+SpecialItem
+MenuPart
+Items
+Section
+Menu
+Menu call:[move]
+ConditionalItems
+ConditionalItems call:[move]
+MenuOrItems call:[Items,empty] noreturn:[Items]
+MenuOrItems call:[Items,empty,move] noreturn:[Items]
+Command
+CommandGroup call:[move]
+Special
+PopupMenuTableEntry call:[wxASSERT] noreturn:[wxASSERT]
+PopupMenuVisitor
+PopupMenuTable
+Id
+Caption
+GetRegistry call:[get] noreturn:[get]
+AttachedItem call:[RegisterItem,move] noreturn:[RegisterItem]
+Get call:[InitUserData,Populate] noreturn:[InitUserData,Populate]
+Clear call:[reset] noreturn:[reset]
+Computed call:[factory] noreturn:[factory]
+MakeLabel call:[Format,XXO]
+AppendItem call:[Append] noreturn:[Append]
+AppendRadioItem call:[Append] noreturn:[Append]
+AppendCheckItem call:[Append] noreturn:[Append]
+Computed call:[Computed] noreturn:[Computed]
+Append call:[Append,Computed] noreturn:[Append]
+IsDragZooming call:[Read,abs,wxT]
+NoteTrackVZoomHandle
+Enter
+HitPreview global:[ZoomInCursorXpm,ZoomOutCursorXpm] call:[MakeCursor,Read,RightIsDown,ShiftDown,XO,wxT]
+HitTest call:[AssignUIHandlePtr]
+NoteTrackVZoomHandle
+HandlesRightClick
+Click
+Drag call:[Get,IsDragZooming,Lock]
+Preview call:[HitPreview] noreturn:[HitPreview]
+NoteTrackVRulerMenuTable
+NoteTrackVRulerMenuTable
+OnZoomReset call:[OnZoom] noreturn:[OnZoom]
+OnZoomInVertical call:[OnZoom] noreturn:[OnZoom]
+OnZoomOutVertical call:[OnZoom] noreturn:[OnZoom]
+OnZoomMax call:[OnZoom] noreturn:[OnZoom]
+OnUpOctave call:[OnZoom] noreturn:[OnZoom]
+OnDownOctave call:[OnZoom] noreturn:[OnZoom]
+UpdatePrefs call:[Clear] noreturn:[Clear]
+Instance
+InitUserData
+OnZoom call:[Get,ModifyState,ShiftNoteRange,ZoomAllNotes,ZoomIn,ZoomMaxExtent,ZoomOut]
+Populate call:[AppendItem,BeginSection,Caption,EndSection,Id,MakeLabel,Read,XXO,clear,get,push_back,wxT] noreturn:[EndSection]
+Release global:[kCaptureLostEventId] call:[BuildMenu,CmdDown,Get,GetBottomNote,GetId,GetTopNote,Instance,IsDragZooming,Lock,ModifyState,Popup,Read,RightUp,ShiftDown,ZoomAllNotes,ZoomIn,ZoomMaxExtent,ZoomOut,ZoomTo,get,wxT] noreturn:[ZoomIn,ZoomMaxExtent,ZoomOut,ZoomTo]
+Draw call:[DrawZooming,IsDragZooming,lock] noreturn:[DrawZooming]
+DrawingArea call:[ZoomingArea] noreturn:[ZoomingArea]
+TrackIterRange < Track >
+operator+ call:[Filter,GetPredicate,pred1,pred2] noreturn:[pred2]
+operator+ call:[mem_fn,operator+] noreturn:[operator+]
+operator- call:[operator+,pred2] noreturn:[operator+,pred2]
+operator- call:[mem_fn,not1,operator+] noreturn:[operator+]
+Filter
+StartingWith call:[GetPredicate,find]
+EndingAfter call:[GetPredicate,base,find,reversal]
+Excluding call:[operator-] noreturn:[operator-]
+Visit call:[TypeSwitch] noreturn:[TypeSwitch]
+VisitWhile call:[TypeSwitch]
+TrackIterRange < const Track >
+operator+ call:[Filter,GetPredicate,pred1,pred2] noreturn:[pred2]
+operator+ call:[mem_fn,operator+] noreturn:[operator+]
+operator- call:[operator+,pred2] noreturn:[operator+,pred2]
+operator- call:[mem_fn,not1,operator+] noreturn:[operator+]
+Filter
+StartingWith call:[GetPredicate,find]
+EndingAfter call:[GetPredicate,base,find,reversal]
+Excluding call:[operator-] noreturn:[operator-]
+Visit call:[TypeSwitch] noreturn:[TypeSwitch]
+VisitWhile call:[TypeSwitch]
+TrackIter < Track > call:[operator++,valid] noreturn:[operator++]
+Filter
+Filter
+GetPredicate
+operator++ call:[valid,while] noreturn:[while]
+operator++ call:[operator++]
+operator-- call:[valid,while]
+operator-- call:[operator--]
+operator*
+advance call:[advance]
+operator==
+operator!=
+valid call:[mPred,track_cast < Track * >] noreturn:[mPred]
+TrackIter < const Track > call:[operator++,valid] noreturn:[operator++]
+Filter
+GetPredicate
+operator++ call:[valid,while] noreturn:[while]
+operator++ call:[operator++]
+operator-- call:[valid,while]
+operator-- call:[operator--]
+operator*
+advance call:[advance]
+operator==
+operator!=
+valid call:[mPred,track_cast < const Track * >] noreturn:[mPred]
+track_cast < Track * > call:[CompatibleTrackKinds,GetKind,track_kind < BareType >]
+track_cast < const Track * > call:[CompatibleTrackKinds,GetKind,track_kind < BareType >]
+track_kind < BareType > call:[value] noreturn:[value]

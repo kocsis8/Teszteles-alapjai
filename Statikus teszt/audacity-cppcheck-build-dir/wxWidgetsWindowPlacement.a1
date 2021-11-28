@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2415703190">
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="const"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="dynamic_cast"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="pWindow"/>
+    <functioncall functionName="placement"/>
+    <functioncall functionName="wxWidgetsWindowPlacement"/>
+  </FileInfo>
+</analyzerinfo>

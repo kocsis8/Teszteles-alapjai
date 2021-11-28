@@ -1,0 +1,31 @@
+IsDefault call:[defaults] noreturn:[defaults]
+WindowSize
+ZeroPaddingFactor
+Globals call:[LoadPrefs] noreturn:[LoadPrefs]
+SavePrefs
+LoadPrefs
+Get
+SpectrogramSettings call:[LoadPrefs] noreturn:[LoadPrefs]
+SpectrogramSettings
+operator= call:[DestroyWindows] noreturn:[DestroyWindows]
+defaults
+GetScaleNames call:[XO]
+GetColorSchemeNames call:[XC,size,static_assert,wxASSERT,wxT]
+Migrate call:[Flush,GetColorSchemeNames,Internal,Read,Write,at,wxT] noreturn:[Flush]
+GetAlgorithmNames call:[XO]
+Validate call:[AudacityMessageBox,ColorScheme,ConvertToActualWindowSizes,ConvertToEnumeratedWindowSizes,NumWindowFuncs,XO,int,max,min] noreturn:[max]
+LoadPrefs global:[SpectrumMaxFreq] call:[InvalidateCaches,Read,ReadEnum,Validate] noreturn:[InvalidateCaches]
+SavePrefs global:[SpectrumMaxFreq] call:[Write,WriteEnum] noreturn:[Write]
+UpdatePrefs global:[SpectrumMaxFreq] call:[Read,ReadEnum,Validate,defaults] noreturn:[Read,ReadEnum,Validate]
+InvalidateCaches call:[DestroyWindows] noreturn:[DestroyWindows]
+SpectrogramSettings call:[DestroyWindows] noreturn:[DestroyWindows]
+DestroyWindows call:[reset] noreturn:[reset]
+RecreateWindow call:[DerivativeOfWindowFunc,NewWindowFunc,get,wxASSERT] noreturn:[wxASSERT]
+CacheWindows call:[GetFFT,RecreateWindow,WindowSize,ZeroPaddingFactor] noreturn:[RecreateWindow]
+ConvertToEnumeratedWindowSizes call:[int,max,min] noreturn:[max]
+ConvertToActualWindowSizes
+findBin
+GetFFTLength
+NBins call:[GetFFTLength]
+GetScale call:[NumberScale,wxASSERT] noreturn:[NumberScale]
+SpectralSelectionEnabled

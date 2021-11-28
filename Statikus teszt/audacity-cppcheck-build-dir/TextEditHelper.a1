@@ -1,0 +1,208 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="327477989">
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.h:98:10" call-funcname="GetCharPositionX" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.cpp" line="365" col="25" call-argexpr="&amp;curPosX" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.h:98:10" call-funcname="GetCharPositionX" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.cpp" line="371" col="33" call-argexpr="&amp;curPosX" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.h:98:10" call-funcname="GetCharPositionX" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.cpp" line="381" col="33" call-argexpr="&amp;curPosX" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.h:98:10" call-funcname="GetCharPositionX" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.cpp" line="393" col="25" call-argexpr="&amp;left" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.h:98:10" call-funcname="GetCharPositionX" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.cpp" line="394" col="25" call-argexpr="&amp;right" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.h:106:10" call-funcname="RemoveSelectedText" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.cpp" line="123" col="17" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.h:85:10" my-argnr="3"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.h:106:10" call-funcname="RemoveSelectedText" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.cpp" line="259" col="9" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.h:86:10" my-argnr="2"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.h:104:10" call-funcname="HandleDragRelease" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.cpp" line="340" col="12" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.h:89:10" my-argnr="2"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.h:104:10" call-funcname="HandleDragRelease" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.cpp" line="345" col="12" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.h:90:10" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="TextEditHelper" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.h" line="43" col="1" hash="15083138484799196484"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.h:98:10" call-funcname="GetCharPositionX" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.cpp" line="365" col="25" call-argexpr="&amp;curPosX" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.h:98:10" call-funcname="GetCharPositionX" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.cpp" line="371" col="33" call-argexpr="&amp;curPosX" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.h:98:10" call-funcname="GetCharPositionX" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.cpp" line="381" col="33" call-argexpr="&amp;curPosX" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.h:98:10" call-funcname="GetCharPositionX" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.cpp" line="393" col="25" call-argexpr="&amp;left" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.h:98:10" call-funcname="GetCharPositionX" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.cpp" line="394" col="25" call-argexpr="&amp;right" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.h:106:10" call-funcname="RemoveSelectedText" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.cpp" line="123" col="17" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.h:85:10" my-argnr="3"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.h:106:10" call-funcname="RemoveSelectedText" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.cpp" line="259" col="9" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.h:86:10" my-argnr="2"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.h:104:10" call-funcname="HandleDragRelease" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.cpp" line="340" col="12" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.h:89:10" my-argnr="2"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.h:104:10" call-funcname="HandleDragRelease" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.cpp" line="345" col="12" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.h:90:10" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="TextEditHelper" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TextEditHelper.h" line="43" col="1" hash="1475641536038253327"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="IsGoodEditKeyCode" lineNumber="26"/>
+    <functiondecl functionName="SetTextColor" lineNumber="53"/>
+    <functiondecl functionName="SetTextSelectionColor" lineNumber="58"/>
+    <functiondecl functionName="Cancel" lineNumber="63"/>
+    <functiondecl functionName="Finish" lineNumber="69"/>
+    <functiondecl functionName="GetSelection" lineNumber="75"/>
+    <functiondecl functionName="SetSelection" lineNumber="80"/>
+    <functiondecl functionName="SelectAll" lineNumber="86"/>
+    <functiondecl functionName="IsSelectionEmpty" lineNumber="92"/>
+    <functiondecl functionName="CaptureKey" lineNumber="97"/>
+    <functiondecl functionName="OnKeyDown" lineNumber="102"/>
+    <functiondecl functionName="OnChar" lineNumber="247"/>
+    <functiondecl functionName="OnClick" lineNumber="283"/>
+    <functiondecl functionName="OnDrag" lineNumber="338"/>
+    <functiondecl functionName="OnRelease" lineNumber="343"/>
+    <functiondecl functionName="Draw" lineNumber="348"/>
+    <functiondecl functionName="HandleDragRelease" lineNumber="413"/>
+    <functiondecl functionName="RemoveSelectedText" lineNumber="437"/>
+    <functiondecl functionName="FindCursorIndex" lineNumber="463"/>
+    <functiondecl functionName="GetCharPositionX" lineNumber="529"/>
+    <functiondecl functionName="GetBBox" lineNumber="561"/>
+    <functiondecl functionName="CutSelectedText" lineNumber="568"/>
+    <functiondecl functionName="CopySelectedText" lineNumber="613"/>
+    <functiondecl functionName="PasteSelectedText" lineNumber="642"/>
+    <functiondecl functionName="IsGoodEditKeyCode" lineNumber="26"/>
+    <functiondecl functionName="SetTextColor" lineNumber="53"/>
+    <functiondecl functionName="SetTextSelectionColor" lineNumber="58"/>
+    <functiondecl functionName="Cancel" lineNumber="63"/>
+    <functiondecl functionName="Finish" lineNumber="69"/>
+    <functiondecl functionName="GetSelection" lineNumber="75"/>
+    <functiondecl functionName="SetSelection" lineNumber="80"/>
+    <functiondecl functionName="SelectAll" lineNumber="86"/>
+    <functiondecl functionName="IsSelectionEmpty" lineNumber="92"/>
+    <functiondecl functionName="CaptureKey" lineNumber="97"/>
+    <functiondecl functionName="OnKeyDown" lineNumber="102"/>
+    <functiondecl functionName="OnChar" lineNumber="247"/>
+    <functiondecl functionName="OnClick" lineNumber="283"/>
+    <functiondecl functionName="OnDrag" lineNumber="338"/>
+    <functiondecl functionName="OnRelease" lineNumber="343"/>
+    <functiondecl functionName="Draw" lineNumber="348"/>
+    <functiondecl functionName="HandleDragRelease" lineNumber="413"/>
+    <functiondecl functionName="RemoveSelectedText" lineNumber="437"/>
+    <functiondecl functionName="FindCursorIndex" lineNumber="463"/>
+    <functiondecl functionName="GetCharPositionX" lineNumber="529"/>
+    <functiondecl functionName="GetBBox" lineNumber="561"/>
+    <functiondecl functionName="CutSelectedText" lineNumber="568"/>
+    <functiondecl functionName="CopySelectedText" lineNumber="613"/>
+    <functiondecl functionName="PasteSelectedText" lineNumber="642"/>
+    <functioncall functionName="ButtonDown"/>
+    <functioncall functionName="CaptureKey"/>
+    <functioncall functionName="Close"/>
+    <functioncall functionName="Contains"/>
+    <functioncall functionName="DECLARE_EVENT_TABLE"/>
+    <functioncall functionName="Dragging"/>
+    <functioncall functionName="DrawLabel"/>
+    <functioncall functionName="DrawLine"/>
+    <functioncall functionName="DrawRectangle"/>
+    <functioncall functionName="FindCursorIndex"/>
+    <functioncall functionName="GetCharPositionX"/>
+    <functioncall functionName="GetData"/>
+    <functioncall functionName="GetFontMetrics"/>
+    <functioncall functionName="GetHeight"/>
+    <functioncall functionName="GetLayoutDirection"/>
+    <functioncall functionName="GetLeft"/>
+    <functioncall functionName="GetPosition"/>
+    <functioncall functionName="GetRight"/>
+    <functioncall functionName="GetText"/>
+    <functioncall functionName="GetTextExtent"/>
+    <functioncall functionName="GetTop"/>
+    <functioncall functionName="GetWidth"/>
+    <functioncall functionName="HandleDragRelease"/>
+    <functioncall functionName="IsSupported"/>
+    <functioncall functionName="Left"/>
+    <functioncall functionName="LeftDown"/>
+    <functioncall functionName="Length"/>
+    <functioncall functionName="Mid"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="Off"/>
+    <functioncall functionName="Ok"/>
+    <functioncall functionName="OnTextContextMenu"/>
+    <functioncall functionName="OnTextEditCancelled"/>
+    <functioncall functionName="OnTextEditFinished"/>
+    <functioncall functionName="OnTextModified"/>
+    <functioncall functionName="Open"/>
+    <functioncall functionName="Pinned"/>
+    <functioncall functionName="PlaybackScroller"/>
+    <functioncall functionName="Refresh"/>
+    <functioncall functionName="RemoveSelectedText"/>
+    <functioncall functionName="Right"/>
+    <functioncall functionName="RightUp"/>
+    <functioncall functionName="SetBrush"/>
+    <functioncall functionName="SetData"/>
+    <functioncall functionName="SetFont"/>
+    <functioncall functionName="SetPen"/>
+    <functioncall functionName="SetTextBackground"/>
+    <functioncall functionName="SetTextForeground"/>
+    <functioncall functionName="ShiftDown"/>
+    <functioncall functionName="TextEditDelegate"/>
+    <functioncall functionName="TextEditHelper"/>
+    <functioncall functionName="abs"/>
+    <functioncall functionName="at"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="char"/>
+    <functioncall functionName="charCode"/>
+    <functioncall functionName="charIndex"/>
+    <functioncall functionName="clamp"/>
+    <functioncall functionName="clipper"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="continue"/>
+    <functioncall functionName="cur"/>
+    <functioncall functionName="curPosX"/>
+    <functioncall functionName="current"/>
+    <functioncall functionName="cursorHeight"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="dc"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="delegate"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="event"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="finished"/>
+    <functioncall functionName="font"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="from"/>
+    <functioncall functionName="height"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="index"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="initial"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="keyCode"/>
+    <functioncall functionName="left"/>
+    <functioncall functionName="len"/>
+    <functioncall functionName="length"/>
+    <functioncall functionName="lock"/>
+    <functioncall functionName="mCurrentCursorPos"/>
+    <functioncall functionName="mDelegate"/>
+    <functioncall functionName="mFont"/>
+    <functioncall functionName="mInitialCursorPos"/>
+    <functioncall functionName="mOffset"/>
+    <functioncall functionName="mRightDragging"/>
+    <functioncall functionName="mText"/>
+    <functioncall functionName="mTextColor"/>
+    <functioncall functionName="mTextSelectionColor"/>
+    <functioncall functionName="make_pair"/>
+    <functioncall functionName="max"/>
+    <functioncall functionName="maxOffset"/>
+    <functioncall functionName="min"/>
+    <functioncall functionName="mode"/>
+    <functioncall functionName="mods"/>
+    <functioncall functionName="offsetX"/>
+    <functioncall functionName="oneWidth"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="pSizeAndLocation"/>
+    <functioncall functionName="partWidth"/>
+    <functioncall functionName="position"/>
+    <functioncall functionName="project"/>
+    <functioncall functionName="rect"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="right"/>
+    <functioncall functionName="static_cast"/>
+    <functioncall functionName="subString"/>
+    <functioncall functionName="swap"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="text"/>
+    <functioncall functionName="textColor"/>
+    <functioncall functionName="textSelectionColor"/>
+    <functioncall functionName="to"/>
+    <functioncall functionName="top"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="wchar"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="wxALIGN_CENTER_VERTICAL"/>
+    <functioncall functionName="wxALIGN_LEFT"/>
+    <functioncall functionName="wxALIGN_RIGHT"/>
+    <functioncall functionName="wxDF_UNICODETEXT"/>
+    <functioncall functionName="wxFont"/>
+    <functioncall functionName="wxFontInfo"/>
+    <functioncall functionName="wxIscntrl"/>
+    <functioncall functionName="wxRect"/>
+    <functioncall functionName="wxT"/>
+    <functioncall functionName="wxTextDataObject"/>
+    <functioncall functionName="wxTransparentColour"/>
+  </FileInfo>
+</analyzerinfo>

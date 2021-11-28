@@ -1,0 +1,9 @@
+SpectrumAnalyst
+SpectrumAnalyst
+Calculate call:[InverseRealFFT,NumWindowFuncs,PowerSpectrum,RealFFT,Reset,SetRange,SetValue,WindowFunc,float,get,log,log10,pow,resize,sqrt,wxASSERT] noreturn:[Reset,SetRange,SetValue,float,log,pow,sqrt]
+GetProcessed
+GetProcessedSize call:[size]
+GetProcessedValue call:[CubicInterpolate,GetProcessedSize,float,max] noreturn:[CubicInterpolate,max]
+FindPeak call:[CubicMaximize,GetProcessedSize,fabs]
+CubicInterpolate call:[return] noreturn:[return]
+CubicMaximize call:[float,sqrt] noreturn:[float]

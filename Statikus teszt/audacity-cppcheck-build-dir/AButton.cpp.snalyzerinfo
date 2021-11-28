@@ -1,0 +1,34 @@
+wxPanelWrapper
+wxPanelWrapper
+Create call:[Create,Translation] noreturn:[Create]
+wxDialogWrapper
+wxDialogWrapper
+Create call:[Create,Translation] noreturn:[Create]
+wxDirDialogWrapper
+Create call:[Create,Translation] noreturn:[Create]
+FileDialogBase
+SetFileExtension
+FileDialogWrapper
+FileDialogWrapper
+Create call:[Create,FormatWildcard,Translation] noreturn:[Create]
+AudacityMessageDialog
+GetMinSize
+GetMaxSize
+AcceptsFocus
+AcceptsFocusFromKeyboard
+IsEnabled
+SetEnabled call:[Disable,Enable] noreturn:[Disable]
+IsDown
+IsDoubleClicked
+ClearDoubleClicked
+SetButtonToggles
+InteractionOver call:[PopUp] noreturn:[PopUp]
+Toggle call:[PopUp,PushDown] noreturn:[PushDown]
+operator()
+GetProject
+GetProject
+wxTabTraversalWrapper < wxPanel > call:[Bind] noreturn:[Bind]
+wxTabTraversalWrapper < wxDialog > call:[Bind] noreturn:[Bind]
+wxTabTraversalWrapper < wxDirDialog > call:[Bind] noreturn:[Bind]
+wxTabTraversalWrapper < FileDialog > call:[Bind] noreturn:[Bind]
+wxTabTraversalWrapper < wxMessageDialog > call:[Bind] noreturn:[Bind]

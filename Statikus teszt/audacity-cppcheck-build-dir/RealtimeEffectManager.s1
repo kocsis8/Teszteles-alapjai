@@ -1,0 +1,7 @@
+GetEffect
+RealtimeEffectState
+RealtimeSuspend call:[RealtimeSuspend]
+RealtimeResume call:[RealtimeResume]
+RealtimeAddProcessor call:[GetAudioInCount,GetAudioOutCount,RealtimeAddProcessor,clear,push_back] noreturn:[clear]
+RealtimeProcess call:[GetAudioInCount,GetAudioOutCount,GetBlockSize,RealtimeProcess,alloca,decltype,min,sizeof]
+IsRealtimeActive

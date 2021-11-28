@@ -1,0 +1,71 @@
+wxPanelWrapper
+wxPanelWrapper
+Create call:[Create,Translation] noreturn:[Create]
+wxDialogWrapper
+wxDialogWrapper
+Create call:[Create,Translation] noreturn:[Create]
+wxDirDialogWrapper
+Create call:[Create,Translation] noreturn:[Create]
+FileDialogBase
+SetFileExtension
+FileDialogWrapper
+FileDialogWrapper
+Create call:[Create,FormatWildcard,Translation] noreturn:[Create]
+AudacityMessageDialog
+FormatInfo
+FormatInfo
+SetNumExportChannels
+SetDefaultFormat
+GetMixerSpec call:[get] noreturn:[get]
+CommandFlagOptions
+operator[]
+begin call:[begin] noreturn:[begin]
+end call:[end] noreturn:[end]
+GetMessage
+AddToMessage
+GetHelpPageName
+operator() call:[SetBatchProcessing] noreturn:[SetBatchProcessing]
+SetBatchProcessing call:[SetBatchProcessing]
+WrappedType
+WrappedType
+WrappedType
+WrappedType
+WrappedType
+ConnectRoot call:[move,push_back,void] noreturn:[move]
+ListControlColumn
+StartTwoColumn call:[StartMultiColumn] noreturn:[StartMultiColumn]
+EndTwoColumn call:[EndMultiColumn] noreturn:[EndMultiColumn]
+StartThreeColumn call:[StartMultiColumn] noreturn:[StartMultiColumn]
+EndThreeColumn call:[EndMultiColumn] noreturn:[EndMultiColumn]
+SetBorder
+SetSizerProportion
+GetParent call:[wxASSERT]
+GetSizer
+Focus call:[Focus,move]
+Disable call:[Disable,move]
+ToolTip call:[ToolTip,move]
+Name call:[Name,move]
+NameSuffix call:[NameSuffix,move]
+Validator call:[GetMode,Validator,move] noreturn:[Validator]
+Validator call:[GetMode,move]
+ConnectRoot call:[ConnectRoot,move]
+Position call:[Position,move]
+Size call:[Size,move]
+Prop call:[Prop]
+Style call:[Style,move]
+MinSize call:[MinSize,move]
+MinSize call:[MinSize,move]
+AddSpace call:[AddSpace] noreturn:[AddSpace]
+GetMode
+MacroCommandDialog call:[Populate,SetLabel,SetName,XO] noreturn:[Populate]
+Populate call:[PopulateOrExchange,S] noreturn:[PopulateOrExchange]
+PopulateOrExchange call:[AddButton,AddListControl,AddPrompt,AddStandardButtons,AddTextBox,AddTextWindow,Center,Disable,EndMultiColumn,EndStatic,EndVerticalLay,Fit,GetItemCount,Id,Name,PopulateCommandList,Prop,SetEditable,SetItemState,SetMinSize,SetStretchyCol,StartMultiColumn,StartStatic,StartVerticalLay,Style,XO,XXO,wxSize,wxT] noreturn:[AddButton,AddListControl,Center,EndStatic,SetEditable,SetItemState]
+PopulateCommandList call:[DeleteAllItems,InsertItem,StrippedTranslation] noreturn:[InsertItem]
+ValidateChoices
+OnItemSelected call:[Enable,GET,Get,GetCurrentParamsFor,GetDefaultPreset,GetEffectByIdentifier,GetIndex,GetValue,HasPresets,Internal,SetValue,StrippedTranslation,Translation,empty] noreturn:[GetDefaultPreset,SetValue]
+SetCommandAndParams call:[ByCommandId,Enable,GET,Get,GetEffectByIdentifier,HasPresets,Internal,SetItemState,SetValue,StrippedTranslation,Translation,begin,empty,end] noreturn:[Enable,SetValue]
+wxTabTraversalWrapper < wxPanel > call:[Bind] noreturn:[Bind]
+wxTabTraversalWrapper < wxDialog > call:[Bind] noreturn:[Bind]
+wxTabTraversalWrapper < wxDirDialog > call:[Bind] noreturn:[Bind]
+wxTabTraversalWrapper < FileDialog > call:[Bind] noreturn:[Bind]
+wxTabTraversalWrapper < wxMessageDialog > call:[Bind] noreturn:[Bind]

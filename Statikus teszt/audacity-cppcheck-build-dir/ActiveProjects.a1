@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="800104617">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="GetAll" lineNumber="20"/>
+    <functiondecl functionName="Add" lineNumber="44"/>
+    <functiondecl functionName="Remove" lineNumber="61"/>
+    <functiondecl functionName="Find" lineNumber="72"/>
+    <functioncall functionName="Add"/>
+    <functioncall functionName="DeleteEntry"/>
+    <functioncall functionName="Find"/>
+    <functioncall functionName="Flush"/>
+    <functioncall functionName="GetFirstEntry"/>
+    <functioncall functionName="GetFullPath"/>
+    <functioncall functionName="GetNextEntry"/>
+    <functioncall functionName="GetPath"/>
+    <functioncall functionName="HasEntry"/>
+    <functioncall functionName="IsSameAs"/>
+    <functioncall functionName="Printf"/>
+    <functioncall functionName="Read"/>
+    <functioncall functionName="SetPath"/>
+    <functioncall functionName="Write"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="configPath"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="key"/>
+    <functioncall functionName="more"/>
+    <functioncall functionName="ndx"/>
+    <functioncall functionName="path"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="wxT"/>
+  </FileInfo>
+</analyzerinfo>

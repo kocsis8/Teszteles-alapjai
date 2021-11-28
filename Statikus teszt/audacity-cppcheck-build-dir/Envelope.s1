@@ -1,0 +1,80 @@
+EnvPoint
+EnvPoint
+GetT
+SetT
+GetVal
+HandleXMLTag call:[Get,GetT,GetVal,SetT,SetVal] noreturn:[SetT,SetVal]
+HandleXMLChild
+GetOffset
+GetTrackLen
+GetExponential
+SetExponential
+GetMinValue
+GetMaxValue
+ClampValue call:[max,min] noreturn:[max]
+Clear call:[clear] noreturn:[clear]
+InsertOrReplace call:[InsertOrReplaceRelative] noreturn:[InsertOrReplaceRelative]
+operator[]
+GetDragPoint
+GetDragPointValid
+SetVal call:[ClampValue] noreturn:[ClampValue]
+GetRangeLower
+GetRangeUpper
+SetRangeLower
+SetRangeUpper
+Envelope
+Envelope
+ConsistencyCheck call:[Delete,GetT,begin,end,size,stable_sort,while] noreturn:[GetT,stable_sort]
+RescaleValues call:[ClampValue,GetVal,SetVal,size] noreturn:[SetVal]
+Flatten call:[ClampValue,clear] noreturn:[ClampValue]
+SetDragPoint call:[int,max,min,size]
+SetDragPointValid call:[GetT,GetVal,SetT,SetVal,max,size] noreturn:[SetVal]
+MoveDragPoint call:[GetT,SetDragPointValid,SetT,SetVal,max,min,size] noreturn:[SetVal,max,min]
+ClearDragPoint call:[Delete] noreturn:[Delete]
+SetRange call:[ClampValue,GetVal,SetVal,size] noreturn:[SetVal]
+AddPointAtEnd call:[GetT,begin,erase,push_back,size]
+Envelope call:[CopyRange,EqualRange,wxMax,wxMin] noreturn:[CopyRange]
+Envelope call:[CopyRange,GetNumberOfPoints] noreturn:[CopyRange]
+CopyRange call:[AddPointAtEnd,GetT,GetVal,GetValue,size] noreturn:[AddPointAtEnd]
+HandleXMLTag call:[TryGet,clear,reserve] noreturn:[TryGet]
+HandleXMLChild call:[back,push_back] noreturn:[back]
+WriteXML call:[EndTag,GetT,GetVal,StartTag,WriteAttr,size,wxT] noreturn:[EndTag]
+Delete call:[begin,erase] noreturn:[erase]
+Insert call:[begin,insert] noreturn:[insert]
+Insert call:[push_back] noreturn:[push_back]
+CollapseRegion call:[EqualRange,GetT,GetValueRelative,InsertOrReplaceRelative,RemoveUnneededPoints,SetT,begin,erase,max,min,size] noreturn:[InsertOrReplaceRelative,RemoveUnneededPoints,SetT,erase]
+PasteEnvelope call:[ConsistencyCheck,EqualRange,ExpandRegion,GetT,GetValue,GetValueRelative,RemoveUnneededPoints,SetT,begin,end,insert,max,min,size] noreturn:[ConsistencyCheck,SetT]
+RemoveUnneededPoints global:[VALUE_TOLERANCE] call:[Delete,GetT,GetVal,GetValueRelative,Insert,fabs,isDiscontinuity,remove,size]
+ExpandRegion call:[EqualRange,GetT,GetValueRelative,Insert,SetT,size] noreturn:[Insert,SetT]
+InsertSpace call:[ExpandRegion,RemoveUnneededPoints] noreturn:[RemoveUnneededPoints]
+Reassign call:[GetT,SetVal,size]
+GetNumberOfPoints call:[size] noreturn:[size]
+GetPoints call:[GetT,GetVal,size] noreturn:[GetVal]
+Cap call:[EqualRange,GetValueRelative,InsertOrReplaceRelative] noreturn:[InsertOrReplaceRelative]
+InsertOrReplaceRelative call:[EqualRange,Insert,SetVal,max,min] noreturn:[Insert,SetVal]
+EqualRange call:[GetT,begin,end,lower_bound] noreturn:[GetT]
+SetOffset
+SetTrackLen call:[AddPointAtEnd,EqualRange,GetValueRelative,min,resize] noreturn:[AddPointAtEnd,GetValueRelative]
+RescaleTimes call:[GetT,SetT] noreturn:[SetT]
+GetValue call:[GetValues]
+GetValueRelative call:[GetValuesRelative]
+BinarySearchForTime call:[GetT,size,wxASSERT]
+BinarySearchForTime_LeftLimit call:[GetT,size,wxASSERT]
+GetInterpolationStartValueAtPoint call:[GetVal,log10] noreturn:[log10]
+GetValues call:[GetValuesRelative] noreturn:[GetValuesRelative]
+GetValuesRelative call:[BinarySearchForTime,BinarySearchForTime_LeftLimit,GetInterpolationStartValueAtPoint,GetT,GetVal,pow,size,wxASSERT] noreturn:[BinarySearchForTime,BinarySearchForTime_LeftLimit,pow]
+NumberOfPointsAfter call:[BinarySearchForTime,size]
+NextPointAfter call:[BinarySearchForTime,GetT,size] noreturn:[GetT]
+Average call:[GetValue,Integral] noreturn:[GetValue]
+AverageOfInverse call:[GetValue,IntegralOfInverse] noreturn:[GetValue]
+InterpolatePoints call:[exp,log] noreturn:[exp]
+IntegrateInterpolated call:[fabs,log,return]
+IntegrateInverseInterpolated call:[fabs,log,return]
+SolveIntegrateInverseInterpolated call:[expm1,fabs,log,log1p,max,min]
+Integral call:[BinarySearchForTime,GetT,GetVal,Integral,IntegrateInterpolated,InterpolatePoints,return,size] noreturn:[GetVal,Integral,IntegrateInterpolated]
+IntegralOfInverse call:[BinarySearchForTime,GetT,GetVal,IntegralOfInverse,IntegrateInverseInterpolated,InterpolatePoints,return,size] noreturn:[GetVal,IntegralOfInverse,IntegrateInverseInterpolated]
+SolveIntegralOfInverse call:[BinarySearchForTime,GetT,GetVal,IntegrateInverseInterpolated,InterpolatePoints,SolveIntegrateInverseInterpolated,size] noreturn:[GetVal,SolveIntegrateInverseInterpolated]
+print call:[GetT,GetVal,size,wxPrintf] noreturn:[wxPrintf]
+checkResult call:[wxPrintf] noreturn:[wxPrintf]
+testMe call:[Flatten,InsertOrReplaceRelative,Integral,NextPointAfter,NumberOfPointsAfter,SetExponential,checkResult,clear] noreturn:[checkResult]
+GetValues call:[GetExponential,GetValue,PositionToTime,exp,floor,log] noreturn:[GetValue,exp]

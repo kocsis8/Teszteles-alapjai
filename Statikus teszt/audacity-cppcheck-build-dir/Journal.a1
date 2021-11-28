@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3431419076">
+        <error id="shadowArgument" severity="style" msg="Local variable &apos;value&apos; shadows outer argument" verbose="Local variable &apos;value&apos; shadows outer argument" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Journal.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Journal.cpp" line="90" column="12" info="Shadow variable"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Journal.cpp" line="85" column="36" info="Shadowed declaration"/>
+            <symbol>value</symbol>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::any_of algorithm instead of a raw loop." verbose="Consider using std::any_of algorithm instead of a raw loop." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Journal.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Journal.cpp" line="183" column="42"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="NextIn" lineNumber="41"/>
+    <functiondecl functionName="PeekTokens" lineNumber="49"/>
+    <functiondecl functionName="VersionString" lineNumber="74"/>
+    <functiondecl functionName="VersionCheck" lineNumber="85"/>
+    <functiondecl functionName="DelayedHandlerAction" lineNumber="112"/>
+    <functiondecl functionName="RecordEnabled" lineNumber="119"/>
+    <functiondecl functionName="SetRecordEnabled" lineNumber="124"/>
+    <functiondecl functionName="IsReplaying" lineNumber="131"/>
+    <functiondecl functionName="SetInputFileName" lineNumber="136"/>
+    <functiondecl functionName="Begin" lineNumber="141"/>
+    <functiondecl functionName="GetTokens" lineNumber="192"/>
+    <functiondecl functionName="Dispatch" lineNumber="202"/>
+    <functiondecl functionName="Sync" lineNumber="230"/>
+    <functiondecl functionName="Sync" lineNumber="243"/>
+    <functiondecl functionName="Sync" lineNumber="251"/>
+    <functiondecl functionName="IfNotPlaying" lineNumber="256"/>
+    <functiondecl functionName="GetExitCode" lineNumber="288"/>
+    <functioncall functionName="AddPendingEvent"/>
+    <functioncall functionName="Comment"/>
+    <functioncall functionName="CommentCharacter"/>
+    <functioncall functionName="Eof"/>
+    <functioncall functionName="EscapeCharacter"/>
+    <functioncall functionName="Flush"/>
+    <functioncall functionName="Format"/>
+    <functioncall functionName="GetDictionary"/>
+    <functioncall functionName="GetError"/>
+    <functioncall functionName="GetFirstLine"/>
+    <functioncall functionName="GetFullPath"/>
+    <functioncall functionName="GetInitializers"/>
+    <functioncall functionName="GetNextLine"/>
+    <functioncall functionName="GetTokens"/>
+    <functioncall functionName="IsOpened"/>
+    <functioncall functionName="IsRecording"/>
+    <functioncall functionName="IsReplaying"/>
+    <functioncall functionName="MakeAbsolute"/>
+    <functioncall functionName="NextIn"/>
+    <functioncall functionName="Now"/>
+    <functioncall functionName="Open"/>
+    <functioncall functionName="OpenOut"/>
+    <functioncall functionName="Output"/>
+    <functioncall functionName="PeekTokens"/>
+    <functioncall functionName="Read"/>
+    <functioncall functionName="RecordEnabled"/>
+    <functioncall functionName="SeparatorCharacter"/>
+    <functioncall functionName="SetError"/>
+    <functioncall functionName="StartsWith"/>
+    <functioncall functionName="Sync"/>
+    <functioncall functionName="SyncException"/>
+    <functioncall functionName="ToCLong"/>
+    <functioncall functionName="VersionCheck"/>
+    <functioncall functionName="VersionString"/>
+    <functioncall functionName="VersionToken"/>
+    <functioncall functionName="Write"/>
+    <functioncall functionName="action"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="bool"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="catch"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="continue"/>
+    <functioncall functionName="dataDir"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="evt"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="function"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="initializer"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="journalVersionNumbers"/>
+    <functioncall functionName="length"/>
+    <functioncall functionName="lexicographical_compare"/>
+    <functioncall functionName="name"/>
+    <functioncall functionName="number"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="path"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="result"/>
+    <functioncall functionName="sFileNameIn"/>
+    <functioncall functionName="sLine"/>
+    <functioncall functionName="sLineNumber"/>
+    <functioncall functionName="second"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="stoi"/>
+    <functioncall functionName="str"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="strings"/>
+    <functioncall functionName="to_wstring"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="wc_str"/>
+    <functioncall functionName="words"/>
+    <functioncall functionName="wxArrayStringEx"/>
+    <functioncall functionName="wxEVT_MENU"/>
+    <functioncall functionName="wxGetUserName"/>
+    <functioncall functionName="wxID_EXIT"/>
+    <functioncall functionName="wxJoin"/>
+    <functioncall functionName="wxSplit"/>
+    <functioncall functionName="wxString"/>
+    <functioncall functionName="wxT"/>
+  </FileInfo>
+</analyzerinfo>

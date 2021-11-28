@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1109594127">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="IsRecording" lineNumber="28"/>
+    <functiondecl functionName="OpenOut" lineNumber="33"/>
+    <functiondecl functionName="Output" lineNumber="45"/>
+    <functiondecl functionName="Output" lineNumber="51"/>
+    <functiondecl functionName="Output" lineNumber="57"/>
+    <functiondecl functionName="Comment" lineNumber="62"/>
+    <functioncall functionName="AddLine"/>
+    <functioncall functionName="Clear"/>
+    <functioncall functionName="Close"/>
+    <functioncall functionName="Create"/>
+    <functioncall functionName="EscapeCharacter"/>
+    <functioncall functionName="IsOpened"/>
+    <functioncall functionName="IsRecording"/>
+    <functioncall functionName="Open"/>
+    <functioncall functionName="Output"/>
+    <functioncall functionName="SeparatorCharacter"/>
+    <functioncall functionName="Write"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="fullPath"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="strings"/>
+    <functioncall functionName="wxArrayStringEx"/>
+    <functioncall functionName="wxJoin"/>
+  </FileInfo>
+</analyzerinfo>

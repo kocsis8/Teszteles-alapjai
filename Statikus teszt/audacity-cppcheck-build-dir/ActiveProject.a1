@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2400539061">
+  <FileInfo check="Class">
+<class name="AttachedWindows" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ProjectWindows.h" line="53" col="1" hash="18411720420297200147"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="GetActiveProject" lineNumber="24"/>
+    <functiondecl functionName="SetActiveProject" lineNumber="29"/>
+    <functioncall functionName="AUDACITY_DLL_API"/>
+    <functioncall functionName="AttachedWindows"/>
+    <functioncall functionName="AudacityProject"/>
+    <functioncall functionName="BarePtr"/>
+    <functioncall functionName="Capture"/>
+    <functioncall functionName="DECLARE_EXPORTED_EVENT_TYPE"/>
+    <functioncall functionName="EVT_CAPTURE_KEY"/>
+    <functioncall functionName="EVT_PROJECT_ACTIVATION"/>
+    <functioncall functionName="FindProjectFrame"/>
+    <functioncall functionName="QueueEvent"/>
+    <functioncall functionName="SetTopWindow"/>
+    <functioncall functionName="SkipCopying"/>
+    <functioncall functionName="bool"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="lock"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="operatorAudacityProject&amp;"/>
+    <functioncall functionName="pProject"/>
+    <functioncall functionName="project"/>
+    <functioncall functionName="shared_from_this"/>
+    <functioncall functionName="wxCommandEvent"/>
+    <functioncall functionName="wxDECLARE_EXPORTED_EVENT"/>
+    <functioncall functionName="wxDEFINE_EVENT"/>
+    <functioncall functionName="wxWindow"/>
+  </FileInfo>
+</analyzerinfo>

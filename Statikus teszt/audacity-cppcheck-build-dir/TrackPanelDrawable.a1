@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="606014822">
+  <FileInfo check="Class">
+<class name="TrackPanelDrawable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelDrawable.h" line="22" col="1" hash="17589738830667025668"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="Draw" lineNumber="17"/>
+    <functiondecl functionName="DrawingArea" lineNumber="22"/>
+    <functioncall functionName="height"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="width"/>
+    <functioncall functionName="x"/>
+    <functioncall functionName="y"/>
+  </FileInfo>
+</analyzerinfo>

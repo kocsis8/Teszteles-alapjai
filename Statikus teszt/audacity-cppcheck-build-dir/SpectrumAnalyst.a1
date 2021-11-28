@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2563405540">
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;power&apos; can be reduced." verbose="The scope of the variable &apos;power&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/SpectrumAnalyst.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\SpectrumAnalyst.cpp" line="202" column="22"/>
+            <symbol>power</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/SpectrumAnalyst.h:53:10" call-funcname="CubicMaximize" call-argnr="5" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/SpectrumAnalyst.cpp" line="416" col="48" call-argexpr="&amp;valueAtMax" call-argvaluetype="7" call-argvalue="4"/>  </FileInfo>
+  <FileInfo check="Class">
+<class name="SpectrumAnalyst" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/SpectrumAnalyst.h" line="20" col="1" hash="11885483746782294048"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="Calculate" lineNumber="93"/>
+    <functiondecl functionName="GetProcessed" lineNumber="340"/>
+    <functiondecl functionName="GetProcessedSize" lineNumber="345"/>
+    <functiondecl functionName="GetProcessedValue" lineNumber="350"/>
+    <functiondecl functionName="FindPeak" lineNumber="399"/>
+    <functiondecl functionName="CubicInterpolate" lineNumber="451"/>
+    <functiondecl functionName="CubicMaximize" lineNumber="466"/>
+    <functioncall functionName="Autocorrelation"/>
+    <functioncall functionName="Cepstrum"/>
+    <functioncall functionName="CubeRootAutocorrelation"/>
+    <functioncall functionName="CubicInterpolate"/>
+    <functioncall functionName="CubicMaximize"/>
+    <functioncall functionName="DrawRectangle"/>
+    <functioncall functionName="EnhancedAutocorrelation"/>
+    <functioncall functionName="FreqGauge"/>
+    <functioncall functionName="GetFieldRect"/>
+    <functioncall functionName="GetProcessedSize"/>
+    <functioncall functionName="Inflate"/>
+    <functioncall functionName="InverseRealFFT"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="NumAlgorithms"/>
+    <functioncall functionName="NumWindowFuncs"/>
+    <functioncall functionName="PowerSpectrum"/>
+    <functioncall functionName="RealFFT"/>
+    <functioncall functionName="Refresh"/>
+    <functioncall functionName="Reset"/>
+    <functioncall functionName="SetBrush"/>
+    <functioncall functionName="SetPen"/>
+    <functioncall functionName="SetRange"/>
+    <functioncall functionName="SetValue"/>
+    <functioncall functionName="Spectrum"/>
+    <functioncall functionName="SpectrumAnalyst"/>
+    <functioncall functionName="Update"/>
+    <functioncall functionName="WindowFunc"/>
+    <functioncall functionName="alg"/>
+    <functioncall functionName="bar"/>
+    <functioncall functionName="bestValue"/>
+    <functioncall functionName="bin"/>
+    <functioncall functionName="bin0"/>
+    <functioncall functionName="bin1"/>
+    <functioncall functionName="binmid"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="c"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="d"/>
+    <functioncall functionName="dataLen"/>
+    <functioncall functionName="db"/>
+    <functioncall functionName="dc"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="discriminant"/>
+    <functioncall functionName="double"/>
+    <functioncall functionName="fabs"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="float"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="gap"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="ibin"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="ignore"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="leftbin"/>
+    <functioncall functionName="log"/>
+    <functioncall functionName="log10"/>
+    <functioncall functionName="mAlg"/>
+    <functioncall functionName="mBar"/>
+    <functioncall functionName="mGap"/>
+    <functioncall functionName="mInterval"/>
+    <functioncall functionName="mRate"/>
+    <functioncall functionName="mRect"/>
+    <functioncall functionName="mWindowSize"/>
+    <functioncall functionName="mYMax"/>
+    <functioncall functionName="mYMin"/>
+    <functioncall functionName="max"/>
+    <functioncall functionName="minpower"/>
+    <functioncall functionName="nowUp"/>
+    <functioncall functionName="pY"/>
+    <functioncall functionName="pYMax"/>
+    <functioncall functionName="pYMin"/>
+    <functioncall functionName="parent"/>
+    <functioncall functionName="pow"/>
+    <functioncall functionName="power"/>
+    <functioncall functionName="progress"/>
+    <functioncall functionName="range"/>
+    <functioncall functionName="rate"/>
+    <functioncall functionName="resize"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sqrt"/>
+    <functioncall functionName="start"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="this"/>
+    <functioncall functionName="thispeak"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="valueAtMax"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="windowFunc"/>
+    <functioncall functionName="windowSize"/>
+    <functioncall functionName="windows"/>
+    <functioncall functionName="winid"/>
+    <functioncall functionName="wss"/>
+    <functioncall functionName="wxASSERT"/>
+    <functioncall functionName="wxColour"/>
+    <functioncall functionName="wxST_SIZEGRIP"/>
+    <functioncall functionName="wxStatusBar"/>
+    <functioncall functionName="x"/>
+    <functioncall functionName="xPos"/>
+    <functioncall functionName="y0"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,778 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="666968723">
+        <error id="uselessAssignmentArg" severity="style" msg="Assignment of function parameter has no effect outside the function." verbose="Assignment of function parameter has no effect outside the function." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\tracks\playabletrack\wavetrack\ui\WaveformVZoomHandle.cpp" line="256" column="4"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found a exit path from function with non-void return type that has missing return statement" verbose="Found a exit path from function with non-void return type that has missing return statement" cwe="758" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandManager.h" line="444" column="11"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found a exit path from function with non-void return type that has missing return statement" verbose="Found a exit path from function with non-void return type that has missing return statement" cwe="758" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandManager.h" line="518" column="8"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found a exit path from function with non-void return type that has missing return statement" verbose="Found a exit path from function with non-void return type that has missing return statement" cwe="758" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandManager.h" line="552" column="8"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;RegisteredType&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;RegisteredType&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\tracks\playabletrack\wavetrack\ui\WaveTrackViewConstants.h" line="109" column="7"/>
+            <symbol>RegisteredType</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;CommandFlagOptions&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;CommandFlagOptions&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandFlag.h" line="45" column="4"/>
+            <symbol>CommandFlagOptions</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;ReservedCommandFlag&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;ReservedCommandFlag&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandFlag.h" line="92" column="4"/>
+            <symbol>ReservedCommandFlag</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;RegisteredMenuItemEnabler&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;RegisteredMenuItemEnabler&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandFlag.h" line="120" column="4"/>
+            <symbol>RegisteredMenuItemEnabler</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;Options&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;Options&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandManager.h" line="102" column="7"/>
+            <symbol>Options</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;WaveTrackVRulerMenuTable&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;WaveTrackVRulerMenuTable&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\tracks\playabletrack\wavetrack\ui\WaveTrackVZoomHandle.h" line="79" column="4"/>
+            <symbol>WaveTrackVRulerMenuTable</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;AudioTrack&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;AudioTrack&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.h" line="828" column="4"/>
+            <symbol>AudioTrack</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;PlayableTrack&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;PlayableTrack&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.h" line="844" column="4"/>
+            <symbol>PlayableTrack</symbol>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;pTrack&apos; is always true" verbose="Condition &apos;pTrack&apos; is always true" cwe="571" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.h" line="1533" column="14" info="Condition &apos;pTrack&apos; is always true"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.h" line="1531" column="11" info="Assuming that condition &apos;pTrack&apos; is not redundant"/>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &apos;items_&apos; should be passed by const reference." verbose="Parameter &apos;items_&apos; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandManager.h" line="544" column="56"/>
+            <symbol>items_</symbol>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;project&apos; can be declared with const" verbose="Parameter &apos;project&apos; can be declared with const" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\ProjectHistory.h" line="27" column="46" info="Parameter &apos;project&apos; can be declared with const"/>
+            <symbol>project</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/PopupMenuTable.h:196:9" call-funcname="Append" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/PopupMenuTable.h" line="206" col="12" call-argexpr="PopupMenuTableEntry::Item" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:282:9" call-funcname="Get" call-argnr="7" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="273" col="14" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:268:9" my-argnr="6"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="MenuItemEnabler" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandFlag.h" line="107" col="1" hash="14159699270193996497"/>
+<class name="ToolbarMenuVisitor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.h" line="408" col="1" hash="15600188875927896873"/>
+<class name="PopupMenuSection" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/PopupMenuTable.h" line="78" col="1" hash="5613094725253206155"/>
+<class name="PopupMenuVisitor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/PopupMenuTable.h" line="101" col="1" hash="15316116331244693337"/>
+<class name="PopupMenuTable::AttachedItem" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/PopupMenuTable.h" line="136" col="4" hash="10649049298107102532"/>
+<class name="ComputedPopupMenuTable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/PopupMenuTable.h" line="233" col="1" hash="4407085256075139096"/>
+<class name="WaveTrackVRulerMenuTable::InitMenuData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveTrackVZoomHandle.h" line="67" col="4" hash="8104503717701716535"/>
+<class name="WaveformVRulerMenuTable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.h" line="78" col="1" hash="18108890036174270655"/>
+<class name="HitTestPreview" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/HitTestResult.h" line="19" col="1" hash="558950701565496408"/>
+<class name="TrackPanelMouseState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="27" col="1" hash="8623144472751191848"/>
+<class name="TrackPanelMouseEvent" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="45" col="1" hash="14240338354758594037"/>
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="15686643901440731433"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="5310754034451448503"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="1123312593205509057"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="15770574842572965698"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="WaveTrackLocation" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrackLocation.h" line="14" col="1" hash="10844060293331271860"/>
+<class name="Region" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="51" col="1" hash="3281768878266710402"/>
+<class name="AllClipsConstIterator" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="424" col="4" hash="13076878187049790394"/>
+<class name="IntervalData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="564" col="4" hash="5396339101326163512"/>
+<class name="WaveTrackCache::Buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="667" col="4" hash="8125126311285820659"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.h:46:11" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp" line="55" col="35" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.h:53:11" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp" line="71" col="35" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.h:29:16" my-argnr="2" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp" line="123" col="24" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.h:29:16" my-argnr="2" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp" line="123" col="24" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\tracks\playabletrack\wavetrack\ui\WaveformVZoomHandle.cpp" line="0" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/PopupMenuTable.h:196:9" call-funcname="Append" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/PopupMenuTable.h" line="206" col="12" call-argexpr="PopupMenuTableEntry::Item" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:282:9" call-funcname="Get" call-argnr="7" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="273" col="14" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:268:9" my-argnr="6"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="MenuItemEnabler" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandFlag.h" line="107" col="1" hash="14159699270193996497"/>
+<class name="ToolbarMenuVisitor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.h" line="408" col="1" hash="15600188875927896873"/>
+<class name="PopupMenuSection" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/PopupMenuTable.h" line="78" col="1" hash="5613094725253206155"/>
+<class name="PopupMenuVisitor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/PopupMenuTable.h" line="101" col="1" hash="15316116331244693337"/>
+<class name="PopupMenuTable::AttachedItem" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/PopupMenuTable.h" line="136" col="4" hash="10649049298107102532"/>
+<class name="ComputedPopupMenuTable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/PopupMenuTable.h" line="233" col="1" hash="4407085256075139096"/>
+<class name="WaveTrackVRulerMenuTable::InitMenuData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveTrackVZoomHandle.h" line="67" col="4" hash="8104503717701716535"/>
+<class name="WaveformVRulerMenuTable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.h" line="78" col="1" hash="1838804923641575123"/>
+<class name="HitTestPreview" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/HitTestResult.h" line="19" col="1" hash="558950701565496408"/>
+<class name="TrackPanelMouseState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="27" col="1" hash="8623144472751191848"/>
+<class name="TrackPanelMouseEvent" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="45" col="1" hash="14240338354758594037"/>
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="15686643901440731433"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="5310754034451448503"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="1123312593205509057"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="15770574842572965698"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="WaveTrackLocation" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrackLocation.h" line="14" col="1" hash="10844060293331271860"/>
+<class name="Region" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="51" col="1" hash="3281768878266710402"/>
+<class name="AllClipsConstIterator" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="424" col="4" hash="13076878187049790394"/>
+<class name="IntervalData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="564" col="4" hash="5396339101326163512"/>
+<class name="WaveTrackCache::Buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="667" col="4" hash="8125126311285820659"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.h:46:11" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp" line="55" col="35" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.h:53:11" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp" line="71" col="35" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.h:29:16" my-argnr="2" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp" line="123" col="24" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.h:29:16" my-argnr="2" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp" line="123" col="24" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/PopupMenuTable.h:196:9" call-funcname="Append" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/PopupMenuTable.h" line="206" col="12" call-argexpr="PopupMenuTableEntry::Item" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:282:9" call-funcname="Get" call-argnr="7" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="273" col="14" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:268:9" my-argnr="6"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="MenuItemEnabler" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandFlag.h" line="107" col="1" hash="14159699270193996497"/>
+<class name="ToolbarMenuVisitor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.h" line="408" col="1" hash="15600188875927896873"/>
+<class name="PopupMenuSection" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/PopupMenuTable.h" line="78" col="1" hash="5613094725253206155"/>
+<class name="PopupMenuVisitor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/PopupMenuTable.h" line="101" col="1" hash="15316116331244693337"/>
+<class name="PopupMenuTable::AttachedItem" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/PopupMenuTable.h" line="136" col="4" hash="10649049298107102532"/>
+<class name="ComputedPopupMenuTable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/PopupMenuTable.h" line="233" col="1" hash="4407085256075139096"/>
+<class name="WaveTrackVRulerMenuTable::InitMenuData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveTrackVZoomHandle.h" line="67" col="4" hash="8104503717701716535"/>
+<class name="WaveformVRulerMenuTable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.h" line="78" col="1" hash="18108890036174270655"/>
+<class name="HitTestPreview" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/HitTestResult.h" line="19" col="1" hash="558950701565496408"/>
+<class name="TrackPanelMouseState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="27" col="1" hash="8623144472751191848"/>
+<class name="TrackPanelMouseEvent" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="45" col="1" hash="14240338354758594037"/>
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="15686643901440731433"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="5310754034451448503"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="1123312593205509057"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="15770574842572965698"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="WaveTrackLocation" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrackLocation.h" line="14" col="1" hash="10844060293331271860"/>
+<class name="Region" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="51" col="1" hash="3281768878266710402"/>
+<class name="AllClipsConstIterator" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="424" col="4" hash="13076878187049790394"/>
+<class name="IntervalData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="564" col="4" hash="5396339101326163512"/>
+<class name="WaveTrackCache::Buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="667" col="4" hash="8125126311285820659"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.h:46:11" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp" line="55" col="35" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.h:53:11" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp" line="71" col="35" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.h:29:16" my-argnr="2" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp" line="123" col="24" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.h:29:16" my-argnr="2" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp" line="123" col="24" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/PopupMenuTable.h:196:9" call-funcname="Append" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/PopupMenuTable.h" line="206" col="12" call-argexpr="PopupMenuTableEntry::Item" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:282:9" call-funcname="Get" call-argnr="7" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="273" col="14" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:268:9" my-argnr="6"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="MenuItemEnabler" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandFlag.h" line="107" col="1" hash="14159699270193996497"/>
+<class name="ToolbarMenuVisitor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.h" line="408" col="1" hash="15600188875927896873"/>
+<class name="PopupMenuSection" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/PopupMenuTable.h" line="78" col="1" hash="5613094725253206155"/>
+<class name="PopupMenuVisitor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/PopupMenuTable.h" line="101" col="1" hash="15316116331244693337"/>
+<class name="PopupMenuTable::AttachedItem" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/PopupMenuTable.h" line="136" col="4" hash="10649049298107102532"/>
+<class name="ComputedPopupMenuTable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/PopupMenuTable.h" line="233" col="1" hash="4407085256075139096"/>
+<class name="WaveTrackVRulerMenuTable::InitMenuData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveTrackVZoomHandle.h" line="67" col="4" hash="8104503717701716535"/>
+<class name="WaveformVRulerMenuTable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.h" line="78" col="1" hash="18108890036174270655"/>
+<class name="HitTestPreview" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/HitTestResult.h" line="19" col="1" hash="558950701565496408"/>
+<class name="TrackPanelMouseState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="27" col="1" hash="8623144472751191848"/>
+<class name="TrackPanelMouseEvent" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="45" col="1" hash="14240338354758594037"/>
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="15686643901440731433"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="5310754034451448503"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="1123312593205509057"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="15770574842572965698"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="WaveTrackLocation" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrackLocation.h" line="14" col="1" hash="10844060293331271860"/>
+<class name="Region" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="51" col="1" hash="3281768878266710402"/>
+<class name="AllClipsConstIterator" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="424" col="4" hash="13076878187049790394"/>
+<class name="IntervalData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="564" col="4" hash="5396339101326163512"/>
+<class name="WaveTrackCache::Buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="667" col="4" hash="8125126311285820659"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.h:46:11" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp" line="55" col="35" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.h:53:11" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp" line="71" col="35" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.h:29:16" my-argnr="2" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp" line="123" col="24" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.h:29:16" my-argnr="2" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp" line="123" col="24" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/PopupMenuTable.h:196:9" call-funcname="Append" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/PopupMenuTable.h" line="206" col="12" call-argexpr="PopupMenuTableEntry::Item" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:282:9" call-funcname="Get" call-argnr="7" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="273" col="14" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:268:9" my-argnr="6"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="MenuItemEnabler" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandFlag.h" line="107" col="1" hash="14159699270193996497"/>
+<class name="ToolbarMenuVisitor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.h" line="408" col="1" hash="15600188875927896873"/>
+<class name="PopupMenuSection" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/PopupMenuTable.h" line="78" col="1" hash="5613094725253206155"/>
+<class name="PopupMenuVisitor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/PopupMenuTable.h" line="101" col="1" hash="15316116331244693337"/>
+<class name="PopupMenuTable::AttachedItem" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/PopupMenuTable.h" line="136" col="4" hash="10649049298107102532"/>
+<class name="ComputedPopupMenuTable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/PopupMenuTable.h" line="233" col="1" hash="4407085256075139096"/>
+<class name="WaveTrackVRulerMenuTable::InitMenuData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveTrackVZoomHandle.h" line="67" col="4" hash="8104503717701716535"/>
+<class name="WaveformVRulerMenuTable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.h" line="78" col="1" hash="18108890036174270655"/>
+<class name="HitTestPreview" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/HitTestResult.h" line="19" col="1" hash="558950701565496408"/>
+<class name="TrackPanelMouseState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="27" col="1" hash="8623144472751191848"/>
+<class name="TrackPanelMouseEvent" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="45" col="1" hash="14240338354758594037"/>
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="15686643901440731433"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="5310754034451448503"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="1123312593205509057"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="15770574842572965698"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="WaveTrackLocation" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrackLocation.h" line="14" col="1" hash="10844060293331271860"/>
+<class name="Region" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="51" col="1" hash="3281768878266710402"/>
+<class name="AllClipsConstIterator" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="424" col="4" hash="13076878187049790394"/>
+<class name="IntervalData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="564" col="4" hash="5396339101326163512"/>
+<class name="WaveTrackCache::Buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="667" col="4" hash="8125126311285820659"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.h:46:11" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp" line="55" col="35" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.h:53:11" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp" line="71" col="35" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.h:29:16" my-argnr="2" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp" line="123" col="24" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.h:29:16" my-argnr="2" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp" line="123" col="24" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/PopupMenuTable.h:196:9" call-funcname="Append" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/PopupMenuTable.h" line="206" col="12" call-argexpr="PopupMenuTableEntry::Item" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:282:9" call-funcname="Get" call-argnr="7" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="273" col="14" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:268:9" my-argnr="6"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="MenuItemEnabler" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandFlag.h" line="107" col="1" hash="14159699270193996497"/>
+<class name="ToolbarMenuVisitor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.h" line="408" col="1" hash="15600188875927896873"/>
+<class name="PopupMenuSection" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/PopupMenuTable.h" line="78" col="1" hash="5613094725253206155"/>
+<class name="PopupMenuVisitor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/PopupMenuTable.h" line="101" col="1" hash="15316116331244693337"/>
+<class name="PopupMenuTable::AttachedItem" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/PopupMenuTable.h" line="136" col="4" hash="10649049298107102532"/>
+<class name="ComputedPopupMenuTable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/PopupMenuTable.h" line="233" col="1" hash="4407085256075139096"/>
+<class name="WaveTrackVRulerMenuTable::InitMenuData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveTrackVZoomHandle.h" line="67" col="4" hash="8104503717701716535"/>
+<class name="WaveformVRulerMenuTable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.h" line="78" col="1" hash="18108890036174270655"/>
+<class name="HitTestPreview" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/HitTestResult.h" line="19" col="1" hash="558950701565496408"/>
+<class name="TrackPanelMouseState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="27" col="1" hash="8623144472751191848"/>
+<class name="TrackPanelMouseEvent" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="45" col="1" hash="14240338354758594037"/>
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="15686643901440731433"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="5310754034451448503"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="1123312593205509057"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="15770574842572965698"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="WaveTrackLocation" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrackLocation.h" line="14" col="1" hash="10844060293331271860"/>
+<class name="Region" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="51" col="1" hash="3281768878266710402"/>
+<class name="AllClipsConstIterator" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="424" col="4" hash="13076878187049790394"/>
+<class name="IntervalData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="564" col="4" hash="5396339101326163512"/>
+<class name="WaveTrackCache::Buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="667" col="4" hash="8125126311285820659"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.h:46:11" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp" line="55" col="35" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.h:53:11" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp" line="71" col="35" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.h:29:16" my-argnr="2" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp" line="123" col="24" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.h:29:16" my-argnr="2" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp" line="123" col="24" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/PopupMenuTable.h:196:9" call-funcname="Append" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/PopupMenuTable.h" line="206" col="12" call-argexpr="PopupMenuTableEntry::Item" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:282:9" call-funcname="Get" call-argnr="7" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="273" col="14" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:268:9" my-argnr="6"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="MenuItemEnabler" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandFlag.h" line="107" col="1" hash="14159699270193996497"/>
+<class name="ToolbarMenuVisitor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.h" line="408" col="1" hash="15600188875927896873"/>
+<class name="PopupMenuSection" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/PopupMenuTable.h" line="78" col="1" hash="5613094725253206155"/>
+<class name="PopupMenuVisitor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/PopupMenuTable.h" line="101" col="1" hash="15316116331244693337"/>
+<class name="PopupMenuTable::AttachedItem" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/PopupMenuTable.h" line="136" col="4" hash="10649049298107102532"/>
+<class name="ComputedPopupMenuTable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/PopupMenuTable.h" line="233" col="1" hash="4407085256075139096"/>
+<class name="WaveTrackVRulerMenuTable::InitMenuData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveTrackVZoomHandle.h" line="67" col="4" hash="8104503717701716535"/>
+<class name="WaveformVRulerMenuTable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.h" line="78" col="1" hash="18108890036174270655"/>
+<class name="HitTestPreview" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/HitTestResult.h" line="19" col="1" hash="558950701565496408"/>
+<class name="TrackPanelMouseState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="27" col="1" hash="8623144472751191848"/>
+<class name="TrackPanelMouseEvent" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="45" col="1" hash="14240338354758594037"/>
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="15686643901440731433"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="5310754034451448503"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="1123312593205509057"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="15770574842572965698"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="WaveTrackLocation" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrackLocation.h" line="14" col="1" hash="10844060293331271860"/>
+<class name="Region" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="51" col="1" hash="3281768878266710402"/>
+<class name="AllClipsConstIterator" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="424" col="4" hash="13076878187049790394"/>
+<class name="IntervalData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="564" col="4" hash="5396339101326163512"/>
+<class name="WaveTrackCache::Buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="667" col="4" hash="8125126311285820659"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.h:46:11" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp" line="55" col="35" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.h:53:11" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp" line="71" col="35" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.h:29:16" my-argnr="2" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp" line="123" col="24" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.h:29:16" my-argnr="2" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/ui/WaveformVZoomHandle.cpp" line="123" col="24" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="Enter" lineNumber="33"/>
+    <functiondecl functionName="HandlesRightClick" lineNumber="40"/>
+    <functiondecl functionName="Click" lineNumber="45"/>
+    <functiondecl functionName="Drag" lineNumber="51"/>
+    <functiondecl functionName="Preview" lineNumber="61"/>
+    <functiondecl functionName="Release" lineNumber="67"/>
+    <functiondecl functionName="Cancel" lineNumber="78"/>
+    <functiondecl functionName="Draw" lineNumber="85"/>
+    <functiondecl functionName="DrawingArea" lineNumber="95"/>
+    <functiondecl functionName="DoZoom" lineNumber="105"/>
+    <functiondecl functionName="Instance" lineNumber="264"/>
+    <functiondecl functionName="Populate" lineNumber="270"/>
+    <functiondecl functionName="OnWaveformScaleType" lineNumber="322"/>
+    <functiondecl functionName="Enter" lineNumber="33"/>
+    <functiondecl functionName="HandlesRightClick" lineNumber="40"/>
+    <functiondecl functionName="Click" lineNumber="45"/>
+    <functiondecl functionName="Drag" lineNumber="51"/>
+    <functiondecl functionName="Preview" lineNumber="61"/>
+    <functiondecl functionName="Release" lineNumber="67"/>
+    <functiondecl functionName="Cancel" lineNumber="78"/>
+    <functiondecl functionName="Draw" lineNumber="85"/>
+    <functiondecl functionName="DrawingArea" lineNumber="95"/>
+    <functiondecl functionName="DoZoom" lineNumber="105"/>
+    <functiondecl functionName="Instance" lineNumber="264"/>
+    <functiondecl functionName="Populate" lineNumber="270"/>
+    <functiondecl functionName="OnWaveformScaleType" lineNumber="322"/>
+    <functiondecl functionName="Enter" lineNumber="33"/>
+    <functiondecl functionName="HandlesRightClick" lineNumber="40"/>
+    <functiondecl functionName="Click" lineNumber="45"/>
+    <functiondecl functionName="Drag" lineNumber="51"/>
+    <functiondecl functionName="Preview" lineNumber="61"/>
+    <functiondecl functionName="Release" lineNumber="67"/>
+    <functiondecl functionName="Cancel" lineNumber="78"/>
+    <functiondecl functionName="Draw" lineNumber="85"/>
+    <functiondecl functionName="DrawingArea" lineNumber="95"/>
+    <functiondecl functionName="DoZoom" lineNumber="105"/>
+    <functiondecl functionName="Instance" lineNumber="264"/>
+    <functiondecl functionName="Populate" lineNumber="270"/>
+    <functiondecl functionName="OnWaveformScaleType" lineNumber="322"/>
+    <functiondecl functionName="Enter" lineNumber="33"/>
+    <functiondecl functionName="HandlesRightClick" lineNumber="40"/>
+    <functiondecl functionName="Click" lineNumber="45"/>
+    <functiondecl functionName="Drag" lineNumber="51"/>
+    <functiondecl functionName="Preview" lineNumber="61"/>
+    <functiondecl functionName="Release" lineNumber="67"/>
+    <functiondecl functionName="Cancel" lineNumber="78"/>
+    <functiondecl functionName="Draw" lineNumber="85"/>
+    <functiondecl functionName="DrawingArea" lineNumber="95"/>
+    <functiondecl functionName="DoZoom" lineNumber="105"/>
+    <functiondecl functionName="Instance" lineNumber="264"/>
+    <functiondecl functionName="Populate" lineNumber="270"/>
+    <functiondecl functionName="OnWaveformScaleType" lineNumber="322"/>
+    <functiondecl functionName="Enter" lineNumber="33"/>
+    <functiondecl functionName="HandlesRightClick" lineNumber="40"/>
+    <functiondecl functionName="Click" lineNumber="45"/>
+    <functiondecl functionName="Drag" lineNumber="51"/>
+    <functiondecl functionName="Preview" lineNumber="61"/>
+    <functiondecl functionName="Release" lineNumber="67"/>
+    <functiondecl functionName="Cancel" lineNumber="78"/>
+    <functiondecl functionName="Draw" lineNumber="85"/>
+    <functiondecl functionName="DrawingArea" lineNumber="95"/>
+    <functiondecl functionName="DoZoom" lineNumber="105"/>
+    <functiondecl functionName="Instance" lineNumber="264"/>
+    <functiondecl functionName="Populate" lineNumber="270"/>
+    <functiondecl functionName="OnWaveformScaleType" lineNumber="322"/>
+    <functiondecl functionName="Enter" lineNumber="33"/>
+    <functiondecl functionName="HandlesRightClick" lineNumber="40"/>
+    <functiondecl functionName="Click" lineNumber="45"/>
+    <functiondecl functionName="Drag" lineNumber="51"/>
+    <functiondecl functionName="Preview" lineNumber="61"/>
+    <functiondecl functionName="Release" lineNumber="67"/>
+    <functiondecl functionName="Cancel" lineNumber="78"/>
+    <functiondecl functionName="Draw" lineNumber="85"/>
+    <functiondecl functionName="DrawingArea" lineNumber="95"/>
+    <functiondecl functionName="DoZoom" lineNumber="105"/>
+    <functiondecl functionName="Instance" lineNumber="264"/>
+    <functiondecl functionName="Populate" lineNumber="270"/>
+    <functiondecl functionName="OnWaveformScaleType" lineNumber="322"/>
+    <functiondecl functionName="Enter" lineNumber="33"/>
+    <functiondecl functionName="HandlesRightClick" lineNumber="40"/>
+    <functiondecl functionName="Click" lineNumber="45"/>
+    <functiondecl functionName="Drag" lineNumber="51"/>
+    <functiondecl functionName="Preview" lineNumber="61"/>
+    <functiondecl functionName="Release" lineNumber="67"/>
+    <functiondecl functionName="Cancel" lineNumber="78"/>
+    <functiondecl functionName="Draw" lineNumber="85"/>
+    <functiondecl functionName="DrawingArea" lineNumber="95"/>
+    <functiondecl functionName="DoZoom" lineNumber="105"/>
+    <functiondecl functionName="Instance" lineNumber="264"/>
+    <functiondecl functionName="Populate" lineNumber="270"/>
+    <functiondecl functionName="OnWaveformScaleType" lineNumber="322"/>
+    <functioncall functionName="Aligned"/>
+    <functioncall functionName="All"/>
+    <functioncall functionName="Append"/>
+    <functioncall functionName="Args"/>
+    <functioncall functionName="AttachedItem"/>
+    <functioncall functionName="Audio"/>
+    <functioncall functionName="BaseItemPtr"/>
+    <functioncall functionName="CheckItem"/>
+    <functioncall functionName="CommandFailure"/>
+    <functioncall functionName="CommandFlagOptions"/>
+    <functioncall functionName="CommandFunctorPointer"/>
+    <functioncall functionName="CommandGroupItem"/>
+    <functioncall functionName="CommandID"/>
+    <functioncall functionName="CommandItem"/>
+    <functioncall functionName="CommandListEntry"/>
+    <functioncall functionName="CommandManager"/>
+    <functioncall functionName="CommandNotFound"/>
+    <functioncall functionName="CommandSuccess"/>
+    <functioncall functionName="ComponentInterfaceSymbol"/>
+    <functioncall functionName="Computed"/>
+    <functioncall functionName="ComputedItem"/>
+    <functioncall functionName="ConditionalGroupItem"/>
+    <functioncall functionName="ConstTrackInterval"/>
+    <functioncall functionName="DefaultFinder"/>
+    <functioncall functionName="Format"/>
+    <functioncall functionName="GetOwner"/>
+    <functioncall functionName="GroupItem"/>
+    <functioncall functionName="Here"/>
+    <functioncall functionName="HitTestPreview"/>
+    <functioncall functionName="InitUserData"/>
+    <functioncall functionName="Item"/>
+    <functioncall functionName="Items"/>
+    <functioncall functionName="Label"/>
+    <functioncall functionName="MakeCheckFn"/>
+    <functioncall functionName="MenuBarListEntry"/>
+    <functioncall functionName="MenuItem"/>
+    <functioncall functionName="MenuItems"/>
+    <functioncall functionName="MenuPart"/>
+    <functioncall functionName="NCommandFlags"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="NeedChangeHighlight"/>
+    <functioncall functionName="NoDisplay"/>
+    <functioncall functionName="None"/>
+    <functioncall functionName="NormalizedKeyString"/>
+    <functioncall functionName="NormalizedKeyStringTag"/>
+    <functioncall functionName="NotHere"/>
+    <functioncall functionName="Note"/>
+    <functioncall functionName="OnFirstSpectrumScaleID"/>
+    <functioncall functionName="OnFirstWaveformScaleID"/>
+    <functioncall functionName="OnZoom"/>
+    <functioncall functionName="OnZoomDiv2ID"/>
+    <functioncall functionName="OnZoomHalfWaveID"/>
+    <functioncall functionName="OnZoomInVerticalID"/>
+    <functioncall functionName="OnZoomOutVerticalID"/>
+    <functioncall functionName="OnZoomResetID"/>
+    <functioncall functionName="OnZoomTimes2ID"/>
+    <functioncall functionName="Options"/>
+    <functioncall functionName="PROHIBITED"/>
+    <functioncall functionName="Pair"/>
+    <functioncall functionName="Playable"/>
+    <functioncall functionName="Populate"/>
+    <functioncall functionName="PopupMenu"/>
+    <functioncall functionName="PopupMenuHandler"/>
+    <functioncall functionName="PopupMenuTable"/>
+    <functioncall functionName="PopupMenuTableEntry"/>
+    <functioncall functionName="PopupMenuVisitor"/>
+    <functioncall functionName="PopupSubMenu"/>
+    <functioncall functionName="ProjectHistory"/>
+    <functioncall functionName="RadioItem"/>
+    <functioncall functionName="RegisterItem"/>
+    <functioncall functionName="RegisteredMenuItemEnabler"/>
+    <functioncall functionName="RegisteredType"/>
+    <functioncall functionName="Rest"/>
+    <functioncall functionName="SetChangeHighlight"/>
+    <functioncall functionName="ShallowCopying"/>
+    <functioncall functionName="SharedPointer"/>
+    <functioncall functionName="SpecialItem"/>
+    <functioncall functionName="Spectrum"/>
+    <functioncall functionName="StemPlot"/>
+    <functioncall functionName="SubMenuListEntry"/>
+    <functioncall functionName="Subclass"/>
+    <functioncall functionName="T"/>
+    <functioncall functionName="Table"/>
+    <functioncall functionName="TaggedIdentifier"/>
+    <functioncall functionName="Time"/>
+    <functioncall functionName="ToolbarMenuVisitor"/>
+    <functioncall functionName="Track"/>
+    <functioncall functionName="TrackAttachment"/>
+    <functioncall functionName="TrackInterval"/>
+    <functioncall functionName="TrackIntervalData"/>
+    <functioncall functionName="TrackKind"/>
+    <functioncall functionName="TrackList"/>
+    <functioncall functionName="TrackPanelCell"/>
+    <functioncall functionName="TrackPanelMouseEvent"/>
+    <functioncall functionName="TrackPanelMouseState"/>
+    <functioncall functionName="TrackType"/>
+    <functioncall functionName="TranslatableString"/>
+    <functioncall functionName="TransparentGroupItem"/>
+    <functioncall functionName="ValueRestorer"/>
+    <functioncall functionName="Wave"/>
+    <functioncall functionName="WaveTrack"/>
+    <functioncall functionName="WaveTrackSubViewType"/>
+    <functioncall functionName="Waveform"/>
+    <functioncall functionName="WaveformVRulerMenuTable"/>
+    <functioncall functionName="WaveformVZoomHandle"/>
+    <functioncall functionName="WholeMenu"/>
+    <functioncall functionName="XXO"/>
+    <functioncall functionName="accel_"/>
+    <functioncall functionName="args"/>
+    <functioncall functionName="baseVisitor"/>
+    <functioncall functionName="bitset"/>
+    <functioncall functionName="bool"/>
+    <functioncall functionName="caption"/>
+    <functioncall functionName="caption_"/>
+    <functioncall functionName="char"/>
+    <functioncall functionName="code"/>
+    <functioncall functionName="condition"/>
+    <functioncall functionName="condition_"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="cursor_"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="defaultValue"/>
+    <functioncall functionName="delete"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="event_"/>
+    <functioncall functionName="extend"/>
+    <functioncall functionName="extra"/>
+    <functioncall functionName="factory"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="final"/>
+    <functioncall functionName="finder"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="flags"/>
+    <functioncall functionName="flags_"/>
+    <functioncall functionName="fn"/>
+    <functioncall functionName="fn_"/>
+    <functioncall functionName="forward"/>
+    <functioncall functionName="func"/>
+    <functioncall functionName="func_"/>
+    <functioncall functionName="function"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="handler"/>
+    <functioncall functionName="handler_"/>
+    <functioncall functionName="height"/>
+    <functioncall functionName="helpPage_"/>
+    <functioncall functionName="id"/>
+    <functioncall functionName="id_"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="init"/>
+    <functioncall functionName="init_"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="internalName"/>
+    <functioncall functionName="isEffect"/>
+    <functioncall functionName="isEffect_"/>
+    <functioncall functionName="is_const"/>
+    <functioncall functionName="is_pointer"/>
+    <functioncall functionName="items"/>
+    <functioncall functionName="items_"/>
+    <functioncall functionName="kMaxZoom"/>
+    <functioncall functionName="kZoom100ths"/>
+    <functioncall functionName="kZoom10ths"/>
+    <functioncall functionName="kZoom1to1"/>
+    <functioncall functionName="kZoom20ths"/>
+    <functioncall functionName="kZoom4To1"/>
+    <functioncall functionName="kZoom500ths"/>
+    <functioncall functionName="kZoom50ths"/>
+    <functioncall functionName="kZoom5ths"/>
+    <functioncall functionName="kZoomDefault"/>
+    <functioncall functionName="kZoomDiv2"/>
+    <functioncall functionName="kZoomHalfWave"/>
+    <functioncall functionName="kZoomIn"/>
+    <functioncall functionName="kZoomInByDrag"/>
+    <functioncall functionName="kZoomMilliSeconds"/>
+    <functioncall functionName="kZoomMinutes"/>
+    <functioncall functionName="kZoomOut"/>
+    <functioncall functionName="kZoomReset"/>
+    <functioncall functionName="kZoomSamples"/>
+    <functioncall functionName="kZoomSeconds"/>
+    <functioncall functionName="kZoomTimes2"/>
+    <functioncall functionName="kZoomToSelection"/>
+    <functioncall functionName="key"/>
+    <functioncall functionName="label"/>
+    <functioncall functionName="label_in"/>
+    <functioncall functionName="label_in_"/>
+    <functioncall functionName="list"/>
+    <functioncall functionName="lock"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="longName_"/>
+    <functioncall functionName="mId"/>
+    <functioncall functionName="mTable"/>
+    <functioncall functionName="mTop"/>
+    <functioncall functionName="mValue"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="memFn"/>
+    <functioncall functionName="message_"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="name"/>
+    <functioncall functionName="name_"/>
+    <functioncall functionName="noexcept"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="obsolete1"/>
+    <functioncall functionName="obsolete2"/>
+    <functioncall functionName="obsolete3"/>
+    <functioncall functionName="obsolete4"/>
+    <functioncall functionName="obsoleteWaveformDBDisplay"/>
+    <functioncall functionName="operatorAudacityProject&amp;"/>
+    <functioncall functionName="options"/>
+    <functioncall functionName="options_"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="p"/>
+    <functioncall functionName="pCell_"/>
+    <functioncall functionName="pExtra"/>
+    <functioncall functionName="pItem"/>
+    <functioncall functionName="pNew"/>
+    <functioncall functionName="pUserData"/>
+    <functioncall functionName="path"/>
+    <functioncall functionName="placement"/>
+    <functioncall functionName="pmf"/>
+    <functioncall functionName="priority_"/>
+    <functioncall functionName="project"/>
+    <functioncall functionName="ptr"/>
+    <functioncall functionName="rect_"/>
+    <functioncall functionName="remove_pointer"/>
+    <functioncall functionName="reset"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="sFinder"/>
+    <functioncall functionName="setting"/>
+    <functioncall functionName="shared_from_this"/>
+    <functioncall functionName="shared_ptr"/>
+    <functioncall functionName="start"/>
+    <functioncall functionName="state_"/>
+    <functioncall functionName="static_assert"/>
+    <functioncall functionName="static_cast"/>
+    <functioncall functionName="static_pointer_cast"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="stringId"/>
+    <functioncall functionName="table"/>
+    <functioncall functionName="title"/>
+    <functioncall functionName="title_"/>
+    <functioncall functionName="tooltip_"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="type"/>
+    <functioncall functionName="type_"/>
+    <functioncall functionName="typeid"/>
+    <functioncall functionName="typename"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="val"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="whole_"/>
+    <functioncall functionName="width"/>
+    <functioncall functionName="wxASSERT"/>
+    <functioncall functionName="wxEvtHandler"/>
+    <functioncall functionName="wxMenu"/>
+    <functioncall functionName="wxMenuBar"/>
+    <functioncall functionName="wxT"/>
+    <functioncall functionName="x"/>
+    <functioncall functionName="y"/>
+  </FileInfo>
+</analyzerinfo>

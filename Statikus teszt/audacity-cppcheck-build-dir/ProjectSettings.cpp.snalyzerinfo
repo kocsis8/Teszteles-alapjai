@@ -1,0 +1,55 @@
+GetTracksFitVerticallyZoomed
+SetTracksFitVerticallyZoomed
+GetShowId3Dialog
+SetShowId3Dialog
+GetTool
+SetBrushRadius
+GetBrushRadius
+SetSmartSelection
+IsSmartSelection
+SetOvertones
+IsOvertones
+GetPlaySpeed call:[load] noreturn:[load]
+SetPlaySpeed call:[store] noreturn:[store]
+IsSoloSimple call:[wxT] noreturn:[wxT]
+IsSoloNone call:[wxT] noreturn:[wxT]
+EmptyCanBeDirty
+GetShowSplashScreen
+FormatStrings
+operator==
+operator!=
+Options
+AutoPos
+ReadOnly
+MenuEnabled
+InvalidValue
+Format
+Value
+GetDimensions call:[wxSize] noreturn:[wxSize]
+GetDigitSize call:[wxSize] noreturn:[wxSize]
+GetFocusedField
+GetFocusedDigit
+wxPanelWrapper
+wxPanelWrapper
+Create call:[Create,Translation] noreturn:[Create]
+wxDialogWrapper
+wxDialogWrapper
+Create call:[Create,Translation] noreturn:[Create]
+wxDirDialogWrapper
+Create call:[Create,Translation] noreturn:[Create]
+FileDialogBase
+SetFileExtension
+FileDialogWrapper
+FileDialogWrapper
+Create call:[Create,FormatWildcard,Translation] noreturn:[Create]
+AudacityMessageDialog
+PrefsNode
+PrefsPanel call:[SetLabel,SetName] noreturn:[SetName]
+Preview
+PopulateOrExchange
+Notify call:[ProcessEvent,SetExtraLong,SetInt] noreturn:[ProcessEvent]
+wxTabTraversalWrapper < wxPanel > call:[Bind] noreturn:[Bind]
+wxTabTraversalWrapper < wxDialog > call:[Bind] noreturn:[Bind]
+wxTabTraversalWrapper < wxDirDialog > call:[Bind] noreturn:[Bind]
+wxTabTraversalWrapper < FileDialog > call:[Bind] noreturn:[Bind]
+wxTabTraversalWrapper < wxMessageDialog > call:[Bind] noreturn:[Bind]

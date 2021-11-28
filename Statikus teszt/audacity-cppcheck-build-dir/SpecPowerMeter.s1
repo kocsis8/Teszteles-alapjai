@@ -1,0 +1,5 @@
+SpecPowerCalculation
+SpecPowerCalculation
+CalcPower call:[CalcBinPower,FFT,Freq2Bin,get]
+CalcBinPower
+Freq2Bin call:[floor]

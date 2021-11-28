@@ -1,0 +1,244 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="662460390">
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;ListControlColumn&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;ListControlColumn&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/LogWindow.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\ShuttleGui.h" line="305" column="7"/>
+            <symbol>ListControlColumn</symbol>
+        </error>
+  <FileInfo check="Class">
+<class name="LogWindow" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/LogWindow.h" line="15" col="1" hash="15286232581158052117"/>
+<class name="ShuttleGuiBase::ListControlColumn" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h" line="304" col="4" hash="14673252838067708290"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h:174:9" my-argnr="2" my-argname="func" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h" line="186" col="60" value="0"/>
+  </FileInfo>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;wxStaticBoxWrapper&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;wxStaticBoxWrapper&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/LogWindow.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\ShuttleGui.h" line="88" column="4"/>
+            <symbol>wxStaticBoxWrapper</symbol>
+        </error>
+  <FileInfo check="Class">
+<class name="LogWindow" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/LogWindow.h" line="15" col="1" hash="11643735643332834418"/>
+<class name="wxStaticBoxWrapper" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h" line="83" col="1" hash="11949918022325636603"/>
+<class name="ShuttleGuiBase::ListControlColumn" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h" line="304" col="4" hash="14673252838067708290"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h:174:9" my-argnr="2" my-argname="func" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h" line="186" col="60" value="0"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="LogWindow" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/LogWindow.h" line="15" col="1" hash="11643735643332834418"/>
+<class name="wxStaticBoxWrapper" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h" line="83" col="1" hash="11949918022325636603"/>
+<class name="ShuttleGuiBase::ListControlColumn" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h" line="304" col="4" hash="14673252838067708290"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h:174:9" my-argnr="2" my-argname="func" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h" line="186" col="60" value="0"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="LogWindow" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/LogWindow.h" line="15" col="1" hash="7221507430125511163"/>
+<class name="ShuttleGuiBase::ListControlColumn" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h" line="304" col="4" hash="14673252838067708290"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h:174:9" my-argnr="2" my-argname="func" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h" line="186" col="60" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="Show" lineNumber="61"/>
+    <functiondecl functionName="OnCloseWindow" lineNumber="176"/>
+    <functiondecl functionName="OnClose" lineNumber="188"/>
+    <functiondecl functionName="OnClear" lineNumber="194"/>
+    <functiondecl functionName="OnSave" lineNumber="201"/>
+    <functiondecl functionName="Show" lineNumber="61"/>
+    <functiondecl functionName="OnCloseWindow" lineNumber="176"/>
+    <functiondecl functionName="OnClose" lineNumber="188"/>
+    <functiondecl functionName="OnClear" lineNumber="194"/>
+    <functiondecl functionName="OnSave" lineNumber="201"/>
+    <functiondecl functionName="Show" lineNumber="61"/>
+    <functiondecl functionName="OnCloseWindow" lineNumber="176"/>
+    <functiondecl functionName="OnClose" lineNumber="188"/>
+    <functiondecl functionName="OnClear" lineNumber="194"/>
+    <functiondecl functionName="OnSave" lineNumber="201"/>
+    <functiondecl functionName="Show" lineNumber="61"/>
+    <functiondecl functionName="OnCloseWindow" lineNumber="176"/>
+    <functiondecl functionName="OnClose" lineNumber="188"/>
+    <functiondecl functionName="OnClear" lineNumber="194"/>
+    <functiondecl functionName="OnSave" lineNumber="201"/>
+    <functioncall functionName="AddButton"/>
+    <functioncall functionName="AddSpace"/>
+    <functioncall functionName="AddTextWindow"/>
+    <functioncall functionName="Args"/>
+    <functioncall functionName="Argument"/>
+    <functioncall functionName="AudacityLogo"/>
+    <functioncall functionName="AudacityMessageBox"/>
+    <functioncall functionName="Bind"/>
+    <functioncall functionName="Bitmap"/>
+    <functioncall functionName="Border"/>
+    <functioncall functionName="ChangeValue"/>
+    <functioncall functionName="ClearLog"/>
+    <functioncall functionName="ConnectRoot"/>
+    <functioncall functionName="CopyFromBitmap"/>
+    <functioncall functionName="Disable"/>
+    <functioncall functionName="EnableSelfFocus"/>
+    <functioncall functionName="EndHorizontalLay"/>
+    <functioncall functionName="EndMultiColumn"/>
+    <functioncall functionName="EndPanel"/>
+    <functioncall functionName="EndVerticalLay"/>
+    <functioncall functionName="EnumValueSymbol"/>
+    <functioncall functionName="Export"/>
+    <functioncall functionName="FileType"/>
+    <functioncall functionName="Flush"/>
+    <functioncall functionName="Focus"/>
+    <functioncall functionName="Format"/>
+    <functioncall functionName="Get"/>
+    <functioncall functionName="GetBuffer"/>
+    <functioncall functionName="GetColour"/>
+    <functioncall functionName="GetLastPosition"/>
+    <functioncall functionName="GetMode"/>
+    <functioncall functionName="GetTitle"/>
+    <functioncall functionName="Id"/>
+    <functioncall functionName="InBool"/>
+    <functioncall functionName="InDouble"/>
+    <functioncall functionName="InInt"/>
+    <functioncall functionName="InStr"/>
+    <functioncall functionName="IsShown"/>
+    <functioncall functionName="Item"/>
+    <functioncall functionName="Layout"/>
+    <functioncall functionName="ListControlColumn"/>
+    <functioncall functionName="LogWindowUpdater"/>
+    <functioncall functionName="LoggerID_Clear"/>
+    <functioncall functionName="LoggerID_Close"/>
+    <functioncall functionName="LoggerID_Save"/>
+    <functioncall functionName="MinSize"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="Name"/>
+    <functioncall functionName="NameSuffix"/>
+    <functioncall functionName="OnClear"/>
+    <functioncall functionName="OnClose"/>
+    <functioncall functionName="OnCloseWindow"/>
+    <functioncall functionName="OnSave"/>
+    <functioncall functionName="Position"/>
+    <functioncall functionName="Prop"/>
+    <functioncall functionName="Raise"/>
+    <functioncall functionName="S"/>
+    <functioncall functionName="SaveFile"/>
+    <functioncall functionName="SelectFile"/>
+    <functioncall functionName="SetBackgroundColour"/>
+    <functioncall functionName="SetIcon"/>
+    <functioncall functionName="SetInsertionPointEnd"/>
+    <functioncall functionName="SetListener"/>
+    <functioncall functionName="SetName"/>
+    <functioncall functionName="SetValidator"/>
+    <functioncall functionName="Show"/>
+    <functioncall functionName="ShowPosition"/>
+    <functioncall functionName="Shuttle"/>
+    <functioncall functionName="Size"/>
+    <functioncall functionName="StartHorizontalLay"/>
+    <functioncall functionName="StartMultiColumn"/>
+    <functioncall functionName="StartPanel"/>
+    <functioncall functionName="StartVerticalLay"/>
+    <functioncall functionName="Style"/>
+    <functioncall functionName="Tag"/>
+    <functioncall functionName="TextFiles"/>
+    <functioncall functionName="ToolTip"/>
+    <functioncall functionName="V"/>
+    <functioncall functionName="Validator"/>
+    <functioncall functionName="WrappedType"/>
+    <functioncall functionName="XO"/>
+    <functioncall functionName="XXO"/>
+    <functioncall functionName="_"/>
+    <functioncall functionName="args"/>
+    <functioncall functionName="bmpAudacityLogo48x48"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="delete"/>
+    <functioncall functionName="disabled"/>
+    <functioncall functionName="dummy"/>
+    <functioncall functionName="e"/>
+    <functioncall functionName="eCancelButton"/>
+    <functioncall functionName="eIsCreating"/>
+    <functioncall functionName="eIsCreatingFromPrefs"/>
+    <functioncall functionName="eIsGettingFromDialog"/>
+    <functioncall functionName="eIsGettingMetadata"/>
+    <functioncall functionName="eIsSavingToPrefs"/>
+    <functioncall functionName="eIsSettingToDialog"/>
+    <functioncall functionName="eWrappedBool"/>
+    <functioncall functionName="eWrappedDouble"/>
+    <functioncall functionName="eWrappedEnum"/>
+    <functioncall functionName="eWrappedInt"/>
+    <functioncall functionName="eWrappedNotSet"/>
+    <functioncall functionName="eWrappedString"/>
+    <functioncall functionName="emplace"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="eventType"/>
+    <functioncall functionName="f"/>
+    <functioncall functionName="fName"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="flags"/>
+    <functioncall functionName="focused"/>
+    <functioncall functionName="format"/>
+    <functioncall functionName="forward"/>
+    <functioncall functionName="frame"/>
+    <functioncall functionName="func"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="h"/>
+    <functioncall functionName="heading"/>
+    <functioncall functionName="iProp"/>
+    <functioncall functionName="iStyle"/>
+    <functioncall functionName="ic"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="is_base_of"/>
+    <functioncall functionName="mItem"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="nMaxNestedSizers"/>
+    <functioncall functionName="name"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="pLogger"/>
+    <functioncall functionName="pUpdater"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="reset"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="sFrame"/>
+    <functioncall functionName="sText"/>
+    <functioncall functionName="show"/>
+    <functioncall functionName="shown"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="static_cast"/>
+    <functioncall functionName="style"/>
+    <functioncall functionName="suffix"/>
+    <functioncall functionName="sz"/>
+    <functioncall functionName="tip"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="typename"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="w"/>
+    <functioncall functionName="width"/>
+    <functioncall functionName="wxALIGN_CENTER"/>
+    <functioncall functionName="wxALIGN_CENTRE"/>
+    <functioncall functionName="wxALIGN_LEFT"/>
+    <functioncall functionName="wxASSERT"/>
+    <functioncall functionName="wxCENTRE"/>
+    <functioncall functionName="wxDefaultCoord"/>
+    <functioncall functionName="wxEVT_CLOSE_WINDOW"/>
+    <functioncall functionName="wxEVT_COMMAND_BUTTON_CLICKED"/>
+    <functioncall functionName="wxEVT_COMMAND_MENU_SELECTED"/>
+    <functioncall functionName="wxEXPAND"/>
+    <functioncall functionName="wxEmptyString"/>
+    <functioncall functionName="wxEventType"/>
+    <functioncall functionName="wxFrame"/>
+    <functioncall functionName="wxICON"/>
+    <functioncall functionName="wxICON_EXCLAMATION"/>
+    <functioncall functionName="wxID_ANY"/>
+    <functioncall functionName="wxID_CANCEL"/>
+    <functioncall functionName="wxID_PREVIEW"/>
+    <functioncall functionName="wxLIST_AUTOSIZE"/>
+    <functioncall functionName="wxLIST_FORMAT_LEFT"/>
+    <functioncall functionName="wxObjectEventFunction"/>
+    <functioncall functionName="wxRESIZE_BORDER"/>
+    <functioncall functionName="wxSYS_COLOUR_3DFACE"/>
+    <functioncall functionName="wxSizer"/>
+    <functioncall functionName="wxStaticBox"/>
+    <functioncall functionName="wxT"/>
+    <functioncall functionName="wxTAB_TRAVERSAL"/>
+    <functioncall functionName="wxTE_RICH"/>
+    <functioncall functionName="wxTextCtrl"/>
+  </FileInfo>
+</analyzerinfo>

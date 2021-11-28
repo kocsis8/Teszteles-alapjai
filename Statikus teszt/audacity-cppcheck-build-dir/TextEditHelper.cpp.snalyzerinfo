@@ -1,0 +1,43 @@
+TextEditHelper
+GetProject
+GetProject
+TrackPanelListener
+TrackPanelListener
+IsBeingDeleted
+SetIsBeingDeleted
+GetMainPage
+GetMainPanel
+GetTopPanel
+GetMode
+Activate
+GetRecentStreamTime
+GetPlaybackScroller
+SetNormalizedWindowState
+GetNormalizedWindowState
+GetVerticalScrollBar
+GetHorizontalScrollBar
+IsGoodEditKeyCode
+TextEditHelper call:[Length] noreturn:[Length]
+SetTextColor
+SetTextSelectionColor
+Cancel call:[OnTextEditCancelled,lock] noreturn:[OnTextEditCancelled]
+Finish call:[OnTextEditFinished,lock] noreturn:[OnTextEditFinished]
+GetSelection call:[make_pair] noreturn:[make_pair]
+SetSelection
+SelectAll call:[Length] noreturn:[Length]
+IsSelectionEmpty
+CaptureKey
+OnKeyDown call:[CaptureKey,Length,OnTextEditCancelled,OnTextEditFinished,OnTextModified,RemoveSelectedText,at,clamp,empty,erase,length,lock,max,min] noreturn:[RemoveSelectedText,max,min]
+OnChar call:[Left,Mid,OnTextModified,RemoveSelectedText,length,lock,wxIscntrl] noreturn:[RemoveSelectedText]
+OnClick call:[ButtonDown,Contains,FindCursorIndex,GetPosition,LeftDown,ShiftDown,abs]
+OnDrag call:[HandleDragRelease] noreturn:[HandleDragRelease]
+OnRelease call:[HandleDragRelease] noreturn:[HandleDragRelease]
+Draw call:[DrawLabel,DrawLine,DrawRectangle,GetCharPositionX,GetFontMetrics,GetHeight,GetLayoutDirection,GetLeft,GetRight,GetTop,Length,Mid,SetBrush,SetFont,SetPen,SetTextBackground,SetTextForeground,clamp,clipper,max,min,wxFont,wxFontInfo,wxRect] noreturn:[DrawLine,DrawRectangle]
+HandleDragRelease call:[Contains,Dragging,FindCursorIndex,GetPosition,OnTextContextMenu,RightUp,lock]
+RemoveSelectedText call:[Left,Mid,OnTextModified,length,lock,swap] noreturn:[Left,Mid,length,swap]
+FindCursorIndex call:[GetLayoutDirection,GetLeft,GetRight,GetTextExtent,GetWidth,Left,Ok,Right,SetFont,at,length] noreturn:[GetWidth,SetFont]
+GetCharPositionX call:[GetLayoutDirection,GetLeft,GetRight,GetTextExtent,GetWidth,Left,Ok,SetFont] noreturn:[GetWidth]
+GetBBox
+CutSelectedText call:[Close,Left,Mid,OnTextModified,Open,SetData,length,lock,swap,wxTextDataObject] noreturn:[Close,Left,Mid,swap]
+CopySelectedText call:[Close,Mid,Open,SetData,swap,wxTextDataObject] noreturn:[Close,swap]
+PasteSelectedText call:[Close,GetData,GetText,IsSupported,Left,Mid,OnTextModified,Open,length,lock,swap,wxIscntrl,wxT] noreturn:[GetText,Mid,swap,wxT]

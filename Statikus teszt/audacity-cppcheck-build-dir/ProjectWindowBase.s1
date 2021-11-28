@@ -1,0 +1,9 @@
+GetProject
+GetProject
+AttachedWindows
+operatorAudacityProject&
+ProjectWindowBase call:[Format,GetProjectNumber,SetName,SetProjectFrame] noreturn:[SetName]
+ProjectWindowBase
+FindProjectWindow call:[GetParent] noreturn:[GetParent]
+FindProjectFromWindow call:[FindProjectWindow,GetProject]
+FindProjectFromWindow call:[FindProjectFromWindow] noreturn:[FindProjectFromWindow]

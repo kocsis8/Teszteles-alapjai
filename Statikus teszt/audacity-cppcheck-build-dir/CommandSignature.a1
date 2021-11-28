@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3692199406">
+        <error id="returnStdMoveLocal" severity="performance" msg="Using std::move for returning object by-value from function will affect copy elision optimization. More: https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rf-return-move-local" verbose="Using std::move for returning object by-value from function will affect copy elision optimization. More: https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rf-return-move-local" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandSignature.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\Validators.h" line="133" column="24"/>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;GetClone&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;GetClone&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandSignature.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\Validators.h" line="91" column="19" info="Function in derived class"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\Validators.h" line="85" column="19" info="Virtual function in base class"/>
+            <symbol>GetClone</symbol>
+        </error>
+  <FileInfo check="Class">
+<class name="DefaultValidator" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/Validators.h" line="88" col="1" hash="13412276796354515638"/>
+<class name="OptionValidator" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/Validators.h" line="97" col="1" hash="14191530259024608943"/>
+<class name="BoolValidator" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/Validators.h" line="137" col="1" hash="15380762479836807273"/>
+<class name="BoolArrayValidator" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/Validators.h" line="157" col="1" hash="15671964862200377937"/>
+<class name="DoubleValidator" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/Validators.h" line="181" col="1" hash="15915417974345492541"/>
+<class name="RangeValidator" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/Validators.h" line="201" col="1" hash="2035245541851570479"/>
+<class name="IntValidator" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/Validators.h" line="226" col="1" hash="8327829166406121258"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="AddParameter" lineNumber="25"/>
+    <functiondecl functionName="GetDefaults" lineNumber="42"/>
+    <functiondecl functionName="GetValidator" lineNumber="47"/>
+    <functioncall functionName="BoolArrayValidator"/>
+    <functioncall functionName="BoolValidator"/>
+    <functioncall functionName="CommandSignature"/>
+    <functioncall functionName="Convert"/>
+    <functioncall functionName="DefaultValidator"/>
+    <functioncall functionName="DoubleValidator"/>
+    <functioncall functionName="Format"/>
+    <functioncall functionName="GetConverted"/>
+    <functioncall functionName="GetDescription"/>
+    <functioncall functionName="GetString"/>
+    <functioncall functionName="IntValidator"/>
+    <functioncall functionName="IsType"/>
+    <functioncall functionName="MakeString"/>
+    <functioncall functionName="OptionValidator"/>
+    <functioncall functionName="PROHIBITED"/>
+    <functioncall functionName="RangeValidator"/>
+    <functioncall functionName="SetConverted"/>
+    <functioncall functionName="Validate"/>
+    <functioncall functionName="Validator"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="contains"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="dft"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="l"/>
+    <functioncall functionName="length"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="mLower"/>
+    <functioncall functionName="mOptions"/>
+    <functioncall functionName="mUpper"/>
+    <functioncall functionName="make_iterator_range"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="name"/>
+    <functioncall functionName="option"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="paramName"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="u"/>
+    <functioncall functionName="v"/>
+    <functioncall functionName="val"/>
+    <functioncall functionName="valid"/>
+    <functioncall functionName="value_type"/>
+    <functioncall functionName="wxASSERT"/>
+    <functioncall functionName="wxASSERT_MSG"/>
+    <functioncall functionName="wxString"/>
+    <functioncall functionName="wxT"/>
+    <functioncall functionName="wxVariant"/>
+  </FileInfo>
+</analyzerinfo>

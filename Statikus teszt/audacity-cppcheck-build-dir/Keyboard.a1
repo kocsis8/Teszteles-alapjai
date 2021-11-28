@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1885336891">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="Display" lineNumber="56"/>
+    <functiondecl functionName="KeyEventToKeyString" lineNumber="83"/>
+    <functiondecl functionName="Display" lineNumber="56"/>
+    <functiondecl functionName="KeyEventToKeyString" lineNumber="83"/>
+    <functioncall functionName="AfterLast"/>
+    <functioncall functionName="AltDown"/>
+    <functioncall functionName="Contains"/>
+    <functioncall functionName="ControlDown"/>
+    <functioncall functionName="GET"/>
+    <functioncall functionName="GetKeyCode"/>
+    <functioncall functionName="NormalizedKeyString"/>
+    <functioncall functionName="NormalizedKeyStringTag"/>
+    <functioncall functionName="RawControlDown"/>
+    <functioncall functionName="Replace"/>
+    <functioncall functionName="ShiftDown"/>
+    <functioncall functionName="TaggedIdentifier"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="key"/>
+    <functioncall functionName="newStr"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="usesSpecialChars"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="wxChar"/>
+    <functioncall functionName="wxT"/>
+  </FileInfo>
+</analyzerinfo>

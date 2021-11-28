@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3837141774">
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/SelectMenus.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\menus\SelectMenus.cpp" line="1052" column="11"/>
+        </error>
+</analyzerinfo>

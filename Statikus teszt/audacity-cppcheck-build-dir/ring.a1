@@ -1,0 +1,204 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1566492766">
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:107:1" call-funcname="read_space_internal" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="119" col="9" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:117:1" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:123:1" call-funcname="write_space_internal" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="137" col="9" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:135:1" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:107:1" call-funcname="read_space_internal" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="150" col="6" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:147:1" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:147:1" call-funcname="peek_internal" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="168" col="9" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:166:1" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:147:1" call-funcname="peek_internal" call-argnr="5" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="168" col="9" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:166:1" my-argnr="2"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:147:1" call-funcname="peek_internal" call-argnr="5" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="177" col="6" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:172:1" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="ZixRingImpl" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="51" col="1" hash="11778226776298243612"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:86:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="88" col="7" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:100:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="102" col="2" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:141:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="143" col="9" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:172:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="174" col="21" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:187:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="189" col="21" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:201:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="203" col="21" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:86:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="88" col="7" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:141:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="143" col="9" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:172:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="174" col="21" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:187:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="189" col="21" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:201:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="203" col="21" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:107:1" call-funcname="read_space_internal" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="119" col="9" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:117:1" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:123:1" call-funcname="write_space_internal" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="137" col="9" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:135:1" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:107:1" call-funcname="read_space_internal" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="150" col="6" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:147:1" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:147:1" call-funcname="peek_internal" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="168" col="9" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:166:1" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:147:1" call-funcname="peek_internal" call-argnr="5" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="168" col="9" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:166:1" my-argnr="2"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:147:1" call-funcname="peek_internal" call-argnr="5" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="177" col="6" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:172:1" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="ZixRingImpl" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="51" col="1" hash="11778226776298243612"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:86:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="88" col="7" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:100:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="102" col="2" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:141:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="143" col="9" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:172:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="174" col="21" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:187:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="189" col="21" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:201:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="203" col="21" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:86:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="88" col="7" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:141:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="143" col="9" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:172:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="174" col="21" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:187:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="189" col="21" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:201:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="203" col="21" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:107:1" call-funcname="read_space_internal" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="119" col="9" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:117:1" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:123:1" call-funcname="write_space_internal" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="137" col="9" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:135:1" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:107:1" call-funcname="read_space_internal" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="150" col="6" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:147:1" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:147:1" call-funcname="peek_internal" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="168" col="9" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:166:1" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:147:1" call-funcname="peek_internal" call-argnr="5" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="168" col="9" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:166:1" my-argnr="2"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:147:1" call-funcname="peek_internal" call-argnr="5" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="177" col="6" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:172:1" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="ZixRingImpl" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="51" col="1" hash="11778226776298243612"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:86:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="88" col="7" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:100:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="102" col="2" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:141:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="143" col="9" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:172:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="174" col="21" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:187:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="189" col="21" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:201:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="203" col="21" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:86:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="88" col="7" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:141:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="143" col="9" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:172:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="174" col="21" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:187:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="189" col="21" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:201:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="203" col="21" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:107:1" call-funcname="read_space_internal" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="119" col="9" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:117:1" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:123:1" call-funcname="write_space_internal" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="137" col="9" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:135:1" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:107:1" call-funcname="read_space_internal" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="150" col="6" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:147:1" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:147:1" call-funcname="peek_internal" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="168" col="9" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:166:1" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:147:1" call-funcname="peek_internal" call-argnr="5" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="168" col="9" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:166:1" my-argnr="2"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:147:1" call-funcname="peek_internal" call-argnr="5" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="177" col="6" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:172:1" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="ZixRingImpl" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="51" col="1" hash="11778226776298243612"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:86:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="88" col="7" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:100:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="102" col="2" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:141:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="143" col="9" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:172:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="174" col="21" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:187:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="189" col="21" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:201:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="203" col="21" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:86:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="88" col="7" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:141:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="143" col="9" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:172:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="174" col="21" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:187:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="189" col="21" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp:201:1" my-argnr="1" my-argname="ring" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/lv2/zix/ring.cpp" line="203" col="21" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="next_power_of_two" lineNumber="60"/>
+    <functiondecl functionName="zix_ring_new" lineNumber="74"/>
+    <functiondecl functionName="zix_ring_free" lineNumber="86"/>
+    <functiondecl functionName="zix_ring_mlock" lineNumber="93"/>
+    <functiondecl functionName="zix_ring_reset" lineNumber="100"/>
+    <functiondecl functionName="read_space_internal" lineNumber="107"/>
+    <functiondecl functionName="zix_ring_read_space" lineNumber="117"/>
+    <functiondecl functionName="write_space_internal" lineNumber="123"/>
+    <functiondecl functionName="zix_ring_write_space" lineNumber="135"/>
+    <functiondecl functionName="zix_ring_capacity" lineNumber="141"/>
+    <functiondecl functionName="peek_internal" lineNumber="147"/>
+    <functiondecl functionName="zix_ring_peek" lineNumber="166"/>
+    <functiondecl functionName="zix_ring_read" lineNumber="172"/>
+    <functiondecl functionName="zix_ring_skip" lineNumber="187"/>
+    <functiondecl functionName="zix_ring_write" lineNumber="201"/>
+    <functiondecl functionName="next_power_of_two" lineNumber="60"/>
+    <functiondecl functionName="zix_ring_new" lineNumber="74"/>
+    <functiondecl functionName="zix_ring_free" lineNumber="86"/>
+    <functiondecl functionName="zix_ring_mlock" lineNumber="93"/>
+    <functiondecl functionName="zix_ring_reset" lineNumber="100"/>
+    <functiondecl functionName="read_space_internal" lineNumber="107"/>
+    <functiondecl functionName="zix_ring_read_space" lineNumber="117"/>
+    <functiondecl functionName="write_space_internal" lineNumber="123"/>
+    <functiondecl functionName="zix_ring_write_space" lineNumber="135"/>
+    <functiondecl functionName="zix_ring_capacity" lineNumber="141"/>
+    <functiondecl functionName="peek_internal" lineNumber="147"/>
+    <functiondecl functionName="zix_ring_peek" lineNumber="166"/>
+    <functiondecl functionName="zix_ring_read" lineNumber="172"/>
+    <functiondecl functionName="zix_ring_skip" lineNumber="187"/>
+    <functiondecl functionName="zix_ring_write" lineNumber="201"/>
+    <functiondecl functionName="next_power_of_two" lineNumber="60"/>
+    <functiondecl functionName="zix_ring_new" lineNumber="74"/>
+    <functiondecl functionName="zix_ring_free" lineNumber="86"/>
+    <functiondecl functionName="zix_ring_mlock" lineNumber="93"/>
+    <functiondecl functionName="zix_ring_reset" lineNumber="100"/>
+    <functiondecl functionName="read_space_internal" lineNumber="107"/>
+    <functiondecl functionName="zix_ring_read_space" lineNumber="117"/>
+    <functiondecl functionName="write_space_internal" lineNumber="123"/>
+    <functiondecl functionName="zix_ring_write_space" lineNumber="135"/>
+    <functiondecl functionName="zix_ring_capacity" lineNumber="141"/>
+    <functiondecl functionName="peek_internal" lineNumber="147"/>
+    <functiondecl functionName="zix_ring_peek" lineNumber="166"/>
+    <functiondecl functionName="zix_ring_read" lineNumber="172"/>
+    <functiondecl functionName="zix_ring_skip" lineNumber="187"/>
+    <functiondecl functionName="zix_ring_write" lineNumber="201"/>
+    <functiondecl functionName="next_power_of_two" lineNumber="60"/>
+    <functiondecl functionName="zix_ring_new" lineNumber="74"/>
+    <functiondecl functionName="zix_ring_free" lineNumber="86"/>
+    <functiondecl functionName="zix_ring_mlock" lineNumber="93"/>
+    <functiondecl functionName="zix_ring_reset" lineNumber="100"/>
+    <functiondecl functionName="read_space_internal" lineNumber="107"/>
+    <functiondecl functionName="zix_ring_read_space" lineNumber="117"/>
+    <functiondecl functionName="write_space_internal" lineNumber="123"/>
+    <functiondecl functionName="zix_ring_write_space" lineNumber="135"/>
+    <functiondecl functionName="zix_ring_capacity" lineNumber="141"/>
+    <functiondecl functionName="peek_internal" lineNumber="147"/>
+    <functiondecl functionName="zix_ring_peek" lineNumber="166"/>
+    <functiondecl functionName="zix_ring_read" lineNumber="172"/>
+    <functiondecl functionName="zix_ring_skip" lineNumber="187"/>
+    <functiondecl functionName="zix_ring_write" lineNumber="201"/>
+    <functioncall functionName="MemoryBarrier"/>
+    <functioncall functionName="OSMemoryBarrier"/>
+    <functioncall functionName="VirtualLock"/>
+    <functioncall functionName="ZIX_STATUS_BAD_ARG"/>
+    <functioncall functionName="ZIX_STATUS_BAD_PERMS"/>
+    <functioncall functionName="ZIX_STATUS_ERROR"/>
+    <functioncall functionName="ZIX_STATUS_EXISTS"/>
+    <functioncall functionName="ZIX_STATUS_NOT_FOUND"/>
+    <functioncall functionName="ZIX_STATUS_NO_MEM"/>
+    <functioncall functionName="ZIX_STATUS_SUCCESS"/>
+    <functioncall functionName="buf"/>
+    <functioncall functionName="dst"/>
+    <functioncall functionName="first_size"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="mlock"/>
+    <functioncall functionName="next_power_of_two"/>
+    <functioncall functionName="peek_internal"/>
+    <functioncall functionName="r"/>
+    <functioncall functionName="read_head"/>
+    <functioncall functionName="read_space_internal"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="ring"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="size_mask"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="src"/>
+    <functioncall functionName="status"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="this_size"/>
+    <functioncall functionName="w"/>
+    <functioncall functionName="write_head"/>
+    <functioncall functionName="write_space_internal"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1058718143">
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;value&apos; shadows outer variable" verbose="Local variable &apos;value&apos; shadows outer variable" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/JournalEvents.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\JournalEvents.cpp" line="229" column="21" info="Shadow variable"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\JournalEvents.cpp" line="225" column="11" info="Shadowed declaration"/>
+            <symbol>value</symbol>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="DispatchEvent" lineNumber="145"/>
+    <functiondecl functionName="WindowEventName" lineNumber="174"/>
+    <functiondecl functionName="WindowEventSerialization" lineNumber="182"/>
+    <functiondecl functionName="TypeCatalog" lineNumber="332"/>
+    <functiondecl functionName="ByType" lineNumber="357"/>
+    <functiondecl functionName="ByCode" lineNumber="368"/>
+    <functiondecl functionName="FilterEvent" lineNumber="392"/>
+    <functiondecl functionName="IsWatching" lineNumber="421"/>
+    <functiondecl functionName="FailedEventSerialization" lineNumber="426"/>
+    <functiondecl functionName="Initialize" lineNumber="438"/>
+    <functiondecl functionName="Watch" lineNumber="443"/>
+    <functioncall functionName="AddFilter"/>
+    <functioncall functionName="BooleanCommandType"/>
+    <functioncall functionName="ByCode"/>
+    <functioncall functionName="ByType"/>
+    <functioncall functionName="CallAfter"/>
+    <functioncall functionName="ChangeValue"/>
+    <functioncall functionName="DeserializerResult"/>
+    <functioncall functionName="DispatchEvent"/>
+    <functioncall functionName="Event"/>
+    <functioncall functionName="FailedEventSerialization"/>
+    <functioncall functionName="FindByPath"/>
+    <functioncall functionName="FindPath"/>
+    <functioncall functionName="Format"/>
+    <functioncall functionName="GET"/>
+    <functioncall functionName="GetError"/>
+    <functioncall functionName="GetEventHandler"/>
+    <functioncall functionName="GetEventObject"/>
+    <functioncall functionName="GetEventType"/>
+    <functioncall functionName="GetId"/>
+    <functioncall functionName="GetInt"/>
+    <functioncall functionName="GetString"/>
+    <functioncall functionName="Identifier"/>
+    <functioncall functionName="Initialize"/>
+    <functioncall functionName="IsRecording"/>
+    <functioncall functionName="IsReplaying"/>
+    <functioncall functionName="IsWatching"/>
+    <functioncall functionName="NullaryCommandType"/>
+    <functioncall functionName="NumericalCommandType"/>
+    <functioncall functionName="Output"/>
+    <functioncall functionName="RemoveFilter"/>
+    <functioncall functionName="SafelyProcessEvent"/>
+    <functioncall functionName="SetEventObject"/>
+    <functioncall functionName="SetInt"/>
+    <functioncall functionName="SetString"/>
+    <functioncall functionName="SetWindow"/>
+    <functioncall functionName="ShowMessageBox"/>
+    <functioncall functionName="Tag"/>
+    <functioncall functionName="TextualCommandType"/>
+    <functioncall functionName="ToLong"/>
+    <functioncall functionName="TransferToWindow"/>
+    <functioncall functionName="Type"/>
+    <functioncall functionName="TypeCatalog"/>
+    <functioncall functionName="Watch"/>
+    <functioncall functionName="Watcher"/>
+    <functioncall functionName="WindowEventName"/>
+    <functioncall functionName="WindowEventSerialization"/>
+    <functioncall functionName="XO"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="bool"/>
+    <functioncall functionName="call_once"/>
+    <functioncall functionName="checkDeserializer"/>
+    <functioncall functionName="code"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="decltype"/>
+    <functioncall functionName="deserialFn"/>
+    <functioncall functionName="deserialize"/>
+    <functioncall functionName="deserializer"/>
+    <functioncall functionName="dynamic_cast"/>
+    <functioncall functionName="e"/>
+    <functioncall functionName="emplace"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="event"/>
+    <functioncall functionName="evtType"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="fields"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="flag"/>
+    <functioncall functionName="fn"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="function"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="longValue"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="optional"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="pEvent"/>
+    <functioncall functionName="pHandler"/>
+    <functioncall functionName="pStrings"/>
+    <functioncall functionName="pWindow"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="result"/>
+    <functioncall functionName="second"/>
+    <functioncall functionName="serialFn"/>
+    <functioncall functionName="serialize"/>
+    <functioncall functionName="serializer"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="static_assert"/>
+    <functioncall functionName="static_cast"/>
+    <functioncall functionName="this"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="type"/>
+    <functioncall functionName="typename"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="validator"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="windowName"/>
+    <functioncall functionName="wxArrayStringEx"/>
+    <functioncall functionName="wxCommandEvent"/>
+    <functioncall functionName="wxEVT_BUTTON"/>
+    <functioncall functionName="wxEVT_CHECKBOX"/>
+    <functioncall functionName="wxEVT_CHOICE"/>
+    <functioncall functionName="wxEVT_COMBOBOX"/>
+    <functioncall functionName="wxEVT_COMBOBOX_CLOSEUP"/>
+    <functioncall functionName="wxEVT_COMBOBOX_DROPDOWN"/>
+    <functioncall functionName="wxEVT_NULL"/>
+    <functioncall functionName="wxEVT_RADIOBOX"/>
+    <functioncall functionName="wxEVT_RADIOBUTTON"/>
+    <functioncall functionName="wxEVT_SLIDER"/>
+    <functioncall functionName="wxEVT_SPINCTRL"/>
+    <functioncall functionName="wxEVT_SPIN_DOWN"/>
+    <functioncall functionName="wxEVT_SPIN_UP"/>
+    <functioncall functionName="wxEVT_TEXT"/>
+    <functioncall functionName="wxEVT_TEXT_ENTER"/>
+    <functioncall functionName="wxEVT_TOGGLEBUTTON"/>
+    <functioncall functionName="wxEvent"/>
+    <functioncall functionName="wxEventType"/>
+    <functioncall functionName="wxEvtHandler"/>
+    <functioncall functionName="wxSpinEvent"/>
+    <functioncall functionName="wxString"/>
+    <functioncall functionName="wxTextEntry"/>
+    <functioncall functionName="wxWindow"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="76852300">
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="GetConfig"/>
+    <functioncall functionName="GetConfigValue"/>
+    <functioncall functionName="Private"/>
+    <functioncall functionName="SetConfigValue"/>
+    <functioncall functionName="Shared"/>
+    <functioncall functionName="Types"/>
+    <functioncall functionName="Value"/>
+    <functioncall functionName="bool"/>
+    <functioncall functionName="conditional_t"/>
+    <functioncall functionName="cref"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="defval"/>
+    <functioncall functionName="double"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="float"/>
+    <functioncall functionName="group"/>
+    <functioncall functionName="ident"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="is_const"/>
+    <functioncall functionName="key"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="ref"/>
+    <functioncall functionName="reference_wrapper"/>
+    <functioncall functionName="static_cast"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="type"/>
+    <functioncall functionName="typename"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="var"/>
+    <functioncall functionName="wxDialog"/>
+    <functioncall functionName="wxString"/>
+  </FileInfo>
+</analyzerinfo>

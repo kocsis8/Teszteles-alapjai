@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="4005117713">
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;MultiFormatReader::mSwapBuffer&apos; is not initialized in the constructor." verbose="Member variable &apos;MultiFormatReader::mSwapBuffer&apos; is not initialized in the constructor." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/MultiFormatReader.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\MultiFormatReader.cpp" line="40" column="20"/>
+            <symbol>MultiFormatReader::mSwapBuffer</symbol>
+        </error>
+        <error id="noCopyConstructor" severity="warning" msg="Class &apos;MultiFormatReader&apos; does not have a copy constructor which is recommended since it has dynamic memory/resource allocation(s)." verbose="Class &apos;MultiFormatReader&apos; does not have a copy constructor which is recommended since it has dynamic memory/resource allocation(s)." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/MultiFormatReader.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\MultiFormatReader.cpp" line="43" column="4"/>
+            <symbol>MultiFormatReader</symbol>
+        </error>
+        <error id="noOperatorEq" severity="warning" msg="Class &apos;MultiFormatReader&apos; does not have a operator= which is recommended since it has dynamic memory/resource allocation(s)." verbose="Class &apos;MultiFormatReader&apos; does not have a operator= which is recommended since it has dynamic memory/resource allocation(s)." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/MultiFormatReader.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\MultiFormatReader.cpp" line="43" column="4"/>
+            <symbol>MultiFormatReader</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;MultiFormatReader&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;MultiFormatReader&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/MultiFormatReader.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\MultiFormatReader.h" line="68" column="4"/>
+            <symbol>MultiFormatReader</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;pCurBuffer&apos; can be reduced." verbose="The scope of the variable &apos;pCurBuffer&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/MultiFormatReader.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\MultiFormatReader.cpp" line="139" column="13"/>
+            <symbol>pCurBuffer</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/MultiFormatReader.h:75:11" call-funcname="ReadSamples" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/MultiFormatReader.cpp" line="71" col="11" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/MultiFormatReader.h:72:11" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/MultiFormatReader.h:80:11" call-funcname="Read" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/MultiFormatReader.cpp" line="86" col="20" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/MultiFormatReader.h:75:11" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="MachineEndianness" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/MultiFormatReader.h" line="17" col="1" hash="14709271328303697792"/>
+<class name="MultiFormatReader" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/MultiFormatReader.h" line="49" col="1" hash="5074490320742254578"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/MultiFormatReader.h:68:4" my-argnr="1" my-argname="filename" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/MultiFormatReader.cpp" line="43" col="18" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/MultiFormatReader.h:68:4" my-argnr="1" my-argname="filename" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/MultiFormatReader.cpp" line="43" col="18" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="Reset" lineNumber="59"/>
+    <functiondecl functionName="ReadSamples" lineNumber="67"/>
+    <functiondecl functionName="ReadSamples" lineNumber="75"/>
+    <functiondecl functionName="Read" lineNumber="110"/>
+    <functiondecl functionName="SwapBytes" lineNumber="136"/>
+    <functioncall functionName="Big"/>
+    <functioncall functionName="Double"/>
+    <functioncall functionName="Float"/>
+    <functioncall functionName="Int16"/>
+    <functioncall functionName="Int32"/>
+    <functioncall functionName="Little"/>
+    <functioncall functionName="MachineEndianness"/>
+    <functioncall functionName="MultiFormatReader"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="Read"/>
+    <functioncall functionName="ReadSamples"/>
+    <functioncall functionName="SwapBytes"/>
+    <functioncall functionName="Uint16"/>
+    <functioncall functionName="Uint32"/>
+    <functioncall functionName="Uint8"/>
+    <functioncall functionName="Which"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="buffer"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="fclose"/>
+    <functioncall functionName="filename"/>
+    <functioncall functionName="fopen"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="format"/>
+    <functioncall functionName="fread"/>
+    <functioncall functionName="fseek"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="len"/>
+    <functioncall functionName="mSwapBuffer"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="mpFid"/>
+    <functioncall functionName="n"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="rewind"/>
+    <functioncall functionName="runtime_error"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="stride"/>
+    <functioncall functionName="swapflag"/>
+    <functioncall functionName="switch"/>
+  </FileInfo>
+</analyzerinfo>

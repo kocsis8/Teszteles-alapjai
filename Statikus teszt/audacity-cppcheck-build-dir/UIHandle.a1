@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3967891566">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="Enter" lineNumber="20"/>
+    <functiondecl functionName="HasRotation" lineNumber="24"/>
+    <functiondecl functionName="Rotate" lineNumber="29"/>
+    <functiondecl functionName="HasEscape" lineNumber="34"/>
+    <functiondecl functionName="Escape" lineNumber="39"/>
+    <functiondecl functionName="HandlesRightClick" lineNumber="44"/>
+    <functiondecl functionName="StopsOnKeystroke" lineNumber="49"/>
+    <functiondecl functionName="OnProjectChange" lineNumber="54"/>
+    <functioncall functionName="NeedChangeHighlight"/>
+    <functioncall functionName="SetChangeHighlight"/>
+    <functioncall functionName="Subclass"/>
+    <functioncall functionName="bool"/>
+    <functioncall functionName="code"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="height"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="lock"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="pNew"/>
+    <functioncall functionName="ptr"/>
+    <functioncall functionName="typeid"/>
+    <functioncall functionName="typename"/>
+    <functioncall functionName="val"/>
+    <functioncall functionName="width"/>
+    <functioncall functionName="wxASSERT"/>
+    <functioncall functionName="x"/>
+    <functioncall functionName="y"/>
+  </FileInfo>
+</analyzerinfo>

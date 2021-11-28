@@ -1,0 +1,21 @@
+RegisteredEventType
+makeSerializer call:[fn,move] noreturn:[fn]
+checkDeserializer call:[decltype,fn,move,static_assert] noreturn:[move]
+Type
+DispatchEvent call:[ByCode,GetEventHandler,GetEventObject,SafelyProcessEvent,begin,deserializer,empty,end,erase,find] noreturn:[GetEventHandler]
+WindowEventName call:[FindPath,GET,GetEventObject] noreturn:[GET]
+WindowEventSerialization call:[FailedEventSerialization,WindowEventName,emplace,empty] noreturn:[FailedEventSerialization,emplace]
+NullaryCommandType call:[FindByPath,GetId,SetEventObject,size] noreturn:[SetEventObject]
+BooleanCommandType call:[FindByPath,Format,GetId,GetInt,SetEventObject,SetInt,SetWindow,ToLong,TransferToWindow,WindowEventSerialization,push_back,size,validator] noreturn:[TransferToWindow,push_back]
+NumericalCommandType call:[FindByPath,Format,GetId,GetInt,SetEventObject,SetInt,SetWindow,ToLong,TransferToWindow,WindowEventSerialization,push_back,size,validator] noreturn:[TransferToWindow,push_back]
+TextualCommandType call:[ChangeValue,FindByPath,GetId,GetString,SetEventObject,SetString,SetWindow,TransferToWindow,WindowEventSerialization,push_back,size,validator] noreturn:[ChangeValue,TransferToWindow,push_back]
+TypeCatalog call:[BooleanCommandType,NullaryCommandType,NumericalCommandType,TextualCommandType]
+ByType call:[TypeCatalog,call_once,emplace] noreturn:[emplace]
+ByCode call:[TypeCatalog,call_once,emplace] noreturn:[emplace]
+Watcher call:[AddFilter] noreturn:[AddFilter]
+Watcher call:[RemoveFilter] noreturn:[RemoveFilter]
+FilterEvent call:[ByType,GET,GetEventType,IsWatching,Output,begin,end,find,insert,serializer] noreturn:[Output]
+IsWatching
+FailedEventSerialization call:[CallAfter,ShowMessageBox,XO] noreturn:[CallAfter,ShowMessageBox]
+Initialize call:[TypeCatalog] noreturn:[TypeCatalog]
+Watch

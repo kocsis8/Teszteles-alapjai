@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3999114035">
+        <error id="missingReturn" severity="error" msg="Found a exit path from function with non-void return type that has missing return statement" verbose="Found a exit path from function with non-void return type that has missing return statement" cwe="758" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/TimeWarper.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\effects\TimeWarper.h" line="81" column="59"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found a exit path from function with non-void return type that has missing return statement" verbose="Found a exit path from function with non-void return type that has missing return statement" cwe="758" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/TimeWarper.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\effects\TimeWarper.h" line="96" column="6"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found a exit path from function with non-void return type that has missing return statement" verbose="Found a exit path from function with non-void return type that has missing return statement" cwe="758" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/TimeWarper.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\effects\TimeWarper.h" line="202" column="6"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="GeometricInputTimeWarper"/>
+    <functioncall functionName="GeometricOutputTimeWarper"/>
+    <functioncall functionName="LinearInputRateTimeWarper"/>
+    <functioncall functionName="LinearInputStretchTimeWarper"/>
+    <functioncall functionName="LinearOutputRateTimeWarper"/>
+    <functioncall functionName="LinearOutputStretchTimeWarper"/>
+    <functioncall functionName="PasteTimeWarper"/>
+    <functioncall functionName="TimeWarper"/>
+    <functioncall functionName="Warp"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="log"/>
+    <functioncall functionName="log1p"/>
+    <functioncall functionName="mC0"/>
+    <functioncall functionName="mC1"/>
+    <functioncall functionName="mC2"/>
+    <functioncall functionName="mNewT1"/>
+    <functioncall functionName="mOffset"/>
+    <functioncall functionName="mOldT1"/>
+    <functioncall functionName="mRStart"/>
+    <functioncall functionName="mRateWarper"/>
+    <functioncall functionName="mRatio"/>
+    <functioncall functionName="mScale"/>
+    <functioncall functionName="mShift"/>
+    <functioncall functionName="mTEnd"/>
+    <functioncall functionName="mTStart"/>
+    <functioncall functionName="mTimeWarper"/>
+    <functioncall functionName="mWarper"/>
+    <functioncall functionName="min"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="newT1"/>
+    <functioncall functionName="oldT1"/>
+    <functioncall functionName="originalTime"/>
+    <functioncall functionName="pow"/>
+    <functioncall functionName="rEnd"/>
+    <functioncall functionName="rStart"/>
+    <functioncall functionName="scaledTime"/>
+    <functioncall functionName="shiftAmount"/>
+    <functioncall functionName="sqrt"/>
+    <functioncall functionName="tAfter0"/>
+    <functioncall functionName="tBefore0"/>
+    <functioncall functionName="tEnd"/>
+    <functioncall functionName="tStart"/>
+    <functioncall functionName="warper"/>
+    <functioncall functionName="wxASSERT"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,27 @@
+wxPanelWrapper
+wxPanelWrapper
+Create call:[Create,Translation] noreturn:[Create]
+wxDialogWrapper
+wxDialogWrapper
+Create call:[Create,Translation] noreturn:[Create]
+wxDirDialogWrapper
+Create call:[Create,Translation] noreturn:[Create]
+FileDialogBase
+SetFileExtension
+FileDialogWrapper
+FileDialogWrapper
+Create call:[Create,FormatWildcard,Translation] noreturn:[Create]
+AudacityMessageDialog
+BackedPanel call:[SelectObject] noreturn:[SelectObject]
+BackedPanel call:[SelectObject] noreturn:[SelectObject]
+GetBackingDC
+GetBackingDCForRepaint call:[ResizeBacking] noreturn:[ResizeBacking]
+ResizeBacking call:[Create,GetClientSize,SelectObject,max] noreturn:[SelectObject]
+RepairBitmap call:[Blit] noreturn:[Blit]
+DisplayBitmap call:[GetHeight,GetWidth,RepairBitmap] noreturn:[RepairBitmap]
+OnSize call:[Refresh,Skip] noreturn:[Refresh]
+wxTabTraversalWrapper < wxPanel > call:[Bind] noreturn:[Bind]
+wxTabTraversalWrapper < wxDialog > call:[Bind] noreturn:[Bind]
+wxTabTraversalWrapper < wxDirDialog > call:[Bind] noreturn:[Bind]
+wxTabTraversalWrapper < FileDialog > call:[Bind] noreturn:[Bind]
+wxTabTraversalWrapper < wxMessageDialog > call:[Bind] noreturn:[Bind]

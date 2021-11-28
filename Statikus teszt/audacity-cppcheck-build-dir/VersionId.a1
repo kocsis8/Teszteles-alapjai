@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1009493724">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="MakeString" lineNumber="17"/>
+    <functiondecl functionName="ParseFromString" lineNumber="24"/>
+    <functiondecl functionName="GetString" lineNumber="46"/>
+    <functioncall functionName="AUDACITY_RELEASE"/>
+    <functioncall functionName="AUDACITY_REVISION"/>
+    <functioncall functionName="AUDACITY_VERSION"/>
+    <functioncall functionName="IsNumber"/>
+    <functioncall functionName="MakeString"/>
+    <functioncall functionName="ToStdString"/>
+    <functioncall functionName="VersionId"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="mRelease"/>
+    <functioncall functionName="mRevision"/>
+    <functioncall functionName="mVersion"/>
+    <functioncall functionName="release"/>
+    <functioncall functionName="revision"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="stoi"/>
+    <functioncall functionName="tie"/>
+    <functioncall functionName="to_string"/>
+    <functioncall functionName="version"/>
+    <functioncall functionName="versionString"/>
+    <functioncall functionName="versionStringParts"/>
+    <functioncall functionName="wxSplit"/>
+  </FileInfo>
+</analyzerinfo>

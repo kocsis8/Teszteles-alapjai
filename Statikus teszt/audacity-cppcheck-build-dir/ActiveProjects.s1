@@ -1,0 +1,4 @@
+GetAll call:[Add,GetFirstEntry,GetFullPath,GetNextEntry,GetPath,Read,SetPath,wxT] noreturn:[GetNextEntry]
+Add call:[Find,Flush,HasEntry,Printf,Write,empty,while,wxT] noreturn:[Flush,Printf]
+Remove call:[DeleteEntry,Find,Flush,empty,wxT] noreturn:[Flush]
+Find call:[GetFirstEntry,GetNextEntry,GetPath,IsSameAs,Read,SetPath,wxT] noreturn:[GetNextEntry]

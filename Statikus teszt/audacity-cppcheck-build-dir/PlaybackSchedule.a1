@@ -1,0 +1,241 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="119065873">
+        <error id="unsignedLessThanZero" severity="style" msg="Checking if unsigned expression &apos;mRemaining&apos; is less than zero." verbose="The unsigned expression &apos;mRemaining&apos; will never be negative so it is either pointless or an error to check if it is." cwe="570" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\PlaybackSchedule.cpp" line="305" column="19" info="Unsigned less than zero"/>
+            <symbol>mRemaining</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;mine&apos; is assigned a value that is never used." verbose="Variable &apos;mine&apos; is assigned a value that is never used." cwe="563" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\PlaybackSchedule.cpp" line="273" column="15"/>
+            <symbol>mine</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:38:16" call-funcname="SetVal" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h" line="50" col="22" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Class">
+<class name="RecordingSchedule" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="131" col="1" hash="12621745813289032879"/>
+<class name="PlaybackSlice" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="152" col="1" hash="14623948474922064696"/>
+<class name="PlaybackPolicy::BufferTimes" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="189" col="4" hash="6869806206435311657"/>
+<class name="PlaybackSchedule" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="259" col="1" hash="11481183900706508761"/>
+<class name="PlaybackSchedule::TimeQueue" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="309" col="4" hash="14690677594075110359"/>
+<class name="PlaybackSchedule::TimeQueue::Record" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="339" col="7" hash="17071854924768020548"/>
+<class name="PlaybackSchedule::TimeQueue::Cursor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="346" col="7" hash="363912267004430114"/>
+<class name="PlaybackSchedule::SlotData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="359" col="4" hash="6524779715981219363"/>
+<class name="EnvPoint" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h" line="29" col="1" hash="1145131465045532602"/>
+<class name="BoundedEnvelope" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h" line="284" col="1" hash="7432242539348378838"/>
+<class name="MessageBuffer &lt; SlotData &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="34" col="1" hash="7850143017975623980"/>
+<class name="MessageBuffer &lt; SlotData &gt;::UpdateSlot" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="35" col="4" hash="1107823842534995714"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="Initialize" lineNumber="22"/>
+    <functiondecl functionName="Finalize" lineNumber="27"/>
+    <functiondecl functionName="MixerWarpOptions" lineNumber="29"/>
+    <functiondecl functionName="SuggestedBufferTimes" lineNumber="35"/>
+    <functiondecl functionName="AllowSeek" lineNumber="40"/>
+    <functiondecl functionName="Done" lineNumber="45"/>
+    <functiondecl functionName="OffsetTrackTime" lineNumber="57"/>
+    <functiondecl functionName="SleepInterval" lineNumber="65"/>
+    <functiondecl functionName="GetPlaybackSlice" lineNumber="72"/>
+    <functiondecl functionName="AdvancedTrackTime" lineNumber="98"/>
+    <functiondecl functionName="RepositionPlayback" lineNumber="117"/>
+    <functiondecl functionName="Looping" lineNumber="123"/>
+    <functiondecl functionName="GetPolicy" lineNumber="135"/>
+    <functiondecl functionName="GetPolicy" lineNumber="144"/>
+    <functiondecl functionName="Initialize" lineNumber="158"/>
+    <functiondecl functionName="SuggestedBufferTimes" lineNumber="167"/>
+    <functiondecl functionName="RevertToOldDefault" lineNumber="174"/>
+    <functiondecl functionName="Done" lineNumber="181"/>
+    <functiondecl functionName="GetPlaybackSlice" lineNumber="190"/>
+    <functiondecl functionName="AdvancedTrackTime" lineNumber="222"/>
+    <functiondecl functionName="RepositionPlayback" lineNumber="250"/>
+    <functiondecl functionName="Looping" lineNumber="323"/>
+    <functiondecl functionName="Init" lineNumber="328"/>
+    <functiondecl functionName="ComputeWarpedLength" lineNumber="369"/>
+    <functiondecl functionName="SolveWarpedLength" lineNumber="377"/>
+    <functiondecl functionName="RealDuration" lineNumber="385"/>
+    <functiondecl functionName="RealDurationSigned" lineNumber="390"/>
+    <functiondecl functionName="RealTimeRemaining" lineNumber="395"/>
+    <functiondecl functionName="RealTimeAdvance" lineNumber="400"/>
+    <functiondecl functionName="RealTimeInit" lineNumber="405"/>
+    <functiondecl functionName="RealTimeRestart" lineNumber="410"/>
+    <functiondecl functionName="ToConsume" lineNumber="415"/>
+    <functiondecl functionName="Consumed" lineNumber="420"/>
+    <functiondecl functionName="ToDiscard" lineNumber="425"/>
+    <functiondecl functionName="Clear" lineNumber="430"/>
+    <functiondecl functionName="Resize" lineNumber="437"/>
+    <functiondecl functionName="Producer" lineNumber="442"/>
+    <functiondecl functionName="GetLastTime" lineNumber="484"/>
+    <functiondecl functionName="SetLastTime" lineNumber="489"/>
+    <functiondecl functionName="Consumer" lineNumber="494"/>
+    <functiondecl functionName="Prime" lineNumber="519"/>
+    <functiondecl functionName="MessageProducer" lineNumber="528"/>
+    <functioncall functionName="Active"/>
+    <functioncall functionName="AdvancedTrackTime"/>
+    <functioncall functionName="ClampValue"/>
+    <functioncall functionName="ComputeWarpedLength"/>
+    <functioncall functionName="Consumed"/>
+    <functioncall functionName="Cursor"/>
+    <functioncall functionName="Done"/>
+    <functioncall functionName="EnvPoint"/>
+    <functioncall functionName="Envelope"/>
+    <functioncall functionName="Floats"/>
+    <functioncall functionName="Get"/>
+    <functioncall functionName="GetEnd"/>
+    <functioncall functionName="GetLastTime"/>
+    <functioncall functionName="GetPlaybackSlice"/>
+    <functioncall functionName="GetPolicy"/>
+    <functioncall functionName="GetStart"/>
+    <functioncall functionName="GetT"/>
+    <functioncall functionName="GetTrackTime"/>
+    <functioncall functionName="GetVal"/>
+    <functioncall functionName="Initialize"/>
+    <functioncall functionName="InsertOrReplaceRelative"/>
+    <functioncall functionName="IntegralOfInverse"/>
+    <functioncall functionName="Mixer"/>
+    <functioncall functionName="MixerSpec"/>
+    <functioncall functionName="NewDefaultPlaybackPolicy"/>
+    <functioncall functionName="PlaybackPolicy"/>
+    <functioncall functionName="PlaybackSchedule"/>
+    <functioncall functionName="PlaybackSlice"/>
+    <functioncall functionName="Read"/>
+    <functioncall functionName="RealDuration"/>
+    <functioncall functionName="RealDurationSigned"/>
+    <functioncall functionName="RealTimeAdvance"/>
+    <functioncall functionName="RealTimeInit"/>
+    <functioncall functionName="RealTimeRemaining"/>
+    <functioncall functionName="RealTimeRestart"/>
+    <functioncall functionName="Record"/>
+    <functioncall functionName="Reposition"/>
+    <functioncall functionName="RepositionPlayback"/>
+    <functioncall functionName="Resample"/>
+    <functioncall functionName="ReversedTime"/>
+    <functioncall functionName="RevertToOldDefault"/>
+    <functioncall functionName="SampleBuffer"/>
+    <functioncall functionName="SetLastTime"/>
+    <functioncall functionName="SetT"/>
+    <functioncall functionName="SetTimesAndSpeed"/>
+    <functioncall functionName="SetTrackTime"/>
+    <functioncall functionName="SetVal"/>
+    <functioncall functionName="SolveIntegralOfInverse"/>
+    <functioncall functionName="SolveWarpedLength"/>
+    <functioncall functionName="TimeQueueGrainSize"/>
+    <functioncall functionName="TotalCorrection"/>
+    <functioncall functionName="UpdateSlot"/>
+    <functioncall functionName="WarpOptions"/>
+    <functioncall functionName="WaveTrack"/>
+    <functioncall functionName="WaveTrackCache"/>
+    <functioncall functionName="Write"/>
+    <functioncall functionName="allowance"/>
+    <functioncall functionName="attrs"/>
+    <functioncall functionName="available"/>
+    <functioncall functionName="bool"/>
+    <functioncall functionName="char"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="const_cast"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="db"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="deltat"/>
+    <functioncall functionName="double"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="envelope"/>
+    <functioncall functionName="exchange"/>
+    <functioncall functionName="extra"/>
+    <functioncall functionName="extraRealTime"/>
+    <functioncall functionName="fabs"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="float"/>
+    <functioncall functionName="floor"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="frames"/>
+    <functioncall functionName="frames_"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="idx"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="index"/>
+    <functioncall functionName="infinity"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="isfinite"/>
+    <functioncall functionName="kicked"/>
+    <functioncall functionName="length"/>
+    <functioncall functionName="load"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="loopEnabled"/>
+    <functioncall functionName="loopEndTime"/>
+    <functioncall functionName="loopWasEnabled"/>
+    <functioncall functionName="lower"/>
+    <functioncall functionName="mData"/>
+    <functioncall functionName="mEnvelope"/>
+    <functioncall functionName="mIndex"/>
+    <functioncall functionName="mLastTime"/>
+    <functioncall functionName="mLatencyCorrection"/>
+    <functioncall functionName="mLoopEnabled"/>
+    <functioncall functionName="mLoopEndTime"/>
+    <functioncall functionName="mMaxValue"/>
+    <functioncall functionName="mMinValue"/>
+    <functioncall functionName="mOffset"/>
+    <functioncall functionName="mPreRoll"/>
+    <functioncall functionName="mRate"/>
+    <functioncall functionName="mRemainder"/>
+    <functioncall functionName="mRemaining"/>
+    <functioncall functionName="mSlots"/>
+    <functioncall functionName="mT0"/>
+    <functioncall functionName="mT1"/>
+    <functioncall functionName="mTrackEndTime"/>
+    <functioncall functionName="mWarpedTime"/>
+    <functioncall functionName="max"/>
+    <functioncall functionName="memory_order_acquire"/>
+    <functioncall functionName="memory_order_relaxed"/>
+    <functioncall functionName="memory_order_release"/>
+    <functioncall functionName="min"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="nSamples"/>
+    <functioncall functionName="newTime"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="offset"/>
+    <functioncall functionName="outputFrames"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="pEnvelope"/>
+    <functioncall functionName="pRecordingSchedule"/>
+    <functioncall functionName="pRegion"/>
+    <functioncall functionName="playbackMixers"/>
+    <functioncall functionName="policyFactory"/>
+    <functioncall functionName="progress"/>
+    <functioncall functionName="rate"/>
+    <functioncall functionName="realDuration"/>
+    <functioncall functionName="realTime"/>
+    <functioncall functionName="realTimeRemaining"/>
+    <functioncall functionName="remainder"/>
+    <functioncall functionName="reset"/>
+    <functioncall functionName="resize"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="sampleCount"/>
+    <functioncall functionName="schedule"/>
+    <functioncall functionName="second"/>
+    <functioncall functionName="shared_ptr"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="space"/>
+    <functioncall functionName="store"/>
+    <functioncall functionName="t"/>
+    <functioncall functionName="t0"/>
+    <functioncall functionName="t1"/>
+    <functioncall functionName="tag"/>
+    <functioncall functionName="theirs"/>
+    <functioncall functionName="tie"/>
+    <functioncall functionName="time"/>
+    <functioncall functionName="timeValue"/>
+    <functioncall functionName="toProduce"/>
+    <functioncall functionName="toProduce_"/>
+    <functioncall functionName="trackEndTime"/>
+    <functioncall functionName="trackTime"/>
+    <functioncall functionName="trackTime1"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="upper"/>
+    <functioncall functionName="val"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="vector"/>
+    <functioncall functionName="wasBusy"/>
+    <functioncall functionName="while"/>
+  </FileInfo>
+</analyzerinfo>

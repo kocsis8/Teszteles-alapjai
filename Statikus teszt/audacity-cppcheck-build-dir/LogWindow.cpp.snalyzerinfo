@@ -1,0 +1,36 @@
+WrappedType
+WrappedType
+WrappedType
+WrappedType
+WrappedType
+ConnectRoot call:[move,push_back,void] noreturn:[move]
+ListControlColumn
+StartTwoColumn call:[StartMultiColumn] noreturn:[StartMultiColumn]
+EndTwoColumn call:[EndMultiColumn] noreturn:[EndMultiColumn]
+StartThreeColumn call:[StartMultiColumn] noreturn:[StartMultiColumn]
+EndThreeColumn call:[EndMultiColumn] noreturn:[EndMultiColumn]
+SetBorder
+SetSizerProportion
+GetParent call:[wxASSERT]
+GetSizer
+Focus call:[Focus,move]
+Disable call:[Disable,move]
+ToolTip call:[ToolTip,move]
+Name call:[Name,move]
+NameSuffix call:[NameSuffix,move]
+Validator call:[GetMode,Validator,move] noreturn:[Validator]
+Validator call:[GetMode,move]
+ConnectRoot call:[ConnectRoot,move]
+Position call:[Position,move]
+Size call:[Size,move]
+Prop call:[Prop]
+Style call:[Style,move]
+MinSize call:[MinSize,move]
+MinSize call:[MinSize,move]
+AddSpace call:[AddSpace] noreturn:[AddSpace]
+GetMode
+Show call:[AddButton,AddSpace,AddTextWindow,Bind,ChangeValue,EndHorizontalLay,EndPanel,EndVerticalLay,Flush,Get,GetBuffer,GetColour,GetLastPosition,GetTitle,Id,IsShown,Layout,Prop,Raise,S,SetBackgroundColour,SetIcon,SetInsertionPointEnd,SetListener,SetName,Show,ShowPosition,StartHorizontalLay,StartPanel,StartVerticalLay,Style,XXO,_,emplace,get,move,wxFrame,wxICON] noreturn:[AddSpace,ChangeValue,EndVerticalLay,Flush,SetIcon,Show,ShowPosition,emplace]
+OnCloseWindow call:[Show] noreturn:[Show]
+OnClose call:[OnCloseWindow] noreturn:[OnCloseWindow]
+OnClear call:[ClearLog,Get] noreturn:[ClearLog]
+OnSave call:[AudacityMessageBox,Format,SaveFile,SelectFile,XO,_,empty,get,wxT]

@@ -1,0 +1,10 @@
+BlockSpaceUsageAccumulator call:[GetSpaceUsage] noreturn:[GetSpaceUsage]
+installedFactory
+RegisterFactoryFactory call:[installedFactory,move]
+New call:[factory,installedFactory] noreturn:[factory]
+Create call:[DoCreate]
+CreateSilent call:[DoCreateSilent]
+CreateFromXML call:[DoCreateFromXML]
+GetSamples call:[ClearSamples,DoGetSamples] noreturn:[DoGetSamples]
+GetMinMaxRMS call:[DoGetMinMaxRMS] noreturn:[DoGetMinMaxRMS]
+GetMinMaxRMS call:[DoGetMinMaxRMS] noreturn:[DoGetMinMaxRMS]

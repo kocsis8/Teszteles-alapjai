@@ -1,0 +1,4 @@
+FileDialogBase
+SetFileExtension
+SelectFile call:[FileSelector,FormatWildcard,Translation,WithDefaultPath,empty,wxT] noreturn:[FileSelector,WithDefaultPath]
+VerifyFilename global:[mFilename] call:[AudacityMessageBox,GetExt,SelectFile,XO,empty,ff,mb_str,return,wxGetTopLevelParent] noreturn:[SelectFile]

@@ -1,0 +1,7 @@
+VSTEffectLink
+VSTControlBase
+VSTControlBase
+Create call:[Create]
+VSTControl
+VSTControl global:[effEditClose] call:[callDispatcher]
+Create global:[effEditGetRect,effEditOpen] call:[Create,GDK_WINDOW_XDISPLAY,GDK_WINDOW_XID,GTK_WIDGET,GetMinSize,SetInitialSize,SetMinSize,callDispatcher,gtk_widget_get_realized,gtk_widget_get_window,gtk_widget_realize,wxSize] noreturn:[gtk_widget_realize]

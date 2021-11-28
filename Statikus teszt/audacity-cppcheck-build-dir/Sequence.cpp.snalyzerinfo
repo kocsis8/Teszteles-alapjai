@@ -1,0 +1,54 @@
+SeqBlock
+SeqBlock
+Plus call:[SeqBlock] noreturn:[SeqBlock]
+GetNumSamples
+GetFactory
+GetErrorOpening
+GetBlockArray
+GetBlockArray
+BlockSpaceUsageAccumulator call:[GetSpaceUsage] noreturn:[GetSpaceUsage]
+Sequence
+Sequence call:[Paste] noreturn:[Paste]
+Sequence
+GetMaxBlockSize
+GetIdealBlockSize
+CloseLock call:[CloseLock,size] noreturn:[CloseLock]
+GetSampleFormat
+ensureSampleBufferSize call:[Allocate,ptr] noreturn:[Allocate]
+ConvertToSampleFormat call:[Blockify,CommitChangesIfConsistent,CopySamples,GetSampleCount,Read,SAMPLE_SIZE,bufferNew,bufferOld,ensureSampleBufferSize,finally,progressReport,ptr,reserve,size,wxT] noreturn:[progressReport]
+GetMinMax call:[FindBlock,GetMinMaxRMS,GetSampleCount,as_size_t,limitSampleBufferSize,size,wxASSERT]
+GetRMS call:[FindBlock,GetMinMaxRMS,GetSampleCount,as_double,as_size_t,limitSampleBufferSize,size,sqrt,wxASSERT] noreturn:[sqrt]
+Copy call:[Append,AppendBlock,ConsistencyCheck,FindBlock,Get,GetSampleCount,as_size_t,buffer,ensureSampleBufferSize,get,min,ptr,reserve,size,wxASSERT,wxT,wxUnusedVar] noreturn:[Append,AppendBlock]
+Overflows call:[wxLL] noreturn:[wxLL]
+ShareOrCopySampleBlock call:[Create,GetSampleCount,GetSamples,ptr] noreturn:[Create]
+Paste call:[AppendBlock,Blockify,CommitChangesIfConsistent,ConsistencyCheck,Create,Debug,FindBlock,Get,GetSampleCount,GetSampleFormatStr,Overflows,Plus,Read,SAMPLE_SIZE,SeqBlock,ShareOrCopySampleBlock,ToString,as_double,as_size_t,back,begin,buffer,end,get,insert,max,ptr,push_back,reserve,sampleBuffer,size,sumBuffer,wxASSERT,wxLogError,wxT] noreturn:[AppendBlock,Blockify,CommitChangesIfConsistent,push_back]
+SetSilence call:[SetSamples] noreturn:[SetSamples]
+InsertSilence call:[CreateSilent,GetIdealBlockSize,Overflows,Paste,SeqBlock,as_double,as_size_t,push_back,reserve,sTrack] noreturn:[Paste]
+AppendBlock call:[GetSampleCount,Overflows,ShareOrCopySampleBlock,as_double,newBlock,push_back] noreturn:[GetSampleCount]
+GetBlockStart call:[FindBlock]
+GetBestBlockSize call:[FindBlock,GetSampleCount,as_size_t,decltype,size,wxASSERT]
+HandleXMLTag call:[CreateFromXML,IsValidSampleFormat,TryGet,push_back]
+HandleXMLEndTag call:[GetBlockID,GetSampleCount,ToString,as_double,size,wxLogWarning,wxT] noreturn:[GetSampleCount]
+HandleXMLChild
+WriteXML call:[AudacityMessageBox,EndTag,Format,GetSampleCount,SaveXML,StartTag,ToDouble,ToString,Translation,WriteAttr,XO,as_long_long,size,wxLogWarning,wxT] noreturn:[EndTag,wxLogWarning]
+FindBlock call:[GetSampleCount,as_double,long,min,size,wxASSERT]
+Read call:[GetSampleCount,GetSamples,wxASSERT,wxLogWarning,wxT]
+Get call:[ClearSamples,FindBlock,Get] noreturn:[Get]
+Get call:[GetSampleCount,Read,SAMPLE_SIZE,as_size_t,min]
+SetSamples call:[Allocate,ClearSamples,CommitChangesIfConsistent,CopySamples,Create,CreateSilent,FindBlock,GetSampleCount,Read,SAMPLE_SIZE,as_size_t,back,back_inserter,begin,copy,end,ensureSampleBufferSize,limitSampleBufferSize,memcpy,min,ptr,push_back,scratch,size,wxASSERT,wxT] noreturn:[Allocate,ClearSamples,CommitChangesIfConsistent,Create,CreateSilent,memcpy,ptr]
+MinMaxSumsq
+GetWaveDisplay call:[FindBlock,GetSampleCount,GetSummary256,GetSummary64k,Read,as_double,as_size_t,decltype,diff,fill,get,max,min,sampleCount,size,sqrt,values,wxASSERT]
+GetIdealAppendLen call:[GetMaxBlockSize,GetSampleCount,back,size]
+AppendNewBlock call:[DoAppend] noreturn:[DoAppend]
+AppendSharedBlock call:[AppendBlocksIfConsistent,ConsistencyCheck,GetSampleCount,Overflows,as_double,emplace_back,wxT] noreturn:[ConsistencyCheck]
+Append call:[DoAppend] noreturn:[DoAppend]
+DoAppend call:[AppendBlocksIfConsistent,ConsistencyCheck,CopySamples,Create,GetIdealBlockSize,GetSampleCount,Overflows,Read,SAMPLE_SIZE,SeqBlock,as_double,back,buffer2,decltype,min,newLastBlock,ptr,push_back,size,wxASSERT,wxT] noreturn:[Create]
+Blockify call:[Create,SAMPLE_SIZE,decltype,push_back,reserve,size] noreturn:[push_back]
+Delete call:[Allocate,Blockify,CommitChangesIfConsistent,ConsistencyCheck,Create,FindBlock,GetSampleCount,Plus,Read,SAMPLE_SIZE,SeqBlock,as_size_t,begin,decltype,end,ensureSampleBufferSize,insert,limitSampleBufferSize,pop_back,ptr,push_back,reserve,size,wxASSERT,wxT] noreturn:[Allocate,Blockify,CommitChangesIfConsistent,push_back]
+ConsistencyCheck call:[ConsistencyCheck] noreturn:[ConsistencyCheck]
+CommitChangesIfConsistent call:[ConsistencyCheck,swap]
+AppendBlocksIfConsistent call:[ConsistencyCheck,back,back_inserter,begin,copy,empty,end,finally,pop_back,push_back,resize,size] noreturn:[pop_back,push_back]
+DebugPrintf call:[Format,GetBlockID,GetSampleCount,as_long_long,decltype,size,use_count,wxT] noreturn:[Format,GetSampleCount,wxT]
+SetMaxDiskBlockSize
+GetMaxDiskBlockSize
+IsValidSampleFormat call:[return]

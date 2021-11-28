@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="818595481">
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;y2&apos; can be reduced." verbose="The scope of the variable &apos;y2&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\EnvelopeEditor.cpp" line="65" column="17"/>
+            <symbol>y2</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:38:16" call-funcname="SetVal" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h" line="50" col="22" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="67" col="25" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="73" col="29" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp:26:6" call-funcname="DrawPoint" call-argnr="5" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="86" col="22" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="6" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="89" col="28" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="89" col="28" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="6" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="91" col="29" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="91" col="29" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp:26:6" call-funcname="DrawPoint" call-argnr="5" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="95" col="25" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="191" col="28" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="193" col="28" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="6" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="197" col="28" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="197" col="28" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="6" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="199" col="28" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="199" col="28" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="6" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="235" col="27" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="235" col="27" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="6" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="237" col="27" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="237" col="27" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="240" col="29" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="242" col="29" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Class">
+<class name="EnvPoint" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h" line="29" col="1" hash="1145131465045532602"/>
+<class name="BoundedEnvelope" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h" line="284" col="1" hash="7432242539348378838"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:38:16" call-funcname="SetVal" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h" line="50" col="22" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="67" col="25" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="73" col="29" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp:26:6" call-funcname="DrawPoint" call-argnr="5" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="86" col="22" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="6" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="89" col="28" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="89" col="28" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="6" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="91" col="29" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="91" col="29" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp:26:6" call-funcname="DrawPoint" call-argnr="5" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="95" col="25" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="191" col="28" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="193" col="28" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="6" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="197" col="28" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="197" col="28" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="6" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="199" col="28" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="199" col="28" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="6" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="235" col="27" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="235" col="27" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="6" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="237" col="27" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="237" col="27" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="240" col="29" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="242" col="29" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Class">
+<class name="EnvPoint" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h" line="29" col="1" hash="1145131465045532602"/>
+<class name="BoundedEnvelope" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h" line="284" col="1" hash="7432242539348378838"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:38:16" call-funcname="SetVal" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h" line="50" col="22" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="67" col="25" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="73" col="29" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp:26:6" call-funcname="DrawPoint" call-argnr="5" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="86" col="22" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="6" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="89" col="28" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="89" col="28" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="6" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="91" col="29" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="91" col="29" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp:26:6" call-funcname="DrawPoint" call-argnr="5" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="95" col="25" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="191" col="28" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="193" col="28" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="6" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="197" col="28" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="197" col="28" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="6" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="199" col="28" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="199" col="28" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="6" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="235" col="27" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="235" col="27" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="6" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="237" col="27" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="237" col="27" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="240" col="29" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="242" col="29" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Class">
+<class name="EnvPoint" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h" line="29" col="1" hash="1145131465045532602"/>
+<class name="BoundedEnvelope" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h" line="284" col="1" hash="7432242539348378838"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h:38:16" call-funcname="SetVal" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h" line="50" col="22" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="67" col="25" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="73" col="29" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp:26:6" call-funcname="DrawPoint" call-argnr="5" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="86" col="22" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="6" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="89" col="28" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="89" col="28" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="6" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="91" col="29" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="91" col="29" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp:26:6" call-funcname="DrawPoint" call-argnr="5" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="95" col="25" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="191" col="28" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="193" col="28" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="6" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="197" col="28" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="197" col="28" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="6" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="199" col="28" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="199" col="28" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="6" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="235" col="27" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="235" col="27" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="6" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="237" col="27" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="237" col="27" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="240" col="29" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackArtist.h:167:29" call-funcname="GetWaveYPos" call-argnr="8" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/EnvelopeEditor.cpp" line="242" col="29" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Class">
+<class name="EnvPoint" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h" line="29" col="1" hash="1145131465045532602"/>
+<class name="BoundedEnvelope" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Envelope.h" line="284" col="1" hash="7432242539348378838"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="DrawPoint" lineNumber="26"/>
+    <functiondecl functionName="DrawPoints" lineNumber="35"/>
+    <functiondecl functionName="SQR" lineNumber="126"/>
+    <functiondecl functionName="ValueOfPixel" lineNumber="136"/>
+    <functiondecl functionName="HandleMouseButtonDown" lineNumber="156"/>
+    <functiondecl functionName="MoveDragPoint" lineNumber="272"/>
+    <functiondecl functionName="HandleMouseButtonUp" lineNumber="319"/>
+    <functiondecl functionName="MouseEvent" lineNumber="327"/>
+    <functiondecl functionName="DrawPoint" lineNumber="26"/>
+    <functiondecl functionName="DrawPoints" lineNumber="35"/>
+    <functiondecl functionName="SQR" lineNumber="126"/>
+    <functiondecl functionName="ValueOfPixel" lineNumber="136"/>
+    <functiondecl functionName="HandleMouseButtonDown" lineNumber="156"/>
+    <functiondecl functionName="MoveDragPoint" lineNumber="272"/>
+    <functiondecl functionName="HandleMouseButtonUp" lineNumber="319"/>
+    <functiondecl functionName="MouseEvent" lineNumber="327"/>
+    <functiondecl functionName="DrawPoint" lineNumber="26"/>
+    <functiondecl functionName="DrawPoints" lineNumber="35"/>
+    <functiondecl functionName="SQR" lineNumber="126"/>
+    <functiondecl functionName="ValueOfPixel" lineNumber="136"/>
+    <functiondecl functionName="HandleMouseButtonDown" lineNumber="156"/>
+    <functiondecl functionName="MoveDragPoint" lineNumber="272"/>
+    <functiondecl functionName="HandleMouseButtonUp" lineNumber="319"/>
+    <functiondecl functionName="MouseEvent" lineNumber="327"/>
+    <functiondecl functionName="DrawPoint" lineNumber="26"/>
+    <functiondecl functionName="DrawPoints" lineNumber="35"/>
+    <functiondecl functionName="SQR" lineNumber="126"/>
+    <functiondecl functionName="ValueOfPixel" lineNumber="136"/>
+    <functiondecl functionName="HandleMouseButtonDown" lineNumber="156"/>
+    <functiondecl functionName="MoveDragPoint" lineNumber="272"/>
+    <functiondecl functionName="HandleMouseButtonUp" lineNumber="319"/>
+    <functiondecl functionName="MouseEvent" lineNumber="327"/>
+    <functioncall functionName="ButtonDown"/>
+    <functioncall functionName="ButtonUp"/>
+    <functioncall functionName="ClampValue"/>
+    <functioncall functionName="ClearDragPoint"/>
+    <functioncall functionName="Contains"/>
+    <functioncall functionName="Dragging"/>
+    <functioncall functionName="DrawEllipse"/>
+    <functioncall functionName="DrawPoint"/>
+    <functioncall functionName="EnvPoint"/>
+    <functioncall functionName="Envelope"/>
+    <functioncall functionName="EnvelopeEditor"/>
+    <functioncall functionName="EnvelopeHandle"/>
+    <functioncall functionName="Get"/>
+    <functioncall functionName="GetBottom"/>
+    <functioncall functionName="GetButton"/>
+    <functioncall functionName="GetDragPoint"/>
+    <functioncall functionName="GetDragPointValid"/>
+    <functioncall functionName="GetEnvelope"/>
+    <functioncall functionName="GetNumberOfPoints"/>
+    <functioncall functionName="GetOffset"/>
+    <functioncall functionName="GetT"/>
+    <functioncall functionName="GetVal"/>
+    <functioncall functionName="GetValue"/>
+    <functioncall functionName="GetWaveYPos"/>
+    <functioncall functionName="HandleDragging"/>
+    <functioncall functionName="HandleMouseButtonDown"/>
+    <functioncall functionName="HandleMouseButtonUp"/>
+    <functioncall functionName="Inflate"/>
+    <functioncall functionName="InsertOrReplace"/>
+    <functioncall functionName="InsertOrReplaceRelative"/>
+    <functioncall functionName="MoveDragPoint"/>
+    <functioncall functionName="NPasses"/>
+    <functioncall functionName="PassBackground"/>
+    <functioncall functionName="PassBorders"/>
+    <functioncall functionName="PassControls"/>
+    <functioncall functionName="PassFocus"/>
+    <functioncall functionName="PassMargins"/>
+    <functioncall functionName="PassSnapping"/>
+    <functioncall functionName="PassTracks"/>
+    <functioncall functionName="PassZooming"/>
+    <functioncall functionName="PositionToTime"/>
+    <functioncall functionName="SQR"/>
+    <functioncall functionName="SetBrush"/>
+    <functioncall functionName="SetDragPoint"/>
+    <functioncall functionName="SetDragPointValid"/>
+    <functioncall functionName="SetPen"/>
+    <functioncall functionName="SetT"/>
+    <functioncall functionName="SetVal"/>
+    <functioncall functionName="TimeToPosition"/>
+    <functioncall functionName="TrackArtist"/>
+    <functioncall functionName="TrackPanelDrawingContext"/>
+    <functioncall functionName="UIHandle"/>
+    <functioncall functionName="ValueOfPixel"/>
+    <functioncall functionName="attrs"/>
+    <functioncall functionName="bestNum"/>
+    <functioncall functionName="bool"/>
+    <functioncall functionName="cb"/>
+    <functioncall functionName="circle"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="clip_y"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="context"/>
+    <functioncall functionName="ct"/>
+    <functioncall functionName="dB"/>
+    <functioncall functionName="dBRange"/>
+    <functioncall functionName="dSqr"/>
+    <functioncall functionName="db"/>
+    <functioncall functionName="dc"/>
+    <functioncall functionName="delete"/>
+    <functioncall functionName="dynamic_cast"/>
+    <functioncall functionName="eMax"/>
+    <functioncall functionName="eMin"/>
+    <functioncall functionName="envelope"/>
+    <functioncall functionName="envelopeBrush"/>
+    <functioncall functionName="envelopePen"/>
+    <functioncall functionName="event"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="height"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="index"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="j"/>
+    <functioncall functionName="lower"/>
+    <functioncall functionName="mButton"/>
+    <functioncall functionName="mContourOffset"/>
+    <functioncall functionName="mDirty"/>
+    <functioncall functionName="mEnvelope"/>
+    <functioncall functionName="mMaxValue"/>
+    <functioncall functionName="mMinValue"/>
+    <functioncall functionName="mMirrored"/>
+    <functioncall functionName="mOffset"/>
+    <functioncall functionName="mUpper"/>
+    <functioncall functionName="m_x"/>
+    <functioncall functionName="m_y"/>
+    <functioncall functionName="max"/>
+    <functioncall functionName="min"/>
+    <functioncall functionName="mirrored"/>
+    <functioncall functionName="newVal"/>
+    <functioncall functionName="newWhen"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="origin"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="pEnvelope"/>
+    <functioncall functionName="pZoomInfo"/>
+    <functioncall functionName="pen"/>
+    <functioncall functionName="position"/>
+    <functioncall functionName="r"/>
+    <functioncall functionName="second"/>
+    <functioncall functionName="selectedBrushIn"/>
+    <functioncall functionName="selectedPenIn"/>
+    <functioncall functionName="t"/>
+    <functioncall functionName="tag"/>
+    <functioncall functionName="time"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uglyPen"/>
+    <functioncall functionName="unselectedBrushIn"/>
+    <functioncall functionName="unselectedPenIn"/>
+    <functioncall functionName="upper"/>
+    <functioncall functionName="v"/>
+    <functioncall functionName="val"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="when"/>
+    <functioncall functionName="width"/>
+    <functioncall functionName="wxMOUSE_BTN_NONE"/>
+    <functioncall functionName="x"/>
+    <functioncall functionName="y"/>
+    <functioncall functionName="y2"/>
+    <functioncall functionName="zoomInfo"/>
+    <functioncall functionName="zoomMax"/>
+    <functioncall functionName="zoomMin"/>
+  </FileInfo>
+</analyzerinfo>

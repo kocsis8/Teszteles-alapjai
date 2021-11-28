@@ -1,0 +1,55 @@
+MaximizeWidth
+MaximizeHeight
+GetChangeHighlight
+SetChangeHighlight
+NeedChangeHighlight
+AssignUIHandlePtr call:[NeedChangeHighlight,SetChangeHighlight,lock,move,typeid,wxASSERT]
+FixedIntervals
+MovingIntervals
+AllFixed call:[empty] noreturn:[empty]
+GetTrack
+clear call:[clear]
+IsGripHit
+StopsOnKeystroke
+ContextMenuDelegate
+CommonTrackPanelCell
+FindTrack call:[DoFindTrack] noreturn:[DoFindTrack]
+FindTrack call:[DoFindTrack] noreturn:[DoFindTrack]
+MenuItem
+TextEditHelper
+GetMinimized
+GetCumulativeHeightBefore
+GetExpandedHeight
+SetCumulativeHeightBefore call:[DoSetY] noreturn:[DoSetY]
+SavePlacements
+RestorePlacements
+GetLastHeight
+GetMultiView
+SetMultiView
+SpecCache
+SpecCache
+SpecPxCache
+WaveDisplay
+Allocate call:[resize]
+WaveDisplay
+GetRate
+SetColourIndex
+GetColourIndex
+GetEnvelope call:[get] noreturn:[get]
+GetEnvelope call:[get] noreturn:[get]
+GetSequence call:[get] noreturn:[get]
+GetSequence call:[get] noreturn:[get]
+MarkChanged
+GetCutLines
+GetCutLines
+NumCutLines call:[size] noreturn:[size]
+GetIsPlaceholder
+SetIsPlaceholder
+TrackPanelMouseState
+TrackPanelMouseEvent
+ProjectHistory
+GetDirty
+SetDirty
+WaveTrackAffordanceHandle
+Click call:[Click,ClipDetailsVisible,Get,GetSkipped,OnAffordanceClick,Skip] noreturn:[Click,Skip]
+SelectAt call:[Get,GetPlayEndTime,GetPlayStartTime,ModifyState,setTimes]

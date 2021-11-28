@@ -1,0 +1,94 @@
+KeyNode
+WrappedType
+WrappedType
+WrappedType
+WrappedType
+WrappedType
+ConnectRoot call:[move,push_back,void] noreturn:[move]
+ListControlColumn
+StartTwoColumn call:[StartMultiColumn] noreturn:[StartMultiColumn]
+EndTwoColumn call:[EndMultiColumn] noreturn:[EndMultiColumn]
+StartThreeColumn call:[StartMultiColumn] noreturn:[StartMultiColumn]
+EndThreeColumn call:[EndMultiColumn] noreturn:[EndMultiColumn]
+SetBorder
+SetSizerProportion
+GetParent call:[wxASSERT]
+GetSizer
+Focus call:[Focus,move]
+Disable call:[Disable,move]
+ToolTip call:[ToolTip,move]
+Name call:[Name,move]
+NameSuffix call:[NameSuffix,move]
+Validator call:[GetMode,Validator,move] noreturn:[Validator]
+Validator call:[GetMode,move]
+ConnectRoot call:[ConnectRoot,move]
+Position call:[Position,move]
+Size call:[Size,move]
+Prop call:[Prop]
+Style call:[Style,move]
+MinSize call:[MinSize,move]
+MinSize call:[MinSize,move]
+AddSpace call:[AddSpace] noreturn:[AddSpace]
+GetMode
+CommandFlagOptions
+Options
+Options
+Options
+ToolbarMenuVisitor
+operatorAudacityProject&
+WholeMenu
+MenuItem
+ConditionalGroupItem
+DefaultFinder
+FinderScope
+CommandItem
+CommandGroupItem
+SpecialItem
+MenuPart
+Items
+Section
+Menu
+Menu call:[move]
+ConditionalItems
+ConditionalItems call:[move]
+MenuOrItems call:[Items,empty] noreturn:[Items]
+MenuOrItems call:[Items,empty,move] noreturn:[Items]
+Command
+CommandGroup call:[move]
+Special
+KeyView call:[RecalcExtents,SetMinSize] noreturn:[RecalcExtents]
+KeyView
+GetSelected call:[GetSelection,LineToIndex] noreturn:[LineToIndex]
+GetName call:[GetName] noreturn:[GetName]
+GetLabel call:[size,wxASSERT]
+GetFullLabel call:[empty,size,wxASSERT,wxT]
+GetIndexByName call:[size]
+GetName call:[size,wxASSERT]
+GetNameByKey call:[size]
+GetIndexByKey call:[size]
+GetKey call:[size,wxASSERT]
+CanSetKey call:[size,wxASSERT]
+SetKey call:[Display,GetTextExtent,RecalcExtents,RefreshAll,size,wxASSERT]
+SetKeyByName call:[GetIndexByName,SetKey] noreturn:[SetKey]
+SetView call:[GetSelection,LineToIndex,RefreshLines,SelectNode] noreturn:[SelectNode]
+SetFilter call:[GetSelection,LineToIndex,Lower,RefreshLines,SelectNode] noreturn:[SelectNode]
+ExpandAll call:[RefreshLines,size] noreturn:[RefreshLines]
+CollapseAll call:[RefreshLines,size] noreturn:[RefreshLines]
+RecalcExtents call:[Display,GetTextExtent,UpdateHScroll,empty,size,wxMax,wxT] noreturn:[GetTextExtent,UpdateHScroll,wxMax]
+UpdateHScroll call:[GetClientRect,GetScrollPos,GetWidth,RefreshAll,SetScrollbar] noreturn:[RefreshAll,SetScrollbar]
+RefreshBindings global:[CommandTranslated] call:[Append,Display,GetSelection,GetTextExtent,LineToIndex,RefreshLines,SelectNode,Strip,Translation,UpdateHScroll,_,clear,empty,push_back,size,wxMax,wxT] noreturn:[SelectNode,Translation,_,wxMax]
+RefreshLines global:[CommandTranslated] call:[Display,Find,GetChar,Last,Lower,RefreshAll,SetItemCount,_,begin,clear,empty,end,length,push_back,size,sort,wxT] noreturn:[RefreshAll,push_back]
+SelectNode call:[GetEventHandler,GetId,IndexToLine,ProcessEvent,SetEventObject,SetInt,SetSelection,event] noreturn:[ProcessEvent]
+LineToIndex call:[size]
+IndexToLine call:[size]
+OnDrawBackground call:[DrawFocus,DrawRectangle,FindFocus,GetBottom,GetColour,GetLeft,GetRight,IsSelected,Line,SetBrush,SetPen,wxBrush,wxColour,wxMax] noreturn:[DrawFocus,DrawRectangle,Line]
+OnDrawItem call:[Display,DrawRectangle,DrawText,FindFocus,GetColour,GetFont,IsSelected,Line,SetBrush,SetFont,SetPen,SetTextForeground,empty,wxT] noreturn:[DrawText,Line,SetTextForeground]
+OnSelected call:[Skip] noreturn:[Skip]
+OnSetFocus call:[GetSelection,RefreshRow,Skip] noreturn:[RefreshRow]
+OnKillFocus call:[GetSelection,RefreshRow,Skip] noreturn:[RefreshRow]
+OnScroll call:[GetOrientation,GetPosition,RefreshAll,SetScrollPos,Skip] noreturn:[RefreshAll]
+OnKeyDown call:[Display,GetFullLabel,GetKey,GetKeyCode,GetLabel,GetSelection,GetVisibleBegin,IsSameAs,Left,LineToIndex,RefreshLines,ScrollToRow,SelectNode,Skip,size] noreturn:[Display,GetFullLabel,GetLabel,SelectNode,Skip]
+OnLeftDown call:[GetPosition,GetVisibleBegin,LineToIndex,RefreshLines,ScrollToRow,SelectNode,SetFocus,Skip,VirtualHitTest] noreturn:[Skip]
+CmpKeyNodeByTree global:[CommandTranslated] call:[return] noreturn:[return]
+CmpKeyNodeByName call:[empty,return,wxT] noreturn:[return]
+CmpKeyNodeByKey call:[Display,empty,return,wxT] noreturn:[return,wxT]

@@ -1,0 +1,14 @@
+MaximizeWidth
+MaximizeHeight
+ContextMenuDelegate
+CommonTrackPanelCell
+FindTrack call:[DoFindTrack] noreturn:[DoFindTrack]
+FindTrack call:[DoFindTrack] noreturn:[DoFindTrack]
+MenuItem
+LabelTrackVRulerControls
+HitTestPreview
+HitTestPreview
+SetBackgroundBrushes
+LabelTrackVRulerControls
+Draw call:[BevelTrackInfo,Draw,Inflate] noreturn:[BevelTrackInfo]
+UpdateRuler

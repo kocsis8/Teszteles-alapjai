@@ -1,0 +1,472 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1114103223">
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;AudioTrack&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;AudioTrack&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.h" line="828" column="4"/>
+            <symbol>AudioTrack</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;PlayableTrack&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;PlayableTrack&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.h" line="844" column="4"/>
+            <symbol>PlayableTrack</symbol>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;pTrack&apos; is always true" verbose="Condition &apos;pTrack&apos; is always true" cwe="571" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.h" line="1533" column="14" info="Condition &apos;pTrack&apos; is always true"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.h" line="1531" column="11" info="Assuming that condition &apos;pTrack&apos; is not redundant"/>
+        </error>
+        <error id="shadowFunction" severity="style" msg="Local variable &apos;end&apos; shadows outer function" verbose="Local variable &apos;end&apos; shadows outer function" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.cpp" line="1180" column="18" info="Shadow variable"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.h" line="1311" column="13" info="Shadowed declaration"/>
+            <symbol>end</symbol>
+        </error>
+        <error id="shadowFunction" severity="style" msg="Local variable &apos;end&apos; shadows outer function" verbose="Local variable &apos;end&apos; shadows outer function" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.cpp" line="1202" column="18" info="Shadow variable"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.h" line="1311" column="13" info="Shadowed declaration"/>
+            <symbol>end</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;holder&apos; is assigned a value that is never used." verbose="Variable &apos;holder&apos; is assigned a value that is never used." cwe="563" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.cpp" line="778" column="42"/>
+            <symbol>holder</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:377:9" call-funcname="SetLinkType" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.cpp" line="406" col="24" call-argexpr="LinkType::None" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:377:9" call-funcname="SetLinkType" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.cpp" line="415" col="21" call-argexpr="LinkType::None" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="16063519710874503347"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="15341379595561148881"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="9070828929643857411"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="11803136193035736208"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="PlayableTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="839" col="1" hash="17301544079443868488"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.cpp" line="0" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:377:9" call-funcname="SetLinkType" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.cpp" line="406" col="24" call-argexpr="LinkType::None" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:377:9" call-funcname="SetLinkType" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.cpp" line="415" col="21" call-argexpr="LinkType::None" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="16063519710874503347"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="15341379595561148881"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="9070828929643857411"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="11803136193035736208"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="PlayableTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="839" col="1" hash="17301544079443868488"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:377:9" call-funcname="SetLinkType" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.cpp" line="406" col="24" call-argexpr="LinkType::None" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:377:9" call-funcname="SetLinkType" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.cpp" line="415" col="21" call-argexpr="LinkType::None" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="16063519710874503347"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="15341379595561148881"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="9070828929643857411"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="11803136193035736208"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="PlayableTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="839" col="1" hash="17301544079443868488"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:377:9" call-funcname="SetLinkType" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.cpp" line="406" col="24" call-argexpr="LinkType::None" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:377:9" call-funcname="SetLinkType" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.cpp" line="415" col="21" call-argexpr="LinkType::None" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="16063519710874503347"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="15341379595561148881"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="9070828929643857411"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="11803136193035736208"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="PlayableTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="839" col="1" hash="17301544079443868488"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:377:9" call-funcname="SetLinkType" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.cpp" line="406" col="24" call-argexpr="LinkType::None" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:377:9" call-funcname="SetLinkType" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.cpp" line="415" col="21" call-argexpr="LinkType::None" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="16063519710874503347"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="15341379595561148881"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="9070828929643857411"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="11803136193035736208"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="PlayableTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="839" col="1" hash="17301544079443868488"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="Init" lineNumber="69"/>
+    <functiondecl functionName="SetName" lineNumber="81"/>
+    <functiondecl functionName="SetSelected" lineNumber="89"/>
+    <functiondecl functionName="EnsureVisible" lineNumber="99"/>
+    <functiondecl functionName="Merge" lineNumber="106"/>
+    <functiondecl functionName="Duplicate" lineNumber="111"/>
+    <functiondecl functionName="GetNode" lineNumber="129"/>
+    <functiondecl functionName="SetOwner" lineNumber="135"/>
+    <functiondecl functionName="GetIndex" lineNumber="144"/>
+    <functiondecl functionName="SetIndex" lineNumber="149"/>
+    <functiondecl functionName="SetLinkType" lineNumber="154"/>
+    <functiondecl functionName="DoSetLinkType" lineNumber="173"/>
+    <functiondecl functionName="SetChannel" lineNumber="178"/>
+    <functiondecl functionName="GetLinkedTrack" lineNumber="183"/>
+    <functiondecl functionName="HasLinkedTrack" lineNumber="209"/>
+    <functiondecl functionName="IsSyncLockableNonLabelTrack" lineNumber="215"/>
+    <functiondecl functionName="IsGoodNextSyncLockTrack" lineNumber="220"/>
+    <functiondecl functionName="IsSyncLockSelected" lineNumber="234"/>
+    <functiondecl functionName="Notify" lineNumber="266"/>
+    <functiondecl functionName="SyncLockAdjust" lineNumber="273"/>
+    <functiondecl functionName="Init" lineNumber="291"/>
+    <functiondecl functionName="Merge" lineNumber="298"/>
+    <functiondecl functionName="SetMute" lineNumber="307"/>
+    <functiondecl functionName="SetSolo" lineNumber="315"/>
+    <functiondecl functionName="WriteXMLAttributes" lineNumber="324"/>
+    <functiondecl functionName="HandleXMLAttribute" lineNumber="332"/>
+    <functiondecl functionName="Any" lineNumber="348"/>
+    <functiondecl functionName="IsSelected" lineNumber="351"/>
+    <functiondecl functionName="IsSelectedOrSyncLockSelected" lineNumber="354"/>
+    <functiondecl functionName="IsLeader" lineNumber="357"/>
+    <functiondecl functionName="IsSelectedLeader" lineNumber="362"/>
+    <functiondecl functionName="FinishCopy" lineNumber="365"/>
+    <functiondecl functionName="LinkConsistencyCheck" lineNumber="375"/>
+    <functiondecl functionName="Accumulate" lineNumber="990"/>
+    <functiondecl functionName="SubstitutePendingChangedTrack" lineNumber="1174"/>
+    <functiondecl functionName="SubstitutePendingChangedTrack" lineNumber="1190"/>
+    <functiondecl functionName="SubstituteOriginalTrack" lineNumber="1195"/>
+    <functiondecl functionName="SupportsBasicEditing" lineNumber="1215"/>
+    <functiondecl functionName="GetIntervals" lineNumber="1220"/>
+    <functiondecl functionName="GetIntervals" lineNumber="1225"/>
+    <functiondecl functionName="WriteCommonXMLAttributes" lineNumber="1231"/>
+    <functiondecl functionName="HandleCommonXMLAttribute" lineNumber="1244"/>
+    <functiondecl functionName="AdjustPositions" lineNumber="1266"/>
+    <functiondecl functionName="GetLinkType" lineNumber="1288"/>
+    <functiondecl functionName="IsAlignedWithLeader" lineNumber="1293"/>
+    <functiondecl functionName="Init" lineNumber="69"/>
+    <functiondecl functionName="SetName" lineNumber="81"/>
+    <functiondecl functionName="SetSelected" lineNumber="89"/>
+    <functiondecl functionName="EnsureVisible" lineNumber="99"/>
+    <functiondecl functionName="Merge" lineNumber="106"/>
+    <functiondecl functionName="Duplicate" lineNumber="111"/>
+    <functiondecl functionName="GetNode" lineNumber="129"/>
+    <functiondecl functionName="SetOwner" lineNumber="135"/>
+    <functiondecl functionName="GetIndex" lineNumber="144"/>
+    <functiondecl functionName="SetIndex" lineNumber="149"/>
+    <functiondecl functionName="SetLinkType" lineNumber="154"/>
+    <functiondecl functionName="DoSetLinkType" lineNumber="173"/>
+    <functiondecl functionName="SetChannel" lineNumber="178"/>
+    <functiondecl functionName="GetLinkedTrack" lineNumber="183"/>
+    <functiondecl functionName="HasLinkedTrack" lineNumber="209"/>
+    <functiondecl functionName="IsSyncLockableNonLabelTrack" lineNumber="215"/>
+    <functiondecl functionName="IsGoodNextSyncLockTrack" lineNumber="220"/>
+    <functiondecl functionName="IsSyncLockSelected" lineNumber="234"/>
+    <functiondecl functionName="Notify" lineNumber="266"/>
+    <functiondecl functionName="SyncLockAdjust" lineNumber="273"/>
+    <functiondecl functionName="Init" lineNumber="291"/>
+    <functiondecl functionName="Merge" lineNumber="298"/>
+    <functiondecl functionName="SetMute" lineNumber="307"/>
+    <functiondecl functionName="SetSolo" lineNumber="315"/>
+    <functiondecl functionName="WriteXMLAttributes" lineNumber="324"/>
+    <functiondecl functionName="HandleXMLAttribute" lineNumber="332"/>
+    <functiondecl functionName="Any" lineNumber="348"/>
+    <functiondecl functionName="IsSelected" lineNumber="351"/>
+    <functiondecl functionName="IsSelectedOrSyncLockSelected" lineNumber="354"/>
+    <functiondecl functionName="IsLeader" lineNumber="357"/>
+    <functiondecl functionName="IsSelectedLeader" lineNumber="362"/>
+    <functiondecl functionName="FinishCopy" lineNumber="365"/>
+    <functiondecl functionName="LinkConsistencyCheck" lineNumber="375"/>
+    <functiondecl functionName="Accumulate" lineNumber="990"/>
+    <functiondecl functionName="SubstitutePendingChangedTrack" lineNumber="1174"/>
+    <functiondecl functionName="SubstitutePendingChangedTrack" lineNumber="1190"/>
+    <functiondecl functionName="SubstituteOriginalTrack" lineNumber="1195"/>
+    <functiondecl functionName="SupportsBasicEditing" lineNumber="1215"/>
+    <functiondecl functionName="GetIntervals" lineNumber="1220"/>
+    <functiondecl functionName="GetIntervals" lineNumber="1225"/>
+    <functiondecl functionName="WriteCommonXMLAttributes" lineNumber="1231"/>
+    <functiondecl functionName="HandleCommonXMLAttribute" lineNumber="1244"/>
+    <functiondecl functionName="AdjustPositions" lineNumber="1266"/>
+    <functiondecl functionName="GetLinkType" lineNumber="1288"/>
+    <functiondecl functionName="IsAlignedWithLeader" lineNumber="1293"/>
+    <functiondecl functionName="Init" lineNumber="69"/>
+    <functiondecl functionName="SetName" lineNumber="81"/>
+    <functiondecl functionName="SetSelected" lineNumber="89"/>
+    <functiondecl functionName="EnsureVisible" lineNumber="99"/>
+    <functiondecl functionName="Merge" lineNumber="106"/>
+    <functiondecl functionName="Duplicate" lineNumber="111"/>
+    <functiondecl functionName="GetNode" lineNumber="129"/>
+    <functiondecl functionName="SetOwner" lineNumber="135"/>
+    <functiondecl functionName="GetIndex" lineNumber="144"/>
+    <functiondecl functionName="SetIndex" lineNumber="149"/>
+    <functiondecl functionName="SetLinkType" lineNumber="154"/>
+    <functiondecl functionName="DoSetLinkType" lineNumber="173"/>
+    <functiondecl functionName="SetChannel" lineNumber="178"/>
+    <functiondecl functionName="GetLinkedTrack" lineNumber="183"/>
+    <functiondecl functionName="HasLinkedTrack" lineNumber="209"/>
+    <functiondecl functionName="IsSyncLockableNonLabelTrack" lineNumber="215"/>
+    <functiondecl functionName="IsGoodNextSyncLockTrack" lineNumber="220"/>
+    <functiondecl functionName="IsSyncLockSelected" lineNumber="234"/>
+    <functiondecl functionName="Notify" lineNumber="266"/>
+    <functiondecl functionName="SyncLockAdjust" lineNumber="273"/>
+    <functiondecl functionName="Init" lineNumber="291"/>
+    <functiondecl functionName="Merge" lineNumber="298"/>
+    <functiondecl functionName="SetMute" lineNumber="307"/>
+    <functiondecl functionName="SetSolo" lineNumber="315"/>
+    <functiondecl functionName="WriteXMLAttributes" lineNumber="324"/>
+    <functiondecl functionName="HandleXMLAttribute" lineNumber="332"/>
+    <functiondecl functionName="Any" lineNumber="348"/>
+    <functiondecl functionName="IsSelected" lineNumber="351"/>
+    <functiondecl functionName="IsSelectedOrSyncLockSelected" lineNumber="354"/>
+    <functiondecl functionName="IsLeader" lineNumber="357"/>
+    <functiondecl functionName="IsSelectedLeader" lineNumber="362"/>
+    <functiondecl functionName="FinishCopy" lineNumber="365"/>
+    <functiondecl functionName="LinkConsistencyCheck" lineNumber="375"/>
+    <functiondecl functionName="Accumulate" lineNumber="990"/>
+    <functiondecl functionName="SubstitutePendingChangedTrack" lineNumber="1174"/>
+    <functiondecl functionName="SubstitutePendingChangedTrack" lineNumber="1190"/>
+    <functiondecl functionName="SubstituteOriginalTrack" lineNumber="1195"/>
+    <functiondecl functionName="SupportsBasicEditing" lineNumber="1215"/>
+    <functiondecl functionName="GetIntervals" lineNumber="1220"/>
+    <functiondecl functionName="GetIntervals" lineNumber="1225"/>
+    <functiondecl functionName="WriteCommonXMLAttributes" lineNumber="1231"/>
+    <functiondecl functionName="HandleCommonXMLAttribute" lineNumber="1244"/>
+    <functiondecl functionName="AdjustPositions" lineNumber="1266"/>
+    <functiondecl functionName="GetLinkType" lineNumber="1288"/>
+    <functiondecl functionName="IsAlignedWithLeader" lineNumber="1293"/>
+    <functiondecl functionName="Init" lineNumber="69"/>
+    <functiondecl functionName="SetName" lineNumber="81"/>
+    <functiondecl functionName="SetSelected" lineNumber="89"/>
+    <functiondecl functionName="EnsureVisible" lineNumber="99"/>
+    <functiondecl functionName="Merge" lineNumber="106"/>
+    <functiondecl functionName="Duplicate" lineNumber="111"/>
+    <functiondecl functionName="GetNode" lineNumber="129"/>
+    <functiondecl functionName="SetOwner" lineNumber="135"/>
+    <functiondecl functionName="GetIndex" lineNumber="144"/>
+    <functiondecl functionName="SetIndex" lineNumber="149"/>
+    <functiondecl functionName="SetLinkType" lineNumber="154"/>
+    <functiondecl functionName="DoSetLinkType" lineNumber="173"/>
+    <functiondecl functionName="SetChannel" lineNumber="178"/>
+    <functiondecl functionName="GetLinkedTrack" lineNumber="183"/>
+    <functiondecl functionName="HasLinkedTrack" lineNumber="209"/>
+    <functiondecl functionName="IsSyncLockableNonLabelTrack" lineNumber="215"/>
+    <functiondecl functionName="IsGoodNextSyncLockTrack" lineNumber="220"/>
+    <functiondecl functionName="IsSyncLockSelected" lineNumber="234"/>
+    <functiondecl functionName="Notify" lineNumber="266"/>
+    <functiondecl functionName="SyncLockAdjust" lineNumber="273"/>
+    <functiondecl functionName="Init" lineNumber="291"/>
+    <functiondecl functionName="Merge" lineNumber="298"/>
+    <functiondecl functionName="SetMute" lineNumber="307"/>
+    <functiondecl functionName="SetSolo" lineNumber="315"/>
+    <functiondecl functionName="WriteXMLAttributes" lineNumber="324"/>
+    <functiondecl functionName="HandleXMLAttribute" lineNumber="332"/>
+    <functiondecl functionName="Any" lineNumber="348"/>
+    <functiondecl functionName="IsSelected" lineNumber="351"/>
+    <functiondecl functionName="IsSelectedOrSyncLockSelected" lineNumber="354"/>
+    <functiondecl functionName="IsLeader" lineNumber="357"/>
+    <functiondecl functionName="IsSelectedLeader" lineNumber="362"/>
+    <functiondecl functionName="FinishCopy" lineNumber="365"/>
+    <functiondecl functionName="LinkConsistencyCheck" lineNumber="375"/>
+    <functiondecl functionName="Accumulate" lineNumber="990"/>
+    <functiondecl functionName="SubstitutePendingChangedTrack" lineNumber="1174"/>
+    <functiondecl functionName="SubstitutePendingChangedTrack" lineNumber="1190"/>
+    <functiondecl functionName="SubstituteOriginalTrack" lineNumber="1195"/>
+    <functiondecl functionName="SupportsBasicEditing" lineNumber="1215"/>
+    <functiondecl functionName="GetIntervals" lineNumber="1220"/>
+    <functiondecl functionName="GetIntervals" lineNumber="1225"/>
+    <functiondecl functionName="WriteCommonXMLAttributes" lineNumber="1231"/>
+    <functiondecl functionName="HandleCommonXMLAttribute" lineNumber="1244"/>
+    <functiondecl functionName="AdjustPositions" lineNumber="1266"/>
+    <functiondecl functionName="GetLinkType" lineNumber="1288"/>
+    <functiondecl functionName="IsAlignedWithLeader" lineNumber="1293"/>
+    <functiondecl functionName="Init" lineNumber="69"/>
+    <functiondecl functionName="SetName" lineNumber="81"/>
+    <functiondecl functionName="SetSelected" lineNumber="89"/>
+    <functiondecl functionName="EnsureVisible" lineNumber="99"/>
+    <functiondecl functionName="Merge" lineNumber="106"/>
+    <functiondecl functionName="Duplicate" lineNumber="111"/>
+    <functiondecl functionName="GetNode" lineNumber="129"/>
+    <functiondecl functionName="SetOwner" lineNumber="135"/>
+    <functiondecl functionName="GetIndex" lineNumber="144"/>
+    <functiondecl functionName="SetIndex" lineNumber="149"/>
+    <functiondecl functionName="SetLinkType" lineNumber="154"/>
+    <functiondecl functionName="DoSetLinkType" lineNumber="173"/>
+    <functiondecl functionName="SetChannel" lineNumber="178"/>
+    <functiondecl functionName="GetLinkedTrack" lineNumber="183"/>
+    <functiondecl functionName="HasLinkedTrack" lineNumber="209"/>
+    <functiondecl functionName="IsSyncLockableNonLabelTrack" lineNumber="215"/>
+    <functiondecl functionName="IsGoodNextSyncLockTrack" lineNumber="220"/>
+    <functiondecl functionName="IsSyncLockSelected" lineNumber="234"/>
+    <functiondecl functionName="Notify" lineNumber="266"/>
+    <functiondecl functionName="SyncLockAdjust" lineNumber="273"/>
+    <functiondecl functionName="Init" lineNumber="291"/>
+    <functiondecl functionName="Merge" lineNumber="298"/>
+    <functiondecl functionName="SetMute" lineNumber="307"/>
+    <functiondecl functionName="SetSolo" lineNumber="315"/>
+    <functiondecl functionName="WriteXMLAttributes" lineNumber="324"/>
+    <functiondecl functionName="HandleXMLAttribute" lineNumber="332"/>
+    <functiondecl functionName="Any" lineNumber="348"/>
+    <functiondecl functionName="IsSelected" lineNumber="351"/>
+    <functiondecl functionName="IsSelectedOrSyncLockSelected" lineNumber="354"/>
+    <functiondecl functionName="IsLeader" lineNumber="357"/>
+    <functiondecl functionName="IsSelectedLeader" lineNumber="362"/>
+    <functiondecl functionName="FinishCopy" lineNumber="365"/>
+    <functiondecl functionName="LinkConsistencyCheck" lineNumber="375"/>
+    <functiondecl functionName="Accumulate" lineNumber="990"/>
+    <functiondecl functionName="SubstitutePendingChangedTrack" lineNumber="1174"/>
+    <functiondecl functionName="SubstitutePendingChangedTrack" lineNumber="1190"/>
+    <functiondecl functionName="SubstituteOriginalTrack" lineNumber="1195"/>
+    <functiondecl functionName="SupportsBasicEditing" lineNumber="1215"/>
+    <functiondecl functionName="GetIntervals" lineNumber="1220"/>
+    <functiondecl functionName="GetIntervals" lineNumber="1225"/>
+    <functiondecl functionName="WriteCommonXMLAttributes" lineNumber="1231"/>
+    <functiondecl functionName="HandleCommonXMLAttribute" lineNumber="1244"/>
+    <functiondecl functionName="AdjustPositions" lineNumber="1266"/>
+    <functiondecl functionName="GetLinkType" lineNumber="1288"/>
+    <functiondecl functionName="IsAlignedWithLeader" lineNumber="1293"/>
+    <functioncall functionName="Aligned"/>
+    <functioncall functionName="All"/>
+    <functioncall functionName="Audio"/>
+    <functioncall functionName="ConstTrackInterval"/>
+    <functioncall functionName="GetOwner"/>
+    <functioncall functionName="Here"/>
+    <functioncall functionName="Label"/>
+    <functioncall functionName="None"/>
+    <functioncall functionName="NotHere"/>
+    <functioncall functionName="Note"/>
+    <functioncall functionName="Pair"/>
+    <functioncall functionName="Playable"/>
+    <functioncall functionName="Rest"/>
+    <functioncall functionName="ShallowCopying"/>
+    <functioncall functionName="SharedPointer"/>
+    <functioncall functionName="Subclass"/>
+    <functioncall functionName="T"/>
+    <functioncall functionName="Time"/>
+    <functioncall functionName="Track"/>
+    <functioncall functionName="TrackAttachment"/>
+    <functioncall functionName="TrackInterval"/>
+    <functioncall functionName="TrackIntervalData"/>
+    <functioncall functionName="TrackKind"/>
+    <functioncall functionName="TrackList"/>
+    <functioncall functionName="TrackType"/>
+    <functioncall functionName="Wave"/>
+    <functioncall functionName="bool"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="id"/>
+    <functioncall functionName="is_const"/>
+    <functioncall functionName="is_pointer"/>
+    <functioncall functionName="list"/>
+    <functioncall functionName="lock"/>
+    <functioncall functionName="mValue"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="noexcept"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="pExtra"/>
+    <functioncall functionName="remove_pointer"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="shared_from_this"/>
+    <functioncall functionName="shared_ptr"/>
+    <functioncall functionName="start"/>
+    <functioncall functionName="static_cast"/>
+    <functioncall functionName="static_pointer_cast"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="typename"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="wxASSERT"/>
+  </FileInfo>
+</analyzerinfo>

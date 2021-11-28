@@ -1,0 +1,1041 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2015715659">
+        <error id="missingReturn" severity="error" msg="Found a exit path from function with non-void return type that has missing return statement" verbose="Found a exit path from function with non-void return type that has missing return statement" cwe="758" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandManager.h" line="444" column="11"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found a exit path from function with non-void return type that has missing return statement" verbose="Found a exit path from function with non-void return type that has missing return statement" cwe="758" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandManager.h" line="518" column="8"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found a exit path from function with non-void return type that has missing return statement" verbose="Found a exit path from function with non-void return type that has missing return statement" cwe="758" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandManager.h" line="552" column="8"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;KeyView&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;KeyView&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\KeyView.h" line="75" column="4"/>
+            <symbol>KeyView</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;ListControlColumn&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;ListControlColumn&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\ShuttleGui.h" line="305" column="7"/>
+            <symbol>ListControlColumn</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;CommandFlagOptions&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;CommandFlagOptions&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandFlag.h" line="45" column="4"/>
+            <symbol>CommandFlagOptions</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;ReservedCommandFlag&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;ReservedCommandFlag&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandFlag.h" line="92" column="4"/>
+            <symbol>ReservedCommandFlag</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;RegisteredMenuItemEnabler&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;RegisteredMenuItemEnabler&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandFlag.h" line="120" column="4"/>
+            <symbol>RegisteredMenuItemEnabler</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;Options&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;Options&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandManager.h" line="102" column="7"/>
+            <symbol>Options</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;node&apos; can be reduced." verbose="The scope of the variable &apos;node&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\KeyView.cpp" line="422" column="17"/>
+            <symbol>node</symbol>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &apos;items_&apos; should be passed by const reference." verbose="Parameter &apos;items_&apos; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandManager.h" line="544" column="56"/>
+            <symbol>items_</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:118:8" call-funcname="LineToIndex" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="462" col="29" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:118:8" call-funcname="LineToIndex" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="495" col="29" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:116:9" call-funcname="RefreshLines" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="838" col="16" call-argexpr="bSort" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\KeyView.cpp" line="841" col="41" info="Assuming that condition &apos;bSort&apos; is not redundant"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:118:8" call-funcname="LineToIndex" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="843" col="29" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Class">
+<class name="ShuttleGuiBase::ListControlColumn" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h" line="304" col="4" hash="14673252838067708290"/>
+<class name="MenuItemEnabler" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandFlag.h" line="107" col="1" hash="14159699270193996497"/>
+<class name="ToolbarMenuVisitor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.h" line="408" col="1" hash="15600188875927896873"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:134:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1701" col="8" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:134:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1705" col="8" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:135:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1724" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:135:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1725" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:136:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1758" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:136:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1759" col="18" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h:174:9" my-argnr="2" my-argname="func" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h" line="186" col="60" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:134:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1701" col="8" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:134:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1705" col="8" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:135:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1724" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:135:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1725" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:136:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1758" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:136:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1759" col="18" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:118:8" call-funcname="LineToIndex" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="462" col="29" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:118:8" call-funcname="LineToIndex" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="495" col="29" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:116:9" call-funcname="RefreshLines" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="838" col="16" call-argexpr="bSort" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\KeyView.cpp" line="841" col="41" info="Assuming that condition &apos;bSort&apos; is not redundant"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:118:8" call-funcname="LineToIndex" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="843" col="29" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Class">
+<class name="ShuttleGuiBase::ListControlColumn" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h" line="304" col="4" hash="14673252838067708290"/>
+<class name="MenuItemEnabler" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandFlag.h" line="107" col="1" hash="14159699270193996497"/>
+<class name="ToolbarMenuVisitor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.h" line="408" col="1" hash="15600188875927896873"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:134:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1701" col="8" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:134:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1705" col="8" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:135:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1724" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:135:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1725" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:136:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1758" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:136:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1759" col="18" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h:174:9" my-argnr="2" my-argname="func" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h" line="186" col="60" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:134:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1701" col="8" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:134:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1705" col="8" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:135:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1724" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:135:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1725" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:136:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1758" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:136:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1759" col="18" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:118:8" call-funcname="LineToIndex" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="462" col="29" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:118:8" call-funcname="LineToIndex" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="495" col="29" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:116:9" call-funcname="RefreshLines" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="838" col="16" call-argexpr="bSort" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\KeyView.cpp" line="841" col="41" info="Assuming that condition &apos;bSort&apos; is not redundant"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:118:8" call-funcname="LineToIndex" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="843" col="29" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Class">
+<class name="ShuttleGuiBase::ListControlColumn" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h" line="304" col="4" hash="14673252838067708290"/>
+<class name="MenuItemEnabler" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandFlag.h" line="107" col="1" hash="14159699270193996497"/>
+<class name="ToolbarMenuVisitor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.h" line="408" col="1" hash="15600188875927896873"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:134:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1701" col="8" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:134:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1705" col="8" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:135:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1724" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:135:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1725" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:136:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1758" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:136:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1759" col="18" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h:174:9" my-argnr="2" my-argname="func" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h" line="186" col="60" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:134:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1701" col="8" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:134:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1705" col="8" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:135:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1724" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:135:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1725" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:136:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1758" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:136:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1759" col="18" value="0"/>
+  </FileInfo>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;wxStaticBoxWrapper&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;wxStaticBoxWrapper&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\ShuttleGui.h" line="88" column="4"/>
+            <symbol>wxStaticBoxWrapper</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:118:8" call-funcname="LineToIndex" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="462" col="29" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:118:8" call-funcname="LineToIndex" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="495" col="29" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:116:9" call-funcname="RefreshLines" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="838" col="16" call-argexpr="bSort" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\KeyView.cpp" line="841" col="41" info="Assuming that condition &apos;bSort&apos; is not redundant"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:118:8" call-funcname="LineToIndex" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="843" col="29" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Class">
+<class name="wxStaticBoxWrapper" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h" line="83" col="1" hash="11949918022325636603"/>
+<class name="ShuttleGuiBase::ListControlColumn" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h" line="304" col="4" hash="14673252838067708290"/>
+<class name="MenuItemEnabler" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandFlag.h" line="107" col="1" hash="14159699270193996497"/>
+<class name="ToolbarMenuVisitor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.h" line="408" col="1" hash="15600188875927896873"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:134:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1701" col="8" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:134:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1705" col="8" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:135:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1724" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:135:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1725" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:136:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1758" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:136:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1759" col="18" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h:174:9" my-argnr="2" my-argname="func" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h" line="186" col="60" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:134:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1701" col="8" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:134:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1705" col="8" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:135:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1724" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:135:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1725" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:136:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1758" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:136:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1759" col="18" value="0"/>
+  </FileInfo>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;WindowAccessible&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;WindowAccessible&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\WindowAccessible.h" line="24" column="4"/>
+            <symbol>WindowAccessible</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;KeyViewAx&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;KeyViewAx&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\KeyView.cpp" line="42" column="4"/>
+            <symbol>KeyViewAx</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:118:8" call-funcname="LineToIndex" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="462" col="29" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:118:8" call-funcname="LineToIndex" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="495" col="29" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:116:9" call-funcname="RefreshLines" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="838" col="16" call-argexpr="bSort" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\KeyView.cpp" line="841" col="41" info="Assuming that condition &apos;bSort&apos; is not redundant"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:118:8" call-funcname="LineToIndex" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="843" col="29" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:118:8" call-funcname="LineToIndex" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1856" col="27" call-argexpr="line" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\KeyView.cpp" line="1851" col="13" info="Assuming that condition &apos;line&lt;0&apos; is not redundant"/>
+</function-call>  </FileInfo>
+  <FileInfo check="Class">
+<class name="ShuttleGuiBase::ListControlColumn" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h" line="304" col="4" hash="14673252838067708290"/>
+<class name="MenuItemEnabler" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandFlag.h" line="107" col="1" hash="14159699270193996497"/>
+<class name="ToolbarMenuVisitor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.h" line="408" col="1" hash="15600188875927896873"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:134:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1701" col="8" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:134:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1705" col="8" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:135:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1724" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:135:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1725" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:136:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1758" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:136:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1759" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp:51:16" my-argnr="3" my-argname="childObject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="2011" col="5" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp:58:16" my-argnr="1" my-argname="childCount" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="2050" col="5" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp:109:16" my-argnr="1" my-argname="selections" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="2216" col="5" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp:116:16" my-argnr="2" my-argname="strValue" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="2283" col="4" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h:174:9" my-argnr="2" my-argname="func" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h" line="186" col="60" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:134:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1701" col="8" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:134:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1705" col="8" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:135:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1724" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:135:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1725" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:136:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1758" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:136:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1759" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp:116:16" my-argnr="2" my-argname="strValue" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="2283" col="4" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:118:8" call-funcname="LineToIndex" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="462" col="29" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:118:8" call-funcname="LineToIndex" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="495" col="29" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:116:9" call-funcname="RefreshLines" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="838" col="16" call-argexpr="bSort" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\KeyView.cpp" line="841" col="41" info="Assuming that condition &apos;bSort&apos; is not redundant"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:118:8" call-funcname="LineToIndex" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="843" col="29" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:118:8" call-funcname="LineToIndex" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1856" col="27" call-argexpr="line" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\KeyView.cpp" line="1851" col="13" info="Assuming that condition &apos;line&lt;0&apos; is not redundant"/>
+</function-call>  </FileInfo>
+  <FileInfo check="Class">
+<class name="wxStaticBoxWrapper" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h" line="83" col="1" hash="11949918022325636603"/>
+<class name="ShuttleGuiBase::ListControlColumn" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h" line="304" col="4" hash="14673252838067708290"/>
+<class name="MenuItemEnabler" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandFlag.h" line="107" col="1" hash="14159699270193996497"/>
+<class name="ToolbarMenuVisitor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.h" line="408" col="1" hash="15600188875927896873"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:134:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1701" col="8" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:134:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1705" col="8" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:135:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1724" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:135:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1725" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:136:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1758" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:136:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1759" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp:51:16" my-argnr="3" my-argname="childObject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="2011" col="5" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp:58:16" my-argnr="1" my-argname="childCount" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="2050" col="5" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp:109:16" my-argnr="1" my-argname="selections" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="2216" col="5" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp:116:16" my-argnr="2" my-argname="strValue" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="2283" col="4" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h:174:9" my-argnr="2" my-argname="func" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h" line="186" col="60" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:134:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1701" col="8" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:134:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1705" col="8" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:135:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1724" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:135:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1725" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:136:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1758" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:136:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1759" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp:116:16" my-argnr="2" my-argname="strValue" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="2283" col="4" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:118:8" call-funcname="LineToIndex" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="462" col="29" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:118:8" call-funcname="LineToIndex" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="495" col="29" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:116:9" call-funcname="RefreshLines" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="838" col="16" call-argexpr="bSort" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\KeyView.cpp" line="841" col="41" info="Assuming that condition &apos;bSort&apos; is not redundant"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:118:8" call-funcname="LineToIndex" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="843" col="29" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:118:8" call-funcname="LineToIndex" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1856" col="27" call-argexpr="line" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\KeyView.cpp" line="1851" col="13" info="Assuming that condition &apos;line&lt;0&apos; is not redundant"/>
+</function-call>  </FileInfo>
+  <FileInfo check="Class">
+<class name="ShuttleGuiBase::ListControlColumn" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h" line="304" col="4" hash="14673252838067708290"/>
+<class name="MenuItemEnabler" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandFlag.h" line="107" col="1" hash="14159699270193996497"/>
+<class name="ToolbarMenuVisitor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.h" line="408" col="1" hash="15600188875927896873"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:134:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1701" col="8" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:134:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1705" col="8" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:135:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1724" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:135:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1725" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:136:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1758" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:136:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1759" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp:51:16" my-argnr="3" my-argname="childObject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="2011" col="5" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp:58:16" my-argnr="1" my-argname="childCount" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="2050" col="5" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp:109:16" my-argnr="1" my-argname="selections" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="2216" col="5" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp:116:16" my-argnr="2" my-argname="strValue" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="2283" col="4" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h:174:9" my-argnr="2" my-argname="func" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h" line="186" col="60" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:134:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1701" col="8" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:134:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1705" col="8" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:135:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1724" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:135:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1725" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:136:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1758" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:136:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1759" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp:116:16" my-argnr="2" my-argname="strValue" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="2283" col="4" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:118:8" call-funcname="LineToIndex" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="462" col="29" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:118:8" call-funcname="LineToIndex" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="495" col="29" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:116:9" call-funcname="RefreshLines" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="838" col="16" call-argexpr="bSort" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\KeyView.cpp" line="841" col="41" info="Assuming that condition &apos;bSort&apos; is not redundant"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:118:8" call-funcname="LineToIndex" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="843" col="29" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:118:8" call-funcname="LineToIndex" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1856" col="27" call-argexpr="line" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\KeyView.cpp" line="1851" col="13" info="Assuming that condition &apos;line&lt;0&apos; is not redundant"/>
+</function-call>  </FileInfo>
+  <FileInfo check="Class">
+<class name="ShuttleGuiBase::ListControlColumn" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h" line="304" col="4" hash="14673252838067708290"/>
+<class name="MenuItemEnabler" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandFlag.h" line="107" col="1" hash="14159699270193996497"/>
+<class name="ToolbarMenuVisitor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.h" line="408" col="1" hash="15600188875927896873"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:134:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1701" col="8" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:134:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1705" col="8" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:135:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1724" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:135:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1725" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:136:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1758" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:136:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1759" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp:51:16" my-argnr="3" my-argname="childObject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="2011" col="5" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp:58:16" my-argnr="1" my-argname="childCount" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="2050" col="5" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp:109:16" my-argnr="1" my-argname="selections" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="2216" col="5" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp:116:16" my-argnr="2" my-argname="strValue" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="2283" col="4" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h:174:9" my-argnr="2" my-argname="func" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ShuttleGui.h" line="186" col="60" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:134:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1701" col="8" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:134:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1705" col="8" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:135:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1724" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:135:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1725" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:136:16" my-argnr="1" my-argname="t1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1758" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.h:136:16" my-argnr="2" my-argname="t2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="1759" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp:116:16" my-argnr="2" my-argname="strValue" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/KeyView.cpp" line="2283" col="4" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="GetSelected" lineNumber="185"/>
+    <functiondecl functionName="GetName" lineNumber="194"/>
+    <functiondecl functionName="GetLabel" lineNumber="204"/>
+    <functiondecl functionName="GetFullLabel" lineNumber="220"/>
+    <functiondecl functionName="GetIndexByName" lineNumber="246"/>
+    <functiondecl functionName="GetName" lineNumber="266"/>
+    <functiondecl functionName="GetNameByKey" lineNumber="282"/>
+    <functiondecl functionName="GetIndexByKey" lineNumber="302"/>
+    <functiondecl functionName="GetKey" lineNumber="322"/>
+    <functiondecl functionName="CanSetKey" lineNumber="338"/>
+    <functiondecl functionName="SetKey" lineNumber="355"/>
+    <functiondecl functionName="SetKeyByName" lineNumber="396"/>
+    <functiondecl functionName="SetView" lineNumber="414"/>
+    <functiondecl functionName="SetFilter" lineNumber="472"/>
+    <functiondecl functionName="ExpandAll" lineNumber="503"/>
+    <functiondecl functionName="CollapseAll" lineNumber="525"/>
+    <functiondecl functionName="RecalcExtents" lineNumber="547"/>
+    <functiondecl functionName="UpdateHScroll" lineNumber="602"/>
+    <functiondecl functionName="RefreshBindings" lineNumber="636"/>
+    <functiondecl functionName="RefreshLines" lineNumber="851"/>
+    <functiondecl functionName="SelectNode" lineNumber="1105"/>
+    <functiondecl functionName="LineToIndex" lineNumber="1132"/>
+    <functiondecl functionName="IndexToLine" lineNumber="1146"/>
+    <functiondecl functionName="OnDrawBackground" lineNumber="1162"/>
+    <functiondecl functionName="OnDrawItem" lineNumber="1235"/>
+    <functiondecl functionName="OnSelected" lineNumber="1331"/>
+    <functiondecl functionName="OnSetFocus" lineNumber="1346"/>
+    <functiondecl functionName="OnKillFocus" lineNumber="1369"/>
+    <functiondecl functionName="OnScroll" lineNumber="1395"/>
+    <functiondecl functionName="OnKeyDown" lineNumber="1417"/>
+    <functiondecl functionName="OnLeftDown" lineNumber="1622"/>
+    <functiondecl functionName="CmpKeyNodeByTree" lineNumber="1692"/>
+    <functiondecl functionName="CmpKeyNodeByName" lineNumber="1722"/>
+    <functiondecl functionName="CmpKeyNodeByKey" lineNumber="1756"/>
+    <functiondecl functionName="GetSelected" lineNumber="185"/>
+    <functiondecl functionName="GetName" lineNumber="194"/>
+    <functiondecl functionName="GetLabel" lineNumber="204"/>
+    <functiondecl functionName="GetFullLabel" lineNumber="220"/>
+    <functiondecl functionName="GetIndexByName" lineNumber="246"/>
+    <functiondecl functionName="GetName" lineNumber="266"/>
+    <functiondecl functionName="GetNameByKey" lineNumber="282"/>
+    <functiondecl functionName="GetIndexByKey" lineNumber="302"/>
+    <functiondecl functionName="GetKey" lineNumber="322"/>
+    <functiondecl functionName="CanSetKey" lineNumber="338"/>
+    <functiondecl functionName="SetKey" lineNumber="355"/>
+    <functiondecl functionName="SetKeyByName" lineNumber="396"/>
+    <functiondecl functionName="SetView" lineNumber="414"/>
+    <functiondecl functionName="SetFilter" lineNumber="472"/>
+    <functiondecl functionName="ExpandAll" lineNumber="503"/>
+    <functiondecl functionName="CollapseAll" lineNumber="525"/>
+    <functiondecl functionName="RecalcExtents" lineNumber="547"/>
+    <functiondecl functionName="UpdateHScroll" lineNumber="602"/>
+    <functiondecl functionName="RefreshBindings" lineNumber="636"/>
+    <functiondecl functionName="RefreshLines" lineNumber="851"/>
+    <functiondecl functionName="SelectNode" lineNumber="1105"/>
+    <functiondecl functionName="LineToIndex" lineNumber="1132"/>
+    <functiondecl functionName="IndexToLine" lineNumber="1146"/>
+    <functiondecl functionName="OnDrawBackground" lineNumber="1162"/>
+    <functiondecl functionName="OnDrawItem" lineNumber="1235"/>
+    <functiondecl functionName="OnSelected" lineNumber="1331"/>
+    <functiondecl functionName="OnSetFocus" lineNumber="1346"/>
+    <functiondecl functionName="OnKillFocus" lineNumber="1369"/>
+    <functiondecl functionName="OnScroll" lineNumber="1395"/>
+    <functiondecl functionName="OnKeyDown" lineNumber="1417"/>
+    <functiondecl functionName="OnLeftDown" lineNumber="1622"/>
+    <functiondecl functionName="CmpKeyNodeByTree" lineNumber="1692"/>
+    <functiondecl functionName="CmpKeyNodeByName" lineNumber="1722"/>
+    <functiondecl functionName="CmpKeyNodeByKey" lineNumber="1756"/>
+    <functiondecl functionName="GetSelected" lineNumber="185"/>
+    <functiondecl functionName="GetName" lineNumber="194"/>
+    <functiondecl functionName="GetLabel" lineNumber="204"/>
+    <functiondecl functionName="GetFullLabel" lineNumber="220"/>
+    <functiondecl functionName="GetIndexByName" lineNumber="246"/>
+    <functiondecl functionName="GetName" lineNumber="266"/>
+    <functiondecl functionName="GetNameByKey" lineNumber="282"/>
+    <functiondecl functionName="GetIndexByKey" lineNumber="302"/>
+    <functiondecl functionName="GetKey" lineNumber="322"/>
+    <functiondecl functionName="CanSetKey" lineNumber="338"/>
+    <functiondecl functionName="SetKey" lineNumber="355"/>
+    <functiondecl functionName="SetKeyByName" lineNumber="396"/>
+    <functiondecl functionName="SetView" lineNumber="414"/>
+    <functiondecl functionName="SetFilter" lineNumber="472"/>
+    <functiondecl functionName="ExpandAll" lineNumber="503"/>
+    <functiondecl functionName="CollapseAll" lineNumber="525"/>
+    <functiondecl functionName="RecalcExtents" lineNumber="547"/>
+    <functiondecl functionName="UpdateHScroll" lineNumber="602"/>
+    <functiondecl functionName="RefreshBindings" lineNumber="636"/>
+    <functiondecl functionName="RefreshLines" lineNumber="851"/>
+    <functiondecl functionName="SelectNode" lineNumber="1105"/>
+    <functiondecl functionName="LineToIndex" lineNumber="1132"/>
+    <functiondecl functionName="IndexToLine" lineNumber="1146"/>
+    <functiondecl functionName="OnDrawBackground" lineNumber="1162"/>
+    <functiondecl functionName="OnDrawItem" lineNumber="1235"/>
+    <functiondecl functionName="OnSelected" lineNumber="1331"/>
+    <functiondecl functionName="OnSetFocus" lineNumber="1346"/>
+    <functiondecl functionName="OnKillFocus" lineNumber="1369"/>
+    <functiondecl functionName="OnScroll" lineNumber="1395"/>
+    <functiondecl functionName="OnKeyDown" lineNumber="1417"/>
+    <functiondecl functionName="OnLeftDown" lineNumber="1622"/>
+    <functiondecl functionName="CmpKeyNodeByTree" lineNumber="1692"/>
+    <functiondecl functionName="CmpKeyNodeByName" lineNumber="1722"/>
+    <functiondecl functionName="CmpKeyNodeByKey" lineNumber="1756"/>
+    <functiondecl functionName="GetSelected" lineNumber="185"/>
+    <functiondecl functionName="GetName" lineNumber="194"/>
+    <functiondecl functionName="GetLabel" lineNumber="204"/>
+    <functiondecl functionName="GetFullLabel" lineNumber="220"/>
+    <functiondecl functionName="GetIndexByName" lineNumber="246"/>
+    <functiondecl functionName="GetName" lineNumber="266"/>
+    <functiondecl functionName="GetNameByKey" lineNumber="282"/>
+    <functiondecl functionName="GetIndexByKey" lineNumber="302"/>
+    <functiondecl functionName="GetKey" lineNumber="322"/>
+    <functiondecl functionName="CanSetKey" lineNumber="338"/>
+    <functiondecl functionName="SetKey" lineNumber="355"/>
+    <functiondecl functionName="SetKeyByName" lineNumber="396"/>
+    <functiondecl functionName="SetView" lineNumber="414"/>
+    <functiondecl functionName="SetFilter" lineNumber="472"/>
+    <functiondecl functionName="ExpandAll" lineNumber="503"/>
+    <functiondecl functionName="CollapseAll" lineNumber="525"/>
+    <functiondecl functionName="RecalcExtents" lineNumber="547"/>
+    <functiondecl functionName="UpdateHScroll" lineNumber="602"/>
+    <functiondecl functionName="RefreshBindings" lineNumber="636"/>
+    <functiondecl functionName="RefreshLines" lineNumber="851"/>
+    <functiondecl functionName="SelectNode" lineNumber="1105"/>
+    <functiondecl functionName="LineToIndex" lineNumber="1132"/>
+    <functiondecl functionName="IndexToLine" lineNumber="1146"/>
+    <functiondecl functionName="OnDrawBackground" lineNumber="1162"/>
+    <functiondecl functionName="OnDrawItem" lineNumber="1235"/>
+    <functiondecl functionName="OnSelected" lineNumber="1331"/>
+    <functiondecl functionName="OnSetFocus" lineNumber="1346"/>
+    <functiondecl functionName="OnKillFocus" lineNumber="1369"/>
+    <functiondecl functionName="OnScroll" lineNumber="1395"/>
+    <functiondecl functionName="OnKeyDown" lineNumber="1417"/>
+    <functiondecl functionName="OnLeftDown" lineNumber="1622"/>
+    <functiondecl functionName="CmpKeyNodeByTree" lineNumber="1692"/>
+    <functiondecl functionName="CmpKeyNodeByName" lineNumber="1722"/>
+    <functiondecl functionName="CmpKeyNodeByKey" lineNumber="1756"/>
+    <functiondecl functionName="GetSelected" lineNumber="185"/>
+    <functiondecl functionName="GetName" lineNumber="194"/>
+    <functiondecl functionName="GetLabel" lineNumber="204"/>
+    <functiondecl functionName="GetFullLabel" lineNumber="220"/>
+    <functiondecl functionName="GetIndexByName" lineNumber="246"/>
+    <functiondecl functionName="GetName" lineNumber="266"/>
+    <functiondecl functionName="GetNameByKey" lineNumber="282"/>
+    <functiondecl functionName="GetIndexByKey" lineNumber="302"/>
+    <functiondecl functionName="GetKey" lineNumber="322"/>
+    <functiondecl functionName="CanSetKey" lineNumber="338"/>
+    <functiondecl functionName="SetKey" lineNumber="355"/>
+    <functiondecl functionName="SetKeyByName" lineNumber="396"/>
+    <functiondecl functionName="SetView" lineNumber="414"/>
+    <functiondecl functionName="SetFilter" lineNumber="472"/>
+    <functiondecl functionName="ExpandAll" lineNumber="503"/>
+    <functiondecl functionName="CollapseAll" lineNumber="525"/>
+    <functiondecl functionName="RecalcExtents" lineNumber="547"/>
+    <functiondecl functionName="UpdateHScroll" lineNumber="602"/>
+    <functiondecl functionName="RefreshBindings" lineNumber="636"/>
+    <functiondecl functionName="RefreshLines" lineNumber="851"/>
+    <functiondecl functionName="SelectNode" lineNumber="1105"/>
+    <functiondecl functionName="LineToIndex" lineNumber="1132"/>
+    <functiondecl functionName="IndexToLine" lineNumber="1146"/>
+    <functiondecl functionName="OnDrawBackground" lineNumber="1162"/>
+    <functiondecl functionName="OnDrawItem" lineNumber="1235"/>
+    <functiondecl functionName="OnSelected" lineNumber="1331"/>
+    <functiondecl functionName="OnSetFocus" lineNumber="1346"/>
+    <functiondecl functionName="OnKillFocus" lineNumber="1369"/>
+    <functiondecl functionName="OnScroll" lineNumber="1395"/>
+    <functiondecl functionName="OnKeyDown" lineNumber="1417"/>
+    <functiondecl functionName="OnLeftDown" lineNumber="1622"/>
+    <functiondecl functionName="CmpKeyNodeByTree" lineNumber="1692"/>
+    <functiondecl functionName="CmpKeyNodeByName" lineNumber="1722"/>
+    <functiondecl functionName="CmpKeyNodeByKey" lineNumber="1756"/>
+    <functiondecl functionName="HasChildren" lineNumber="1798"/>
+    <functiondecl functionName="IsExpanded" lineNumber="1814"/>
+    <functiondecl functionName="GetLineHeight" lineNumber="1830"/>
+    <functiondecl functionName="GetValue" lineNumber="1848"/>
+    <functiondecl functionName="GetViewType" lineNumber="1890"/>
+    <functiondecl functionName="ListUpdated" lineNumber="1910"/>
+    <functiondecl functionName="SetCurrentLine" lineNumber="1923"/>
+    <functiondecl functionName="IdToLine" lineNumber="1965"/>
+    <functiondecl functionName="LineToId" lineNumber="1989"/>
+    <functiondecl functionName="HitTest" lineNumber="2008"/>
+    <functiondecl functionName="GetChild" lineNumber="2032"/>
+    <functiondecl functionName="GetChildCount" lineNumber="2048"/>
+    <functiondecl functionName="GetLocation" lineNumber="2100"/>
+    <functiondecl functionName="GetName" lineNumber="2150"/>
+    <functiondecl functionName="GetRole" lineNumber="2177"/>
+    <functiondecl functionName="GetSelections" lineNumber="2210"/>
+    <functiondecl functionName="GetState" lineNumber="2223"/>
+    <functiondecl functionName="GetValue" lineNumber="2279"/>
+    <functiondecl functionName="GetSelected" lineNumber="185"/>
+    <functiondecl functionName="GetName" lineNumber="194"/>
+    <functiondecl functionName="GetLabel" lineNumber="204"/>
+    <functiondecl functionName="GetFullLabel" lineNumber="220"/>
+    <functiondecl functionName="GetIndexByName" lineNumber="246"/>
+    <functiondecl functionName="GetName" lineNumber="266"/>
+    <functiondecl functionName="GetNameByKey" lineNumber="282"/>
+    <functiondecl functionName="GetIndexByKey" lineNumber="302"/>
+    <functiondecl functionName="GetKey" lineNumber="322"/>
+    <functiondecl functionName="CanSetKey" lineNumber="338"/>
+    <functiondecl functionName="SetKey" lineNumber="355"/>
+    <functiondecl functionName="SetKeyByName" lineNumber="396"/>
+    <functiondecl functionName="SetView" lineNumber="414"/>
+    <functiondecl functionName="SetFilter" lineNumber="472"/>
+    <functiondecl functionName="ExpandAll" lineNumber="503"/>
+    <functiondecl functionName="CollapseAll" lineNumber="525"/>
+    <functiondecl functionName="RecalcExtents" lineNumber="547"/>
+    <functiondecl functionName="UpdateHScroll" lineNumber="602"/>
+    <functiondecl functionName="RefreshBindings" lineNumber="636"/>
+    <functiondecl functionName="RefreshLines" lineNumber="851"/>
+    <functiondecl functionName="SelectNode" lineNumber="1105"/>
+    <functiondecl functionName="LineToIndex" lineNumber="1132"/>
+    <functiondecl functionName="IndexToLine" lineNumber="1146"/>
+    <functiondecl functionName="OnDrawBackground" lineNumber="1162"/>
+    <functiondecl functionName="OnDrawItem" lineNumber="1235"/>
+    <functiondecl functionName="OnSelected" lineNumber="1331"/>
+    <functiondecl functionName="OnSetFocus" lineNumber="1346"/>
+    <functiondecl functionName="OnKillFocus" lineNumber="1369"/>
+    <functiondecl functionName="OnScroll" lineNumber="1395"/>
+    <functiondecl functionName="OnKeyDown" lineNumber="1417"/>
+    <functiondecl functionName="OnLeftDown" lineNumber="1622"/>
+    <functiondecl functionName="CmpKeyNodeByTree" lineNumber="1692"/>
+    <functiondecl functionName="CmpKeyNodeByName" lineNumber="1722"/>
+    <functiondecl functionName="CmpKeyNodeByKey" lineNumber="1756"/>
+    <functiondecl functionName="HasChildren" lineNumber="1798"/>
+    <functiondecl functionName="IsExpanded" lineNumber="1814"/>
+    <functiondecl functionName="GetLineHeight" lineNumber="1830"/>
+    <functiondecl functionName="GetValue" lineNumber="1848"/>
+    <functiondecl functionName="GetViewType" lineNumber="1890"/>
+    <functiondecl functionName="ListUpdated" lineNumber="1910"/>
+    <functiondecl functionName="SetCurrentLine" lineNumber="1923"/>
+    <functiondecl functionName="IdToLine" lineNumber="1965"/>
+    <functiondecl functionName="LineToId" lineNumber="1989"/>
+    <functiondecl functionName="HitTest" lineNumber="2008"/>
+    <functiondecl functionName="GetChild" lineNumber="2032"/>
+    <functiondecl functionName="GetChildCount" lineNumber="2048"/>
+    <functiondecl functionName="GetLocation" lineNumber="2100"/>
+    <functiondecl functionName="GetName" lineNumber="2150"/>
+    <functiondecl functionName="GetRole" lineNumber="2177"/>
+    <functiondecl functionName="GetSelections" lineNumber="2210"/>
+    <functiondecl functionName="GetState" lineNumber="2223"/>
+    <functiondecl functionName="GetValue" lineNumber="2279"/>
+    <functiondecl functionName="Select" lineNumber="2309"/>
+    <functiondecl functionName="GetSelected" lineNumber="185"/>
+    <functiondecl functionName="GetName" lineNumber="194"/>
+    <functiondecl functionName="GetLabel" lineNumber="204"/>
+    <functiondecl functionName="GetFullLabel" lineNumber="220"/>
+    <functiondecl functionName="GetIndexByName" lineNumber="246"/>
+    <functiondecl functionName="GetName" lineNumber="266"/>
+    <functiondecl functionName="GetNameByKey" lineNumber="282"/>
+    <functiondecl functionName="GetIndexByKey" lineNumber="302"/>
+    <functiondecl functionName="GetKey" lineNumber="322"/>
+    <functiondecl functionName="CanSetKey" lineNumber="338"/>
+    <functiondecl functionName="SetKey" lineNumber="355"/>
+    <functiondecl functionName="SetKeyByName" lineNumber="396"/>
+    <functiondecl functionName="SetView" lineNumber="414"/>
+    <functiondecl functionName="SetFilter" lineNumber="472"/>
+    <functiondecl functionName="ExpandAll" lineNumber="503"/>
+    <functiondecl functionName="CollapseAll" lineNumber="525"/>
+    <functiondecl functionName="RecalcExtents" lineNumber="547"/>
+    <functiondecl functionName="UpdateHScroll" lineNumber="602"/>
+    <functiondecl functionName="RefreshBindings" lineNumber="636"/>
+    <functiondecl functionName="RefreshLines" lineNumber="851"/>
+    <functiondecl functionName="SelectNode" lineNumber="1105"/>
+    <functiondecl functionName="LineToIndex" lineNumber="1132"/>
+    <functiondecl functionName="IndexToLine" lineNumber="1146"/>
+    <functiondecl functionName="OnDrawBackground" lineNumber="1162"/>
+    <functiondecl functionName="OnDrawItem" lineNumber="1235"/>
+    <functiondecl functionName="OnSelected" lineNumber="1331"/>
+    <functiondecl functionName="OnSetFocus" lineNumber="1346"/>
+    <functiondecl functionName="OnKillFocus" lineNumber="1369"/>
+    <functiondecl functionName="OnScroll" lineNumber="1395"/>
+    <functiondecl functionName="OnKeyDown" lineNumber="1417"/>
+    <functiondecl functionName="OnLeftDown" lineNumber="1622"/>
+    <functiondecl functionName="CmpKeyNodeByTree" lineNumber="1692"/>
+    <functiondecl functionName="CmpKeyNodeByName" lineNumber="1722"/>
+    <functiondecl functionName="CmpKeyNodeByKey" lineNumber="1756"/>
+    <functiondecl functionName="HasChildren" lineNumber="1798"/>
+    <functiondecl functionName="IsExpanded" lineNumber="1814"/>
+    <functiondecl functionName="GetLineHeight" lineNumber="1830"/>
+    <functiondecl functionName="GetValue" lineNumber="1848"/>
+    <functiondecl functionName="GetViewType" lineNumber="1890"/>
+    <functiondecl functionName="ListUpdated" lineNumber="1910"/>
+    <functiondecl functionName="SetCurrentLine" lineNumber="1923"/>
+    <functiondecl functionName="IdToLine" lineNumber="1965"/>
+    <functiondecl functionName="LineToId" lineNumber="1989"/>
+    <functiondecl functionName="HitTest" lineNumber="2008"/>
+    <functiondecl functionName="GetChild" lineNumber="2032"/>
+    <functiondecl functionName="GetChildCount" lineNumber="2048"/>
+    <functiondecl functionName="GetLocation" lineNumber="2100"/>
+    <functiondecl functionName="GetName" lineNumber="2150"/>
+    <functiondecl functionName="GetRole" lineNumber="2177"/>
+    <functiondecl functionName="GetSelections" lineNumber="2210"/>
+    <functiondecl functionName="GetState" lineNumber="2223"/>
+    <functiondecl functionName="GetValue" lineNumber="2279"/>
+    <functiondecl functionName="GetSelected" lineNumber="185"/>
+    <functiondecl functionName="GetName" lineNumber="194"/>
+    <functiondecl functionName="GetLabel" lineNumber="204"/>
+    <functiondecl functionName="GetFullLabel" lineNumber="220"/>
+    <functiondecl functionName="GetIndexByName" lineNumber="246"/>
+    <functiondecl functionName="GetName" lineNumber="266"/>
+    <functiondecl functionName="GetNameByKey" lineNumber="282"/>
+    <functiondecl functionName="GetIndexByKey" lineNumber="302"/>
+    <functiondecl functionName="GetKey" lineNumber="322"/>
+    <functiondecl functionName="CanSetKey" lineNumber="338"/>
+    <functiondecl functionName="SetKey" lineNumber="355"/>
+    <functiondecl functionName="SetKeyByName" lineNumber="396"/>
+    <functiondecl functionName="SetView" lineNumber="414"/>
+    <functiondecl functionName="SetFilter" lineNumber="472"/>
+    <functiondecl functionName="ExpandAll" lineNumber="503"/>
+    <functiondecl functionName="CollapseAll" lineNumber="525"/>
+    <functiondecl functionName="RecalcExtents" lineNumber="547"/>
+    <functiondecl functionName="UpdateHScroll" lineNumber="602"/>
+    <functiondecl functionName="RefreshBindings" lineNumber="636"/>
+    <functiondecl functionName="RefreshLines" lineNumber="851"/>
+    <functiondecl functionName="SelectNode" lineNumber="1105"/>
+    <functiondecl functionName="LineToIndex" lineNumber="1132"/>
+    <functiondecl functionName="IndexToLine" lineNumber="1146"/>
+    <functiondecl functionName="OnDrawBackground" lineNumber="1162"/>
+    <functiondecl functionName="OnDrawItem" lineNumber="1235"/>
+    <functiondecl functionName="OnSelected" lineNumber="1331"/>
+    <functiondecl functionName="OnSetFocus" lineNumber="1346"/>
+    <functiondecl functionName="OnKillFocus" lineNumber="1369"/>
+    <functiondecl functionName="OnScroll" lineNumber="1395"/>
+    <functiondecl functionName="OnKeyDown" lineNumber="1417"/>
+    <functiondecl functionName="OnLeftDown" lineNumber="1622"/>
+    <functiondecl functionName="CmpKeyNodeByTree" lineNumber="1692"/>
+    <functiondecl functionName="CmpKeyNodeByName" lineNumber="1722"/>
+    <functiondecl functionName="CmpKeyNodeByKey" lineNumber="1756"/>
+    <functiondecl functionName="HasChildren" lineNumber="1798"/>
+    <functiondecl functionName="IsExpanded" lineNumber="1814"/>
+    <functiondecl functionName="GetLineHeight" lineNumber="1830"/>
+    <functiondecl functionName="GetValue" lineNumber="1848"/>
+    <functiondecl functionName="GetViewType" lineNumber="1890"/>
+    <functiondecl functionName="ListUpdated" lineNumber="1910"/>
+    <functiondecl functionName="SetCurrentLine" lineNumber="1923"/>
+    <functiondecl functionName="IdToLine" lineNumber="1965"/>
+    <functiondecl functionName="LineToId" lineNumber="1989"/>
+    <functiondecl functionName="HitTest" lineNumber="2008"/>
+    <functiondecl functionName="GetChild" lineNumber="2032"/>
+    <functiondecl functionName="GetChildCount" lineNumber="2048"/>
+    <functiondecl functionName="GetLocation" lineNumber="2100"/>
+    <functiondecl functionName="GetName" lineNumber="2150"/>
+    <functiondecl functionName="GetRole" lineNumber="2177"/>
+    <functiondecl functionName="GetSelections" lineNumber="2210"/>
+    <functiondecl functionName="GetState" lineNumber="2223"/>
+    <functiondecl functionName="GetValue" lineNumber="2279"/>
+    <functioncall functionName="AddSpace"/>
+    <functioncall functionName="Append"/>
+    <functioncall functionName="Args"/>
+    <functioncall functionName="Argument"/>
+    <functioncall functionName="AttachedItem"/>
+    <functioncall functionName="BEGIN_EVENT_TABLE"/>
+    <functioncall functionName="Border"/>
+    <functioncall functionName="ClientToScreen"/>
+    <functioncall functionName="CmpKeyNodeByKey"/>
+    <functioncall functionName="CmpKeyNodeByName"/>
+    <functioncall functionName="CmpKeyNodeByTree"/>
+    <functioncall functionName="CommandFailure"/>
+    <functioncall functionName="CommandFlagOptions"/>
+    <functioncall functionName="CommandFunctorPointer"/>
+    <functioncall functionName="CommandGroupItem"/>
+    <functioncall functionName="CommandID"/>
+    <functioncall functionName="CommandItem"/>
+    <functioncall functionName="CommandListEntry"/>
+    <functioncall functionName="CommandManager"/>
+    <functioncall functionName="CommandNotFound"/>
+    <functioncall functionName="CommandSuccess"/>
+    <functioncall functionName="ComponentInterfaceSymbol"/>
+    <functioncall functionName="ConditionalGroupItem"/>
+    <functioncall functionName="ConnectRoot"/>
+    <functioncall functionName="DECLARE_EVENT_TABLE"/>
+    <functioncall functionName="DefaultFinder"/>
+    <functioncall functionName="Deflate"/>
+    <functioncall functionName="Disable"/>
+    <functioncall functionName="Display"/>
+    <functioncall functionName="DrawFocus"/>
+    <functioncall functionName="DrawRectangle"/>
+    <functioncall functionName="DrawText"/>
+    <functioncall functionName="END_EVENT_TABLE"/>
+    <functioncall functionName="EVT_KEY_DOWN"/>
+    <functioncall functionName="EVT_KILL_FOCUS"/>
+    <functioncall functionName="EVT_LEFT_DOWN"/>
+    <functioncall functionName="EVT_LISTBOX"/>
+    <functioncall functionName="EVT_SCROLLWIN"/>
+    <functioncall functionName="EVT_SET_FOCUS"/>
+    <functioncall functionName="EVT_SIZE"/>
+    <functioncall functionName="EnableSelfFocus"/>
+    <functioncall functionName="EndMultiColumn"/>
+    <functioncall functionName="EnumValueSymbol"/>
+    <functioncall functionName="Find"/>
+    <functioncall functionName="FindFocus"/>
+    <functioncall functionName="Focus"/>
+    <functioncall functionName="GetBottom"/>
+    <functioncall functionName="GetChar"/>
+    <functioncall functionName="GetClientRect"/>
+    <functioncall functionName="GetClientSize"/>
+    <functioncall functionName="GetColour"/>
+    <functioncall functionName="GetEventHandler"/>
+    <functioncall functionName="GetFont"/>
+    <functioncall functionName="GetFullLabel"/>
+    <functioncall functionName="GetGridCursorCol"/>
+    <functioncall functionName="GetGridCursorRow"/>
+    <functioncall functionName="GetId"/>
+    <functioncall functionName="GetIndexByName"/>
+    <functioncall functionName="GetInt"/>
+    <functioncall functionName="GetItemCount"/>
+    <functioncall functionName="GetKey"/>
+    <functioncall functionName="GetKeyCode"/>
+    <functioncall functionName="GetLabel"/>
+    <functioncall functionName="GetLeft"/>
+    <functioncall functionName="GetLineHeight"/>
+    <functioncall functionName="GetMargins"/>
+    <functioncall functionName="GetMode"/>
+    <functioncall functionName="GetName"/>
+    <functioncall functionName="GetOrientation"/>
+    <functioncall functionName="GetParent"/>
+    <functioncall functionName="GetPosition"/>
+    <functioncall functionName="GetRect"/>
+    <functioncall functionName="GetRight"/>
+    <functioncall functionName="GetScrollPos"/>
+    <functioncall functionName="GetSelection"/>
+    <functioncall functionName="GetTextExtent"/>
+    <functioncall functionName="GetValue"/>
+    <functioncall functionName="GetViewType"/>
+    <functioncall functionName="GetVisibleBegin"/>
+    <functioncall functionName="GetWidth"/>
+    <functioncall functionName="HasChildren"/>
+    <functioncall functionName="HitTest"/>
+    <functioncall functionName="IdToLine"/>
+    <functioncall functionName="InBool"/>
+    <functioncall functionName="InDouble"/>
+    <functioncall functionName="InInt"/>
+    <functioncall functionName="InStr"/>
+    <functioncall functionName="IndexToLine"/>
+    <functioncall functionName="IsExpanded"/>
+    <functioncall functionName="IsInSelection"/>
+    <functioncall functionName="IsReadOnly"/>
+    <functioncall functionName="IsSameAs"/>
+    <functioncall functionName="IsSelected"/>
+    <functioncall functionName="IsVisible"/>
+    <functioncall functionName="Item"/>
+    <functioncall functionName="Items"/>
+    <functioncall functionName="KeyNode"/>
+    <functioncall functionName="KeyView"/>
+    <functioncall functionName="KeyViewAx"/>
+    <functioncall functionName="Last"/>
+    <functioncall functionName="Left"/>
+    <functioncall functionName="Line"/>
+    <functioncall functionName="LineToId"/>
+    <functioncall functionName="LineToIndex"/>
+    <functioncall functionName="ListControlColumn"/>
+    <functioncall functionName="ListUpdated"/>
+    <functioncall functionName="Lower"/>
+    <functioncall functionName="MakeCheckFn"/>
+    <functioncall functionName="MenuBarListEntry"/>
+    <functioncall functionName="MenuItem"/>
+    <functioncall functionName="MenuItems"/>
+    <functioncall functionName="MenuPart"/>
+    <functioncall functionName="MinSize"/>
+    <functioncall functionName="NCommandFlags"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="Name"/>
+    <functioncall functionName="NameSuffix"/>
+    <functioncall functionName="NormalizedKeyString"/>
+    <functioncall functionName="NormalizedKeyStringTag"/>
+    <functioncall functionName="NotifyEvent"/>
+    <functioncall functionName="OnGetRowHeight"/>
+    <functioncall functionName="OnKeyDown"/>
+    <functioncall functionName="OnKillFocus"/>
+    <functioncall functionName="OnLeftDown"/>
+    <functioncall functionName="OnScroll"/>
+    <functioncall functionName="OnSelected"/>
+    <functioncall functionName="OnSetFocus"/>
+    <functioncall functionName="OnSize"/>
+    <functioncall functionName="Options"/>
+    <functioncall functionName="PROHIBITED"/>
+    <functioncall functionName="Position"/>
+    <functioncall functionName="Printf"/>
+    <functioncall functionName="ProcessEvent"/>
+    <functioncall functionName="Prop"/>
+    <functioncall functionName="RecalcExtents"/>
+    <functioncall functionName="RefreshAll"/>
+    <functioncall functionName="RefreshLines"/>
+    <functioncall functionName="RefreshRow"/>
+    <functioncall functionName="RegisteredMenuItemEnabler"/>
+    <functioncall functionName="ScreenToClient"/>
+    <functioncall functionName="ScrollToRow"/>
+    <functioncall functionName="SelectNode"/>
+    <functioncall functionName="SetAccessible"/>
+    <functioncall functionName="SetBrush"/>
+    <functioncall functionName="SetCurrentLine"/>
+    <functioncall functionName="SetEventObject"/>
+    <functioncall functionName="SetFocus"/>
+    <functioncall functionName="SetFont"/>
+    <functioncall functionName="SetInt"/>
+    <functioncall functionName="SetItemCount"/>
+    <functioncall functionName="SetKey"/>
+    <functioncall functionName="SetMinSize"/>
+    <functioncall functionName="SetPen"/>
+    <functioncall functionName="SetPosition"/>
+    <functioncall functionName="SetScrollPos"/>
+    <functioncall functionName="SetScrollbar"/>
+    <functioncall functionName="SetSelection"/>
+    <functioncall functionName="SetTextForeground"/>
+    <functioncall functionName="SetValidator"/>
+    <functioncall functionName="Shuttle"/>
+    <functioncall functionName="Size"/>
+    <functioncall functionName="Skip"/>
+    <functioncall functionName="SpecialItem"/>
+    <functioncall functionName="StartMultiColumn"/>
+    <functioncall functionName="Strip"/>
+    <functioncall functionName="Style"/>
+    <functioncall functionName="SubMenuListEntry"/>
+    <functioncall functionName="Tag"/>
+    <functioncall functionName="TaggedIdentifier"/>
+    <functioncall functionName="ToolTip"/>
+    <functioncall functionName="ToolbarMenuVisitor"/>
+    <functioncall functionName="TranslatableString"/>
+    <functioncall functionName="Translation"/>
+    <functioncall functionName="UpdateHScroll"/>
+    <functioncall functionName="V"/>
+    <functioncall functionName="Validator"/>
+    <functioncall functionName="ValueRestorer"/>
+    <functioncall functionName="ViewByKey"/>
+    <functioncall functionName="ViewByName"/>
+    <functioncall functionName="ViewByTree"/>
+    <functioncall functionName="VirtualHitTest"/>
+    <functioncall functionName="WholeMenu"/>
+    <functioncall functionName="WindowAccessible"/>
+    <functioncall functionName="WrappedType"/>
+    <functioncall functionName="_"/>
+    <functioncall functionName="accel_"/>
+    <functioncall functionName="args"/>
+    <functioncall functionName="bSort"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="bitset"/>
+    <functioncall functionName="bool"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="category"/>
+    <functioncall functionName="childId"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="cnt"/>
+    <functioncall functionName="col"/>
+    <functioncall functionName="condition"/>
+    <functioncall functionName="condition_"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="continue"/>
+    <functioncall functionName="dc"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="defaultValue"/>
+    <functioncall functionName="delete"/>
+    <functioncall functionName="depth"/>
+    <functioncall functionName="disabled"/>
+    <functioncall functionName="eCancelButton"/>
+    <functioncall functionName="eIsCreating"/>
+    <functioncall functionName="eIsCreatingFromPrefs"/>
+    <functioncall functionName="eIsGettingFromDialog"/>
+    <functioncall functionName="eIsGettingMetadata"/>
+    <functioncall functionName="eIsSavingToPrefs"/>
+    <functioncall functionName="eIsSettingToDialog"/>
+    <functioncall functionName="eWrappedBool"/>
+    <functioncall functionName="eWrappedDouble"/>
+    <functioncall functionName="eWrappedEnum"/>
+    <functioncall functionName="eWrappedInt"/>
+    <functioncall functionName="eWrappedNotSet"/>
+    <functioncall functionName="eWrappedString"/>
+    <functioncall functionName="elementId"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="event"/>
+    <functioncall functionName="eventType"/>
+    <functioncall functionName="extend"/>
+    <functioncall functionName="f"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="final"/>
+    <functioncall functionName="finder"/>
+    <functioncall functionName="flag"/>
+    <functioncall functionName="flags"/>
+    <functioncall functionName="flags_"/>
+    <functioncall functionName="fn"/>
+    <functioncall functionName="fn_"/>
+    <functioncall functionName="focused"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="format"/>
+    <functioncall functionName="forward"/>
+    <functioncall functionName="found"/>
+    <functioncall functionName="fromId"/>
+    <functioncall functionName="func"/>
+    <functioncall functionName="function"/>
+    <functioncall functionName="h"/>
+    <functioncall functionName="hLine"/>
+    <functioncall functionName="heading"/>
+    <functioncall functionName="helpPage_"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="iProp"/>
+    <functioncall functionName="iStyle"/>
+    <functioncall functionName="id"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="incat"/>
+    <functioncall functionName="index"/>
+    <functioncall functionName="inpfx"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="internalName"/>
+    <functioncall functionName="isEffect"/>
+    <functioncall functionName="isEffect_"/>
+    <functioncall functionName="is_base_of"/>
+    <functioncall functionName="iscat"/>
+    <functioncall functionName="isopen"/>
+    <functioncall functionName="isparent"/>
+    <functioncall functionName="ispfx"/>
+    <functioncall functionName="items"/>
+    <functioncall functionName="items_"/>
+    <functioncall functionName="j"/>
+    <functioncall functionName="k"/>
+    <functioncall functionName="k1"/>
+    <functioncall functionName="k1UInt"/>
+    <functioncall functionName="k2"/>
+    <functioncall functionName="key"/>
+    <functioncall functionName="keycode"/>
+    <functioncall functionName="label"/>
+    <functioncall functionName="label_in"/>
+    <functioncall functionName="label_in_"/>
+    <functioncall functionName="length"/>
+    <functioncall functionName="line"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="longName_"/>
+    <functioncall functionName="mCommandWidth"/>
+    <functioncall functionName="mFilter"/>
+    <functioncall functionName="mItem"/>
+    <functioncall functionName="mKeyWidth"/>
+    <functioncall functionName="mLastId"/>
+    <functioncall functionName="mLineHeight"/>
+    <functioncall functionName="mScrollX"/>
+    <functioncall functionName="mView"/>
+    <functioncall functionName="mViewType"/>
+    <functioncall functionName="mWidth"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="message_"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="nMaxNestedSizers"/>
+    <functioncall functionName="name"/>
+    <functioncall functionName="name_"/>
+    <functioncall functionName="navDir"/>
+    <functioncall functionName="node"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="operatorAudacityProject&amp;"/>
+    <functioncall functionName="options"/>
+    <functioncall functionName="options_"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="p"/>
+    <functioncall functionName="pItem"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="parent"/>
+    <functioncall functionName="path"/>
+    <functioncall functionName="pfx"/>
+    <functioncall functionName="pmf"/>
+    <functioncall functionName="pos"/>
+    <functioncall functionName="prefix"/>
+    <functioncall functionName="priority_"/>
+    <functioncall functionName="pt"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="r"/>
+    <functioncall functionName="r2"/>
+    <functioncall functionName="rect"/>
+    <functioncall functionName="rectLine"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="row"/>
+    <functioncall functionName="sFinder"/>
+    <functioncall functionName="setting"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sort"/>
+    <functioncall functionName="static_assert"/>
+    <functioncall functionName="static_cast"/>
+    <functioncall functionName="strValue"/>
+    <functioncall functionName="style"/>
+    <functioncall functionName="suffix"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="sz"/>
+    <functioncall functionName="this"/>
+    <functioncall functionName="tip"/>
+    <functioncall functionName="title"/>
+    <functioncall functionName="title_"/>
+    <functioncall functionName="toId"/>
+    <functioncall functionName="toObject"/>
+    <functioncall functionName="topline"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="type"/>
+    <functioncall functionName="typename"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="view"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="w"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="width"/>
+    <functioncall functionName="wxACC_EVENT_OBJECT_FOCUS"/>
+    <functioncall functionName="wxACC_EVENT_OBJECT_REORDER"/>
+    <functioncall functionName="wxACC_EVENT_OBJECT_SELECTION"/>
+    <functioncall functionName="wxACC_EVENT_OBJECT_SELECTIONREMOVE"/>
+    <functioncall functionName="wxACC_SELF"/>
+    <functioncall functionName="wxACC_STATE_SYSTEM_COLLAPSED"/>
+    <functioncall functionName="wxACC_STATE_SYSTEM_EXPANDED"/>
+    <functioncall functionName="wxACC_STATE_SYSTEM_FOCUSABLE"/>
+    <functioncall functionName="wxACC_STATE_SYSTEM_SELECTED"/>
+    <functioncall functionName="wxALIGN_CENTRE"/>
+    <functioncall functionName="wxALIGN_LEFT"/>
+    <functioncall functionName="wxASSERT"/>
+    <functioncall functionName="wxBrush"/>
+    <functioncall functionName="wxColour"/>
+    <functioncall functionName="wxDefaultPosition"/>
+    <functioncall functionName="wxDefaultSize"/>
+    <functioncall functionName="wxEVT_COMMAND_LISTBOX_SELECTED"/>
+    <functioncall functionName="wxEXPAND"/>
+    <functioncall functionName="wxEventType"/>
+    <functioncall functionName="wxEvtHandler"/>
+    <functioncall functionName="wxHORIZONTAL"/>
+    <functioncall functionName="wxID_ANY"/>
+    <functioncall functionName="wxID_CANCEL"/>
+    <functioncall functionName="wxID_PREVIEW"/>
+    <functioncall functionName="wxLIST_AUTOSIZE"/>
+    <functioncall functionName="wxLIST_FORMAT_LEFT"/>
+    <functioncall functionName="wxMax"/>
+    <functioncall functionName="wxMenu"/>
+    <functioncall functionName="wxMenuBar"/>
+    <functioncall functionName="wxNOT_FOUND"/>
+    <functioncall functionName="wxOBJID_CLIENT"/>
+    <functioncall functionName="wxObjectEventFunction"/>
+    <functioncall functionName="wxROLE_SYSTEM_GROUPING"/>
+    <functioncall functionName="wxROLE_SYSTEM_LIST"/>
+    <functioncall functionName="wxROLE_SYSTEM_LISTITEM"/>
+    <functioncall functionName="wxROLE_SYSTEM_OUTLINE"/>
+    <functioncall functionName="wxROLE_SYSTEM_OUTLINEITEM"/>
+    <functioncall functionName="wxROLE_SYSTEM_TEXT"/>
+    <functioncall functionName="wxSYS_COLOUR_BTNFACE"/>
+    <functioncall functionName="wxSYS_COLOUR_HIGHLIGHT"/>
+    <functioncall functionName="wxSYS_COLOUR_LISTBOXHIGHLIGHTTEXT"/>
+    <functioncall functionName="wxSYS_COLOUR_LISTBOXTEXT"/>
+    <functioncall functionName="wxSizer"/>
+    <functioncall functionName="wxStaticBox"/>
+    <functioncall functionName="wxString"/>
+    <functioncall functionName="wxT"/>
+    <functioncall functionName="wxVListBox"/>
+    <functioncall functionName="wxVSCROLL"/>
+    <functioncall functionName="x"/>
+    <functioncall functionName="y"/>
+  </FileInfo>
+</analyzerinfo>

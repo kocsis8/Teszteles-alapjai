@@ -1,0 +1,3 @@
+GetFactories
+RegisteredFactory call:[GetFactories,move,push_back] noreturn:[push_back]
+RegisteredFactory call:[GetFactories,pop_back] noreturn:[pop_back]

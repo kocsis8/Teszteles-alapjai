@@ -1,0 +1,17 @@
+Append call:[AddFileToHistory] noreturn:[AddFileToHistory]
+begin call:[begin] noreturn:[begin]
+end call:[end] noreturn:[end]
+operator[]
+empty call:[empty] noreturn:[empty]
+FileHistory
+FileHistory
+Global call:[Load,call_once,wxT] noreturn:[Load]
+AddFileToHistory call:[Index,NotifyMenus,begin,empty,end,erase,insert,size] noreturn:[NotifyMenus,erase]
+Remove call:[NotifyMenus,begin,erase,size,wxASSERT] noreturn:[NotifyMenus]
+Clear call:[NotifyMenus,clear] noreturn:[NotifyMenus]
+UseMenu call:[Compress,NotifyMenu,begin,end,find,push_back,wxASSERT] noreturn:[NotifyMenu,push_back,wxASSERT]
+Load call:[AddFileToHistory,GetFirstEntry,GetNextEntry,NotifyMenus,Read,SetPath,clear,empty,wxT] noreturn:[GetNextEntry,NotifyMenus]
+Save call:[DeleteGroup,Flush,Format,SetPath,Write,size,wxT] noreturn:[Flush,Write]
+NotifyMenus call:[Compress,NotifyMenu,Save] noreturn:[NotifyMenu,Save]
+NotifyMenu call:[Append,AppendSeparator,Destroy,Enable,GetMenuItems,Replace,_,begin,end,size] noreturn:[Append,AppendSeparator,Destroy,Enable]
+Compress call:[begin,end,erase,remove_if] noreturn:[erase]

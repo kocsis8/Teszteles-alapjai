@@ -1,0 +1,8 @@
+WindowAccessible
+HtmlWindow call:[HtmlWindowAx,SetAccessible] noreturn:[SetAccessible]
+HtmlWindow
+HtmlWindowAx
+HtmlWindowAx
+GetChild
+GetChildCount
+GetFocus

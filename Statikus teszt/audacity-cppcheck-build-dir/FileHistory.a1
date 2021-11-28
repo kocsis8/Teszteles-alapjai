@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="4253694737">
+        <error id="useInitializationList" severity="performance" msg="Variable &apos;mIDBase&apos; is assigned in constructor body. Consider performing initialization in initialization list." verbose="When an object of a class is created, the constructors of all member variables are called consecutively in the order the variables are declared, even if you don&apos;t explicitly write them to the initialization list. You could avoid assigning &apos;mIDBase&apos; a value by passing the value to the constructor in the initialization list." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileHistory.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileHistory.cpp" line="30" column="4"/>
+            <symbol>mIDBase</symbol>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;pMenu&apos; can be declared with const" verbose="Parameter &apos;pMenu&apos; can be declared with const" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileHistory.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileHistory.cpp" line="187" column="31" info="Parameter &apos;pMenu&apos; can be declared with const"/>
+            <symbol>pMenu</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileHistory.h:62:9" call-funcname="AddFileToHistory" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileHistory.cpp" line="127" col="23" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileHistory.h:64:9" my-argnr="1" my-argname="menu" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileHistory.cpp" line="164" col="27" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileHistory.h:64:9" my-argnr="1" my-argname="menu" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileHistory.cpp" line="164" col="27" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileHistory.h:62:9" call-funcname="AddFileToHistory" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileHistory.cpp" line="127" col="23" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileHistory.h:64:9" my-argnr="1" my-argname="menu" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileHistory.cpp" line="164" col="27" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileHistory.h:64:9" my-argnr="1" my-argname="menu" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileHistory.cpp" line="164" col="27" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="Global" lineNumber="37"/>
+    <functiondecl functionName="AddFileToHistory" lineNumber="51"/>
+    <functiondecl functionName="Remove" lineNumber="79"/>
+    <functiondecl functionName="Clear" lineNumber="90"/>
+    <functiondecl functionName="UseMenu" lineNumber="97"/>
+    <functiondecl functionName="Load" lineNumber="114"/>
+    <functiondecl functionName="Save" lineNumber="136"/>
+    <functiondecl functionName="NotifyMenus" lineNumber="153"/>
+    <functiondecl functionName="NotifyMenu" lineNumber="162"/>
+    <functiondecl functionName="Compress" lineNumber="181"/>
+    <functiondecl functionName="Global" lineNumber="37"/>
+    <functiondecl functionName="AddFileToHistory" lineNumber="51"/>
+    <functiondecl functionName="Remove" lineNumber="79"/>
+    <functiondecl functionName="Clear" lineNumber="90"/>
+    <functiondecl functionName="UseMenu" lineNumber="97"/>
+    <functiondecl functionName="Load" lineNumber="114"/>
+    <functiondecl functionName="Save" lineNumber="136"/>
+    <functiondecl functionName="NotifyMenus" lineNumber="153"/>
+    <functiondecl functionName="NotifyMenu" lineNumber="162"/>
+    <functiondecl functionName="Compress" lineNumber="181"/>
+    <functioncall functionName="AddFileToHistory"/>
+    <functioncall functionName="Append"/>
+    <functioncall functionName="AppendSeparator"/>
+    <functioncall functionName="Compress"/>
+    <functioncall functionName="DeleteGroup"/>
+    <functioncall functionName="Destroy"/>
+    <functioncall functionName="Enable"/>
+    <functioncall functionName="FileHistory"/>
+    <functioncall functionName="Flush"/>
+    <functioncall functionName="Format"/>
+    <functioncall functionName="GetFirstEntry"/>
+    <functioncall functionName="GetMenuItems"/>
+    <functioncall functionName="GetNextEntry"/>
+    <functioncall functionName="ID_RECENT_CLEAR"/>
+    <functioncall functionName="Index"/>
+    <functioncall functionName="Load"/>
+    <functioncall functionName="NotifyMenu"/>
+    <functioncall functionName="NotifyMenus"/>
+    <functioncall functionName="Read"/>
+    <functioncall functionName="Replace"/>
+    <functioncall functionName="Save"/>
+    <functioncall functionName="SetPath"/>
+    <functioncall functionName="Write"/>
+    <functioncall functionName="_"/>
+    <functioncall functionName="base"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="call_once"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="delete"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="file"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="flag"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="found"/>
+    <functioncall functionName="got"/>
+    <functioncall functionName="group"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="ii"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="item"/>
+    <functioncall functionName="mGroup"/>
+    <functioncall functionName="mIDBase"/>
+    <functioncall functionName="mMaxFiles"/>
+    <functioncall functionName="mMenus"/>
+    <functioncall functionName="maxfiles"/>
+    <functioncall functionName="menu"/>
+    <functioncall functionName="ndx"/>
+    <functioncall functionName="pMenu"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="remove_if"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="update"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="wxASSERT"/>
+    <functioncall functionName="wxEmptyString"/>
+    <functioncall functionName="wxID_FILE"/>
+    <functioncall functionName="wxMenu"/>
+    <functioncall functionName="wxT"/>
+    <functioncall functionName="wxWeakRef"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3011419455">
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If BEGIN_EVENT_TABLE is a macro then please configure it." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/HistoryWindow.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\HistoryWindow.cpp" line="60" column="1"/>
+        </error>
+</analyzerinfo>

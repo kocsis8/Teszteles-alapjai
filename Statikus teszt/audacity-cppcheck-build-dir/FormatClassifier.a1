@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3406067298">
+        <error id="noCopyConstructor" severity="warning" msg="Class &apos;DebugWriter&apos; does not have a copy constructor which is recommended since it has dynamic memory/resource allocation(s)." verbose="Class &apos;DebugWriter&apos; does not have a copy constructor which is recommended since it has dynamic memory/resource allocation(s)." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\FormatClassifier.h" line="37" column="7"/>
+            <symbol>DebugWriter</symbol>
+        </error>
+        <error id="noOperatorEq" severity="warning" msg="Class &apos;DebugWriter&apos; does not have a operator= which is recommended since it has dynamic memory/resource allocation(s)." verbose="Class &apos;DebugWriter&apos; does not have a operator= which is recommended since it has dynamic memory/resource allocation(s)." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\FormatClassifier.h" line="37" column="7"/>
+            <symbol>DebugWriter</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;MultiFormatReader&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;MultiFormatReader&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\MultiFormatReader.h" line="68" column="4"/>
+            <symbol>MultiFormatReader</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;SpecPowerCalculation&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;SpecPowerCalculation&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\SpecPowerMeter.h" line="28" column="4"/>
+            <symbol>SpecPowerCalculation</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;DebugWriter&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;DebugWriter&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\FormatClassifier.h" line="35" column="4"/>
+            <symbol>DebugWriter</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;FormatClassifier&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;FormatClassifier&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\FormatClassifier.h" line="95" column="4"/>
+            <symbol>FormatClassifier</symbol>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;in2&apos; can be declared with const" verbose="Parameter &apos;in2&apos; can be declared with const" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\FormatClassifier.cpp" line="269" column="47" info="Parameter &apos;in2&apos; can be declared with const"/>
+            <symbol>in2</symbol>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;in&apos; can be declared with const" verbose="Parameter &apos;in&apos; can be declared with const" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\FormatClassifier.cpp" line="294" column="35" info="Parameter &apos;in&apos; can be declared with const"/>
+            <symbol>in</symbol>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;in&apos; can be declared with const" verbose="Parameter &apos;in&apos; can be declared with const" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\FormatClassifier.cpp" line="329" column="36" info="Parameter &apos;in&apos; can be declared with const"/>
+            <symbol>in</symbol>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;in&apos; can be declared with const" verbose="Parameter &apos;in&apos; can be declared with const" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\FormatClassifier.cpp" line="309" column="37" info="Parameter &apos;in&apos; can be declared with const"/>
+            <symbol>in</symbol>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::transform algorithm instead of a raw loop." verbose="Consider using std::transform algorithm instead of a raw loop." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\FormatClassifier.cpp" line="49" column="19"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.h:112:10" call-funcname="Max" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.cpp" line="184" col="23" call-argexpr="&amp;midx" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.h:112:10" call-funcname="Max" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.cpp" line="185" col="25" call-argexpr="&amp;sidx" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.h:112:10" call-funcname="Max" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.cpp" line="326" col="14" call-argexpr="&amp;dummyidx" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.h:50:9" call-funcname="WriteSignal" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.h" line="47" col="7" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.h:45:9" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.h:114:27" call-funcname="ToFloat" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.cpp" line="243" col="10" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.h:104:9" my-argnr="2"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.h:112:10" call-funcname="Max" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.cpp" line="326" col="11" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.h:111:10" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="DebugWriter" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.h" line="30" col="1" hash="3636428270832065241"/>
+<class name="FormatClassifier" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.h" line="58" col="1" hash="13400508244552393089"/>
+<class name="FormatClassifier::FormatClassT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.h" line="62" col="12" hash="5064970243794189911"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.h:35:4" my-argnr="1" my-argname="filename" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.h" line="37" col="21" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.h:50:9" my-argnr="1" my-argname="buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.h" line="52" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.h:95:4" my-argnr="1" my-argname="filename" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.cpp" line="58" col="29" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.h:112:10" my-argnr="3" my-argname="maxidx" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.cpp" line="332" col="5" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.h:35:4" my-argnr="1" my-argname="filename" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.h" line="37" col="21" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.h:50:9" my-argnr="1" my-argname="buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.h" line="52" col="14" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.h:112:10" call-funcname="Max" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.cpp" line="184" col="23" call-argexpr="&amp;midx" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.h:112:10" call-funcname="Max" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.cpp" line="185" col="25" call-argexpr="&amp;sidx" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.h:112:10" call-funcname="Max" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.cpp" line="326" col="14" call-argexpr="&amp;dummyidx" call-argvaluetype="7" call-argvalue="8"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.h:114:27" call-funcname="ToFloat" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.cpp" line="243" col="10" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.h:104:9" my-argnr="2"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.h:112:10" call-funcname="Max" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.cpp" line="326" col="11" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.h:111:10" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="FormatClassifier" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.h" line="58" col="1" hash="5310856249960319137"/>
+<class name="FormatClassifier::FormatClassT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.h" line="62" col="12" hash="5064970243794189911"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.h:112:10" my-argnr="3" my-argname="maxidx" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/FormatClassifier.cpp" line="332" col="5" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="GetResultFormat" lineNumber="78"/>
+    <functiondecl functionName="GetResultFormatLibSndfile" lineNumber="83"/>
+    <functiondecl functionName="GetResultChannels" lineNumber="125"/>
+    <functiondecl functionName="Run" lineNumber="130"/>
+    <functiondecl functionName="ReadSignal" lineNumber="200"/>
+    <functiondecl functionName="ConvertSamples" lineNumber="238"/>
+    <functiondecl functionName="Add" lineNumber="269"/>
+    <functiondecl functionName="Sub" lineNumber="277"/>
+    <functiondecl functionName="Div" lineNumber="285"/>
+    <functiondecl functionName="Abs" lineNumber="294"/>
+    <functiondecl functionName="Mean" lineNumber="309"/>
+    <functiondecl functionName="Max" lineNumber="323"/>
+    <functiondecl functionName="Max" lineNumber="329"/>
+    <functiondecl functionName="GetResultFormat" lineNumber="78"/>
+    <functiondecl functionName="GetResultFormatLibSndfile" lineNumber="83"/>
+    <functiondecl functionName="GetResultChannels" lineNumber="125"/>
+    <functiondecl functionName="Run" lineNumber="130"/>
+    <functiondecl functionName="ReadSignal" lineNumber="200"/>
+    <functiondecl functionName="ConvertSamples" lineNumber="238"/>
+    <functiondecl functionName="Add" lineNumber="269"/>
+    <functiondecl functionName="Sub" lineNumber="277"/>
+    <functiondecl functionName="Div" lineNumber="285"/>
+    <functiondecl functionName="Abs" lineNumber="294"/>
+    <functiondecl functionName="Mean" lineNumber="309"/>
+    <functiondecl functionName="Max" lineNumber="323"/>
+    <functiondecl functionName="Max" lineNumber="329"/>
+    <functioncall functionName="Abs"/>
+    <functioncall functionName="Add"/>
+    <functioncall functionName="Big"/>
+    <functioncall functionName="CalcPower"/>
+    <functioncall functionName="ConvertSamples"/>
+    <functioncall functionName="DebugWriter"/>
+    <functioncall functionName="Div"/>
+    <functioncall functionName="Double"/>
+    <functioncall functionName="FLT_MAX"/>
+    <functioncall functionName="Float"/>
+    <functioncall functionName="FormatClassT"/>
+    <functioncall functionName="FormatClassifier"/>
+    <functioncall functionName="Int16"/>
+    <functioncall functionName="Int32"/>
+    <functioncall functionName="Int8"/>
+    <functioncall functionName="Little"/>
+    <functioncall functionName="MachineEndianness"/>
+    <functioncall functionName="Max"/>
+    <functioncall functionName="Mean"/>
+    <functioncall functionName="MultiFormatReader"/>
+    <functioncall functionName="ReadSamples"/>
+    <functioncall functionName="ReadSignal"/>
+    <functioncall functionName="Reset"/>
+    <functioncall functionName="Run"/>
+    <functioncall functionName="SF_FORMAT_RAW"/>
+    <functioncall functionName="Sub"/>
+    <functioncall functionName="ToFloat"/>
+    <functioncall functionName="Uint16"/>
+    <functioncall functionName="Uint32"/>
+    <functioncall functionName="Uint8"/>
+    <functioncall functionName="WriteSignal"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="buffer"/>
+    <functioncall functionName="cSiglen"/>
+    <functioncall functionName="class"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="dfile"/>
+    <functioncall functionName="dummyidx"/>
+    <functioncall functionName="endian"/>
+    <functioncall functionName="endianness"/>
+    <functioncall functionName="fclose"/>
+    <functioncall functionName="filename"/>
+    <functioncall functionName="float"/>
+    <functioncall functionName="fopen"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="format"/>
+    <functioncall functionName="fwrite"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="in"/>
+    <functioncall functionName="len"/>
+    <functioncall functionName="mMeter"/>
+    <functioncall functionName="mReader"/>
+    <functioncall functionName="mSigBuffer"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="midx"/>
+    <functioncall functionName="monoMax"/>
+    <functioncall functionName="mpFid"/>
+    <functioncall functionName="n"/>
+    <functioncall functionName="out"/>
+    <functioncall functionName="pHi"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="sidx"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="smax"/>
+    <functioncall functionName="smean"/>
+    <functioncall functionName="sprintf"/>
+    <functioncall functionName="stride"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="uint8_t"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="wxPrintf"/>
+  </FileInfo>
+</analyzerinfo>

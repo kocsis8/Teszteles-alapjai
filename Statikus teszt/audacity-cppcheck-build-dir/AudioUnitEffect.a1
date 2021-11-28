@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2707305337">
+        <error id="syntaxError" severity="error" msg="Unmatched &apos;(&apos;. Configuration: &apos;USE_AUDIO_UNITS;__WXMAC__&apos;." verbose="Unmatched &apos;(&apos;. Configuration: &apos;USE_AUDIO_UNITS;__WXMAC__&apos;." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/audiounits/AudioUnitEffect.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\effects\audiounits\AUControl.h" line="59" column="54"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="Unmatched &apos;(&apos;. Configuration: &apos;USE_AUDIO_UNITS;__WXMAC__;__WX_EVTLOOP_BUSY_WAITING__&apos;." verbose="Unmatched &apos;(&apos;. Configuration: &apos;USE_AUDIO_UNITS;__WXMAC__;__WX_EVTLOOP_BUSY_WAITING__&apos;." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/audiounits/AudioUnitEffect.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\effects\audiounits\AUControl.h" line="59" column="54"/>
+        </error>
+</analyzerinfo>

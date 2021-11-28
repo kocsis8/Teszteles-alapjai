@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3425086109">
+        <error id="missingReturn" severity="error" msg="Found a exit path from function with non-void return type that has missing return statement" verbose="Found a exit path from function with non-void return type that has missing return statement" cwe="758" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Shuttle.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Shuttle.h" line="108" column="44"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Shuttle::mbStoreInClient&apos; is not initialized in the constructor." verbose="Member variable &apos;Shuttle::mbStoreInClient&apos; is not initialized in the constructor." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Shuttle.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Shuttle.cpp" line="74" column="10"/>
+            <symbol>Shuttle::mbStoreInClient</symbol>
+        </error>
+  <FileInfo check="Class">
+<class name="ShuttleCli" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Shuttle.h" line="46" col="1" hash="16349151972054273082"/>
+<class name="ShuttleParams" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Shuttle.h" line="61" col="1" hash="810643820069851535"/>
+<class name="ShuttleDefaults" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Shuttle.h" line="130" col="1" hash="94021362967557330"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="TransferBool" lineNumber="78"/>
+    <functiondecl functionName="TransferFloat" lineNumber="97"/>
+    <functiondecl functionName="TransferDouble" lineNumber="116"/>
+    <functiondecl functionName="TransferInt" lineNumber="136"/>
+    <functiondecl functionName="TransferInt" lineNumber="155"/>
+    <functiondecl functionName="TransferLongLong" lineNumber="160"/>
+    <functiondecl functionName="TransferEnum" lineNumber="180"/>
+    <functiondecl functionName="TransferWrappedType" lineNumber="240"/>
+    <functiondecl functionName="ExchangeWithMaster" lineNumber="269"/>
+    <functiondecl functionName="ShouldSet" lineNumber="324"/>
+    <functiondecl functionName="Define" lineNumber="332"/>
+    <functiondecl functionName="Define" lineNumber="333"/>
+    <functiondecl functionName="Define" lineNumber="334"/>
+    <functiondecl functionName="Define" lineNumber="335"/>
+    <functiondecl functionName="Define" lineNumber="336"/>
+    <functiondecl functionName="Define" lineNumber="337"/>
+    <functiondecl functionName="Define" lineNumber="338"/>
+    <functiondecl functionName="DefineEnum" lineNumber="339"/>
+    <functioncall functionName="CouldGet"/>
+    <functioncall functionName="ExchangeWithMaster"/>
+    <functioncall functionName="Find"/>
+    <functioncall functionName="Format"/>
+    <functioncall functionName="GetChar"/>
+    <functioncall functionName="HasEntry"/>
+    <functioncall functionName="InBool"/>
+    <functioncall functionName="InDouble"/>
+    <functioncall functionName="InInt"/>
+    <functioncall functionName="InStr"/>
+    <functioncall functionName="Internal"/>
+    <functioncall functionName="Left"/>
+    <functioncall functionName="Mid"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="Name"/>
+    <functioncall functionName="Optional"/>
+    <functioncall functionName="ReadAndVerify"/>
+    <functioncall functionName="ReadAsString"/>
+    <functioncall functionName="Right"/>
+    <functioncall functionName="ShouldSet"/>
+    <functioncall functionName="Shuttle"/>
+    <functioncall functionName="ShuttleCli"/>
+    <functioncall functionName="ShuttleParams"/>
+    <functioncall functionName="TransferLongLong"/>
+    <functioncall functionName="Write"/>
+    <functioncall functionName="WriteFloat"/>
+    <functioncall functionName="WriteToAsString"/>
+    <functioncall functionName="bDefault"/>
+    <functioncall functionName="bOK"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="dDefault"/>
+    <functioncall functionName="dValue"/>
+    <functioncall functionName="eWrappedBool"/>
+    <functioncall functionName="eWrappedDouble"/>
+    <functioncall functionName="eWrappedEnum"/>
+    <functioncall functionName="eWrappedInt"/>
+    <functioncall functionName="eWrappedNotSet"/>
+    <functioncall functionName="eWrappedString"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="fDefault"/>
+    <functioncall functionName="fValue"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="iDefault"/>
+    <functioncall functionName="iValue"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="j"/>
+    <functioncall functionName="key"/>
+    <functioncall functionName="length"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="mParams"/>
+    <functioncall functionName="mValueString"/>
+    <functioncall functionName="mbStoreInClient"/>
+    <functioncall functionName="nStrings"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="pEap"/>
+    <functioncall functionName="pOptionalFlag"/>
+    <functioncall functionName="result"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="strDefault"/>
+    <functioncall functionName="strings"/>
+    <functioncall functionName="temp"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="var"/>
+    <functioncall functionName="vdefault"/>
+    <functioncall functionName="vmax"/>
+    <functioncall functionName="vmin"/>
+    <functioncall functionName="vscl"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="wxASSERT"/>
+    <functioncall functionName="wxAtof"/>
+    <functioncall functionName="wxAtoi"/>
+    <functioncall functionName="wxT"/>
+  </FileInfo>
+</analyzerinfo>

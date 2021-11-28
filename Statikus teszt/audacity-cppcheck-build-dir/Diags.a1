@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1029439882">
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Diags.h:31:13" call-funcname="diagnostics_do_diag" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Diags.cpp" line="98" col="4" call-argexpr="&amp;diag" call-argvaluetype="7" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Class">
+<class name="t_diag_struct" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Diags.h" line="20" col="1" hash="14567280211243429592"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Diags.h:31:13" my-argnr="1" my-argname="pDiag" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Diags.cpp" line="47" col="27" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Diags.h:32:13" my-argnr="1" my-argname="pDiag" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Diags.cpp" line="52" col="30" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Diags.h:33:13" my-argnr="1" my-argname="pDiag" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Diags.cpp" line="74" col="4" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Diags.h:33:13" my-argnr="2" my-argname="pRememberMe" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Diags.cpp" line="67" col="9" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Diags.h:34:13" my-argnr="1" my-argname="ppDiag" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Diags.cpp" line="78" col="29" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Diags.h:33:13" my-argnr="2" my-argname="pRememberMe" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Diags.cpp" line="67" col="9" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Diags.h:34:13" my-argnr="1" my-argname="ppDiag" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Diags.cpp" line="78" col="29" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="diagnostics_do_diag" lineNumber="44"/>
+    <functiondecl functionName="diagnostics_do_diag_mem" lineNumber="50"/>
+    <functiondecl functionName="diagnostics_do_perfmon_start" lineNumber="66"/>
+    <functiondecl functionName="diagnostics_do_perfmon_stop" lineNumber="77"/>
+    <functiondecl functionName="diag_sample_test" lineNumber="97"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="SetActiveTarget"/>
+    <functioncall functionName="Start"/>
+    <functioncall functionName="Time"/>
+    <functioncall functionName="amount"/>
+    <functioncall functionName="bStopWatchStarted"/>
+    <functioncall functionName="diag"/>
+    <functioncall functionName="diagnostics_do_diag"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="float"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="least"/>
+    <functioncall functionName="most"/>
+    <functioncall functionName="most_recent"/>
+    <functioncall functionName="pDiag"/>
+    <functioncall functionName="pLog"/>
+    <functioncall functionName="pMessage"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="wxLogDebug"/>
+    <functioncall functionName="wxT"/>
+  </FileInfo>
+</analyzerinfo>

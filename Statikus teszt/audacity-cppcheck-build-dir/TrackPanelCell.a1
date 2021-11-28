@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1862849074">
+  <FileInfo check="Class">
+<class name="TrackPanelNode" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelCell.h" line="37" col="1" hash="14295224234015886"/>
+<class name="HitTestPreview" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/HitTestResult.h" line="19" col="1" hash="558950701565496408"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="DefaultPreview" lineNumber="37"/>
+    <functiondecl functionName="HandleWheelRotation" lineNumber="43"/>
+    <functiondecl functionName="DoContextMenu" lineNumber="49"/>
+    <functiondecl functionName="CaptureKey" lineNumber="55"/>
+    <functiondecl functionName="KeyDown" lineNumber="62"/>
+    <functiondecl functionName="KeyUp" lineNumber="69"/>
+    <functiondecl functionName="Char" lineNumber="76"/>
+    <functiondecl functionName="LoseFocus" lineNumber="83"/>
+    <functioncall functionName="Axis"/>
+    <functioncall functionName="HitTestPreview"/>
+    <functioncall functionName="PROHIBITED"/>
+    <functioncall functionName="Skip"/>
+    <functioncall functionName="TrackPanelCell"/>
+    <functioncall functionName="TrackPanelGroup"/>
+    <functioncall functionName="TrackPanelNode"/>
+    <functioncall functionName="UIHandle"/>
+    <functioncall functionName="X"/>
+    <functioncall functionName="Y"/>
+    <functioncall functionName="cursor_"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="height"/>
+    <functioncall functionName="message_"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="shared_ptr"/>
+    <functioncall functionName="tooltip_"/>
+    <functioncall functionName="width"/>
+    <functioncall functionName="wxCoord"/>
+    <functioncall functionName="x"/>
+    <functioncall functionName="y"/>
+  </FileInfo>
+</analyzerinfo>

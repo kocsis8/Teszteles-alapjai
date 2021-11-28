@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3777331755">
+        <error id="noConstructor" severity="style" msg="The class &apos;VstEvent&apos; does not have a constructor although it has private member variables." verbose="The class &apos;VstEvent&apos; does not have a constructor although it has private member variables. Member variables of builtin types are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/VST/VSTControlGTK.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\effects\VST\aeffectx.h" line="196" column="1"/>
+            <symbol>VstEvent</symbol>
+        </error>
+        <error id="useInitializationList" severity="performance" msg="Variable &apos;mXwin&apos; is assigned in constructor body. Consider performing initialization in initialization list." verbose="When an object of a class is created, the constructors of all member variables are called consecutively in the order the variables are declared, even if you don&apos;t explicitly write them to the initialization list. You could avoid assigning &apos;mXwin&apos; a value by passing the value to the constructor in the initialization list." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/VST/VSTControlGTK.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\effects\VST\VSTControlGTK.cpp" line="28" column="4"/>
+            <symbol>mXwin</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;Create&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;Create&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/VST/VSTControlGTK.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\effects\VST\VSTControlGTK.h" line="30" column="9" info="Function in derived class"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\effects\VST\VSTControl.h" line="38" column="17" info="Virtual function in base class"/>
+            <symbol>Create</symbol>
+        </error>
+  <FileInfo check="Class">
+<class name="VstMidiEvent" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/VST/aeffectx.h" line="165" col="1" hash="4778136873319378348"/>
+<class name="VstEvent" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/VST/aeffectx.h" line="196" col="1" hash="17314225192630491143"/>
+<class name="VstEvents" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/VST/aeffectx.h" line="205" col="1" hash="18294965373837977551"/>
+<class name="VstParameterProperties" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/VST/aeffectx.h" line="221" col="1" hash="5814670809207419084"/>
+<class name="AEffect" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/VST/aeffectx.h" line="257" col="1" hash="15616773799944240137"/>
+<class name="VstTimeInfo" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/VST/aeffectx.h" line="305" col="1" hash="8411563879991831913"/>
+<class name="VstPatchChunkInfo" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/VST/aeffectx.h" line="353" col="1" hash="12243477843233357354"/>
+<class name="VstRect" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/VST/aeffectx.h" line="382" col="1" hash="2364684115367490689"/>
+<class name="VSTControlBase" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/VST/VSTControl.h" line="25" col="1" hash="6215437612938082083"/>
+<class name="VSTControl" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/VST/VSTControlGTK.h" line="24" col="1" hash="5377884109683472991"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="Create" lineNumber="41"/>
+    <functioncall functionName="Create"/>
+    <functioncall functionName="GDK_WINDOW_XDISPLAY"/>
+    <functioncall functionName="GDK_WINDOW_XID"/>
+    <functioncall functionName="GTK_WIDGET"/>
+    <functioncall functionName="GetMinSize"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="SetInitialSize"/>
+    <functioncall functionName="SetMinSize"/>
+    <functioncall functionName="VSTControl"/>
+    <functioncall functionName="VSTControlBase"/>
+    <functioncall functionName="VstMidiEvent"/>
+    <functioncall functionName="callDispatcher"/>
+    <functioncall functionName="effEditClose"/>
+    <functioncall functionName="effEditGetRect"/>
+    <functioncall functionName="effEditOpen"/>
+    <functioncall functionName="float"/>
+    <functioncall functionName="gtk_widget_get_realized"/>
+    <functioncall functionName="gtk_widget_get_window"/>
+    <functioncall functionName="gtk_widget_realize"/>
+    <functioncall functionName="gwin"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="kPlugCategAnalysis"/>
+    <functioncall functionName="kPlugCategEffect"/>
+    <functioncall functionName="kPlugCategGenerator"/>
+    <functioncall functionName="kPlugCategMastering"/>
+    <functioncall functionName="kPlugCategMaxCount"/>
+    <functioncall functionName="kPlugCategOfflineProcess"/>
+    <functioncall functionName="kPlugCategRestoration"/>
+    <functioncall functionName="kPlugCategRoomFx"/>
+    <functioncall functionName="kPlugCategShell"/>
+    <functioncall functionName="kPlugCategSpacializer"/>
+    <functioncall functionName="kPlugCategSynth"/>
+    <functioncall functionName="kPlugSurroundFx"/>
+    <functioncall functionName="left"/>
+    <functioncall functionName="link"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="mXdisp"/>
+    <functioncall functionName="mXwin"/>
+    <functioncall functionName="m_wxwindow"/>
+    <functioncall functionName="parent"/>
+    <functioncall functionName="rect"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="top"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="wxDefaultPosition"/>
+    <functioncall functionName="wxDefaultSize"/>
+    <functioncall functionName="wxDefaultValidator"/>
+    <functioncall functionName="wxEmptyString"/>
+    <functioncall functionName="wxID_ANY"/>
+    <functioncall functionName="wxSize"/>
+    <functioncall functionName="wxTAB_TRAVERSAL"/>
+  </FileInfo>
+</analyzerinfo>

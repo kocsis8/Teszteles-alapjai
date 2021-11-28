@@ -1,0 +1,3 @@
+Overlay
+GetRectangle call:[DoGetRectangle,Inflate]
+Erase call:[Blit,GetRectangle,GetSize,Intersect,IsEmpty,rect] noreturn:[Blit]

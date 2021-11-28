@@ -1,0 +1,20 @@
+MachineEndianness
+IsLittle call:[return]
+IsBig call:[return]
+Which
+FormatClassifier call:[Run,push_back,size] noreturn:[Run,push_back]
+FormatClassifier
+GetResultFormat
+GetResultFormatLibSndfile
+GetResultChannels
+Run call:[Abs,CalcPower,Div,Max,Mean,ReadSignal,Sub,get,size]
+ReadSignal call:[Add,ConvertSamples,ReadSamples,Reset,get,while] noreturn:[ConvertSamples,ReadSamples,while]
+ConvertSamples call:[ToFloat]
+Add
+Sub
+Div
+Abs
+Mean
+Max call:[Max] noreturn:[Max]
+Max
+ToFloat

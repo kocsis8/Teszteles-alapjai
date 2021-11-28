@@ -1,0 +1,552 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3928625285">
+        <error id="missingReturn" severity="error" msg="Found a exit path from function with non-void return type that has missing return statement" verbose="Found a exit path from function with non-void return type that has missing return statement" cwe="758" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandManager.h" line="444" column="11"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found a exit path from function with non-void return type that has missing return statement" verbose="Found a exit path from function with non-void return type that has missing return statement" cwe="758" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandManager.h" line="518" column="8"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found a exit path from function with non-void return type that has missing return statement" verbose="Found a exit path from function with non-void return type that has missing return statement" cwe="758" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandManager.h" line="552" column="8"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;CommandFlagOptions&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;CommandFlagOptions&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandFlag.h" line="45" column="4"/>
+            <symbol>CommandFlagOptions</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;ReservedCommandFlag&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;ReservedCommandFlag&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandFlag.h" line="92" column="4"/>
+            <symbol>ReservedCommandFlag</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;RegisteredMenuItemEnabler&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;RegisteredMenuItemEnabler&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandFlag.h" line="120" column="4"/>
+            <symbol>RegisteredMenuItemEnabler</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;Options&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;Options&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandManager.h" line="102" column="7"/>
+            <symbol>Options</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CommandContext&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CommandContext&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandContext.h" line="36" column="4"/>
+            <symbol>CommandContext</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;wxPanelWrapper&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;wxPanelWrapper&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\wxPanelWrapper.h" line="46" column="4"/>
+            <symbol>wxPanelWrapper</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;wxDirDialogWrapper&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;wxDirDialogWrapper&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\wxPanelWrapper.h" line="129" column="4"/>
+            <symbol>wxDirDialogWrapper</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;FileDialog&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;FileDialog&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\gtk\FileDialogPrivate.h" line="27" column="5"/>
+            <symbol>FileDialog</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;HtmlWindow&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;HtmlWindow&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\HtmlWindow.h" line="39" column="4"/>
+            <symbol>HtmlWindow</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;SubMenuListEntry&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;SubMenuListEntry&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandManager.cpp" line="132" column="4"/>
+            <symbol>SubMenuListEntry</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;wxTabTraversalWrapper &lt; wxPanel &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;wxTabTraversalWrapper &lt; wxPanel &gt;&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\wxPanelWrapper.h" line="27" column="4"/>
+            <symbol>wxTabTraversalWrapper &lt; wxPanel &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;wxTabTraversalWrapper &lt; wxDialog &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;wxTabTraversalWrapper &lt; wxDialog &gt;&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\wxPanelWrapper.h" line="27" column="4"/>
+            <symbol>wxTabTraversalWrapper &lt; wxDialog &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;wxTabTraversalWrapper &lt; wxDirDialog &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;wxTabTraversalWrapper &lt; wxDirDialog &gt;&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\wxPanelWrapper.h" line="27" column="4"/>
+            <symbol>wxTabTraversalWrapper &lt; wxDirDialog &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;wxTabTraversalWrapper &lt; FileDialog &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;wxTabTraversalWrapper &lt; FileDialog &gt;&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\wxPanelWrapper.h" line="27" column="4"/>
+            <symbol>wxTabTraversalWrapper &lt; FileDialog &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;wxTabTraversalWrapper &lt; wxMessageDialog &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;wxTabTraversalWrapper &lt; wxMessageDialog &gt;&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\wxPanelWrapper.h" line="27" column="4"/>
+            <symbol>wxTabTraversalWrapper &lt; wxMessageDialog &gt;</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;SetFileExtension&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;SetFileExtension&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\gtk\FileDialogPrivate.h" line="64" column="18" info="Function in derived class"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\FileDialog.h" line="35" column="17" info="Virtual function in base class"/>
+            <symbol>SetFileExtension</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;key&apos; shadows outer variable" verbose="Local variable &apos;key&apos; shadows outer variable" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandManager.cpp" line="849" column="9" info="Shadow variable"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandManager.cpp" line="201" column="66" info="Shadowed declaration"/>
+            <symbol>key</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;key&apos; shadows outer variable" verbose="Local variable &apos;key&apos; shadows outer variable" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandManager.cpp" line="1543" column="27" info="Shadow variable"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandManager.cpp" line="201" column="66" info="Shadowed declaration"/>
+            <symbol>key</symbol>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &apos;items_&apos; should be passed by const reference." verbose="Parameter &apos;items_&apos; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandManager.h" line="544" column="56"/>
+            <symbol>items_</symbol>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::find_if algorithm instead of a raw loop." verbose="Consider using std::find_if algorithm instead of a raw loop." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandManager.cpp" line="387" column="0"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;cleanup&apos; is assigned a value that is never used." verbose="Variable &apos;cleanup&apos; is assigned a value that is never used." cwe="563" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandManager.cpp" line="1128" column="20"/>
+            <symbol>cleanup</symbol>
+        </error>
+  <FileInfo check="Class">
+<class name="MenuItemEnabler" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandFlag.h" line="107" col="1" hash="14159699270193996497"/>
+<class name="ToolbarMenuVisitor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.h" line="408" col="1" hash="15600188875927896873"/>
+<class name="NonKeystrokeInterceptingWindow" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManagerWindowClasses.h" line="19" col="1" hash="12346375679346619863"/>
+<class name="TopLevelKeystrokeHandlingWindow" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManagerWindowClasses.h" line="28" col="1" hash="9297464602333600899"/>
+<class name="wxDirDialogWrapper" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="124" col="1" hash="2711157917505411744"/>
+<class name="FileDialogWrapper" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="163" col="1" hash="7553654041051167098"/>
+<class name="AudacityMessageDialog" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="214" col="1" hash="1660744077628049721"/>
+<class name="MenuBarListEntry" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.cpp" line="121" col="1" hash="388062569744022412"/>
+<class name="CommandListEntry" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.cpp" line="140" col="1" hash="5488020525736627457"/>
+<class name="InstallHandlers" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.cpp" line="1715" col="8" hash="9889890815701982523"/>
+  </FileInfo>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;FileDialog&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;FileDialog&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\mac\FileDialogPrivate.h" line="34" column="5"/>
+            <symbol>FileDialog</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;SetFileExtension&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;SetFileExtension&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\mac\FileDialogPrivate.h" line="69" column="18" info="Function in derived class"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\FileDialog.h" line="35" column="17" info="Virtual function in base class"/>
+            <symbol>SetFileExtension</symbol>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;format&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;format&apos;. The initialized value is overwritten before it is read." cwe="563" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandManager.cpp" line="1087" column="20" info="format is overwritten"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandManager.cpp" line="1080" column="25" info="format is initialized"/>
+            <symbol>format</symbol>
+        </error>
+  <FileInfo check="Class">
+<class name="MenuItemEnabler" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandFlag.h" line="107" col="1" hash="14159699270193996497"/>
+<class name="ToolbarMenuVisitor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.h" line="408" col="1" hash="15600188875927896873"/>
+<class name="NonKeystrokeInterceptingWindow" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManagerWindowClasses.h" line="19" col="1" hash="12346375679346619863"/>
+<class name="TopLevelKeystrokeHandlingWindow" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManagerWindowClasses.h" line="28" col="1" hash="9297464602333600899"/>
+<class name="wxDirDialogWrapper" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="124" col="1" hash="2711157917505411744"/>
+<class name="FileDialogWrapper" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="163" col="1" hash="7553654041051167098"/>
+<class name="AudacityMessageDialog" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="214" col="1" hash="1660744077628049721"/>
+<class name="MenuBarListEntry" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.cpp" line="121" col="1" hash="388062569744022412"/>
+<class name="CommandListEntry" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.cpp" line="140" col="1" hash="5488020525736627457"/>
+<class name="InstallHandlers" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.cpp" line="1715" col="8" hash="9889890815701982523"/>
+  </FileInfo>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;FileDialog&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;FileDialog&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\win\FileDialogPrivate.h" line="29" column="4"/>
+            <symbol>FileDialog</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;SetFileExtension&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;SetFileExtension&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\win\FileDialogPrivate.h" line="43" column="17" info="Function in derived class"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\FileDialog.h" line="35" column="17" info="Virtual function in base class"/>
+            <symbol>SetFileExtension</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;key&apos; shadows outer variable" verbose="Local variable &apos;key&apos; shadows outer variable" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandManager.cpp" line="876" column="15" info="Shadow variable"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandManager.cpp" line="201" column="66" info="Shadowed declaration"/>
+            <symbol>key</symbol>
+        </error>
+  <FileInfo check="Class">
+<class name="MenuItemEnabler" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandFlag.h" line="107" col="1" hash="14159699270193996497"/>
+<class name="ToolbarMenuVisitor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.h" line="408" col="1" hash="15600188875927896873"/>
+<class name="NonKeystrokeInterceptingWindow" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManagerWindowClasses.h" line="19" col="1" hash="12346375679346619863"/>
+<class name="TopLevelKeystrokeHandlingWindow" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManagerWindowClasses.h" line="28" col="1" hash="9297464602333600899"/>
+<class name="wxDirDialogWrapper" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="124" col="1" hash="2711157917505411744"/>
+<class name="FileDialogWrapper" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="163" col="1" hash="7553654041051167098"/>
+<class name="AudacityMessageDialog" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="214" col="1" hash="1660744077628049721"/>
+<class name="MenuBarListEntry" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.cpp" line="121" col="1" hash="388062569744022412"/>
+<class name="CommandListEntry" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.cpp" line="140" col="1" hash="5488020525736627457"/>
+<class name="InstallHandlers" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.cpp" line="1715" col="8" hash="9889890815701982523"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="sMenuHook" lineNumber="217"/>
+    <functiondecl functionName="sMenuHook" lineNumber="217"/>
+    <functiondecl functionName="sMenuHook" lineNumber="217"/>
+    <functioncall functionName="AUDACITY_DLL_API"/>
+    <functioncall functionName="AUDACITY_VERSION_STRING"/>
+    <functioncall functionName="AddGlobalCommand"/>
+    <functioncall functionName="AddMenuBar"/>
+    <functioncall functionName="AlwaysEnabledFlag"/>
+    <functioncall functionName="Append"/>
+    <functioncall functionName="AppendCheckItem"/>
+    <functioncall functionName="AppendSeparator"/>
+    <functioncall functionName="Args"/>
+    <functioncall functionName="AttachedItem"/>
+    <functioncall functionName="AudacityMessageBox"/>
+    <functioncall functionName="AudacityProject"/>
+    <functioncall functionName="BeforeFirst"/>
+    <functioncall functionName="BeginMainMenu"/>
+    <functioncall functionName="BeginSubMenu"/>
+    <functioncall functionName="Bind"/>
+    <functioncall functionName="BrowserDialog"/>
+    <functioncall functionName="Check"/>
+    <functioncall functionName="CommandContext"/>
+    <functioncall functionName="CommandFailure"/>
+    <functioncall functionName="CommandFlagOptions"/>
+    <functioncall functionName="CommandFunctorPointer"/>
+    <functioncall functionName="CommandGroupItem"/>
+    <functioncall functionName="CommandID"/>
+    <functioncall functionName="CommandItem"/>
+    <functioncall functionName="CommandListEntry"/>
+    <functioncall functionName="CommandManager"/>
+    <functioncall functionName="CommandNotFound"/>
+    <functioncall functionName="CommandOutputTargets"/>
+    <functioncall functionName="CommandSuccess"/>
+    <functioncall functionName="ComponentInterfaceSymbol"/>
+    <functioncall functionName="ConditionalGroupItem"/>
+    <functioncall functionName="Contains"/>
+    <functioncall functionName="Create"/>
+    <functioncall functionName="CurrentMenu"/>
+    <functioncall functionName="CurrentMenuBar"/>
+    <functioncall functionName="CurrentSubMenu"/>
+    <functioncall functionName="DECLARE_EVENT_TABLE"/>
+    <functioncall functionName="DECLARE_EXPORTED_EVENT_TYPE"/>
+    <functioncall functionName="DECLARE_NO_COPY_CLASS"/>
+    <functioncall functionName="DefaultFinder"/>
+    <functioncall functionName="Display"/>
+    <functioncall functionName="EVT_CAPTURE_KEY"/>
+    <functioncall functionName="EVT_PROJECT_ACTIVATION"/>
+    <functioncall functionName="Enable"/>
+    <functioncall functionName="EndMainMenu"/>
+    <functioncall functionName="EndSubMenu"/>
+    <functioncall functionName="EndTag"/>
+    <functioncall functionName="ExcludedList"/>
+    <functioncall functionName="FileDialog"/>
+    <functioncall functionName="FileDialogWrapper"/>
+    <functioncall functionName="FilterKeyEvent"/>
+    <functioncall functionName="FindFocus"/>
+    <functioncall functionName="FindItem"/>
+    <functioncall functionName="FindProjectFrame"/>
+    <functioncall functionName="Flush"/>
+    <functioncall functionName="Format"/>
+    <functioncall functionName="FormatLabelForMenu"/>
+    <functioncall functionName="FormatLabelWithDisabledAccel"/>
+    <functioncall functionName="FormatWildcard"/>
+    <functioncall functionName="GET"/>
+    <functioncall functionName="Get"/>
+    <functioncall functionName="GetActive"/>
+    <functioncall functionName="GetActiveProject"/>
+    <functioncall functionName="GetDefault"/>
+    <functioncall functionName="GetEventType"/>
+    <functioncall functionName="GetKeyCode"/>
+    <functioncall functionName="GetKeyFromName"/>
+    <functioncall functionName="GetLayoutDirection"/>
+    <functioncall functionName="GetMenuBar"/>
+    <functioncall functionName="GetParent"/>
+    <functioncall functionName="GetPath"/>
+    <functioncall functionName="GetProjectFrame"/>
+    <functioncall functionName="GetUpdateFlags"/>
+    <functioncall functionName="HandleCommandEntry"/>
+    <functioncall functionName="HandleTextualCommand"/>
+    <functioncall functionName="HasEntry"/>
+    <functioncall functionName="ID"/>
+    <functioncall functionName="InstallHandlers"/>
+    <functioncall functionName="Internal"/>
+    <functioncall functionName="IsEffect"/>
+    <functioncall functionName="IsEnabled"/>
+    <functioncall functionName="IsMain"/>
+    <functioncall functionName="IsStringView"/>
+    <functioncall functionName="Items"/>
+    <functioncall functionName="JournalCode"/>
+    <functioncall functionName="KeyEventToKeyString"/>
+    <functioncall functionName="MSGID"/>
+    <functioncall functionName="MakeCheckFn"/>
+    <functioncall functionName="MenuBarListEntry"/>
+    <functioncall functionName="MenuCodes"/>
+    <functioncall functionName="MenuItem"/>
+    <functioncall functionName="MenuItems"/>
+    <functioncall functionName="MenuManager"/>
+    <functioncall functionName="MenuPart"/>
+    <functioncall functionName="Modify"/>
+    <functioncall functionName="Msgid"/>
+    <functioncall functionName="NCommandFlags"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="NewIdentifier"/>
+    <functioncall functionName="NextIdentifier"/>
+    <functioncall functionName="NiceName"/>
+    <functioncall functionName="NoFlagsSpecified"/>
+    <functioncall functionName="NonKeystrokeInterceptingWindow"/>
+    <functioncall functionName="NormalizedKeyString"/>
+    <functioncall functionName="NormalizedKeyStringTag"/>
+    <functioncall functionName="Options"/>
+    <functioncall functionName="Output"/>
+    <functioncall functionName="PROHIBITED"/>
+    <functioncall functionName="PopMenuBar"/>
+    <functioncall functionName="PurgeData"/>
+    <functioncall functionName="ReadBool"/>
+    <functioncall functionName="ReadObject"/>
+    <functioncall functionName="RebuildAllMenuBars"/>
+    <functioncall functionName="RegisteredMenuItemEnabler"/>
+    <functioncall functionName="ReportIfActionNotAllowed"/>
+    <functioncall functionName="SetCommandFlags"/>
+    <functioncall functionName="SetLabel"/>
+    <functioncall functionName="SetMaxList"/>
+    <functioncall functionName="SetPath"/>
+    <functioncall functionName="SetPostFilter"/>
+    <functioncall functionName="SetPreFilter"/>
+    <functioncall functionName="SpecialItem"/>
+    <functioncall functionName="StartTag"/>
+    <functioncall functionName="StartsWith"/>
+    <functioncall functionName="Strip"/>
+    <functioncall functionName="Stripped"/>
+    <functioncall functionName="SubMenuListEntry"/>
+    <functioncall functionName="TaggedIdentifier"/>
+    <functioncall functionName="TemporarySelection"/>
+    <functioncall functionName="ToWString"/>
+    <functioncall functionName="ToolbarMenuVisitor"/>
+    <functioncall functionName="TopLevelKeystrokeHandlingWindow"/>
+    <functioncall functionName="TranslatableString"/>
+    <functioncall functionName="Translation"/>
+    <functioncall functionName="URLStringTag"/>
+    <functioncall functionName="ValueRestorer"/>
+    <functioncall functionName="Verbatim"/>
+    <functioncall functionName="WholeMenu"/>
+    <functioncall functionName="Write"/>
+    <functioncall functionName="WriteAttr"/>
+    <functioncall functionName="XO"/>
+    <functioncall functionName="accel"/>
+    <functioncall functionName="accel_"/>
+    <functioncall functionName="allowDup"/>
+    <functioncall functionName="allowed"/>
+    <functioncall functionName="alwaysEnabled"/>
+    <functioncall functionName="any"/>
+    <functioncall functionName="args"/>
+    <functioncall functionName="attrs"/>
+    <functioncall functionName="bFull"/>
+    <functioncall functionName="bIntercept"/>
+    <functioncall functionName="bIsEffect"/>
+    <functioncall functionName="bMakingOccultCommands"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="binary_search"/>
+    <functioncall functionName="bitset"/>
+    <functioncall functionName="bool"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="callback"/>
+    <functioncall functionName="cat"/>
+    <functioncall functionName="cats"/>
+    <functioncall functionName="checked"/>
+    <functioncall functionName="checker"/>
+    <functioncall functionName="checkmarkFn"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="cnt"/>
+    <functioncall functionName="command"/>
+    <functioncall functionName="condition"/>
+    <functioncall functionName="condition_"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="const_cast"/>
+    <functioncall functionName="contains"/>
+    <functioncall functionName="context"/>
+    <functioncall functionName="continue"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="defaultDir"/>
+    <functioncall functionName="defaultFile"/>
+    <functioncall functionName="defaultKey"/>
+    <functioncall functionName="defaultPath"/>
+    <functioncall functionName="defaultValue"/>
+    <functioncall functionName="delete"/>
+    <functioncall functionName="disabledShortcuts"/>
+    <functioncall functionName="dynamic_cast"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="enable"/>
+    <functioncall functionName="enabled"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="entry"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="evt"/>
+    <functioncall functionName="excludeFromMacros"/>
+    <functioncall functionName="extend"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="fileTypes"/>
+    <functioncall functionName="final"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="finder"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="flags"/>
+    <functioncall functionName="flags_"/>
+    <functioncall functionName="fn"/>
+    <functioncall functionName="fn_"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="format"/>
+    <functioncall functionName="forward"/>
+    <functioncall functionName="function"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="global"/>
+    <functioncall functionName="height"/>
+    <functioncall functionName="helpPage_"/>
+    <functioncall functionName="hook"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="id"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="ii"/>
+    <functioncall functionName="includeMultis"/>
+    <functioncall functionName="index"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="internalName"/>
+    <functioncall functionName="isEffect"/>
+    <functioncall functionName="isEffect_"/>
+    <functioncall functionName="isOccult"/>
+    <functioncall functionName="item"/>
+    <functioncall functionName="items"/>
+    <functioncall functionName="items_"/>
+    <functioncall functionName="key"/>
+    <functioncall functionName="keyStr"/>
+    <functioncall functionName="keyString"/>
+    <functioncall functionName="label"/>
+    <functioncall functionName="labelPrefix"/>
+    <functioncall functionName="labelTop"/>
+    <functioncall functionName="label_in"/>
+    <functioncall functionName="label_in_"/>
+    <functioncall functionName="lastEffectDesc"/>
+    <functioncall functionName="lock"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="longLabel"/>
+    <functioncall functionName="longName"/>
+    <functioncall functionName="longName_"/>
+    <functioncall functionName="mCommandList"/>
+    <functioncall functionName="mCurrentID"/>
+    <functioncall functionName="mCurrentMenu"/>
+    <functioncall functionName="mCurrentMenuName"/>
+    <functioncall functionName="mLastProcessId"/>
+    <functioncall functionName="mMenuBarList"/>
+    <functioncall functionName="mNiceName"/>
+    <functioncall functionName="m_fileNames"/>
+    <functioncall functionName="m_paths"/>
+    <functioncall functionName="make_iterator_range"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="mark"/>
+    <functioncall functionName="mbSeparatorAllowed"/>
+    <functioncall functionName="menu"/>
+    <functioncall functionName="menuBar"/>
+    <functioncall functionName="menubar"/>
+    <functioncall functionName="menubar_"/>
+    <functioncall functionName="message"/>
+    <functioncall functionName="message_"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="multi"/>
+    <functioncall functionName="multiEntry"/>
+    <functioncall functionName="nItems"/>
+    <functioncall functionName="name"/>
+    <functioncall functionName="nameIn"/>
+    <functioncall functionName="nameSuffix"/>
+    <functioncall functionName="name_"/>
+    <functioncall functionName="newLabel"/>
+    <functioncall functionName="none"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="operatorAudacityProject&amp;"/>
+    <functioncall functionName="options"/>
+    <functioncall functionName="options_"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="p"/>
+    <functioncall functionName="pFocus"/>
+    <functioncall functionName="pGivenContext"/>
+    <functioncall functionName="pItem"/>
+    <functioncall functionName="pLabel"/>
+    <functioncall functionName="pParent"/>
+    <functioncall functionName="pWnd"/>
+    <functioncall functionName="parameter"/>
+    <functioncall functionName="parent"/>
+    <functioncall functionName="path"/>
+    <functioncall functionName="piece"/>
+    <functioncall functionName="pmf"/>
+    <functioncall functionName="pop_back"/>
+    <functioncall functionName="pos"/>
+    <functioncall functionName="prev"/>
+    <functioncall functionName="priority_"/>
+    <functioncall functionName="project"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="release"/>
+    <functioncall functionName="repeattypeunique"/>
+    <functioncall functionName="reset"/>
+    <functioncall functionName="result"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="rtl"/>
+    <functioncall functionName="sFinder"/>
+    <functioncall functionName="sMenu"/>
+    <functioncall functionName="sMenuHook"/>
+    <functioncall functionName="second"/>
+    <functioncall functionName="separatorFormat"/>
+    <functioncall functionName="setting"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sizeFlags"/>
+    <functioncall functionName="skipKeyDown"/>
+    <functioncall functionName="skipKeydown"/>
+    <functioncall functionName="sort"/>
+    <functioncall functionName="static_assert"/>
+    <functioncall functionName="strValue"/>
+    <functioncall functionName="strictFlags"/>
+    <functioncall functionName="strings"/>
+    <functioncall functionName="style"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="sz"/>
+    <functioncall functionName="tName"/>
+    <functioncall functionName="tag"/>
+    <functioncall functionName="temp"/>
+    <functioncall functionName="temporarySelection"/>
+    <functioncall functionName="theHook"/>
+    <functioncall functionName="this"/>
+    <functioncall functionName="title"/>
+    <functioncall functionName="title_"/>
+    <functioncall functionName="tmpCurrentSubMenu"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="typename"/>
+    <functioncall functionName="uCurrentMenu"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="useStrictFlags"/>
+    <functioncall functionName="validTarget"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="valueRestorer"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="wantKeyup"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="width"/>
+    <functioncall functionName="winid"/>
+    <functioncall functionName="wxASSERT"/>
+    <functioncall functionName="wxCENTRE"/>
+    <functioncall functionName="wxCommandEvent"/>
+    <functioncall functionName="wxDD_DEFAULT_STYLE"/>
+    <functioncall functionName="wxDECLARE_EXPORTED_EVENT"/>
+    <functioncall functionName="wxDEFAULT_DIALOG_STYLE"/>
+    <functioncall functionName="wxDefaultCoord"/>
+    <functioncall functionName="wxDefaultPosition"/>
+    <functioncall functionName="wxDefaultSize"/>
+    <functioncall functionName="wxDialog"/>
+    <functioncall functionName="wxDialogWrapper"/>
+    <functioncall functionName="wxDirDialog"/>
+    <functioncall functionName="wxEVT_CHAR_HOOK"/>
+    <functioncall functionName="wxEmptyString"/>
+    <functioncall functionName="wxEvtHandler"/>
+    <functioncall functionName="wxFD_DEFAULT_STYLE"/>
+    <functioncall functionName="wxFileDialogNameStr"/>
+    <functioncall functionName="wxFileSelectorDefaultWildcardStr"/>
+    <functioncall functionName="wxFileSelectorPromptStr"/>
+    <functioncall functionName="wxGetTopLevelParent"/>
+    <functioncall functionName="wxHW_DEFAULT_STYLE"/>
+    <functioncall functionName="wxHW_SCROLLBAR_AUTO"/>
+    <functioncall functionName="wxID_ABOUT"/>
+    <functioncall functionName="wxID_ANY"/>
+    <functioncall functionName="wxID_EXIT"/>
+    <functioncall functionName="wxID_PREFERENCES"/>
+    <functioncall functionName="wxLogDebug"/>
+    <functioncall functionName="wxMenu"/>
+    <functioncall functionName="wxMenuBar"/>
+    <functioncall functionName="wxMessageDialog"/>
+    <functioncall functionName="wxNO_BORDER"/>
+    <functioncall functionName="wxPanel"/>
+    <functioncall functionName="wxPanelWrapper"/>
+    <functioncall functionName="wxSIZE_AUTO"/>
+    <functioncall functionName="wxString"/>
+    <functioncall functionName="wxT"/>
+    <functioncall functionName="wxTabTraversalWrapper &lt; FileDialog &gt;"/>
+    <functioncall functionName="wxTabTraversalWrapper &lt; wxDialog &gt;"/>
+    <functioncall functionName="wxTabTraversalWrapper &lt; wxDirDialog &gt;"/>
+    <functioncall functionName="wxTabTraversalWrapper &lt; wxMessageDialog &gt;"/>
+    <functioncall functionName="wxTabTraversalWrapper &lt; wxPanel &gt;"/>
+    <functioncall functionName="wxTabTraversalWrapperCharHook"/>
+    <functioncall functionName="x"/>
+    <functioncall functionName="y"/>
+  </FileInfo>
+</analyzerinfo>

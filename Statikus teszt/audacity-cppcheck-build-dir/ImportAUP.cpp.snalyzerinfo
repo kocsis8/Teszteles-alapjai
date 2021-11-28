@@ -1,0 +1,62 @@
+wxPanelWrapper
+wxPanelWrapper
+Create call:[Create,Translation] noreturn:[Create]
+wxDialogWrapper
+wxDialogWrapper
+Create call:[Create,Translation] noreturn:[Create]
+wxDirDialogWrapper
+Create call:[Create,Translation] noreturn:[Create]
+FileDialogBase
+SetFileExtension
+FileDialogWrapper
+FileDialogWrapper
+Create call:[Create,FormatWildcard,Translation] noreturn:[Create]
+AudacityMessageDialog
+GetImportItems
+UnusableImportPlugin
+GetPluginFormatDescription
+SupportsExtension call:[Index]
+CaseInsensitiveEquals call:[length,tolower]
+AUPImportPlugin call:[sizeof,static_assert] noreturn:[static_assert]
+AUPImportPlugin
+GetPluginStringID call:[wxT] noreturn:[wxT]
+GetPluginFormatDescription call:[XO] noreturn:[XO]
+Open call:[Open]
+AUPImportFileHandle
+AUPImportFileHandle
+GetFileDescription call:[XO] noreturn:[XO]
+GetFileUncompressedBytes
+GetStreamCount
+GetStreamInfo
+SetStreamUsage
+Open call:[AudacityMessageBox,Close,GetProjectFrame,IsOpened,Read,XO,ff,sizeof,wxStrncmp,wxStrstr,wxT]
+HandleXMLChild
+HandleXMLEndTag call:[HandleXMLEndTag,back,pop_back,size] noreturn:[HandleXMLEndTag]
+HandleXMLTag call:[HandleControlPoint,HandleEnvelope,HandleImport,HandleLabel,HandleLabelTrack,HandleNoteTrack,HandlePCMAliasBlockFile,HandleProject,HandleSequence,HandleSilentBlockFile,HandleSimpleBlockFile,HandleTag,HandleTags,HandleTimeTrack,HandleWaveBlock,HandleWaveClip,HandleWaveTrack,HandleXMLTag,SetError,XO,push_back,string] noreturn:[HandleControlPoint,HandleEnvelope,HandleImport,HandleLabel,HandleLabelTrack,HandleNoteTrack,HandlePCMAliasBlockFile,HandleProject,HandleSequence,HandleSilentBlockFile,HandleSimpleBlockFile,HandleTag,HandleTags,HandleTimeTrack,HandleWaveBlock,HandleWaveClip,HandleWaveTrack,SetError]
+HandleProject call:[AppendDir,AudacityMessageBox,DirExists,Format,Get,GetAllFiles,GetFullPath,GetName,GetProjectFrame,RemoveLastDir,SetError,SetFullName,ToWString,TryGet,XO,clear,empty,wxFileNameFromPath,wxT] noreturn:[SetError,clear]
+HandleLabelTrack call:[Add,Get]
+HandleNoteTrack call:[AudacityMessageBox,GetProjectFrame,XO]
+HandleTimeTrack call:[Add,AudacityMessageBox,Get,GetProjectFrame,XO,begin]
+HandleWaveTrack call:[Add,Get,NewWaveTrack]
+HandleTags call:[MakeUpper,SetTag,ToWString,empty,string,wxT] noreturn:[MakeUpper,SetTag,wxT]
+HandleTag call:[SetTag,ToWString,wxT] noreturn:[SetTag,ToWString]
+HandleLabel call:[back]
+HandleWaveClip call:[CreateClip,HandleXMLChild,back,push_back] noreturn:[CreateClip,HandleXMLChild]
+HandleEnvelope call:[GetEnvelope,RightmostOrNewClip,back] noreturn:[GetEnvelope]
+HandleControlPoint call:[HandleXMLChild,back] noreturn:[HandleXMLChild]
+HandleSequence call:[ConvertToSampleFormat,GetSequence,HandleWaveClip,IsValidSampleFormat,SetError,TryGet,XO,back] noreturn:[ConvertToSampleFormat,SetError]
+HandleWaveBlock call:[SetError,TryGet,XO] noreturn:[SetError]
+HandleSimpleBlockFile call:[AddFile,CaseInsensitiveEquals,Format,IsGoodFileString,SetError,SetWarning,ToWString,TryGet,XO,end,find] noreturn:[SetError,SetWarning]
+HandleSilentBlockFile call:[AddFile,SetError,TryGet,XO] noreturn:[SetError]
+HandlePCMAliasBlockFile call:[AddFile,Assign,CaseInsensitiveEquals,Format,GetFullPath,GetPath,IsGoodFileName,IsGoodPathName,IsGoodPathString,IsOk,SetError,SetWarning,ToWString,TryGet,XO] noreturn:[AddFile,Assign,SetError,SetWarning,ToWString]
+HandleImport call:[Any,Get,GetFullPath,GetPath,GuardedCall,HandleXMLTag,Import,IsGoodFileName,IsGoodPathName,SetExt,SetOffset,StartingWith,ToWString,TryGet,begin,empty,erase,front,rbegin,size,wxLogWarning,wxT] noreturn:[GetFullPath,Import,SetOffset,rbegin]
+AddFile call:[push_back]
+AddSilence call:[GetEndTime,GetPlayEndTime,InsertSilence,LongSamplesToTime,wxASSERT] noreturn:[InsertSilence]
+AddSamples call:[AddSilence,AppendNewBlock,AppendSharedBlock,CopySamples,Format,Open,RightmostOrNewClip,SetWarning,XO,as_long_long,as_size_t,buffer,fd,finally,memset,ptr,sf_subtype_is_integer,sf_subtype_more_than_16_bits,sizeof,static_assert,temp,tmpbuf,uncaught_exception,wxASSERT,wxFileNameFromPath] noreturn:[AddSilence,AppendNewBlock,CopySamples]
+SetError call:[Debug,empty,wxLogError]
+SetWarning call:[Debug,empty,wxLogWarning]
+wxTabTraversalWrapper < wxPanel > call:[Bind] noreturn:[Bind]
+wxTabTraversalWrapper < wxDialog > call:[Bind] noreturn:[Bind]
+wxTabTraversalWrapper < wxDirDialog > call:[Bind] noreturn:[Bind]
+wxTabTraversalWrapper < FileDialog > call:[Bind] noreturn:[Bind]
+wxTabTraversalWrapper < wxMessageDialog > call:[Bind] noreturn:[Bind]

@@ -1,0 +1,35 @@
+operator| call:[NumValidatorStyle,int] noreturn:[NumValidatorStyle]
+operator& call:[int] noreturn:[int]
+SetStyle
+NumValidatorBase
+NumValidatorBase
+HasFlag call:[return]
+GetValueAfterInsertingChar call:[insert,val]
+SetMin call:[DoSetMin,lowest] noreturn:[lowest]
+SetMax call:[DoSetMax,max] noreturn:[max]
+SetRange call:[SetMax,SetMin] noreturn:[SetMax]
+TransferToWindow call:[ChangeValue,GetTextEntry,NormalizeValue] noreturn:[ChangeValue]
+TransferFromWindow call:[FromString,GetTextEntry,GetValue,HasFlag,IsEnabled,IsInRange,empty,s]
+NumValidator
+NormalizeString call:[FromString,NormalizeValue,wxString] noreturn:[wxString]
+NormalizeValue call:[HasFlag,ToString] noreturn:[ToString]
+IntegerValidatorBase call:[wxASSERT_MSG,wxT] noreturn:[wxASSERT_MSG]
+IntegerValidatorBase
+DoSetMin
+DoSetMax
+IsInRange
+IntegerValidator call:[SetRange] noreturn:[SetRange]
+Clone call:[IntegerValidator] noreturn:[IntegerValidator]
+MakeIntegerValidator
+SetPrecision
+FloatingPointValidatorBase
+FloatingPointValidatorBase
+DoSetMin
+DoSetMax
+IsInRange
+FloatingPointValidator call:[DoSetMinMax,SetPrecision] noreturn:[SetPrecision]
+FloatingPointValidator call:[SetPrecision,SetRange] noreturn:[SetPrecision]
+Clone call:[FloatingPointValidator] noreturn:[FloatingPointValidator]
+DoSetMinMax call:[DoSetMax,DoSetMin,lowest,max] noreturn:[DoSetMax]
+MakeFloatingPointValidator
+MakeFloatingPointValidator

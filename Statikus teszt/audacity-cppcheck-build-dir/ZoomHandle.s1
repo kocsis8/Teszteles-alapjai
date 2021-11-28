@@ -1,0 +1,24 @@
+MaximizeWidth
+MaximizeHeight
+GetChangeHighlight
+SetChangeHighlight
+NeedChangeHighlight
+AssignUIHandlePtr call:[NeedChangeHighlight,SetChangeHighlight,lock,move,typeid,wxASSERT]
+HitTestPreview
+HitTestPreview
+SetBackgroundBrushes
+TrackPanelMouseState
+TrackPanelMouseEvent
+ZoomHandle
+HitAnywhere call:[AssignUIHandlePtr]
+HitTest call:[ButtonIsDown,HitAnywhere] noreturn:[HitAnywhere]
+ZoomHandle
+HandlesRightClick
+Click call:[ButtonDown,LeftDClick]
+Drag call:[GetLeft,GetRight]
+Preview call:[HitPreview] noreturn:[HitPreview]
+Release call:[Get,GetDefaultZoom,IsDragZooming,MiddleDClick,MiddleUp,PositionToTime,RightDClick,RightUp,SetZoom,ShiftDown,ZoomBy,swap] noreturn:[SetZoom,swap]
+Cancel
+Draw call:[DrawRectangle,IsDragZooming,SetBrush,SetPen,abs,min] noreturn:[DrawRectangle]
+DrawingArea call:[MaximizeHeight] noreturn:[MaximizeHeight]
+IsDragZooming call:[abs,return] noreturn:[return]

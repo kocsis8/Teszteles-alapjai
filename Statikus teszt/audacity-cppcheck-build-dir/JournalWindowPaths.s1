@@ -1,0 +1,10 @@
+AcceptsFocus
+OnErase
+HasName call:[GetName]
+SameName call:[GetName,HasName] noreturn:[HasName]
+UniqueWindowAmongPeers call:[begin,end,find_if]
+HasUniqueNameAmongPeers call:[SameName,UniqueWindowAmongPeers] noreturn:[UniqueWindowAmongPeers]
+FindByNameAmongPeers call:[HasName,UniqueWindowAmongPeers] noreturn:[UniqueWindowAmongPeers]
+PathComponents call:[GetChildren,GetName,GetParent,HasUniqueNameAmongPeers,PathComponents,clear,empty,push_back] noreturn:[clear]
+FindPath call:[PathComponents,wxJoin] noreturn:[wxJoin]
+FindByPath call:[FindByNameAmongPeers,GET,GetChildren,begin,empty,end,wxSplit] noreturn:[FindByNameAmongPeers]

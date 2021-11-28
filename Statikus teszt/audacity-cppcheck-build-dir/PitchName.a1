@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3217786960">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="FreqToMIDInote" lineNumber="29"/>
+    <functiondecl functionName="MIDInoteToFreq" lineNumber="35"/>
+    <functiondecl functionName="PitchIndex" lineNumber="40"/>
+    <functiondecl functionName="PitchOctave" lineNumber="53"/>
+    <functiondecl functionName="PitchName" lineNumber="60"/>
+    <functiondecl functionName="PitchName_Absolute" lineNumber="154"/>
+    <functiondecl functionName="PitchToMIDInote" lineNumber="161"/>
+    <functiondecl functionName="PitchToFreq" lineNumber="166"/>
+    <functioncall functionName="Both"/>
+    <functioncall functionName="Flats"/>
+    <functioncall functionName="Format"/>
+    <functioncall functionName="MIDInoteToFreq"/>
+    <functioncall functionName="PitchIndex"/>
+    <functioncall functionName="PitchName"/>
+    <functioncall functionName="PitchOctave"/>
+    <functioncall functionName="PitchToMIDInote"/>
+    <functioncall functionName="Sharps"/>
+    <functioncall functionName="Verbatim"/>
+    <functioncall functionName="XO"/>
+    <functioncall functionName="bothnames"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="choice"/>
+    <functioncall functionName="dMIDInote"/>
+    <functioncall functionName="dRound"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="double"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="flatnames"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="log"/>
+    <functioncall functionName="nPitchIndex"/>
+    <functioncall functionName="nPitchOctave"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="pow"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="sharpnames"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="wxASSERT"/>
+    <functioncall functionName="wxT"/>
+  </FileInfo>
+</analyzerinfo>

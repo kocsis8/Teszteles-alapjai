@@ -1,0 +1,37 @@
+IsOk call:[empty] noreturn:[empty]
+Project
+BlockSpaceUsageAccumulator call:[GetSpaceUsage] noreturn:[GetSpaceUsage]
+IsSilent
+DB call:[Conn,DB] noreturn:[DB]
+SqliteSampleBlockFactory
+DoCreate call:[GetBlockID,SetSamples,shared_from_this]
+GetActiveBlockIDs call:[begin,end,erase,expired,insert] noreturn:[erase]
+DoCreateSilent global:[sSilentBlocks] call:[SetSizes]
+DoCreateFromXML call:[DoCreateSilent,Load,TryGet,lock,shared_from_this] noreturn:[DoCreateSilent,Load]
+SetBlockDeletionCallback call:[move]
+SqliteSampleBlock
+SqliteSampleBlock call:[Conn,Delete,GuardedCall,IsSilent,ShouldBypass,callback] noreturn:[Delete,GuardedCall,callback]
+Conn call:[XO,get] noreturn:[get]
+CloseLock
+GetBlockID
+GetSampleFormat
+GetSampleCount
+DoGetSamples call:[Conn,GetBlob,IsSilent,Prepare,SAMPLE_SIZE,memset] noreturn:[SAMPLE_SIZE]
+SetSamples call:[CalcSummary,Commit,SetSizes,get,memcpy,reinit] noreturn:[Commit]
+GetSummary256 call:[GetSummary] noreturn:[GetSummary]
+GetSummary64k call:[GetSummary] noreturn:[GetSummary]
+GetSummary call:[Conn,GetBlob,IsSilent,Prepare,SAMPLE_SIZE,memset,sizeof]
+GetSumMin
+GetSumMax
+GetSumRms
+DoGetMinMaxRMS call:[DoGetSamples,IsSilent,Load,blockData,min,ptr,sqrt] noreturn:[Load]
+DoGetMinMaxRMS
+GetSpaceUsage call:[Conn,GetDiskUsage,IsSilent] noreturn:[GetDiskUsage]
+GetBlob call:[ADD_EXCEPTION_CONTEXT,Conn,CopySamples,DB,IsSilent,Load,SAMPLE_SIZE,ThrowException,memset,min,sqlite3_bind_int64,sqlite3_clear_bindings,sqlite3_column_blob,sqlite3_column_bytes,sqlite3_errcode,sqlite3_errmsg,sqlite3_reset,sqlite3_step,to_string,wxASSERT,wxASSERT_MSG,wxLogDebug,wxT] noreturn:[Load,ThrowException,memset,wxASSERT_MSG]
+Load call:[ADD_EXCEPTION_CONTEXT,Conn,DB,Prepare,SAMPLE_SIZE,ThrowException,sqlite3_bind_int64,sqlite3_clear_bindings,sqlite3_column_double,sqlite3_column_int,sqlite3_errcode,sqlite3_errmsg,sqlite3_reset,sqlite3_step,to_string,wxASSERT,wxASSERT_MSG,wxLogDebug,wxT] noreturn:[ThrowException,wxASSERT_MSG]
+Commit call:[ADD_EXCEPTION_CONTEXT,Conn,DB,Prepare,ThrowException,get,reset,sqlite3_bind_blob,sqlite3_bind_double,sqlite3_bind_int,sqlite3_clear_bindings,sqlite3_errcode,sqlite3_errmsg,sqlite3_last_insert_rowid,sqlite3_reset,sqlite3_step,to_string,wxASSERT_MSG,wxLogDebug,wxT] noreturn:[ThrowException,wxASSERT_MSG]
+Delete call:[ADD_EXCEPTION_CONTEXT,Conn,DB,IsSilent,Prepare,ThrowException,sqlite3_bind_int64,sqlite3_clear_bindings,sqlite3_errcode,sqlite3_errmsg,sqlite3_reset,sqlite3_step,to_string,wxASSERT,wxASSERT_MSG,wxLogDebug,wxT] noreturn:[ThrowException,sqlite3_reset,wxASSERT_MSG]
+SaveXML call:[WriteAttr,wxT] noreturn:[WriteAttr]
+SetSizes call:[SAMPLE_SIZE]
+CalcSummary call:[SamplesToFloats,get,reinit,sqrt,wxASSERT_MSG,wxT] noreturn:[get,sqrt]
+Injector call:[RegisterFactoryFactory] noreturn:[RegisterFactoryFactory]

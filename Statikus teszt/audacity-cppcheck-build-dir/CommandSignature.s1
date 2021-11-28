@@ -1,0 +1,32 @@
+Validator
+Validator
+SetConverted
+GetConverted
+Validate call:[SetConverted]
+GetDescription call:[wxT] noreturn:[wxT]
+GetClone
+AddOption call:[push_back] noreturn:[push_back]
+AddOptions call:[begin,end,insert] noreturn:[insert]
+Validate call:[GetString,SetConverted,contains,make_iterator_range] noreturn:[contains]
+GetDescription call:[size,wxT] noreturn:[wxT]
+GetClone call:[move] noreturn:[move]
+Validate call:[Convert,GetConverted,IsType,SetConverted,wxT] noreturn:[IsType]
+GetDescription call:[wxT] noreturn:[wxT]
+GetClone
+Validate call:[Convert,SetConverted,length]
+GetDescription call:[wxT] noreturn:[wxT]
+GetClone
+Validate call:[Convert,GetConverted,IsType,SetConverted,wxT] noreturn:[IsType]
+GetDescription call:[wxT] noreturn:[wxT]
+GetClone
+RangeValidator
+Validate call:[Convert,SetConverted,return] noreturn:[return]
+GetDescription call:[Format,wxT] noreturn:[Format]
+GetClone
+Validate call:[Convert,GetConverted,IsType,SetConverted,return,wxT] noreturn:[return]
+GetDescription call:[wxT] noreturn:[wxT]
+GetClone
+CommandSignature
+AddParameter call:[GetDescription,MakeString,Validate,insert,move,value_type,wxASSERT_MSG,wxT] noreturn:[insert]
+GetDefaults
+GetValidator call:[end,find,wxASSERT]

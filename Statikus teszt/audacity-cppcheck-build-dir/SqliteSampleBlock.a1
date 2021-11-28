@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="831451208">
+        <error id="useInitializationList" severity="performance" msg="Variable &apos;mSampleFormat&apos; is assigned in constructor body. Consider performing initialization in initialization list." verbose="When an object of a class is created, the constructors of all member variables are called consecutively in the order the variables are declared, even if you don&apos;t explicitly write them to the initialization list. You could avoid assigning &apos;mSampleFormat&apos; a value by passing the value to the constructor in the initialization list." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/SqliteSampleBlock.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\SqliteSampleBlock.cpp" line="289" column="4"/>
+            <symbol>mSampleFormat</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;mSumMin&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;mSumMin&apos; is reassigned a value before the old one has been used." cwe="563" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/SqliteSampleBlock.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\SqliteSampleBlock.cpp" line="667" column="12" info="mSumMin is overwritten"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\SqliteSampleBlock.cpp" line="665" column="12" info="mSumMin is assigned"/>
+            <symbol>mSumMin</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/SqliteSampleBlock.cpp:73:9" call-funcname="GetSummary" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/SqliteSampleBlock.cpp" line="408" col="11" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/SqliteSampleBlock.cpp:55:9" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/SqliteSampleBlock.cpp:73:9" call-funcname="GetSummary" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/SqliteSampleBlock.cpp" line="416" col="11" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/SqliteSampleBlock.cpp:56:9" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/SqliteSampleBlock.cpp:78:11" call-funcname="GetBlob" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/SqliteSampleBlock.cpp" line="435" col="10" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/SqliteSampleBlock.cpp:73:9" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="DBConnectionErrors" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/DBConnection.h" line="31" col="1" hash="1812039169409759241"/>
+<class name="MinMaxRMS" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/SampleBlock.h" line="33" col="1" hash="14239959713600773666"/>
+<class name="SqliteSampleBlock" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/SqliteSampleBlock.cpp" line="27" col="1" hash="17722599125309301219"/>
+<class name="Injector" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/SqliteSampleBlock.cpp" line="1012" col="8" hash="2194767926710296611"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="IsSilent" lineNumber="71"/>
+    <functiondecl functionName="DB" lineNumber="96"/>
+    <functiondecl functionName="DoCreate" lineNumber="182"/>
+    <functiondecl functionName="GetActiveBlockIDs" lineNumber="192"/>
+    <functiondecl functionName="DoCreateSilent" lineNumber="207"/>
+    <functiondecl functionName="DoCreateFromXML" lineNumber="225"/>
+    <functiondecl functionName="SetBlockDeletionCallback" lineNumber="277"/>
+    <functiondecl functionName="Conn" lineNumber="330"/>
+    <functiondecl functionName="CloseLock" lineNumber="348"/>
+    <functiondecl functionName="GetBlockID" lineNumber="353"/>
+    <functiondecl functionName="GetSampleFormat" lineNumber="358"/>
+    <functiondecl functionName="GetSampleCount" lineNumber="363"/>
+    <functiondecl functionName="DoGetSamples" lineNumber="368"/>
+    <functiondecl functionName="SetSamples" lineNumber="391"/>
+    <functiondecl functionName="GetSummary256" lineNumber="404"/>
+    <functiondecl functionName="GetSummary64k" lineNumber="412"/>
+    <functiondecl functionName="GetSummary" lineNumber="420"/>
+    <functiondecl functionName="GetSumMin" lineNumber="451"/>
+    <functiondecl functionName="GetSumMax" lineNumber="456"/>
+    <functiondecl functionName="GetSumRms" lineNumber="461"/>
+    <functiondecl functionName="DoGetMinMaxRMS" lineNumber="471"/>
+    <functiondecl functionName="DoGetMinMaxRMS" lineNumber="518"/>
+    <functiondecl functionName="GetSpaceUsage" lineNumber="523"/>
+    <functiondecl functionName="GetBlob" lineNumber="531"/>
+    <functiondecl functionName="Load" lineNumber="655"/>
+    <functiondecl functionName="Commit" lineNumber="723"/>
+    <functiondecl functionName="Delete" lineNumber="790"/>
+    <functiondecl functionName="SaveXML" lineNumber="836"/>
+    <functiondecl functionName="SetSizes" lineNumber="841"/>
+    <functiondecl functionName="CalcSummary" lineNumber="858"/>
+    <functioncall functionName="ADD_EXCEPTION_CONTEXT"/>
+    <functioncall functionName="AUDACITY_DLL_API"/>
+    <functioncall functionName="AudacityProject"/>
+    <functioncall functionName="CalcSummary"/>
+    <functioncall functionName="Commit"/>
+    <functioncall functionName="Conn"/>
+    <functioncall functionName="ConnectionPtr"/>
+    <functioncall functionName="CopySamples"/>
+    <functioncall functionName="DB"/>
+    <functioncall functionName="DBConnection"/>
+    <functioncall functionName="DBConnectionErrors"/>
+    <functioncall functionName="Delete"/>
+    <functioncall functionName="DeleteSampleBlock"/>
+    <functioncall functionName="DoCreateSilent"/>
+    <functioncall functionName="DoGetSamples"/>
+    <functioncall functionName="EVT_CHECKPOINT_FAILURE"/>
+    <functioncall functionName="EVT_PROJECT_TITLE_CHANGE"/>
+    <functioncall functionName="EVT_RECONNECTION_FAILURE"/>
+    <functioncall functionName="FLT_MAX"/>
+    <functioncall functionName="Get"/>
+    <functioncall functionName="GetAllSampleBlocksSize"/>
+    <functioncall functionName="GetBlob"/>
+    <functioncall functionName="GetBlockID"/>
+    <functioncall functionName="GetDiskUsage"/>
+    <functioncall functionName="GetSampleBlockSize"/>
+    <functioncall functionName="GetSamples"/>
+    <functioncall functionName="GetSpaceUsage"/>
+    <functioncall functionName="GetSummary"/>
+    <functioncall functionName="GetSummary256"/>
+    <functioncall functionName="GetSummary64k"/>
+    <functioncall functionName="GuardedCall"/>
+    <functioncall functionName="Injector"/>
+    <functioncall functionName="InsertSampleBlock"/>
+    <functioncall functionName="Internal"/>
+    <functioncall functionName="IsSilent"/>
+    <functioncall functionName="Load"/>
+    <functioncall functionName="LoadSampleBlock"/>
+    <functioncall functionName="PROHIBITED"/>
+    <functioncall functionName="Prepare"/>
+    <functioncall functionName="ProjectFileIO"/>
+    <functioncall functionName="RegisterFactoryFactory"/>
+    <functioncall functionName="SAMPLE_SIZE"/>
+    <functioncall functionName="SQLITE_STATIC"/>
+    <functioncall functionName="SampleBlock"/>
+    <functioncall functionName="SampleBlockFactory"/>
+    <functioncall functionName="SamplesToFloats"/>
+    <functioncall functionName="SetSamples"/>
+    <functioncall functionName="SetSizes"/>
+    <functioncall functionName="ShouldBypass"/>
+    <functioncall functionName="SqliteSampleBlock"/>
+    <functioncall functionName="SqliteSampleBlockFactory"/>
+    <functioncall functionName="ThrowException"/>
+    <functioncall functionName="TryGet"/>
+    <functioncall functionName="WriteAttr"/>
+    <functioncall functionName="XO"/>
+    <functioncall functionName="attrs"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="blobbytes"/>
+    <functioncall functionName="blockData"/>
+    <functioncall functionName="bytesPerFrame"/>
+    <functioncall functionName="callback"/>
+    <functioncall functionName="catch"/>
+    <functioncall functionName="char"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="db"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="denom"/>
+    <functioncall functionName="dest"/>
+    <functioncall functionName="destformat"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="enum"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="expired"/>
+    <functioncall functionName="f1"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="float"/>
+    <functioncall functionName="floatSample"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="fraction"/>
+    <functioncall functionName="frameoffset"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="id"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="it"/>
+    <functioncall functionName="j"/>
+    <functioncall functionName="jcount"/>
+    <functioncall functionName="len"/>
+    <functioncall functionName="lock"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="mBlockID"/>
+    <functioncall functionName="mCallback"/>
+    <functioncall functionName="mSampleBytes"/>
+    <functioncall functionName="mSampleCount"/>
+    <functioncall functionName="mSampleFormat"/>
+    <functioncall functionName="mSumMax"/>
+    <functioncall functionName="mSumMin"/>
+    <functioncall functionName="mSumRms"/>
+    <functioncall functionName="mSummary256Bytes"/>
+    <functioncall functionName="mSummary64kBytes"/>
+    <functioncall functionName="mValid"/>
+    <functioncall functionName="make_shared"/>
+    <functioncall functionName="max"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="min"/>
+    <functioncall functionName="minbytes"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="mpConnection"/>
+    <functioncall functionName="mpFactory"/>
+    <functioncall functionName="nValue"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="numframes"/>
+    <functioncall functionName="numsamples"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="pConnection"/>
+    <functioncall functionName="pFactory"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="pb"/>
+    <functioncall functionName="project"/>
+    <functioncall functionName="ptr"/>
+    <functioncall functionName="rc"/>
+    <functioncall functionName="reinit"/>
+    <functioncall functionName="reset"/>
+    <functioncall functionName="result"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="rms"/>
+    <functioncall functionName="sample"/>
+    <functioncall functionName="sampleFormat"/>
+    <functioncall functionName="samplePtr"/>
+    <functioncall functionName="samples"/>
+    <functioncall functionName="sb"/>
+    <functioncall functionName="sbid"/>
+    <functioncall functionName="second"/>
+    <functioncall functionName="shared_from_this"/>
+    <functioncall functionName="shared_ptr"/>
+    <functioncall functionName="silent"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="sizes"/>
+    <functioncall functionName="sql"/>
+    <functioncall functionName="sqlite3_bind_blob"/>
+    <functioncall functionName="sqlite3_bind_double"/>
+    <functioncall functionName="sqlite3_bind_int"/>
+    <functioncall functionName="sqlite3_bind_int64"/>
+    <functioncall functionName="sqlite3_clear_bindings"/>
+    <functioncall functionName="sqlite3_column_blob"/>
+    <functioncall functionName="sqlite3_column_bytes"/>
+    <functioncall functionName="sqlite3_column_double"/>
+    <functioncall functionName="sqlite3_column_int"/>
+    <functioncall functionName="sqlite3_errcode"/>
+    <functioncall functionName="sqlite3_errmsg"/>
+    <functioncall functionName="sqlite3_last_insert_rowid"/>
+    <functioncall functionName="sqlite3_reset"/>
+    <functioncall functionName="sqlite3_step"/>
+    <functioncall functionName="sqrt"/>
+    <functioncall functionName="src"/>
+    <functioncall functionName="srcbytes"/>
+    <functioncall functionName="srcformat"/>
+    <functioncall functionName="srcoffset"/>
+    <functioncall functionName="ssb"/>
+    <functioncall functionName="start"/>
+    <functioncall functionName="static_cast"/>
+    <functioncall functionName="stmt"/>
+    <functioncall functionName="sumLen"/>
+    <functioncall functionName="this"/>
+    <functioncall functionName="to_string"/>
+    <functioncall functionName="total"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="wxASSERT"/>
+    <functioncall functionName="wxASSERT_MSG"/>
+    <functioncall functionName="wxCommandEvent"/>
+    <functioncall functionName="wxDECLARE_EXPORTED_EVENT"/>
+    <functioncall functionName="wxLogDebug"/>
+    <functioncall functionName="wxString"/>
+    <functioncall functionName="wxT"/>
+  </FileInfo>
+</analyzerinfo>

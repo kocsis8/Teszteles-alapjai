@@ -1,0 +1,10 @@
+RingBuffer
+RingBuffer
+Filled call:[return]
+Free call:[Filled]
+AvailForPut call:[Free,load] noreturn:[Free]
+Put call:[ClearSamples,CopySamples,Free,SAMPLE_SIZE,load,min,ptr,store]
+Clear call:[ClearSamples,Free,load,min,ptr,store]
+AvailForGet call:[Filled,load] noreturn:[Filled]
+Get call:[CopySamples,Filled,SAMPLE_SIZE,load,min,ptr,store]
+Discard call:[Filled,load,min,store]

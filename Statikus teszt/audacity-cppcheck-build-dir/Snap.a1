@@ -1,0 +1,364 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2741766061">
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;NumericConverter&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;NumericConverter&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\NumericTextCtrl.h" line="85" column="4"/>
+            <symbol>NumericConverter</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;AudioTrack&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;AudioTrack&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.h" line="828" column="4"/>
+            <symbol>AudioTrack</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;PlayableTrack&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;PlayableTrack&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.h" line="844" column="4"/>
+            <symbol>PlayableTrack</symbol>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;pTrack&apos; is always true" verbose="Condition &apos;pTrack&apos; is always true" cwe="571" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.h" line="1533" column="14" info="Condition &apos;pTrack&apos; is always true"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.h" line="1531" column="11" info="Assuming that condition &apos;pTrack&apos; is not redundant"/>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;currentTrack&apos; can be declared with const" verbose="Parameter &apos;currentTrack&apos; can be declared with const" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Snap.cpp" line="191" column="39" info="Parameter &apos;currentTrack&apos; can be declared with const"/>
+            <symbol>currentTrack</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h:93:11" call-funcname="Get" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.cpp" line="144" col="49" call-argexpr="index" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Snap.cpp" line="219" col="16" info="Assuming that condition &apos;left&gt;0&apos; is not redundant"/>
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Snap.cpp" line="219" col="41" info="Calling function &apos;PixelDiff&apos;, 2nd argument &apos;left-1&apos; value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h:95:11" call-funcname="Find" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.cpp" line="170" col="23" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h:94:12" call-funcname="PixelDiff" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.cpp" line="219" col="32" call-argexpr="left-1" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Snap.cpp" line="219" col="16" info="Assuming that condition &apos;left&gt;0&apos; is not redundant"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h:97:9" call-funcname="SnapToPoints" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.cpp" line="285" col="7" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h:80:16" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="NumericConverter::FormatStrings" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/NumericTextCtrl.h" line="58" col="4" hash="8044485059637040165"/>
+<class name="Options" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/NumericTextCtrl.h" line="178" col="4" hash="12583370688137509742"/>
+<class name="SnapPoint" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h" line="30" col="1" hash="5571849009595921699"/>
+<class name="SnapResults" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h" line="45" col="1" hash="2660851442318546487"/>
+<class name="SnapManager" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h" line="55" col="1" hash="6649191932315054620"/>
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="15686643901440731433"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="5310754034451448503"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="1123312593205509057"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="15770574842572965698"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h:97:9" my-argnr="4" my-argname="outT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.cpp" line="196" col="5" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Snap.cpp" line="0" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h:93:11" call-funcname="Get" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.cpp" line="144" col="49" call-argexpr="index" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Snap.cpp" line="219" col="16" info="Assuming that condition &apos;left&gt;0&apos; is not redundant"/>
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Snap.cpp" line="219" col="41" info="Calling function &apos;PixelDiff&apos;, 2nd argument &apos;left-1&apos; value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h:95:11" call-funcname="Find" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.cpp" line="170" col="23" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h:94:12" call-funcname="PixelDiff" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.cpp" line="219" col="32" call-argexpr="left-1" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Snap.cpp" line="219" col="16" info="Assuming that condition &apos;left&gt;0&apos; is not redundant"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h:97:9" call-funcname="SnapToPoints" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.cpp" line="285" col="7" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h:80:16" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="NumericConverter::FormatStrings" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/NumericTextCtrl.h" line="58" col="4" hash="8044485059637040165"/>
+<class name="Options" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/NumericTextCtrl.h" line="178" col="4" hash="12583370688137509742"/>
+<class name="SnapPoint" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h" line="30" col="1" hash="5571849009595921699"/>
+<class name="SnapResults" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h" line="45" col="1" hash="2660851442318546487"/>
+<class name="SnapManager" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h" line="55" col="1" hash="6649191932315054620"/>
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="15686643901440731433"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="5310754034451448503"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="1123312593205509057"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="15770574842572965698"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h:97:9" my-argnr="4" my-argname="outT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.cpp" line="196" col="5" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h:93:11" call-funcname="Get" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.cpp" line="144" col="49" call-argexpr="index" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Snap.cpp" line="219" col="16" info="Assuming that condition &apos;left&gt;0&apos; is not redundant"/>
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Snap.cpp" line="219" col="41" info="Calling function &apos;PixelDiff&apos;, 2nd argument &apos;left-1&apos; value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h:95:11" call-funcname="Find" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.cpp" line="170" col="23" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h:94:12" call-funcname="PixelDiff" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.cpp" line="219" col="32" call-argexpr="left-1" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Snap.cpp" line="219" col="16" info="Assuming that condition &apos;left&gt;0&apos; is not redundant"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h:97:9" call-funcname="SnapToPoints" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.cpp" line="285" col="7" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h:80:16" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="NumericConverter::FormatStrings" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/NumericTextCtrl.h" line="58" col="4" hash="8044485059637040165"/>
+<class name="Options" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/NumericTextCtrl.h" line="178" col="4" hash="12583370688137509742"/>
+<class name="SnapPoint" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h" line="30" col="1" hash="5571849009595921699"/>
+<class name="SnapResults" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h" line="45" col="1" hash="2660851442318546487"/>
+<class name="SnapManager" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h" line="55" col="1" hash="6649191932315054620"/>
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="15686643901440731433"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="5310754034451448503"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="1123312593205509057"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="15770574842572965698"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h:97:9" my-argnr="4" my-argname="outT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.cpp" line="196" col="5" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h:93:11" call-funcname="Get" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.cpp" line="144" col="49" call-argexpr="index" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Snap.cpp" line="219" col="16" info="Assuming that condition &apos;left&gt;0&apos; is not redundant"/>
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Snap.cpp" line="219" col="41" info="Calling function &apos;PixelDiff&apos;, 2nd argument &apos;left-1&apos; value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h:95:11" call-funcname="Find" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.cpp" line="170" col="23" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h:94:12" call-funcname="PixelDiff" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.cpp" line="219" col="32" call-argexpr="left-1" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Snap.cpp" line="219" col="16" info="Assuming that condition &apos;left&gt;0&apos; is not redundant"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h:97:9" call-funcname="SnapToPoints" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.cpp" line="285" col="7" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h:80:16" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="NumericConverter::FormatStrings" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/NumericTextCtrl.h" line="58" col="4" hash="8044485059637040165"/>
+<class name="Options" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/NumericTextCtrl.h" line="178" col="4" hash="12583370688137509742"/>
+<class name="SnapPoint" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h" line="30" col="1" hash="5571849009595921699"/>
+<class name="SnapResults" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h" line="45" col="1" hash="2660851442318546487"/>
+<class name="SnapManager" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h" line="55" col="1" hash="6649191932315054620"/>
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="15686643901440731433"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="5310754034451448503"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="1123312593205509057"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="15770574842572965698"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.h:97:9" my-argnr="4" my-argname="outT" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Snap.cpp" line="196" col="5" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="FindCandidates" lineNumber="45"/>
+    <functiondecl functionName="Reinit" lineNumber="78"/>
+    <functiondecl functionName="CondListAdd" lineNumber="121"/>
+    <functiondecl functionName="Get" lineNumber="135"/>
+    <functiondecl functionName="PixelDiff" lineNumber="141"/>
+    <functiondecl functionName="Find" lineNumber="149"/>
+    <functiondecl functionName="Find" lineNumber="167"/>
+    <functiondecl functionName="SnapToPoints" lineNumber="191"/>
+    <functiondecl functionName="Snap" lineNumber="272"/>
+    <functiondecl functionName="GetSnapLabels" lineNumber="318"/>
+    <functiondecl functionName="Draw" lineNumber="330"/>
+    <functiondecl functionName="FindCandidates" lineNumber="45"/>
+    <functiondecl functionName="Reinit" lineNumber="78"/>
+    <functiondecl functionName="CondListAdd" lineNumber="121"/>
+    <functiondecl functionName="Get" lineNumber="135"/>
+    <functiondecl functionName="PixelDiff" lineNumber="141"/>
+    <functiondecl functionName="Find" lineNumber="149"/>
+    <functiondecl functionName="Find" lineNumber="167"/>
+    <functiondecl functionName="SnapToPoints" lineNumber="191"/>
+    <functiondecl functionName="Snap" lineNumber="272"/>
+    <functiondecl functionName="GetSnapLabels" lineNumber="318"/>
+    <functiondecl functionName="Draw" lineNumber="330"/>
+    <functiondecl functionName="FindCandidates" lineNumber="45"/>
+    <functiondecl functionName="Reinit" lineNumber="78"/>
+    <functiondecl functionName="CondListAdd" lineNumber="121"/>
+    <functiondecl functionName="Get" lineNumber="135"/>
+    <functiondecl functionName="PixelDiff" lineNumber="141"/>
+    <functiondecl functionName="Find" lineNumber="149"/>
+    <functiondecl functionName="Find" lineNumber="167"/>
+    <functiondecl functionName="SnapToPoints" lineNumber="191"/>
+    <functiondecl functionName="Snap" lineNumber="272"/>
+    <functiondecl functionName="GetSnapLabels" lineNumber="318"/>
+    <functiondecl functionName="Draw" lineNumber="330"/>
+    <functiondecl functionName="FindCandidates" lineNumber="45"/>
+    <functiondecl functionName="Reinit" lineNumber="78"/>
+    <functiondecl functionName="CondListAdd" lineNumber="121"/>
+    <functiondecl functionName="Get" lineNumber="135"/>
+    <functiondecl functionName="PixelDiff" lineNumber="141"/>
+    <functiondecl functionName="Find" lineNumber="149"/>
+    <functiondecl functionName="Find" lineNumber="167"/>
+    <functiondecl functionName="SnapToPoints" lineNumber="191"/>
+    <functiondecl functionName="Snap" lineNumber="272"/>
+    <functiondecl functionName="GetSnapLabels" lineNumber="318"/>
+    <functiondecl functionName="Draw" lineNumber="330"/>
+    <functioncall functionName="ATIME"/>
+    <functioncall functionName="AUDACITY_DLL_API"/>
+    <functioncall functionName="Aligned"/>
+    <functioncall functionName="All"/>
+    <functioncall functionName="Audio"/>
+    <functioncall functionName="BANDWIDTH"/>
+    <functioncall functionName="ChangedProjectRate"/>
+    <functioncall functionName="ChangedSyncLock"/>
+    <functioncall functionName="ChangedTool"/>
+    <functioncall functionName="ConstTrackInterval"/>
+    <functioncall functionName="DECLARE_EVENT_TABLE"/>
+    <functioncall functionName="DECLARE_EXPORTED_EVENT_TYPE"/>
+    <functioncall functionName="DigitInfo"/>
+    <functioncall functionName="EVT_BANDWIDTHTEXTCTRL_UPDATED"/>
+    <functioncall functionName="EVT_FREQUENCYTEXTCTRL_UPDATED"/>
+    <functioncall functionName="EVT_PROJECT_SETTINGS_CHANGE"/>
+    <functioncall functionName="EVT_TIMETEXTCTRL_UPDATED"/>
+    <functioncall functionName="FREQUENCY"/>
+    <functioncall functionName="FormatStrings"/>
+    <functioncall functionName="GetOwner"/>
+    <functioncall functionName="Here"/>
+    <functioncall functionName="Label"/>
+    <functioncall functionName="None"/>
+    <functioncall functionName="NotHere"/>
+    <functioncall functionName="Note"/>
+    <functioncall functionName="NumericConverter"/>
+    <functioncall functionName="NumericField"/>
+    <functioncall functionName="NumericTextCtrl"/>
+    <functioncall functionName="Options"/>
+    <functioncall functionName="PROHIBITED"/>
+    <functioncall functionName="Pair"/>
+    <functioncall functionName="Playable"/>
+    <functioncall functionName="ProjectSettings"/>
+    <functioncall functionName="Rest"/>
+    <functioncall functionName="SNAP_NEAREST"/>
+    <functioncall functionName="SNAP_OFF"/>
+    <functioncall functionName="SNAP_PRIOR"/>
+    <functioncall functionName="ShallowCopying"/>
+    <functioncall functionName="SharedPointer"/>
+    <functioncall functionName="SnapManager"/>
+    <functioncall functionName="SnapPoint"/>
+    <functioncall functionName="Subclass"/>
+    <functioncall functionName="T"/>
+    <functioncall functionName="TIME"/>
+    <functioncall functionName="Time"/>
+    <functioncall functionName="Track"/>
+    <functioncall functionName="TrackAttachment"/>
+    <functioncall functionName="TrackInterval"/>
+    <functioncall functionName="TrackIntervalData"/>
+    <functioncall functionName="TrackKind"/>
+    <functioncall functionName="TrackList"/>
+    <functioncall functionName="TrackType"/>
+    <functioncall functionName="Wave"/>
+    <functioncall functionName="bool"/>
+    <functioncall functionName="brushRadius"/>
+    <functioncall functionName="brushTool"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="double"/>
+    <functioncall functionName="drawTool"/>
+    <functioncall functionName="enable"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="envelopeTool"/>
+    <functioncall functionName="f"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="flag"/>
+    <functioncall functionName="format"/>
+    <functioncall functionName="fraction"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="has"/>
+    <functioncall functionName="id"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="isSelected"/>
+    <functioncall functionName="is_const"/>
+    <functioncall functionName="is_pointer"/>
+    <functioncall functionName="kPixelTolerance"/>
+    <functioncall functionName="list"/>
+    <functioncall functionName="load"/>
+    <functioncall functionName="lock"/>
+    <functioncall functionName="mButtonWidth"/>
+    <functioncall functionName="mDigitBoxH"/>
+    <functioncall functionName="mDigitBoxW"/>
+    <functioncall functionName="mHeight"/>
+    <functioncall functionName="mValue"/>
+    <functioncall functionName="memory_order_relaxed"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="multiTool"/>
+    <functioncall functionName="noexcept"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="numTools"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="pExtra"/>
+    <functioncall functionName="remove_pointer"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="selectTool"/>
+    <functioncall functionName="shared_from_this"/>
+    <functioncall functionName="shared_ptr"/>
+    <functioncall functionName="start"/>
+    <functioncall functionName="static_cast"/>
+    <functioncall functionName="static_pointer_cast"/>
+    <functioncall functionName="store"/>
+    <functioncall functionName="t"/>
+    <functioncall functionName="t_"/>
+    <functioncall functionName="track"/>
+    <functioncall functionName="track_"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="typename"/>
+    <functioncall functionName="v"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="wxASSERT"/>
+    <functioncall functionName="wxBitmap"/>
+    <functioncall functionName="wxCommandEvent"/>
+    <functioncall functionName="wxDECLARE_EXPORTED_EVENT"/>
+    <functioncall functionName="wxDefaultPosition"/>
+    <functioncall functionName="wxDefaultSize"/>
+    <functioncall functionName="wxFont"/>
+    <functioncall functionName="wxSize"/>
+    <functioncall functionName="wxT"/>
+    <functioncall functionName="zoomTool"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2669917279">
+  <FileInfo check="Class">
+<class name="AccessibleLinksFormatter" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ui/AccessibleLinksFormatter.h" line="29" col="1" hash="10414363601291487276"/>
+<class name="AccessibleLinksFormatter::FormatArgument" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ui/AccessibleLinksFormatter.h" line="56" col="4" hash="7793837906663084705"/>
+<class name="AccessibleLinksFormatter::ProcessedArgument" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ui/AccessibleLinksFormatter.h" line="65" col="4" hash="10528036405631173"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="AccessibleLinksFormatter" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ui/AccessibleLinksFormatter.h" line="29" col="1" hash="12862816953939210318"/>
+<class name="AccessibleLinksFormatter::FormatArgument" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ui/AccessibleLinksFormatter.h" line="56" col="4" hash="7793837906663084705"/>
+<class name="AccessibleLinksFormatter::ProcessedArgument" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ui/AccessibleLinksFormatter.h" line="65" col="4" hash="10528036405631173"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="OffsetPosition" lineNumber="27"/>
+    <functiondecl functionName="FormatLink" lineNumber="41"/>
+    <functiondecl functionName="FormatLink" lineNumber="54"/>
+    <functiondecl functionName="Populate" lineNumber="68"/>
+    <functiondecl functionName="ProcessArguments" lineNumber="175"/>
+    <functiondecl functionName="OffsetPosition" lineNumber="27"/>
+    <functiondecl functionName="FormatLink" lineNumber="41"/>
+    <functiondecl functionName="FormatLink" lineNumber="54"/>
+    <functiondecl functionName="Populate" lineNumber="68"/>
+    <functiondecl functionName="ProcessArguments" lineNumber="175"/>
+    <functioncall functionName="AccessibleLinksFormatter"/>
+    <functioncall functionName="AddFixedText"/>
+    <functioncall functionName="AddSpace"/>
+    <functioncall functionName="AddVariableText"/>
+    <functioncall functionName="AddWindow"/>
+    <functioncall functionName="Argument"/>
+    <functioncall functionName="Bind"/>
+    <functioncall functionName="EndHorizontalLay"/>
+    <functioncall functionName="EndWrapLay"/>
+    <functioncall functionName="FormatArgument"/>
+    <functioncall functionName="GetBorder"/>
+    <functioncall functionName="GetFont"/>
+    <functioncall functionName="GetNormalColour"/>
+    <functioncall functionName="GetParent"/>
+    <functioncall functionName="Handler"/>
+    <functioncall functionName="Length"/>
+    <functioncall functionName="OffsetPosition"/>
+    <functioncall functionName="Placeholder"/>
+    <functioncall functionName="PlaceholderPosition"/>
+    <functioncall functionName="ProcessArguments"/>
+    <functioncall functionName="ProcessedArgument"/>
+    <functioncall functionName="Prop"/>
+    <functioncall functionName="SetBorder"/>
+    <functioncall functionName="SetCursor"/>
+    <functioncall functionName="SetFont"/>
+    <functioncall functionName="SetForegroundColour"/>
+    <functioncall functionName="StartHorizontalLay"/>
+    <functioncall functionName="StartWrapLay"/>
+    <functioncall functionName="TargetURL"/>
+    <functioncall functionName="Translation"/>
+    <functioncall functionName="Underlined"/>
+    <functioncall functionName="Value"/>
+    <functioncall functionName="Verbatim"/>
+    <functioncall functionName="argument"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="borderSize"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="currentPosition"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="handler"/>
+    <functioncall functionName="hyperlink"/>
+    <functioncall functionName="hyperlinkColour"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="length"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="mFormatArguments"/>
+    <functioncall functionName="mMessage"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="message"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="npos"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="placeholder"/>
+    <functioncall functionName="placeholderPosition"/>
+    <functioncall functionName="processedArguments"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="reserve"/>
+    <functioncall functionName="reset"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="second"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sort"/>
+    <functioncall functionName="startingPosition"/>
+    <functioncall functionName="substr"/>
+    <functioncall functionName="substrLength"/>
+    <functioncall functionName="targetURL"/>
+    <functioncall functionName="translated"/>
+    <functioncall functionName="url"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="wxALIGN_LEFT"/>
+    <functioncall functionName="wxCURSOR_HAND"/>
+    <functioncall functionName="wxEVT_HYPERLINK"/>
+    <functioncall functionName="wxEVT_LEFT_UP"/>
+    <functioncall functionName="wxEXPAND"/>
+    <functioncall functionName="wxHyperlinkCtrl"/>
+    <functioncall functionName="wxID_ANY"/>
+    <functioncall functionName="wxLaunchDefaultBrowser"/>
+    <functioncall functionName="wxString"/>
+    <functioncall functionName="wxT"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,9 @@
+operator<
+operator==
+ConvertLegacyDisplayValue
+Append call:[emplace_back,move]
+Get call:[adjacent_find,begin,end,sort,wxASSERT]
+GetRegistry
+RegisteredType call:[Append,GetRegistry,move] noreturn:[Append]
+All call:[Get,GetRegistry] noreturn:[Get]
+Default call:[All,empty]

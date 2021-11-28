@@ -1,0 +1,886 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1300331030">
+        <error id="missingReturn" severity="error" msg="Found a exit path from function with non-void return type that has missing return statement" verbose="Found a exit path from function with non-void return type that has missing return statement" cwe="758" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandManager.h" line="444" column="11"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found a exit path from function with non-void return type that has missing return statement" verbose="Found a exit path from function with non-void return type that has missing return statement" cwe="758" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandManager.h" line="518" column="8"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found a exit path from function with non-void return type that has missing return statement" verbose="Found a exit path from function with non-void return type that has missing return statement" cwe="758" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandManager.h" line="552" column="8"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;CommandFlagOptions&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;CommandFlagOptions&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandFlag.h" line="45" column="4"/>
+            <symbol>CommandFlagOptions</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;ReservedCommandFlag&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;ReservedCommandFlag&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandFlag.h" line="92" column="4"/>
+            <symbol>ReservedCommandFlag</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;RegisteredMenuItemEnabler&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;RegisteredMenuItemEnabler&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandFlag.h" line="120" column="4"/>
+            <symbol>RegisteredMenuItemEnabler</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;TrackPanelAx&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;TrackPanelAx&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\TrackPanelAx.h" line="46" column="4"/>
+            <symbol>TrackPanelAx</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;SpecPxCache&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;SpecPxCache&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\WaveClip.h" line="100" column="4"/>
+            <symbol>SpecPxCache</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;WaveDisplay&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;WaveDisplay&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\WaveClip.h" line="143" column="4"/>
+            <symbol>WaveDisplay</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;AudioTrack&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;AudioTrack&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.h" line="828" column="4"/>
+            <symbol>AudioTrack</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;PlayableTrack&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;PlayableTrack&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.h" line="844" column="4"/>
+            <symbol>PlayableTrack</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CommandContext&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CommandContext&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandContext.h" line="36" column="4"/>
+            <symbol>CommandContext</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;Options&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;Options&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandManager.h" line="102" column="7"/>
+            <symbol>Options</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CoarseTrackShifter&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CoarseTrackShifter&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\tracks\ui\TimeShiftHandle.h" line="185" column="4"/>
+            <symbol>CoarseTrackShifter</symbol>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;pTrack&apos; is always true" verbose="Condition &apos;pTrack&apos; is always true" cwe="571" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.h" line="1533" column="14" info="Condition &apos;pTrack&apos; is always true"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.h" line="1531" column="11" info="Assuming that condition &apos;pTrack&apos; is not redundant"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;selectedRegion&apos; can be reduced." verbose="The scope of the variable &apos;selectedRegion&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\menus\ClipMenus.cpp" line="659" column="10"/>
+            <symbol>selectedRegion</symbol>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &apos;items_&apos; should be passed by const reference." verbose="Parameter &apos;items_&apos; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandManager.h" line="544" column="56"/>
+            <symbol>items_</symbol>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;project&apos; can be declared with const" verbose="Parameter &apos;project&apos; can be declared with const" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\ProjectHistory.h" line="27" column="46" info="Parameter &apos;project&apos; can be declared with const"/>
+            <symbol>project</symbol>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::any_of algorithm instead of a raw loop." verbose="Consider using std::any_of algorithm instead of a raw loop." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\menus\ClipMenus.cpp" line="95" column="0"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::copy_if algorithm instead of a raw loop." verbose="Consider using std::copy_if algorithm instead of a raw loop." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\menus\ClipMenus.cpp" line="316" column="25"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::copy_if algorithm instead of a raw loop." verbose="Consider using std::copy_if algorithm instead of a raw loop." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\menus\ClipMenus.cpp" line="555" column="29"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::copy_if algorithm instead of a raw loop." verbose="Consider using std::copy_if algorithm instead of a raw loop." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\menus\ClipMenus.cpp" line="570" column="28"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:264:5" call-funcname="FindClipBoundaries" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="398" col="22" call-argexpr="next" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\menus\ClipMenus.cpp" line="404" col="11" info="Assuming that condition &apos;next&apos; is not redundant"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:502:5" call-funcname="FindClips" call-argnr="4" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="587" col="13" call-argexpr="next" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\menus\ClipMenus.cpp" line="775" col="26" info="Calling function &apos;DoSelectClip&apos;, 2nd argument &apos;false&apos; value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:264:5" call-funcname="FindClipBoundaries" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="638" col="22" call-argexpr="next" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\menus\ClipMenus.cpp" line="788" col="34" info="Calling function &apos;DoCursorClipBoundary&apos;, 2nd argument &apos;false&apos; value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:655:8" call-funcname="DoClipMove" call-argnr="5" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="725" col="28" call-argexpr="right" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\menus\ClipMenus.cpp" line="805" col="35" info="Calling function &apos;DoClipLeftOrRight&apos;, 2nd argument &apos;false&apos; value is 0"/>
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\menus\ClipMenus.cpp" line="713" col="8" info="Assuming condition is Assuming condition is false"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:392:6" call-funcname="DoSelectClipBoundary" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="762" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:580:6" call-funcname="DoSelectClip" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="775" col="16" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:630:6" call-funcname="DoCursorClipBoundary" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="788" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:707:6" call-funcname="DoClipLeftOrRight" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="805" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:707:6" call-funcname="DoClipLeftOrRight" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="807" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:707:6" call-funcname="DoClipLeftOrRight" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="807" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:707:6" call-funcname="DoClipLeftOrRight" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="808" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:707:6" call-funcname="DoClipLeftOrRight" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="819" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:282:9" call-funcname="Get" call-argnr="7" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="273" col="14" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:268:9" my-argnr="6"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="MenuItemEnabler" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandFlag.h" line="107" col="1" hash="14159699270193996497"/>
+<class name="UndoState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/UndoManager.h" line="85" col="1" hash="8162956204608726773"/>
+<class name="UndoStackElem" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/UndoManager.h" line="97" col="1" hash="14014615962576270383"/>
+<class name="SpecPxCache" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveClip.h" line="98" col="1" hash="3145001644939424020"/>
+<class name="WaveDisplay" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveClip.h" line="130" col="1" hash="1783257367155147803"/>
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="15686643901440731433"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="5310754034451448503"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="1123312593205509057"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="15770574842572965698"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="WaveTrackLocation" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrackLocation.h" line="14" col="1" hash="10844060293331271860"/>
+<class name="Region" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="51" col="1" hash="3281768878266710402"/>
+<class name="AllClipsConstIterator" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="424" col="4" hash="13076878187049790394"/>
+<class name="IntervalData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="564" col="4" hash="5396339101326163512"/>
+<class name="WaveTrackCache::Buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="667" col="4" hash="8125126311285820659"/>
+<class name="ToolbarMenuVisitor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.h" line="408" col="1" hash="15600188875927896873"/>
+<class name="TrackShifter::HitTestParams" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h" line="52" col="4" hash="2335014007804319798"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:62:6" my-argnr="1" my-argname="first" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="67" col="17" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:62:6" my-argnr="2" my-argname="second" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="68" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:62:6" my-argnr="1" my-argname="first" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="67" col="17" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:62:6" my-argnr="2" my-argname="second" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="68" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\menus\ClipMenus.cpp" line="0" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:264:5" call-funcname="FindClipBoundaries" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="398" col="22" call-argexpr="next" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\menus\ClipMenus.cpp" line="404" col="11" info="Assuming that condition &apos;next&apos; is not redundant"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:502:5" call-funcname="FindClips" call-argnr="4" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="587" col="13" call-argexpr="next" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\menus\ClipMenus.cpp" line="775" col="26" info="Calling function &apos;DoSelectClip&apos;, 2nd argument &apos;false&apos; value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:264:5" call-funcname="FindClipBoundaries" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="638" col="22" call-argexpr="next" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\menus\ClipMenus.cpp" line="788" col="34" info="Calling function &apos;DoCursorClipBoundary&apos;, 2nd argument &apos;false&apos; value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:655:8" call-funcname="DoClipMove" call-argnr="5" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="725" col="28" call-argexpr="right" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\menus\ClipMenus.cpp" line="805" col="35" info="Calling function &apos;DoClipLeftOrRight&apos;, 2nd argument &apos;false&apos; value is 0"/>
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\menus\ClipMenus.cpp" line="713" col="8" info="Assuming condition is Assuming condition is false"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:392:6" call-funcname="DoSelectClipBoundary" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="762" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:580:6" call-funcname="DoSelectClip" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="775" col="16" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:630:6" call-funcname="DoCursorClipBoundary" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="788" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:707:6" call-funcname="DoClipLeftOrRight" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="805" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:707:6" call-funcname="DoClipLeftOrRight" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="807" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:707:6" call-funcname="DoClipLeftOrRight" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="807" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:707:6" call-funcname="DoClipLeftOrRight" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="808" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:707:6" call-funcname="DoClipLeftOrRight" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="819" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:282:9" call-funcname="Get" call-argnr="7" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="273" col="14" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:268:9" my-argnr="6"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="MenuItemEnabler" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandFlag.h" line="107" col="1" hash="14159699270193996497"/>
+<class name="UndoState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/UndoManager.h" line="85" col="1" hash="8162956204608726773"/>
+<class name="UndoStackElem" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/UndoManager.h" line="97" col="1" hash="14014615962576270383"/>
+<class name="SpecPxCache" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveClip.h" line="98" col="1" hash="3145001644939424020"/>
+<class name="WaveDisplay" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveClip.h" line="130" col="1" hash="1783257367155147803"/>
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="15686643901440731433"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="5310754034451448503"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="1123312593205509057"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="15770574842572965698"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="WaveTrackLocation" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrackLocation.h" line="14" col="1" hash="10844060293331271860"/>
+<class name="Region" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="51" col="1" hash="3281768878266710402"/>
+<class name="AllClipsConstIterator" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="424" col="4" hash="13076878187049790394"/>
+<class name="IntervalData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="564" col="4" hash="5396339101326163512"/>
+<class name="WaveTrackCache::Buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="667" col="4" hash="8125126311285820659"/>
+<class name="ToolbarMenuVisitor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.h" line="408" col="1" hash="15600188875927896873"/>
+<class name="TrackShifter::HitTestParams" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h" line="52" col="4" hash="2335014007804319798"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:62:6" my-argnr="1" my-argname="first" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="67" col="17" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:62:6" my-argnr="2" my-argname="second" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="68" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:62:6" my-argnr="1" my-argname="first" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="67" col="17" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:62:6" my-argnr="2" my-argname="second" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="68" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:264:5" call-funcname="FindClipBoundaries" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="398" col="22" call-argexpr="next" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\menus\ClipMenus.cpp" line="404" col="11" info="Assuming that condition &apos;next&apos; is not redundant"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:502:5" call-funcname="FindClips" call-argnr="4" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="587" col="13" call-argexpr="next" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\menus\ClipMenus.cpp" line="775" col="26" info="Calling function &apos;DoSelectClip&apos;, 2nd argument &apos;false&apos; value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:264:5" call-funcname="FindClipBoundaries" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="638" col="22" call-argexpr="next" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\menus\ClipMenus.cpp" line="788" col="34" info="Calling function &apos;DoCursorClipBoundary&apos;, 2nd argument &apos;false&apos; value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:655:8" call-funcname="DoClipMove" call-argnr="5" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="725" col="28" call-argexpr="right" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\menus\ClipMenus.cpp" line="805" col="35" info="Calling function &apos;DoClipLeftOrRight&apos;, 2nd argument &apos;false&apos; value is 0"/>
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\menus\ClipMenus.cpp" line="713" col="8" info="Assuming condition is Assuming condition is false"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:392:6" call-funcname="DoSelectClipBoundary" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="762" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:580:6" call-funcname="DoSelectClip" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="775" col="16" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:630:6" call-funcname="DoCursorClipBoundary" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="788" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:707:6" call-funcname="DoClipLeftOrRight" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="805" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:707:6" call-funcname="DoClipLeftOrRight" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="807" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:707:6" call-funcname="DoClipLeftOrRight" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="807" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:707:6" call-funcname="DoClipLeftOrRight" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="808" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:707:6" call-funcname="DoClipLeftOrRight" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="819" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:282:9" call-funcname="Get" call-argnr="7" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="273" col="14" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:268:9" my-argnr="6"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="MenuItemEnabler" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandFlag.h" line="107" col="1" hash="14159699270193996497"/>
+<class name="UndoState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/UndoManager.h" line="85" col="1" hash="8162956204608726773"/>
+<class name="UndoStackElem" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/UndoManager.h" line="97" col="1" hash="14014615962576270383"/>
+<class name="SpecPxCache" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveClip.h" line="98" col="1" hash="3145001644939424020"/>
+<class name="WaveDisplay" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveClip.h" line="130" col="1" hash="1783257367155147803"/>
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="15686643901440731433"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="5310754034451448503"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="1123312593205509057"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="15770574842572965698"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="WaveTrackLocation" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrackLocation.h" line="14" col="1" hash="10844060293331271860"/>
+<class name="Region" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="51" col="1" hash="3281768878266710402"/>
+<class name="AllClipsConstIterator" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="424" col="4" hash="13076878187049790394"/>
+<class name="IntervalData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="564" col="4" hash="5396339101326163512"/>
+<class name="WaveTrackCache::Buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="667" col="4" hash="8125126311285820659"/>
+<class name="ToolbarMenuVisitor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.h" line="408" col="1" hash="15600188875927896873"/>
+<class name="TrackShifter::HitTestParams" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h" line="52" col="4" hash="2335014007804319798"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:62:6" my-argnr="1" my-argname="first" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="67" col="17" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:62:6" my-argnr="2" my-argname="second" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="68" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:62:6" my-argnr="1" my-argname="first" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="67" col="17" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:62:6" my-argnr="2" my-argname="second" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="68" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:264:5" call-funcname="FindClipBoundaries" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="398" col="22" call-argexpr="next" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\menus\ClipMenus.cpp" line="404" col="11" info="Assuming that condition &apos;next&apos; is not redundant"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:502:5" call-funcname="FindClips" call-argnr="4" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="587" col="13" call-argexpr="next" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\menus\ClipMenus.cpp" line="775" col="26" info="Calling function &apos;DoSelectClip&apos;, 2nd argument &apos;false&apos; value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:264:5" call-funcname="FindClipBoundaries" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="638" col="22" call-argexpr="next" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\menus\ClipMenus.cpp" line="788" col="34" info="Calling function &apos;DoCursorClipBoundary&apos;, 2nd argument &apos;false&apos; value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:655:8" call-funcname="DoClipMove" call-argnr="5" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="725" col="28" call-argexpr="right" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\menus\ClipMenus.cpp" line="805" col="35" info="Calling function &apos;DoClipLeftOrRight&apos;, 2nd argument &apos;false&apos; value is 0"/>
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\menus\ClipMenus.cpp" line="713" col="8" info="Assuming condition is Assuming condition is false"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:392:6" call-funcname="DoSelectClipBoundary" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="762" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:580:6" call-funcname="DoSelectClip" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="775" col="16" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:630:6" call-funcname="DoCursorClipBoundary" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="788" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:707:6" call-funcname="DoClipLeftOrRight" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="805" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:707:6" call-funcname="DoClipLeftOrRight" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="807" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:707:6" call-funcname="DoClipLeftOrRight" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="807" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:707:6" call-funcname="DoClipLeftOrRight" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="808" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:707:6" call-funcname="DoClipLeftOrRight" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="819" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:282:9" call-funcname="Get" call-argnr="7" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="273" col="14" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:268:9" my-argnr="6"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="MenuItemEnabler" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandFlag.h" line="107" col="1" hash="14159699270193996497"/>
+<class name="UndoState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/UndoManager.h" line="85" col="1" hash="8162956204608726773"/>
+<class name="UndoStackElem" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/UndoManager.h" line="97" col="1" hash="14014615962576270383"/>
+<class name="SpecPxCache" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveClip.h" line="98" col="1" hash="3145001644939424020"/>
+<class name="WaveDisplay" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveClip.h" line="130" col="1" hash="1783257367155147803"/>
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="15686643901440731433"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="5310754034451448503"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="1123312593205509057"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="15770574842572965698"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="WaveTrackLocation" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrackLocation.h" line="14" col="1" hash="10844060293331271860"/>
+<class name="Region" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="51" col="1" hash="3281768878266710402"/>
+<class name="AllClipsConstIterator" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="424" col="4" hash="13076878187049790394"/>
+<class name="IntervalData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="564" col="4" hash="5396339101326163512"/>
+<class name="WaveTrackCache::Buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="667" col="4" hash="8125126311285820659"/>
+<class name="ToolbarMenuVisitor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.h" line="408" col="1" hash="15600188875927896873"/>
+<class name="TrackShifter::HitTestParams" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h" line="52" col="4" hash="2335014007804319798"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:62:6" my-argnr="1" my-argname="first" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="67" col="17" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:62:6" my-argnr="2" my-argname="second" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="68" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:62:6" my-argnr="1" my-argname="first" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="67" col="17" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:62:6" my-argnr="2" my-argname="second" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="68" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:264:5" call-funcname="FindClipBoundaries" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="398" col="22" call-argexpr="next" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\menus\ClipMenus.cpp" line="404" col="11" info="Assuming that condition &apos;next&apos; is not redundant"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:502:5" call-funcname="FindClips" call-argnr="4" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="587" col="13" call-argexpr="next" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\menus\ClipMenus.cpp" line="775" col="26" info="Calling function &apos;DoSelectClip&apos;, 2nd argument &apos;false&apos; value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:264:5" call-funcname="FindClipBoundaries" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="638" col="22" call-argexpr="next" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\menus\ClipMenus.cpp" line="788" col="34" info="Calling function &apos;DoCursorClipBoundary&apos;, 2nd argument &apos;false&apos; value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:655:8" call-funcname="DoClipMove" call-argnr="5" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="725" col="28" call-argexpr="right" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\menus\ClipMenus.cpp" line="805" col="35" info="Calling function &apos;DoClipLeftOrRight&apos;, 2nd argument &apos;false&apos; value is 0"/>
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\menus\ClipMenus.cpp" line="713" col="8" info="Assuming condition is Assuming condition is false"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:392:6" call-funcname="DoSelectClipBoundary" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="762" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:580:6" call-funcname="DoSelectClip" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="775" col="16" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:630:6" call-funcname="DoCursorClipBoundary" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="788" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:707:6" call-funcname="DoClipLeftOrRight" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="805" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:707:6" call-funcname="DoClipLeftOrRight" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="807" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:707:6" call-funcname="DoClipLeftOrRight" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="807" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:707:6" call-funcname="DoClipLeftOrRight" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="808" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:707:6" call-funcname="DoClipLeftOrRight" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="819" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:282:9" call-funcname="Get" call-argnr="7" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="273" col="14" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:268:9" my-argnr="6"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="MenuItemEnabler" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandFlag.h" line="107" col="1" hash="14159699270193996497"/>
+<class name="UndoState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/UndoManager.h" line="85" col="1" hash="8162956204608726773"/>
+<class name="UndoStackElem" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/UndoManager.h" line="97" col="1" hash="14014615962576270383"/>
+<class name="SpecPxCache" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveClip.h" line="98" col="1" hash="3145001644939424020"/>
+<class name="WaveDisplay" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveClip.h" line="130" col="1" hash="1783257367155147803"/>
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="15686643901440731433"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="5310754034451448503"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="1123312593205509057"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="15770574842572965698"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="WaveTrackLocation" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrackLocation.h" line="14" col="1" hash="10844060293331271860"/>
+<class name="Region" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="51" col="1" hash="3281768878266710402"/>
+<class name="AllClipsConstIterator" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="424" col="4" hash="13076878187049790394"/>
+<class name="IntervalData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="564" col="4" hash="5396339101326163512"/>
+<class name="WaveTrackCache::Buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="667" col="4" hash="8125126311285820659"/>
+<class name="ToolbarMenuVisitor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.h" line="408" col="1" hash="15600188875927896873"/>
+<class name="TrackShifter::HitTestParams" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h" line="52" col="4" hash="2335014007804319798"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:62:6" my-argnr="1" my-argname="first" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="67" col="17" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:62:6" my-argnr="2" my-argname="second" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="68" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:62:6" my-argnr="1" my-argname="first" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="67" col="17" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:62:6" my-argnr="2" my-argname="second" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="68" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:264:5" call-funcname="FindClipBoundaries" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="398" col="22" call-argexpr="next" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\menus\ClipMenus.cpp" line="404" col="11" info="Assuming that condition &apos;next&apos; is not redundant"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:502:5" call-funcname="FindClips" call-argnr="4" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="587" col="13" call-argexpr="next" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\menus\ClipMenus.cpp" line="775" col="26" info="Calling function &apos;DoSelectClip&apos;, 2nd argument &apos;false&apos; value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:264:5" call-funcname="FindClipBoundaries" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="638" col="22" call-argexpr="next" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\menus\ClipMenus.cpp" line="788" col="34" info="Calling function &apos;DoCursorClipBoundary&apos;, 2nd argument &apos;false&apos; value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:655:8" call-funcname="DoClipMove" call-argnr="5" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="725" col="28" call-argexpr="right" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\menus\ClipMenus.cpp" line="805" col="35" info="Calling function &apos;DoClipLeftOrRight&apos;, 2nd argument &apos;false&apos; value is 0"/>
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\menus\ClipMenus.cpp" line="713" col="8" info="Assuming condition is Assuming condition is false"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:392:6" call-funcname="DoSelectClipBoundary" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="762" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:580:6" call-funcname="DoSelectClip" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="775" col="16" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:630:6" call-funcname="DoCursorClipBoundary" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="788" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:707:6" call-funcname="DoClipLeftOrRight" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="805" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:707:6" call-funcname="DoClipLeftOrRight" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="807" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:707:6" call-funcname="DoClipLeftOrRight" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="807" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:707:6" call-funcname="DoClipLeftOrRight" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="808" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:707:6" call-funcname="DoClipLeftOrRight" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="819" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:282:9" call-funcname="Get" call-argnr="7" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="273" col="14" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:268:9" my-argnr="6"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="MenuItemEnabler" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandFlag.h" line="107" col="1" hash="14159699270193996497"/>
+<class name="UndoState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/UndoManager.h" line="85" col="1" hash="8162956204608726773"/>
+<class name="UndoStackElem" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/UndoManager.h" line="97" col="1" hash="14014615962576270383"/>
+<class name="SpecPxCache" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveClip.h" line="98" col="1" hash="3145001644939424020"/>
+<class name="WaveDisplay" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveClip.h" line="130" col="1" hash="1783257367155147803"/>
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="15686643901440731433"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="5310754034451448503"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="1123312593205509057"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="15770574842572965698"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="WaveTrackLocation" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrackLocation.h" line="14" col="1" hash="10844060293331271860"/>
+<class name="Region" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="51" col="1" hash="3281768878266710402"/>
+<class name="AllClipsConstIterator" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="424" col="4" hash="13076878187049790394"/>
+<class name="IntervalData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="564" col="4" hash="5396339101326163512"/>
+<class name="WaveTrackCache::Buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="667" col="4" hash="8125126311285820659"/>
+<class name="ToolbarMenuVisitor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.h" line="408" col="1" hash="15600188875927896873"/>
+<class name="TrackShifter::HitTestParams" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h" line="52" col="4" hash="2335014007804319798"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:62:6" my-argnr="1" my-argname="first" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="67" col="17" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:62:6" my-argnr="2" my-argname="second" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="68" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:62:6" my-argnr="1" my-argname="first" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="67" col="17" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:62:6" my-argnr="2" my-argname="second" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="68" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;WindowAccessible&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;WindowAccessible&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\WindowAccessible.h" line="24" column="4"/>
+            <symbol>WindowAccessible</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:264:5" call-funcname="FindClipBoundaries" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="398" col="22" call-argexpr="next" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\menus\ClipMenus.cpp" line="404" col="11" info="Assuming that condition &apos;next&apos; is not redundant"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:502:5" call-funcname="FindClips" call-argnr="4" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="587" col="13" call-argexpr="next" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\menus\ClipMenus.cpp" line="775" col="26" info="Calling function &apos;DoSelectClip&apos;, 2nd argument &apos;false&apos; value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:264:5" call-funcname="FindClipBoundaries" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="638" col="22" call-argexpr="next" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\menus\ClipMenus.cpp" line="788" col="34" info="Calling function &apos;DoCursorClipBoundary&apos;, 2nd argument &apos;false&apos; value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:655:8" call-funcname="DoClipMove" call-argnr="5" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="725" col="28" call-argexpr="right" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\menus\ClipMenus.cpp" line="805" col="35" info="Calling function &apos;DoClipLeftOrRight&apos;, 2nd argument &apos;false&apos; value is 0"/>
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\menus\ClipMenus.cpp" line="713" col="8" info="Assuming condition is Assuming condition is false"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:392:6" call-funcname="DoSelectClipBoundary" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="762" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:580:6" call-funcname="DoSelectClip" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="775" col="16" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:630:6" call-funcname="DoCursorClipBoundary" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="788" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:707:6" call-funcname="DoClipLeftOrRight" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="805" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:707:6" call-funcname="DoClipLeftOrRight" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="807" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:707:6" call-funcname="DoClipLeftOrRight" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="807" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:707:6" call-funcname="DoClipLeftOrRight" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="808" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:707:6" call-funcname="DoClipLeftOrRight" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="819" col="24" call-argexpr="false" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:282:9" call-funcname="Get" call-argnr="7" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="273" col="14" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:268:9" my-argnr="6"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="MenuItemEnabler" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandFlag.h" line="107" col="1" hash="14159699270193996497"/>
+<class name="UndoState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/UndoManager.h" line="85" col="1" hash="8162956204608726773"/>
+<class name="UndoStackElem" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/UndoManager.h" line="97" col="1" hash="14014615962576270383"/>
+<class name="SpecPxCache" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveClip.h" line="98" col="1" hash="3145001644939424020"/>
+<class name="WaveDisplay" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveClip.h" line="130" col="1" hash="1783257367155147803"/>
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="15686643901440731433"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="5310754034451448503"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="1123312593205509057"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="15770574842572965698"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="WaveTrackLocation" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrackLocation.h" line="14" col="1" hash="10844060293331271860"/>
+<class name="Region" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="51" col="1" hash="3281768878266710402"/>
+<class name="AllClipsConstIterator" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="424" col="4" hash="13076878187049790394"/>
+<class name="IntervalData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="564" col="4" hash="5396339101326163512"/>
+<class name="WaveTrackCache::Buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="667" col="4" hash="8125126311285820659"/>
+<class name="ToolbarMenuVisitor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.h" line="408" col="1" hash="15600188875927896873"/>
+<class name="TrackShifter::HitTestParams" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/TimeShiftHandle.h" line="52" col="4" hash="2335014007804319798"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:62:6" my-argnr="1" my-argname="first" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="67" col="17" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:62:6" my-argnr="2" my-argname="second" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="68" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:62:6" my-argnr="1" my-argname="first" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="67" col="17" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp:62:6" my-argnr="2" my-argname="second" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/menus/ClipMenus.cpp" line="68" col="18" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="ComposeTrackName" lineNumber="22"/>
+    <functiondecl functionName="TwoChannelsHaveSameBoundaries" lineNumber="62"/>
+    <functiondecl functionName="ChannelsHaveDifferentClipBoundaries" lineNumber="87"/>
+    <functiondecl functionName="AdjustForFindingStartTimes" lineNumber="111"/>
+    <functiondecl functionName="AdjustForFindingEndTimes" lineNumber="133"/>
+    <functiondecl functionName="FindNextClipBoundary" lineNumber="147"/>
+    <functiondecl functionName="FindPrevClipBoundary" lineNumber="201"/>
+    <functiondecl functionName="FindClipBoundaries" lineNumber="264"/>
+    <functiondecl functionName="ClipBoundaryMessage" lineNumber="323"/>
+    <functiondecl functionName="DoSelectClipBoundary" lineNumber="392"/>
+    <functiondecl functionName="FindNextClip" lineNumber="416"/>
+    <functiondecl functionName="FindPrevClip" lineNumber="458"/>
+    <functiondecl functionName="FindClips" lineNumber="502"/>
+    <functiondecl functionName="DoSelectClip" lineNumber="580"/>
+    <functiondecl functionName="DoCursorClipBoundary" lineNumber="630"/>
+    <functiondecl functionName="DoClipMove" lineNumber="655"/>
+    <functiondecl functionName="DoClipLeftOrRight" lineNumber="707"/>
+    <functiondecl functionName="OnSelectPrevClipBoundaryToCursor" lineNumber="758"/>
+    <functiondecl functionName="OnSelectCursorToNextClipBoundary" lineNumber="765"/>
+    <functiondecl functionName="OnSelectPrevClip" lineNumber="772"/>
+    <functiondecl functionName="OnSelectNextClip" lineNumber="778"/>
+    <functiondecl functionName="OnCursorPrevClipBoundary" lineNumber="784"/>
+    <functiondecl functionName="OnCursorNextClipBoundary" lineNumber="791"/>
+    <functiondecl functionName="OnClipLeft" lineNumber="800"/>
+    <functiondecl functionName="OnClipRight" lineNumber="812"/>
+    <functiondecl functionName="findCommandHandler" lineNumber="828"/>
+    <functiondecl functionName="ClipSelectMenu" lineNumber="844"/>
+    <functiondecl functionName="ClipCursorItems" lineNumber="874"/>
+    <functiondecl functionName="ExtraTimeShiftItems" lineNumber="899"/>
+    <functiondecl functionName="ComposeTrackName" lineNumber="22"/>
+    <functiondecl functionName="TwoChannelsHaveSameBoundaries" lineNumber="62"/>
+    <functiondecl functionName="ChannelsHaveDifferentClipBoundaries" lineNumber="87"/>
+    <functiondecl functionName="AdjustForFindingStartTimes" lineNumber="111"/>
+    <functiondecl functionName="AdjustForFindingEndTimes" lineNumber="133"/>
+    <functiondecl functionName="FindNextClipBoundary" lineNumber="147"/>
+    <functiondecl functionName="FindPrevClipBoundary" lineNumber="201"/>
+    <functiondecl functionName="FindClipBoundaries" lineNumber="264"/>
+    <functiondecl functionName="ClipBoundaryMessage" lineNumber="323"/>
+    <functiondecl functionName="DoSelectClipBoundary" lineNumber="392"/>
+    <functiondecl functionName="FindNextClip" lineNumber="416"/>
+    <functiondecl functionName="FindPrevClip" lineNumber="458"/>
+    <functiondecl functionName="FindClips" lineNumber="502"/>
+    <functiondecl functionName="DoSelectClip" lineNumber="580"/>
+    <functiondecl functionName="DoCursorClipBoundary" lineNumber="630"/>
+    <functiondecl functionName="DoClipMove" lineNumber="655"/>
+    <functiondecl functionName="DoClipLeftOrRight" lineNumber="707"/>
+    <functiondecl functionName="OnSelectPrevClipBoundaryToCursor" lineNumber="758"/>
+    <functiondecl functionName="OnSelectCursorToNextClipBoundary" lineNumber="765"/>
+    <functiondecl functionName="OnSelectPrevClip" lineNumber="772"/>
+    <functiondecl functionName="OnSelectNextClip" lineNumber="778"/>
+    <functiondecl functionName="OnCursorPrevClipBoundary" lineNumber="784"/>
+    <functiondecl functionName="OnCursorNextClipBoundary" lineNumber="791"/>
+    <functiondecl functionName="OnClipLeft" lineNumber="800"/>
+    <functiondecl functionName="OnClipRight" lineNumber="812"/>
+    <functiondecl functionName="findCommandHandler" lineNumber="828"/>
+    <functiondecl functionName="ClipSelectMenu" lineNumber="844"/>
+    <functiondecl functionName="ClipCursorItems" lineNumber="874"/>
+    <functiondecl functionName="ExtraTimeShiftItems" lineNumber="899"/>
+    <functiondecl functionName="ComposeTrackName" lineNumber="22"/>
+    <functiondecl functionName="TwoChannelsHaveSameBoundaries" lineNumber="62"/>
+    <functiondecl functionName="ChannelsHaveDifferentClipBoundaries" lineNumber="87"/>
+    <functiondecl functionName="AdjustForFindingStartTimes" lineNumber="111"/>
+    <functiondecl functionName="AdjustForFindingEndTimes" lineNumber="133"/>
+    <functiondecl functionName="FindNextClipBoundary" lineNumber="147"/>
+    <functiondecl functionName="FindPrevClipBoundary" lineNumber="201"/>
+    <functiondecl functionName="FindClipBoundaries" lineNumber="264"/>
+    <functiondecl functionName="ClipBoundaryMessage" lineNumber="323"/>
+    <functiondecl functionName="DoSelectClipBoundary" lineNumber="392"/>
+    <functiondecl functionName="FindNextClip" lineNumber="416"/>
+    <functiondecl functionName="FindPrevClip" lineNumber="458"/>
+    <functiondecl functionName="FindClips" lineNumber="502"/>
+    <functiondecl functionName="DoSelectClip" lineNumber="580"/>
+    <functiondecl functionName="DoCursorClipBoundary" lineNumber="630"/>
+    <functiondecl functionName="DoClipMove" lineNumber="655"/>
+    <functiondecl functionName="DoClipLeftOrRight" lineNumber="707"/>
+    <functiondecl functionName="OnSelectPrevClipBoundaryToCursor" lineNumber="758"/>
+    <functiondecl functionName="OnSelectCursorToNextClipBoundary" lineNumber="765"/>
+    <functiondecl functionName="OnSelectPrevClip" lineNumber="772"/>
+    <functiondecl functionName="OnSelectNextClip" lineNumber="778"/>
+    <functiondecl functionName="OnCursorPrevClipBoundary" lineNumber="784"/>
+    <functiondecl functionName="OnCursorNextClipBoundary" lineNumber="791"/>
+    <functiondecl functionName="OnClipLeft" lineNumber="800"/>
+    <functiondecl functionName="OnClipRight" lineNumber="812"/>
+    <functiondecl functionName="findCommandHandler" lineNumber="828"/>
+    <functiondecl functionName="ClipSelectMenu" lineNumber="844"/>
+    <functiondecl functionName="ClipCursorItems" lineNumber="874"/>
+    <functiondecl functionName="ExtraTimeShiftItems" lineNumber="899"/>
+    <functiondecl functionName="ComposeTrackName" lineNumber="22"/>
+    <functiondecl functionName="TwoChannelsHaveSameBoundaries" lineNumber="62"/>
+    <functiondecl functionName="ChannelsHaveDifferentClipBoundaries" lineNumber="87"/>
+    <functiondecl functionName="AdjustForFindingStartTimes" lineNumber="111"/>
+    <functiondecl functionName="AdjustForFindingEndTimes" lineNumber="133"/>
+    <functiondecl functionName="FindNextClipBoundary" lineNumber="147"/>
+    <functiondecl functionName="FindPrevClipBoundary" lineNumber="201"/>
+    <functiondecl functionName="FindClipBoundaries" lineNumber="264"/>
+    <functiondecl functionName="ClipBoundaryMessage" lineNumber="323"/>
+    <functiondecl functionName="DoSelectClipBoundary" lineNumber="392"/>
+    <functiondecl functionName="FindNextClip" lineNumber="416"/>
+    <functiondecl functionName="FindPrevClip" lineNumber="458"/>
+    <functiondecl functionName="FindClips" lineNumber="502"/>
+    <functiondecl functionName="DoSelectClip" lineNumber="580"/>
+    <functiondecl functionName="DoCursorClipBoundary" lineNumber="630"/>
+    <functiondecl functionName="DoClipMove" lineNumber="655"/>
+    <functiondecl functionName="DoClipLeftOrRight" lineNumber="707"/>
+    <functiondecl functionName="OnSelectPrevClipBoundaryToCursor" lineNumber="758"/>
+    <functiondecl functionName="OnSelectCursorToNextClipBoundary" lineNumber="765"/>
+    <functiondecl functionName="OnSelectPrevClip" lineNumber="772"/>
+    <functiondecl functionName="OnSelectNextClip" lineNumber="778"/>
+    <functiondecl functionName="OnCursorPrevClipBoundary" lineNumber="784"/>
+    <functiondecl functionName="OnCursorNextClipBoundary" lineNumber="791"/>
+    <functiondecl functionName="OnClipLeft" lineNumber="800"/>
+    <functiondecl functionName="OnClipRight" lineNumber="812"/>
+    <functiondecl functionName="findCommandHandler" lineNumber="828"/>
+    <functiondecl functionName="ClipSelectMenu" lineNumber="844"/>
+    <functiondecl functionName="ClipCursorItems" lineNumber="874"/>
+    <functiondecl functionName="ExtraTimeShiftItems" lineNumber="899"/>
+    <functiondecl functionName="ComposeTrackName" lineNumber="22"/>
+    <functiondecl functionName="TwoChannelsHaveSameBoundaries" lineNumber="62"/>
+    <functiondecl functionName="ChannelsHaveDifferentClipBoundaries" lineNumber="87"/>
+    <functiondecl functionName="AdjustForFindingStartTimes" lineNumber="111"/>
+    <functiondecl functionName="AdjustForFindingEndTimes" lineNumber="133"/>
+    <functiondecl functionName="FindNextClipBoundary" lineNumber="147"/>
+    <functiondecl functionName="FindPrevClipBoundary" lineNumber="201"/>
+    <functiondecl functionName="FindClipBoundaries" lineNumber="264"/>
+    <functiondecl functionName="ClipBoundaryMessage" lineNumber="323"/>
+    <functiondecl functionName="DoSelectClipBoundary" lineNumber="392"/>
+    <functiondecl functionName="FindNextClip" lineNumber="416"/>
+    <functiondecl functionName="FindPrevClip" lineNumber="458"/>
+    <functiondecl functionName="FindClips" lineNumber="502"/>
+    <functiondecl functionName="DoSelectClip" lineNumber="580"/>
+    <functiondecl functionName="DoCursorClipBoundary" lineNumber="630"/>
+    <functiondecl functionName="DoClipMove" lineNumber="655"/>
+    <functiondecl functionName="DoClipLeftOrRight" lineNumber="707"/>
+    <functiondecl functionName="OnSelectPrevClipBoundaryToCursor" lineNumber="758"/>
+    <functiondecl functionName="OnSelectCursorToNextClipBoundary" lineNumber="765"/>
+    <functiondecl functionName="OnSelectPrevClip" lineNumber="772"/>
+    <functiondecl functionName="OnSelectNextClip" lineNumber="778"/>
+    <functiondecl functionName="OnCursorPrevClipBoundary" lineNumber="784"/>
+    <functiondecl functionName="OnCursorNextClipBoundary" lineNumber="791"/>
+    <functiondecl functionName="OnClipLeft" lineNumber="800"/>
+    <functiondecl functionName="OnClipRight" lineNumber="812"/>
+    <functiondecl functionName="findCommandHandler" lineNumber="828"/>
+    <functiondecl functionName="ClipSelectMenu" lineNumber="844"/>
+    <functiondecl functionName="ClipCursorItems" lineNumber="874"/>
+    <functiondecl functionName="ExtraTimeShiftItems" lineNumber="899"/>
+    <functiondecl functionName="ComposeTrackName" lineNumber="22"/>
+    <functiondecl functionName="TwoChannelsHaveSameBoundaries" lineNumber="62"/>
+    <functiondecl functionName="ChannelsHaveDifferentClipBoundaries" lineNumber="87"/>
+    <functiondecl functionName="AdjustForFindingStartTimes" lineNumber="111"/>
+    <functiondecl functionName="AdjustForFindingEndTimes" lineNumber="133"/>
+    <functiondecl functionName="FindNextClipBoundary" lineNumber="147"/>
+    <functiondecl functionName="FindPrevClipBoundary" lineNumber="201"/>
+    <functiondecl functionName="FindClipBoundaries" lineNumber="264"/>
+    <functiondecl functionName="ClipBoundaryMessage" lineNumber="323"/>
+    <functiondecl functionName="DoSelectClipBoundary" lineNumber="392"/>
+    <functiondecl functionName="FindNextClip" lineNumber="416"/>
+    <functiondecl functionName="FindPrevClip" lineNumber="458"/>
+    <functiondecl functionName="FindClips" lineNumber="502"/>
+    <functiondecl functionName="DoSelectClip" lineNumber="580"/>
+    <functiondecl functionName="DoCursorClipBoundary" lineNumber="630"/>
+    <functiondecl functionName="DoClipMove" lineNumber="655"/>
+    <functiondecl functionName="DoClipLeftOrRight" lineNumber="707"/>
+    <functiondecl functionName="OnSelectPrevClipBoundaryToCursor" lineNumber="758"/>
+    <functiondecl functionName="OnSelectCursorToNextClipBoundary" lineNumber="765"/>
+    <functiondecl functionName="OnSelectPrevClip" lineNumber="772"/>
+    <functiondecl functionName="OnSelectNextClip" lineNumber="778"/>
+    <functiondecl functionName="OnCursorPrevClipBoundary" lineNumber="784"/>
+    <functiondecl functionName="OnCursorNextClipBoundary" lineNumber="791"/>
+    <functiondecl functionName="OnClipLeft" lineNumber="800"/>
+    <functiondecl functionName="OnClipRight" lineNumber="812"/>
+    <functiondecl functionName="findCommandHandler" lineNumber="828"/>
+    <functiondecl functionName="ClipSelectMenu" lineNumber="844"/>
+    <functiondecl functionName="ClipCursorItems" lineNumber="874"/>
+    <functiondecl functionName="ExtraTimeShiftItems" lineNumber="899"/>
+    <functiondecl functionName="ComposeTrackName" lineNumber="22"/>
+    <functiondecl functionName="TwoChannelsHaveSameBoundaries" lineNumber="62"/>
+    <functiondecl functionName="ChannelsHaveDifferentClipBoundaries" lineNumber="87"/>
+    <functiondecl functionName="AdjustForFindingStartTimes" lineNumber="111"/>
+    <functiondecl functionName="AdjustForFindingEndTimes" lineNumber="133"/>
+    <functiondecl functionName="FindNextClipBoundary" lineNumber="147"/>
+    <functiondecl functionName="FindPrevClipBoundary" lineNumber="201"/>
+    <functiondecl functionName="FindClipBoundaries" lineNumber="264"/>
+    <functiondecl functionName="ClipBoundaryMessage" lineNumber="323"/>
+    <functiondecl functionName="DoSelectClipBoundary" lineNumber="392"/>
+    <functiondecl functionName="FindNextClip" lineNumber="416"/>
+    <functiondecl functionName="FindPrevClip" lineNumber="458"/>
+    <functiondecl functionName="FindClips" lineNumber="502"/>
+    <functiondecl functionName="DoSelectClip" lineNumber="580"/>
+    <functiondecl functionName="DoCursorClipBoundary" lineNumber="630"/>
+    <functiondecl functionName="DoClipMove" lineNumber="655"/>
+    <functiondecl functionName="DoClipLeftOrRight" lineNumber="707"/>
+    <functiondecl functionName="OnSelectPrevClipBoundaryToCursor" lineNumber="758"/>
+    <functiondecl functionName="OnSelectCursorToNextClipBoundary" lineNumber="765"/>
+    <functiondecl functionName="OnSelectPrevClip" lineNumber="772"/>
+    <functiondecl functionName="OnSelectNextClip" lineNumber="778"/>
+    <functiondecl functionName="OnCursorPrevClipBoundary" lineNumber="784"/>
+    <functiondecl functionName="OnCursorNextClipBoundary" lineNumber="791"/>
+    <functiondecl functionName="OnClipLeft" lineNumber="800"/>
+    <functiondecl functionName="OnClipRight" lineNumber="812"/>
+    <functiondecl functionName="findCommandHandler" lineNumber="828"/>
+    <functiondecl functionName="ClipSelectMenu" lineNumber="844"/>
+    <functiondecl functionName="ClipCursorItems" lineNumber="874"/>
+    <functiondecl functionName="ExtraTimeShiftItems" lineNumber="899"/>
+    <functioncall functionName="AUDACITY_DLL_API"/>
+    <functioncall functionName="Aligned"/>
+    <functioncall functionName="All"/>
+    <functioncall functionName="AnyTracksSelectedFlag"/>
+    <functioncall functionName="Audio"/>
+    <functioncall functionName="CaptureNotBusyFlag"/>
+    <functioncall functionName="ChangedProjectRate"/>
+    <functioncall functionName="ChangedSyncLock"/>
+    <functioncall functionName="ChangedTool"/>
+    <functioncall functionName="CommandFlagOptions"/>
+    <functioncall functionName="ConstTrackInterval"/>
+    <functioncall functionName="DECLARE_EVENT_TABLE"/>
+    <functioncall functionName="EVT_PROJECT_SETTINGS_CHANGE"/>
+    <functioncall functionName="EVT_TRACK_FOCUS_CHANGE"/>
+    <functioncall functionName="EVT_UNDO_MODIFIED"/>
+    <functioncall functionName="EVT_UNDO_OR_REDO"/>
+    <functioncall functionName="EVT_UNDO_PURGE"/>
+    <functioncall functionName="EVT_UNDO_PUSHED"/>
+    <functioncall functionName="EVT_UNDO_RENAMED"/>
+    <functioncall functionName="EVT_UNDO_RESET"/>
+    <functioncall functionName="EditableTracksSelectedFlag"/>
+    <functioncall functionName="Envelope"/>
+    <functioncall functionName="GetOwner"/>
+    <functioncall functionName="Here"/>
+    <functioncall functionName="IsNotSyncLockedFlag"/>
+    <functioncall functionName="IsSyncLockedFlag"/>
+    <functioncall functionName="Label"/>
+    <functioncall functionName="NCommandFlags"/>
+    <functioncall functionName="NONE"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="NoAutoSelect"/>
+    <functioncall functionName="NoiseReductionTimeSelectedFlag"/>
+    <functioncall functionName="None"/>
+    <functioncall functionName="NotHere"/>
+    <functioncall functionName="NotMinimizedFlag"/>
+    <functioncall functionName="Note"/>
+    <functioncall functionName="Off"/>
+    <functioncall functionName="PROHIBITED"/>
+    <functioncall functionName="Pair"/>
+    <functioncall functionName="PausedFlag"/>
+    <functioncall functionName="Pinned"/>
+    <functioncall functionName="Playable"/>
+    <functioncall functionName="PlaybackScroller"/>
+    <functioncall functionName="ProjectHistory"/>
+    <functioncall functionName="ProjectSettings"/>
+    <functioncall functionName="RedoAvailableFlag"/>
+    <functioncall functionName="Refresh"/>
+    <functioncall functionName="RegisteredMenuItemEnabler"/>
+    <functioncall functionName="Rest"/>
+    <functioncall functionName="Right"/>
+    <functioncall functionName="SNAP_NEAREST"/>
+    <functioncall functionName="SNAP_OFF"/>
+    <functioncall functionName="SNAP_PRIOR"/>
+    <functioncall functionName="SampleBlock"/>
+    <functioncall functionName="SampleBlockFactory"/>
+    <functioncall functionName="Sequence"/>
+    <functioncall functionName="ShallowCopying"/>
+    <functioncall functionName="SharedPointer"/>
+    <functioncall functionName="SpecCache"/>
+    <functioncall functionName="SpecPxCache"/>
+    <functioncall functionName="StereoRequiredFlag"/>
+    <functioncall functionName="Subclass"/>
+    <functioncall functionName="T"/>
+    <functioncall functionName="Tags"/>
+    <functioncall functionName="Time"/>
+    <functioncall functionName="TimeSelectedFlag"/>
+    <functioncall functionName="Track"/>
+    <functioncall functionName="TrackAttachment"/>
+    <functioncall functionName="TrackFocus"/>
+    <functioncall functionName="TrackInterval"/>
+    <functioncall functionName="TrackIntervalData"/>
+    <functioncall functionName="TrackKind"/>
+    <functioncall functionName="TrackList"/>
+    <functioncall functionName="TrackPanelAx"/>
+    <functioncall functionName="TrackPanelHasFocus"/>
+    <functioncall functionName="TrackType"/>
+    <functioncall functionName="TracksExistFlag"/>
+    <functioncall functionName="TranslatableString"/>
+    <functioncall functionName="UndoAvailableFlag"/>
+    <functioncall functionName="UndoManager"/>
+    <functioncall functionName="UndoPush"/>
+    <functioncall functionName="UndoStackElem"/>
+    <functioncall functionName="UndoState"/>
+    <functioncall functionName="UnsavedChangesFlag"/>
+    <functioncall functionName="Wave"/>
+    <functioncall functionName="WaveCache"/>
+    <functioncall functionName="WaveClip"/>
+    <functioncall functionName="WaveTracksExistFlag"/>
+    <functioncall functionName="WaveTracksSelectedFlag"/>
+    <functioncall functionName="ZoomInAvailableFlag"/>
+    <functioncall functionName="ZoomOutAvailableFlag"/>
+    <functioncall functionName="a"/>
+    <functioncall functionName="algorithm"/>
+    <functioncall functionName="b"/>
+    <functioncall functionName="bitset"/>
+    <functioncall functionName="bl"/>
+    <functioncall functionName="bool"/>
+    <functioncall functionName="brushRadius"/>
+    <functioncall functionName="brushTool"/>
+    <functioncall functionName="cacheLen"/>
+    <functioncall functionName="char"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="delete"/>
+    <functioncall functionName="description"/>
+    <functioncall functionName="description_"/>
+    <functioncall functionName="dirty"/>
+    <functioncall functionName="double"/>
+    <functioncall functionName="drawTool"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="envelopeTool"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="finder"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="flag"/>
+    <functioncall functionName="float"/>
+    <functioncall functionName="frequencyGain"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="helpPage_"/>
+    <functioncall functionName="id"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="index"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="isSelected"/>
+    <functioncall functionName="is_const"/>
+    <functioncall functionName="is_pointer"/>
+    <functioncall functionName="len"/>
+    <functioncall functionName="list"/>
+    <functioncall functionName="load"/>
+    <functioncall functionName="lock"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="mCutLines"/>
+    <functioncall functionName="mValue"/>
+    <functioncall functionName="max"/>
+    <functioncall functionName="memory_order_relaxed"/>
+    <functioncall functionName="message_"/>
+    <functioncall functionName="min"/>
+    <functioncall functionName="mode"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="multiTool"/>
+    <functioncall functionName="noexcept"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="numTools"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="pExtra"/>
+    <functioncall functionName="pSizeAndLocation"/>
+    <functioncall functionName="pps"/>
+    <functioncall functionName="priority_"/>
+    <functioncall functionName="project"/>
+    <functioncall functionName="reinterpret_cast"/>
+    <functioncall functionName="remove_pointer"/>
+    <functioncall functionName="resize"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="rms"/>
+    <functioncall functionName="sampleCount"/>
+    <functioncall functionName="selectTool"/>
+    <functioncall functionName="selectedRegion"/>
+    <functioncall functionName="selectedRegion_"/>
+    <functioncall functionName="shared_from_this"/>
+    <functioncall functionName="shared_ptr"/>
+    <functioncall functionName="shortDescription"/>
+    <functioncall functionName="shortDescription_"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="start"/>
+    <functioncall functionName="state"/>
+    <functioncall functionName="static_assert"/>
+    <functioncall functionName="static_cast"/>
+    <functioncall functionName="static_pointer_cast"/>
+    <functioncall functionName="store"/>
+    <functioncall functionName="tags"/>
+    <functioncall functionName="tags_"/>
+    <functioncall functionName="title_"/>
+    <functioncall functionName="tracks"/>
+    <functioncall functionName="tracks_"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="typename"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="val"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="w"/>
+    <functioncall functionName="where"/>
+    <functioncall functionName="width"/>
+    <functioncall functionName="window"/>
+    <functioncall functionName="windowType"/>
+    <functioncall functionName="wxASSERT"/>
+    <functioncall functionName="wxCommandEvent"/>
+    <functioncall functionName="wxDECLARE_EXPORTED_EVENT"/>
+    <functioncall functionName="wxRect"/>
+    <functioncall functionName="wxT"/>
+    <functioncall functionName="zoomTool"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,3 @@
+NormalizedKeyString call:[AfterLast,Contains,Replace,wxT] noreturn:[AfterLast,wxT]
+Display call:[GET,Replace,wxT] noreturn:[Replace]
+KeyEventToKeyString call:[AltDown,ControlDown,GetKeyCode,RawControlDown,ShiftDown,wxT] noreturn:[wxT]

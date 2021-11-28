@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="4274007770">
+  <FileInfo check="Class">
+<class name="AttachedWindows" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ProjectWindows.h" line="53" col="1" hash="18411720420297200147"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="Get" lineNumber="38"/>
+    <functiondecl functionName="Get" lineNumber="43"/>
+    <functiondecl functionName="GetProjectPanel" lineNumber="49"/>
+    <functiondecl functionName="GetProjectPanel" lineNumber="57"/>
+    <functiondecl functionName="SetProjectPanel" lineNumber="66"/>
+    <functiondecl functionName="GetProjectFrame" lineNumber="72"/>
+    <functiondecl functionName="GetProjectFrame" lineNumber="80"/>
+    <functiondecl functionName="FindProjectFrame" lineNumber="88"/>
+    <functiondecl functionName="FindProjectFrame" lineNumber="94"/>
+    <functiondecl functionName="ProjectFramePlacement" lineNumber="101"/>
+    <functiondecl functionName="SetProjectFrame" lineNumber="109"/>
+    <functiondecl functionName="GetAttachedWindows" lineNumber="114"/>
+    <functioncall functionName="AttachedWindows"/>
+    <functioncall functionName="AudacityProject"/>
+    <functioncall functionName="BarePtr"/>
+    <functioncall functionName="Get"/>
+    <functioncall functionName="GetProjectFrame"/>
+    <functioncall functionName="ProjectWindows"/>
+    <functioncall functionName="SkipCopying"/>
+    <functioncall functionName="THROW_INCONSISTENCY_EXCEPTION"/>
+    <functioncall functionName="WindowPlacement"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="const_cast"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="frame"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="key"/>
+    <functioncall functionName="mAttachedWindows"/>
+    <functioncall functionName="mFrame"/>
+    <functioncall functionName="mPanel"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="operatorAudacityProject&amp;"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="pWindow"/>
+    <functioncall functionName="panel"/>
+    <functioncall functionName="project"/>
+    <functioncall functionName="ptr"/>
+    <functioncall functionName="wxFrame"/>
+    <functioncall functionName="wxWidgetsWindowPlacement"/>
+    <functioncall functionName="wxWindow"/>
+  </FileInfo>
+</analyzerinfo>

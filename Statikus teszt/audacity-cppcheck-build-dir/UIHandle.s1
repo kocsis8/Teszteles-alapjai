@@ -1,0 +1,15 @@
+MaximizeWidth
+MaximizeHeight
+GetChangeHighlight
+SetChangeHighlight
+NeedChangeHighlight
+AssignUIHandlePtr call:[NeedChangeHighlight,SetChangeHighlight,lock,move,typeid,wxASSERT]
+UIHandle
+Enter
+HasRotation
+Rotate
+HasEscape
+Escape
+HandlesRightClick
+StopsOnKeystroke
+OnProjectChange

@@ -1,0 +1,12 @@
+MachineEndianness
+IsLittle call:[return]
+IsBig call:[return]
+Which
+MachineEndianness
+MultiFormatReader call:[fopen,runtime_error] noreturn:[runtime_error]
+MultiFormatReader call:[fclose] noreturn:[fclose]
+Reset call:[rewind] noreturn:[rewind]
+ReadSamples call:[ReadSamples] noreturn:[ReadSamples]
+ReadSamples call:[Read,SwapBytes,Which] noreturn:[SwapBytes]
+Read call:[fread,fseek] noreturn:[fread,fseek]
+SwapBytes call:[memcpy,runtime_error] noreturn:[runtime_error]

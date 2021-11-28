@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1207665995">
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::any_of algorithm instead of a raw loop." verbose="Consider using std::any_of algorithm instead of a raw loop." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/update/UpdateDataParser.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\update\UpdateDataParser.cpp" line="115" column="0"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::any_of algorithm instead of a raw loop." verbose="Consider using std::any_of algorithm instead of a raw loop." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/update/UpdateDataParser.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\update\UpdateDataParser.cpp" line="167" column="0"/>
+        </error>
+  <FileInfo check="Class">
+<class name="UpdateDataParser" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/update/UpdateDataParser.h" line="19" col="1" hash="4799369746628968642"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/update/UpdateDataParser.h:31:10" my-argnr="2" my-argname="versionPatch" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/update/UpdateDataParser.cpp" line="26" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="Parse" lineNumber="22"/>
+    <functiondecl functionName="SplitChangelogSentences" lineNumber="31"/>
+    <functiondecl functionName="HandleXMLTag" lineNumber="52"/>
+    <functiondecl functionName="HandleXMLEndTag" lineNumber="122"/>
+    <functiondecl functionName="HandleXMLContent" lineNumber="134"/>
+    <functiondecl functionName="HandleXMLChild" lineNumber="163"/>
+    <functioncall functionName="AUDACITY_RELEASE"/>
+    <functioncall functionName="AUDACITY_REVISION"/>
+    <functioncall functionName="AUDACITY_VERSION"/>
+    <functioncall functionName="Add"/>
+    <functioncall functionName="Get"/>
+    <functioncall functionName="GetOperatingSystemId"/>
+    <functioncall functionName="ParseFromString"/>
+    <functioncall functionName="ParseString"/>
+    <functioncall functionName="SplitChangelogSentences"/>
+    <functioncall functionName="ToStdString"/>
+    <functioncall functionName="Trim"/>
+    <functioncall functionName="UpdateDataParser"/>
+    <functioncall functionName="VersionId"/>
+    <functioncall functionName="VersionPatch"/>
+    <functioncall functionName="XmlParsedTags"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="content"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="delimiter"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="is32Bit"/>
+    <functioncall functionName="is64Bit"/>
+    <functioncall functionName="kDescriptionTag"/>
+    <functioncall functionName="kLinkTag"/>
+    <functioncall functionName="kLinuxTag"/>
+    <functioncall functionName="kMacosTag"/>
+    <functioncall functionName="kNotUsedTag"/>
+    <functioncall functionName="kOsTag"/>
+    <functioncall functionName="kUpdateTag"/>
+    <functioncall functionName="kVersionTag"/>
+    <functioncall functionName="kWin32Tag"/>
+    <functioncall functionName="kWin64Tag"/>
+    <functioncall functionName="length"/>
+    <functioncall functionName="mVersionPatch"/>
+    <functioncall functionName="mXmlParsingState"/>
+    <functioncall functionName="mXmlTagNames"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="s"/>
+    <functioncall functionName="second"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="substr"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="this"/>
+    <functioncall functionName="token"/>
+    <functioncall functionName="trimmedContent"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="updateData"/>
+    <functioncall functionName="versionPatch"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="wxOS_MAC"/>
+    <functioncall functionName="wxOS_UNIX_LINUX"/>
+    <functioncall functionName="wxOS_WINDOWS"/>
+    <functioncall functionName="wxString"/>
+  </FileInfo>
+</analyzerinfo>

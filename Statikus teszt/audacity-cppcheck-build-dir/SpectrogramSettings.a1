@@ -1,0 +1,206 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3549129125">
+        <error id="unreadVariable" severity="style" msg="Variable &apos;size&apos; is assigned a value that is never used." verbose="Variable &apos;size&apos; is assigned a value that is never used." cwe="563" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/prefs/SpectrogramSettings.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\prefs\SpectrogramSettings.cpp" line="583" column="9"/>
+            <symbol>size</symbol>
+        </error>
+  <FileInfo check="Class">
+<class name="SpectrogramSettings" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/prefs/SpectrogramSettings.h" line="26" col="1" hash="1049818647091725629"/>
+<class name="SpectrogramSettings::Globals" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/prefs/SpectrogramSettings.h" line="32" col="4" hash="6714900935256967219"/>
+<class name="SpectrogramSettings::ColorSchemeEnumSetting" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/prefs/SpectrogramSettings.h" line="141" col="4" hash="1859309150915344133"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="SpectrogramSettings" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/prefs/SpectrogramSettings.h" line="26" col="1" hash="16532833738513150656"/>
+<class name="SpectrogramSettings::Globals" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/prefs/SpectrogramSettings.h" line="32" col="4" hash="6714900935256967219"/>
+<class name="SpectrogramSettings::ColorSchemeEnumSetting" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/prefs/SpectrogramSettings.h" line="141" col="4" hash="1859309150915344133"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="SpectrogramSettings" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/prefs/SpectrogramSettings.h" line="26" col="1" hash="9513705960958293989"/>
+<class name="SpectrogramSettings::Globals" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/prefs/SpectrogramSettings.h" line="32" col="4" hash="6714900935256967219"/>
+<class name="SpectrogramSettings::ColorSchemeEnumSetting" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/prefs/SpectrogramSettings.h" line="141" col="4" hash="1859309150915344133"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="SavePrefs" lineNumber="85"/>
+    <functiondecl functionName="LoadPrefs" lineNumber="92"/>
+    <functiondecl functionName="Get" lineNumber="100"/>
+    <functiondecl functionName="defaults" lineNumber="177"/>
+    <functiondecl functionName="GetScaleNames" lineNumber="184"/>
+    <functiondecl functionName="GetColorSchemeNames" lineNumber="203"/>
+    <functiondecl functionName="Migrate" lineNumber="224"/>
+    <functiondecl functionName="GetAlgorithmNames" lineNumber="244"/>
+    <functiondecl functionName="Validate" lineNumber="257"/>
+    <functiondecl functionName="LoadPrefs" lineNumber="328"/>
+    <functiondecl functionName="SavePrefs" lineNumber="371"/>
+    <functiondecl functionName="UpdatePrefs" lineNumber="413"/>
+    <functiondecl functionName="InvalidateCaches" lineNumber="477"/>
+    <functiondecl functionName="DestroyWindows" lineNumber="487"/>
+    <functiondecl functionName="RecreateWindow" lineNumber="499"/>
+    <functiondecl functionName="CacheWindows" lineNumber="552"/>
+    <functiondecl functionName="ConvertToEnumeratedWindowSizes" lineNumber="570"/>
+    <functiondecl functionName="ConvertToActualWindowSizes" lineNumber="592"/>
+    <functiondecl functionName="findBin" lineNumber="598"/>
+    <functiondecl functionName="GetFFTLength" lineNumber="607"/>
+    <functiondecl functionName="NBins" lineNumber="616"/>
+    <functiondecl functionName="GetScale" lineNumber="622"/>
+    <functiondecl functionName="SpectralSelectionEnabled" lineNumber="648"/>
+    <functiondecl functionName="SavePrefs" lineNumber="85"/>
+    <functiondecl functionName="LoadPrefs" lineNumber="92"/>
+    <functiondecl functionName="Get" lineNumber="100"/>
+    <functiondecl functionName="defaults" lineNumber="177"/>
+    <functiondecl functionName="GetScaleNames" lineNumber="184"/>
+    <functiondecl functionName="GetColorSchemeNames" lineNumber="203"/>
+    <functiondecl functionName="Migrate" lineNumber="224"/>
+    <functiondecl functionName="GetAlgorithmNames" lineNumber="244"/>
+    <functiondecl functionName="Validate" lineNumber="257"/>
+    <functiondecl functionName="LoadPrefs" lineNumber="328"/>
+    <functiondecl functionName="SavePrefs" lineNumber="371"/>
+    <functiondecl functionName="UpdatePrefs" lineNumber="413"/>
+    <functiondecl functionName="InvalidateCaches" lineNumber="477"/>
+    <functiondecl functionName="DestroyWindows" lineNumber="487"/>
+    <functiondecl functionName="RecreateWindow" lineNumber="499"/>
+    <functiondecl functionName="CacheWindows" lineNumber="552"/>
+    <functiondecl functionName="ConvertToEnumeratedWindowSizes" lineNumber="570"/>
+    <functiondecl functionName="ConvertToActualWindowSizes" lineNumber="592"/>
+    <functiondecl functionName="findBin" lineNumber="598"/>
+    <functiondecl functionName="GetFFTLength" lineNumber="607"/>
+    <functiondecl functionName="NBins" lineNumber="616"/>
+    <functiondecl functionName="GetScale" lineNumber="622"/>
+    <functiondecl functionName="SpectralSelectionEnabled" lineNumber="648"/>
+    <functiondecl functionName="SavePrefs" lineNumber="85"/>
+    <functiondecl functionName="LoadPrefs" lineNumber="92"/>
+    <functiondecl functionName="Get" lineNumber="100"/>
+    <functiondecl functionName="defaults" lineNumber="177"/>
+    <functiondecl functionName="GetScaleNames" lineNumber="184"/>
+    <functiondecl functionName="GetColorSchemeNames" lineNumber="203"/>
+    <functiondecl functionName="Migrate" lineNumber="224"/>
+    <functiondecl functionName="GetAlgorithmNames" lineNumber="244"/>
+    <functiondecl functionName="Validate" lineNumber="257"/>
+    <functiondecl functionName="LoadPrefs" lineNumber="328"/>
+    <functiondecl functionName="SavePrefs" lineNumber="371"/>
+    <functiondecl functionName="UpdatePrefs" lineNumber="413"/>
+    <functiondecl functionName="InvalidateCaches" lineNumber="477"/>
+    <functiondecl functionName="DestroyWindows" lineNumber="487"/>
+    <functiondecl functionName="RecreateWindow" lineNumber="499"/>
+    <functiondecl functionName="CacheWindows" lineNumber="552"/>
+    <functiondecl functionName="ConvertToEnumeratedWindowSizes" lineNumber="570"/>
+    <functiondecl functionName="ConvertToActualWindowSizes" lineNumber="592"/>
+    <functiondecl functionName="findBin" lineNumber="598"/>
+    <functiondecl functionName="GetFFTLength" lineNumber="607"/>
+    <functiondecl functionName="NBins" lineNumber="616"/>
+    <functiondecl functionName="GetScale" lineNumber="622"/>
+    <functiondecl functionName="SpectralSelectionEnabled" lineNumber="648"/>
+    <functioncall functionName="AudacityMessageBox"/>
+    <functioncall functionName="ColorScheme"/>
+    <functioncall functionName="ConvertToActualWindowSizes"/>
+    <functioncall functionName="ConvertToEnumeratedWindowSizes"/>
+    <functioncall functionName="DWINDOW"/>
+    <functioncall functionName="DerivativeOfWindowFunc"/>
+    <functioncall functionName="DestroyWindows"/>
+    <functioncall functionName="Flush"/>
+    <functioncall functionName="GetColorSchemeNames"/>
+    <functioncall functionName="GetFFT"/>
+    <functioncall functionName="GetFFTLength"/>
+    <functioncall functionName="Globals"/>
+    <functioncall functionName="Internal"/>
+    <functioncall functionName="InvalidateCaches"/>
+    <functioncall functionName="LoadPrefs"/>
+    <functioncall functionName="LogMinWindowSize"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="NewWindowFunc"/>
+    <functioncall functionName="NumWindowFuncs"/>
+    <functioncall functionName="NumberScale"/>
+    <functioncall functionName="Read"/>
+    <functioncall functionName="ReadEnum"/>
+    <functioncall functionName="RecreateWindow"/>
+    <functioncall functionName="SpectrogramSettings"/>
+    <functioncall functionName="TWINDOW"/>
+    <functioncall functionName="Validate"/>
+    <functioncall functionName="WINDOW"/>
+    <functioncall functionName="WindowSize"/>
+    <functioncall functionName="Write"/>
+    <functioncall functionName="WriteEnum"/>
+    <functioncall functionName="XC"/>
+    <functioncall functionName="XO"/>
+    <functioncall functionName="ZeroPaddingFactor"/>
+    <functioncall functionName="algNumAlgorithms"/>
+    <functioncall functionName="algPitchEAC"/>
+    <functioncall functionName="algReassignment"/>
+    <functioncall functionName="algorithm"/>
+    <functioncall functionName="at"/>
+    <functioncall functionName="binUnit"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="colorScheme"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="csColorNew"/>
+    <functioncall functionName="csColorTheme"/>
+    <functioncall functionName="csGrayscale"/>
+    <functioncall functionName="csInvGrayscale"/>
+    <functioncall functionName="csNumColorScheme"/>
+    <functioncall functionName="dWindow"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="defaults"/>
+    <functioncall functionName="eWinFuncHann"/>
+    <functioncall functionName="endOfWindow"/>
+    <functioncall functionName="extra"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="fftFindNotes"/>
+    <functioncall functionName="fftLen"/>
+    <functioncall functionName="fftYGrid"/>
+    <functioncall functionName="findNotesMinA"/>
+    <functioncall functionName="findNotesQuantize"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="frequencyGain"/>
+    <functioncall functionName="gain"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="ii"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="jj"/>
+    <functioncall functionName="logarithm"/>
+    <functioncall functionName="max"/>
+    <functioncall functionName="maxFreq"/>
+    <functioncall functionName="maxFreqIn"/>
+    <functioncall functionName="min"/>
+    <functioncall functionName="minFreq"/>
+    <functioncall functionName="minFreqIn"/>
+    <functioncall functionName="nstBark"/>
+    <functioncall functionName="nstErb"/>
+    <functioncall functionName="nstLinear"/>
+    <functioncall functionName="nstLogarithmic"/>
+    <functioncall functionName="nstMel"/>
+    <functioncall functionName="nstPeriod"/>
+    <functioncall functionName="numberOfMaxima"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="padding"/>
+    <functioncall functionName="range"/>
+    <functioncall functionName="reset"/>
+    <functioncall functionName="scale"/>
+    <functioncall functionName="scaleType"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="spectralSelection"/>
+    <functioncall functionName="stBark"/>
+    <functioncall functionName="stErb"/>
+    <functioncall functionName="stLinear"/>
+    <functioncall functionName="stLogarithmic"/>
+    <functioncall functionName="stMel"/>
+    <functioncall functionName="stNumScaleTypes"/>
+    <functioncall functionName="stPeriod"/>
+    <functioncall functionName="static_assert"/>
+    <functioncall functionName="static_cast"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="tWindow"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="type"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="which"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="window"/>
+    <functioncall functionName="windowSize"/>
+    <functioncall functionName="windowType"/>
+    <functioncall functionName="wxASSERT"/>
+    <functioncall functionName="wxCENTRE"/>
+    <functioncall functionName="wxDefaultCoord"/>
+    <functioncall functionName="wxT"/>
+    <functioncall functionName="zeroPaddingFactor"/>
+  </FileInfo>
+</analyzerinfo>

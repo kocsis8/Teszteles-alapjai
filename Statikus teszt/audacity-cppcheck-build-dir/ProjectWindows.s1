@@ -1,0 +1,16 @@
+AttachedWindows
+operatorAudacityProject&
+wxWidgetsWindowPlacement
+ProjectWindows
+Get
+Get call:[Get] noreturn:[Get]
+GetProjectPanel call:[Get]
+GetProjectPanel call:[Get]
+SetProjectPanel call:[Get]
+GetProjectFrame call:[Get]
+GetProjectFrame call:[Get]
+FindProjectFrame call:[Get]
+FindProjectFrame call:[Get]
+ProjectFramePlacement call:[GetProjectFrame]
+SetProjectFrame call:[Get]
+GetAttachedWindows call:[Get]

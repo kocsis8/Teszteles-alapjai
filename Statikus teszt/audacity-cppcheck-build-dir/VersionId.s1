@@ -1,0 +1,9 @@
+CurrentBuildVersion
+VersionId
+MakeString call:[to_string] noreturn:[to_string]
+ParseFromString call:[IsNumber,ToStdString,VersionId,empty,size,stoi,wxSplit] noreturn:[VersionId]
+GetString call:[MakeString] noreturn:[MakeString]
+operator== call:[tie] noreturn:[tie]
+operator!=
+operator< call:[tie] noreturn:[tie]
+operator>

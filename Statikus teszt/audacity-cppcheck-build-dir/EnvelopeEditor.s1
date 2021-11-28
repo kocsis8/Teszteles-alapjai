@@ -1,0 +1,35 @@
+EnvPoint
+EnvPoint
+GetT
+SetT
+GetVal
+HandleXMLTag call:[Get,GetT,GetVal,SetT,SetVal] noreturn:[SetT,SetVal]
+HandleXMLChild
+GetOffset
+GetTrackLen
+GetExponential
+SetExponential
+GetMinValue
+GetMaxValue
+ClampValue call:[max,min] noreturn:[max]
+Clear call:[clear] noreturn:[clear]
+InsertOrReplace call:[InsertOrReplaceRelative] noreturn:[InsertOrReplaceRelative]
+operator[]
+GetDragPoint
+GetDragPointValid
+SetVal call:[ClampValue] noreturn:[ClampValue]
+GetRangeLower
+GetRangeUpper
+SetRangeLower
+SetRangeUpper
+SetBackgroundBrushes
+DrawPoint call:[DrawEllipse,circle] noreturn:[DrawEllipse]
+DrawPoints call:[DrawPoint,Get,GetDragPoint,GetNumberOfPoints,GetOffset,GetT,GetVal,GetWaveYPos,SetBrush,SetPen,TimeToPosition] noreturn:[DrawPoint,SetBrush]
+EnvelopeEditor
+EnvelopeEditor
+SQR
+ValueOfPixel call:[ClampValue,ValueOfPixel] noreturn:[ClampValue]
+HandleMouseButtonDown call:[GetBottom,GetButton,GetNumberOfPoints,GetOffset,GetT,GetVal,GetValue,GetWaveYPos,InsertOrReplace,PositionToTime,SQR,SetDragPoint,TimeToPosition,ValueOfPixel] noreturn:[GetBottom,SetDragPoint]
+MoveDragPoint call:[GetOffset,MoveDragPoint,PositionToTime,ValueOfPixel] noreturn:[MoveDragPoint]
+HandleMouseButtonUp call:[ClearDragPoint]
+MouseEvent call:[ButtonDown,ButtonUp,Dragging,GetButton,GetDragPoint,HandleDragging,HandleMouseButtonDown,HandleMouseButtonUp] noreturn:[HandleDragging,HandleMouseButtonDown,HandleMouseButtonUp]

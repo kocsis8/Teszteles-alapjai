@@ -1,0 +1,8 @@
+FileDialogBase
+SetFileExtension
+FileDialogBase
+HasUserPaneCreator
+SetUserPaneCreator
+CreateUserPane
+FileSelector call:[Contains,GetCount,GetPath,SetFilterIndex,ShowModal,empty,fileDialog,find,wxParseCommonDialogsFilter,wxPoint,wxString,wxT] noreturn:[GetPath,SetFilterIndex]
+FileSelectorEx call:[GetFilterIndex,GetPath,ShowModal,fileDialog,wxPoint] noreturn:[GetFilterIndex,GetPath]

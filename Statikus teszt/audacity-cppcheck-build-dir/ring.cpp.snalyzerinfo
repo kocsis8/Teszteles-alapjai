@@ -1,0 +1,16 @@
+zix_strerror
+next_power_of_two
+zix_ring_new call:[malloc,next_power_of_two,sizeof]
+zix_ring_free call:[free] noreturn:[free]
+zix_ring_mlock
+zix_ring_reset
+read_space_internal call:[return]
+zix_ring_read_space call:[read_space_internal] noreturn:[read_space_internal]
+write_space_internal call:[return]
+zix_ring_write_space call:[write_space_internal] noreturn:[write_space_internal]
+zix_ring_capacity
+peek_internal call:[memcpy,read_space_internal] noreturn:[memcpy]
+zix_ring_peek call:[peek_internal] noreturn:[peek_internal]
+zix_ring_read call:[OSMemoryBarrier,peek_internal]
+zix_ring_skip call:[OSMemoryBarrier,read_space_internal]
+zix_ring_write call:[OSMemoryBarrier,memcpy,write_space_internal]

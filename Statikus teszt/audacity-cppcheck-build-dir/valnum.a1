@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3750877086">
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;IntegerValidatorBase::m_min&apos; is not initialized in the constructor." verbose="Member variable &apos;IntegerValidatorBase::m_min&apos; is not initialized in the constructor." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/valnum.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\valnum.h" line="293" column="5"/>
+            <symbol>IntegerValidatorBase::m_min</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;IntegerValidatorBase::m_max&apos; is not initialized in the constructor." verbose="Member variable &apos;IntegerValidatorBase::m_max&apos; is not initialized in the constructor." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/valnum.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\valnum.h" line="293" column="5"/>
+            <symbol>IntegerValidatorBase::m_max</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;FloatingPointValidatorBase::m_precision&apos; is not initialized in the constructor." verbose="Member variable &apos;FloatingPointValidatorBase::m_precision&apos; is not initialized in the constructor." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/valnum.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\valnum.h" line="400" column="5"/>
+            <symbol>FloatingPointValidatorBase::m_precision</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;FloatingPointValidatorBase::m_min&apos; is not initialized in the constructor." verbose="Member variable &apos;FloatingPointValidatorBase::m_min&apos; is not initialized in the constructor." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/valnum.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\valnum.h" line="400" column="5"/>
+            <symbol>FloatingPointValidatorBase::m_min</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;FloatingPointValidatorBase::m_max&apos; is not initialized in the constructor." verbose="Member variable &apos;FloatingPointValidatorBase::m_max&apos; is not initialized in the constructor." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/valnum.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\valnum.h" line="400" column="5"/>
+            <symbol>FloatingPointValidatorBase::m_max</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;IntegerValidatorBase&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;IntegerValidatorBase&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/valnum.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\valnum.h" line="293" column="5"/>
+            <symbol>IntegerValidatorBase</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;FloatingPointValidatorBase&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;FloatingPointValidatorBase&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/valnum.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\valnum.h" line="400" column="5"/>
+            <symbol>FloatingPointValidatorBase</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;FloatingPointValidator&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;FloatingPointValidator&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/valnum.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\valnum.h" line="464" column="5"/>
+            <symbol>FloatingPointValidator</symbol>
+        </error>
+  <FileInfo check="Class">
+<class name="IntegerValidator" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/valnum.h" line="340" col="1" hash="5834552978448946444"/>
+<class name="FloatingPointValidator" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/valnum.h" line="446" col="1" hash="2506667504326159256"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="B"/>
+    <functioncall functionName="ChangeValue"/>
+    <functioncall functionName="DECLARE_EVENT_TABLE"/>
+    <functioncall functionName="DECLARE_NO_ASSIGN_CLASS"/>
+    <functioncall functionName="DEFAULT"/>
+    <functioncall functionName="DoSetMax"/>
+    <functioncall functionName="DoSetMin"/>
+    <functioncall functionName="DoSetMinMax"/>
+    <functioncall functionName="FloatingPointValidator"/>
+    <functioncall functionName="FloatingPointValidatorBase"/>
+    <functioncall functionName="FromString"/>
+    <functioncall functionName="GetTextEntry"/>
+    <functioncall functionName="GetValue"/>
+    <functioncall functionName="HasFlag"/>
+    <functioncall functionName="IntegerValidator"/>
+    <functioncall functionName="IntegerValidatorBase"/>
+    <functioncall functionName="IsEnabled"/>
+    <functioncall functionName="IsInRange"/>
+    <functioncall functionName="LongestValueType"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="NormalizeValue"/>
+    <functioncall functionName="NumValidator"/>
+    <functioncall functionName="NumValidatorBase"/>
+    <functioncall functionName="NumValidatorStyle"/>
+    <functioncall functionName="SetMax"/>
+    <functioncall functionName="SetMin"/>
+    <functioncall functionName="SetPrecision"/>
+    <functioncall functionName="SetRange"/>
+    <functioncall functionName="T"/>
+    <functioncall functionName="ToString"/>
+    <functioncall functionName="UnsupportedType"/>
+    <functioncall functionName="XO"/>
+    <functioncall functionName="ZERO_AS_BLANK"/>
+    <functioncall functionName="ch"/>
+    <functioncall functionName="class"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="control"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="lowest"/>
+    <functioncall functionName="m_max"/>
+    <functioncall functionName="m_maxSet"/>
+    <functioncall functionName="m_min"/>
+    <functioncall functionName="m_minSet"/>
+    <functioncall functionName="m_precision"/>
+    <functioncall functionName="m_style"/>
+    <functioncall functionName="m_value"/>
+    <functioncall functionName="max"/>
+    <functioncall functionName="min"/>
+    <functioncall functionName="other"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="pos"/>
+    <functioncall functionName="precision"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="s"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="static_cast"/>
+    <functioncall functionName="style"/>
+    <functioncall functionName="typename"/>
+    <functioncall functionName="val"/>
+    <functioncall functionName="valArg"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="wxASSERT_MSG"/>
+    <functioncall functionName="wxCENTRE"/>
+    <functioncall functionName="wxDefaultCoord"/>
+    <functioncall functionName="wxString"/>
+    <functioncall functionName="wxT"/>
+    <functioncall functionName="wxValidator"/>
+    <functioncall functionName="x"/>
+    <functioncall functionName="y"/>
+  </FileInfo>
+</analyzerinfo>

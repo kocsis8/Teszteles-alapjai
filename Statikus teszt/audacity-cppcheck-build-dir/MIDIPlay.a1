@@ -1,0 +1,797 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="804619031">
+        <error id="assertWithSideEffect" severity="warning" msg="Assert statement calls a function which may have desired side effects: &apos;get_posn&apos;." verbose="Non-pure function: &apos;get_posn&apos; is called inside assert statement. Assert statements are removed from release builds so the code inside assert statement is not executed. If the code is needed also in release builds, this is a bug." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="608" column="16"/>
+            <symbol>get_posn</symbol>
+        </error>
+        <error id="assertWithSideEffect" severity="warning" msg="Assert statement calls a function which may have desired side effects: &apos;get_posn&apos;." verbose="Non-pure function: &apos;get_posn&apos; is called inside assert statement. Assert statements are removed from release builds so the code inside assert statement is not executed. If the code is needed also in release builds, this is a bug." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="625" column="26"/>
+            <symbol>get_posn</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Alg_event::type&apos; is not initialized in the constructor." verbose="Member variable &apos;Alg_event::type&apos; is not initialized in the constructor." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="291" column="5"/>
+            <symbol>Alg_event::type</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Alg_event::key&apos; is not initialized in the constructor." verbose="Member variable &apos;Alg_event::key&apos; is not initialized in the constructor." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="291" column="5"/>
+            <symbol>Alg_event::key</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Alg_event::time&apos; is not initialized in the constructor." verbose="Member variable &apos;Alg_event::time&apos; is not initialized in the constructor." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="291" column="5"/>
+            <symbol>Alg_event::time</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Alg_event::chan&apos; is not initialized in the constructor." verbose="Member variable &apos;Alg_event::chan&apos; is not initialized in the constructor." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="291" column="5"/>
+            <symbol>Alg_event::chan</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Alg_note::pitch&apos; is not initialized in the constructor." verbose="Member variable &apos;Alg_note::pitch&apos; is not initialized in the constructor." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="304" column="5"/>
+            <symbol>Alg_note::pitch</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Alg_note::loud&apos; is not initialized in the constructor." verbose="Member variable &apos;Alg_note::loud&apos; is not initialized in the constructor." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="304" column="5"/>
+            <symbol>Alg_note::loud</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Alg_note::dur&apos; is not initialized in the constructor." verbose="Member variable &apos;Alg_note::dur&apos; is not initialized in the constructor." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="304" column="5"/>
+            <symbol>Alg_note::dur</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Alg_iterator::events_ptr&apos; is not initialized in the constructor." verbose="Member variable &apos;Alg_iterator::events_ptr&apos; is not initialized in the constructor." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="994" column="5"/>
+            <symbol>Alg_iterator::events_ptr</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Alg_iterator::index&apos; is not initialized in the constructor." verbose="Member variable &apos;Alg_iterator::index&apos; is not initialized in the constructor." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="994" column="5"/>
+            <symbol>Alg_iterator::index</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Alg_iterator::cookie&apos; is not initialized in the constructor." verbose="Member variable &apos;Alg_iterator::cookie&apos; is not initialized in the constructor." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="994" column="5"/>
+            <symbol>Alg_iterator::cookie</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;Alg_iterator::offset&apos; is not initialized in the constructor." verbose="Member variable &apos;Alg_iterator::offset&apos; is not initialized in the constructor." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="994" column="5"/>
+            <symbol>Alg_iterator::offset</symbol>
+        </error>
+        <error id="virtualCallInConstructor" severity="style" msg="Virtual function &apos;set_time_map&apos; is called from constructor &apos;Alg_track()&apos; at line 697. Dynamic binding is not used." verbose="Virtual function &apos;set_time_map&apos; is called from constructor &apos;Alg_track()&apos; at line 697. Dynamic binding is not used." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="742" column="18" info="set_time_map is a virtual function"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="697" column="19" info="Calling set_time_map"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;AudioTrack&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;AudioTrack&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.h" line="828" column="4"/>
+            <symbol>AudioTrack</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;PlayableTrack&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;PlayableTrack&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.h" line="844" column="4"/>
+            <symbol>PlayableTrack</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Alg_parameters&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Alg_parameters&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="146" column="5"/>
+            <symbol>Alg_parameters</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Alg_note&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Alg_note&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="299" column="5"/>
+            <symbol>Alg_note</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Alg_update&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Alg_update&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="312" column="5"/>
+            <symbol>Alg_update</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Alg_event_list&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Alg_event_list&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="400" column="5"/>
+            <symbol>Alg_event_list</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Alg_time_map&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Alg_time_map&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="489" column="5"/>
+            <symbol>Alg_time_map</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Aligner&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Aligner&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="541" column="5"/>
+            <symbol>Aligner</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Aligner&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Aligner&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="542" column="5"/>
+            <symbol>Aligner</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Alg_seq&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Alg_seq&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="1062" column="5"/>
+            <symbol>Alg_seq</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Alg_seq&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Alg_seq&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="1063" column="5"/>
+            <symbol>Alg_seq</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;show&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;show&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="305" column="10" info="Function in derived class"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="199" column="18" info="Virtual function in base class"/>
+            <symbol>show</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;show&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;show&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="317" column="10" info="Function in derived class"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="199" column="18" info="Virtual function in base class"/>
+            <symbol>show</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;operator[]&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;operator[]&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="692" column="28" info="Function in derived class"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="397" column="28" info="Virtual function in base class"/>
+            <symbol>operator[]</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;serialize&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;serialize&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="1071" column="10" info="Function in derived class"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="714" column="18" info="Virtual function in base class"/>
+            <symbol>serialize</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;set_time_map&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;set_time_map&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="1073" column="10" info="Function in derived class"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="742" column="18" info="Virtual function in base class"/>
+            <symbol>set_time_map</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;operator[]&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;operator[]&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="1099" column="28" info="Function in derived class"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="692" column="28" info="Virtual function in base class"/>
+            <symbol>operator[]</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;convert_to_seconds&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;convert_to_seconds&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="1101" column="18" info="Function in derived class"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="729" column="18" info="Virtual function in base class"/>
+            <symbol>convert_to_seconds</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;convert_to_beats&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;convert_to_beats&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="1102" column="18" info="Function in derived class"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="728" column="18" info="Virtual function in base class"/>
+            <symbol>convert_to_beats</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;cut&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;cut&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="1106" column="14" info="Function in derived class"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="777" column="24" info="Virtual function in base class"/>
+            <symbol>cut</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;insert_silence&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;insert_silence&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="1108" column="10" info="Function in derived class"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="832" column="18" info="Virtual function in base class"/>
+            <symbol>insert_silence</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;copy&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;copy&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="1110" column="14" info="Function in derived class"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="786" column="24" info="Virtual function in base class"/>
+            <symbol>copy</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;clear&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;clear&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="1112" column="18" info="Function in derived class"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="819" column="18" info="Virtual function in base class"/>
+            <symbol>clear</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;merge&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;merge&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="1113" column="18" info="Function in derived class"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="810" column="18" info="Virtual function in base class"/>
+            <symbol>merge</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;silence&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;silence&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="1114" column="18" info="Function in derived class"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="825" column="18" info="Virtual function in base class"/>
+            <symbol>silence</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;add&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;add&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="1139" column="10" info="Function in derived class"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="757" column="18" info="Virtual function in base class"/>
+            <symbol>add</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;set_in_use&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;set_in_use&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="1151" column="10" info="Function in derived class"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="849" column="18" info="Virtual function in base class"/>
+            <symbol>set_in_use</symbol>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;pTrack&apos; is always true" verbose="Condition &apos;pTrack&apos; is always true" cwe="571" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.h" line="1533" column="14" info="Condition &apos;pTrack&apos; is always true"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.h" line="1531" column="11" info="Assuming that condition &apos;pTrack&apos; is not redundant"/>
+        </error>
+        <error id="invalidPointerCast" severity="portability" msg="Casting between char * and float * which have an incompatible binary data representation." verbose="Casting between char * and float * which have an incompatible binary data representation." cwe="704" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="600" column="37"/>
+        </error>
+        <error id="invalidPointerCast" severity="portability" msg="Casting between char * and float * which have an incompatible binary data representation." verbose="Casting between char * and float * which have an incompatible binary data representation." cwe="704" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\lib-src\portsmf\allegro.h" line="653" column="33"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;successMidi&apos; can be reduced." verbose="The scope of the variable &apos;successMidi&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\MIDIPlay.cpp" line="589" column="9"/>
+            <symbol>successMidi</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;i&apos; can be reduced." verbose="The scope of the variable &apos;i&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\MIDIPlay.cpp" line="655" column="8"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="shadowFunction" severity="style" msg="Local variable &apos;end&apos; shadows outer function" verbose="Local variable &apos;end&apos; shadows outer function" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\MIDIPlay.cpp" line="844" column="18" info="Shadow variable"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.h" line="1311" column="13" info="Shadowed declaration"/>
+            <symbol>end</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:654:10" call-funcname="set_char" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="661" col="53" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:742:18" call-funcname="set_time_map" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="697" col="31" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:1091:10" call-funcname="add_track" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="1055" col="18" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:358:10" call-funcname="insert" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="757" col="42" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:757:18" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:1008:10" call-funcname="begin_seq" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="1013" col="39" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:1013:10" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="16063519710874503347"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="15341379595561148881"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="9070828929643857411"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="11803136193035736208"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="Alg_beat" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="438" col="9" hash="1777992217152573249"/>
+<class name="Aligner" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="531" col="1" hash="3066268023546976738"/>
+<class name="Serial_buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="548" col="1" hash="7503140015796671391"/>
+<class name="Alg_pending_event" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="960" col="9" hash="8753137938905178917"/>
+<class name="PlaybackSlice" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="152" col="1" hash="14623948474922064696"/>
+<class name="PlaybackPolicy::BufferTimes" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="189" col="4" hash="6869806206435311657"/>
+<class name="PlaybackSchedule::TimeQueue::Record" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="339" col="7" hash="17071854924768020548"/>
+<class name="PlaybackSchedule::TimeQueue::Cursor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="346" col="7" hash="363912267004430114"/>
+<class name="PlaybackSchedule::SlotData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="359" col="4" hash="6524779715981219363"/>
+<class name="TransportTracks" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/AudioIO.h" line="64" col="1" hash="7222878493021850004"/>
+<class name="AudioIoCallback::AudioIOExtRange" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/AudioIO.h" line="148" col="4" hash="14891609901034063357"/>
+<class name="MessageBuffer &lt; SlotData &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="34" col="1" hash="7850143017975623980"/>
+<class name="MessageBuffer &lt; SlotData &gt;::UpdateSlot" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="35" col="4" hash="1107823842534995714"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:665:11" my-argnr="1" my-argname="len" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="666" col="10" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:1063:5" my-argnr="1" my-argname="track" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="1063" col="52" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:630:10" my-argnr="1" my-argname="s" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="635" col="27" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp:605:13" my-argnr="1" my-argname="pInfo" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp" line="607" col="34" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\MIDIPlay.cpp" line="0" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:654:10" call-funcname="set_char" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="661" col="53" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:742:18" call-funcname="set_time_map" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="697" col="31" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:1091:10" call-funcname="add_track" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="1055" col="18" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:358:10" call-funcname="insert" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="757" col="42" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:757:18" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:1008:10" call-funcname="begin_seq" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="1013" col="39" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:1013:10" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="16063519710874503347"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="15341379595561148881"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="9070828929643857411"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="11803136193035736208"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="Alg_beat" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="438" col="9" hash="1777992217152573249"/>
+<class name="Aligner" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="531" col="1" hash="3066268023546976738"/>
+<class name="Serial_buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="548" col="1" hash="7503140015796671391"/>
+<class name="Alg_pending_event" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="960" col="9" hash="8753137938905178917"/>
+<class name="PlaybackSlice" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="152" col="1" hash="14623948474922064696"/>
+<class name="PlaybackPolicy::BufferTimes" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="189" col="4" hash="6869806206435311657"/>
+<class name="PlaybackSchedule::TimeQueue::Record" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="339" col="7" hash="17071854924768020548"/>
+<class name="PlaybackSchedule::TimeQueue::Cursor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="346" col="7" hash="363912267004430114"/>
+<class name="PlaybackSchedule::SlotData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="359" col="4" hash="6524779715981219363"/>
+<class name="TransportTracks" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/AudioIO.h" line="64" col="1" hash="7222878493021850004"/>
+<class name="AudioIoCallback::AudioIOExtRange" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/AudioIO.h" line="148" col="4" hash="14891609901034063357"/>
+<class name="MessageBuffer &lt; SlotData &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="34" col="1" hash="7850143017975623980"/>
+<class name="MessageBuffer &lt; SlotData &gt;::UpdateSlot" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="35" col="4" hash="1107823842534995714"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:665:11" my-argnr="1" my-argname="len" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="666" col="10" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:1063:5" my-argnr="1" my-argname="track" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="1063" col="52" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:630:10" my-argnr="1" my-argname="s" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="635" col="27" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp:605:13" my-argnr="1" my-argname="pInfo" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp" line="607" col="34" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:654:10" call-funcname="set_char" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="661" col="53" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:742:18" call-funcname="set_time_map" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="697" col="31" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:1091:10" call-funcname="add_track" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="1055" col="18" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:358:10" call-funcname="insert" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="757" col="42" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:757:18" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:1008:10" call-funcname="begin_seq" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="1013" col="39" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:1013:10" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="16063519710874503347"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="15341379595561148881"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="9070828929643857411"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="11803136193035736208"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="Alg_beat" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="438" col="9" hash="1777992217152573249"/>
+<class name="Aligner" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="531" col="1" hash="3066268023546976738"/>
+<class name="Serial_buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="548" col="1" hash="7503140015796671391"/>
+<class name="Alg_pending_event" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="960" col="9" hash="8753137938905178917"/>
+<class name="PlaybackSlice" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="152" col="1" hash="14623948474922064696"/>
+<class name="PlaybackPolicy::BufferTimes" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="189" col="4" hash="6869806206435311657"/>
+<class name="PlaybackSchedule::TimeQueue::Record" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="339" col="7" hash="17071854924768020548"/>
+<class name="PlaybackSchedule::TimeQueue::Cursor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="346" col="7" hash="363912267004430114"/>
+<class name="PlaybackSchedule::SlotData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="359" col="4" hash="6524779715981219363"/>
+<class name="TransportTracks" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/AudioIO.h" line="64" col="1" hash="7222878493021850004"/>
+<class name="AudioIoCallback::AudioIOExtRange" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/AudioIO.h" line="148" col="4" hash="14891609901034063357"/>
+<class name="MessageBuffer &lt; SlotData &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="34" col="1" hash="7850143017975623980"/>
+<class name="MessageBuffer &lt; SlotData &gt;::UpdateSlot" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="35" col="4" hash="1107823842534995714"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:665:11" my-argnr="1" my-argname="len" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="666" col="10" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:1063:5" my-argnr="1" my-argname="track" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="1063" col="52" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:630:10" my-argnr="1" my-argname="s" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="635" col="27" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp:605:13" my-argnr="1" my-argname="pInfo" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp" line="607" col="34" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/NoteTrack.h:131:9" call-funcname="SetNoteRange" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/NoteTrack.h" line="136" col="39" call-argexpr="MinPitch" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:654:10" call-funcname="set_char" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="661" col="53" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:742:18" call-funcname="set_time_map" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="697" col="31" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:1091:10" call-funcname="add_track" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="1055" col="18" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:358:10" call-funcname="insert" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="757" col="42" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:757:18" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:1008:10" call-funcname="begin_seq" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="1013" col="39" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:1013:10" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="16063519710874503347"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="15341379595561148881"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="9070828929643857411"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="11803136193035736208"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="Alg_beat" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="438" col="9" hash="1777992217152573249"/>
+<class name="Aligner" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="531" col="1" hash="3066268023546976738"/>
+<class name="Serial_buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="548" col="1" hash="7503140015796671391"/>
+<class name="Alg_pending_event" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="960" col="9" hash="8753137938905178917"/>
+<class name="PlaybackSlice" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="152" col="1" hash="14623948474922064696"/>
+<class name="PlaybackPolicy::BufferTimes" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="189" col="4" hash="6869806206435311657"/>
+<class name="PlaybackSchedule::TimeQueue::Record" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="339" col="7" hash="17071854924768020548"/>
+<class name="PlaybackSchedule::TimeQueue::Cursor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="346" col="7" hash="363912267004430114"/>
+<class name="PlaybackSchedule::SlotData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="359" col="4" hash="6524779715981219363"/>
+<class name="TransportTracks" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/AudioIO.h" line="64" col="1" hash="7222878493021850004"/>
+<class name="AudioIoCallback::AudioIOExtRange" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/AudioIO.h" line="148" col="4" hash="14891609901034063357"/>
+<class name="MessageBuffer &lt; SlotData &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="34" col="1" hash="7850143017975623980"/>
+<class name="MessageBuffer &lt; SlotData &gt;::UpdateSlot" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="35" col="4" hash="1107823842534995714"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:665:11" my-argnr="1" my-argname="len" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="666" col="10" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:1063:5" my-argnr="1" my-argname="track" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="1063" col="52" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:630:10" my-argnr="1" my-argname="s" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="635" col="27" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp:605:13" my-argnr="1" my-argname="pInfo" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp" line="607" col="34" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:654:10" call-funcname="set_char" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="661" col="53" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:742:18" call-funcname="set_time_map" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="697" col="31" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:1091:10" call-funcname="add_track" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="1055" col="18" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:358:10" call-funcname="insert" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="757" col="42" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:757:18" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:1008:10" call-funcname="begin_seq" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="1013" col="39" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:1013:10" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="16063519710874503347"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="15341379595561148881"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="9070828929643857411"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="11803136193035736208"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="Alg_beat" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="438" col="9" hash="1777992217152573249"/>
+<class name="Aligner" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="531" col="1" hash="3066268023546976738"/>
+<class name="Serial_buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="548" col="1" hash="7503140015796671391"/>
+<class name="Alg_pending_event" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="960" col="9" hash="8753137938905178917"/>
+<class name="PlaybackSlice" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="152" col="1" hash="14623948474922064696"/>
+<class name="PlaybackPolicy::BufferTimes" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="189" col="4" hash="6869806206435311657"/>
+<class name="PlaybackSchedule::TimeQueue::Record" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="339" col="7" hash="17071854924768020548"/>
+<class name="PlaybackSchedule::TimeQueue::Cursor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="346" col="7" hash="363912267004430114"/>
+<class name="PlaybackSchedule::SlotData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="359" col="4" hash="6524779715981219363"/>
+<class name="TransportTracks" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/AudioIO.h" line="64" col="1" hash="7222878493021850004"/>
+<class name="AudioIoCallback::AudioIOExtRange" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/AudioIO.h" line="148" col="4" hash="14891609901034063357"/>
+<class name="MessageBuffer &lt; SlotData &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="34" col="1" hash="7850143017975623980"/>
+<class name="MessageBuffer &lt; SlotData &gt;::UpdateSlot" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="35" col="4" hash="1107823842534995714"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:665:11" my-argnr="1" my-argname="len" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="666" col="10" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:1063:5" my-argnr="1" my-argname="track" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="1063" col="52" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:630:10" my-argnr="1" my-argname="s" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="635" col="27" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp:605:13" my-argnr="1" my-argname="pInfo" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp" line="607" col="34" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/NoteTrack.h:131:9" call-funcname="SetNoteRange" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/NoteTrack.h" line="136" col="39" call-argexpr="MinPitch" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:654:10" call-funcname="set_char" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="661" col="53" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:742:18" call-funcname="set_time_map" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="697" col="31" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:1091:10" call-funcname="add_track" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="1055" col="18" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:358:10" call-funcname="insert" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="757" col="42" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:757:18" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:1008:10" call-funcname="begin_seq" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="1013" col="39" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:1013:10" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="16063519710874503347"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="15341379595561148881"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="9070828929643857411"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="11803136193035736208"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="Alg_beat" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="438" col="9" hash="1777992217152573249"/>
+<class name="Aligner" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="531" col="1" hash="3066268023546976738"/>
+<class name="Serial_buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="548" col="1" hash="7503140015796671391"/>
+<class name="Alg_pending_event" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="960" col="9" hash="8753137938905178917"/>
+<class name="PlaybackSlice" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="152" col="1" hash="14623948474922064696"/>
+<class name="PlaybackPolicy::BufferTimes" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="189" col="4" hash="6869806206435311657"/>
+<class name="PlaybackSchedule::TimeQueue::Record" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="339" col="7" hash="17071854924768020548"/>
+<class name="PlaybackSchedule::TimeQueue::Cursor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="346" col="7" hash="363912267004430114"/>
+<class name="PlaybackSchedule::SlotData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="359" col="4" hash="6524779715981219363"/>
+<class name="TransportTracks" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/AudioIO.h" line="64" col="1" hash="7222878493021850004"/>
+<class name="AudioIoCallback::AudioIOExtRange" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/AudioIO.h" line="148" col="4" hash="14891609901034063357"/>
+<class name="MessageBuffer &lt; SlotData &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="34" col="1" hash="7850143017975623980"/>
+<class name="MessageBuffer &lt; SlotData &gt;::UpdateSlot" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="35" col="4" hash="1107823842534995714"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:665:11" my-argnr="1" my-argname="len" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="666" col="10" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:1063:5" my-argnr="1" my-argname="track" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="1063" col="52" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:630:10" my-argnr="1" my-argname="s" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="635" col="27" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp:605:13" my-argnr="1" my-argname="pInfo" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp" line="607" col="34" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/NoteTrack.h:131:9" call-funcname="SetNoteRange" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/NoteTrack.h" line="136" col="39" call-argexpr="MinPitch" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:654:10" call-funcname="set_char" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="661" col="53" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:742:18" call-funcname="set_time_map" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="697" col="31" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:1091:10" call-funcname="add_track" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="1055" col="18" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:358:10" call-funcname="insert" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="757" col="42" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:757:18" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:1008:10" call-funcname="begin_seq" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="1013" col="39" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:1013:10" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="16063519710874503347"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="15341379595561148881"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="9070828929643857411"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="11803136193035736208"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="Alg_beat" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="438" col="9" hash="1777992217152573249"/>
+<class name="Aligner" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="531" col="1" hash="3066268023546976738"/>
+<class name="Serial_buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="548" col="1" hash="7503140015796671391"/>
+<class name="Alg_pending_event" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="960" col="9" hash="8753137938905178917"/>
+<class name="PlaybackSlice" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="152" col="1" hash="14623948474922064696"/>
+<class name="PlaybackPolicy::BufferTimes" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="189" col="4" hash="6869806206435311657"/>
+<class name="PlaybackSchedule::TimeQueue::Record" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="339" col="7" hash="17071854924768020548"/>
+<class name="PlaybackSchedule::TimeQueue::Cursor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="346" col="7" hash="363912267004430114"/>
+<class name="PlaybackSchedule::SlotData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="359" col="4" hash="6524779715981219363"/>
+<class name="TransportTracks" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/AudioIO.h" line="64" col="1" hash="7222878493021850004"/>
+<class name="AudioIoCallback::AudioIOExtRange" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/AudioIO.h" line="148" col="4" hash="14891609901034063357"/>
+<class name="MessageBuffer &lt; SlotData &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="34" col="1" hash="7850143017975623980"/>
+<class name="MessageBuffer &lt; SlotData &gt;::UpdateSlot" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="35" col="4" hash="1107823842534995714"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:665:11" my-argnr="1" my-argname="len" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="666" col="10" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:1063:5" my-argnr="1" my-argname="track" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="1063" col="52" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:630:10" my-argnr="1" my-argname="s" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="635" col="27" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp:605:13" my-argnr="1" my-argname="pInfo" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp" line="607" col="34" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:654:10" call-funcname="set_char" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="661" col="53" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:742:18" call-funcname="set_time_map" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="697" col="31" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:1091:10" call-funcname="add_track" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="1055" col="18" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:358:10" call-funcname="insert" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="757" col="42" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:757:18" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:1008:10" call-funcname="begin_seq" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="1013" col="39" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:1013:10" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="16063519710874503347"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="15341379595561148881"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="9070828929643857411"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="11803136193035736208"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="Alg_beat" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="438" col="9" hash="1777992217152573249"/>
+<class name="Aligner" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="531" col="1" hash="3066268023546976738"/>
+<class name="Serial_buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="548" col="1" hash="7503140015796671391"/>
+<class name="Alg_pending_event" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="960" col="9" hash="8753137938905178917"/>
+<class name="PlaybackSlice" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="152" col="1" hash="14623948474922064696"/>
+<class name="PlaybackPolicy::BufferTimes" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="189" col="4" hash="6869806206435311657"/>
+<class name="PlaybackSchedule::TimeQueue::Record" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="339" col="7" hash="17071854924768020548"/>
+<class name="PlaybackSchedule::TimeQueue::Cursor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="346" col="7" hash="363912267004430114"/>
+<class name="PlaybackSchedule::SlotData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="359" col="4" hash="6524779715981219363"/>
+<class name="TransportTracks" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/AudioIO.h" line="64" col="1" hash="7222878493021850004"/>
+<class name="AudioIoCallback::AudioIOExtRange" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/AudioIO.h" line="148" col="4" hash="14891609901034063357"/>
+<class name="MessageBuffer &lt; SlotData &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="34" col="1" hash="7850143017975623980"/>
+<class name="MessageBuffer &lt; SlotData &gt;::UpdateSlot" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="35" col="4" hash="1107823842534995714"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:665:11" my-argnr="1" my-argname="len" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="666" col="10" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:1063:5" my-argnr="1" my-argname="track" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="1063" col="52" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:630:10" my-argnr="1" my-argname="s" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="635" col="27" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp:605:13" my-argnr="1" my-argname="pInfo" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp" line="607" col="34" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:654:10" call-funcname="set_char" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="661" col="53" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:742:18" call-funcname="set_time_map" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="697" col="31" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:1091:10" call-funcname="add_track" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="1055" col="18" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:358:10" call-funcname="insert" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="757" col="42" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:757:18" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:1008:10" call-funcname="begin_seq" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="1013" col="39" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:1013:10" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="16063519710874503347"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="15341379595561148881"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="9070828929643857411"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="11803136193035736208"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="Alg_beat" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="438" col="9" hash="1777992217152573249"/>
+<class name="Aligner" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="531" col="1" hash="3066268023546976738"/>
+<class name="Serial_buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="548" col="1" hash="7503140015796671391"/>
+<class name="Alg_pending_event" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="960" col="9" hash="8753137938905178917"/>
+<class name="PlaybackSlice" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="152" col="1" hash="14623948474922064696"/>
+<class name="PlaybackPolicy::BufferTimes" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="189" col="4" hash="6869806206435311657"/>
+<class name="PlaybackSchedule::TimeQueue::Record" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="339" col="7" hash="17071854924768020548"/>
+<class name="PlaybackSchedule::TimeQueue::Cursor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="346" col="7" hash="363912267004430114"/>
+<class name="PlaybackSchedule::SlotData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="359" col="4" hash="6524779715981219363"/>
+<class name="TransportTracks" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/AudioIO.h" line="64" col="1" hash="7222878493021850004"/>
+<class name="AudioIoCallback::AudioIOExtRange" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/AudioIO.h" line="148" col="4" hash="14891609901034063357"/>
+<class name="MessageBuffer &lt; SlotData &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="34" col="1" hash="7850143017975623980"/>
+<class name="MessageBuffer &lt; SlotData &gt;::UpdateSlot" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="35" col="4" hash="1107823842534995714"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:665:11" my-argnr="1" my-argname="len" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="666" col="10" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:1063:5" my-argnr="1" my-argname="track" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="1063" col="52" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:630:10" my-argnr="1" my-argname="s" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="635" col="27" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp:605:13" my-argnr="1" my-argname="pInfo" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp" line="607" col="34" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:654:10" call-funcname="set_char" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="661" col="53" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:742:18" call-funcname="set_time_map" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="697" col="31" call-argexpr="NULL" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:1091:10" call-funcname="add_track" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="1055" col="18" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:358:10" call-funcname="insert" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="757" col="42" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:757:18" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:1008:10" call-funcname="begin_seq" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="1013" col="39" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:1013:10" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="16063519710874503347"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="15341379595561148881"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="9070828929643857411"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="11803136193035736208"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="Alg_beat" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="438" col="9" hash="1777992217152573249"/>
+<class name="Aligner" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="531" col="1" hash="3066268023546976738"/>
+<class name="Serial_buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="548" col="1" hash="7503140015796671391"/>
+<class name="Alg_pending_event" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="960" col="9" hash="8753137938905178917"/>
+<class name="PlaybackSlice" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="152" col="1" hash="14623948474922064696"/>
+<class name="PlaybackPolicy::BufferTimes" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="189" col="4" hash="6869806206435311657"/>
+<class name="PlaybackSchedule::TimeQueue::Record" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="339" col="7" hash="17071854924768020548"/>
+<class name="PlaybackSchedule::TimeQueue::Cursor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="346" col="7" hash="363912267004430114"/>
+<class name="PlaybackSchedule::SlotData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="359" col="4" hash="6524779715981219363"/>
+<class name="TransportTracks" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/AudioIO.h" line="64" col="1" hash="7222878493021850004"/>
+<class name="AudioIoCallback::AudioIOExtRange" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/AudioIO.h" line="148" col="4" hash="14891609901034063357"/>
+<class name="MessageBuffer &lt; SlotData &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="34" col="1" hash="7850143017975623980"/>
+<class name="MessageBuffer &lt; SlotData &gt;::UpdateSlot" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="35" col="4" hash="1107823842534995714"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:665:11" my-argnr="1" my-argname="len" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="666" col="10" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:1063:5" my-argnr="1" my-argname="track" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="1063" col="52" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h:630:10" my-argnr="1" my-argname="s" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/lib-src/portsmf/allegro.h" line="635" col="27" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp:605:13" my-argnr="1" my-argname="pInfo" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/MIDIPlay.cpp" line="607" col="34" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="util_GetTime" lineNumber="468"/>
+    <functiondecl functionName="SystemTime" lineNumber="487"/>
+    <functiondecl functionName="MidiTime" lineNumber="605"/>
+    <functiondecl functionName="util_GetTime" lineNumber="468"/>
+    <functiondecl functionName="SystemTime" lineNumber="487"/>
+    <functiondecl functionName="MidiTime" lineNumber="605"/>
+    <functiondecl functionName="util_GetTime" lineNumber="468"/>
+    <functiondecl functionName="SystemTime" lineNumber="487"/>
+    <functiondecl functionName="MidiTime" lineNumber="605"/>
+    <functiondecl functionName="util_GetTime" lineNumber="468"/>
+    <functiondecl functionName="SystemTime" lineNumber="487"/>
+    <functiondecl functionName="MidiTime" lineNumber="605"/>
+    <functiondecl functionName="util_GetTime" lineNumber="457"/>
+    <functiondecl functionName="SystemTime" lineNumber="487"/>
+    <functiondecl functionName="MidiTime" lineNumber="605"/>
+    <functiondecl functionName="util_GetTime" lineNumber="468"/>
+    <functiondecl functionName="SystemTime" lineNumber="487"/>
+    <functiondecl functionName="MidiTime" lineNumber="605"/>
+    <functiondecl functionName="util_GetTime" lineNumber="468"/>
+    <functiondecl functionName="SystemTime" lineNumber="487"/>
+    <functiondecl functionName="MidiTime" lineNumber="605"/>
+    <functiondecl functionName="util_GetTime" lineNumber="421"/>
+    <functiondecl functionName="SystemTime" lineNumber="487"/>
+    <functiondecl functionName="MidiTime" lineNumber="605"/>
+    <functiondecl functionName="util_GetTime" lineNumber="393"/>
+    <functiondecl functionName="SystemTime" lineNumber="487"/>
+    <functiondecl functionName="MidiTime" lineNumber="605"/>
+    <functiondecl functionName="util_GetTime" lineNumber="468"/>
+    <functiondecl functionName="SystemTime" lineNumber="487"/>
+    <functiondecl functionName="MidiTime" lineNumber="605"/>
+    <functioncall functionName="Aligned"/>
+    <functioncall functionName="All"/>
+    <functioncall functionName="Audio"/>
+    <functioncall functionName="AudioIOExt"/>
+    <functioncall functionName="ConstTrackInterval"/>
+    <functioncall functionName="GetOwner"/>
+    <functioncall functionName="Here"/>
+    <functioncall functionName="Label"/>
+    <functioncall functionName="None"/>
+    <functioncall functionName="NotHere"/>
+    <functioncall functionName="Note"/>
+    <functioncall functionName="Pair"/>
+    <functioncall functionName="Playable"/>
+    <functioncall functionName="Rest"/>
+    <functioncall functionName="ShallowCopying"/>
+    <functioncall functionName="SharedPointer"/>
+    <functioncall functionName="Subclass"/>
+    <functioncall functionName="T"/>
+    <functioncall functionName="Time"/>
+    <functioncall functionName="Track"/>
+    <functioncall functionName="TrackAttachment"/>
+    <functioncall functionName="TrackInterval"/>
+    <functioncall functionName="TrackIntervalData"/>
+    <functioncall functionName="TrackKind"/>
+    <functioncall functionName="TrackList"/>
+    <functioncall functionName="TrackType"/>
+    <functioncall functionName="Wave"/>
+    <functioncall functionName="bool"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="function"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="id"/>
+    <functioncall functionName="is_const"/>
+    <functioncall functionName="is_pointer"/>
+    <functioncall functionName="list"/>
+    <functioncall functionName="lock"/>
+    <functioncall functionName="mValue"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="noexcept"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="pExtra"/>
+    <functioncall functionName="remove_pointer"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="shared_from_this"/>
+    <functioncall functionName="shared_ptr"/>
+    <functioncall functionName="start"/>
+    <functioncall functionName="static_cast"/>
+    <functioncall functionName="static_pointer_cast"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="typename"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="wxASSERT"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2537340242">
+  <FileInfo check="Class">
+<class name="Range" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PluginManager.h" line="257" col="4" hash="13667280385156949616"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="HasConfigGroup" lineNumber="14"/>
+    <functiondecl functionName="GetConfigSubgroups" lineNumber="23"/>
+    <functiondecl functionName="GetConfigValue" lineNumber="33"/>
+    <functiondecl functionName="SetConfigValue" lineNumber="43"/>
+    <functiondecl functionName="RemoveConfigSubgroup" lineNumber="53"/>
+    <functiondecl functionName="RemoveConfig" lineNumber="62"/>
+    <functioncall functionName="ComponentInterface"/>
+    <functioncall functionName="EffectDefinitionInterface"/>
+    <functioncall functionName="EffectTypeNone"/>
+    <functioncall functionName="FileConfig"/>
+    <functioncall functionName="Get"/>
+    <functioncall functionName="GetConfig"/>
+    <functioncall functionName="GetConfigSubgroups"/>
+    <functioncall functionName="GetConfigValue"/>
+    <functioncall functionName="GetID"/>
+    <functioncall functionName="HasConfigGroup"/>
+    <functioncall functionName="Iterator"/>
+    <functioncall functionName="PluginDescriptor"/>
+    <functioncall functionName="PluginID"/>
+    <functioncall functionName="PluginManager"/>
+    <functioncall functionName="PluginTypeNone"/>
+    <functioncall functionName="Private"/>
+    <functioncall functionName="RemoveConfig"/>
+    <functioncall functionName="RemoveConfigSubgroup"/>
+    <functioncall functionName="SetConfigValue"/>
+    <functioncall functionName="Shared"/>
+    <functioncall functionName="Types"/>
+    <functioncall functionName="Value"/>
+    <functioncall functionName="bool"/>
+    <functioncall functionName="conditional_t"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="cref"/>
+    <functioncall functionName="defval"/>
+    <functioncall functionName="double"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="float"/>
+    <functioncall functionName="group"/>
+    <functioncall functionName="id"/>
+    <functioncall functionName="ident"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="is_const"/>
+    <functioncall functionName="key"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="ref"/>
+    <functioncall functionName="reference_wrapper"/>
+    <functioncall functionName="second"/>
+    <functioncall functionName="static_cast"/>
+    <functioncall functionName="subgroups"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="type"/>
+    <functioncall functionName="typename"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="var"/>
+    <functioncall functionName="wxString"/>
+  </FileInfo>
+</analyzerinfo>

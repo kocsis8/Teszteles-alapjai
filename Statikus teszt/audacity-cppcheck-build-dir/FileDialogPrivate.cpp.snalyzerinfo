@@ -1,0 +1,33 @@
+FileDialogBase
+SetFileExtension
+ChangeExceptionPolicy
+RestoreExceptionPolicy
+ParentHook call:[GetWindowLongPtr,MSWParentHook] noreturn:[MSWParentHook]
+MSWParentHook call:[CallWindowProc,MSWOnGetMinMaxInfo,MSWOnSize] noreturn:[MSWOnGetMinMaxInfo,MSWOnSize]
+MSWOnSize call:[GetHeight,GetSize,GetWidth,SetHWND,SetSize,SetWindowPos,wxCopyRECTToRect,wxGetClientRect] noreturn:[SetHWND,SetSize]
+MSWOnGetMinMaxInfo
+DialogHook call:[GetWindowLongPtr,MSWDialogHook] noreturn:[MSWDialogHook]
+MSWOnInitDialog call:[Add,CreateUserPane,Fit,GetBestSize,GetHeight,GetParent,GetWidth,HasUserPaneCreator,Init,Layout,SetHWND,SetSizer,SetWindowLongPtr,SetWindowPos,wxBoxSizer,wxPanel] noreturn:[SetHWND,SetWindowPos]
+MSWOnInitDone global:[gs_rectDialog] call:[DoCentre,GetPosition,GetWindowRect,MSWOnTypeChange,SetHWND,SetPosition,wxRectFromRECT] noreturn:[DoCentre,SetHWND,SetPosition]
+MSWOnFolderChange call:[CommDlg_OpenSave_GetFolderPath,FilterFiles,GetEventHandler,GetId,GetParent,ProcessEvent,SetDirectory,WXSIZEOF,event] noreturn:[ProcessEvent]
+MSWOnSelChange call:[Add,Clear,CommDlg_OpenSave_GetFilePath,GetDlgItem,GetEventHandler,GetId,GetParent,ProcessEvent,SetDirectory,SetFiles,SetHWND,WXSIZEOF,event,wxFileNameFromPath,wxPathOnly] noreturn:[SetHWND]
+MSWOnTypeChange call:[FilterFiles,GetEventHandler,GetId,ParseFilter,ProcessEvent,SetFilterIndex,SetHWND,event] noreturn:[SetHWND]
+FilterFiles call:[Free,GetAttributesOf,GetCount,GetDisplayNameOf,GetDlgItem,Item,ListView_DeleteItem,ListView_GetItem,ListView_GetItemCount,Lower,QueryActiveShellView,QueryInterface,Refresh,Release,SHBindToParent,SHGetMalloc,SendMessage,wxASSERT,wxMatchWild,wxString,wxZeroMemory] noreturn:[Item,QueryInterface,Refresh,Release]
+ParseFilter call:[Add,Empty,GetNextToken,HasMoreTokens,Index,tokenWild,wxT] noreturn:[Add]
+FileDialog call:[Init] noreturn:[Init]
+FileDialog call:[Create,Init] noreturn:[Create]
+Init global:[gs_rectDialog]
+GetPaths call:[Add,Empty,GetCount,IsAbsolute,Last,dir,empty,wxFileName,wxT] noreturn:[Add,wxT]
+GetFilenames
+SetFileExtension call:[CommDlg_OpenSave_GetFilePath,CommDlg_OpenSave_SetControlText,CommDlg_OpenSave_SetDefExt,GetExt,GetFullName,SetExt,WXSIZEOF,fn,t_str] noreturn:[CommDlg_OpenSave_SetDefExt]
+DoGetPosition global:[gs_rectDialog]
+DoGetSize global:[gs_rectDialog]
+DoCentre
+DoShowCommFileDialog call:[CommDlgExtendedError,GetOpenFileName,GetSaveFileName] noreturn:[CommDlgExtendedError]
+ShowCommFileDialog global:[gs_ofStructSize,wxOPENFILENAME_V4_SIZE] call:[DoShowCommFileDialog,wxLogError,wxT] noreturn:[DoShowCommFileDialog,wxLogError]
+ShowModal call:[Add,AppendExtension,ChangeExceptionPolicy,Empty,GetChar,GetHWND,GetNextToken,GetTopWindow,HasExtraControlCreator,HasFdFlag,HasMoreTokens,Last,Len,Mid,ParseFilter,ShowCommFileDialog,StartsWith,WXSIZEOF,WX_HOOK_MODAL_DIALOG,c_str,dir,hgbl,hgblLock,length,reserve,sizeof,t_str,toke,wxASSERT_MSG,wxFileNameFromPath,wxGetCwd,wxON_BLOCK_EXIT0,wxParseCommonDialogsFilter,wxPathOnly,wxSetWorkingDirectory,wxStrlcpy,wxStrlen,wxT,wxZeroMemory] noreturn:[Add,GetHWND,c_str,wxPathOnly,wxSetWorkingDirectory,wxStrlcpy,wxT]
+Disabler call:[Register] noreturn:[Register]
+Init
+Enter call:[EnableWindow,IsChild]
+Exit call:[EnableWindow,IsChild,SetWindowPos] noreturn:[SetWindowPos]
+IsChild call:[GetParent]

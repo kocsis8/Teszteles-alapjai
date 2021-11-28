@@ -1,0 +1,15 @@
+HasDispatch
+GetName
+Providers call:[cbegin,cend,make_iterator_range] noreturn:[make_iterator_range]
+Init call:[RegisterProvider] noreturn:[RegisterProvider]
+Module
+Module
+ShowLoadFailureError call:[AudacityMessageBox,Format,GetName,XO,wxFileName,wxLogMessage,wxT] noreturn:[wxLogMessage]
+Load call:[AudacityMessageBox,Format,GetName,GetSymbol,IsLoaded,Load,Unload,XO,clear,mDispatch,versionFn,wxFileName,wxLogMessage,wxString,wxSysErrorMsg,wxT]
+Unload call:[IsLoaded,Unload,mDispatch] noreturn:[Unload,mDispatch]
+Dispatch call:[IsLoaded,mDispatch] noreturn:[mDispatch]
+GetSymbol call:[GetSymbol] noreturn:[GetSymbol]
+builtinModuleList
+RegisterProvider call:[builtinModuleList,push_back] noreturn:[push_back]
+UnregisterProvider call:[begin,builtinModuleList,end,erase,find] noreturn:[erase]
+operator() call:[Terminate]

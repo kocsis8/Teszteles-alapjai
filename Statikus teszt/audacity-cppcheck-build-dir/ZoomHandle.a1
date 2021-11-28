@@ -1,0 +1,265 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="383590733">
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/ZoomHandle.h:22:26" call-funcname="HitPreview" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/ZoomHandle.cpp" line="128" col="11" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/ZoomHandle.h:45:19" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="HitTestPreview" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/HitTestResult.h" line="19" col="1" hash="558950701565496408"/>
+<class name="TrackPanelMouseState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="27" col="1" hash="8623144472751191848"/>
+<class name="TrackPanelMouseEvent" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="45" col="1" hash="14240338354758594037"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/ZoomHandle.h:49:11" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/ZoomHandle.cpp" line="136" col="37" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/ZoomHandle.h:22:26" call-funcname="HitPreview" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/ZoomHandle.cpp" line="128" col="11" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/ZoomHandle.h:45:19" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="HitTestPreview" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/HitTestResult.h" line="19" col="1" hash="558950701565496408"/>
+<class name="TrackPanelMouseState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="27" col="1" hash="8623144472751191848"/>
+<class name="TrackPanelMouseEvent" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="45" col="1" hash="14240338354758594037"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/ZoomHandle.h:49:11" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/ZoomHandle.cpp" line="136" col="37" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/ZoomHandle.h:22:26" call-funcname="HitPreview" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/ZoomHandle.cpp" line="128" col="11" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/ZoomHandle.h:45:19" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="HitTestPreview" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/HitTestResult.h" line="19" col="1" hash="558950701565496408"/>
+<class name="TrackPanelMouseState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="27" col="1" hash="8623144472751191848"/>
+<class name="TrackPanelMouseEvent" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="45" col="1" hash="14240338354758594037"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/ZoomHandle.h:49:11" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/ZoomHandle.cpp" line="136" col="37" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/ZoomHandle.h:22:26" call-funcname="HitPreview" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/ZoomHandle.cpp" line="128" col="11" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/ZoomHandle.h:45:19" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="HitTestPreview" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/HitTestResult.h" line="19" col="1" hash="558950701565496408"/>
+<class name="TrackPanelMouseState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="27" col="1" hash="8623144472751191848"/>
+<class name="TrackPanelMouseEvent" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="45" col="1" hash="14240338354758594037"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/ZoomHandle.h:49:11" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/ZoomHandle.cpp" line="136" col="37" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/ZoomHandle.h:22:26" call-funcname="HitPreview" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/ZoomHandle.cpp" line="128" col="11" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/ZoomHandle.h:45:19" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="HitTestPreview" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/HitTestResult.h" line="19" col="1" hash="558950701565496408"/>
+<class name="TrackPanelMouseState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="27" col="1" hash="8623144472751191848"/>
+<class name="TrackPanelMouseEvent" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="45" col="1" hash="14240338354758594037"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/ZoomHandle.h:49:11" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/ZoomHandle.cpp" line="136" col="37" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/ZoomHandle.h:22:26" call-funcname="HitPreview" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/ZoomHandle.cpp" line="128" col="11" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/ZoomHandle.h:45:19" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="HitTestPreview" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/HitTestResult.h" line="19" col="1" hash="558950701565496408"/>
+<class name="TrackPanelMouseState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="27" col="1" hash="8623144472751191848"/>
+<class name="TrackPanelMouseEvent" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="45" col="1" hash="14240338354758594037"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/ZoomHandle.h:49:11" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/ZoomHandle.cpp" line="136" col="37" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/ZoomHandle.h:22:26" call-funcname="HitPreview" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/ZoomHandle.cpp" line="128" col="11" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/ZoomHandle.h:45:19" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="HitTestPreview" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/HitTestResult.h" line="19" col="1" hash="558950701565496408"/>
+<class name="TrackPanelMouseState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="27" col="1" hash="8623144472751191848"/>
+<class name="TrackPanelMouseEvent" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="45" col="1" hash="14240338354758594037"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/ZoomHandle.h:49:11" my-argnr="2" my-argname="pProject" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/ZoomHandle.cpp" line="136" col="37" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="HitAnywhere" lineNumber="64"/>
+    <functiondecl functionName="HitTest" lineNumber="72"/>
+    <functiondecl functionName="HandlesRightClick" lineNumber="86"/>
+    <functiondecl functionName="Click" lineNumber="91"/>
+    <functiondecl functionName="Drag" lineNumber="104"/>
+    <functiondecl functionName="Preview" lineNumber="125"/>
+    <functiondecl functionName="Release" lineNumber="131"/>
+    <functiondecl functionName="Cancel" lineNumber="186"/>
+    <functiondecl functionName="Draw" lineNumber="193"/>
+    <functiondecl functionName="DrawingArea" lineNumber="215"/>
+    <functiondecl functionName="IsDragZooming" lineNumber="225"/>
+    <functiondecl functionName="HitAnywhere" lineNumber="64"/>
+    <functiondecl functionName="HitTest" lineNumber="72"/>
+    <functiondecl functionName="HandlesRightClick" lineNumber="86"/>
+    <functiondecl functionName="Click" lineNumber="91"/>
+    <functiondecl functionName="Drag" lineNumber="104"/>
+    <functiondecl functionName="Preview" lineNumber="125"/>
+    <functiondecl functionName="Release" lineNumber="131"/>
+    <functiondecl functionName="Cancel" lineNumber="186"/>
+    <functiondecl functionName="Draw" lineNumber="193"/>
+    <functiondecl functionName="DrawingArea" lineNumber="215"/>
+    <functiondecl functionName="IsDragZooming" lineNumber="225"/>
+    <functiondecl functionName="HitAnywhere" lineNumber="64"/>
+    <functiondecl functionName="HitTest" lineNumber="72"/>
+    <functiondecl functionName="HandlesRightClick" lineNumber="86"/>
+    <functiondecl functionName="Click" lineNumber="91"/>
+    <functiondecl functionName="Drag" lineNumber="104"/>
+    <functiondecl functionName="Preview" lineNumber="125"/>
+    <functiondecl functionName="Release" lineNumber="131"/>
+    <functiondecl functionName="Cancel" lineNumber="186"/>
+    <functiondecl functionName="Draw" lineNumber="193"/>
+    <functiondecl functionName="DrawingArea" lineNumber="215"/>
+    <functiondecl functionName="IsDragZooming" lineNumber="225"/>
+    <functiondecl functionName="HitAnywhere" lineNumber="64"/>
+    <functiondecl functionName="HitTest" lineNumber="72"/>
+    <functiondecl functionName="HandlesRightClick" lineNumber="86"/>
+    <functiondecl functionName="Click" lineNumber="91"/>
+    <functiondecl functionName="Drag" lineNumber="104"/>
+    <functiondecl functionName="Preview" lineNumber="125"/>
+    <functiondecl functionName="Release" lineNumber="131"/>
+    <functiondecl functionName="Cancel" lineNumber="186"/>
+    <functiondecl functionName="Draw" lineNumber="193"/>
+    <functiondecl functionName="DrawingArea" lineNumber="215"/>
+    <functiondecl functionName="IsDragZooming" lineNumber="225"/>
+    <functiondecl functionName="HitAnywhere" lineNumber="64"/>
+    <functiondecl functionName="HitTest" lineNumber="72"/>
+    <functiondecl functionName="HandlesRightClick" lineNumber="86"/>
+    <functiondecl functionName="Click" lineNumber="91"/>
+    <functiondecl functionName="Drag" lineNumber="104"/>
+    <functiondecl functionName="Preview" lineNumber="125"/>
+    <functiondecl functionName="Release" lineNumber="131"/>
+    <functiondecl functionName="Cancel" lineNumber="186"/>
+    <functiondecl functionName="Draw" lineNumber="193"/>
+    <functiondecl functionName="DrawingArea" lineNumber="215"/>
+    <functiondecl functionName="IsDragZooming" lineNumber="225"/>
+    <functiondecl functionName="HitAnywhere" lineNumber="64"/>
+    <functiondecl functionName="HitTest" lineNumber="72"/>
+    <functiondecl functionName="HandlesRightClick" lineNumber="86"/>
+    <functiondecl functionName="Click" lineNumber="91"/>
+    <functiondecl functionName="Drag" lineNumber="104"/>
+    <functiondecl functionName="Preview" lineNumber="125"/>
+    <functiondecl functionName="Release" lineNumber="131"/>
+    <functiondecl functionName="Cancel" lineNumber="186"/>
+    <functiondecl functionName="Draw" lineNumber="193"/>
+    <functiondecl functionName="DrawingArea" lineNumber="215"/>
+    <functiondecl functionName="IsDragZooming" lineNumber="225"/>
+    <functiondecl functionName="HitAnywhere" lineNumber="64"/>
+    <functiondecl functionName="HitTest" lineNumber="72"/>
+    <functiondecl functionName="HandlesRightClick" lineNumber="86"/>
+    <functiondecl functionName="Click" lineNumber="91"/>
+    <functiondecl functionName="Drag" lineNumber="104"/>
+    <functiondecl functionName="Preview" lineNumber="125"/>
+    <functiondecl functionName="Release" lineNumber="131"/>
+    <functiondecl functionName="Cancel" lineNumber="186"/>
+    <functiondecl functionName="Draw" lineNumber="193"/>
+    <functiondecl functionName="DrawingArea" lineNumber="215"/>
+    <functiondecl functionName="IsDragZooming" lineNumber="225"/>
+    <functioncall functionName="AssignUIHandlePtr"/>
+    <functioncall functionName="ButtonDown"/>
+    <functioncall functionName="ButtonIsDown"/>
+    <functioncall functionName="CursorId"/>
+    <functioncall functionName="DrawRectangle"/>
+    <functioncall functionName="FixScrollbars"/>
+    <functioncall functionName="Get"/>
+    <functioncall functionName="GetDefaultZoom"/>
+    <functioncall functionName="GetLeft"/>
+    <functioncall functionName="GetRight"/>
+    <functioncall functionName="HitAnywhere"/>
+    <functioncall functionName="HitPreview"/>
+    <functioncall functionName="HitTestPreview"/>
+    <functioncall functionName="IsDragZooming"/>
+    <functioncall functionName="LeftDClick"/>
+    <functioncall functionName="MakeCursor"/>
+    <functioncall functionName="MaximizeHeight"/>
+    <functioncall functionName="MiddleDClick"/>
+    <functioncall functionName="MiddleUp"/>
+    <functioncall functionName="NPasses"/>
+    <functioncall functionName="NeedChangeHighlight"/>
+    <functioncall functionName="PassBackground"/>
+    <functioncall functionName="PassBorders"/>
+    <functioncall functionName="PassControls"/>
+    <functioncall functionName="PassFocus"/>
+    <functioncall functionName="PassMargins"/>
+    <functioncall functionName="PassSnapping"/>
+    <functioncall functionName="PassTracks"/>
+    <functioncall functionName="PassZooming"/>
+    <functioncall functionName="PositionToTime"/>
+    <functioncall functionName="RightDClick"/>
+    <functioncall functionName="RightUp"/>
+    <functioncall functionName="SetBrush"/>
+    <functioncall functionName="SetChangeHighlight"/>
+    <functioncall functionName="SetPen"/>
+    <functioncall functionName="SetZoom"/>
+    <functioncall functionName="ShiftDown"/>
+    <functioncall functionName="Subclass"/>
+    <functioncall functionName="TrackArtist"/>
+    <functioncall functionName="TrackPanelCell"/>
+    <functioncall functionName="TrackPanelDrawingContext"/>
+    <functioncall functionName="TrackPanelMouseEvent"/>
+    <functioncall functionName="TrackPanelMouseState"/>
+    <functioncall functionName="UIHandle"/>
+    <functioncall functionName="XO"/>
+    <functioncall functionName="ZoomBy"/>
+    <functioncall functionName="ZoomHandle"/>
+    <functioncall functionName="ZoomInCursorXpm"/>
+    <functioncall functionName="ZoomOutCursorXpm"/>
+    <functioncall functionName="abs"/>
+    <functioncall functionName="code"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="cursor_"/>
+    <functioncall functionName="dc"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="delete"/>
+    <functioncall functionName="event"/>
+    <functioncall functionName="event_"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="height"/>
+    <functioncall functionName="holder"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="left"/>
+    <functioncall functionName="lock"/>
+    <functioncall functionName="mZoomEnd"/>
+    <functioncall functionName="mZoomStart"/>
+    <functioncall functionName="m_x"/>
+    <functioncall functionName="make_shared"/>
+    <functioncall functionName="message"/>
+    <functioncall functionName="message_"/>
+    <functioncall functionName="min"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="multiplier"/>
+    <functioncall functionName="new_center_h"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="pCell_"/>
+    <functioncall functionName="pNew"/>
+    <functioncall functionName="pProject"/>
+    <functioncall functionName="panelRect"/>
+    <functioncall functionName="ptr"/>
+    <functioncall functionName="rect"/>
+    <functioncall functionName="rect_"/>
+    <functioncall functionName="result"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="right"/>
+    <functioncall functionName="selectedBrushIn"/>
+    <functioncall functionName="selectedPenIn"/>
+    <functioncall functionName="state"/>
+    <functioncall functionName="state_"/>
+    <functioncall functionName="swap"/>
+    <functioncall functionName="tooltip_"/>
+    <functioncall functionName="trackLeftEdge"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="typeid"/>
+    <functioncall functionName="typename"/>
+    <functioncall functionName="unselectedBrushIn"/>
+    <functioncall functionName="unselectedPenIn"/>
+    <functioncall functionName="val"/>
+    <functioncall functionName="whole_"/>
+    <functioncall functionName="width"/>
+    <functioncall functionName="wxASSERT"/>
+    <functioncall functionName="wxCURSOR_MAGNIFIER"/>
+    <functioncall functionName="wxCursor"/>
+    <functioncall functionName="wxMOUSE_BTN_RIGHT"/>
+    <functioncall functionName="x"/>
+    <functioncall functionName="y"/>
+  </FileInfo>
+</analyzerinfo>

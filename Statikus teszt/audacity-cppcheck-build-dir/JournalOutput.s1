@@ -1,0 +1,7 @@
+FlushingTextFile call:[Close,IsOpened,Write] noreturn:[Close]
+IsRecording call:[IsOpened] noreturn:[IsOpened]
+OpenOut call:[Clear,Create,IsOpened,Open] noreturn:[Clear,IsOpened,Open]
+Output call:[AddLine,IsRecording] noreturn:[AddLine]
+Output call:[IsRecording,Output,wxJoin] noreturn:[Output]
+Output call:[Output,wxArrayStringEx] noreturn:[Output]
+Comment call:[AddLine,IsRecording] noreturn:[AddLine]

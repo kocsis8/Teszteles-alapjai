@@ -1,0 +1,783 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3844190205">
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;CommandFlagOptions&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;CommandFlagOptions&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/CommonCommandFlags.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandFlag.h" line="45" column="4"/>
+            <symbol>CommandFlagOptions</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;ReservedCommandFlag&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;ReservedCommandFlag&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/CommonCommandFlags.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandFlag.h" line="92" column="4"/>
+            <symbol>ReservedCommandFlag</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;RegisteredMenuItemEnabler&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;RegisteredMenuItemEnabler&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/CommonCommandFlags.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandFlag.h" line="120" column="4"/>
+            <symbol>RegisteredMenuItemEnabler</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;AudioTrack&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;AudioTrack&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/CommonCommandFlags.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.h" line="828" column="4"/>
+            <symbol>AudioTrack</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;PlayableTrack&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;PlayableTrack&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/CommonCommandFlags.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.h" line="844" column="4"/>
+            <symbol>PlayableTrack</symbol>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;pTrack&apos; is always true" verbose="Condition &apos;pTrack&apos; is always true" cwe="571" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/CommonCommandFlags.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.h" line="1533" column="14" info="Condition &apos;pTrack&apos; is always true"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\Track.h" line="1531" column="11" info="Assuming that condition &apos;pTrack&apos; is not redundant"/>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;project&apos; can be declared with const" verbose="Parameter &apos;project&apos; can be declared with const" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/CommonCommandFlags.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\ProjectHistory.h" line="27" column="46" info="Parameter &apos;project&apos; can be declared with const"/>
+            <symbol>project</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:282:9" call-funcname="Get" call-argnr="7" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="273" col="14" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:268:9" my-argnr="6"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="MenuItemEnabler" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandFlag.h" line="107" col="1" hash="14159699270193996497"/>
+<class name="PlaybackSlice" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="152" col="1" hash="14623948474922064696"/>
+<class name="PlaybackPolicy::BufferTimes" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="189" col="4" hash="6869806206435311657"/>
+<class name="PlaybackSchedule::TimeQueue::Record" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="339" col="7" hash="17071854924768020548"/>
+<class name="PlaybackSchedule::TimeQueue::Cursor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="346" col="7" hash="363912267004430114"/>
+<class name="PlaybackSchedule::SlotData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="359" col="4" hash="6524779715981219363"/>
+<class name="TransportTracks" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/AudioIO.h" line="64" col="1" hash="7222878493021850004"/>
+<class name="AudioIoCallback::AudioIOExtRange" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/AudioIO.h" line="148" col="4" hash="14891609901034063357"/>
+<class name="AttachedWindows" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ProjectWindows.h" line="53" col="1" hash="18411720420297200147"/>
+<class name="UndoState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/UndoManager.h" line="85" col="1" hash="8162956204608726773"/>
+<class name="UndoStackElem" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/UndoManager.h" line="97" col="1" hash="14014615962576270383"/>
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="5167538683968534466"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="15595265175915570156"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="4979500846819457084"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="2922410761864812961"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="WaveTrackLocation" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrackLocation.h" line="14" col="1" hash="10844060293331271860"/>
+<class name="Region" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="51" col="1" hash="3281768878266710402"/>
+<class name="AllClipsConstIterator" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="424" col="4" hash="13076878187049790394"/>
+<class name="IntervalData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="564" col="4" hash="5396339101326163512"/>
+<class name="WaveTrackCache::Buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="667" col="4" hash="8125126311285820659"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+<class name="MessageBuffer &lt; SlotData &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="34" col="1" hash="7850143017975623980"/>
+<class name="MessageBuffer &lt; SlotData &gt;::UpdateSlot" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="35" col="4" hash="1107823842534995714"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+        <error id="cppcheckError" severity="error" msg="Internal error. Token::linkAt called with index outside the tokens range." verbose="Internal error. Token::linkAt called with index outside the tokens range." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/CommonCommandFlags.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\CommonCommandFlags.cpp" line="0" column="0"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:282:9" call-funcname="Get" call-argnr="7" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="273" col="14" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:268:9" my-argnr="6"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="MenuItemEnabler" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandFlag.h" line="107" col="1" hash="14159699270193996497"/>
+<class name="PlaybackSlice" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="152" col="1" hash="14623948474922064696"/>
+<class name="PlaybackPolicy::BufferTimes" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="189" col="4" hash="6869806206435311657"/>
+<class name="PlaybackSchedule::TimeQueue::Record" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="339" col="7" hash="17071854924768020548"/>
+<class name="PlaybackSchedule::TimeQueue::Cursor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="346" col="7" hash="363912267004430114"/>
+<class name="PlaybackSchedule::SlotData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="359" col="4" hash="6524779715981219363"/>
+<class name="TransportTracks" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/AudioIO.h" line="64" col="1" hash="7222878493021850004"/>
+<class name="AudioIoCallback::AudioIOExtRange" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/AudioIO.h" line="148" col="4" hash="14891609901034063357"/>
+<class name="AttachedWindows" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ProjectWindows.h" line="53" col="1" hash="18411720420297200147"/>
+<class name="UndoState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/UndoManager.h" line="85" col="1" hash="8162956204608726773"/>
+<class name="UndoStackElem" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/UndoManager.h" line="97" col="1" hash="14014615962576270383"/>
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="5167538683968534466"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="15595265175915570156"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="4979500846819457084"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="2922410761864812961"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="WaveTrackLocation" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrackLocation.h" line="14" col="1" hash="10844060293331271860"/>
+<class name="Region" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="51" col="1" hash="3281768878266710402"/>
+<class name="AllClipsConstIterator" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="424" col="4" hash="13076878187049790394"/>
+<class name="IntervalData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="564" col="4" hash="5396339101326163512"/>
+<class name="WaveTrackCache::Buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="667" col="4" hash="8125126311285820659"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+<class name="MessageBuffer &lt; SlotData &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="34" col="1" hash="7850143017975623980"/>
+<class name="MessageBuffer &lt; SlotData &gt;::UpdateSlot" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="35" col="4" hash="1107823842534995714"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:282:9" call-funcname="Get" call-argnr="7" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="273" col="14" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:268:9" my-argnr="6"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="MenuItemEnabler" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandFlag.h" line="107" col="1" hash="14159699270193996497"/>
+<class name="PlaybackSlice" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="152" col="1" hash="14623948474922064696"/>
+<class name="PlaybackPolicy::BufferTimes" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="189" col="4" hash="6869806206435311657"/>
+<class name="PlaybackSchedule::TimeQueue::Record" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="339" col="7" hash="17071854924768020548"/>
+<class name="PlaybackSchedule::TimeQueue::Cursor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="346" col="7" hash="363912267004430114"/>
+<class name="PlaybackSchedule::SlotData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="359" col="4" hash="6524779715981219363"/>
+<class name="TransportTracks" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/AudioIO.h" line="64" col="1" hash="7222878493021850004"/>
+<class name="AudioIoCallback::AudioIOExtRange" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/AudioIO.h" line="148" col="4" hash="14891609901034063357"/>
+<class name="AttachedWindows" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ProjectWindows.h" line="53" col="1" hash="18411720420297200147"/>
+<class name="UndoState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/UndoManager.h" line="85" col="1" hash="8162956204608726773"/>
+<class name="UndoStackElem" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/UndoManager.h" line="97" col="1" hash="14014615962576270383"/>
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="5167538683968534466"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="15595265175915570156"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="4979500846819457084"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="2922410761864812961"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="WaveTrackLocation" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrackLocation.h" line="14" col="1" hash="10844060293331271860"/>
+<class name="Region" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="51" col="1" hash="3281768878266710402"/>
+<class name="AllClipsConstIterator" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="424" col="4" hash="13076878187049790394"/>
+<class name="IntervalData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="564" col="4" hash="5396339101326163512"/>
+<class name="WaveTrackCache::Buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="667" col="4" hash="8125126311285820659"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+<class name="MessageBuffer &lt; SlotData &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="34" col="1" hash="7850143017975623980"/>
+<class name="MessageBuffer &lt; SlotData &gt;::UpdateSlot" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="35" col="4" hash="1107823842534995714"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:282:9" call-funcname="Get" call-argnr="7" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="273" col="14" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:268:9" my-argnr="6"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="MenuItemEnabler" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandFlag.h" line="107" col="1" hash="14159699270193996497"/>
+<class name="PlaybackSlice" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="152" col="1" hash="14623948474922064696"/>
+<class name="PlaybackPolicy::BufferTimes" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="189" col="4" hash="6869806206435311657"/>
+<class name="PlaybackSchedule::TimeQueue::Record" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="339" col="7" hash="17071854924768020548"/>
+<class name="PlaybackSchedule::TimeQueue::Cursor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="346" col="7" hash="363912267004430114"/>
+<class name="PlaybackSchedule::SlotData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="359" col="4" hash="6524779715981219363"/>
+<class name="TransportTracks" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/AudioIO.h" line="64" col="1" hash="7222878493021850004"/>
+<class name="AudioIoCallback::AudioIOExtRange" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/AudioIO.h" line="148" col="4" hash="14891609901034063357"/>
+<class name="AttachedWindows" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ProjectWindows.h" line="53" col="1" hash="18411720420297200147"/>
+<class name="UndoState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/UndoManager.h" line="85" col="1" hash="8162956204608726773"/>
+<class name="UndoStackElem" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/UndoManager.h" line="97" col="1" hash="14014615962576270383"/>
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="5167538683968534466"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="15595265175915570156"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="4979500846819457084"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="2922410761864812961"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="WaveTrackLocation" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrackLocation.h" line="14" col="1" hash="10844060293331271860"/>
+<class name="Region" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="51" col="1" hash="3281768878266710402"/>
+<class name="AllClipsConstIterator" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="424" col="4" hash="13076878187049790394"/>
+<class name="IntervalData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="564" col="4" hash="5396339101326163512"/>
+<class name="WaveTrackCache::Buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="667" col="4" hash="8125126311285820659"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+<class name="MessageBuffer &lt; SlotData &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="34" col="1" hash="7850143017975623980"/>
+<class name="MessageBuffer &lt; SlotData &gt;::UpdateSlot" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="35" col="4" hash="1107823842534995714"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:282:9" call-funcname="Get" call-argnr="7" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="273" col="14" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:268:9" my-argnr="6"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="MenuItemEnabler" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandFlag.h" line="107" col="1" hash="14159699270193996497"/>
+<class name="PlaybackSlice" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="152" col="1" hash="14623948474922064696"/>
+<class name="PlaybackPolicy::BufferTimes" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="189" col="4" hash="6869806206435311657"/>
+<class name="PlaybackSchedule::TimeQueue::Record" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="339" col="7" hash="17071854924768020548"/>
+<class name="PlaybackSchedule::TimeQueue::Cursor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="346" col="7" hash="363912267004430114"/>
+<class name="PlaybackSchedule::SlotData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="359" col="4" hash="6524779715981219363"/>
+<class name="TransportTracks" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/AudioIO.h" line="64" col="1" hash="7222878493021850004"/>
+<class name="AudioIoCallback::AudioIOExtRange" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/AudioIO.h" line="148" col="4" hash="14891609901034063357"/>
+<class name="AttachedWindows" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ProjectWindows.h" line="53" col="1" hash="18411720420297200147"/>
+<class name="UndoState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/UndoManager.h" line="85" col="1" hash="8162956204608726773"/>
+<class name="UndoStackElem" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/UndoManager.h" line="97" col="1" hash="14014615962576270383"/>
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="5167538683968534466"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="15595265175915570156"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="4979500846819457084"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="2922410761864812961"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="WaveTrackLocation" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrackLocation.h" line="14" col="1" hash="10844060293331271860"/>
+<class name="Region" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="51" col="1" hash="3281768878266710402"/>
+<class name="AllClipsConstIterator" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="424" col="4" hash="13076878187049790394"/>
+<class name="IntervalData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="564" col="4" hash="5396339101326163512"/>
+<class name="WaveTrackCache::Buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="667" col="4" hash="8125126311285820659"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+<class name="MessageBuffer &lt; SlotData &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="34" col="1" hash="7850143017975623980"/>
+<class name="MessageBuffer &lt; SlotData &gt;::UpdateSlot" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="35" col="4" hash="1107823842534995714"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:282:9" call-funcname="Get" call-argnr="7" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="273" col="14" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:268:9" my-argnr="6"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="MenuItemEnabler" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandFlag.h" line="107" col="1" hash="14159699270193996497"/>
+<class name="PlaybackSlice" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="152" col="1" hash="14623948474922064696"/>
+<class name="PlaybackPolicy::BufferTimes" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="189" col="4" hash="6869806206435311657"/>
+<class name="PlaybackSchedule::TimeQueue::Record" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="339" col="7" hash="17071854924768020548"/>
+<class name="PlaybackSchedule::TimeQueue::Cursor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="346" col="7" hash="363912267004430114"/>
+<class name="PlaybackSchedule::SlotData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="359" col="4" hash="6524779715981219363"/>
+<class name="TransportTracks" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/AudioIO.h" line="64" col="1" hash="7222878493021850004"/>
+<class name="AudioIoCallback::AudioIOExtRange" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/AudioIO.h" line="148" col="4" hash="14891609901034063357"/>
+<class name="AttachedWindows" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ProjectWindows.h" line="53" col="1" hash="18411720420297200147"/>
+<class name="UndoState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/UndoManager.h" line="85" col="1" hash="8162956204608726773"/>
+<class name="UndoStackElem" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/UndoManager.h" line="97" col="1" hash="14014615962576270383"/>
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="5167538683968534466"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="15595265175915570156"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="4979500846819457084"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="2922410761864812961"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="WaveTrackLocation" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrackLocation.h" line="14" col="1" hash="10844060293331271860"/>
+<class name="Region" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="51" col="1" hash="3281768878266710402"/>
+<class name="AllClipsConstIterator" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="424" col="4" hash="13076878187049790394"/>
+<class name="IntervalData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="564" col="4" hash="5396339101326163512"/>
+<class name="WaveTrackCache::Buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="667" col="4" hash="8125126311285820659"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+<class name="MessageBuffer &lt; SlotData &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="34" col="1" hash="7850143017975623980"/>
+<class name="MessageBuffer &lt; SlotData &gt;::UpdateSlot" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="35" col="4" hash="1107823842534995714"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1518:9" call-funcname="MoveUp" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1520" col="48" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1520:9" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:282:9" call-funcname="Get" call-argnr="7" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="273" col="14" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h:268:9" my-argnr="6"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="MenuItemEnabler" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandFlag.h" line="107" col="1" hash="14159699270193996497"/>
+<class name="PlaybackSlice" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="152" col="1" hash="14623948474922064696"/>
+<class name="PlaybackPolicy::BufferTimes" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="189" col="4" hash="6869806206435311657"/>
+<class name="PlaybackSchedule::TimeQueue::Record" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="339" col="7" hash="17071854924768020548"/>
+<class name="PlaybackSchedule::TimeQueue::Cursor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="346" col="7" hash="363912267004430114"/>
+<class name="PlaybackSchedule::SlotData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="359" col="4" hash="6524779715981219363"/>
+<class name="TransportTracks" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/AudioIO.h" line="64" col="1" hash="7222878493021850004"/>
+<class name="AudioIoCallback::AudioIOExtRange" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/AudioIO.h" line="148" col="4" hash="14891609901034063357"/>
+<class name="AttachedWindows" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ProjectWindows.h" line="53" col="1" hash="18411720420297200147"/>
+<class name="UndoState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/UndoManager.h" line="85" col="1" hash="8162956204608726773"/>
+<class name="UndoStackElem" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/UndoManager.h" line="97" col="1" hash="14014615962576270383"/>
+<class name="TrackId" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="166" col="1" hash="9607564500917874735"/>
+<class name="Track::Executor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="665" col="4" hash="8792375696747302586"/>
+<class name="Track::Dispatcher" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="503" col="4" hash="5167538683968534466"/>
+<class name="Track::Dispatcher::inapplicable" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="507" col="7" hash="15595265175915570156"/>
+<class name="Track::Dispatcher::applicable1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="524" col="7" hash="4979500846819457084"/>
+<class name="Track::Dispatcher::applicable2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="539" col="7" hash="2922410761864812961"/>
+<class name="AudioTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="823" col="1" hash="11696899996000881273"/>
+<class name="WaveTrackLocation" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrackLocation.h" line="14" col="1" hash="10844060293331271860"/>
+<class name="Region" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="51" col="1" hash="3281768878266710402"/>
+<class name="AllClipsConstIterator" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="424" col="4" hash="13076878187049790394"/>
+<class name="IntervalData" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="564" col="4" hash="5396339101326163512"/>
+<class name="WaveTrackCache::Buffer" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveTrack.h" line="667" col="4" hash="8125126311285820659"/>
+<class name="TrackIterRange &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="18338545591825286181"/>
+<class name="TrackIterRange &lt; const Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1085" col="3" hash="3439504951188748271"/>
+<class name="TrackIter &lt; Track &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="917" col="3" hash="6904405799865531723"/>
+<class name="MessageBuffer &lt; SlotData &gt;" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="34" col="1" hash="7850143017975623980"/>
+<class name="MessageBuffer &lt; SlotData &gt;::UpdateSlot" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PlaybackSchedule.h" line="35" col="4" hash="1107823842534995714"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1425:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1428" col="14" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1470:19" my-argnr="1" my-argname="pTrack" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1473" col="36" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1116:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1118" col="46" value="0"/>
+    <unsafe-usage my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h:1135:22" my-argnr="1" my-argname="pmf" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/Track.h" line="1137" col="57" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="EditableTracksSelectedPred" lineNumber="45"/>
+    <functiondecl functionName="AnyTracksSelectedPred" lineNumber="54"/>
+    <functiondecl functionName="AudioIOBusyPred" lineNumber="60"/>
+    <functiondecl functionName="TimeSelectedPred" lineNumber="66"/>
+    <functiondecl functionName="cutCopyOptions" lineNumber="73"/>
+    <functiondecl functionName="AudioIONotBusyFlag" lineNumber="127"/>
+    <functiondecl functionName="StereoRequiredFlag" lineNumber="139"/>
+    <functiondecl functionName="NoiseReductionTimeSelectedFlag" lineNumber="154"/>
+    <functiondecl functionName="TimeSelectedFlag" lineNumber="159"/>
+    <functiondecl functionName="WaveTracksSelectedFlag" lineNumber="164"/>
+    <functiondecl functionName="TracksExistFlag" lineNumber="173"/>
+    <functiondecl functionName="EditableTracksSelectedFlag" lineNumber="180"/>
+    <functiondecl functionName="AnyTracksSelectedFlag" lineNumber="188"/>
+    <functiondecl functionName="TrackPanelHasFocus" lineNumber="196"/>
+    <functiondecl functionName="AudioIOBusyFlag" lineNumber="208"/>
+    <functiondecl functionName="CaptureNotBusyFlag" lineNumber="213"/>
+    <functiondecl functionName="LabelTracksExistFlag" lineNumber="224"/>
+    <functiondecl functionName="UnsavedChangesFlag" lineNumber="230"/>
+    <functiondecl functionName="UndoAvailableFlag" lineNumber="241"/>
+    <functiondecl functionName="RedoAvailableFlag" lineNumber="247"/>
+    <functiondecl functionName="ZoomInAvailableFlag" lineNumber="253"/>
+    <functiondecl functionName="ZoomOutAvailableFlag" lineNumber="263"/>
+    <functiondecl functionName="WaveTracksExistFlag" lineNumber="273"/>
+    <functiondecl functionName="IsNotSyncLockedFlag" lineNumber="279"/>
+    <functiondecl functionName="IsSyncLockedFlag" lineNumber="285"/>
+    <functiondecl functionName="NotMinimizedFlag" lineNumber="291"/>
+    <functiondecl functionName="PausedFlag" lineNumber="305"/>
+    <functiondecl functionName="NoAutoSelect" lineNumber="312"/>
+    <functiondecl functionName="EditableTracksSelectedPred" lineNumber="45"/>
+    <functiondecl functionName="AnyTracksSelectedPred" lineNumber="54"/>
+    <functiondecl functionName="AudioIOBusyPred" lineNumber="60"/>
+    <functiondecl functionName="TimeSelectedPred" lineNumber="66"/>
+    <functiondecl functionName="cutCopyOptions" lineNumber="73"/>
+    <functiondecl functionName="AudioIONotBusyFlag" lineNumber="127"/>
+    <functiondecl functionName="StereoRequiredFlag" lineNumber="139"/>
+    <functiondecl functionName="NoiseReductionTimeSelectedFlag" lineNumber="154"/>
+    <functiondecl functionName="TimeSelectedFlag" lineNumber="159"/>
+    <functiondecl functionName="WaveTracksSelectedFlag" lineNumber="164"/>
+    <functiondecl functionName="TracksExistFlag" lineNumber="173"/>
+    <functiondecl functionName="EditableTracksSelectedFlag" lineNumber="180"/>
+    <functiondecl functionName="AnyTracksSelectedFlag" lineNumber="188"/>
+    <functiondecl functionName="TrackPanelHasFocus" lineNumber="196"/>
+    <functiondecl functionName="AudioIOBusyFlag" lineNumber="208"/>
+    <functiondecl functionName="CaptureNotBusyFlag" lineNumber="213"/>
+    <functiondecl functionName="LabelTracksExistFlag" lineNumber="224"/>
+    <functiondecl functionName="UnsavedChangesFlag" lineNumber="230"/>
+    <functiondecl functionName="UndoAvailableFlag" lineNumber="241"/>
+    <functiondecl functionName="RedoAvailableFlag" lineNumber="247"/>
+    <functiondecl functionName="ZoomInAvailableFlag" lineNumber="253"/>
+    <functiondecl functionName="ZoomOutAvailableFlag" lineNumber="263"/>
+    <functiondecl functionName="WaveTracksExistFlag" lineNumber="273"/>
+    <functiondecl functionName="IsNotSyncLockedFlag" lineNumber="279"/>
+    <functiondecl functionName="IsSyncLockedFlag" lineNumber="285"/>
+    <functiondecl functionName="NotMinimizedFlag" lineNumber="291"/>
+    <functiondecl functionName="PausedFlag" lineNumber="305"/>
+    <functiondecl functionName="NoAutoSelect" lineNumber="312"/>
+    <functiondecl functionName="EditableTracksSelectedPred" lineNumber="45"/>
+    <functiondecl functionName="AnyTracksSelectedPred" lineNumber="54"/>
+    <functiondecl functionName="AudioIOBusyPred" lineNumber="60"/>
+    <functiondecl functionName="TimeSelectedPred" lineNumber="66"/>
+    <functiondecl functionName="cutCopyOptions" lineNumber="73"/>
+    <functiondecl functionName="AudioIONotBusyFlag" lineNumber="127"/>
+    <functiondecl functionName="StereoRequiredFlag" lineNumber="139"/>
+    <functiondecl functionName="NoiseReductionTimeSelectedFlag" lineNumber="154"/>
+    <functiondecl functionName="TimeSelectedFlag" lineNumber="159"/>
+    <functiondecl functionName="WaveTracksSelectedFlag" lineNumber="164"/>
+    <functiondecl functionName="TracksExistFlag" lineNumber="173"/>
+    <functiondecl functionName="EditableTracksSelectedFlag" lineNumber="180"/>
+    <functiondecl functionName="AnyTracksSelectedFlag" lineNumber="188"/>
+    <functiondecl functionName="TrackPanelHasFocus" lineNumber="196"/>
+    <functiondecl functionName="AudioIOBusyFlag" lineNumber="208"/>
+    <functiondecl functionName="CaptureNotBusyFlag" lineNumber="213"/>
+    <functiondecl functionName="LabelTracksExistFlag" lineNumber="224"/>
+    <functiondecl functionName="UnsavedChangesFlag" lineNumber="230"/>
+    <functiondecl functionName="UndoAvailableFlag" lineNumber="241"/>
+    <functiondecl functionName="RedoAvailableFlag" lineNumber="247"/>
+    <functiondecl functionName="ZoomInAvailableFlag" lineNumber="253"/>
+    <functiondecl functionName="ZoomOutAvailableFlag" lineNumber="263"/>
+    <functiondecl functionName="WaveTracksExistFlag" lineNumber="273"/>
+    <functiondecl functionName="IsNotSyncLockedFlag" lineNumber="279"/>
+    <functiondecl functionName="IsSyncLockedFlag" lineNumber="285"/>
+    <functiondecl functionName="NotMinimizedFlag" lineNumber="291"/>
+    <functiondecl functionName="PausedFlag" lineNumber="305"/>
+    <functiondecl functionName="NoAutoSelect" lineNumber="312"/>
+    <functiondecl functionName="EditableTracksSelectedPred" lineNumber="45"/>
+    <functiondecl functionName="AnyTracksSelectedPred" lineNumber="54"/>
+    <functiondecl functionName="AudioIOBusyPred" lineNumber="60"/>
+    <functiondecl functionName="TimeSelectedPred" lineNumber="66"/>
+    <functiondecl functionName="cutCopyOptions" lineNumber="73"/>
+    <functiondecl functionName="AudioIONotBusyFlag" lineNumber="127"/>
+    <functiondecl functionName="StereoRequiredFlag" lineNumber="139"/>
+    <functiondecl functionName="NoiseReductionTimeSelectedFlag" lineNumber="154"/>
+    <functiondecl functionName="TimeSelectedFlag" lineNumber="159"/>
+    <functiondecl functionName="WaveTracksSelectedFlag" lineNumber="164"/>
+    <functiondecl functionName="TracksExistFlag" lineNumber="173"/>
+    <functiondecl functionName="EditableTracksSelectedFlag" lineNumber="180"/>
+    <functiondecl functionName="AnyTracksSelectedFlag" lineNumber="188"/>
+    <functiondecl functionName="TrackPanelHasFocus" lineNumber="196"/>
+    <functiondecl functionName="AudioIOBusyFlag" lineNumber="208"/>
+    <functiondecl functionName="CaptureNotBusyFlag" lineNumber="213"/>
+    <functiondecl functionName="LabelTracksExistFlag" lineNumber="224"/>
+    <functiondecl functionName="UnsavedChangesFlag" lineNumber="230"/>
+    <functiondecl functionName="UndoAvailableFlag" lineNumber="241"/>
+    <functiondecl functionName="RedoAvailableFlag" lineNumber="247"/>
+    <functiondecl functionName="ZoomInAvailableFlag" lineNumber="253"/>
+    <functiondecl functionName="ZoomOutAvailableFlag" lineNumber="263"/>
+    <functiondecl functionName="WaveTracksExistFlag" lineNumber="273"/>
+    <functiondecl functionName="IsNotSyncLockedFlag" lineNumber="279"/>
+    <functiondecl functionName="IsSyncLockedFlag" lineNumber="285"/>
+    <functiondecl functionName="NotMinimizedFlag" lineNumber="291"/>
+    <functiondecl functionName="PausedFlag" lineNumber="305"/>
+    <functiondecl functionName="NoAutoSelect" lineNumber="312"/>
+    <functiondecl functionName="EditableTracksSelectedPred" lineNumber="45"/>
+    <functiondecl functionName="AnyTracksSelectedPred" lineNumber="54"/>
+    <functiondecl functionName="AudioIOBusyPred" lineNumber="60"/>
+    <functiondecl functionName="TimeSelectedPred" lineNumber="66"/>
+    <functiondecl functionName="cutCopyOptions" lineNumber="73"/>
+    <functiondecl functionName="AudioIONotBusyFlag" lineNumber="127"/>
+    <functiondecl functionName="StereoRequiredFlag" lineNumber="139"/>
+    <functiondecl functionName="NoiseReductionTimeSelectedFlag" lineNumber="154"/>
+    <functiondecl functionName="TimeSelectedFlag" lineNumber="159"/>
+    <functiondecl functionName="WaveTracksSelectedFlag" lineNumber="164"/>
+    <functiondecl functionName="TracksExistFlag" lineNumber="173"/>
+    <functiondecl functionName="EditableTracksSelectedFlag" lineNumber="180"/>
+    <functiondecl functionName="AnyTracksSelectedFlag" lineNumber="188"/>
+    <functiondecl functionName="TrackPanelHasFocus" lineNumber="196"/>
+    <functiondecl functionName="AudioIOBusyFlag" lineNumber="208"/>
+    <functiondecl functionName="CaptureNotBusyFlag" lineNumber="213"/>
+    <functiondecl functionName="LabelTracksExistFlag" lineNumber="224"/>
+    <functiondecl functionName="UnsavedChangesFlag" lineNumber="230"/>
+    <functiondecl functionName="UndoAvailableFlag" lineNumber="241"/>
+    <functiondecl functionName="RedoAvailableFlag" lineNumber="247"/>
+    <functiondecl functionName="ZoomInAvailableFlag" lineNumber="253"/>
+    <functiondecl functionName="ZoomOutAvailableFlag" lineNumber="263"/>
+    <functiondecl functionName="WaveTracksExistFlag" lineNumber="273"/>
+    <functiondecl functionName="IsNotSyncLockedFlag" lineNumber="279"/>
+    <functiondecl functionName="IsSyncLockedFlag" lineNumber="285"/>
+    <functiondecl functionName="NotMinimizedFlag" lineNumber="291"/>
+    <functiondecl functionName="PausedFlag" lineNumber="305"/>
+    <functiondecl functionName="NoAutoSelect" lineNumber="312"/>
+    <functiondecl functionName="EditableTracksSelectedPred" lineNumber="45"/>
+    <functiondecl functionName="AnyTracksSelectedPred" lineNumber="54"/>
+    <functiondecl functionName="AudioIOBusyPred" lineNumber="60"/>
+    <functiondecl functionName="TimeSelectedPred" lineNumber="66"/>
+    <functiondecl functionName="cutCopyOptions" lineNumber="73"/>
+    <functiondecl functionName="AudioIONotBusyFlag" lineNumber="127"/>
+    <functiondecl functionName="StereoRequiredFlag" lineNumber="139"/>
+    <functiondecl functionName="NoiseReductionTimeSelectedFlag" lineNumber="154"/>
+    <functiondecl functionName="TimeSelectedFlag" lineNumber="159"/>
+    <functiondecl functionName="WaveTracksSelectedFlag" lineNumber="164"/>
+    <functiondecl functionName="TracksExistFlag" lineNumber="173"/>
+    <functiondecl functionName="EditableTracksSelectedFlag" lineNumber="180"/>
+    <functiondecl functionName="AnyTracksSelectedFlag" lineNumber="188"/>
+    <functiondecl functionName="TrackPanelHasFocus" lineNumber="196"/>
+    <functiondecl functionName="AudioIOBusyFlag" lineNumber="208"/>
+    <functiondecl functionName="CaptureNotBusyFlag" lineNumber="213"/>
+    <functiondecl functionName="LabelTracksExistFlag" lineNumber="224"/>
+    <functiondecl functionName="UnsavedChangesFlag" lineNumber="230"/>
+    <functiondecl functionName="UndoAvailableFlag" lineNumber="241"/>
+    <functiondecl functionName="RedoAvailableFlag" lineNumber="247"/>
+    <functiondecl functionName="ZoomInAvailableFlag" lineNumber="253"/>
+    <functiondecl functionName="ZoomOutAvailableFlag" lineNumber="263"/>
+    <functiondecl functionName="WaveTracksExistFlag" lineNumber="273"/>
+    <functiondecl functionName="IsNotSyncLockedFlag" lineNumber="279"/>
+    <functiondecl functionName="IsSyncLockedFlag" lineNumber="285"/>
+    <functiondecl functionName="NotMinimizedFlag" lineNumber="291"/>
+    <functiondecl functionName="PausedFlag" lineNumber="305"/>
+    <functiondecl functionName="NoAutoSelect" lineNumber="312"/>
+    <functiondecl functionName="EditableTracksSelectedPred" lineNumber="45"/>
+    <functiondecl functionName="AnyTracksSelectedPred" lineNumber="54"/>
+    <functiondecl functionName="AudioIOBusyPred" lineNumber="60"/>
+    <functiondecl functionName="TimeSelectedPred" lineNumber="66"/>
+    <functiondecl functionName="cutCopyOptions" lineNumber="73"/>
+    <functiondecl functionName="AudioIONotBusyFlag" lineNumber="127"/>
+    <functiondecl functionName="StereoRequiredFlag" lineNumber="139"/>
+    <functiondecl functionName="NoiseReductionTimeSelectedFlag" lineNumber="154"/>
+    <functiondecl functionName="TimeSelectedFlag" lineNumber="159"/>
+    <functiondecl functionName="WaveTracksSelectedFlag" lineNumber="164"/>
+    <functiondecl functionName="TracksExistFlag" lineNumber="173"/>
+    <functiondecl functionName="EditableTracksSelectedFlag" lineNumber="180"/>
+    <functiondecl functionName="AnyTracksSelectedFlag" lineNumber="188"/>
+    <functiondecl functionName="TrackPanelHasFocus" lineNumber="196"/>
+    <functiondecl functionName="AudioIOBusyFlag" lineNumber="208"/>
+    <functiondecl functionName="CaptureNotBusyFlag" lineNumber="213"/>
+    <functiondecl functionName="LabelTracksExistFlag" lineNumber="224"/>
+    <functiondecl functionName="UnsavedChangesFlag" lineNumber="230"/>
+    <functiondecl functionName="UndoAvailableFlag" lineNumber="241"/>
+    <functiondecl functionName="RedoAvailableFlag" lineNumber="247"/>
+    <functiondecl functionName="ZoomInAvailableFlag" lineNumber="253"/>
+    <functiondecl functionName="ZoomOutAvailableFlag" lineNumber="263"/>
+    <functiondecl functionName="WaveTracksExistFlag" lineNumber="273"/>
+    <functiondecl functionName="IsNotSyncLockedFlag" lineNumber="279"/>
+    <functiondecl functionName="IsSyncLockedFlag" lineNumber="285"/>
+    <functiondecl functionName="NotMinimizedFlag" lineNumber="291"/>
+    <functiondecl functionName="PausedFlag" lineNumber="305"/>
+    <functiondecl functionName="NoAutoSelect" lineNumber="312"/>
+    <functioncall functionName="AUDACITY_DLL_API"/>
+    <functioncall functionName="Aligned"/>
+    <functioncall functionName="All"/>
+    <functioncall functionName="AnyTracksSelectedFlag"/>
+    <functioncall functionName="AttachedWindows"/>
+    <functioncall functionName="AudacityProject"/>
+    <functioncall functionName="Audio"/>
+    <functioncall functionName="AudioIO"/>
+    <functioncall functionName="AudioIOExtBase"/>
+    <functioncall functionName="AudioIOListener"/>
+    <functioncall functionName="AudioThread"/>
+    <functioncall functionName="BarePtr"/>
+    <functioncall functionName="CaptureNotBusyFlag"/>
+    <functioncall functionName="ChangedProjectRate"/>
+    <functioncall functionName="ChangedSyncLock"/>
+    <functioncall functionName="ChangedTool"/>
+    <functioncall functionName="CommandFlagOptions"/>
+    <functioncall functionName="ConstTrackInterval"/>
+    <functioncall functionName="Cursor"/>
+    <functioncall functionName="DBConnection"/>
+    <functioncall functionName="DBConnectionErrors"/>
+    <functioncall functionName="EVT_AUDIOIO_CAPTURE"/>
+    <functioncall functionName="EVT_AUDIOIO_MONITOR"/>
+    <functioncall functionName="EVT_AUDIOIO_PLAYBACK"/>
+    <functioncall functionName="EVT_CHECKPOINT_FAILURE"/>
+    <functioncall functionName="EVT_PROJECT_SETTINGS_CHANGE"/>
+    <functioncall functionName="EVT_PROJECT_TITLE_CHANGE"/>
+    <functioncall functionName="EVT_RECONNECTION_FAILURE"/>
+    <functioncall functionName="EVT_UNDO_MODIFIED"/>
+    <functioncall functionName="EVT_UNDO_OR_REDO"/>
+    <functioncall functionName="EVT_UNDO_PURGE"/>
+    <functioncall functionName="EVT_UNDO_PUSHED"/>
+    <functioncall functionName="EVT_UNDO_RENAMED"/>
+    <functioncall functionName="EVT_UNDO_RESET"/>
+    <functioncall functionName="EditableTracksSelectedFlag"/>
+    <functioncall functionName="Floats"/>
+    <functioncall functionName="GetOwner"/>
+    <functioncall functionName="Here"/>
+    <functioncall functionName="IsNotSyncLockedFlag"/>
+    <functioncall functionName="IsSyncLockedFlag"/>
+    <functioncall functionName="Label"/>
+    <functioncall functionName="MenuManager"/>
+    <functioncall functionName="Meter"/>
+    <functioncall functionName="Mixer"/>
+    <functioncall functionName="MixerSpec"/>
+    <functioncall functionName="NCommandFlags"/>
+    <functioncall functionName="NONE"/>
+    <functioncall functionName="NoAutoSelect"/>
+    <functioncall functionName="NoiseReductionTimeSelectedFlag"/>
+    <functioncall functionName="None"/>
+    <functioncall functionName="NotHere"/>
+    <functioncall functionName="NotMinimizedFlag"/>
+    <functioncall functionName="Note"/>
+    <functioncall functionName="PROHIBITED"/>
+    <functioncall functionName="Pair"/>
+    <functioncall functionName="PausedFlag"/>
+    <functioncall functionName="Playable"/>
+    <functioncall functionName="PlaybackPolicy"/>
+    <functioncall functionName="PlaybackSlice"/>
+    <functioncall functionName="ProjectAudioIO"/>
+    <functioncall functionName="ProjectFileIO"/>
+    <functioncall functionName="ProjectHistory"/>
+    <functioncall functionName="ProjectSettings"/>
+    <functioncall functionName="Record"/>
+    <functioncall functionName="RedoAvailableFlag"/>
+    <functioncall functionName="RegisteredMenuItemEnabler"/>
+    <functioncall functionName="Resample"/>
+    <functioncall functionName="Rest"/>
+    <functioncall functionName="RingBuffer"/>
+    <functioncall functionName="SNAP_NEAREST"/>
+    <functioncall functionName="SNAP_OFF"/>
+    <functioncall functionName="SNAP_PRIOR"/>
+    <functioncall functionName="SampleBuffer"/>
+    <functioncall functionName="ShallowCopying"/>
+    <functioncall functionName="SharedPointer"/>
+    <functioncall functionName="SkipCopying"/>
+    <functioncall functionName="StereoRequiredFlag"/>
+    <functioncall functionName="Subclass"/>
+    <functioncall functionName="T"/>
+    <functioncall functionName="Tags"/>
+    <functioncall functionName="Time"/>
+    <functioncall functionName="TimeSelectedFlag"/>
+    <functioncall functionName="Track"/>
+    <functioncall functionName="TrackAttachment"/>
+    <functioncall functionName="TrackInterval"/>
+    <functioncall functionName="TrackIntervalData"/>
+    <functioncall functionName="TrackKind"/>
+    <functioncall functionName="TrackList"/>
+    <functioncall functionName="TrackPanelHasFocus"/>
+    <functioncall functionName="TrackType"/>
+    <functioncall functionName="TracksExistFlag"/>
+    <functioncall functionName="TranslatableString"/>
+    <functioncall functionName="UndoAvailableFlag"/>
+    <functioncall functionName="UndoManager"/>
+    <functioncall functionName="UndoPush"/>
+    <functioncall functionName="UndoStackElem"/>
+    <functioncall functionName="UndoState"/>
+    <functioncall functionName="UnsavedChangesFlag"/>
+    <functioncall functionName="WarpOptions"/>
+    <functioncall functionName="Wave"/>
+    <functioncall functionName="WaveTrack"/>
+    <functioncall functionName="WaveTrackCache"/>
+    <functioncall functionName="WaveTracksExistFlag"/>
+    <functioncall functionName="WaveTracksSelectedFlag"/>
+    <functioncall functionName="ZoomInAvailableFlag"/>
+    <functioncall functionName="ZoomOutAvailableFlag"/>
+    <functioncall functionName="a"/>
+    <functioncall functionName="available"/>
+    <functioncall functionName="b"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="bitset"/>
+    <functioncall functionName="bool"/>
+    <functioncall functionName="brushRadius"/>
+    <functioncall functionName="brushTool"/>
+    <functioncall functionName="char"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="delete"/>
+    <functioncall functionName="description"/>
+    <functioncall functionName="description_"/>
+    <functioncall functionName="double"/>
+    <functioncall functionName="drawTool"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="envelopeTool"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="flag"/>
+    <functioncall functionName="float"/>
+    <functioncall functionName="frames"/>
+    <functioncall functionName="frames_"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="helpPage_"/>
+    <functioncall functionName="id"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="isSelected"/>
+    <functioncall functionName="is_const"/>
+    <functioncall functionName="is_pointer"/>
+    <functioncall functionName="list"/>
+    <functioncall functionName="load"/>
+    <functioncall functionName="lock"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="mIterator"/>
+    <functioncall functionName="mPreRoll"/>
+    <functioncall functionName="mRecordingException"/>
+    <functioncall functionName="mValue"/>
+    <functioncall functionName="memory_order_relaxed"/>
+    <functioncall functionName="memory_order_release"/>
+    <functioncall functionName="message_"/>
+    <functioncall functionName="min"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="multiTool"/>
+    <functioncall functionName="noexcept"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="numTools"/>
+    <functioncall functionName="operatorAudacityProject&amp;"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="pExtra"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="priority_"/>
+    <functioncall functionName="project"/>
+    <functioncall functionName="remove_pointer"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="sampleCount"/>
+    <functioncall functionName="seconds"/>
+    <functioncall functionName="selectTool"/>
+    <functioncall functionName="selectedRegion"/>
+    <functioncall functionName="selectedRegion_"/>
+    <functioncall functionName="shared_from_this"/>
+    <functioncall functionName="shared_ptr"/>
+    <functioncall functionName="shortDescription"/>
+    <functioncall functionName="shortDescription_"/>
+    <functioncall functionName="start"/>
+    <functioncall functionName="state"/>
+    <functioncall functionName="static_assert"/>
+    <functioncall functionName="static_cast"/>
+    <functioncall functionName="static_pointer_cast"/>
+    <functioncall functionName="store"/>
+    <functioncall functionName="tags"/>
+    <functioncall functionName="tags_"/>
+    <functioncall functionName="time"/>
+    <functioncall functionName="title_"/>
+    <functioncall functionName="toProduce_"/>
+    <functioncall functionName="tracks"/>
+    <functioncall functionName="tracks_"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="typename"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="vector"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="wxASSERT"/>
+    <functioncall functionName="wxAtomicDec"/>
+    <functioncall functionName="wxAtomicInc"/>
+    <functioncall functionName="wxCommandEvent"/>
+    <functioncall functionName="wxDECLARE_EXPORTED_EVENT"/>
+    <functioncall functionName="wxString"/>
+    <functioncall functionName="wxT"/>
+    <functioncall functionName="wxWindow"/>
+    <functioncall functionName="zoomTool"/>
+  </FileInfo>
+</analyzerinfo>

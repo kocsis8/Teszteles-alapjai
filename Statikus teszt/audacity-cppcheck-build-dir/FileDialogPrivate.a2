@@ -1,0 +1,443 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1615162492">
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;FileDialog&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;FileDialog&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\gtk\FileDialogPrivate.h" line="27" column="5"/>
+            <symbol>FileDialog</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;SetFileExtension&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;SetFileExtension&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\gtk\FileDialogPrivate.h" line="64" column="18" info="Function in derived class"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\FileDialog.h" line="35" column="17" info="Virtual function in base class"/>
+            <symbol>SetFileExtension</symbol>
+        </error>
+        <error id="redundantCondition" severity="style" msg="Redundant condition: of.nFileExtension. &apos;!A || (A &amp;&amp; B)&apos; is equivalent to &apos;!A || B&apos;" verbose="The condition &apos;!of.nFileExtension || of.nFileExtension &amp;&amp; fileNameBuffer[of.nFileExtension]==wxT(&apos;\0&apos;)&apos; is equivalent to &apos;!of.nFileExtension || fileNameBuffer[of.nFileExtension]==wxT(&apos;\0&apos;)&apos;." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\win\FileDialogPrivate.cpp" line="1141" column="31"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;i&apos; shadows outer variable" verbose="Local variable &apos;i&apos; shadows outer variable" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\win\FileDialogPrivate.cpp" line="1067" column="16" info="Shadow variable"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\win\FileDialogPrivate.cpp" line="980" column="14" info="Shadowed declaration"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;dir&apos; shadows outer variable" verbose="Local variable &apos;dir&apos; shadows outer variable" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\win\FileDialogPrivate.cpp" line="1129" column="16" info="Shadow variable"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\win\FileDialogPrivate.cpp" line="979" column="14" info="Shadowed declaration"/>
+            <symbol>dir</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;i&apos; shadows outer variable" verbose="Local variable &apos;i&apos; shadows outer variable" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\win\FileDialogPrivate.cpp" line="1148" column="19" info="Shadow variable"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\win\FileDialogPrivate.cpp" line="980" column="14" info="Shadowed declaration"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="clarifyCalculation" severity="style" msg="Clarify calculation precedence for &apos;&amp;&apos; and &apos;?&apos;." verbose="Suspicious calculation. Please use parentheses to clarify the code. The code &apos;&apos;a&amp;b?c:d&apos;&apos; should be written as either &apos;&apos;(a&amp;b)?c:d&apos;&apos; or &apos;&apos;a&amp;(b?c:d)&apos;&apos;." cwe="783" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\win\FileDialogPrivate.cpp" line="803" column="26"/>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;wxOPENFILENAME::pVoid&apos; is never used." verbose="struct member &apos;wxOPENFILENAME::pVoid&apos; is never used." cwe="563" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\win\FileDialogPrivate.cpp" line="831" column="10"/>
+            <symbol>wxOPENFILENAME::pVoid</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;wxOPENFILENAME::dw1&apos; is never used." verbose="struct member &apos;wxOPENFILENAME::dw1&apos; is never used." cwe="563" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\win\FileDialogPrivate.cpp" line="832" column="10"/>
+            <symbol>wxOPENFILENAME::dw1</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;wxOPENFILENAME::dw2&apos; is never used." verbose="struct member &apos;wxOPENFILENAME::dw2&apos; is never used." cwe="563" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\win\FileDialogPrivate.cpp" line="833" column="10"/>
+            <symbol>wxOPENFILENAME::dw2</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp:801:13" call-funcname="DoShowCommFileDialog" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp" line="851" col="39" call-argexpr="&amp;errCode" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp:801:13" call-funcname="DoShowCommFileDialog" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp" line="861" col="37" call-argexpr="&amp;errCode" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp:801:13" call-funcname="DoShowCommFileDialog" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp" line="876" col="37" call-argexpr="&amp;errCode" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp:801:13" call-funcname="DoShowCommFileDialog" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp" line="851" col="19" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp:848:13" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="wxOPENFILENAME" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp" line="828" col="1" hash="14030943843938235051"/>
+  </FileInfo>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;FileDialog&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;FileDialog&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\mac\FileDialogPrivate.h" line="34" column="5"/>
+            <symbol>FileDialog</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;SetFileExtension&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;SetFileExtension&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\mac\FileDialogPrivate.h" line="69" column="18" info="Function in derived class"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\FileDialog.h" line="35" column="17" info="Virtual function in base class"/>
+            <symbol>SetFileExtension</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp:801:13" call-funcname="DoShowCommFileDialog" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp" line="851" col="39" call-argexpr="&amp;errCode" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp:801:13" call-funcname="DoShowCommFileDialog" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp" line="861" col="37" call-argexpr="&amp;errCode" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp:801:13" call-funcname="DoShowCommFileDialog" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp" line="876" col="37" call-argexpr="&amp;errCode" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp:801:13" call-funcname="DoShowCommFileDialog" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp" line="851" col="19" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp:848:13" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="wxOPENFILENAME" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp" line="828" col="1" hash="14030943843938235051"/>
+  </FileInfo>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;FileDialog::mParentDlg&apos; is not initialized in the constructor." verbose="Member variable &apos;FileDialog::mParentDlg&apos; is not initialized in the constructor." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\win\FileDialogPrivate.cpp" line="662" column="13"/>
+            <symbol>FileDialog::mParentDlg</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;FileDialog::mChildDlg&apos; is not initialized in the constructor." verbose="Member variable &apos;FileDialog::mChildDlg&apos; is not initialized in the constructor." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\win\FileDialogPrivate.cpp" line="662" column="13"/>
+            <symbol>FileDialog::mChildDlg</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;FileDialog::mParentDlg&apos; is not initialized in the constructor." verbose="Member variable &apos;FileDialog::mParentDlg&apos; is not initialized in the constructor." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\win\FileDialogPrivate.cpp" line="668" column="13"/>
+            <symbol>FileDialog::mParentDlg</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;FileDialog::mChildDlg&apos; is not initialized in the constructor." verbose="Member variable &apos;FileDialog::mChildDlg&apos; is not initialized in the constructor." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\win\FileDialogPrivate.cpp" line="668" column="13"/>
+            <symbol>FileDialog::mChildDlg</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;FileDialog&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;FileDialog&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\win\FileDialogPrivate.h" line="29" column="4"/>
+            <symbol>FileDialog</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;SetFileExtension&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;SetFileExtension&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\win\FileDialogPrivate.h" line="43" column="17" info="Function in derived class"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\FileDialog.h" line="35" column="17" info="Virtual function in base class"/>
+            <symbol>SetFileExtension</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp:801:13" call-funcname="DoShowCommFileDialog" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp" line="851" col="39" call-argexpr="&amp;errCode" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp:801:13" call-funcname="DoShowCommFileDialog" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp" line="861" col="37" call-argexpr="&amp;errCode" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp:801:13" call-funcname="DoShowCommFileDialog" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp" line="876" col="37" call-argexpr="&amp;errCode" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.h:69:17" call-funcname="MSWOnSize" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp" line="172" col="7" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.h:66:21" my-argnr="5"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.h:82:17" call-funcname="MSWOnTypeChange" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp" line="378" col="4" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.h:79:17" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp:801:13" call-funcname="DoShowCommFileDialog" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp" line="851" col="19" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp:848:13" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.h:111:12" call-funcname="IsChild" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp" line="1183" col="11" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.h:109:11" my-argnr="1"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.h:111:12" call-funcname="IsChild" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp" line="1196" col="11" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.h:110:12" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="FileDialog::Disabler" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.h" line="102" col="4" hash="18367625385659221987"/>
+<class name="wxOPENFILENAME" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/FileDialog/win/FileDialogPrivate.cpp" line="828" col="1" hash="14030943843938235051"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="ChangeExceptionPolicy" lineNumber="112"/>
+    <functiondecl functionName="RestoreExceptionPolicy" lineNumber="142"/>
+    <functiondecl functionName="GetPaths" lineNumber="701"/>
+    <functiondecl functionName="GetFilenames" lineNumber="719"/>
+    <functiondecl functionName="SetFileExtension" lineNumber="724"/>
+    <functiondecl functionName="DoShowCommFileDialog" lineNumber="801"/>
+    <functiondecl functionName="ShowCommFileDialog" lineNumber="848"/>
+    <functiondecl functionName="ShowModal" lineNumber="894"/>
+    <functiondecl functionName="ChangeExceptionPolicy" lineNumber="112"/>
+    <functiondecl functionName="RestoreExceptionPolicy" lineNumber="142"/>
+    <functiondecl functionName="Init" lineNumber="684"/>
+    <functiondecl functionName="SetFileExtension" lineNumber="724"/>
+    <functiondecl functionName="DoShowCommFileDialog" lineNumber="801"/>
+    <functiondecl functionName="ShowCommFileDialog" lineNumber="848"/>
+    <functiondecl functionName="ShowModal" lineNumber="894"/>
+    <functiondecl functionName="ChangeExceptionPolicy" lineNumber="112"/>
+    <functiondecl functionName="RestoreExceptionPolicy" lineNumber="142"/>
+    <functiondecl functionName="ParentHook" lineNumber="159"/>
+    <functiondecl functionName="MSWParentHook" lineNumber="165"/>
+    <functiondecl functionName="MSWOnSize" lineNumber="183"/>
+    <functiondecl functionName="MSWOnGetMinMaxInfo" lineNumber="217"/>
+    <functiondecl functionName="DialogHook" lineNumber="225"/>
+    <functiondecl functionName="MSWOnInitDialog" lineNumber="286"/>
+    <functiondecl functionName="MSWOnInitDone" lineNumber="351"/>
+    <functiondecl functionName="MSWOnFolderChange" lineNumber="384"/>
+    <functiondecl functionName="MSWOnSelChange" lineNumber="402"/>
+    <functiondecl functionName="MSWOnTypeChange" lineNumber="437"/>
+    <functiondecl functionName="FilterFiles" lineNumber="457"/>
+    <functiondecl functionName="ParseFilter" lineNumber="642"/>
+    <functiondecl functionName="Init" lineNumber="684"/>
+    <functiondecl functionName="GetPaths" lineNumber="701"/>
+    <functiondecl functionName="GetFilenames" lineNumber="719"/>
+    <functiondecl functionName="SetFileExtension" lineNumber="724"/>
+    <functiondecl functionName="DoGetPosition" lineNumber="746"/>
+    <functiondecl functionName="DoGetSize" lineNumber="754"/>
+    <functiondecl functionName="DoCentre" lineNumber="788"/>
+    <functiondecl functionName="DoShowCommFileDialog" lineNumber="801"/>
+    <functiondecl functionName="ShowCommFileDialog" lineNumber="848"/>
+    <functiondecl functionName="ShowModal" lineNumber="894"/>
+    <functiondecl functionName="Init" lineNumber="1173"/>
+    <functiondecl functionName="Enter" lineNumber="1179"/>
+    <functiondecl functionName="Exit" lineNumber="1192"/>
+    <functiondecl functionName="IsChild" lineNumber="1208"/>
+    <functioncall functionName="Add"/>
+    <functioncall functionName="AppendExtension"/>
+    <functioncall functionName="CallWindowProc"/>
+    <functioncall functionName="ChangeExceptionPolicy"/>
+    <functioncall functionName="Clear"/>
+    <functioncall functionName="CommDlgExtendedError"/>
+    <functioncall functionName="CommDlg_OpenSave_GetFilePath"/>
+    <functioncall functionName="CommDlg_OpenSave_GetFolderPath"/>
+    <functioncall functionName="CommDlg_OpenSave_SetControlText"/>
+    <functioncall functionName="CommDlg_OpenSave_SetDefExt"/>
+    <functioncall functionName="Create"/>
+    <functioncall functionName="CreateUserPane"/>
+    <functioncall functionName="DECLARE_EVENT_TABLE"/>
+    <functioncall functionName="DECLARE_NO_COPY_CLASS"/>
+    <functioncall functionName="DialogHook"/>
+    <functioncall functionName="Disabler"/>
+    <functioncall functionName="DoCentre"/>
+    <functioncall functionName="DoShowCommFileDialog"/>
+    <functioncall functionName="Empty"/>
+    <functioncall functionName="EnableWindow"/>
+    <functioncall functionName="FALSE"/>
+    <functioncall functionName="FileDialog"/>
+    <functioncall functionName="FileDialogBase"/>
+    <functioncall functionName="FilterFiles"/>
+    <functioncall functionName="Fit"/>
+    <functioncall functionName="Free"/>
+    <functioncall functionName="GWLP_USERDATA"/>
+    <functioncall functionName="GWLP_WNDPROC"/>
+    <functioncall functionName="GetAttributesOf"/>
+    <functioncall functionName="GetBestSize"/>
+    <functioncall functionName="GetChar"/>
+    <functioncall functionName="GetCount"/>
+    <functioncall functionName="GetDisplayNameOf"/>
+    <functioncall functionName="GetDlgItem"/>
+    <functioncall functionName="GetEventHandler"/>
+    <functioncall functionName="GetExt"/>
+    <functioncall functionName="GetFullName"/>
+    <functioncall functionName="GetHWND"/>
+    <functioncall functionName="GetHeight"/>
+    <functioncall functionName="GetHwnd"/>
+    <functioncall functionName="GetId"/>
+    <functioncall functionName="GetNextToken"/>
+    <functioncall functionName="GetOpenFileName"/>
+    <functioncall functionName="GetParent"/>
+    <functioncall functionName="GetPosition"/>
+    <functioncall functionName="GetSaveFileName"/>
+    <functioncall functionName="GetSize"/>
+    <functioncall functionName="GetTopWindow"/>
+    <functioncall functionName="GetWidth"/>
+    <functioncall functionName="GetWindowLongPtr"/>
+    <functioncall functionName="GetWindowRect"/>
+    <functioncall functionName="HWND_TOP"/>
+    <functioncall functionName="HasExtraControlCreator"/>
+    <functioncall functionName="HasFdFlag"/>
+    <functioncall functionName="HasMoreTokens"/>
+    <functioncall functionName="HasUserPaneCreator"/>
+    <functioncall functionName="IID_IFolderView"/>
+    <functioncall functionName="IID_IShellFolder"/>
+    <functioncall functionName="Index"/>
+    <functioncall functionName="Init"/>
+    <functioncall functionName="IsAbsolute"/>
+    <functioncall functionName="IsChild"/>
+    <functioncall functionName="Item"/>
+    <functioncall functionName="LPCITEMIDLIST"/>
+    <functioncall functionName="LPDLGTEMPLATE"/>
+    <functioncall functionName="LPMINMAXINFO"/>
+    <functioncall functionName="LVIF_PARAM"/>
+    <functioncall functionName="Last"/>
+    <functioncall functionName="Layout"/>
+    <functioncall functionName="Len"/>
+    <functioncall functionName="ListView_DeleteItem"/>
+    <functioncall functionName="ListView_GetItem"/>
+    <functioncall functionName="ListView_GetItemCount"/>
+    <functioncall functionName="Lower"/>
+    <functioncall functionName="MSWDialogHook"/>
+    <functioncall functionName="MSWOnDestroy"/>
+    <functioncall functionName="MSWOnFolderChange"/>
+    <functioncall functionName="MSWOnGetMinMaxInfo"/>
+    <functioncall functionName="MSWOnInitDialog"/>
+    <functioncall functionName="MSWOnInitDone"/>
+    <functioncall functionName="MSWOnSelChange"/>
+    <functioncall functionName="MSWOnSize"/>
+    <functioncall functionName="MSWOnTypeChange"/>
+    <functioncall functionName="MSWParentHook"/>
+    <functioncall functionName="Mid"/>
+    <functioncall functionName="NMHDR"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="OFNOTIFY"/>
+    <functioncall functionName="OFN_ALLOWMULTISELECT"/>
+    <functioncall functionName="OFN_ENABLEHOOK"/>
+    <functioncall functionName="OFN_ENABLETEMPLATEHANDLE"/>
+    <functioncall functionName="OFN_FILEMUSTEXIST"/>
+    <functioncall functionName="OPENFILENAME"/>
+    <functioncall functionName="ParentHook"/>
+    <functioncall functionName="ParseFilter"/>
+    <functioncall functionName="ProcessEvent"/>
+    <functioncall functionName="QueryActiveShellView"/>
+    <functioncall functionName="QueryInterface"/>
+    <functioncall functionName="Refresh"/>
+    <functioncall functionName="Register"/>
+    <functioncall functionName="Release"/>
+    <functioncall functionName="RestoreExceptionPolicy"/>
+    <functioncall functionName="SFGAO_BROWSABLE"/>
+    <functioncall functionName="SFGAO_FOLDER"/>
+    <functioncall functionName="SHBindToParent"/>
+    <functioncall functionName="SHGDN_FORPARSING"/>
+    <functioncall functionName="SHGetMalloc"/>
+    <functioncall functionName="SWP_NOMOVE"/>
+    <functioncall functionName="SWP_NOSIZE"/>
+    <functioncall functionName="SendMessage"/>
+    <functioncall functionName="SetDirectory"/>
+    <functioncall functionName="SetExt"/>
+    <functioncall functionName="SetFiles"/>
+    <functioncall functionName="SetFilterIndex"/>
+    <functioncall functionName="SetHWND"/>
+    <functioncall functionName="SetPosition"/>
+    <functioncall functionName="SetSize"/>
+    <functioncall functionName="SetSizer"/>
+    <functioncall functionName="SetWindowLongPtr"/>
+    <functioncall functionName="SetWindowPos"/>
+    <functioncall functionName="ShowCommFileDialog"/>
+    <functioncall functionName="StartsWith"/>
+    <functioncall functionName="TRUE"/>
+    <functioncall functionName="WNDPROC"/>
+    <functioncall functionName="WS_CLIPSIBLINGS"/>
+    <functioncall functionName="WXSIZEOF"/>
+    <functioncall functionName="WX_HOOK_MODAL_DIALOG"/>
+    <functioncall functionName="attr"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="cStr"/>
+    <functioncall functionName="c_str"/>
+    <functioncall functionName="ch"/>
+    <functioncall functionName="code"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="continue"/>
+    <functioncall functionName="cwdOrig"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="defaultDir"/>
+    <functioncall functionName="defaultFile"/>
+    <functioncall functionName="dialog"/>
+    <functioncall functionName="dir"/>
+    <functioncall functionName="edt1"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="err"/>
+    <functioncall functionName="errCode"/>
+    <functioncall functionName="event"/>
+    <functioncall functionName="extension"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="fidl"/>
+    <functioncall functionName="fileNameBuffer"/>
+    <functioncall functionName="filename"/>
+    <functioncall functionName="filterBuffer"/>
+    <functioncall functionName="flt"/>
+    <functioncall functionName="fn"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="gs_rectDialog"/>
+    <functioncall functionName="hDlg"/>
+    <functioncall functionName="hWnd"/>
+    <functioncall functionName="height"/>
+    <functioncall functionName="hgbl"/>
+    <functioncall functionName="hgblLock"/>
+    <functioncall functionName="horizontalSizer"/>
+    <functioncall functionName="hr"/>
+    <functioncall functionName="hwnd"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="iMsg"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="ifolderview"/>
+    <functioncall functionName="imalloc"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="ishell"/>
+    <functioncall functionName="ishellbrowser"/>
+    <functioncall functionName="ishellview"/>
+    <functioncall functionName="items"/>
+    <functioncall functionName="itm"/>
+    <functioncall functionName="lCustData"/>
+    <functioncall functionName="lParam"/>
+    <functioncall functionName="lStructSize"/>
+    <functioncall functionName="left"/>
+    <functioncall functionName="len"/>
+    <functioncall functionName="length"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="lpdt"/>
+    <functioncall functionName="lst2"/>
+    <functioncall functionName="lv"/>
+    <functioncall functionName="lvi"/>
+    <functioncall functionName="mChildDlg"/>
+    <functioncall functionName="mHwnd"/>
+    <functioncall functionName="mMinSize"/>
+    <functioncall functionName="mParentDlg"/>
+    <functioncall functionName="mParentProc"/>
+    <functioncall functionName="mRoot"/>
+    <functioncall functionName="m_FilterGroups"/>
+    <functioncall functionName="m_centreDir"/>
+    <functioncall functionName="m_dir"/>
+    <functioncall functionName="m_fileName"/>
+    <functioncall functionName="m_fileNames"/>
+    <functioncall functionName="m_filterIndex"/>
+    <functioncall functionName="m_parent"/>
+    <functioncall functionName="m_path"/>
+    <functioncall functionName="m_paths"/>
+    <functioncall functionName="m_wildCard"/>
+    <functioncall functionName="m_windowStyle"/>
+    <functioncall functionName="match"/>
+    <functioncall functionName="message"/>
+    <functioncall functionName="msw_flags"/>
+    <functioncall functionName="n"/>
+    <functioncall functionName="nFileExtension"/>
+    <functioncall functionName="nFilterIndex"/>
+    <functioncall functionName="name"/>
+    <functioncall functionName="of"/>
+    <functioncall functionName="pOfn"/>
+    <functioncall functionName="pOleStr"/>
+    <functioncall functionName="parent"/>
+    <functioncall functionName="path"/>
+    <functioncall functionName="pos"/>
+    <functioncall functionName="r"/>
+    <functioncall functionName="rect"/>
+    <functioncall functionName="reinterpret_cast"/>
+    <functioncall functionName="reserve"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="root"/>
+    <functioncall functionName="sizeFlags"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="static_cast"/>
+    <functioncall functionName="str"/>
+    <functioncall functionName="style"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="sz"/>
+    <functioncall functionName="t_str"/>
+    <functioncall functionName="this"/>
+    <functioncall functionName="titleBuffer"/>
+    <functioncall functionName="toke"/>
+    <functioncall functionName="token"/>
+    <functioncall functionName="tokenWild"/>
+    <functioncall functionName="top"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="uOffset"/>
+    <functioncall functionName="uType"/>
+    <functioncall functionName="userpane"/>
+    <functioncall functionName="verticalSizer"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="wParam"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="width"/>
+    <functioncall functionName="wildCard"/>
+    <functioncall functionName="wildDescriptions"/>
+    <functioncall functionName="wxASSERT"/>
+    <functioncall functionName="wxASSERT_MSG"/>
+    <functioncall functionName="wxBoxSizer"/>
+    <functioncall functionName="wxConvISO8859_1"/>
+    <functioncall functionName="wxCopyRECTToRect"/>
+    <functioncall functionName="wxDefaultCoord"/>
+    <functioncall functionName="wxDefaultPosition"/>
+    <functioncall functionName="wxDefaultSize"/>
+    <functioncall functionName="wxEVT_FILECTRL_FILTERCHANGED"/>
+    <functioncall functionName="wxEVT_FILECTRL_FOLDERCHANGED"/>
+    <functioncall functionName="wxEVT_FILECTRL_SELECTIONCHANGED"/>
+    <functioncall functionName="wxEXPAND"/>
+    <functioncall functionName="wxEmptyString"/>
+    <functioncall functionName="wxFD_CHANGE_DIR"/>
+    <functioncall functionName="wxFD_DEFAULT_STYLE"/>
+    <functioncall functionName="wxFD_FILE_MUST_EXIST"/>
+    <functioncall functionName="wxFD_MULTIPLE"/>
+    <functioncall functionName="wxFD_OVERWRITE_PROMPT"/>
+    <functioncall functionName="wxFD_SAVE"/>
+    <functioncall functionName="wxFileDialogNameStr"/>
+    <functioncall functionName="wxFileName"/>
+    <functioncall functionName="wxFileNameFromPath"/>
+    <functioncall functionName="wxFileSelectorDefaultWildcardStr"/>
+    <functioncall functionName="wxFileSelectorPromptStr"/>
+    <functioncall functionName="wxGetClientRect"/>
+    <functioncall functionName="wxGetCwd"/>
+    <functioncall functionName="wxGetWindowRect"/>
+    <functioncall functionName="wxHORIZONTAL"/>
+    <functioncall functionName="wxID_ANY"/>
+    <functioncall functionName="wxLogError"/>
+    <functioncall functionName="wxMatchWild"/>
+    <functioncall functionName="wxON_BLOCK_EXIT0"/>
+    <functioncall functionName="wxOPENFILENAME_V4_SIZE"/>
+    <functioncall functionName="wxOPENFILENAME_V5_SIZE"/>
+    <functioncall functionName="wxPanel"/>
+    <functioncall functionName="wxParseCommonDialogsFilter"/>
+    <functioncall functionName="wxPathOnly"/>
+    <functioncall functionName="wxRectFromRECT"/>
+    <functioncall functionName="wxSIZE_AUTO"/>
+    <functioncall functionName="wxSetWorkingDirectory"/>
+    <functioncall functionName="wxString"/>
+    <functioncall functionName="wxStrlcpy"/>
+    <functioncall functionName="wxStrlen"/>
+    <functioncall functionName="wxT"/>
+    <functioncall functionName="wxVERTICAL"/>
+    <functioncall functionName="wxZeroMemory"/>
+    <functioncall functionName="x"/>
+    <functioncall functionName="y"/>
+  </FileInfo>
+</analyzerinfo>

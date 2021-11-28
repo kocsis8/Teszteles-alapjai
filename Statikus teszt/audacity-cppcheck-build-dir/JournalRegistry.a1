@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3113421401">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="sDictionary" lineNumber="22"/>
+    <functiondecl functionName="GetError" lineNumber="30"/>
+    <functiondecl functionName="SetError" lineNumber="35"/>
+    <functiondecl functionName="GetDictionary" lineNumber="53"/>
+    <functiondecl functionName="sInitializers" lineNumber="58"/>
+    <functiondecl functionName="GetInitializers" lineNumber="69"/>
+    <functioncall functionName="Format"/>
+    <functioncall functionName="Initializer"/>
+    <functioncall functionName="RegisteredCommand"/>
+    <functioncall functionName="RegisteredInitializer"/>
+    <functioncall functionName="SetError"/>
+    <functioncall functionName="bool"/>
+    <functioncall functionName="dispatcher"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="function"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="initializer"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="name"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="sDictionary"/>
+    <functioncall functionName="sInitializers"/>
+    <functioncall functionName="second"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="wxLogDebug"/>
+    <functioncall functionName="wxString"/>
+    <functioncall functionName="wxT"/>
+  </FileInfo>
+</analyzerinfo>

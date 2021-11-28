@@ -1,0 +1,275 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2874487404">
+        <error id="missingReturn" severity="error" msg="Found a exit path from function with non-void return type that has missing return statement" verbose="Found a exit path from function with non-void return type that has missing return statement" cwe="758" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/CommonTrackPanelCell.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandManager.h" line="444" column="11"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found a exit path from function with non-void return type that has missing return statement" verbose="Found a exit path from function with non-void return type that has missing return statement" cwe="758" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/CommonTrackPanelCell.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandManager.h" line="518" column="8"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found a exit path from function with non-void return type that has missing return statement" verbose="Found a exit path from function with non-void return type that has missing return statement" cwe="758" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/CommonTrackPanelCell.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandManager.h" line="552" column="8"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CommandContext&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CommandContext&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/CommonTrackPanelCell.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandContext.h" line="36" column="4"/>
+            <symbol>CommandContext</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;CommandFlagOptions&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;CommandFlagOptions&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/CommonTrackPanelCell.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandFlag.h" line="45" column="4"/>
+            <symbol>CommandFlagOptions</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;ReservedCommandFlag&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;ReservedCommandFlag&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/CommonTrackPanelCell.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandFlag.h" line="92" column="4"/>
+            <symbol>ReservedCommandFlag</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;RegisteredMenuItemEnabler&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;RegisteredMenuItemEnabler&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/CommonTrackPanelCell.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandFlag.h" line="120" column="4"/>
+            <symbol>RegisteredMenuItemEnabler</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;Options&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;Options&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/CommonTrackPanelCell.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandManager.h" line="102" column="7"/>
+            <symbol>Options</symbol>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &apos;items_&apos; should be passed by const reference." verbose="Parameter &apos;items_&apos; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/CommonTrackPanelCell.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\commands\CommandManager.h" line="544" column="56"/>
+            <symbol>items_</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/CommonTrackPanelCell.h:82:34" call-funcname="GetMenuItems" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/CommonTrackPanelCell.cpp" line="65" col="23" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/CommonTrackPanelCell.h:88:13" my-argnr="3"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/CommonTrackPanelCell.h:82:34" call-funcname="GetMenuItems" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/CommonTrackPanelCell.cpp" line="65" col="23" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/CommonTrackPanelCell.h:88:13" my-argnr="4"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="MenuItemEnabler" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandFlag.h" line="107" col="1" hash="14159699270193996497"/>
+<class name="ToolbarMenuVisitor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.h" line="408" col="1" hash="15600188875927896873"/>
+<class name="HitTestPreview" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/HitTestResult.h" line="19" col="1" hash="558950701565496408"/>
+<class name="TrackPanelMouseState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="27" col="1" hash="8623144472751191848"/>
+<class name="TrackPanelMouseEvent" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="45" col="1" hash="14240338354758594037"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/CommonTrackPanelCell.h:82:34" call-funcname="GetMenuItems" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/CommonTrackPanelCell.cpp" line="65" col="23" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/CommonTrackPanelCell.h:88:13" my-argnr="3"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/CommonTrackPanelCell.h:82:34" call-funcname="GetMenuItems" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/CommonTrackPanelCell.cpp" line="65" col="23" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/CommonTrackPanelCell.h:88:13" my-argnr="4"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="MenuItemEnabler" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandFlag.h" line="107" col="1" hash="14159699270193996497"/>
+<class name="ToolbarMenuVisitor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.h" line="408" col="1" hash="15600188875927896873"/>
+<class name="HitTestPreview" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/HitTestResult.h" line="19" col="1" hash="558950701565496408"/>
+<class name="TrackPanelMouseState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="27" col="1" hash="8623144472751191848"/>
+<class name="TrackPanelMouseEvent" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="45" col="1" hash="14240338354758594037"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/CommonTrackPanelCell.h:82:34" call-funcname="GetMenuItems" call-argnr="2" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/CommonTrackPanelCell.cpp" line="65" col="23" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/CommonTrackPanelCell.h:88:13" my-argnr="3"/>
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/CommonTrackPanelCell.h:82:34" call-funcname="GetMenuItems" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/CommonTrackPanelCell.cpp" line="65" col="23" my-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/ui/CommonTrackPanelCell.h:88:13" my-argnr="4"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="MenuItemEnabler" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandFlag.h" line="107" col="1" hash="14159699270193996497"/>
+<class name="ToolbarMenuVisitor" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/commands/CommandManager.h" line="408" col="1" hash="15600188875927896873"/>
+<class name="HitTestPreview" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/HitTestResult.h" line="19" col="1" hash="558950701565496408"/>
+<class name="TrackPanelMouseState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="27" col="1" hash="8623144472751191848"/>
+<class name="TrackPanelMouseEvent" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/TrackPanelMouseEvent.h" line="45" col="1" hash="14240338354758594037"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="GetHook" lineNumber="28"/>
+    <functiondecl functionName="InstallMouseWheelHook" lineNumber="35"/>
+    <functiondecl functionName="DefaultPreview" lineNumber="48"/>
+    <functiondecl functionName="GetMenuItems" lineNumber="55"/>
+    <functiondecl functionName="DoContextMenu" lineNumber="62"/>
+    <functiondecl functionName="HandleWheelRotation" lineNumber="125"/>
+    <functiondecl functionName="Reparent" lineNumber="138"/>
+    <functiondecl functionName="DoFindTrack" lineNumber="143"/>
+    <functiondecl functionName="GetHook" lineNumber="28"/>
+    <functiondecl functionName="InstallMouseWheelHook" lineNumber="35"/>
+    <functiondecl functionName="DefaultPreview" lineNumber="48"/>
+    <functiondecl functionName="GetMenuItems" lineNumber="55"/>
+    <functiondecl functionName="DoContextMenu" lineNumber="62"/>
+    <functiondecl functionName="HandleWheelRotation" lineNumber="125"/>
+    <functiondecl functionName="Reparent" lineNumber="138"/>
+    <functiondecl functionName="DoFindTrack" lineNumber="143"/>
+    <functiondecl functionName="GetHook" lineNumber="28"/>
+    <functiondecl functionName="InstallMouseWheelHook" lineNumber="35"/>
+    <functiondecl functionName="DefaultPreview" lineNumber="48"/>
+    <functiondecl functionName="GetMenuItems" lineNumber="55"/>
+    <functiondecl functionName="DoContextMenu" lineNumber="62"/>
+    <functiondecl functionName="HandleWheelRotation" lineNumber="125"/>
+    <functiondecl functionName="Reparent" lineNumber="138"/>
+    <functiondecl functionName="DoFindTrack" lineNumber="143"/>
+    <functioncall functionName="Append"/>
+    <functioncall functionName="AppendSeparator"/>
+    <functioncall functionName="Args"/>
+    <functioncall functionName="AttachedItem"/>
+    <functioncall functionName="Axis"/>
+    <functioncall functionName="Bind"/>
+    <functioncall functionName="Cancelled"/>
+    <functioncall functionName="CommandContext"/>
+    <functioncall functionName="CommandFailure"/>
+    <functioncall functionName="CommandFlagOptions"/>
+    <functioncall functionName="CommandFunctorPointer"/>
+    <functioncall functionName="CommandGroupItem"/>
+    <functioncall functionName="CommandID"/>
+    <functioncall functionName="CommandItem"/>
+    <functioncall functionName="CommandListEntry"/>
+    <functioncall functionName="CommandManager"/>
+    <functioncall functionName="CommandNotFound"/>
+    <functioncall functionName="CommandOutputTargets"/>
+    <functioncall functionName="CommandSuccess"/>
+    <functioncall functionName="CommonTrackCell"/>
+    <functioncall functionName="CommonTrackPanelCell"/>
+    <functioncall functionName="ComponentInterfaceSymbol"/>
+    <functioncall functionName="ConditionalGroupItem"/>
+    <functioncall functionName="DefaultFinder"/>
+    <functioncall functionName="DoFindTrack"/>
+    <functioncall functionName="Enable"/>
+    <functioncall functionName="FindTrack"/>
+    <functioncall functionName="FormatLabelForMenu"/>
+    <functioncall functionName="Get"/>
+    <functioncall functionName="GetEnabled"/>
+    <functioncall functionName="GetHook"/>
+    <functioncall functionName="GetId"/>
+    <functioncall functionName="GetMenuItems"/>
+    <functioncall functionName="GetUpdateFlags"/>
+    <functioncall functionName="Handle"/>
+    <functioncall functionName="HandleTextualCommand"/>
+    <functioncall functionName="HitTestPreview"/>
+    <functioncall functionName="Internal"/>
+    <functioncall functionName="Items"/>
+    <functioncall functionName="MakeCheckFn"/>
+    <functioncall functionName="MenuBarListEntry"/>
+    <functioncall functionName="MenuItem"/>
+    <functioncall functionName="MenuItems"/>
+    <functioncall functionName="MenuPart"/>
+    <functioncall functionName="Msgid"/>
+    <functioncall functionName="NCommandFlags"/>
+    <functioncall functionName="NormalizedKeyString"/>
+    <functioncall functionName="NormalizedKeyStringTag"/>
+    <functioncall functionName="Options"/>
+    <functioncall functionName="PROHIBITED"/>
+    <functioncall functionName="Popup"/>
+    <functioncall functionName="PositionToTime"/>
+    <functioncall functionName="RegisteredMenuItemEnabler"/>
+    <functioncall functionName="SpecialItem"/>
+    <functioncall functionName="SubMenuListEntry"/>
+    <functioncall functionName="TaggedIdentifier"/>
+    <functioncall functionName="TemporarySelection"/>
+    <functioncall functionName="ToolbarMenuVisitor"/>
+    <functioncall functionName="Track"/>
+    <functioncall functionName="TrackPanelCell"/>
+    <functioncall functionName="TrackPanelMouseEvent"/>
+    <functioncall functionName="TrackPanelMouseState"/>
+    <functioncall functionName="TrackPanelNode"/>
+    <functioncall functionName="TranslatableString"/>
+    <functioncall functionName="UIHandle"/>
+    <functioncall functionName="ValueRestorer"/>
+    <functioncall functionName="WholeMenu"/>
+    <functioncall functionName="X"/>
+    <functioncall functionName="Y"/>
+    <functioncall functionName="accel_"/>
+    <functioncall functionName="action"/>
+    <functioncall functionName="args"/>
+    <functioncall functionName="bitset"/>
+    <functioncall functionName="bool"/>
+    <functioncall functionName="commandID"/>
+    <functioncall functionName="condition"/>
+    <functioncall functionName="condition_"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="const_cast"/>
+    <functioncall functionName="context"/>
+    <functioncall functionName="cursor_"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="defaultCursor"/>
+    <functioncall functionName="defaultValue"/>
+    <functioncall functionName="delete"/>
+    <functioncall functionName="dispatcher"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="enabled"/>
+    <functioncall functionName="event_"/>
+    <functioncall functionName="evt"/>
+    <functioncall functionName="extend"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="final"/>
+    <functioncall functionName="finder"/>
+    <functioncall functionName="flags"/>
+    <functioncall functionName="flags_"/>
+    <functioncall functionName="fn"/>
+    <functioncall functionName="fn_"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="forward"/>
+    <functioncall functionName="function"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="height"/>
+    <functioncall functionName="helpPage_"/>
+    <functioncall functionName="hook"/>
+    <functioncall functionName="idx"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="ii"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="internal"/>
+    <functioncall functionName="internalName"/>
+    <functioncall functionName="isEffect"/>
+    <functioncall functionName="isEffect_"/>
+    <functioncall functionName="items"/>
+    <functioncall functionName="items_"/>
+    <functioncall functionName="key"/>
+    <functioncall functionName="label"/>
+    <functioncall functionName="label_in"/>
+    <functioncall functionName="label_in_"/>
+    <functioncall functionName="lock"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="longName_"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="menu"/>
+    <functioncall functionName="message_"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="msgid"/>
+    <functioncall functionName="name"/>
+    <functioncall functionName="name_"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="operatorAudacityProject&amp;"/>
+    <functioncall functionName="options"/>
+    <functioncall functionName="options_"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="p"/>
+    <functioncall functionName="pCell_"/>
+    <functioncall functionName="pItem"/>
+    <functioncall functionName="pMenu"/>
+    <functioncall functionName="pParent"/>
+    <functioncall functionName="pPoint"/>
+    <functioncall functionName="pProject"/>
+    <functioncall functionName="pWindow"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="parent"/>
+    <functioncall functionName="path"/>
+    <functioncall functionName="pmf"/>
+    <functioncall functionName="point"/>
+    <functioncall functionName="priority_"/>
+    <functioncall functionName="rect"/>
+    <functioncall functionName="rect_"/>
+    <functioncall functionName="region"/>
+    <functioncall functionName="sFinder"/>
+    <functioncall functionName="setting"/>
+    <functioncall functionName="shared_ptr"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="state_"/>
+    <functioncall functionName="static_assert"/>
+    <functioncall functionName="theHook"/>
+    <functioncall functionName="this"/>
+    <functioncall functionName="time"/>
+    <functioncall functionName="title"/>
+    <functioncall functionName="title_"/>
+    <functioncall functionName="tooltip_"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="typename"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="whole_"/>
+    <functioncall functionName="width"/>
+    <functioncall functionName="wxCURSOR_ARROW"/>
+    <functioncall functionName="wxCoord"/>
+    <functioncall functionName="wxEVT_COMMAND_MENU_SELECTED"/>
+    <functioncall functionName="wxEvtHandler"/>
+    <functioncall functionName="wxMenu"/>
+    <functioncall functionName="wxMenuBar"/>
+    <functioncall functionName="wxT"/>
+    <functioncall functionName="wxWidgetsWindowPlacement"/>
+    <functioncall functionName="x"/>
+    <functioncall functionName="y"/>
+  </FileInfo>
+</analyzerinfo>

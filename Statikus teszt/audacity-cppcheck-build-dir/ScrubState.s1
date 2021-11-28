@@ -1,0 +1,62 @@
+GetNumChannels
+GetMaxNumChannels
+GetNumTracks
+TotalCorrection
+PlaybackSlice
+ReversedTime
+GetTrackTime call:[load] noreturn:[load]
+SetTrackTime call:[store] noreturn:[store]
+ResetMode call:[store] noreturn:[store]
+ScrubbingOptions
+MaxAllowedScrubSpeed
+MinAllowedScrubSpeed
+AudioIOExtIterator
+operator++
+operator==
+operator!=
+begin
+end
+Extensions
+GetListener call:[lock] noreturn:[lock]
+SetRecordingException call:[wxAtomicInc] noreturn:[wxAtomicInc]
+ClearRecordingException call:[wxAtomicDec] noreturn:[wxAtomicDec]
+LostCaptureIntervals
+SeekStream
+GetLastPlaybackTime
+GetOwningProject call:[lock] noreturn:[lock]
+GetCaptureFormat
+GetNumPlaybackChannels
+GetNumCaptureChannels
+ScrubQueue
+Init call:[Update]
+Update call:[Write] noreturn:[Write]
+Get call:[Init,Read,as_double,llrint,load,lrint,max,message,min,s1]
+Stop call:[store]
+LastTrackTime call:[as_double]
+ScrubQueue
+Started
+Data
+Init call:[MinAllowedScrubSpeed,abs,as_double,as_long_long,llrint,lrint,max,min,sampleCount,wxASSERT] noreturn:[max]
+ScrubbingPlaybackPolicy
+Initialize call:[Init,Initialize] noreturn:[Init]
+Finalize call:[Stop] noreturn:[Stop]
+MixerWarpOptions call:[MaxAllowedScrubSpeed,MinAllowedScrubSpeed]
+SuggestedBufferTimes
+AllowSeek
+Done call:[Done] noreturn:[Done]
+SleepInterval global:[ScrubPollInterval_ms]
+GetPlaybackSlice call:[Get,as_long_long,limitSampleBufferSize,wxASSERT]
+AdvancedTrackTime call:[min]
+RepositionPlayback call:[Get,SetSpeedForKeyboardScrubbing,SetSpeedForPlayAtSpeed,SetTimesAndSpeed,as_double,as_long_long,double,fabs] noreturn:[SetSpeedForKeyboardScrubbing,SetSpeedForPlayAtSpeed,SetTimesAndSpeed,as_double]
+UpdateScrub call:[Update] noreturn:[Update]
+StopScrub call:[Stop] noreturn:[Stop]
+GetLastScrubTime call:[LastTrackTime] noreturn:[LastTrackTime]
+IsScrubbing call:[Get,IsBusy,Started] noreturn:[Started]
+Initialize call:[exchange,store] noreturn:[exchange]
+Read call:[exchange,load,move,store,while] noreturn:[exchange]
+Write call:[exchange,load,store,while] noreturn:[exchange,store]
+Write call:[exchange,load,move,store,while] noreturn:[exchange,store]
+Initialize call:[exchange,store] noreturn:[exchange]
+Read call:[exchange,load,move,store,while] noreturn:[exchange]
+Write call:[exchange,load,store,while] noreturn:[exchange,store]
+Write call:[exchange,load,move,store,while] noreturn:[exchange,store]

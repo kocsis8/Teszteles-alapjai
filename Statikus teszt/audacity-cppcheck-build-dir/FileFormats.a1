@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1505350790">
+        <error id="strdupCalled" severity="style" msg="Obsolete function &apos;strdup&apos; called. It is recommended to use &apos;_strdup&apos; instead." verbose="Obsolete function &apos;strdup&apos; called. It is recommended to use &apos;_strdup&apos; instead." cwe="477" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/FileFormats.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\FileFormats.cpp" line="132" column="25"/>
+        </error>
+  <FileInfo check="Class">
+<class name="SFFileCloser" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/FileFormats.h" line="141" col="1" hash="7859041219641964738"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="sf_num_headers" lineNumber="37"/>
+    <functiondecl functionName="sf_header_index_name" lineNumber="47"/>
+    <functiondecl functionName="sf_header_index_to_type" lineNumber="59"/>
+    <functiondecl functionName="sf_num_encodings" lineNumber="75"/>
+    <functiondecl functionName="sf_encoding_index_name" lineNumber="84"/>
+    <functiondecl functionName="sf_encoding_index_to_subtype" lineNumber="95"/>
+    <functiondecl functionName="sf_header_name" lineNumber="111"/>
+    <functiondecl functionName="sf_header_shortname" lineNumber="122"/>
+    <functiondecl functionName="sf_header_extension" lineNumber="146"/>
+    <functiondecl functionName="sf_encoding_name" lineNumber="157"/>
+    <functiondecl functionName="sf_num_simple_formats" lineNumber="168"/>
+    <functiondecl functionName="sf_simple_format" lineNumber="179"/>
+    <functiondecl functionName="sf_subtype_more_than_16_bits" lineNumber="190"/>
+    <functiondecl functionName="sf_subtype_is_integer" lineNumber="199"/>
+    <functiondecl functionName="sf_subtype_bytes_per_sample" lineNumber="207"/>
+    <functiondecl functionName="sf_subtype_to_effective_format" lineNumber="229"/>
+    <functiondecl functionName="sf_get_all_extensions" lineNumber="241"/>
+    <functiondecl functionName="sf_normalize_name" lineNumber="275"/>
+    <functioncall functionName="Args"/>
+    <functioncall functionName="AudacityMessageBox"/>
+    <functioncall functionName="Format"/>
+    <functioncall functionName="LAT1CTOWX"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="Replace"/>
+    <functioncall functionName="SFC_GET_FORMAT_INFO"/>
+    <functioncall functionName="SFC_GET_FORMAT_MAJOR"/>
+    <functioncall functionName="SFC_GET_FORMAT_MAJOR_COUNT"/>
+    <functioncall functionName="SFC_GET_FORMAT_SUBTYPE"/>
+    <functioncall functionName="SFC_GET_FORMAT_SUBTYPE_COUNT"/>
+    <functioncall functionName="SFC_GET_SIMPLE_FORMAT"/>
+    <functioncall functionName="SFC_GET_SIMPLE_FORMAT_COUNT"/>
+    <functioncall functionName="SFCall"/>
+    <functioncall functionName="SFFile"/>
+    <functioncall functionName="SFFileCloser"/>
+    <functioncall functionName="SNDFILE"/>
+    <functioncall functionName="XO"/>
+    <functioncall functionName="XXO"/>
+    <functioncall functionName="args"/>
+    <functioncall functionName="buffer"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="err"/>
+    <functioncall functionName="extension"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="format"/>
+    <functioncall functionName="format_info"/>
+    <functioncall functionName="forward"/>
+    <functioncall functionName="fun"/>
+    <functioncall functionName="g_format_info"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="get_deleter"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="k"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="name"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="release"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="sf"/>
+    <functioncall functionName="sf_close"/>
+    <functioncall functionName="sf_command"/>
+    <functioncall functionName="sf_error_str"/>
+    <functioncall functionName="sf_normalize_name"/>
+    <functioncall functionName="sf_subtype_more_than_16_bits"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="strdup"/>
+    <functioncall functionName="that"/>
+    <functioncall functionName="typename"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="wxCENTRE"/>
+    <functioncall functionName="wxDefaultCoord"/>
+    <functioncall functionName="wxT"/>
+  </FileInfo>
+</analyzerinfo>

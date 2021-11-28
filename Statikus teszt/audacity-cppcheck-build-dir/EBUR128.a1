@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1428419661">
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;EBUR128::mSampleCount&apos; is not initialized in the constructor." verbose="Member variable &apos;EBUR128::mSampleCount&apos; is not initialized in the constructor." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/EBUR128.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\effects\EBUR128.cpp" line="14" column="10"/>
+            <symbol>EBUR128::mSampleCount</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;EBUR128::mBlockRingPos&apos; is not initialized in the constructor." verbose="Member variable &apos;EBUR128::mBlockRingPos&apos; is not initialized in the constructor." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/EBUR128.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\effects\EBUR128.cpp" line="14" column="10"/>
+            <symbol>EBUR128::mBlockRingPos</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;EBUR128::mBlockRingSize&apos; is not initialized in the constructor." verbose="Member variable &apos;EBUR128::mBlockRingSize&apos; is not initialized in the constructor." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/EBUR128.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\effects\EBUR128.cpp" line="14" column="10"/>
+            <symbol>EBUR128::mBlockRingSize</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;val&apos; can be reduced." verbose="The scope of the variable &apos;val&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/EBUR128.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\effects\EBUR128.cpp" line="156" column="12"/>
+            <symbol>val</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/EBUR128.h:38:9" call-funcname="HistogramSums" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/EBUR128.cpp" line="128" col="17" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/EBUR128.h:38:9" call-funcname="HistogramSums" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/EBUR128.cpp" line="128" col="17" call-argexpr="sum_c" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\effects\EBUR128.cpp" line="131" col="13" info="Assuming that condition &apos;sum_c==0&apos; is not redundant"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/EBUR128.h:38:9" call-funcname="HistogramSums" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/EBUR128.cpp" line="134" col="20" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/EBUR128.h:38:9" call-funcname="HistogramSums" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/EBUR128.cpp" line="134" col="20" call-argexpr="sum_c" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\effects\EBUR128.cpp" line="131" col="13" info="Assuming that condition &apos;sum_c==0&apos; is not redundant"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/EBUR128.h:38:9" call-funcname="HistogramSums" call-argnr="3" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/EBUR128.cpp" line="146" col="17" call-argexpr="sum_c" call-argvaluetype="0" call-argvalue="0" warning="true">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\effects\EBUR128.cpp" line="147" col="13" info="Assuming that condition &apos;sum_c==0&apos; is not redundant"/>
+</function-call>  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="Initialize" lineNumber="27"/>
+    <functiondecl functionName="CalcWeightingFilter" lineNumber="48"/>
+    <functiondecl functionName="ProcessSampleFromChannel" lineNumber="89"/>
+    <functiondecl functionName="NextSample" lineNumber="104"/>
+    <functiondecl functionName="IntegrativeLoudness" lineNumber="121"/>
+    <functiondecl functionName="HistogramSums" lineNumber="154"/>
+    <functiondecl functionName="AddBlockToHistogram" lineNumber="172"/>
+    <functioncall functionName="A1"/>
+    <functioncall functionName="A2"/>
+    <functioncall functionName="AddBlockToHistogram"/>
+    <functioncall functionName="ArrayOf"/>
+    <functioncall functionName="B0"/>
+    <functioncall functionName="B1"/>
+    <functioncall functionName="B2"/>
+    <functioncall functionName="Biquad"/>
+    <functioncall functionName="CalcWeightingFilter"/>
+    <functioncall functionName="EBUR128"/>
+    <functioncall functionName="GAMMA_A"/>
+    <functioncall functionName="HIST_BIN_COUNT"/>
+    <functioncall functionName="HistogramSums"/>
+    <functioncall functionName="MAX_Order"/>
+    <functioncall functionName="ProcessOne"/>
+    <functioncall functionName="Reset"/>
+    <functioncall functionName="Vh"/>
+    <functioncall functionName="a0"/>
+    <functioncall functionName="ceil"/>
+    <functioncall functionName="channel"/>
+    <functioncall functionName="channels"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="delete"/>
+    <functioncall functionName="double"/>
+    <functioncall functionName="fIn"/>
+    <functioncall functionName="fOut"/>
+    <functioncall functionName="fPrevIn"/>
+    <functioncall functionName="fPrevOut"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="fs"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="idx"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="kHighPass"/>
+    <functioncall functionName="kLowPass"/>
+    <functioncall functionName="log10"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="loudness"/>
+    <functioncall functionName="mBlockRingPos"/>
+    <functioncall functionName="mBlockRingSize"/>
+    <functioncall functionName="mBlockSize"/>
+    <functioncall functionName="mChannelCount"/>
+    <functioncall functionName="mRate"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="nSubTypes"/>
+    <functioncall functionName="pBiquad"/>
+    <functioncall functionName="pow"/>
+    <functioncall functionName="rate"/>
+    <functioncall functionName="reinit"/>
+    <functioncall functionName="round"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="start_idx"/>
+    <functioncall functionName="sum_c"/>
+    <functioncall functionName="sum_v"/>
+    <functioncall functionName="tan"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="val"/>
+    <functioncall functionName="validLen"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="x_in"/>
+  </FileInfo>
+</analyzerinfo>

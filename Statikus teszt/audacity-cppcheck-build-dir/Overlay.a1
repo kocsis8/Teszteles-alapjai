@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="732925683">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="GetRectangle" lineNumber="17"/>
+    <functiondecl functionName="Erase" lineNumber="29"/>
+    <functiondecl functionName="GetRectangle" lineNumber="17"/>
+    <functiondecl functionName="Erase" lineNumber="29"/>
+    <functioncall functionName="Blit"/>
+    <functioncall functionName="DoGetRectangle"/>
+    <functioncall functionName="GetRectangle"/>
+    <functioncall functionName="GetSize"/>
+    <functioncall functionName="Inflate"/>
+    <functioncall functionName="Intersect"/>
+    <functioncall functionName="IsEmpty"/>
+    <functioncall functionName="Overlay"/>
+    <functioncall functionName="PROHIBITED"/>
+    <functioncall functionName="bool"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="height"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="rect"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="smallRect"/>
+    <functioncall functionName="src"/>
+    <functioncall functionName="width"/>
+    <functioncall functionName="wxRect"/>
+    <functioncall functionName="x"/>
+    <functioncall functionName="y"/>
+  </FileInfo>
+</analyzerinfo>

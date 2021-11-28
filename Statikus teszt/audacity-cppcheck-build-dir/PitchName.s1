@@ -1,0 +1,8 @@
+FreqToMIDInote call:[log,return] noreturn:[return]
+MIDInoteToFreq call:[pow,return] noreturn:[return]
+PitchIndex
+PitchOctave call:[return] noreturn:[return]
+PitchName call:[PitchIndex,XO,wxASSERT]
+PitchName_Absolute call:[Format,PitchName,PitchOctave,Verbatim,wxT] noreturn:[Format]
+PitchToMIDInote call:[return] noreturn:[return]
+PitchToFreq call:[MIDInoteToFreq,PitchToMIDInote] noreturn:[MIDInoteToFreq]

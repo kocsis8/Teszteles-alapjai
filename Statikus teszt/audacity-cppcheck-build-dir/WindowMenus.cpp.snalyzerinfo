@@ -1,0 +1,26 @@
+CommandFlagOptions
+Options
+Options
+Options
+ToolbarMenuVisitor
+operatorAudacityProject&
+WholeMenu
+MenuItem
+ConditionalGroupItem
+DefaultFinder
+FinderScope
+CommandItem
+CommandGroupItem
+SpecialItem
+MenuPart
+Items
+Section
+Menu
+Menu call:[move]
+ConditionalItems
+ConditionalItems call:[move]
+MenuOrItems call:[Items,empty] noreturn:[Items]
+MenuOrItems call:[Items,empty,move] noreturn:[Items]
+Command
+CommandGroup call:[move]
+Special

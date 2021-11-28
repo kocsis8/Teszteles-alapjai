@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2485523402">
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="Private"/>
+    <functioncall functionName="Shared"/>
+    <functioncall functionName="Types"/>
+    <functioncall functionName="bool"/>
+    <functioncall functionName="conditional_t"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="is_const"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="reference_wrapper"/>
+    <functioncall functionName="typename"/>
+  </FileInfo>
+</analyzerinfo>

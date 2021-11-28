@@ -1,0 +1,4 @@
+AttachedWindows
+operatorAudacityProject&
+GetActiveProject global:[gActiveProject]
+SetActiveProject global:[gActiveProject] call:[Capture,FindProjectFrame,QueueEvent,SetTopWindow,lock,shared_from_this] noreturn:[QueueEvent,SetTopWindow]

@@ -1,0 +1,46 @@
+Shuttle
+ShuttleCli
+ShuttleCli
+ShuttleParams
+ShuttleParams
+Optional
+OptionalY call:[Optional] noreturn:[Optional]
+OptionalN call:[Optional] noreturn:[Optional]
+ShuttleSetAutomation
+SetForValidating
+SetForWriting
+Optional
+OptionalY
+OptionalN
+Define
+Define
+Define
+Define
+Define
+Define
+Define
+DefineEnum
+WrappedType
+WrappedType
+WrappedType
+WrappedType
+WrappedType
+Shuttle
+TransferBool call:[ExchangeWithMaster,GetChar,empty,wxT] noreturn:[ExchangeWithMaster,wxT]
+TransferFloat call:[ExchangeWithMaster,Format,empty,wxAtof,wxT] noreturn:[ExchangeWithMaster,wxAtof]
+TransferDouble call:[ExchangeWithMaster,Format,empty,wxAtof,wxT] noreturn:[ExchangeWithMaster,wxAtof]
+TransferInt call:[ExchangeWithMaster,Format,wxAtoi,wxT] noreturn:[ExchangeWithMaster,wxAtoi]
+TransferInt call:[TransferLongLong] noreturn:[TransferLongLong]
+TransferLongLong call:[ExchangeWithMaster,Format,wxAtoi,wxT] noreturn:[ExchangeWithMaster,wxAtoi]
+TransferEnum call:[ExchangeWithMaster,Find,Left,Mid,Right,length,wxT] noreturn:[ExchangeWithMaster,Mid,wxT]
+TransferWrappedType call:[ExchangeWithMaster,ReadAsString,WriteToAsString] noreturn:[ExchangeWithMaster,WriteToAsString]
+ExchangeWithMaster call:[Find,GetChar,Mid,length,wxT]
+ShouldSet
+Define
+Define
+Define
+Define
+Define
+Define
+Define
+DefineEnum

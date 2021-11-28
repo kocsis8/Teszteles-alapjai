@@ -1,0 +1,60 @@
+CommandFlagOptions
+Options
+Options
+Options
+ToolbarMenuVisitor
+operatorAudacityProject&
+WholeMenu
+MenuItem
+ConditionalGroupItem
+DefaultFinder
+FinderScope
+CommandItem
+CommandGroupItem
+SpecialItem
+MenuPart
+Items
+Section
+Menu
+Menu call:[move]
+ConditionalItems
+ConditionalItems call:[move]
+MenuOrItems call:[Items,empty] noreturn:[Items]
+MenuOrItems call:[Items,empty,move] noreturn:[Items]
+Command
+CommandGroup call:[move]
+Special
+PopupMenuTableEntry call:[wxASSERT] noreturn:[wxASSERT]
+PopupMenuVisitor
+PopupMenuTable
+Id
+Caption
+GetRegistry call:[get] noreturn:[get]
+AttachedItem call:[RegisterItem,move] noreturn:[RegisterItem]
+Get call:[InitUserData,Populate] noreturn:[InitUserData,Populate]
+Clear call:[reset] noreturn:[reset]
+Computed call:[factory] noreturn:[factory]
+MakeLabel call:[Format,XXO]
+AppendItem call:[Append] noreturn:[Append]
+AppendRadioItem call:[Append] noreturn:[Append]
+AppendCheckItem call:[Append] noreturn:[Append]
+Computed call:[Computed] noreturn:[Computed]
+Append call:[Append,Computed] noreturn:[Append]
+PopupMenuTableEntry
+PopupSubMenu
+PopupSubMenu
+PopupMenuImpl
+PopupMenuBuilder
+DoBeginGroup call:[empty,get,move,push_back] noreturn:[push_back]
+DoEndGroup call:[AppendSubMenu,Translation,back,empty,get,move,pop_back,release] noreturn:[AppendSubMenu]
+DoVisit call:[Append,AppendCheckItem,AppendRadioItem,Bind,InitUserData,Translation,init,wxASSERT] noreturn:[Bind,init]
+DoSeparator call:[AppendSeparator] noreturn:[AppendSeparator]
+PopupMenuImpl call:[Disconnect] noreturn:[Disconnect]
+Popup call:[Popup] noreturn:[Popup]
+ExtendMenu call:[Get,GetRegistry,Visit,get] noreturn:[Visit]
+RegisterItem call:[RegisterItem,move] noreturn:[RegisterItem]
+Append call:[back,move,push_back] noreturn:[push_back]
+Append call:[Append] noreturn:[Append]
+BeginSection call:[back,get,move,push_back] noreturn:[push_back]
+EndSection call:[pop_back] noreturn:[pop_back]
+BuildMenu call:[ExtendMenu]

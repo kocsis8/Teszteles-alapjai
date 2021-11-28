@@ -1,0 +1,692 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1651519922">
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;AUPImportFileHandle::mTags&apos; is not initialized in the constructor." verbose="Member variable &apos;AUPImportFileHandle::mTags&apos; is not initialized in the constructor." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="282" column="22"/>
+            <symbol>AUPImportFileHandle::mTags</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;AUPImportFileHandle::mProjectAttrs&apos; is not initialized in the constructor." verbose="Member variable &apos;AUPImportFileHandle::mProjectAttrs&apos; is not initialized in the constructor." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="282" column="22"/>
+            <symbol>AUPImportFileHandle::mProjectAttrs</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;AUPImportFileHandle::mNumChannels&apos; is not initialized in the constructor." verbose="Member variable &apos;AUPImportFileHandle::mNumChannels&apos; is not initialized in the constructor." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="282" column="22"/>
+            <symbol>AUPImportFileHandle::mNumChannels</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;AUPImportFileHandle::mWaveTrack&apos; is not initialized in the constructor." verbose="Member variable &apos;AUPImportFileHandle::mWaveTrack&apos; is not initialized in the constructor." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="282" column="22"/>
+            <symbol>AUPImportFileHandle::mWaveTrack</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;AUPImportFileHandle::mClip&apos; is not initialized in the constructor." verbose="Member variable &apos;AUPImportFileHandle::mClip&apos; is not initialized in the constructor." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="282" column="22"/>
+            <symbol>AUPImportFileHandle::mClip</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;AUPImportFileHandle::mUpdateResult&apos; is not initialized in the constructor." verbose="Member variable &apos;AUPImportFileHandle::mUpdateResult&apos; is not initialized in the constructor." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="282" column="22"/>
+            <symbol>AUPImportFileHandle::mUpdateResult</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;wxPanelWrapper&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;wxPanelWrapper&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\wxPanelWrapper.h" line="46" column="4"/>
+            <symbol>wxPanelWrapper</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;wxDirDialogWrapper&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;wxDirDialogWrapper&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\wxPanelWrapper.h" line="129" column="4"/>
+            <symbol>wxDirDialogWrapper</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;FileDialog&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;FileDialog&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\gtk\FileDialogPrivate.h" line="27" column="5"/>
+            <symbol>FileDialog</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Struct &apos;RegisteredUnusableImportPlugin&apos; has a constructor with 1 argument that is not explicit." verbose="Struct &apos;RegisteredUnusableImportPlugin&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\Import.h" line="95" column="7"/>
+            <symbol>RegisteredUnusableImportPlugin</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;wxTabTraversalWrapper &lt; wxPanel &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;wxTabTraversalWrapper &lt; wxPanel &gt;&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\wxPanelWrapper.h" line="27" column="4"/>
+            <symbol>wxTabTraversalWrapper &lt; wxPanel &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;wxTabTraversalWrapper &lt; wxDialog &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;wxTabTraversalWrapper &lt; wxDialog &gt;&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\wxPanelWrapper.h" line="27" column="4"/>
+            <symbol>wxTabTraversalWrapper &lt; wxDialog &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;wxTabTraversalWrapper &lt; wxDirDialog &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;wxTabTraversalWrapper &lt; wxDirDialog &gt;&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\wxPanelWrapper.h" line="27" column="4"/>
+            <symbol>wxTabTraversalWrapper &lt; wxDirDialog &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;wxTabTraversalWrapper &lt; FileDialog &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;wxTabTraversalWrapper &lt; FileDialog &gt;&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\wxPanelWrapper.h" line="27" column="4"/>
+            <symbol>wxTabTraversalWrapper &lt; FileDialog &gt;</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;wxTabTraversalWrapper &lt; wxMessageDialog &gt;&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;wxTabTraversalWrapper &lt; wxMessageDialog &gt;&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\wxPanelWrapper.h" line="27" column="4"/>
+            <symbol>wxTabTraversalWrapper &lt; wxMessageDialog &gt;</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;SetFileExtension&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;SetFileExtension&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\gtk\FileDialogPrivate.h" line="64" column="18" info="Function in derived class"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\FileDialog.h" line="35" column="17" info="Virtual function in base class"/>
+            <symbol>SetFileExtension</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;numRead&apos; is assigned a value that is never used." verbose="Variable &apos;numRead&apos; is assigned a value that is never used." cwe="563" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="499" column="19"/>
+            <symbol>numRead</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:123:9" call-funcname="HandleProject" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="581" col="30" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:124:9" call-funcname="HandleLabelTrack" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="585" col="33" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:125:9" call-funcname="HandleNoteTrack" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="589" col="32" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:126:9" call-funcname="HandleTimeTrack" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="593" col="32" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:127:9" call-funcname="HandleWaveTrack" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="597" col="32" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:128:9" call-funcname="HandleTags" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="601" col="27" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:129:9" call-funcname="HandleTag" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="605" col="26" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:130:9" call-funcname="HandleLabel" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="609" col="28" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:131:9" call-funcname="HandleWaveClip" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="613" col="31" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:132:9" call-funcname="HandleSequence" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="617" col="31" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:133:9" call-funcname="HandleWaveBlock" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="621" col="32" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:134:9" call-funcname="HandleEnvelope" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="625" col="31" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:135:9" call-funcname="HandleControlPoint" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="629" col="35" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:136:9" call-funcname="HandleSimpleBlockFile" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="633" col="38" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:137:9" call-funcname="HandleSilentBlockFile" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="637" col="38" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:138:9" call-funcname="HandlePCMAliasBlockFile" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="641" col="40" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:139:9" call-funcname="HandleImport" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="645" col="29" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call>  </FileInfo>
+  <FileInfo check="Class">
+<class name="wxDirDialogWrapper" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="124" col="1" hash="2711157917505411744"/>
+<class name="FileDialogWrapper" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="163" col="1" hash="7553654041051167098"/>
+<class name="AudacityMessageDialog" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="214" col="1" hash="1660744077628049721"/>
+<class name="ExtImportItem" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/Import.h" line="41" col="1" hash="4901743333258382016"/>
+<class name="UnusableImportPlugin" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportPlugin.h" line="164" col="1" hash="6984783344770576652"/>
+<class name="AUPImportPlugin" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="72" col="1" hash="15493809859873076347"/>
+<class name="AUPImportFileHandle::node" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="111" col="4" hash="4380987512859232763"/>
+<class name="AUPImportFileHandle::fileinfo" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="188" col="12" hash="10962577502512689971"/>
+  </FileInfo>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;FileDialog&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;FileDialog&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\mac\FileDialogPrivate.h" line="34" column="5"/>
+            <symbol>FileDialog</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;SetFileExtension&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;SetFileExtension&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\mac\FileDialogPrivate.h" line="69" column="18" info="Function in derived class"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\FileDialog.h" line="35" column="17" info="Virtual function in base class"/>
+            <symbol>SetFileExtension</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:123:9" call-funcname="HandleProject" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="581" col="30" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:124:9" call-funcname="HandleLabelTrack" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="585" col="33" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:125:9" call-funcname="HandleNoteTrack" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="589" col="32" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:126:9" call-funcname="HandleTimeTrack" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="593" col="32" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:127:9" call-funcname="HandleWaveTrack" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="597" col="32" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:128:9" call-funcname="HandleTags" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="601" col="27" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:129:9" call-funcname="HandleTag" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="605" col="26" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:130:9" call-funcname="HandleLabel" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="609" col="28" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:131:9" call-funcname="HandleWaveClip" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="613" col="31" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:132:9" call-funcname="HandleSequence" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="617" col="31" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:133:9" call-funcname="HandleWaveBlock" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="621" col="32" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:134:9" call-funcname="HandleEnvelope" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="625" col="31" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:135:9" call-funcname="HandleControlPoint" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="629" col="35" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:136:9" call-funcname="HandleSimpleBlockFile" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="633" col="38" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:137:9" call-funcname="HandleSilentBlockFile" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="637" col="38" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:138:9" call-funcname="HandlePCMAliasBlockFile" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="641" col="40" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:139:9" call-funcname="HandleImport" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="645" col="29" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call>  </FileInfo>
+  <FileInfo check="Class">
+<class name="wxDirDialogWrapper" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="124" col="1" hash="2711157917505411744"/>
+<class name="FileDialogWrapper" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="163" col="1" hash="7553654041051167098"/>
+<class name="AudacityMessageDialog" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="214" col="1" hash="1660744077628049721"/>
+<class name="ExtImportItem" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/Import.h" line="41" col="1" hash="4901743333258382016"/>
+<class name="UnusableImportPlugin" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportPlugin.h" line="164" col="1" hash="6984783344770576652"/>
+<class name="AUPImportPlugin" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="72" col="1" hash="15493809859873076347"/>
+<class name="AUPImportFileHandle::node" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="111" col="4" hash="4380987512859232763"/>
+<class name="AUPImportFileHandle::fileinfo" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="188" col="12" hash="10962577502512689971"/>
+  </FileInfo>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;FileDialog&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;FileDialog&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\win\FileDialogPrivate.h" line="29" column="4"/>
+            <symbol>FileDialog</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;SetFileExtension&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;SetFileExtension&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\win\FileDialogPrivate.h" line="43" column="17" info="Function in derived class"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\widgets\FileDialog\FileDialog.h" line="35" column="17" info="Virtual function in base class"/>
+            <symbol>SetFileExtension</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:123:9" call-funcname="HandleProject" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="581" col="30" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:124:9" call-funcname="HandleLabelTrack" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="585" col="33" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:125:9" call-funcname="HandleNoteTrack" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="589" col="32" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:126:9" call-funcname="HandleTimeTrack" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="593" col="32" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:127:9" call-funcname="HandleWaveTrack" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="597" col="32" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:128:9" call-funcname="HandleTags" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="601" col="27" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:129:9" call-funcname="HandleTag" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="605" col="26" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:130:9" call-funcname="HandleLabel" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="609" col="28" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:131:9" call-funcname="HandleWaveClip" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="613" col="31" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:132:9" call-funcname="HandleSequence" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="617" col="31" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:133:9" call-funcname="HandleWaveBlock" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="621" col="32" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:134:9" call-funcname="HandleEnvelope" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="625" col="31" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:135:9" call-funcname="HandleControlPoint" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="629" col="35" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:136:9" call-funcname="HandleSimpleBlockFile" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="633" col="38" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:137:9" call-funcname="HandleSilentBlockFile" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="637" col="38" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:138:9" call-funcname="HandlePCMAliasBlockFile" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="641" col="40" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call><function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp:139:9" call-funcname="HandleImport" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="645" col="29" call-argexpr="handler" call-argvaluetype="0" call-argvalue="0">
+  <path file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\import\ImportAUP.cpp" line="575" col="29" info="Assignment &apos;handler=nullptr&apos;, assigned value is 0"/>
+</function-call>  </FileInfo>
+  <FileInfo check="Class">
+<class name="wxDirDialogWrapper" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="124" col="1" hash="2711157917505411744"/>
+<class name="FileDialogWrapper" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="163" col="1" hash="7553654041051167098"/>
+<class name="AudacityMessageDialog" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/widgets/wxPanelWrapper.h" line="214" col="1" hash="1660744077628049721"/>
+<class name="ExtImportItem" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/Import.h" line="41" col="1" hash="4901743333258382016"/>
+<class name="UnusableImportPlugin" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportPlugin.h" line="164" col="1" hash="6984783344770576652"/>
+<class name="AUPImportPlugin" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="72" col="1" hash="15493809859873076347"/>
+<class name="AUPImportFileHandle::node" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="111" col="4" hash="4380987512859232763"/>
+<class name="AUPImportFileHandle::fileinfo" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/import/ImportAUP.cpp" line="188" col="12" hash="10962577502512689971"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="CaseInsensitiveEquals" lineNumber="226"/>
+    <functiondecl functionName="GetPluginStringID" lineNumber="253"/>
+    <functiondecl functionName="GetPluginFormatDescription" lineNumber="258"/>
+    <functiondecl functionName="Open" lineNumber="263"/>
+    <functiondecl functionName="GetFileDescription" lineNumber="293"/>
+    <functiondecl functionName="GetFileUncompressedBytes" lineNumber="298"/>
+    <functiondecl functionName="GetStreamCount" lineNumber="477"/>
+    <functiondecl functionName="GetStreamInfo" lineNumber="482"/>
+    <functiondecl functionName="SetStreamUsage" lineNumber="488"/>
+    <functiondecl functionName="Open" lineNumber="492"/>
+    <functiondecl functionName="HandleXMLChild" lineNumber="530"/>
+    <functiondecl functionName="HandleXMLEndTag" lineNumber="535"/>
+    <functiondecl functionName="HandleXMLTag" lineNumber="564"/>
+    <functiondecl functionName="HandleProject" lineNumber="658"/>
+    <functiondecl functionName="HandleLabelTrack" lineNumber="852"/>
+    <functiondecl functionName="HandleNoteTrack" lineNumber="859"/>
+    <functiondecl functionName="HandleTimeTrack" lineNumber="876"/>
+    <functiondecl functionName="HandleWaveTrack" lineNumber="900"/>
+    <functiondecl functionName="HandleTags" lineNumber="914"/>
+    <functiondecl functionName="HandleTag" lineNumber="950"/>
+    <functiondecl functionName="HandleLabel" lineNumber="988"/>
+    <functiondecl functionName="HandleWaveClip" lineNumber="1001"/>
+    <functiondecl functionName="HandleEnvelope" lineNumber="1025"/>
+    <functiondecl functionName="HandleControlPoint" lineNumber="1057"/>
+    <functiondecl functionName="HandleSequence" lineNumber="1076"/>
+    <functiondecl functionName="HandleWaveBlock" lineNumber="1141"/>
+    <functiondecl functionName="HandleSimpleBlockFile" lineNumber="1164"/>
+    <functiondecl functionName="HandleSilentBlockFile" lineNumber="1211"/>
+    <functiondecl functionName="HandlePCMAliasBlockFile" lineNumber="1240"/>
+    <functiondecl functionName="HandleImport" lineNumber="1323"/>
+    <functiondecl functionName="AddFile" lineNumber="1398"/>
+    <functiondecl functionName="AddSilence" lineNumber="1420"/>
+    <functiondecl functionName="AddSamples" lineNumber="1438"/>
+    <functiondecl functionName="SetError" lineNumber="1641"/>
+    <functiondecl functionName="SetWarning" lineNumber="1656"/>
+    <functiondecl functionName="CaseInsensitiveEquals" lineNumber="226"/>
+    <functiondecl functionName="GetPluginStringID" lineNumber="253"/>
+    <functiondecl functionName="GetPluginFormatDescription" lineNumber="258"/>
+    <functiondecl functionName="Open" lineNumber="263"/>
+    <functiondecl functionName="GetFileDescription" lineNumber="293"/>
+    <functiondecl functionName="GetFileUncompressedBytes" lineNumber="298"/>
+    <functiondecl functionName="GetStreamCount" lineNumber="477"/>
+    <functiondecl functionName="GetStreamInfo" lineNumber="482"/>
+    <functiondecl functionName="SetStreamUsage" lineNumber="488"/>
+    <functiondecl functionName="Open" lineNumber="492"/>
+    <functiondecl functionName="HandleXMLChild" lineNumber="530"/>
+    <functiondecl functionName="HandleXMLEndTag" lineNumber="535"/>
+    <functiondecl functionName="HandleXMLTag" lineNumber="564"/>
+    <functiondecl functionName="HandleProject" lineNumber="658"/>
+    <functiondecl functionName="HandleLabelTrack" lineNumber="852"/>
+    <functiondecl functionName="HandleNoteTrack" lineNumber="859"/>
+    <functiondecl functionName="HandleTimeTrack" lineNumber="876"/>
+    <functiondecl functionName="HandleWaveTrack" lineNumber="900"/>
+    <functiondecl functionName="HandleTags" lineNumber="914"/>
+    <functiondecl functionName="HandleTag" lineNumber="950"/>
+    <functiondecl functionName="HandleLabel" lineNumber="988"/>
+    <functiondecl functionName="HandleWaveClip" lineNumber="1001"/>
+    <functiondecl functionName="HandleEnvelope" lineNumber="1025"/>
+    <functiondecl functionName="HandleControlPoint" lineNumber="1057"/>
+    <functiondecl functionName="HandleSequence" lineNumber="1076"/>
+    <functiondecl functionName="HandleWaveBlock" lineNumber="1141"/>
+    <functiondecl functionName="HandleSimpleBlockFile" lineNumber="1164"/>
+    <functiondecl functionName="HandleSilentBlockFile" lineNumber="1211"/>
+    <functiondecl functionName="HandlePCMAliasBlockFile" lineNumber="1240"/>
+    <functiondecl functionName="HandleImport" lineNumber="1323"/>
+    <functiondecl functionName="AddFile" lineNumber="1398"/>
+    <functiondecl functionName="AddSilence" lineNumber="1420"/>
+    <functiondecl functionName="AddSamples" lineNumber="1438"/>
+    <functiondecl functionName="SetError" lineNumber="1641"/>
+    <functiondecl functionName="SetWarning" lineNumber="1656"/>
+    <functiondecl functionName="CaseInsensitiveEquals" lineNumber="226"/>
+    <functiondecl functionName="GetPluginStringID" lineNumber="253"/>
+    <functiondecl functionName="GetPluginFormatDescription" lineNumber="258"/>
+    <functiondecl functionName="Open" lineNumber="263"/>
+    <functiondecl functionName="GetFileDescription" lineNumber="293"/>
+    <functiondecl functionName="GetFileUncompressedBytes" lineNumber="298"/>
+    <functiondecl functionName="GetStreamCount" lineNumber="477"/>
+    <functiondecl functionName="GetStreamInfo" lineNumber="482"/>
+    <functiondecl functionName="SetStreamUsage" lineNumber="488"/>
+    <functiondecl functionName="Open" lineNumber="492"/>
+    <functiondecl functionName="HandleXMLChild" lineNumber="530"/>
+    <functiondecl functionName="HandleXMLEndTag" lineNumber="535"/>
+    <functiondecl functionName="HandleXMLTag" lineNumber="564"/>
+    <functiondecl functionName="HandleProject" lineNumber="658"/>
+    <functiondecl functionName="HandleLabelTrack" lineNumber="852"/>
+    <functiondecl functionName="HandleNoteTrack" lineNumber="859"/>
+    <functiondecl functionName="HandleTimeTrack" lineNumber="876"/>
+    <functiondecl functionName="HandleWaveTrack" lineNumber="900"/>
+    <functiondecl functionName="HandleTags" lineNumber="914"/>
+    <functiondecl functionName="HandleTag" lineNumber="950"/>
+    <functiondecl functionName="HandleLabel" lineNumber="988"/>
+    <functiondecl functionName="HandleWaveClip" lineNumber="1001"/>
+    <functiondecl functionName="HandleEnvelope" lineNumber="1025"/>
+    <functiondecl functionName="HandleControlPoint" lineNumber="1057"/>
+    <functiondecl functionName="HandleSequence" lineNumber="1076"/>
+    <functiondecl functionName="HandleWaveBlock" lineNumber="1141"/>
+    <functiondecl functionName="HandleSimpleBlockFile" lineNumber="1164"/>
+    <functiondecl functionName="HandleSilentBlockFile" lineNumber="1211"/>
+    <functiondecl functionName="HandlePCMAliasBlockFile" lineNumber="1240"/>
+    <functiondecl functionName="HandleImport" lineNumber="1323"/>
+    <functiondecl functionName="AddFile" lineNumber="1398"/>
+    <functiondecl functionName="AddSilence" lineNumber="1420"/>
+    <functiondecl functionName="AddSamples" lineNumber="1438"/>
+    <functiondecl functionName="SetError" lineNumber="1641"/>
+    <functiondecl functionName="SetWarning" lineNumber="1656"/>
+    <functioncall functionName="AS_SetSelectionFormat"/>
+    <functioncall functionName="AS_SetSnapTo"/>
+    <functioncall functionName="AUPImportFileHandle"/>
+    <functioncall functionName="AUPImportPlugin"/>
+    <functioncall functionName="Add"/>
+    <functioncall functionName="AddFile"/>
+    <functioncall functionName="AddSamples"/>
+    <functioncall functionName="AddSilence"/>
+    <functioncall functionName="Any"/>
+    <functioncall functionName="AppendDir"/>
+    <functioncall functionName="AppendNewBlock"/>
+    <functioncall functionName="AppendSharedBlock"/>
+    <functioncall functionName="Args"/>
+    <functioncall functionName="Assign"/>
+    <functioncall functionName="AudacityMessageBox"/>
+    <functioncall functionName="Bind"/>
+    <functioncall functionName="CaseInsensitiveEquals"/>
+    <functioncall functionName="Close"/>
+    <functioncall functionName="ConvertToSampleFormat"/>
+    <functioncall functionName="CopySamples"/>
+    <functioncall functionName="Create"/>
+    <functioncall functionName="CreateClip"/>
+    <functioncall functionName="CreateProgress"/>
+    <functioncall functionName="DECLARE_EVENT_TABLE"/>
+    <functioncall functionName="DECLARE_NO_COPY_CLASS"/>
+    <functioncall functionName="Debug"/>
+    <functioncall functionName="DirExists"/>
+    <functioncall functionName="Envelope"/>
+    <functioncall functionName="ExtImportItem"/>
+    <functioncall functionName="FALSE"/>
+    <functioncall functionName="Failed"/>
+    <functioncall functionName="FileDialog"/>
+    <functioncall functionName="FileDialogWrapper"/>
+    <functioncall functionName="FileExtensions"/>
+    <functioncall functionName="FilePath"/>
+    <functioncall functionName="Filter"/>
+    <functioncall functionName="Format"/>
+    <functioncall functionName="FormatWildcard"/>
+    <functioncall functionName="Get"/>
+    <functioncall functionName="GetAllFiles"/>
+    <functioncall functionName="GetDirty"/>
+    <functioncall functionName="GetEndTime"/>
+    <functioncall functionName="GetEnvelope"/>
+    <functioncall functionName="GetErrorStr"/>
+    <functioncall functionName="GetFullPath"/>
+    <functioncall functionName="GetName"/>
+    <functioncall functionName="GetPath"/>
+    <functioncall functionName="GetPlayEndTime"/>
+    <functioncall functionName="GetProjectFrame"/>
+    <functioncall functionName="GetSequence"/>
+    <functioncall functionName="GuardedCall"/>
+    <functioncall functionName="HandleControlPoint"/>
+    <functioncall functionName="HandleEnvelope"/>
+    <functioncall functionName="HandleImport"/>
+    <functioncall functionName="HandleLabel"/>
+    <functioncall functionName="HandleLabelTrack"/>
+    <functioncall functionName="HandleNoteTrack"/>
+    <functioncall functionName="HandlePCMAliasBlockFile"/>
+    <functioncall functionName="HandleProject"/>
+    <functioncall functionName="HandleSequence"/>
+    <functioncall functionName="HandleSilentBlockFile"/>
+    <functioncall functionName="HandleSimpleBlockFile"/>
+    <functioncall functionName="HandleTag"/>
+    <functioncall functionName="HandleTags"/>
+    <functioncall functionName="HandleTimeTrack"/>
+    <functioncall functionName="HandleWaveBlock"/>
+    <functioncall functionName="HandleWaveClip"/>
+    <functioncall functionName="HandleWaveTrack"/>
+    <functioncall functionName="HandleXMLChild"/>
+    <functioncall functionName="HandleXMLEndTag"/>
+    <functioncall functionName="HandleXMLTag"/>
+    <functioncall functionName="Import"/>
+    <functioncall functionName="ImportFileHandle"/>
+    <functioncall functionName="ImportPlugin"/>
+    <functioncall functionName="Importer"/>
+    <functioncall functionName="Index"/>
+    <functioncall functionName="InsertSilence"/>
+    <functioncall functionName="IsGoodFileName"/>
+    <functioncall functionName="IsGoodFileString"/>
+    <functioncall functionName="IsGoodPathName"/>
+    <functioncall functionName="IsGoodPathString"/>
+    <functioncall functionName="IsOk"/>
+    <functioncall functionName="IsOpened"/>
+    <functioncall functionName="IsValidSampleFormat"/>
+    <functioncall functionName="LabelTrack"/>
+    <functioncall functionName="LongSamplesToTime"/>
+    <functioncall functionName="LookupFormat"/>
+    <functioncall functionName="MakeUpper"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="NewWaveTrack"/>
+    <functioncall functionName="Open"/>
+    <functioncall functionName="PROHIBITED"/>
+    <functioncall functionName="Parse"/>
+    <functioncall functionName="ProgressDialog"/>
+    <functioncall functionName="Read"/>
+    <functioncall functionName="RegisteredImportPlugin"/>
+    <functioncall functionName="RegisteredUnusableImportPlugin"/>
+    <functioncall functionName="Remove"/>
+    <functioncall functionName="RemoveLastDir"/>
+    <functioncall functionName="RightmostOrNewClip"/>
+    <functioncall functionName="SFCall"/>
+    <functioncall functionName="SFM_READ"/>
+    <functioncall functionName="SNAP_NEAREST"/>
+    <functioncall functionName="SNAP_OFF"/>
+    <functioncall functionName="SNDFILE"/>
+    <functioncall functionName="SSBL_SetBandwidthSelectionFormatName"/>
+    <functioncall functionName="SSBL_SetFrequencySelectionFormatName"/>
+    <functioncall functionName="SampleBlock"/>
+    <functioncall functionName="SetError"/>
+    <functioncall functionName="SetExt"/>
+    <functioncall functionName="SetFullName"/>
+    <functioncall functionName="SetOffset"/>
+    <functioncall functionName="SetRate"/>
+    <functioncall functionName="SetTag"/>
+    <functioncall functionName="SetWarning"/>
+    <functioncall functionName="SetZoom"/>
+    <functioncall functionName="StartingWith"/>
+    <functioncall functionName="StreamID"/>
+    <functioncall functionName="Success"/>
+    <functioncall functionName="TIME"/>
+    <functioncall functionName="TT_SetAudioTimeFormat"/>
+    <functioncall functionName="TimeTrack"/>
+    <functioncall functionName="ToWString"/>
+    <functioncall functionName="Translation"/>
+    <functioncall functionName="TryGet"/>
+    <functioncall functionName="UnusableImportPlugin"/>
+    <functioncall functionName="Update"/>
+    <functioncall functionName="UpdateEnvelopeTrackLen"/>
+    <functioncall functionName="Use"/>
+    <functioncall functionName="WaveClip"/>
+    <functioncall functionName="WaveTrack"/>
+    <functioncall functionName="XO"/>
+    <functioncall functionName="altname"/>
+    <functioncall functionName="args"/>
+    <functioncall functionName="as_long_long"/>
+    <functioncall functionName="as_size_t"/>
+    <functioncall functionName="attr"/>
+    <functioncall functionName="attrs"/>
+    <functioncall functionName="audioFile"/>
+    <functioncall functionName="audioFilename"/>
+    <functioncall functionName="audiotimeformat"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="bandwidthformat"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="blockFile"/>
+    <functioncall functionName="blockFilename"/>
+    <functioncall functionName="buf"/>
+    <functioncall functionName="buffer"/>
+    <functioncall functionName="bufptr"/>
+    <functioncall functionName="channel"/>
+    <functioncall functionName="channels"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="clip"/>
+    <functioncall functionName="cnt"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="continue"/>
+    <functioncall functionName="dValue"/>
+    <functioncall functionName="dblValue"/>
+    <functioncall functionName="defaultDir"/>
+    <functioncall functionName="defaultFile"/>
+    <functioncall functionName="defaultPath"/>
+    <functioncall functionName="delete"/>
+    <functioncall functionName="dummy"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="extension"/>
+    <functioncall functionName="extensions"/>
+    <functioncall functionName="fValue"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="fd"/>
+    <functioncall functionName="ff"/>
+    <functioncall functionName="fi"/>
+    <functioncall functionName="fileName"/>
+    <functioncall functionName="fileTypes"/>
+    <functioncall functionName="fileinfo"/>
+    <functioncall functionName="filename"/>
+    <functioncall functionName="files"/>
+    <functioncall functionName="finally"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="floatSample"/>
+    <functioncall functionName="fn"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="format"/>
+    <functioncall functionName="formatName"/>
+    <functioncall functionName="framesRead"/>
+    <functioncall functionName="frequencyformat"/>
+    <functioncall functionName="front"/>
+    <functioncall functionName="gHighQualityDither"/>
+    <functioncall functionName="h"/>
+    <functioncall functionName="handler"/>
+    <functioncall functionName="haveaudiotimeformat"/>
+    <functioncall functionName="havebandwidthformat"/>
+    <functioncall functionName="havefrequencyformat"/>
+    <functioncall functionName="haveh"/>
+    <functioncall functionName="haverate"/>
+    <functioncall functionName="havesel0"/>
+    <functioncall functionName="havesel1"/>
+    <functioncall functionName="haveselectionformat"/>
+    <functioncall functionName="havesnapto"/>
+    <functioncall functionName="havevpos"/>
+    <functioncall functionName="havezoom"/>
+    <functioncall functionName="height"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="id"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="info"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="int16Sample"/>
+    <functioncall functionName="isDirty"/>
+    <functioncall functionName="lValue"/>
+    <functioncall functionName="lastTrack"/>
+    <functioncall functionName="len"/>
+    <functioncall functionName="length"/>
+    <functioncall functionName="llValue"/>
+    <functioncall functionName="llvalue"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="mAttrs"/>
+    <functioncall functionName="mClip"/>
+    <functioncall functionName="mClips"/>
+    <functioncall functionName="mCurrentTag"/>
+    <functioncall functionName="mErrorMsg"/>
+    <functioncall functionName="mExtensions"/>
+    <functioncall functionName="mFilename"/>
+    <functioncall functionName="mFiles"/>
+    <functioncall functionName="mFormat"/>
+    <functioncall functionName="mFormatName"/>
+    <functioncall functionName="mParentTag"/>
+    <functioncall functionName="mProject"/>
+    <functioncall functionName="mWaveTrack"/>
+    <functioncall functionName="m_fileNames"/>
+    <functioncall functionName="m_paths"/>
+    <functioncall functionName="make_shared"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="msg"/>
+    <functioncall functionName="n"/>
+    <functioncall functionName="node"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="oldNumTracks"/>
+    <functioncall functionName="origin"/>
+    <functioncall functionName="outTracks"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="pBlock"/>
+    <functioncall functionName="pClip"/>
+    <functioncall functionName="pLast"/>
+    <functioncall functionName="parent"/>
+    <functioncall functionName="pop_back"/>
+    <functioncall functionName="pos"/>
+    <functioncall functionName="projName"/>
+    <functioncall functionName="project"/>
+    <functioncall functionName="ptr"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="rate"/>
+    <functioncall functionName="rbegin"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="sampleFormat"/>
+    <functioncall functionName="samplePtr"/>
+    <functioncall functionName="second"/>
+    <functioncall functionName="sel0"/>
+    <functioncall functionName="sel1"/>
+    <functioncall functionName="selectionformat"/>
+    <functioncall functionName="setT0"/>
+    <functioncall functionName="setT1"/>
+    <functioncall functionName="sf"/>
+    <functioncall functionName="sf_close"/>
+    <functioncall functionName="sf_count_t"/>
+    <functioncall functionName="sf_open_fd"/>
+    <functioncall functionName="sf_readf_float"/>
+    <functioncall functionName="sf_readf_int"/>
+    <functioncall functionName="sf_readf_short"/>
+    <functioncall functionName="sf_seek"/>
+    <functioncall functionName="sf_subtype_is_integer"/>
+    <functioncall functionName="sf_subtype_more_than_16_bits"/>
+    <functioncall functionName="shared_ptr"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sizeFlags"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="start"/>
+    <functioncall functionName="static_assert"/>
+    <functioncall functionName="static_cast"/>
+    <functioncall functionName="strAttr"/>
+    <functioncall functionName="strValue"/>
+    <functioncall functionName="string"/>
+    <functioncall functionName="style"/>
+    <functioncall functionName="success"/>
+    <functioncall functionName="summaryFilename"/>
+    <functioncall functionName="sz"/>
+    <functioncall functionName="tag"/>
+    <functioncall functionName="tags"/>
+    <functioncall functionName="temp"/>
+    <functioncall functionName="this"/>
+    <functioncall functionName="tmpbuf"/>
+    <functioncall functionName="tmpptr"/>
+    <functioncall functionName="tolower"/>
+    <functioncall functionName="track"/>
+    <functioncall functionName="trackFactory"/>
+    <functioncall functionName="tracks"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="type"/>
+    <functioncall functionName="typename"/>
+    <functioncall functionName="uint32_t"/>
+    <functioncall functionName="uint64_t"/>
+    <functioncall functionName="uncaught_exception"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="v"/>
+    <functioncall functionName="vector"/>
+    <functioncall functionName="viewInfo"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="vpos"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="width"/>
+    <functioncall functionName="window"/>
+    <functioncall functionName="winid"/>
+    <functioncall functionName="wxASSERT"/>
+    <functioncall functionName="wxCENTRE"/>
+    <functioncall functionName="wxDD_DEFAULT_STYLE"/>
+    <functioncall functionName="wxDEFAULT_DIALOG_STYLE"/>
+    <functioncall functionName="wxDefaultCoord"/>
+    <functioncall functionName="wxDefaultPosition"/>
+    <functioncall functionName="wxDefaultSize"/>
+    <functioncall functionName="wxDialog"/>
+    <functioncall functionName="wxDialogWrapper"/>
+    <functioncall functionName="wxDirDialog"/>
+    <functioncall functionName="wxEVT_CHAR_HOOK"/>
+    <functioncall functionName="wxEmptyString"/>
+    <functioncall functionName="wxFD_DEFAULT_STYLE"/>
+    <functioncall functionName="wxFileDialogNameStr"/>
+    <functioncall functionName="wxFileNameFromPath"/>
+    <functioncall functionName="wxFileSelectorDefaultWildcardStr"/>
+    <functioncall functionName="wxFileSelectorPromptStr"/>
+    <functioncall functionName="wxID_ANY"/>
+    <functioncall functionName="wxLogError"/>
+    <functioncall functionName="wxLogWarning"/>
+    <functioncall functionName="wxMessageDialog"/>
+    <functioncall functionName="wxNO_BORDER"/>
+    <functioncall functionName="wxPATH_GET_VOLUME"/>
+    <functioncall functionName="wxPanel"/>
+    <functioncall functionName="wxPanelWrapper"/>
+    <functioncall functionName="wxRESIZE_BORDER"/>
+    <functioncall functionName="wxSIZE_AUTO"/>
+    <functioncall functionName="wxString"/>
+    <functioncall functionName="wxStrncmp"/>
+    <functioncall functionName="wxStrstr"/>
+    <functioncall functionName="wxT"/>
+    <functioncall functionName="wxTOKEN_RET_EMPTY_ALL"/>
+    <functioncall functionName="wxTabTraversalWrapper &lt; FileDialog &gt;"/>
+    <functioncall functionName="wxTabTraversalWrapper &lt; wxDialog &gt;"/>
+    <functioncall functionName="wxTabTraversalWrapper &lt; wxDirDialog &gt;"/>
+    <functioncall functionName="wxTabTraversalWrapper &lt; wxMessageDialog &gt;"/>
+    <functioncall functionName="wxTabTraversalWrapper &lt; wxPanel &gt;"/>
+    <functioncall functionName="wxTabTraversalWrapperCharHook"/>
+    <functioncall functionName="x"/>
+    <functioncall functionName="y"/>
+    <functioncall functionName="zoom"/>
+  </FileInfo>
+</analyzerinfo>

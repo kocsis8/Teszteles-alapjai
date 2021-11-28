@@ -1,0 +1,348 @@
+MaximizeWidth
+MaximizeHeight
+ContextMenuDelegate
+CommonTrackPanelCell
+FindTrack call:[DoFindTrack] noreturn:[DoFindTrack]
+FindTrack call:[DoFindTrack] noreturn:[DoFindTrack]
+MenuItem
+GetMinimized
+GetCumulativeHeightBefore
+GetExpandedHeight
+SetCumulativeHeightBefore call:[DoSetY] noreturn:[DoSetY]
+SavePlacements
+RestorePlacements
+GetLastHeight
+GetMultiView
+SetMultiView
+WaveformVRulerControls
+operator<
+operator==
+GetChangeHighlight
+SetChangeHighlight
+NeedChangeHighlight
+AssignUIHandlePtr call:[NeedChangeHighlight,SetChangeHighlight,lock,move,typeid,wxASSERT]
+GetTrack
+StopsOnKeystroke
+GetEnvelope
+StopsOnKeystroke
+FixedIntervals
+MovingIntervals
+AllFixed call:[empty] noreturn:[empty]
+GetTrack
+clear call:[clear]
+IsGripHit
+StopsOnKeystroke
+EnvPoint
+EnvPoint
+GetT
+SetT
+GetVal
+HandleXMLTag call:[Get,GetT,GetVal,SetT,SetVal] noreturn:[SetT,SetVal]
+HandleXMLChild
+GetOffset
+GetTrackLen
+GetExponential
+SetExponential
+GetMinValue
+GetMaxValue
+ClampValue call:[max,min] noreturn:[max]
+Clear call:[clear] noreturn:[clear]
+InsertOrReplace call:[InsertOrReplaceRelative] noreturn:[InsertOrReplaceRelative]
+operator[]
+GetDragPoint
+GetDragPointValid
+SetVal call:[ClampValue] noreturn:[ClampValue]
+GetRangeLower
+GetRangeUpper
+SetRangeLower
+SetRangeUpper
+GetTracksFitVerticallyZoomed
+SetTracksFitVerticallyZoomed
+GetShowId3Dialog
+SetShowId3Dialog
+GetTool
+SetBrushRadius
+GetBrushRadius
+SetSmartSelection
+IsSmartSelection
+SetOvertones
+IsOvertones
+GetPlaySpeed call:[load] noreturn:[load]
+SetPlaySpeed call:[store] noreturn:[store]
+IsSoloSimple call:[wxT] noreturn:[wxT]
+IsSoloNone call:[wxT] noreturn:[wxT]
+EmptyCanBeDirty
+GetShowSplashScreen
+SetBackgroundBrushes
+TrackPanelMouseState
+TrackPanelMouseEvent
+SpecCache
+SpecCache
+SpecPxCache
+WaveDisplay
+Allocate call:[resize]
+WaveDisplay
+GetRate
+SetColourIndex
+GetColourIndex
+GetEnvelope call:[get] noreturn:[get]
+GetEnvelope call:[get] noreturn:[get]
+GetSequence call:[get] noreturn:[get]
+GetSequence call:[get] noreturn:[get]
+MarkChanged
+GetCutLines
+GetCutLines
+NumCutLines call:[size] noreturn:[size]
+GetIsPlaceholder
+SetIsPlaceholder
+operator==
+operator!=
+CompatibleTrackKinds call:[return]
+value
+value call:[value] noreturn:[value]
+TrackId
+TrackId
+operator==
+operator!=
+operator<
+ConstTrackInterval call:[wxASSERT] noreturn:[wxASSERT]
+Start
+End
+Extra call:[get] noreturn:[get]
+Extra call:[get] noreturn:[get]
+GetId
+SetId
+SharedPointer call:[shared_from_this]
+SharedPointer call:[shared_from_this]
+SharedPointer
+SharedPointer
+HasOwner call:[GetOwner]
+GetOwner call:[lock] noreturn:[lock]
+GetName
+GetDefaultName
+SetDefaultName
+GetSelected
+GetChannel
+Offset call:[GetOffset,SetOffset] noreturn:[SetOffset]
+SetOffset
+SetPan
+SetPanFromChannelType
+GetKind
+SameKindAs call:[GetKind] noreturn:[GetKind]
+operator()
+operator() call:[function] noreturn:[function]
+operator() call:[function] noreturn:[function]
+operator()
+operator()
+TypeSwitch call:[GetKind,sizeof...,static_assert]
+TypeSwitch call:[GetKind,sizeof...,static_assert]
+GetErrorOpening
+AudioTrack
+AudioTrack
+WriteXMLAttributes
+HandleXMLAttribute
+PlayableTrack
+PlayableTrack
+GetMute
+GetSolo
+GetNotMute
+GetNotSolo
+track_cast call:[CompatibleTrackKinds,GetKind,track_kind < BareType >]
+TrackListEvent
+Clone call:[TrackListEvent] noreturn:[TrackListEvent]
+GetOwner
+GetOwner
+begin call:[Any,begin] noreturn:[begin]
+end call:[Any,end] noreturn:[end]
+begin call:[Any,begin] noreturn:[begin]
+end call:[Any,end] noreturn:[end]
+cbegin call:[begin] noreturn:[begin]
+cend call:[end] noreturn:[end]
+Find call:[GetNode,GetOwner,get]
+Find call:[GetNode,GetOwner,get]
+FindLeader call:[Filter < const Track >,FindLeader] noreturn:[Filter < const Track >]
+Any
+Any
+Selected
+Selected
+Leaders
+Leaders
+SelectedLeaders
+SelectedLeaders
+SingletonRange call:[EndingAfter,GetOwner,StartingWith] noreturn:[EndingAfter]
+SyncLockGroup call:[Filter < const Track >,SyncLockGroup] noreturn:[Filter < const Track >]
+Channels_ call:[Filter]
+Channels call:[FindLeader,GetOwner]
+AddToHead call:[DoAddToHead]
+Add call:[DoAdd]
+Move call:[MoveDown,MoveUp] noreturn:[MoveDown]
+Lock call:[get,lock]
+Tracks call:[getBegin,getEnd]
+Tracks call:[getBegin,getEnd]
+MakeTrackIterator call:[getBegin,getEnd]
+EndIterator call:[getEnd]
+isNull call:[end,return]
+getEnd call:[end]
+getBegin call:[begin]
+getNext call:[isNull]
+getPrev call:[getBegin,getEnd] noreturn:[getEnd]
+WaveTrackLocation
+operator==
+operator!=
+Region
+Region
+operator<
+GetWaveColorIndex
+GetSampleFormat
+GetFloats call:[Get] noreturn:[Get]
+GetClips
+GetClips
+AllClipsIterator
+AllClipsIterator call:[push] noreturn:[push]
+operator* call:[back,empty,get] noreturn:[get]
+operator== call:[empty] noreturn:[empty]
+operator!=
+AllClipsConstIterator
+AllClipsConstIterator
+operator*
+operator++
+operator==
+operator!=
+GetAllClips
+GetAllClips
+GetCachedLocations
+GetLastScaleType
+GetLastdBRange
+IntervalData
+GetClip
+GetClip
+GetKind
+WaveTrackCache
+WaveTrackCache call:[SetTrack] noreturn:[SetTrack]
+GetTrack
+Buffer
+Free call:[reset]
+end
+swap call:[swap] noreturn:[swap]
+GetSampleBlockFactory
+IsDefault call:[defaults] noreturn:[defaults]
+isLinear
+DetailedHitTest call:[DoDetailedHitTest,FindTrack,Get,GetEnvelopeAtTime,GetX,HitAnywhere,HitTest,PositionToTime,WaveTrackHitTest,move,push_back] noreturn:[move,push_back]
+DoSetMinimized call:[DoSetMinimized,FindTrack,get] noreturn:[DoSetMinimized]
+SubViewType global:[sType]
+DoGetVRulerControls call:[shared_from_this]
+DrawWaveformBackground call:[DrawRectangle,DrawSyncLockTiles,Get,GetBottom,GetTop,GetWaveYPos,Line,PositionToTime,SetBrush,SetPen,TimeToPosition,max,min,wxMax] noreturn:[DrawRectangle,DrawSyncLockTiles,Line]
+WavePortion
+FindWavePortions call:[FindIntervals,WavePortion,begin,end,max,push_back,wxASSERT] noreturn:[push_back]
+DrawMinMaxRMS call:[DrawPoint,Get,GetMillisecond,GetTicks,GetWaveYPos,Line,Now,SetPen,fabs,long,max,min,reinit] noreturn:[DrawPoint,Line,SetPen,reinit]
+DrawIndividualSamples call:[DrawEllipse,Get,GetEnvelope,GetPlaySamplesCount,GetPlayStartTime,GetRate,GetSamples,GetValue,GetWaveYPos,Line,PositionToTime,SetBrush,SetPen,TimeToPosition,as_double,as_size_t,ceil,decltype,floor,get,long,max,min,reinit,sampleCount] noreturn:[DrawEllipse,Line,max,reinit]
+DrawEnvLine call:[Line] noreturn:[Line]
+DrawEnvelope call:[DrawEnvLine,GetWaveYPos,SetPen] noreturn:[DrawEnvLine]
+DrawClipWaveform call:[Allocate,ClipDetailsVisible,DrawClipEdges,DrawClipFolded,DrawEnvelope,DrawIndividualSamples,DrawMinMaxRMS,DrawNegativeOffsetTrackArrows,DrawPoints,DrawWaveformBackground,FindWavePortions,Get,GetClipRect,GetColourIndex,GetDisplayBounds,GetEnvelope,GetPlaySamplesCount,GetSelected,GetValues,GetWaveDisplay,GetWaveformSettings,Intersect,IsSyncLockSelected,LongSamplesToTime,PositionToTime,SetColours,SetPen,TimeToLongSamples,ZeroLevelYCoordinate,display,fisheyeDisplay,floor,size,t0,t1,vEnv,vEnv2,wxASSERT] noreturn:[DrawClipEdges,DrawIndividualSamples,DrawMinMaxRMS,DrawNegativeOffsetTrackArrows,DrawPoints,DrawWaveformBackground,LongSamplesToTime]
+DrawTimeSlider call:[Dark,Light,Line] noreturn:[Line]
+DoDraw call:[DrawBackgroundWithSelection,DrawBoldBoundaries,DrawClipWaveform,DrawTimeSlider,Get,GetClips,GetWaveformSettings,get,isLinear] noreturn:[DrawClipWaveform,DrawTimeSlider]
+Draw call:[Channels,DoDraw,Draw,FindTrack,Get,GetMute,GetSelectedClip,GetSolo,GetWaveTrackView,SubstitutePendingChangedTrack,UpdateLocationsCache,get,lock,use_count,wxASSERT] noreturn:[DoDraw,Draw,UpdateLocationsCache]
+WaveTrackControls
+CommandFlagOptions
+Options
+Options
+Options
+ToolbarMenuVisitor
+operatorAudacityProject&
+WholeMenu
+MenuItem
+ConditionalGroupItem
+DefaultFinder
+FinderScope
+CommandItem
+CommandGroupItem
+SpecialItem
+MenuPart
+Items
+Section
+Menu
+Menu call:[move]
+ConditionalItems
+ConditionalItems call:[move]
+MenuOrItems call:[Items,empty] noreturn:[Items]
+MenuOrItems call:[Items,empty,move] noreturn:[Items]
+Command
+CommandGroup call:[move]
+Special
+PopupMenuTableEntry call:[wxASSERT] noreturn:[wxASSERT]
+PopupMenuVisitor
+PopupMenuTable
+Id
+Caption
+GetRegistry call:[get] noreturn:[get]
+AttachedItem call:[RegisterItem,move] noreturn:[RegisterItem]
+Get call:[InitUserData,Populate] noreturn:[InitUserData,Populate]
+Clear call:[reset] noreturn:[reset]
+MakeLabel call:[Format,XXO]
+AppendItem call:[Append] noreturn:[Append]
+AppendRadioItem call:[Append] noreturn:[Append]
+AppendCheckItem call:[Append] noreturn:[Append]
+Computed call:[Computed] noreturn:[Computed]
+Append call:[Append,Computed] noreturn:[Append]
+ReserveId
+ProjectHistory
+GetDirty
+SetDirty
+WaveColorMenuTable
+Instance
+InitUserData
+GetWaveColorStr call:[Format,XXO] noreturn:[Format]
+Populate call:[AppendRadioItem,Caption,Check,Enable,Get,GetWaveColorIndex,GetWaveColorStr,GetWaveTrackMenuTable,Id,IdOfWaveColor,IsAudioActive,ReserveId,call_once,clear,get,push_back] noreturn:[AppendRadioItem,Enable,ReserveId]
+IdOfWaveColor
+OnWaveColorChange call:[Channels,Format,Get,GetId,GetName,GetWaveColorStr,PushState,SetWaveColorIndex,XO,wxASSERT] noreturn:[SetWaveColorIndex]
+Computed < WaveTrackPopupMenuTable > call:[factory] noreturn:[factory]
+TrackIterRange < Track >
+operator+ call:[Filter,GetPredicate,pred1,pred2] noreturn:[pred2]
+operator+ call:[mem_fn,operator+] noreturn:[operator+]
+operator- call:[operator+,pred2] noreturn:[operator+,pred2]
+operator- call:[mem_fn,not1,operator+] noreturn:[operator+]
+Filter
+StartingWith call:[GetPredicate,find]
+EndingAfter call:[GetPredicate,base,find,reversal]
+Excluding call:[operator-] noreturn:[operator-]
+Visit call:[TypeSwitch] noreturn:[TypeSwitch]
+VisitWhile call:[TypeSwitch]
+TrackIterRange < const Track >
+operator+ call:[Filter,GetPredicate,pred1,pred2] noreturn:[pred2]
+operator+ call:[mem_fn,operator+] noreturn:[operator+]
+operator- call:[operator+,pred2] noreturn:[operator+,pred2]
+operator- call:[mem_fn,not1,operator+] noreturn:[operator+]
+Filter
+StartingWith call:[GetPredicate,find]
+EndingAfter call:[GetPredicate,base,find,reversal]
+Excluding call:[operator-] noreturn:[operator-]
+Visit call:[TypeSwitch] noreturn:[TypeSwitch]
+VisitWhile call:[TypeSwitch]
+TrackIter < Track > call:[operator++,valid] noreturn:[operator++]
+Filter
+Filter
+GetPredicate
+operator++ call:[valid,while] noreturn:[while]
+operator++ call:[operator++]
+operator-- call:[valid,while]
+operator-- call:[operator--]
+operator*
+advance call:[advance]
+operator==
+operator!=
+valid call:[mPred,track_cast < Track * >] noreturn:[mPred]
+TrackIter < const Track > call:[operator++,valid] noreturn:[operator++]
+Filter
+GetPredicate
+operator++ call:[valid,while] noreturn:[while]
+operator++ call:[operator++]
+operator-- call:[valid,while]
+operator-- call:[operator--]
+operator*
+advance call:[advance]
+operator==
+operator!=
+valid call:[mPred,track_cast < const Track * >] noreturn:[mPred]
+track_cast < Track * > call:[CompatibleTrackKinds,GetKind,track_kind < BareType >]
+track_cast < const Track * > call:[CompatibleTrackKinds,GetKind,track_kind < BareType >]
+track_kind < BareType > call:[value] noreturn:[value]

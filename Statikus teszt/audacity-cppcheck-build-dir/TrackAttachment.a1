@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3286418734">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="CopyTo" lineNumber="16"/>
+    <functiondecl functionName="Reparent" lineNumber="20"/>
+    <functiondecl functionName="WriteXMLAttributes" lineNumber="24"/>
+    <functiondecl functionName="HandleXMLAttribute" lineNumber="28"/>
+    <functioncall functionName="Track"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="default"/>
+  </FileInfo>
+</analyzerinfo>

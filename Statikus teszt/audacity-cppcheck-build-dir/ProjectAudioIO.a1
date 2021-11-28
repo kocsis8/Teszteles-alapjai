@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2645408321">
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;project&apos; can be reduced." verbose="The scope of the variable &apos;project&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ProjectAudioIO.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\ProjectAudioIO.cpp" line="66" column="10"/>
+            <symbol>project</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;project&apos; can be reduced." verbose="The scope of the variable &apos;project&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ProjectAudioIO.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\ProjectAudioIO.cpp" line="83" column="10"/>
+            <symbol>project</symbol>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functioncall functionName="AudacityProject"/>
+    <functioncall functionName="Get"/>
+    <functioncall functionName="GetAudioIOToken"/>
+    <functioncall functionName="IsStreamActive"/>
+    <functioncall functionName="Meter"/>
+    <functioncall functionName="PROHIBITED"/>
+    <functioncall functionName="ProjectAudioIO"/>
+    <functioncall functionName="SetCaptureMeter"/>
+    <functioncall functionName="SetPlaybackMeter"/>
+    <functioncall functionName="capture"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="const_cast"/>
+    <functioncall functionName="gAudioIO"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="mCaptureMeter"/>
+    <functioncall functionName="mPlaybackMeter"/>
+    <functioncall functionName="mProject"/>
+    <functioncall functionName="make_shared"/>
+    <functioncall functionName="parent"/>
+    <functioncall functionName="playback"/>
+    <functioncall functionName="project"/>
+    <functioncall functionName="sAudioIOKey"/>
+    <functioncall functionName="shared_from_this"/>
+    <functioncall functionName="token"/>
+  </FileInfo>
+</analyzerinfo>

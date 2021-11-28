@@ -1,0 +1,272 @@
+operator==
+operator!=
+CompatibleTrackKinds call:[return]
+value
+value call:[value] noreturn:[value]
+TrackId
+TrackId
+operator==
+operator!=
+operator<
+ConstTrackInterval call:[wxASSERT] noreturn:[wxASSERT]
+Start
+End
+Extra call:[get] noreturn:[get]
+Extra call:[get] noreturn:[get]
+GetId
+SetId
+SharedPointer call:[shared_from_this]
+SharedPointer call:[shared_from_this]
+SharedPointer
+SharedPointer
+HasOwner call:[GetOwner]
+GetOwner call:[lock] noreturn:[lock]
+GetName
+GetDefaultName
+SetDefaultName
+GetSelected
+GetChannel
+Offset call:[GetOffset,SetOffset] noreturn:[SetOffset]
+SetOffset
+SetPan
+SetPanFromChannelType
+GetKind
+SameKindAs call:[GetKind] noreturn:[GetKind]
+operator()
+operator() call:[function] noreturn:[function]
+operator() call:[function] noreturn:[function]
+operator()
+operator()
+TypeSwitch call:[GetKind,sizeof...,static_assert]
+TypeSwitch call:[GetKind,sizeof...,static_assert]
+GetErrorOpening
+AudioTrack
+AudioTrack
+WriteXMLAttributes
+HandleXMLAttribute
+PlayableTrack
+PlayableTrack
+GetMute
+GetSolo
+GetNotMute
+GetNotSolo
+track_cast call:[CompatibleTrackKinds,GetKind,track_kind < BareType >]
+TrackListEvent
+Clone call:[TrackListEvent] noreturn:[TrackListEvent]
+GetOwner
+GetOwner
+begin call:[Any,begin] noreturn:[begin]
+end call:[Any,end] noreturn:[end]
+begin call:[Any,begin] noreturn:[begin]
+end call:[Any,end] noreturn:[end]
+cbegin call:[begin] noreturn:[begin]
+cend call:[end] noreturn:[end]
+Find call:[GetNode,GetOwner,get]
+Find call:[GetNode,GetOwner,get]
+FindLeader call:[Filter < const Track >,FindLeader] noreturn:[Filter < const Track >]
+Any
+Any
+Selected
+Selected
+Leaders
+Leaders
+SelectedLeaders
+SelectedLeaders
+SingletonRange call:[EndingAfter,GetOwner,StartingWith] noreturn:[EndingAfter]
+SyncLockGroup call:[Filter < const Track >,SyncLockGroup] noreturn:[Filter < const Track >]
+Channels_ call:[Filter]
+Channels call:[FindLeader,GetOwner]
+AddToHead call:[DoAddToHead]
+Add call:[DoAdd]
+Move call:[MoveDown,MoveUp] noreturn:[MoveDown]
+Lock call:[get,lock]
+Tracks call:[getBegin,getEnd]
+Tracks call:[getBegin,getEnd]
+MakeTrackIterator call:[getBegin,getEnd]
+EndIterator call:[getEnd]
+isNull call:[end,return]
+getEnd call:[end]
+getBegin call:[begin]
+getNext call:[isNull]
+getPrev call:[getBegin,getEnd] noreturn:[getEnd]
+Alg_atoms
+Alg_atoms
+Alg_parameter
+attr_type call:[return] noreturn:[return]
+attr_name call:[return] noreturn:[return]
+set_attr
+Alg_parameters
+is_note call:[return] noreturn:[return]
+is_update call:[return] noreturn:[return]
+get_type
+get_selected
+set_selected
+get_identifier
+set_identifier
+Alg_event
+Alg_event
+Alg_note
+Alg_update
+Alg_update
+length
+operator[] call:[assert]
+Alg_events
+set_events
+Alg_event_list
+get_type
+get_owner
+get_beat_dur
+set_beat_dur
+get_real_dur
+set_real_dur
+get_last_error_message
+Alg_beat
+Alg_beat
+operator[] call:[assert]
+Alg_beats call:[expand]
+Alg_beats
+Alg_time_map
+length
+dereference
+reference
+Aligner
+Aligner
+Aligner
+Serial_buffer
+Serial_buffer
+get_posn call:[return]
+get_len
+Serial_read_buffer
+get_pad
+init_for_read
+get_char
+unget_chars
+get_double call:[aligner,get_int32]
+get_int32
+get_float
+get_string call:[assert,get_pad,strlen] noreturn:[assert]
+check_input_buffer call:[assert,get_posn] noreturn:[assert]
+Serial_write_buffer
+init_for_write
+store_int32 call:[assert,get_posn,sizeof]
+set_string call:[assert,pad] noreturn:[assert,pad]
+set_int32
+set_double call:[aligner,set_int32] noreturn:[set_int32]
+set_float
+set_char
+pad call:[set_char] noreturn:[set_char]
+to_heap call:[get_posn,memcpy]
+operator[] call:[assert]
+Alg_track call:[set_time_map]
+Alg_track call:[dereference] noreturn:[dereference]
+to_alg_seq call:[get_type,return] noreturn:[return]
+get_units_are_seconds
+get_dur call:[return] noreturn:[return]
+get_time_map
+add call:[insert] noreturn:[insert]
+set_in_use
+Alg_time_sig
+Alg_time_sig
+Alg_time_sigs
+operator[] call:[assert]
+Alg_time_sigs
+length
+operator[] call:[assert]
+length
+Alg_tracks
+length
+Alg_iterator
+begin call:[begin_seq] noreturn:[begin_seq]
+basic_initialization call:[add_track] noreturn:[add_track]
+Alg_seq call:[basic_initialization] noreturn:[basic_initialization]
+Alg_seq call:[seq_from_track] noreturn:[seq_from_track]
+Alg_seq call:[seq_from_track] noreturn:[seq_from_track]
+get_read_error
+add_track call:[add_track,get_time_map] noreturn:[add_track]
+add call:[assert] noreturn:[assert]
+GetNumChannels
+GetMaxNumChannels
+GetNumTracks
+TotalCorrection
+PlaybackSlice
+ReversedTime
+GetTrackTime call:[load] noreturn:[load]
+SetTrackTime call:[store] noreturn:[store]
+ResetMode call:[store] noreturn:[store]
+AudioTime
+MidiLoopOffset
+GetHasSolo
+AudioIOExtIterator
+operator++
+operator==
+operator!=
+begin
+end
+Extensions
+GetListener call:[lock] noreturn:[lock]
+SetRecordingException call:[wxAtomicInc] noreturn:[wxAtomicInc]
+ClearRecordingException call:[wxAtomicDec] noreturn:[wxAtomicDec]
+LostCaptureIntervals
+SeekStream
+GetLastPlaybackTime
+GetOwningProject call:[lock] noreturn:[lock]
+GetCaptureFormat
+GetNumPlaybackChannels
+GetNumCaptureChannels
+util_GetTime call:[gettimeofday,return]
+SystemTime call:[util_GetTime]
+MidiTime call:[MidiTime] noreturn:[MidiTime]
+Initialize call:[exchange,store] noreturn:[exchange]
+Read call:[exchange,load,move,store,while] noreturn:[exchange]
+Write call:[exchange,load,store,while] noreturn:[exchange,store]
+Write call:[exchange,load,move,store,while] noreturn:[exchange,store]
+TrackIterRange < Track >
+operator+ call:[Filter,GetPredicate,pred1,pred2] noreturn:[pred2]
+operator+ call:[mem_fn,operator+] noreturn:[operator+]
+operator- call:[operator+,pred2] noreturn:[operator+,pred2]
+operator- call:[mem_fn,not1,operator+] noreturn:[operator+]
+Filter
+StartingWith call:[GetPredicate,find]
+EndingAfter call:[GetPredicate,base,find,reversal]
+Excluding call:[operator-] noreturn:[operator-]
+Visit call:[TypeSwitch] noreturn:[TypeSwitch]
+VisitWhile call:[TypeSwitch]
+TrackIterRange < const Track >
+operator+ call:[Filter,GetPredicate,pred1,pred2] noreturn:[pred2]
+operator+ call:[mem_fn,operator+] noreturn:[operator+]
+operator- call:[operator+,pred2] noreturn:[operator+,pred2]
+operator- call:[mem_fn,not1,operator+] noreturn:[operator+]
+Filter
+StartingWith call:[GetPredicate,find]
+EndingAfter call:[GetPredicate,base,find,reversal]
+Excluding call:[operator-] noreturn:[operator-]
+Visit call:[TypeSwitch] noreturn:[TypeSwitch]
+VisitWhile call:[TypeSwitch]
+TrackIter < Track > call:[operator++,valid] noreturn:[operator++]
+Filter
+Filter
+GetPredicate
+operator++ call:[valid,while] noreturn:[while]
+operator++ call:[operator++]
+operator-- call:[valid,while]
+operator-- call:[operator--]
+operator*
+advance call:[advance]
+operator==
+operator!=
+valid call:[mPred,track_cast < Track * >] noreturn:[mPred]
+TrackIter < const Track > call:[operator++,valid] noreturn:[operator++]
+Filter
+GetPredicate
+operator++ call:[valid,while] noreturn:[while]
+operator++ call:[operator++]
+operator-- call:[valid,while]
+operator-- call:[operator--]
+operator*
+advance call:[advance]
+operator==
+operator!=
+valid call:[mPred,track_cast < const Track * >] noreturn:[mPred]
+track_cast < Track * > call:[CompatibleTrackKinds,GetKind,track_kind < BareType >]
+track_cast < const Track * > call:[CompatibleTrackKinds,GetKind,track_kind < BareType >]
+track_kind < BareType > call:[value] noreturn:[value]

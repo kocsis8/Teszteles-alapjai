@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2691710610">
+  <FileInfo check="Class">
+<class name="HitTestPreview" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/HitTestResult.h" line="19" col="1" hash="558950701565496408"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="HitTestPreview" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/HitTestResult.h" line="19" col="1" hash="558950701565496408"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="HitTestPreview" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/HitTestResult.h" line="19" col="1" hash="558950701565496408"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="Draw" lineNumber="24"/>
+    <functiondecl functionName="UpdateRuler" lineNumber="46"/>
+    <functiondecl functionName="Draw" lineNumber="24"/>
+    <functiondecl functionName="UpdateRuler" lineNumber="46"/>
+    <functiondecl functionName="Draw" lineNumber="24"/>
+    <functiondecl functionName="UpdateRuler" lineNumber="46"/>
+    <functioncall functionName="Axis"/>
+    <functioncall functionName="BevelTrackInfo"/>
+    <functioncall functionName="CommonTrackPanelCell"/>
+    <functioncall functionName="DoFindTrack"/>
+    <functioncall functionName="Draw"/>
+    <functioncall functionName="HitTestPreview"/>
+    <functioncall functionName="Inflate"/>
+    <functioncall functionName="LabelTrackVRulerControls"/>
+    <functioncall functionName="MenuItem"/>
+    <functioncall functionName="NPasses"/>
+    <functioncall functionName="PROHIBITED"/>
+    <functioncall functionName="PassBackground"/>
+    <functioncall functionName="PassBorders"/>
+    <functioncall functionName="PassControls"/>
+    <functioncall functionName="PassFocus"/>
+    <functioncall functionName="PassMargins"/>
+    <functioncall functionName="PassSnapping"/>
+    <functioncall functionName="PassTracks"/>
+    <functioncall functionName="PassZooming"/>
+    <functioncall functionName="Track"/>
+    <functioncall functionName="TrackArtist"/>
+    <functioncall functionName="TrackPanelCell"/>
+    <functioncall functionName="TrackPanelDrawingContext"/>
+    <functioncall functionName="TrackPanelNode"/>
+    <functioncall functionName="TrackVRulerControls"/>
+    <functioncall functionName="TrackView"/>
+    <functioncall functionName="UIHandle"/>
+    <functioncall functionName="X"/>
+    <functioncall functionName="Y"/>
+    <functioncall functionName="action"/>
+    <functioncall functionName="bev"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="const_cast"/>
+    <functioncall functionName="context"/>
+    <functioncall functionName="cursor_"/>
+    <functioncall functionName="dc"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="delete"/>
+    <functioncall functionName="enabled"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="height"/>
+    <functioncall functionName="iPass"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="internal"/>
+    <functioncall functionName="message_"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="msgid"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="pTrackView"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="rect"/>
+    <functioncall functionName="rect_"/>
+    <functioncall functionName="selectedBrushIn"/>
+    <functioncall functionName="selectedPenIn"/>
+    <functioncall functionName="shared_ptr"/>
+    <functioncall functionName="this"/>
+    <functioncall functionName="tooltip_"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="unselectedBrushIn"/>
+    <functioncall functionName="unselectedPenIn"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="width"/>
+    <functioncall functionName="wxCoord"/>
+    <functioncall functionName="x"/>
+    <functioncall functionName="y"/>
+  </FileInfo>
+</analyzerinfo>

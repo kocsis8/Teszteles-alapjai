@@ -1,0 +1,487 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1893111120">
+        <error id="useInitializationList" severity="performance" msg="Variable &apos;mEffectType&apos; is assigned in constructor body. Consider performing initialization in initialization list." verbose="When an object of a class is created, the constructors of all member variables are called consecutively in the order the variables are declared, even if you don&apos;t explicitly write them to the initialization list. You could avoid assigning &apos;mEffectType&apos; a value by passing the value to the constructor in the initialization list." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PluginManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\PluginManager.cpp" line="54" column="4"/>
+            <symbol>mEffectType</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Module&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Module&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PluginManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\ModuleManager.h" line="42" column="4"/>
+            <symbol>Module</symbol>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;plugType!=PluginTypeNone&apos; is always true" verbose="Condition &apos;plugType!=PluginTypeNone&apos; is always true" cwe="571" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PluginManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\PluginManager.cpp" line="1282" column="25" info="Condition &apos;plugType!=PluginTypeNone&apos; is always true"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\PluginManager.cpp" line="1243" column="20" info="Assuming that condition &apos;plugType==PluginTypeNone&apos; is not redundant"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;padding&apos; can be reduced." verbose="The scope of the variable &apos;padding&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PluginManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\PluginManager.cpp" line="1765" column="8"/>
+            <symbol>padding</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: id" verbose="Unused variable: id" cwe="563" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PluginManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\PluginManager.cpp" line="601" column="22"/>
+            <symbol>id</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ModuleManager.h:146:6" call-funcname="RegisterProvider" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ModuleManager.h" line="153" col="29" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Class">
+<class name="Range" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PluginManager.h" line="257" col="4" hash="13667280385156949616"/>
+<class name="Init" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ModuleManager.h" line="152" col="8" hash="10983186955651304209"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ModuleManager.h:146:6" call-funcname="RegisterProvider" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ModuleManager.h" line="153" col="29" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Class">
+<class name="Range" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PluginManager.h" line="257" col="4" hash="13667280385156949616"/>
+<class name="Init" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ModuleManager.h" line="152" col="8" hash="10983186955651304209"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ModuleManager.h:146:6" call-funcname="RegisterProvider" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ModuleManager.h" line="153" col="29" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Class">
+<class name="Range" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/PluginManager.h" line="257" col="4" hash="13667280385156949616"/>
+<class name="Init" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ModuleManager.h" line="152" col="8" hash="10983186955651304209"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="IsInstantiated" lineNumber="68"/>
+    <functiondecl functionName="GetInstance" lineNumber="73"/>
+    <functiondecl functionName="SetInstance" lineNumber="89"/>
+    <functiondecl functionName="GetPluginType" lineNumber="95"/>
+    <functiondecl functionName="GetID" lineNumber="100"/>
+    <functiondecl functionName="GetProviderID" lineNumber="105"/>
+    <functiondecl functionName="GetPath" lineNumber="110"/>
+    <functiondecl functionName="GetSymbol" lineNumber="115"/>
+    <functiondecl functionName="GetUntranslatedVersion" lineNumber="120"/>
+    <functiondecl functionName="GetVendor" lineNumber="125"/>
+    <functiondecl functionName="IsEnabled" lineNumber="130"/>
+    <functiondecl functionName="IsValid" lineNumber="135"/>
+    <functiondecl functionName="SetPluginType" lineNumber="140"/>
+    <functiondecl functionName="SetID" lineNumber="145"/>
+    <functiondecl functionName="SetProviderID" lineNumber="150"/>
+    <functiondecl functionName="SetPath" lineNumber="155"/>
+    <functiondecl functionName="SetSymbol" lineNumber="160"/>
+    <functiondecl functionName="SetVersion" lineNumber="165"/>
+    <functiondecl functionName="SetVendor" lineNumber="170"/>
+    <functiondecl functionName="SetEnabled" lineNumber="175"/>
+    <functiondecl functionName="SetValid" lineNumber="180"/>
+    <functiondecl functionName="GetEffectFamily" lineNumber="187"/>
+    <functiondecl functionName="GetEffectType" lineNumber="192"/>
+    <functiondecl functionName="IsEffectInteractive" lineNumber="197"/>
+    <functiondecl functionName="IsEffectDefault" lineNumber="202"/>
+    <functiondecl functionName="IsEffectLegacy" lineNumber="207"/>
+    <functiondecl functionName="IsEffectRealtime" lineNumber="212"/>
+    <functiondecl functionName="IsEffectAutomatable" lineNumber="217"/>
+    <functiondecl functionName="SetEffectFamily" lineNumber="222"/>
+    <functiondecl functionName="SetEffectType" lineNumber="227"/>
+    <functiondecl functionName="SetEffectInteractive" lineNumber="232"/>
+    <functiondecl functionName="SetEffectDefault" lineNumber="237"/>
+    <functiondecl functionName="SetEffectLegacy" lineNumber="242"/>
+    <functiondecl functionName="SetEffectRealtime" lineNumber="247"/>
+    <functiondecl functionName="SetEffectAutomatable" lineNumber="252"/>
+    <functiondecl functionName="GetImporterIdentifier" lineNumber="259"/>
+    <functiondecl functionName="SetImporterIdentifier" lineNumber="264"/>
+    <functiondecl functionName="GetImporterExtensions" lineNumber="269"/>
+    <functiondecl functionName="SetImporterExtensions" lineNumber="275"/>
+    <functiondecl functionName="DefaultRegistrationCallback" lineNumber="329"/>
+    <functiondecl functionName="AudacityCommandRegistrationCallback" lineNumber="342"/>
+    <functiondecl functionName="IsInstantiated" lineNumber="68"/>
+    <functiondecl functionName="GetInstance" lineNumber="73"/>
+    <functiondecl functionName="SetInstance" lineNumber="89"/>
+    <functiondecl functionName="GetPluginType" lineNumber="95"/>
+    <functiondecl functionName="GetID" lineNumber="100"/>
+    <functiondecl functionName="GetProviderID" lineNumber="105"/>
+    <functiondecl functionName="GetPath" lineNumber="110"/>
+    <functiondecl functionName="GetSymbol" lineNumber="115"/>
+    <functiondecl functionName="GetUntranslatedVersion" lineNumber="120"/>
+    <functiondecl functionName="GetVendor" lineNumber="125"/>
+    <functiondecl functionName="IsEnabled" lineNumber="130"/>
+    <functiondecl functionName="IsValid" lineNumber="135"/>
+    <functiondecl functionName="SetPluginType" lineNumber="140"/>
+    <functiondecl functionName="SetID" lineNumber="145"/>
+    <functiondecl functionName="SetProviderID" lineNumber="150"/>
+    <functiondecl functionName="SetPath" lineNumber="155"/>
+    <functiondecl functionName="SetSymbol" lineNumber="160"/>
+    <functiondecl functionName="SetVersion" lineNumber="165"/>
+    <functiondecl functionName="SetVendor" lineNumber="170"/>
+    <functiondecl functionName="SetEnabled" lineNumber="175"/>
+    <functiondecl functionName="SetValid" lineNumber="180"/>
+    <functiondecl functionName="GetEffectFamily" lineNumber="187"/>
+    <functiondecl functionName="GetEffectType" lineNumber="192"/>
+    <functiondecl functionName="IsEffectInteractive" lineNumber="197"/>
+    <functiondecl functionName="IsEffectDefault" lineNumber="202"/>
+    <functiondecl functionName="IsEffectLegacy" lineNumber="207"/>
+    <functiondecl functionName="IsEffectRealtime" lineNumber="212"/>
+    <functiondecl functionName="IsEffectAutomatable" lineNumber="217"/>
+    <functiondecl functionName="SetEffectFamily" lineNumber="222"/>
+    <functiondecl functionName="SetEffectType" lineNumber="227"/>
+    <functiondecl functionName="SetEffectInteractive" lineNumber="232"/>
+    <functiondecl functionName="SetEffectDefault" lineNumber="237"/>
+    <functiondecl functionName="SetEffectLegacy" lineNumber="242"/>
+    <functiondecl functionName="SetEffectRealtime" lineNumber="247"/>
+    <functiondecl functionName="SetEffectAutomatable" lineNumber="252"/>
+    <functiondecl functionName="GetImporterIdentifier" lineNumber="259"/>
+    <functiondecl functionName="SetImporterIdentifier" lineNumber="264"/>
+    <functiondecl functionName="GetImporterExtensions" lineNumber="269"/>
+    <functiondecl functionName="SetImporterExtensions" lineNumber="275"/>
+    <functiondecl functionName="DefaultRegistrationCallback" lineNumber="329"/>
+    <functiondecl functionName="AudacityCommandRegistrationCallback" lineNumber="342"/>
+    <functiondecl functionName="IsInstantiated" lineNumber="68"/>
+    <functiondecl functionName="GetInstance" lineNumber="73"/>
+    <functiondecl functionName="SetInstance" lineNumber="89"/>
+    <functiondecl functionName="GetPluginType" lineNumber="95"/>
+    <functiondecl functionName="GetID" lineNumber="100"/>
+    <functiondecl functionName="GetProviderID" lineNumber="105"/>
+    <functiondecl functionName="GetPath" lineNumber="110"/>
+    <functiondecl functionName="GetSymbol" lineNumber="115"/>
+    <functiondecl functionName="GetUntranslatedVersion" lineNumber="120"/>
+    <functiondecl functionName="GetVendor" lineNumber="125"/>
+    <functiondecl functionName="IsEnabled" lineNumber="130"/>
+    <functiondecl functionName="IsValid" lineNumber="135"/>
+    <functiondecl functionName="SetPluginType" lineNumber="140"/>
+    <functiondecl functionName="SetID" lineNumber="145"/>
+    <functiondecl functionName="SetProviderID" lineNumber="150"/>
+    <functiondecl functionName="SetPath" lineNumber="155"/>
+    <functiondecl functionName="SetSymbol" lineNumber="160"/>
+    <functiondecl functionName="SetVersion" lineNumber="165"/>
+    <functiondecl functionName="SetVendor" lineNumber="170"/>
+    <functiondecl functionName="SetEnabled" lineNumber="175"/>
+    <functiondecl functionName="SetValid" lineNumber="180"/>
+    <functiondecl functionName="GetEffectFamily" lineNumber="187"/>
+    <functiondecl functionName="GetEffectType" lineNumber="192"/>
+    <functiondecl functionName="IsEffectInteractive" lineNumber="197"/>
+    <functiondecl functionName="IsEffectDefault" lineNumber="202"/>
+    <functiondecl functionName="IsEffectLegacy" lineNumber="207"/>
+    <functiondecl functionName="IsEffectRealtime" lineNumber="212"/>
+    <functiondecl functionName="IsEffectAutomatable" lineNumber="217"/>
+    <functiondecl functionName="SetEffectFamily" lineNumber="222"/>
+    <functiondecl functionName="SetEffectType" lineNumber="227"/>
+    <functiondecl functionName="SetEffectInteractive" lineNumber="232"/>
+    <functiondecl functionName="SetEffectDefault" lineNumber="237"/>
+    <functiondecl functionName="SetEffectLegacy" lineNumber="242"/>
+    <functiondecl functionName="SetEffectRealtime" lineNumber="247"/>
+    <functiondecl functionName="SetEffectAutomatable" lineNumber="252"/>
+    <functiondecl functionName="GetImporterIdentifier" lineNumber="259"/>
+    <functiondecl functionName="SetImporterIdentifier" lineNumber="264"/>
+    <functiondecl functionName="GetImporterExtensions" lineNumber="269"/>
+    <functiondecl functionName="SetImporterExtensions" lineNumber="275"/>
+    <functiondecl functionName="DefaultRegistrationCallback" lineNumber="329"/>
+    <functiondecl functionName="AudacityCommandRegistrationCallback" lineNumber="342"/>
+    <functioncall functionName="AcceptPath"/>
+    <functioncall functionName="Advance"/>
+    <functioncall functionName="AppendDir"/>
+    <functioncall functionName="AssignDir"/>
+    <functioncall functionName="AudacityFileConfig"/>
+    <functioncall functionName="AudacityMessageBox"/>
+    <functioncall functionName="AutoRegisterPlugins"/>
+    <functioncall functionName="BeforeFirst"/>
+    <functioncall functionName="CheckForUpdates"/>
+    <functioncall functionName="ComponentInterface"/>
+    <functioncall functionName="ConvertID"/>
+    <functioncall functionName="Create"/>
+    <functioncall functionName="CreateInstance"/>
+    <functioncall functionName="CreatePlugin"/>
+    <functioncall functionName="CreateProviderInstance"/>
+    <functioncall functionName="DefaultRegistrationCallback"/>
+    <functioncall functionName="DeleteAll"/>
+    <functioncall functionName="DeleteEntry"/>
+    <functioncall functionName="DeleteGroup"/>
+    <functioncall functionName="DiscoverPluginsAtPath"/>
+    <functioncall functionName="DiscoverProviders"/>
+    <functioncall functionName="DoCopyFile"/>
+    <functioncall functionName="EffectDefinitionInterface"/>
+    <functioncall functionName="EffectTypeAnalyze"/>
+    <functioncall functionName="EffectTypeGenerate"/>
+    <functioncall functionName="EffectTypeHidden"/>
+    <functioncall functionName="EffectTypeNone"/>
+    <functioncall functionName="EffectTypeProcess"/>
+    <functioncall functionName="EffectTypeTool"/>
+    <functioncall functionName="EndsWith"/>
+    <functioncall functionName="Exists"/>
+    <functioncall functionName="FileConfig"/>
+    <functioncall functionName="FileExists"/>
+    <functioncall functionName="FindPluginPaths"/>
+    <functioncall functionName="Flush"/>
+    <functioncall functionName="Format"/>
+    <functioncall functionName="FromUTF8"/>
+    <functioncall functionName="Get"/>
+    <functioncall functionName="GetAllFiles"/>
+    <functioncall functionName="GetClassification"/>
+    <functioncall functionName="GetConfigValue"/>
+    <functioncall functionName="GetDirCount"/>
+    <functioncall functionName="GetDirs"/>
+    <functioncall functionName="GetEffectFamily"/>
+    <functioncall functionName="GetEffectType"/>
+    <functioncall functionName="GetExecutablePath"/>
+    <functioncall functionName="GetExt"/>
+    <functioncall functionName="GetFamily"/>
+    <functioncall functionName="GetFileExtensions"/>
+    <functioncall functionName="GetFirstGroup"/>
+    <functioncall functionName="GetFullName"/>
+    <functioncall functionName="GetFullPath"/>
+    <functioncall functionName="GetID"/>
+    <functioncall functionName="GetImporterExtensions"/>
+    <functioncall functionName="GetImporterIdentifier"/>
+    <functioncall functionName="GetInstance"/>
+    <functioncall functionName="GetName"/>
+    <functioncall functionName="GetNextGroup"/>
+    <functioncall functionName="GetNextToken"/>
+    <functioncall functionName="GetNumberOfEntries"/>
+    <functioncall functionName="GetNumberOfGroups"/>
+    <functioncall functionName="GetOptionalFamilySymbol"/>
+    <functioncall functionName="GetPath"/>
+    <functioncall functionName="GetPlugin"/>
+    <functioncall functionName="GetPluginEnabledSetting"/>
+    <functioncall functionName="GetPluginType"/>
+    <functioncall functionName="GetPluginTypeString"/>
+    <functioncall functionName="GetProviderID"/>
+    <functioncall functionName="GetSettings"/>
+    <functioncall functionName="GetSubgroups"/>
+    <functioncall functionName="GetSymbol"/>
+    <functioncall functionName="GetType"/>
+    <functioncall functionName="GetUntranslatedVersion"/>
+    <functioncall functionName="GetVendor"/>
+    <functioncall functionName="GetVersion"/>
+    <functioncall functionName="Group"/>
+    <functioncall functionName="HasEntry"/>
+    <functioncall functionName="HasGroup"/>
+    <functioncall functionName="HasMoreTokens"/>
+    <functioncall functionName="ID"/>
+    <functioncall functionName="Index"/>
+    <functioncall functionName="Init"/>
+    <functioncall functionName="InstallPath"/>
+    <functioncall functionName="Internal"/>
+    <functioncall functionName="IsCaseSensitive"/>
+    <functioncall functionName="IsDefault"/>
+    <functioncall functionName="IsEffectAutomatable"/>
+    <functioncall functionName="IsEffectDefault"/>
+    <functioncall functionName="IsEffectInteractive"/>
+    <functioncall functionName="IsEffectLegacy"/>
+    <functioncall functionName="IsEffectRealtime"/>
+    <functioncall functionName="IsEnabled"/>
+    <functioncall functionName="IsInteractive"/>
+    <functioncall functionName="IsPluginValid"/>
+    <functioncall functionName="IsProviderValid"/>
+    <functioncall functionName="IsValid"/>
+    <functioncall functionName="Iterator"/>
+    <functioncall functionName="Join"/>
+    <functioncall functionName="Key"/>
+    <functioncall functionName="Load"/>
+    <functioncall functionName="LoadGroup"/>
+    <functioncall functionName="MSGID"/>
+    <functioncall functionName="Mid"/>
+    <functioncall functionName="Module"/>
+    <functioncall functionName="ModuleInterface"/>
+    <functioncall functionName="ModuleInterfaceDeleter"/>
+    <functioncall functionName="ModuleManager"/>
+    <functioncall functionName="Msgid"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="PROHIBITED"/>
+    <functioncall functionName="PlugInDir"/>
+    <functioncall functionName="PluginDescriptor"/>
+    <functioncall functionName="PluginID"/>
+    <functioncall functionName="PluginManager"/>
+    <functioncall functionName="PluginRegistry"/>
+    <functioncall functionName="PluginSettings"/>
+    <functioncall functionName="PluginType"/>
+    <functioncall functionName="PluginTypeAudacityCommand"/>
+    <functioncall functionName="PluginTypeEffect"/>
+    <functioncall functionName="PluginTypeExporter"/>
+    <functioncall functionName="PluginTypeImporter"/>
+    <functioncall functionName="PluginTypeModule"/>
+    <functioncall functionName="PluginTypeNone"/>
+    <functioncall functionName="PluginTypeStub"/>
+    <functioncall functionName="PluginsOfType"/>
+    <functioncall functionName="Private"/>
+    <functioncall functionName="Providers"/>
+    <functioncall functionName="Read"/>
+    <functioncall functionName="RegisterPlugin"/>
+    <functioncall functionName="RegisterProvider"/>
+    <functioncall functionName="RemoveLast"/>
+    <functioncall functionName="RemoveLastDir"/>
+    <functioncall functionName="Save"/>
+    <functioncall functionName="SaveGroup"/>
+    <functioncall functionName="SetConfigValue"/>
+    <functioncall functionName="SetEffectAutomatable"/>
+    <functioncall functionName="SetEffectDefault"/>
+    <functioncall functionName="SetEffectFamily"/>
+    <functioncall functionName="SetEffectInteractive"/>
+    <functioncall functionName="SetEffectLegacy"/>
+    <functioncall functionName="SetEffectRealtime"/>
+    <functioncall functionName="SetEffectType"/>
+    <functioncall functionName="SetEmptyExt"/>
+    <functioncall functionName="SetEnabled"/>
+    <functioncall functionName="SetFullName"/>
+    <functioncall functionName="SetID"/>
+    <functioncall functionName="SetImporterExtensions"/>
+    <functioncall functionName="SetImporterIdentifier"/>
+    <functioncall functionName="SetInstance"/>
+    <functioncall functionName="SetName"/>
+    <functioncall functionName="SetPath"/>
+    <functioncall functionName="SetPluginType"/>
+    <functioncall functionName="SetProviderID"/>
+    <functioncall functionName="SetSymbol"/>
+    <functioncall functionName="SetValid"/>
+    <functioncall functionName="SetVendor"/>
+    <functioncall functionName="SetVersion"/>
+    <functioncall functionName="SettingsPath"/>
+    <functioncall functionName="Shared"/>
+    <functioncall functionName="StartsWith"/>
+    <functioncall functionName="SupportsAutomation"/>
+    <functioncall functionName="SupportsRealtime"/>
+    <functioncall functionName="Terminate"/>
+    <functioncall functionName="ToUTF8"/>
+    <functioncall functionName="Translation"/>
+    <functioncall functionName="Type"/>
+    <functioncall functionName="Types"/>
+    <functioncall functionName="Verbatim"/>
+    <functioncall functionName="Visit"/>
+    <functioncall functionName="Write"/>
+    <functioncall functionName="XO"/>
+    <functioncall functionName="XPC"/>
+    <functioncall functionName="automatable"/>
+    <functioncall functionName="b64decode"/>
+    <functioncall functionName="b64encode"/>
+    <functioncall functionName="bFast"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="bool"/>
+    <functioncall functionName="boolVal"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="buf"/>
+    <functioncall functionName="cbegin"/>
+    <functioncall functionName="cend"/>
+    <functioncall functionName="cfgPath"/>
+    <functioncall functionName="char"/>
+    <functioncall functionName="command"/>
+    <functioncall functionName="conditional_t"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="cont"/>
+    <functioncall functionName="contains"/>
+    <functioncall functionName="continue"/>
+    <functioncall functionName="copied"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="count_if"/>
+    <functioncall functionName="decltype"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="defval"/>
+    <functioncall functionName="dflt"/>
+    <functioncall functionName="dstPath"/>
+    <functioncall functionName="dynamic_cast"/>
+    <functioncall functionName="effect"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="enable"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="errMsg"/>
+    <functioncall functionName="extensions"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="family"/>
+    <functioncall functionName="ff"/>
+    <functioncall functionName="fileName"/>
+    <functioncall functionName="filePath"/>
+    <functioncall functionName="files"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="float"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="fullExePath"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="get_if"/>
+    <functioncall functionName="goodPath"/>
+    <functioncall functionName="group"/>
+    <functioncall functionName="groupIndex"/>
+    <functioncall functionName="groupName"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="id"/>
+    <functioncall functionName="ident"/>
+    <functioncall functionName="identifier"/>
+    <functioncall functionName="ids"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="in"/>
+    <functioncall functionName="index"/>
+    <functioncall functionName="instance"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="interactive"/>
+    <functioncall functionName="is_const"/>
+    <functioncall functionName="kFast"/>
+    <functioncall functionName="key"/>
+    <functioncall functionName="legacy"/>
+    <functioncall functionName="len"/>
+    <functioncall functionName="length"/>
+    <functioncall functionName="mInstance"/>
+    <functioncall functionName="mPlugins"/>
+    <functioncall functionName="mSettings"/>
+    <functioncall functionName="make_iterator_range"/>
+    <functioncall functionName="manager"/>
+    <functioncall functionName="message"/>
+    <functioncall functionName="module"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="nIds"/>
+    <functioncall functionName="nPlugIns"/>
+    <functioncall functionName="name"/>
+    <functioncall functionName="names"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="oldPath"/>
+    <functioncall functionName="out"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="overwrite"/>
+    <functioncall functionName="pCInterface"/>
+    <functioncall functionName="pEInterface"/>
+    <functioncall functionName="pInterface"/>
+    <functioncall functionName="pName"/>
+    <functioncall functionName="pPlugin"/>
+    <functioncall functionName="pVar"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="path"/>
+    <functioncall functionName="pathIndex"/>
+    <functioncall functionName="pathList"/>
+    <functioncall functionName="pattern"/>
+    <functioncall functionName="plug"/>
+    <functioncall functionName="plugID"/>
+    <functioncall functionName="plugPath"/>
+    <functioncall functionName="possiblyBadPath"/>
+    <functioncall functionName="prov"/>
+    <functioncall functionName="provider"/>
+    <functioncall functionName="providerID"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="realtime"/>
+    <functioncall functionName="reference_wrapper"/>
+    <functioncall functionName="registry"/>
+    <functioncall functionName="res"/>
+    <functioncall functionName="reset"/>
+    <functioncall functionName="result"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="second"/>
+    <functioncall functionName="setting"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="static_cast"/>
+    <functioncall functionName="strExt"/>
+    <functioncall functionName="strVal"/>
+    <functioncall functionName="strlen"/>
+    <functioncall functionName="stype"/>
+    <functioncall functionName="subgroups"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="symbol"/>
+    <functioncall functionName="temp"/>
+    <functioncall functionName="tkr"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="type"/>
+    <functioncall functionName="typename"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="valid"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="var"/>
+    <functioncall functionName="vendor"/>
+    <functioncall functionName="version"/>
+    <functioncall functionName="visitor"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="wxCENTRE"/>
+    <functioncall functionName="wxCONFIG_PATH_SEPARATOR"/>
+    <functioncall functionName="wxCONFIG_USE_GLOBAL_FILE"/>
+    <functioncall functionName="wxConvAuto"/>
+    <functioncall functionName="wxDIR_DEFAULT"/>
+    <functioncall functionName="wxDIR_FILES"/>
+    <functioncall functionName="wxDefaultCoord"/>
+    <functioncall functionName="wxDynamicLibrary"/>
+    <functioncall functionName="wxEmptyString"/>
+    <functioncall functionName="wxPATH_UNIX"/>
+    <functioncall functionName="wxString"/>
+    <functioncall functionName="wxT"/>
+    <functioncall functionName="wxYES_NO"/>
+  </FileInfo>
+</analyzerinfo>

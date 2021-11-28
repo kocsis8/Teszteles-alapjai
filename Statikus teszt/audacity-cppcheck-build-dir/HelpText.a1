@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2691418064">
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;j&apos; can be reduced." verbose="The scope of the variable &apos;j&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/HelpText.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\HelpText.cpp" line="100" column="10"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;k&apos; can be reduced." verbose="The scope of the variable &apos;k&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/HelpText.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\HelpText.cpp" line="100" column="12"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;alphamsg&apos; is assigned a value that is never used." verbose="Variable &apos;alphamsg&apos; is assigned a value that is never used." cwe="563" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/HelpText.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\HelpText.cpp" line="219" column="24"/>
+            <symbol>alphamsg</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;betamsg&apos; is assigned a value that is never used." verbose="Variable &apos;betamsg&apos; is assigned a value that is never used." cwe="563" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/HelpText.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\HelpText.cpp" line="221" column="23"/>
+            <symbol>betamsg</symbol>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="HtmlColourOfIndex" lineNumber="38"/>
+    <functiondecl functionName="WrapText" lineNumber="44"/>
+    <functiondecl functionName="InnerLink" lineNumber="55"/>
+    <functiondecl functionName="WikiLink" lineNumber="65"/>
+    <functiondecl functionName="FileLink" lineNumber="75"/>
+    <functiondecl functionName="TypedLink" lineNumber="87"/>
+    <functiondecl functionName="LinkExpand" lineNumber="97"/>
+    <functiondecl functionName="TitleText" lineNumber="151"/>
+    <functiondecl functionName="HelpTextBuiltIn" lineNumber="216"/>
+    <functiondecl functionName="HelpText" lineNumber="360"/>
+    <functiondecl functionName="FormatHtmlText" lineNumber="380"/>
+    <functiondecl functionName="VerCheckArgs" lineNumber="393"/>
+    <functiondecl functionName="VerCheckHtml" lineNumber="404"/>
+    <functiondecl functionName="VerCheckUrl" lineNumber="418"/>
+    <functiondecl functionName="HtmlColourOfIndex" lineNumber="38"/>
+    <functiondecl functionName="WrapText" lineNumber="44"/>
+    <functiondecl functionName="InnerLink" lineNumber="55"/>
+    <functiondecl functionName="WikiLink" lineNumber="65"/>
+    <functiondecl functionName="FileLink" lineNumber="75"/>
+    <functiondecl functionName="TypedLink" lineNumber="87"/>
+    <functiondecl functionName="LinkExpand" lineNumber="97"/>
+    <functiondecl functionName="TitleText" lineNumber="151"/>
+    <functiondecl functionName="HelpTextBuiltIn" lineNumber="216"/>
+    <functiondecl functionName="HelpText" lineNumber="360"/>
+    <functiondecl functionName="FormatHtmlText" lineNumber="380"/>
+    <functiondecl functionName="VerCheckArgs" lineNumber="393"/>
+    <functiondecl functionName="VerCheckHtml" lineNumber="404"/>
+    <functiondecl functionName="VerCheckUrl" lineNumber="418"/>
+    <functiondecl functionName="HtmlColourOfIndex" lineNumber="38"/>
+    <functiondecl functionName="WrapText" lineNumber="44"/>
+    <functiondecl functionName="InnerLink" lineNumber="55"/>
+    <functiondecl functionName="WikiLink" lineNumber="65"/>
+    <functiondecl functionName="FileLink" lineNumber="75"/>
+    <functiondecl functionName="TypedLink" lineNumber="87"/>
+    <functiondecl functionName="LinkExpand" lineNumber="97"/>
+    <functiondecl functionName="TitleText" lineNumber="151"/>
+    <functiondecl functionName="HelpTextBuiltIn" lineNumber="216"/>
+    <functiondecl functionName="HelpText" lineNumber="360"/>
+    <functiondecl functionName="FormatHtmlText" lineNumber="380"/>
+    <functiondecl functionName="VerCheckArgs" lineNumber="393"/>
+    <functiondecl functionName="VerCheckHtml" lineNumber="404"/>
+    <functiondecl functionName="VerCheckUrl" lineNumber="418"/>
+    <functiondecl functionName="HtmlColourOfIndex" lineNumber="38"/>
+    <functiondecl functionName="WrapText" lineNumber="44"/>
+    <functiondecl functionName="InnerLink" lineNumber="55"/>
+    <functiondecl functionName="WikiLink" lineNumber="65"/>
+    <functiondecl functionName="FileLink" lineNumber="75"/>
+    <functiondecl functionName="TypedLink" lineNumber="87"/>
+    <functiondecl functionName="LinkExpand" lineNumber="97"/>
+    <functiondecl functionName="TitleText" lineNumber="151"/>
+    <functiondecl functionName="HelpTextBuiltIn" lineNumber="216"/>
+    <functiondecl functionName="HelpText" lineNumber="360"/>
+    <functiondecl functionName="FormatHtmlText" lineNumber="380"/>
+    <functiondecl functionName="VerCheckArgs" lineNumber="393"/>
+    <functiondecl functionName="VerCheckHtml" lineNumber="404"/>
+    <functiondecl functionName="VerCheckUrl" lineNumber="418"/>
+    <functiondecl functionName="HtmlColourOfIndex" lineNumber="38"/>
+    <functiondecl functionName="WrapText" lineNumber="44"/>
+    <functiondecl functionName="InnerLink" lineNumber="55"/>
+    <functiondecl functionName="WikiLink" lineNumber="65"/>
+    <functiondecl functionName="FileLink" lineNumber="75"/>
+    <functiondecl functionName="TypedLink" lineNumber="87"/>
+    <functiondecl functionName="LinkExpand" lineNumber="97"/>
+    <functiondecl functionName="TitleText" lineNumber="151"/>
+    <functiondecl functionName="HelpTextBuiltIn" lineNumber="216"/>
+    <functiondecl functionName="HelpText" lineNumber="360"/>
+    <functiondecl functionName="FormatHtmlText" lineNumber="380"/>
+    <functiondecl functionName="VerCheckArgs" lineNumber="393"/>
+    <functiondecl functionName="VerCheckHtml" lineNumber="404"/>
+    <functiondecl functionName="VerCheckUrl" lineNumber="418"/>
+    <functioncall functionName="AUDACITY_VERSION_STRING"/>
+    <functioncall functionName="Blue"/>
+    <functioncall functionName="Colour"/>
+    <functioncall functionName="FileLink"/>
+    <functioncall functionName="First"/>
+    <functioncall functionName="Format"/>
+    <functioncall functionName="GET"/>
+    <functioncall functionName="GetString"/>
+    <functioncall functionName="GetSystemEncodingName"/>
+    <functioncall functionName="Green"/>
+    <functioncall functionName="HelpTextBuiltIn"/>
+    <functioncall functionName="HtmlColourOfIndex"/>
+    <functioncall functionName="HtmlHelpDir"/>
+    <functioncall functionName="InnerLink"/>
+    <functioncall functionName="Key"/>
+    <functioncall functionName="LinkExpand"/>
+    <functioncall functionName="LinkText"/>
+    <functioncall functionName="Mid"/>
+    <functioncall functionName="Red"/>
+    <functioncall functionName="Replace"/>
+    <functioncall functionName="StartsWith"/>
+    <functioncall functionName="Text"/>
+    <functioncall functionName="TypedLink"/>
+    <functioncall functionName="URLStringTag"/>
+    <functioncall functionName="VerCheckArgs"/>
+    <functioncall functionName="VerCheckHtml"/>
+    <functioncall functionName="VerCheckUrl"/>
+    <functioncall functionName="Verbatim"/>
+    <functioncall functionName="WikiLink"/>
+    <functioncall functionName="WrapText"/>
+    <functioncall functionName="XO"/>
+    <functioncall functionName="__DATE__"/>
+    <functioncall functionName="__TIME__"/>
+    <functioncall functionName="clrSample"/>
+    <functioncall functionName="clrTrackInfo"/>
+    <functioncall functionName="clrTrackPanelText"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="j"/>
+    <functioncall functionName="k"/>
+    <functioncall functionName="o"/>
+    <functioncall functionName="result"/>
+    <functioncall functionName="s"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="wxString"/>
+    <functioncall functionName="wxT"/>
+  </FileInfo>
+</analyzerinfo>

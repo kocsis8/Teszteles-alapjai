@@ -1,0 +1,11 @@
+Profiler
+Profiler call:[ComputeAverageRunTime,ctime,fclose,fopen,get,size,time,wxFprintf] noreturn:[fclose,wxFprintf]
+Begin call:[Begin,GetOrCreateTaskProfile] noreturn:[Begin]
+End call:[End,GetTaskProfileByDescription] noreturn:[End]
+Instance
+GetOrCreateTaskProfile call:[back,get,move,push_back,size,strcmp] noreturn:[get]
+GetTaskProfileByDescription call:[get,size,strcmp] noreturn:[get]
+TaskProfile
+TaskProfile
+Begin call:[clock,get,reinit,strcpy,strlen] noreturn:[clock]
+ComputeAverageRunTime call:[return]

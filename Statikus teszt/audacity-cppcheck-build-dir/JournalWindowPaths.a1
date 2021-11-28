@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1817511337">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="HasName" lineNumber="33"/>
+    <functiondecl functionName="SameName" lineNumber="49"/>
+    <functiondecl functionName="HasUniqueNameAmongPeers" lineNumber="70"/>
+    <functiondecl functionName="FindByNameAmongPeers" lineNumber="76"/>
+    <functiondecl functionName="PathComponents" lineNumber="85"/>
+    <functiondecl functionName="FindPath" lineNumber="109"/>
+    <functiondecl functionName="FindByPath" lineNumber="116"/>
+    <functioncall functionName="DECLARE_EVENT_TABLE"/>
+    <functioncall functionName="EscapeCharacter"/>
+    <functioncall functionName="FindByNameAmongPeers"/>
+    <functioncall functionName="GET"/>
+    <functioncall functionName="GetChildren"/>
+    <functioncall functionName="GetName"/>
+    <functioncall functionName="GetParent"/>
+    <functioncall functionName="HasName"/>
+    <functioncall functionName="HasUniqueNameAmongPeers"/>
+    <functioncall functionName="PathComponents"/>
+    <functioncall functionName="PathSeparator"/>
+    <functioncall functionName="SameName"/>
+    <functioncall functionName="UniqueWindowAmongPeers"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="components"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="dynamic_cast"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="event"/>
+    <functioncall functionName="find_if"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="iter1"/>
+    <functioncall functionName="list"/>
+    <functioncall functionName="name"/>
+    <functioncall functionName="pWindow2"/>
+    <functioncall functionName="pred"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="static_cast"/>
+    <functioncall functionName="typename"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="window"/>
+    <functioncall functionName="wxJoin"/>
+    <functioncall functionName="wxSplit"/>
+    <functioncall functionName="wxTopLevelWindows"/>
+  </FileInfo>
+</analyzerinfo>

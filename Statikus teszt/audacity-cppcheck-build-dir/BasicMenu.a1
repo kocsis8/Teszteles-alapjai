@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="966000149">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="FindDescendants" lineNumber="37"/>
+    <functiondecl functionName="ContainsMenu" lineNumber="52"/>
+    <functiondecl functionName="FindPathName" lineNumber="59"/>
+    <functiondecl functionName="FilterEvent" lineNumber="105"/>
+    <functiondecl functionName="Watch" lineNumber="137"/>
+    <functiondecl functionName="ReplayPopup" lineNumber="153"/>
+    <functiondecl functionName="Popup" lineNumber="207"/>
+    <functioncall functionName="AddFilter"/>
+    <functioncall functionName="ContainsMenu"/>
+    <functioncall functionName="FailedEventSerialization"/>
+    <functioncall functionName="FindDescendants"/>
+    <functioncall functionName="FindItem"/>
+    <functioncall functionName="FindPathName"/>
+    <functioncall functionName="GetError"/>
+    <functioncall functionName="GetEventObject"/>
+    <functioncall functionName="GetEventType"/>
+    <functioncall functionName="GetId"/>
+    <functioncall functionName="GetItemLabelText"/>
+    <functioncall functionName="GetMenu"/>
+    <functioncall functionName="GetMenuItems"/>
+    <functioncall functionName="GetParent"/>
+    <functioncall functionName="GetSubMenu"/>
+    <functioncall functionName="GetTokens"/>
+    <functioncall functionName="Handle"/>
+    <functioncall functionName="IsRecording"/>
+    <functioncall functionName="IsReplaying"/>
+    <functioncall functionName="IsWatching"/>
+    <functioncall functionName="JournalCode"/>
+    <functioncall functionName="Output"/>
+    <functioncall functionName="PopupMenu"/>
+    <functioncall functionName="ProcessEvent"/>
+    <functioncall functionName="RemoveFilter"/>
+    <functioncall functionName="ReplayPopup"/>
+    <functioncall functionName="SetEventObject"/>
+    <functioncall functionName="Watch"/>
+    <functioncall functionName="Watcher"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="count_if"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="delete"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="event"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="finally"/>
+    <functioncall functionName="find_if"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="found"/>
+    <functioncall functionName="id"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="ii"/>
+    <functioncall functionName="insert"/>
+    <functioncall functionName="iter"/>
+    <functioncall functionName="menu"/>
+    <functioncall functionName="mpMenu"/>
+    <functioncall functionName="name"/>
+    <functioncall functionName="names"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="pItem"/>
+    <functioncall functionName="pMenu"/>
+    <functioncall functionName="pObj"/>
+    <functioncall functionName="pPath"/>
+    <functioncall functionName="pSubMenu"/>
+    <functioncall functionName="pWindow"/>
+    <functioncall functionName="pop_back"/>
+    <functioncall functionName="pred"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="reverse"/>
+    <functioncall functionName="sHandledEvent"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="static_cast"/>
+    <functioncall functionName="theMenu"/>
+    <functioncall functionName="this"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="vector"/>
+    <functioncall functionName="window"/>
+    <functioncall functionName="wxArrayStringEx"/>
+    <functioncall functionName="wxEVT_MENU"/>
+    <functioncall functionName="wxMenu"/>
+    <functioncall functionName="wxMenuItem"/>
+    <functioncall functionName="wxWeakRef"/>
+    <functioncall functionName="wxWidgetsWindowPlacement"/>
+    <functioncall functionName="x"/>
+    <functioncall functionName="y"/>
+  </FileInfo>
+</analyzerinfo>

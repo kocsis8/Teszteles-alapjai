@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="686908335">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="AudacityMessageBox" lineNumber="17"/>
+    <functioncall functionName="IfNotPlaying"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="Translation"/>
+    <functioncall functionName="XO"/>
+    <functioncall functionName="parent"/>
+    <functioncall functionName="style"/>
+    <functioncall functionName="wxCENTRE"/>
+    <functioncall functionName="wxDefaultCoord"/>
+    <functioncall functionName="wxMessageBox"/>
+    <functioncall functionName="x"/>
+    <functioncall functionName="y"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3134376305">
+        <error id="allocaCalled" severity="warning" msg="Obsolete function &apos;alloca&apos; called." verbose="The obsolete function &apos;alloca&apos; is called. In C++11 and later it is recommended to use std::array&lt;&gt; or a dynamically allocated array instead. The function &apos;alloca&apos; is dangerous for many reasons (http://stackoverflow.com/questions/1018853/why-is-alloca-not-considered-good-practice and http://linux.die.net/man/3/alloca)." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/RealtimeEffectManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\effects\RealtimeEffectManager.cpp" line="326" column="30"/>
+            <symbol>alloca</symbol>
+        </error>
+        <error id="allocaCalled" severity="warning" msg="Obsolete function &apos;alloca&apos; called." verbose="The obsolete function &apos;alloca&apos; is called. In C++11 and later it is recommended to use std::array&lt;&gt; or a dynamically allocated array instead. The function &apos;alloca&apos; is dangerous for many reasons (http://stackoverflow.com/questions/1018853/why-is-alloca-not-considered-good-practice and http://linux.die.net/man/3/alloca)." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/RealtimeEffectManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\effects\RealtimeEffectManager.cpp" line="327" column="30"/>
+            <symbol>alloca</symbol>
+        </error>
+        <error id="allocaCalled" severity="warning" msg="Obsolete function &apos;alloca&apos; called." verbose="The obsolete function &apos;alloca&apos; is called. In C++11 and later it is recommended to use std::array&lt;&gt; or a dynamically allocated array instead. The function &apos;alloca&apos; is dangerous for many reasons (http://stackoverflow.com/questions/1018853/why-is-alloca-not-considered-good-practice and http://linux.die.net/man/3/alloca)." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/RealtimeEffectManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\effects\RealtimeEffectManager.cpp" line="334" column="27"/>
+            <symbol>alloca</symbol>
+        </error>
+        <error id="allocaCalled" severity="warning" msg="Obsolete function &apos;alloca&apos; called." verbose="The obsolete function &apos;alloca&apos; is called. In C++11 and later it is recommended to use std::array&lt;&gt; or a dynamically allocated array instead. The function &apos;alloca&apos; is dangerous for many reasons (http://stackoverflow.com/questions/1018853/why-is-alloca-not-considered-good-practice and http://linux.die.net/man/3/alloca)." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/RealtimeEffectManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\effects\RealtimeEffectManager.cpp" line="519" column="34"/>
+            <symbol>alloca</symbol>
+        </error>
+        <error id="allocaCalled" severity="warning" msg="Obsolete function &apos;alloca&apos; called." verbose="The obsolete function &apos;alloca&apos; is called. In C++11 and later it is recommended to use std::array&lt;&gt; or a dynamically allocated array instead. The function &apos;alloca&apos; is dangerous for many reasons (http://stackoverflow.com/questions/1018853/why-is-alloca-not-considered-good-practice and http://linux.die.net/man/3/alloca)." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/RealtimeEffectManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\effects\RealtimeEffectManager.cpp" line="520" column="35"/>
+            <symbol>alloca</symbol>
+        </error>
+        <error id="allocaCalled" severity="warning" msg="Obsolete function &apos;alloca&apos; called." verbose="The obsolete function &apos;alloca&apos; is called. In C++11 and later it is recommended to use std::array&lt;&gt; or a dynamically allocated array instead. The function &apos;alloca&apos; is dangerous for many reasons (http://stackoverflow.com/questions/1018853/why-is-alloca-not-considered-good-practice and http://linux.die.net/man/3/alloca)." file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/RealtimeEffectManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\effects\RealtimeEffectManager.cpp" line="521" column="32"/>
+            <symbol>alloca</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;RealtimeEffectState::mCurrentProcessor&apos; is not initialized in the constructor." verbose="Member variable &apos;RealtimeEffectState::mCurrentProcessor&apos; is not initialized in the constructor." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/RealtimeEffectManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\effects\RealtimeEffectManager.cpp" line="407" column="22"/>
+            <symbol>RealtimeEffectState::mCurrentProcessor</symbol>
+        </error>
+        <error id="multiCondition" severity="style" msg="Expression is always true because &apos;else if&apos; condition is opposite to previous condition at line 458." verbose="Expression is always true because &apos;else if&apos; condition is opposite to previous condition at line 458." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/RealtimeEffectManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\effects\RealtimeEffectManager.cpp" line="466" column="23" info="else if condition is opposite to first condition"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\effects\RealtimeEffectManager.cpp" line="458" column="18" info="first condition"/>
+        </error>
+        <error id="multiCondition" severity="style" msg="Expression is always true because &apos;else if&apos; condition is opposite to previous condition at line 475." verbose="Expression is always true because &apos;else if&apos; condition is opposite to previous condition at line 475." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/RealtimeEffectManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\effects\RealtimeEffectManager.cpp" line="483" column="23" info="else if condition is opposite to first condition"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\effects\RealtimeEffectManager.cpp" line="475" column="18" info="first condition"/>
+        </error>
+        <error id="multiCondition" severity="style" msg="Expression is always true because &apos;else if&apos; condition is opposite to previous condition at line 537." verbose="Expression is always true because &apos;else if&apos; condition is opposite to previous condition at line 537." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/RealtimeEffectManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\effects\RealtimeEffectManager.cpp" line="554" column="23" info="else if condition is opposite to first condition"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\effects\RealtimeEffectManager.cpp" line="537" column="18" info="first condition"/>
+        </error>
+        <error id="multiCondition" severity="style" msg="Expression is always true because &apos;else if&apos; condition is opposite to previous condition at line 566." verbose="Expression is always true because &apos;else if&apos; condition is opposite to previous condition at line 566." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/RealtimeEffectManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\effects\RealtimeEffectManager.cpp" line="586" column="23" info="else if condition is opposite to first condition"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\effects\RealtimeEffectManager.cpp" line="566" column="18" info="first condition"/>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;inbuf&apos; can be declared with const" verbose="Parameter &apos;inbuf&apos; can be declared with const" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/RealtimeEffectManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\effects\RealtimeEffectManager.cpp" line="503" column="45" info="Parameter &apos;inbuf&apos; can be declared with const"/>
+            <symbol>inbuf</symbol>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;outbuf&apos; can be declared with const" verbose="Parameter &apos;outbuf&apos; can be declared with const" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/RealtimeEffectManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\effects\RealtimeEffectManager.cpp" line="504" column="45" info="Parameter &apos;outbuf&apos; can be declared with const"/>
+            <symbol>outbuf</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;gchans&apos; is assigned a value that is never used." verbose="Variable &apos;gchans&apos; is assigned a value that is never used." cwe="563" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/RealtimeEffectManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\effects\RealtimeEffectManager.cpp" line="525" column="16"/>
+            <symbol>gchans</symbol>
+        </error>
+  <FileInfo check="Class">
+<class name="RealtimeEffectState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/RealtimeEffectManager.cpp" line="20" col="1" hash="12129833281104811836"/>
+  </FileInfo>
+  <FileInfo check="Class">
+<class name="RealtimeEffectState" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/effects/RealtimeEffectManager.cpp" line="20" col="1" hash="12129833281104811836"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="GetEffect" lineNumber="25"/>
+    <functiondecl functionName="RealtimeSuspend" lineNumber="412"/>
+    <functiondecl functionName="RealtimeResume" lineNumber="421"/>
+    <functiondecl functionName="RealtimeAddProcessor" lineNumber="433"/>
+    <functiondecl functionName="RealtimeProcess" lineNumber="501"/>
+    <functiondecl functionName="IsRealtimeActive" lineNumber="620"/>
+    <functiondecl functionName="GetEffect" lineNumber="25"/>
+    <functiondecl functionName="RealtimeSuspend" lineNumber="412"/>
+    <functiondecl functionName="RealtimeResume" lineNumber="421"/>
+    <functiondecl functionName="RealtimeAddProcessor" lineNumber="433"/>
+    <functiondecl functionName="RealtimeProcess" lineNumber="501"/>
+    <functiondecl functionName="IsRealtimeActive" lineNumber="620"/>
+    <functioncall functionName="EffectClientInterface"/>
+    <functioncall functionName="Enter"/>
+    <functioncall functionName="GetAudioInCount"/>
+    <functioncall functionName="GetAudioOutCount"/>
+    <functioncall functionName="GetBlockSize"/>
+    <functioncall functionName="GetEffect"/>
+    <functioncall functionName="GetValue"/>
+    <functioncall functionName="IsRealtimeActive"/>
+    <functioncall functionName="Leave"/>
+    <functioncall functionName="RealtimeAddProcessor"/>
+    <functioncall functionName="RealtimeEffectManager"/>
+    <functioncall functionName="RealtimeEffectState"/>
+    <functioncall functionName="RealtimeFinalize"/>
+    <functioncall functionName="RealtimeInitialize"/>
+    <functioncall functionName="RealtimeProcess"/>
+    <functioncall functionName="RealtimeProcessEnd"/>
+    <functioncall functionName="RealtimeProcessStart"/>
+    <functioncall functionName="RealtimeResume"/>
+    <functioncall functionName="RealtimeSuspend"/>
+    <functioncall functionName="SetSampleRate"/>
+    <functioncall functionName="alloca"/>
+    <functioncall functionName="back"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="block"/>
+    <functioncall functionName="blockSize"/>
+    <functioncall functionName="chans"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="clientIn"/>
+    <functioncall functionName="clientOut"/>
+    <functioncall functionName="cnt"/>
+    <functioncall functionName="decltype"/>
+    <functioncall functionName="double"/>
+    <functioncall functionName="dummybuf"/>
+    <functioncall functionName="effect"/>
+    <functioncall functionName="effects"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="find_if"/>
+    <functioncall functionName="float"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="found"/>
+    <functioncall functionName="gchans"/>
+    <functioncall functionName="group"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="ibuf"/>
+    <functioncall functionName="ichans"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="j"/>
+    <functioncall functionName="mCurrentProcessor"/>
+    <functioncall functionName="mRealtimeActive"/>
+    <functioncall functionName="mRealtimeSuspended"/>
+    <functioncall functionName="mStates"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="min"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="newStates"/>
+    <functioncall functionName="numAudioIn"/>
+    <functioncall functionName="numSamples"/>
+    <functioncall functionName="obuf"/>
+    <functioncall functionName="processor"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="rate"/>
+    <functioncall functionName="result"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="start"/>
+    <functioncall functionName="state"/>
+    <functioncall functionName="swap"/>
+    <functioncall functionName="temp"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="wxGetUTCTimeMillis"/>
+  </FileInfo>
+</analyzerinfo>

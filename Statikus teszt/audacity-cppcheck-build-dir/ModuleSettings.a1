@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3615181950">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="autoEnabledModules" lineNumber="18"/>
+    <functiondecl functionName="GetModuleStatus" lineNumber="28"/>
+    <functiondecl functionName="SetModuleStatus" lineNumber="75"/>
+    <functioncall functionName="DateTime"/>
+    <functioncall functionName="DateTimePref"/>
+    <functioncall functionName="DeleteEntry"/>
+    <functioncall functionName="FileName"/>
+    <functioncall functionName="Flush"/>
+    <functioncall functionName="FormatISOCombined"/>
+    <functioncall functionName="GetModificationTime"/>
+    <functioncall functionName="GetName"/>
+    <functioncall functionName="IsEqualTo"/>
+    <functioncall functionName="IsSameAs"/>
+    <functioncall functionName="Lower"/>
+    <functioncall functionName="ParseISOCombined"/>
+    <functioncall functionName="PathPref"/>
+    <functioncall functionName="PrefName"/>
+    <functioncall functionName="Read"/>
+    <functioncall functionName="SetMillisecond"/>
+    <functioncall functionName="ShortName"/>
+    <functioncall functionName="StatusPref"/>
+    <functioncall functionName="Write"/>
+    <functioncall functionName="autoEnabledModules"/>
+    <functioncall functionName="count"/>
+    <functioncall functionName="fname"/>
+    <functioncall functionName="iStatus"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="kModuleEnabled"/>
+    <functioncall functionName="kModuleNew"/>
+    <functioncall functionName="wxEmptyString"/>
+    <functioncall functionName="wxString"/>
+    <functioncall functionName="wxT"/>
+  </FileInfo>
+</analyzerinfo>

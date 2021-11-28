@@ -1,0 +1,5 @@
+diagnostics_do_diag call:[SetActiveTarget,wxLogDebug,wxT] noreturn:[SetActiveTarget]
+diagnostics_do_diag_mem call:[SetActiveTarget,wxLogDebug,wxT]
+diagnostics_do_perfmon_start global:[MasterWatch,bStopWatchStarted] call:[Start,Time] noreturn:[Start,Time]
+diagnostics_do_perfmon_stop global:[MasterWatch] call:[SetActiveTarget,Time,wxLogDebug,wxT] noreturn:[SetActiveTarget]
+diag_sample_test call:[diagnostics_do_diag,wxT] noreturn:[diagnostics_do_diag]

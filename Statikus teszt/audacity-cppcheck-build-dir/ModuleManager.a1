@@ -1,0 +1,212 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3443024040">
+        <error id="useInitializationList" severity="performance" msg="Variable &apos;mLib&apos; is assigned in constructor body. Consider performing initialization in initialization list." verbose="When an object of a class is created, the constructors of all member variables are called consecutively in the order the variables are declared, even if you don&apos;t explicitly write them to the initialization list. You could avoid assigning &apos;mLib&apos; a value by passing the value to the constructor in the initialization list." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ModuleManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\ModuleManager.cpp" line="55" column="4"/>
+            <symbol>mLib</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Module&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Module&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ModuleManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\ModuleManager.h" line="42" column="4"/>
+            <symbol>Module</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;ShortName&apos; shadows outer variable" verbose="Local variable &apos;ShortName&apos; shadows outer variable" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ModuleManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\ModuleManager.cpp" line="326" column="18" info="Shadow variable"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\ModuleManager.cpp" line="259" column="16" info="Shadowed declaration"/>
+            <symbol>ShortName</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ModuleManager.h:146:6" call-funcname="RegisterProvider" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ModuleManager.h" line="153" col="29" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Class">
+<class name="Module" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ModuleManager.h" line="39" col="1" hash="13542069260812076014"/>
+<class name="ModuleInterfaceDeleter" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ModuleManager.h" line="59" col="1" hash="7153716345717483545"/>
+<class name="Init" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ModuleManager.h" line="152" col="8" hash="10983186955651304209"/>
+  </FileInfo>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;iModuleStatus==kModuleNew&apos; is always false" verbose="Condition &apos;iModuleStatus==kModuleNew&apos; is always false" cwe="570" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ModuleManager.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\ModuleManager.cpp" line="301" column="28" info="Condition &apos;iModuleStatus==kModuleNew&apos; is always false"/>
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\ModuleManager.cpp" line="282" column="25" info="Assuming that condition &apos;iModuleStatus==kModuleAsk&apos; is not redundant"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ModuleManager.h:146:6" call-funcname="RegisterProvider" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ModuleManager.h" line="153" col="29" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Class">
+<class name="Module" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ModuleManager.h" line="39" col="1" hash="13542069260812076014"/>
+<class name="ModuleInterfaceDeleter" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ModuleManager.h" line="59" col="1" hash="7153716345717483545"/>
+<class name="Init" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ModuleManager.h" line="152" col="8" hash="10983186955651304209"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ModuleManager.h:146:6" call-funcname="RegisterProvider" call-argnr="1" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ModuleManager.h" line="153" col="29" call-argexpr="nullptr" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Class">
+<class name="Module" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ModuleManager.h" line="39" col="1" hash="13542069260812076014"/>
+<class name="ModuleInterfaceDeleter" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ModuleManager.h" line="59" col="1" hash="7153716345717483545"/>
+<class name="Init" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/ModuleManager.h" line="152" col="8" hash="10983186955651304209"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="ShowLoadFailureError" lineNumber="63"/>
+    <functiondecl functionName="Load" lineNumber="71"/>
+    <functiondecl functionName="Unload" lineNumber="142"/>
+    <functiondecl functionName="Dispatch" lineNumber="152"/>
+    <functiondecl functionName="GetSymbol" lineNumber="161"/>
+    <functiondecl functionName="builtinModuleList" lineNumber="178"/>
+    <functiondecl functionName="RegisterProvider" lineNumber="185"/>
+    <functiondecl functionName="UnregisterProvider" lineNumber="194"/>
+    <functiondecl functionName="ShowLoadFailureError" lineNumber="63"/>
+    <functiondecl functionName="Load" lineNumber="71"/>
+    <functiondecl functionName="Unload" lineNumber="142"/>
+    <functiondecl functionName="Dispatch" lineNumber="152"/>
+    <functiondecl functionName="GetSymbol" lineNumber="161"/>
+    <functiondecl functionName="builtinModuleList" lineNumber="178"/>
+    <functiondecl functionName="RegisterProvider" lineNumber="185"/>
+    <functiondecl functionName="UnregisterProvider" lineNumber="194"/>
+    <functiondecl functionName="ShowLoadFailureError" lineNumber="63"/>
+    <functiondecl functionName="Load" lineNumber="71"/>
+    <functiondecl functionName="Unload" lineNumber="142"/>
+    <functiondecl functionName="Dispatch" lineNumber="152"/>
+    <functiondecl functionName="GetSymbol" lineNumber="161"/>
+    <functiondecl functionName="builtinModuleList" lineNumber="178"/>
+    <functiondecl functionName="RegisterProvider" lineNumber="185"/>
+    <functiondecl functionName="UnregisterProvider" lineNumber="194"/>
+    <functioncall functionName="Add"/>
+    <functioncall functionName="AddMultiPathsToPathList"/>
+    <functioncall functionName="AddUniquePathToPathList"/>
+    <functioncall functionName="AudacityMessageBox"/>
+    <functioncall functionName="AudacityPathList"/>
+    <functioncall functionName="ComponentInterface"/>
+    <functioncall functionName="CreateInstance"/>
+    <functioncall functionName="DefaultMultiDialogMessage"/>
+    <functioncall functionName="DefaultRegistrationCallback"/>
+    <functioncall functionName="DirExists"/>
+    <functioncall functionName="DiscoverPluginsAtPath"/>
+    <functioncall functionName="Dispatch"/>
+    <functioncall functionName="Error"/>
+    <functioncall functionName="FileExists"/>
+    <functioncall functionName="FindFilesInPathList"/>
+    <functioncall functionName="FindModules"/>
+    <functioncall functionName="Format"/>
+    <functioncall functionName="Get"/>
+    <functioncall functionName="GetID"/>
+    <functioncall functionName="GetModuleStatus"/>
+    <functioncall functionName="GetName"/>
+    <functioncall functionName="GetPath"/>
+    <functioncall functionName="GetPluginTypeString"/>
+    <functioncall functionName="GetSymbol"/>
+    <functioncall functionName="GetVendor"/>
+    <functioncall functionName="HasDispatch"/>
+    <functioncall functionName="Index"/>
+    <functioncall functionName="Init"/>
+    <functioncall functionName="Initialize"/>
+    <functioncall functionName="InitializeBuiltins"/>
+    <functioncall functionName="Internal"/>
+    <functioncall functionName="IsLoaded"/>
+    <functioncall functionName="IsPluginValid"/>
+    <functioncall functionName="Load"/>
+    <functioncall functionName="Module"/>
+    <functioncall functionName="ModuleDispatchName"/>
+    <functioncall functionName="ModuleInitialize"/>
+    <functioncall functionName="ModuleInterface"/>
+    <functioncall functionName="ModuleInterfaceDeleter"/>
+    <functioncall functionName="ModuleMain"/>
+    <functioncall functionName="ModuleManager"/>
+    <functioncall functionName="ModuleTerminate"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="PROHIBITED"/>
+    <functioncall functionName="Private"/>
+    <functioncall functionName="RegisterProvider"/>
+    <functioncall functionName="SetModuleStatus"/>
+    <functioncall functionName="Shared"/>
+    <functioncall functionName="ShortName"/>
+    <functioncall functionName="ShowLoadFailureError"/>
+    <functioncall functionName="ShowMultiDialog"/>
+    <functioncall functionName="Terminate"/>
+    <functioncall functionName="TryLoadModules"/>
+    <functioncall functionName="Types"/>
+    <functioncall functionName="Unload"/>
+    <functioncall functionName="XO"/>
+    <functioncall functionName="audacityPathList"/>
+    <functioncall functionName="bFast"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="bool"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="builtinModuleList"/>
+    <functioncall functionName="buttons"/>
+    <functioncall functionName="cbegin"/>
+    <functioncall functionName="cend"/>
+    <functioncall functionName="clear"/>
+    <functioncall functionName="conditional_t"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="continue"/>
+    <functioncall functionName="decided"/>
+    <functioncall functionName="emplace_back"/>
+    <functioncall functionName="empty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="errMsg"/>
+    <functioncall functionName="errors"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="file"/>
+    <functioncall functionName="files"/>
+    <functioncall functionName="finally"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="first"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="iModuleStatus"/>
+    <functioncall functionName="id"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="is_const"/>
+    <functioncall functionName="iter"/>
+    <functioncall functionName="kModuleDisabled"/>
+    <functioncall functionName="kModuleEnabled"/>
+    <functioncall functionName="kModuleFailed"/>
+    <functioncall functionName="kModuleNew"/>
+    <functioncall functionName="lib"/>
+    <functioncall functionName="mDispatch"/>
+    <functioncall functionName="mInstance"/>
+    <functioncall functionName="mModules"/>
+    <functioncall functionName="mName"/>
+    <functioncall functionName="make_iterator_range"/>
+    <functioncall functionName="make_unique"/>
+    <functioncall functionName="module"/>
+    <functioncall functionName="moduleMain"/>
+    <functioncall functionName="moduleVersion"/>
+    <functioncall functionName="move"/>
+    <functioncall functionName="msg"/>
+    <functioncall functionName="name"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="pInterface"/>
+    <functioncall functionName="pair"/>
+    <functioncall functionName="path"/>
+    <functioncall functionName="pathList"/>
+    <functioncall functionName="pathVar"/>
+    <functioncall functionName="prefix"/>
+    <functioncall functionName="providerID"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="reference_wrapper"/>
+    <functioncall functionName="res"/>
+    <functioncall functionName="reset"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="saveOldCWD"/>
+    <functioncall functionName="second"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="type"/>
+    <functioncall functionName="typename"/>
+    <functioncall functionName="umodule"/>
+    <functioncall functionName="unique_ptr"/>
+    <functioncall functionName="versionFn"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="wxCENTRE"/>
+    <functioncall functionName="wxDL_GLOBAL"/>
+    <functioncall functionName="wxDefaultCoord"/>
+    <functioncall functionName="wxDynamicLibrary"/>
+    <functioncall functionName="wxEmptyString"/>
+    <functioncall functionName="wxFILE_SEP_PATH"/>
+    <functioncall functionName="wxFileName"/>
+    <functioncall functionName="wxGetCwd"/>
+    <functioncall functionName="wxGetenv"/>
+    <functioncall functionName="wxLogMessage"/>
+    <functioncall functionName="wxPathOnly"/>
+    <functioncall functionName="wxSetWorkingDirectory"/>
+    <functioncall functionName="wxString"/>
+    <functioncall functionName="wxSysErrorMsg"/>
+    <functioncall functionName="wxT"/>
+  </FileInfo>
+</analyzerinfo>

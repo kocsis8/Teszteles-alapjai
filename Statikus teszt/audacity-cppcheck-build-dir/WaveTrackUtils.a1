@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2494377826">
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;SpecPxCache&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;SpecPxCache&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/WaveTrackUtils.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\WaveClip.h" line="100" column="4"/>
+            <symbol>SpecPxCache</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;WaveDisplay&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;WaveDisplay&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/WaveTrackUtils.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\WaveClip.h" line="143" column="4"/>
+            <symbol>WaveDisplay</symbol>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;pClip&apos; can be declared with const" verbose="Parameter &apos;pClip&apos; can be declared with const" cwe="398" file0="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/tracks/playabletrack/wavetrack/WaveTrackUtils.cpp">
+            <location file="P:\Kocsis dolgok\UMI\5 felev\teszt alap\audacity-master\src\tracks\playabletrack\wavetrack\WaveTrackUtils.h" line="28" column="19" info="Parameter &apos;pClip&apos; can be declared with const"/>
+            <symbol>pClip</symbol>
+        </error>
+  <FileInfo check="Class">
+<class name="SpecPxCache" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveClip.h" line="98" col="1" hash="3145001644939424020"/>
+<class name="WaveDisplay" file="P:/Kocsis dolgok/UMI/5 felev/teszt alap/audacity-master/src/WaveClip.h" line="130" col="1" hash="1783257367155147803"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="IsClipSelected" lineNumber="16"/>
+    <functioncall functionName="Envelope"/>
+    <functioncall functionName="GetPlayEndTime"/>
+    <functioncall functionName="GetPlayStartTime"/>
+    <functioncall functionName="IsClipSelected"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="PROHIBITED"/>
+    <functioncall functionName="SampleBlock"/>
+    <functioncall functionName="SampleBlockFactory"/>
+    <functioncall functionName="Sequence"/>
+    <functioncall functionName="SpecCache"/>
+    <functioncall functionName="SpecPxCache"/>
+    <functioncall functionName="WaveCache"/>
+    <functioncall functionName="WaveClip"/>
+    <functioncall functionName="algorithm"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="bl"/>
+    <functioncall functionName="cacheLen"/>
+    <functioncall functionName="const"/>
+    <functioncall functionName="dirty"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="find_if"/>
+    <functioncall functionName="float"/>
+    <functioncall functionName="frequencyGain"/>
+    <functioncall functionName="get"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="index"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="len"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="mCutLines"/>
+    <functioncall functionName="max"/>
+    <functioncall functionName="min"/>
+    <functioncall functionName="noexcept"/>
+    <functioncall functionName="nullptr"/>
+    <functioncall functionName="override"/>
+    <functioncall functionName="pps"/>
+    <functioncall functionName="reinterpret_cast"/>
+    <functioncall functionName="resize"/>
+    <functioncall functionName="rms"/>
+    <functioncall functionName="sampleCount"/>
+    <functioncall functionName="shared_ptr"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="start"/>
+    <functioncall functionName="t0"/>
+    <functioncall functionName="t1"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="typename"/>
+    <functioncall functionName="val"/>
+    <functioncall functionName="viewInfo"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="w"/>
+    <functioncall functionName="where"/>
+    <functioncall functionName="width"/>
+    <functioncall functionName="windowType"/>
+  </FileInfo>
+</analyzerinfo>

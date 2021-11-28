@@ -1,0 +1,3 @@
+WindowAccessible
+WindowAccessible call:[SetAccessible] noreturn:[SetAccessible]
+GetName call:[GetName,GetWindow,wxCHECK]

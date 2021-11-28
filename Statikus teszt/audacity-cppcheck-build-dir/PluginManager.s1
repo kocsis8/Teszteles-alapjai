@@ -1,0 +1,54 @@
+operator!= call:[end] noreturn:[end]
+operator*
+begin
+end
+AllPlugins
+PluginsOfType
+EffectsOfType
+HasDispatch
+GetName
+Providers call:[cbegin,cend,make_iterator_range] noreturn:[make_iterator_range]
+Init call:[RegisterProvider] noreturn:[RegisterProvider]
+PluginDescriptor
+PluginDescriptor
+IsInstantiated
+GetInstance call:[CreateInstance,CreateProviderInstance,Get,GetID,GetPath,GetPluginType,GetProviderID,get] noreturn:[CreateProviderInstance,get]
+SetInstance call:[get,move] noreturn:[get]
+GetPluginType
+GetID
+GetProviderID
+GetPath
+GetSymbol
+GetUntranslatedVersion
+GetVendor
+IsEnabled
+IsValid
+SetPluginType
+SetID
+SetProviderID
+SetPath
+SetSymbol
+SetVersion
+SetVendor
+SetEnabled
+SetValid
+GetEffectFamily
+GetEffectType
+IsEffectInteractive
+IsEffectDefault
+IsEffectLegacy
+IsEffectRealtime
+IsEffectAutomatable
+SetEffectFamily
+SetEffectType
+SetEffectInteractive
+SetEffectDefault
+SetEffectLegacy
+SetEffectRealtime
+SetEffectAutomatable
+GetImporterIdentifier
+SetImporterIdentifier
+GetImporterExtensions
+SetImporterExtensions call:[move] noreturn:[move]
+DefaultRegistrationCallback call:[Get,RegisterPlugin] noreturn:[RegisterPlugin]
+AudacityCommandRegistrationCallback call:[Get,RegisterPlugin] noreturn:[RegisterPlugin]

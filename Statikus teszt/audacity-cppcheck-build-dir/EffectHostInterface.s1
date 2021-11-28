@@ -1,0 +1,4 @@
+GetConfig call:[GetConfigValue,cref,ref] noreturn:[GetConfigValue]
+GetConfig call:[GetConfig] noreturn:[GetConfig]
+GetConfig call:[GetConfig] noreturn:[GetConfig]
+SetConfig call:[SetConfigValue,cref] noreturn:[SetConfigValue]

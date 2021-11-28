@@ -1,0 +1,7 @@
+VSTEffectLink
+VSTControlBase
+VSTControlBase
+Create call:[Create]
+VSTControl
+VSTControl global:[effEditClose] call:[callDispatcher]
+Create global:[effEditGetRect,effEditOpen] call:[Create,GetHWND,GetMinSize,SetInitialSize,SetMinSize,callDispatcher,wxSize]

@@ -1,0 +1,9 @@
+CurrentBuildVersion
+UpdateDataParser
+UpdateDataParser
+Parse call:[ParseString] noreturn:[ParseString]
+SplitChangelogSentences call:[Add,ToStdString,Trim,delimiter,erase,find,length,s,substr,wxString] noreturn:[erase]
+HandleXMLTag call:[Get,GetOperatingSystemId,sizeof]
+HandleXMLEndTag
+HandleXMLContent call:[ParseFromString,SplitChangelogSentences,Trim,string]
+HandleXMLChild

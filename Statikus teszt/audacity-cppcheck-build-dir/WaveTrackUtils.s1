@@ -1,0 +1,21 @@
+SelectedClip call:[IsClipSelected,find_if] noreturn:[IsClipSelected,find_if]
+SpecCache
+SpecCache
+SpecPxCache
+WaveDisplay
+Allocate call:[resize]
+WaveDisplay
+GetRate
+SetColourIndex
+GetColourIndex
+GetEnvelope call:[get] noreturn:[get]
+GetEnvelope call:[get] noreturn:[get]
+GetSequence call:[get] noreturn:[get]
+GetSequence call:[get] noreturn:[get]
+MarkChanged
+GetCutLines
+GetCutLines
+NumCutLines call:[size] noreturn:[size]
+GetIsPlaceholder
+SetIsPlaceholder
+IsClipSelected call:[GetPlayEndTime,GetPlayStartTime,t0,t1] noreturn:[t1]

@@ -1,0 +1,17 @@
+GetConfig call:[GetConfigValue,cref,ref] noreturn:[GetConfigValue]
+GetConfig call:[GetConfig] noreturn:[GetConfig]
+GetConfig call:[GetConfig] noreturn:[GetConfig]
+SetConfig call:[SetConfigValue,cref] noreturn:[SetConfigValue]
+operator!= call:[end] noreturn:[end]
+operator*
+begin
+end
+AllPlugins
+PluginsOfType
+EffectsOfType
+HasConfigGroup call:[Get,GetID,HasConfigGroup] noreturn:[HasConfigGroup]
+GetConfigSubgroups call:[Get,GetConfigSubgroups,GetID] noreturn:[GetConfigSubgroups]
+GetConfigValue call:[Get,GetConfigValue,GetID] noreturn:[GetConfigValue]
+SetConfigValue call:[Get,GetID,SetConfigValue] noreturn:[SetConfigValue]
+RemoveConfigSubgroup call:[Get,GetID,RemoveConfigSubgroup] noreturn:[RemoveConfigSubgroup]
+RemoveConfig call:[Get,GetID,RemoveConfig] noreturn:[RemoveConfig]
